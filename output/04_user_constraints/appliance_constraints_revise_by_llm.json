@@ -1,0 +1,137 @@
+{
+  "Refrigerator": {
+    "forbidden_time": [
+      [
+        "00:00",
+        "06:30"
+      ],
+      [
+        "23:00",
+        "24:00"
+      ]
+    ],
+    "latest_finish": "24:00",
+    "shift_rule": "only_delay",
+    "min_duration": 5
+  },
+  "Chest Freezer": {
+    "forbidden_time": [
+      [
+        "00:00",
+        "06:30"
+      ],
+      [
+        "23:00",
+        "24:00"
+      ]
+    ],
+    "latest_finish": "24:00",
+    "shift_rule": "only_delay",
+    "min_duration": 5
+  },
+  "Upright Freezer": {
+    "forbidden_time": [
+      [
+        "00:00",
+        "06:30"
+      ],
+      [
+        "23:00",
+        "24:00"
+      ]
+    ],
+    "latest_finish": "24:00",
+    "shift_rule": "only_delay",
+    "min_duration": 5
+  },
+  "Tumble Dryer": {
+    "forbidden_time": [
+      [
+        "00:00",
+        "06:00"
+      ],
+      [
+        "23:30",
+        "24:00"
+      ]
+    ],
+    "latest_finish": "38:00",
+    "shift_rule": "only_delay",
+    "min_duration": 5
+  },
+  "Washing Machine": {
+    "forbidden_time": [
+      [
+        "00:00",
+        "06:00"
+      ],
+      [
+        "23:30",
+        "24:00"
+      ]
+    ],
+    "latest_finish": "38:00",
+    "shift_rule": "only_delay",
+    "min_duration": 5
+  },
+  "Dishwasher": {
+    "forbidden_time": [
+      [
+        "00:00",
+        "06:00"
+      ],
+      [
+        "23:30",
+        "24:00"
+      ]
+    ],
+    "latest_finish": "38:00",
+    "shift_rule": "only_delay",
+    "min_duration": 5
+  },
+  "Computer Site": {
+    "forbidden_time": [
+      [
+        "00:00",
+        "06:30"
+      ],
+      [
+        "23:00",
+        "24:00"
+      ]
+    ],
+    "latest_finish": "24:00",
+    "shift_rule": "only_delay",
+    "min_duration": 5
+  },
+  "Television Site": {
+    "forbidden_time": [
+      [
+        "00:00",
+        "06:30"
+      ],
+      [
+        "23:00",
+        "24:00"
+      ]
+    ],
+    "latest_finish": "24:00",
+    "shift_rule": "only_delay",
+    "min_duration": 5
+  },
+  "Electric Heater": {
+    "forbidden_time": [
+      [
+        "00:00",
+        "06:30"
+      ],
+      [
+        "23:00",
+        "24:00"
+      ]
+    ],
+    "latest_finish": "24:00",
+    "shift_rule": "only_delay",
+    "min_duration": 5
+  }
+}

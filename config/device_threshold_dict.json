@@ -1,0 +1,2846 @@
+{
+  "Washing Machine": {
+    "chinese_name": "洗衣机",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 1,
+    "aliases": [
+      "洗衣机",
+      "Washing Machine"
+    ]
+  },
+  "Dishwasher": {
+    "chinese_name": "洗碗机",
+    "shiftability": "Shiftable",
+    "Pmin": 3,
+    "Tmin": 1.5,
+    "aliases": [
+      "洗碗机",
+      "Dishwasher"
+    ]
+  },
+  "Tumble Dryer": {
+    "chinese_name": "滚筒式干衣机",
+    "shiftability": "Shiftable",
+    "Pmin": 3,
+    "Tmin": 1.5,
+    "aliases": [
+      "滚筒式干衣机",
+      "Tumble Dryer"
+    ]
+  },
+  "Electric Oven": {
+    "chinese_name": "电烤箱",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电烤箱",
+      "Electric Oven"
+    ]
+  },
+  "Rice Cooker": {
+    "chinese_name": "电饭煲",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Rice Cooker",
+      "电饭煲"
+    ]
+  },
+  "Slow Cooker": {
+    "chinese_name": "慢炖锅",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "慢炖锅",
+      "Slow Cooker"
+    ]
+  },
+  "Bread Maker": {
+    "chinese_name": "面包机",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "面包机",
+      "Bread Maker"
+    ]
+  },
+  "Air Fryer": {
+    "chinese_name": "空气炸锅",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "空气炸锅",
+      "Air Fryer"
+    ]
+  },
+  "Electric Kettle": {
+    "chinese_name": "电热水壶",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Kettle",
+      "电热水壶"
+    ]
+  },
+  "Induction Cooker": {
+    "chinese_name": "电磁炉",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电磁炉",
+      "Induction Cooker"
+    ]
+  },
+  "Pressure Cooker": {
+    "chinese_name": "高压锅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "高压锅",
+      "Pressure Cooker"
+    ]
+  },
+  "Clothes Dryer": {
+    "chinese_name": "衣物烘干机",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Clothes Dryer",
+      "衣物烘干机"
+    ]
+  },
+  "Dehumidifier": {
+    "chinese_name": "除湿机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Dehumidifier",
+      "除湿机"
+    ]
+  },
+  "Vacuum Cleaner": {
+    "chinese_name": "吸尘器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Vacuum Cleaner",
+      "吸尘器"
+    ]
+  },
+  "Robot Vacuum": {
+    "chinese_name": "扫地机器人",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Robot Vacuum",
+      "扫地机器人"
+    ]
+  },
+  "Steam Mop": {
+    "chinese_name": "蒸汽拖把",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "蒸汽拖把",
+      "Steam Mop"
+    ]
+  },
+  "Heated Towel Rail": {
+    "chinese_name": "电热毛巾架",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电热毛巾架",
+      "Heated Towel Rail"
+    ]
+  },
+  "Toaster": {
+    "chinese_name": "烤面包机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Toaster",
+      "烤面包机"
+    ]
+  },
+  "Blender": {
+    "chinese_name": "搅拌机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Blender",
+      "搅拌机"
+    ]
+  },
+  "Juicer": {
+    "chinese_name": "榨汁机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "榨汁机",
+      "Juicer"
+    ]
+  },
+  "Ice Cream Maker": {
+    "chinese_name": "冰淇淋机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "冰淇淋机",
+      "Ice Cream Maker"
+    ]
+  },
+  "Yogurt Maker": {
+    "chinese_name": "酸奶机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "酸奶机",
+      "Yogurt Maker"
+    ]
+  },
+  "Electric Grill": {
+    "chinese_name": "电烤炉",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电烤炉",
+      "Electric Grill"
+    ]
+  },
+  "Portable Heater": {
+    "chinese_name": "便携式加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Portable Heater",
+      "便携式加热器"
+    ]
+  },
+  "Fan Heater": {
+    "chinese_name": "暖风机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Fan Heater",
+      "暖风机"
+    ]
+  },
+  "Oil-filled Radiator": {
+    "chinese_name": "油汀取暖器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "油汀取暖器",
+      "Oil-filled Radiator"
+    ]
+  },
+  "Electric Blanket": {
+    "chinese_name": "电热毯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电热毯",
+      "Electric Blanket"
+    ]
+  },
+  "Waffle Maker": {
+    "chinese_name": "华夫饼机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Waffle Maker",
+      "华夫饼机"
+    ]
+  },
+  "Sous Vide Cooker": {
+    "chinese_name": "低温慢煮机",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Sous Vide Cooker",
+      "低温慢煮机"
+    ]
+  },
+  "Food Steamer": {
+    "chinese_name": "电蒸锅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Food Steamer",
+      "电蒸锅"
+    ]
+  },
+  "Electric Skillet": {
+    "chinese_name": "电煎锅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电煎锅",
+      "Electric Skillet"
+    ]
+  },
+  "Egg Cooker": {
+    "chinese_name": "煮蛋器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Egg Cooker",
+      "煮蛋器"
+    ]
+  },
+  "Meat Grinder": {
+    "chinese_name": "绞肉机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "绞肉机",
+      "Meat Grinder"
+    ]
+  },
+  "Ice Maker": {
+    "chinese_name": "制冰机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Ice Maker",
+      "制冰机"
+    ]
+  },
+  "Deep Fryer": {
+    "chinese_name": "油炸锅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "油炸锅",
+      "Deep Fryer"
+    ]
+  },
+  "Wine Cooler": {
+    "chinese_name": "酒柜",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "酒柜",
+      "Wine Cooler"
+    ]
+  },
+  "Electric Hot Pot": {
+    "chinese_name": "电火锅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电火锅",
+      "Electric Hot Pot"
+    ]
+  },
+  "Tabletop Dishwasher": {
+    "chinese_name": "台式洗碗机",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Tabletop Dishwasher",
+      "台式洗碗机"
+    ]
+  },
+  "Countertop Oven": {
+    "chinese_name": "台式烤箱",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Countertop Oven",
+      "台式烤箱"
+    ]
+  },
+  "Mini Washing Machine": {
+    "chinese_name": "迷你洗衣机",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "迷你洗衣机",
+      "Mini Washing Machine"
+    ]
+  },
+  "Hair Dryer": {
+    "chinese_name": "吹风机",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Hair Dryer",
+      "吹风机"
+    ]
+  },
+  "Hair Curler": {
+    "chinese_name": "卷发棒",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "卷发棒",
+      "Hair Curler"
+    ]
+  },
+  "Hair Straightener": {
+    "chinese_name": "直发器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Hair Straightener",
+      "直发器"
+    ]
+  },
+  "Heated Eyelash Curler": {
+    "chinese_name": "加热睫毛夹",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Heated Eyelash Curler",
+      "加热睫毛夹"
+    ]
+  },
+  "Electric Foot Spa": {
+    "chinese_name": "足浴盆",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Foot Spa",
+      "足浴盆"
+    ]
+  },
+  "Facial Steamer": {
+    "chinese_name": "面部蒸汽机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Facial Steamer",
+      "面部蒸汽机"
+    ]
+  },
+  "Electric Toothbrush": {
+    "chinese_name": "电动牙刷",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Toothbrush",
+      "电动牙刷"
+    ]
+  },
+  "Oral Irrigator": {
+    "chinese_name": "冲牙器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Oral Irrigator",
+      "冲牙器"
+    ]
+  },
+  "UV Sterilizer": {
+    "chinese_name": "紫外线消毒器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "紫外线消毒器",
+      "UV Sterilizer"
+    ]
+  },
+  "Portable Washing Machine": {
+    "chinese_name": "便携洗衣机",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "便携洗衣机",
+      "Portable Washing Machine"
+    ]
+  },
+  "Battery Charger": {
+    "chinese_name": "电池充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Battery Charger",
+      "电池充电器"
+    ]
+  },
+  "Laptop Charger": {
+    "chinese_name": "笔记本电脑充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "笔记本电脑充电器",
+      "Laptop Charger"
+    ]
+  },
+  "Mobile Phone Charger": {
+    "chinese_name": "手机充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "手机充电器",
+      "Mobile Phone Charger"
+    ]
+  },
+  "Power Tools Charger": {
+    "chinese_name": "电动工具充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电动工具充电器",
+      "Power Tools Charger"
+    ]
+  },
+  "Electric Scooter Charger": {
+    "chinese_name": "电动滑板车充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Scooter Charger",
+      "电动滑板车充电器"
+    ]
+  },
+  "Electric Bike Charger": {
+    "chinese_name": "电动自行车充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Bike Charger",
+      "电动自行车充电器"
+    ]
+  },
+  "Camera Battery Charger": {
+    "chinese_name": "相机电池充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Camera Battery Charger",
+      "相机电池充电器"
+    ]
+  },
+  "Projector": {
+    "chinese_name": "投影仪",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "投影仪",
+      "Projector"
+    ]
+  },
+  "Photo Printer": {
+    "chinese_name": "照片打印机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Photo Printer",
+      "照片打印机"
+    ]
+  },
+  "3D Printer": {
+    "chinese_name": "3D 打印机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "3D Printer",
+      "3D 打印机"
+    ]
+  },
+  "Air Purifier": {
+    "chinese_name": "空气净化器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "空气净化器",
+      "Air Purifier"
+    ]
+  },
+  "Portable Air Conditioner": {
+    "chinese_name": "便携式空调",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "便携式空调",
+      "Portable Air Conditioner"
+    ]
+  },
+  "Spot Cooler": {
+    "chinese_name": "局部空调",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "局部空调",
+      "Spot Cooler"
+    ]
+  },
+  "Water Dispenser": {
+    "chinese_name": "饮水机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Water Dispenser",
+      "饮水机"
+    ]
+  },
+  "Electric Shoe Dryer": {
+    "chinese_name": "电鞋干燥器",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Shoe Dryer",
+      "电鞋干燥器"
+    ]
+  },
+  "Electric Nail Drill": {
+    "chinese_name": "电动美甲机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Nail Drill",
+      "电动美甲机"
+    ]
+  },
+  "Foot Massager": {
+    "chinese_name": "足部按摩器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "足部按摩器",
+      "Foot Massager"
+    ]
+  },
+  "Back Massager": {
+    "chinese_name": "背部按摩器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "背部按摩器",
+      "Back Massager"
+    ]
+  },
+  "Massage Chair": {
+    "chinese_name": "按摩椅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "按摩椅",
+      "Massage Chair"
+    ]
+  },
+  "Steam Generator Iron": {
+    "chinese_name": "蒸汽挂烫机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Steam Generator Iron",
+      "蒸汽挂烫机"
+    ]
+  },
+  "Electric Iron": {
+    "chinese_name": "电熨斗",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Iron",
+      "电熨斗"
+    ]
+  },
+  "Travel Iron": {
+    "chinese_name": "便携熨斗",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "便携熨斗",
+      "Travel Iron"
+    ]
+  },
+  "Mini Fan": {
+    "chinese_name": "迷你风扇",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Mini Fan",
+      "迷你风扇"
+    ]
+  },
+  "Electric Heater": {
+    "chinese_name": "电加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电暖器",
+      "EV Heater"
+    ]
+  },
+  "Window Cleaning Robot": {
+    "chinese_name": "擦窗机器人",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Window Cleaning Robot",
+      "擦窗机器人"
+    ]
+  },
+  "Smart Curtain Motor": {
+    "chinese_name": "智能窗帘电机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Curtain Motor",
+      "智能窗帘电机"
+    ]
+  },
+  "Smart Dryer Rack": {
+    "chinese_name": "智能晾衣架",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能晾衣架",
+      "Smart Dryer Rack"
+    ]
+  },
+  "Shoe Polisher": {
+    "chinese_name": "鞋油机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Shoe Polisher",
+      "鞋油机"
+    ]
+  },
+  "Smart Coffee Machine": {
+    "chinese_name": "智能咖啡机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Coffee Machine",
+      "智能咖啡机"
+    ]
+  },
+  "Smart Rice Cooker": {
+    "chinese_name": "智能电饭煲",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能电饭煲",
+      "Smart Rice Cooker"
+    ]
+  },
+  "Smart Oven": {
+    "chinese_name": "智能烤箱",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Oven",
+      "智能烤箱"
+    ]
+  },
+  "Smart Dehumidifier": {
+    "chinese_name": "智能除湿机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能除湿机",
+      "Smart Dehumidifier"
+    ]
+  },
+  "Smart Heater": {
+    "chinese_name": "智能取暖器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Heater",
+      "智能取暖器"
+    ]
+  },
+  "Smart Plug": {
+    "chinese_name": "智能插座",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Plug",
+      "智能插座"
+    ]
+  },
+  "Smart Power Strip": {
+    "chinese_name": "智能插线板",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Power Strip",
+      "智能插线板"
+    ]
+  },
+  "Home Battery System": {
+    "chinese_name": "家用蓄电系统",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Home Battery System",
+      "家用蓄电系统"
+    ]
+  },
+  "EV Charger": {
+    "chinese_name": "电动车充电桩",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电动车充电桩",
+      "EV Charger"
+    ]
+  },
+  "Smart Sprinkler": {
+    "chinese_name": "智能洒水器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Sprinkler",
+      "智能洒水器"
+    ]
+  },
+  "Pool Pump": {
+    "chinese_name": "泳池泵",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Pool Pump",
+      "泳池泵"
+    ]
+  },
+  "Garage Door Motor": {
+    "chinese_name": "车库门电机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Garage Door Motor",
+      "车库门电机"
+    ]
+  },
+  "Outdoor Light Timer": {
+    "chinese_name": "户外照明定时器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "户外照明定时器",
+      "Outdoor Light Timer"
+    ]
+  },
+  "Greenhouse Heater": {
+    "chinese_name": "温室加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "温室加热器",
+      "Greenhouse Heater"
+    ]
+  },
+  "Aquarium Filter": {
+    "chinese_name": "鱼缸过滤器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Aquarium Filter",
+      "鱼缸过滤器"
+    ]
+  },
+  "Aquarium Heater": {
+    "chinese_name": "鱼缸加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "鱼缸加热器",
+      "Aquarium Heater"
+    ]
+  },
+  "Pet Feeder": {
+    "chinese_name": "宠物喂食器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "宠物喂食器",
+      "Pet Feeder"
+    ]
+  },
+  "Pet Water Fountain": {
+    "chinese_name": "宠物饮水机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Pet Water Fountain",
+      "宠物饮水机"
+    ]
+  },
+  "Reptile Heating Pad": {
+    "chinese_name": "爬宠加热垫",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Reptile Heating Pad",
+      "爬宠加热垫"
+    ]
+  },
+  "Insect Trap": {
+    "chinese_name": "灭蚊器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Insect Trap",
+      "灭蚊器"
+    ]
+  },
+  "Seedling Heat Mat": {
+    "chinese_name": "育苗加热垫",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "育苗加热垫",
+      "Seedling Heat Mat"
+    ]
+  },
+  "Electric BBQ": {
+    "chinese_name": "电烧烤架",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电烧烤架",
+      "Electric BBQ"
+    ]
+  },
+  "Electric Smoker": {
+    "chinese_name": "电熏炉",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Smoker",
+      "电熏炉"
+    ]
+  },
+  "Outdoor Patio Heater": {
+    "chinese_name": "户外加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Outdoor Patio Heater",
+      "户外加热器"
+    ]
+  },
+  "RV Microwave": {
+    "chinese_name": "房车微波炉",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "RV Microwave",
+      "房车微波炉"
+    ]
+  },
+  "RV Heater": {
+    "chinese_name": "房车加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "房车加热器",
+      "RV Heater"
+    ]
+  },
+  "Portable Power Station": {
+    "chinese_name": "便携电源站",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "便携电源站",
+      "Portable Power Station"
+    ]
+  },
+  "Rechargeable Vacuum": {
+    "chinese_name": "充电式吸尘器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Rechargeable Vacuum",
+      "充电式吸尘器"
+    ]
+  },
+  "Rechargeable Lawn Mower": {
+    "chinese_name": "充电式割草机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Rechargeable Lawn Mower",
+      "充电式割草机"
+    ]
+  },
+  "Robotic Lawn Mower": {
+    "chinese_name": "机器人割草机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "机器人割草机",
+      "Robotic Lawn Mower"
+    ]
+  },
+  "Solar Panel Battery Charger": {
+    "chinese_name": "太阳能充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Solar Panel Battery Charger",
+      "太阳能充电器"
+    ]
+  },
+  "Thermal Cooker": {
+    "chinese_name": "保温炖锅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Thermal Cooker",
+      "保温炖锅"
+    ]
+  },
+  "Multi Cooker": {
+    "chinese_name": "多功能炖锅",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Multi Cooker",
+      "多功能炖锅"
+    ]
+  },
+  "Steam Oven": {
+    "chinese_name": "蒸烤箱",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Steam Oven",
+      "蒸烤箱"
+    ]
+  },
+  "Beverage Cooler": {
+    "chinese_name": "饮料冷藏柜",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "饮料冷藏柜",
+      "Beverage Cooler"
+    ]
+  },
+  "Mini Fridge": {
+    "chinese_name": "迷你冰箱",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Mini Fridge",
+      "迷你冰箱"
+    ]
+  },
+   "Fridge": {
+    "chinese_name": "冰箱",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Fridge",
+      "迷你冰箱"
+    ]
+  },
+  "Food Warmer": {
+    "chinese_name": "食物加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Food Warmer",
+      "食物加热器"
+    ]
+  },
+  "Infrared Cooker": {
+    "chinese_name": "红外线电灶",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "红外线电灶",
+      "Infrared Cooker"
+    ]
+  },
+  "Crock Pot": {
+    "chinese_name": "电炖锅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电炖锅",
+      "Crock Pot"
+    ]
+  },
+  "Baby Bottle Warmer": {
+    "chinese_name": "奶瓶加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Baby Bottle Warmer",
+      "奶瓶加热器"
+    ]
+  },
+  "Baby Food Processor": {
+    "chinese_name": "婴儿辅食机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "婴儿辅食机",
+      "Baby Food Processor"
+    ]
+  },
+  "UV Bottle Sterilizer": {
+    "chinese_name": "奶瓶消毒器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "UV Bottle Sterilizer",
+      "奶瓶消毒器"
+    ]
+  },
+  "LED Beauty Mask": {
+    "chinese_name": "LED美容面罩",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "LED美容面罩",
+      "LED Beauty Mask"
+    ]
+  },
+  "Heated Eyelash Wand": {
+    "chinese_name": "电热睫毛棒",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Heated Eyelash Wand",
+      "电热睫毛棒"
+    ]
+  },
+  "Sauna Blanket": {
+    "chinese_name": "桑拿毯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "桑拿毯",
+      "Sauna Blanket"
+    ]
+  },
+  "Electric Nail Polisher": {
+    "chinese_name": "电动抛光器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Nail Polisher",
+      "电动抛光器"
+    ]
+  },
+  "Facial Cleansing Brush": {
+    "chinese_name": "洁面仪",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "洁面仪",
+      "Facial Cleansing Brush"
+    ]
+  },
+  "Microwave": {
+    "chinese_name": "微波炉",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Microwave",
+      "微波炉"
+    ]
+  },
+  "Iron": {
+    "chinese_name": "熨斗",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "熨斗",
+      "Iron"
+    ]
+  },
+  "Coffee Maker": {
+    "chinese_name": "咖啡机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Coffee Maker",
+      "咖啡机"
+    ]
+  },
+  "Espresso Machine": {
+    "chinese_name": "意式咖啡机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Espresso Machine",
+      "意式咖啡机"
+    ]
+  },
+  "Electric Fryer": {
+    "chinese_name": "电炸锅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Fryer",
+      "电炸锅"
+    ]
+  },
+  "Food Processor": {
+    "chinese_name": "食品料理机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Food Processor",
+      "食品料理机"
+    ]
+  },
+  "Sewing Machine": {
+    "chinese_name": "缝纫机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Sewing Machine",
+      "缝纫机"
+    ]
+  },
+  "Steamer": {
+    "chinese_name": "电蒸锅",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电蒸锅",
+      "Steamer"
+    ]
+  },
+  "Hand Mixer": {
+    "chinese_name": "手持打蛋器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Hand Mixer",
+      "手持打蛋器"
+    ]
+  },
+  "Kenwood KMix": {
+    "chinese_name": "立式厨师机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Kenwood KMix",
+      "立式厨师机"
+    ]
+  },
+    "Xbox": {
+    "chinese_name": "Xbox游戏机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Xbox",
+      "Xbox游戏机"
+    ]
+  },
+  "Egg Boiler": {
+    "chinese_name": "煮蛋器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "煮蛋器",
+      "Egg Boiler"
+    ]
+  },
+  "Electric Chopper": {
+    "chinese_name": "碎菜机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Chopper",
+      "碎菜机"
+    ]
+  },
+  "Electric Griddle": {
+    "chinese_name": "电煎板",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电煎板",
+      "Electric Griddle"
+    ]
+  },
+  "Plug Site": {
+    "chinese_name": "插座",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "插座",
+      "Plug Site"
+    ]
+  },
+    "Bread-maker": {
+    "chinese_name": "面包机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "面包机",
+      "Bread-maker"
+    ]
+  },
+  "Hand Vacuum": {
+    "chinese_name": "手持吸尘器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "手持吸尘器",
+      "Hand Vacuum"
+    ]
+  },
+  "Curling Iron": {
+    "chinese_name": "卷发棒",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Curling Iron",
+      "卷发棒"
+    ]
+  },
+  "Straightener": {
+    "chinese_name": "直发器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "直发器",
+      "Straightener"
+    ]
+  },
+  "Electric Shaver": {
+    "chinese_name": "电动剃须刀",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电动剃须刀",
+      "Electric Shaver"
+    ]
+  },
+  "Massage Gun": {
+    "chinese_name": "按摩枪",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "按摩枪",
+      "Massage Gun"
+    ]
+  },
+  "Hair Clipper": {
+    "chinese_name": "理发器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "理发器",
+      "Hair Clipper"
+    ]
+  },
+  "Water Flosser": {
+    "chinese_name": "冲牙器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Water Flosser",
+      "冲牙器"
+    ]
+  },
+  "Electric Nail File": {
+    "chinese_name": "电动美甲锉",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电动美甲锉",
+      "Electric Nail File"
+    ]
+  },
+  "Bug Zapper": {
+    "chinese_name": "灭蚊灯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "灭蚊灯",
+      "Bug Zapper"
+    ]
+  },
+  "Electric Can Opener": {
+    "chinese_name": "电动开罐器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电动开罐器",
+      "Electric Can Opener"
+    ]
+  },
+  "Smart Lock": {
+    "chinese_name": "智能门锁",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Lock",
+      "智能门锁"
+    ]
+  },
+  "Smart Doorbell": {
+    "chinese_name": "智能门铃",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能门铃",
+      "Smart Doorbell"
+    ]
+  },
+  "Smart Light Switch": {
+    "chinese_name": "智能开关",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能开关",
+      "Smart Light Switch"
+    ]
+  },
+  "Smart Thermostat": {
+    "chinese_name": "智能温控器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能温控器",
+      "Smart Thermostat"
+    ]
+  },
+  "Smart Curtain": {
+    "chinese_name": "智能窗帘",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Curtain",
+      "智能窗帘"
+    ]
+  },
+  "Smart Scale": {
+    "chinese_name": "智能体重秤",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能体重秤",
+      "Smart Scale"
+    ]
+  },
+  "Smart Watch Charger": {
+    "chinese_name": "智能手表充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能手表充电器",
+      "Smart Watch Charger"
+    ]
+  },
+  "Phone Charger": {
+    "chinese_name": "手机充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "手机充电器",
+      "Phone Charger"
+    ]
+  },
+  "Tablet Charger": {
+    "chinese_name": "平板充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "平板充电器",
+      "Tablet Charger"
+    ]
+  },
+  "Monitor": {
+    "chinese_name": "显示器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "显示器",
+      "Monitor"
+    ]
+  },
+  "Desktop Computer": {
+    "chinese_name": "台式电脑",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "台式电脑",
+      "Desktop Computer"
+    ]
+  },
+  "Printer": {
+    "chinese_name": "打印机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Printer",
+      "打印机"
+    ]
+  },
+  "Scanner": {
+    "chinese_name": "扫描仪",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "扫描仪",
+      "Scanner"
+    ]
+  },
+  "Speaker": {
+    "chinese_name": "音响",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Speaker",
+      "音响"
+    ]
+  },
+  "Router": {
+    "chinese_name": "无线路由器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "无线路由器",
+      "Router"
+    ]
+  },
+  "Modem": {
+    "chinese_name": "调制解调器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "调制解调器",
+      "Modem"
+    ]
+  },
+  "External Hard Drive": {
+    "chinese_name": "外置硬盘",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "External Hard Drive",
+      "外置硬盘"
+    ]
+  },
+  "USB Hub": {
+    "chinese_name": "USB集线器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "USB集线器",
+      "USB Hub"
+    ]
+  },
+  "VR Headset": {
+    "chinese_name": "VR头显",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "VR Headset",
+      "VR头显"
+    ]
+  },
+  "Game Console": {
+    "chinese_name": "游戏机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "游戏机",
+      "Game Console"
+    ]
+  },
+  "Drawing Tablet": {
+    "chinese_name": "数位板",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Drawing Tablet",
+      "数位板"
+    ]
+  },
+  "Camera Charger": {
+    "chinese_name": "相机充电器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Camera Charger",
+      "相机充电器"
+    ]
+  },
+  "Air Pump": {
+    "chinese_name": "充气泵",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Air Pump",
+      "充气泵"
+    ]
+  },
+  "Electric Drill": {
+    "chinese_name": "电钻",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Drill",
+      "电钻"
+    ]
+  },
+  "Soldering Iron": {
+    "chinese_name": "电烙铁",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电烙铁",
+      "Soldering Iron"
+    ]
+  },
+  "Glue Gun": {
+    "chinese_name": "热熔胶枪",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Glue Gun",
+      "热熔胶枪"
+    ]
+  },
+  "Electric Screwdriver": {
+    "chinese_name": "电动螺丝刀",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Screwdriver",
+      "电动螺丝刀"
+    ]
+  },
+  "Hot Air Gun": {
+    "chinese_name": "热风枪",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Hot Air Gun",
+      "热风枪"
+    ]
+  },
+  "Electric Saw": {
+    "chinese_name": "电锯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电锯",
+      "Electric Saw"
+    ]
+  },
+  "Electric Wrench": {
+    "chinese_name": "电动扳手",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Wrench",
+      "电动扳手"
+    ]
+  },
+  "Metal Cutter": {
+    "chinese_name": "金属切割机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "金属切割机",
+      "Metal Cutter"
+    ]
+  },
+  "Grinding Machine": {
+    "chinese_name": "磨光机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Grinding Machine",
+      "磨光机"
+    ]
+  },
+  "Nail Dryer": {
+    "chinese_name": "美甲烘干机",
+    "shiftability": "Shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "美甲烘干机",
+      "Nail Dryer"
+    ]
+  },
+  "Stove Lighter": {
+    "chinese_name": "点火器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Stove Lighter",
+      "点火器"
+    ]
+  },
+  "Humidifier": {
+    "chinese_name": "加湿器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "加湿器",
+      "Humidifier"
+    ]
+  },
+  "Space Heater": {
+    "chinese_name": "电暖器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Space Heater",
+      "电暖器"
+    ]
+  },
+  "Personal Fan": {
+    "chinese_name": "迷你风扇",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Personal Fan",
+      "迷你风扇"
+    ]
+  },
+  "Desk Lamp": {
+    "chinese_name": "台灯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Lamp",
+      "台灯"
+    ]
+  },
+  "Lamp": {
+    "chinese_name": "灯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Lamp",
+      "灯"
+    ]
+  },
+    "Food Mixer": {
+    "chinese_name": "食品搅拌机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Food Mixer",
+      "食品搅拌机"
+    ]
+  },
+  "Vivarium": {
+    "chinese_name": "生态箱",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Vivarium",
+      "生态箱"
+    ]
+  },
+  "Pond Pump": {
+    "chinese_name": "池塘水泵",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Pond Pump",
+      "池塘水泵"
+    ]
+  },
+  "LED Strip Light": {
+    "chinese_name": "LED灯带",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "LED灯带",
+      "LED Strip Light"
+    ]
+  },
+  "Reading Light": {
+    "chinese_name": "阅读灯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "阅读灯",
+      "Reading Light"
+    ]
+  },
+  "Security Camera": {
+    "chinese_name": "安防摄像头",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "安防摄像头",
+      "Security Camera"
+    ]
+  },
+  "Emergency Light": {
+    "chinese_name": "应急灯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "应急灯",
+      "Emergency Light"
+    ]
+  },
+  "Electric Blanket Controller": {
+    "chinese_name": "电热毯控制器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Blanket Controller",
+      "电热毯控制器"
+    ]
+  },
+  "Smart Fan": {
+    "chinese_name": "智能风扇",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能风扇",
+      "Smart Fan"
+    ]
+  },
+  "Instant Heater": {
+    "chinese_name": "即热式加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "即热式加热器",
+      "Instant Heater"
+    ]
+  },
+  "Refrigerator": {
+    "chinese_name": "冰箱",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Refrigerator",
+      "冰箱"
+    ]
+  },
+  "Freezer": {
+    "chinese_name": "冰柜",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Freezer",
+      "冰柜"
+    ]
+  },
+  "Computer Site": {
+    "chinese_name": "电脑",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "服务器",
+      "computer site",
+      "Computer",
+      "PC"
+    ]
+  },
+  "Combination Microwave": {
+    "chinese_name": "组合微波炉",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Combination Microwave",
+      "组合微波炉"
+    ]
+  },
+ 
+  "Chest Freezer": {
+    "chinese_name": "卧式冷冻柜",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "卧式冷冻柜",
+      "Chest Freezer"
+    ]
+  },
+  "Upright Freezer": {
+    "chinese_name": "立式冷冻柜",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Upright Freezer",
+      "立式冷冻柜"
+    ]
+  },
+  "Water Purifier": {
+    "chinese_name": "净水器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "净水器",
+      "Water Purifier"
+    ]
+  },
+  "Gas Detector": {
+    "chinese_name": "燃气报警器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "燃气报警器",
+      "Gas Detector"
+    ]
+  },
+  "Smoke Detector": {
+    "chinese_name": "烟雾报警器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "烟雾报警器",
+      "Smoke Detector"
+    ]
+  },
+  "Carbon Monoxide Detector": {
+    "chinese_name": "一氧化碳报警器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Carbon Monoxide Detector",
+      "一氧化碳报警器"
+    ]
+  },
+  "Repeater": {
+    "chinese_name": "信号放大器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "信号放大器",
+      "Repeater"
+    ]
+  },
+  "Smart Hub": {
+    "chinese_name": "智能家居中心",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Hub",
+      "智能家居中心"
+    ]
+  },
+  "Water Heater Pilot": {
+    "chinese_name": "热水器引火装置",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "热水器引火装置",
+      "Water Heater Pilot"
+    ]
+  },
+  "Gas Water Heater": {
+    "chinese_name": "燃气热水器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "燃气热水器",
+      "Gas Water Heater"
+    ]
+  },
+  "Circulation Pump": {
+    "chinese_name": "循环泵",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "循环泵",
+      "Circulation Pump"
+    ]
+  },
+  "Boiler Standby": {
+    "chinese_name": "锅炉待机电耗",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "锅炉待机电耗",
+      "Boiler Standby"
+    ]
+  },
+  "Backup Power Unit": {
+    "chinese_name": "备用电源",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "备用电源",
+      "Backup Power Unit"
+    ]
+  },
+  "UPS [Uninterruptible Power Supply]": {
+    "chinese_name": "不间断电源",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "UPS [Uninterruptible Power Supply]",
+      "不间断电源"
+    ]
+  },
+  "Security Alarm": {
+    "chinese_name": "安全报警器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Security Alarm",
+      "安全报警器"
+    ]
+  },
+  "Electric Fence": {
+    "chinese_name": "电围栏",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Electric Fence",
+      "电围栏"
+    ]
+  },
+   "Oven Extractor Fan": {
+    "chinese_name": "烤箱抽油烟机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": ["Fan",
+      "Extractor Fan"
+    ]
+  },
+   "Fridge-Freezer": {
+    "chinese_name": "冰箱冷冻柜",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Fridge-Freezer",
+      "冰箱冷冻柜"
+    ]
+  },
+
+  "Aquarium Light": {
+    "chinese_name": "水族箱照明",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "水族箱照明",
+      "Aquarium Light"
+    ]
+  },
+  "Smart Meter": {
+    "chinese_name": "智能电表",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能电表",
+      "Smart Meter"
+    ]
+  },
+  "Set-top Box ": {
+    "chinese_name": "机顶盒待机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "机顶盒待机",
+      "Set-top Box "
+    ]
+  },
+  "Television Site": {
+    "chinese_name": "电视机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "TV",
+      "电视机"
+    ]
+  },
+    "Television": {
+    "chinese_name": "电视机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "TV",
+      "电视机"
+    ]
+  },
+  "Hi-Fi": {
+    "chinese_name": "高保真音响",
+    "shiftability": "Non-shiftable",
+    "Pmin": 1,
+    "Tmin": 1,
+    "aliases": [
+      "Hi-Fi",
+      "高保真音响"
+    ]
+  },
+  "Toaster": {
+    "chinese_name": "烤面包机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Toaster",
+      "烤面包机"
+    ]
+  },
+  "Kettle": {
+    "chinese_name": "电热水壶",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Kettle",
+      "电热水壶"
+    ]
+  },
+
+  "Audio Amplifier ": {
+    "chinese_name": "功放待机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "功放待机",
+      "Audio Amplifier "
+    ]
+  },
+  "Microwave": {
+    "chinese_name": "微波炉时钟功能",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "微波炉时钟功能",
+      "Microwave"
+    ]
+  },
+  "Oven": {
+    "chinese_name": "烤箱时钟功能",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "烤箱时钟功能",
+      "Oven"
+    ]
+  },
+  "Digital Clock": {
+    "chinese_name": "电子时钟",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电子时钟",
+      "Digital Clock"
+    ]
+  },
+  "Thermostat": {
+    "chinese_name": "温控器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "温控器",
+      "Thermostat"
+    ]
+  },
+  "Smart Plug ": {
+    "chinese_name": "智能插座待机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能插座待机",
+      "Smart Plug "
+    ]
+  },
+  "Light Sensor": {
+    "chinese_name": "光照传感器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "光照传感器",
+      "Light Sensor"
+    ]
+  },
+  "Motion Sensor": {
+    "chinese_name": "动作传感器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "动作传感器",
+      "Motion Sensor"
+    ]
+  },
+  "Garage Door Sensor": {
+    "chinese_name": "车库门传感器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "车库门传感器",
+      "Garage Door Sensor"
+    ]
+  },
+  "Smart Curtain Controller": {
+    "chinese_name": "智能窗帘控制器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Curtain Controller",
+      "智能窗帘控制器"
+    ]
+  },
+  "Sprinkler Controller": {
+    "chinese_name": "洒水控制器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Sprinkler Controller",
+      "洒水控制器"
+    ]
+  },
+  "Battery Charger ": {
+    "chinese_name": "电池充电器待机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Battery Charger ",
+      "电池充电器待机"
+    ]
+  },
+  "Smoke Exhaust Fan": {
+    "chinese_name": "烟道风机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "烟道风机",
+      "Smoke Exhaust Fan"
+    ]
+  },
+  "Water Softener": {
+    "chinese_name": "软水器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Water Softener",
+      "软水器"
+    ]
+  },
+  "Leak Detector": {
+    "chinese_name": "漏水探测器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "漏水探测器",
+      "Leak Detector"
+    ]
+  },
+  "Humidity Sensor": {
+    "chinese_name": "湿度传感器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Humidity Sensor",
+      "湿度传感器"
+    ]
+  },
+  "Water Flow Sensor": {
+    "chinese_name": "水流传感器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Water Flow Sensor",
+      "水流传感器"
+    ]
+  },
+  "Solar Inverter": {
+    "chinese_name": "太阳能逆变器（空闲）",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Solar Inverter",
+      "太阳能逆变器（空闲）"
+    ]
+  },
+  "EV Charger": {
+    "chinese_name": "电动车充电桩（空闲）",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电动车充电桩（空闲）",
+      "EV Charger"
+    ]
+  },
+  "Smart Garage Opener": {
+    "chinese_name": "智能车库开关",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能车库开关",
+      "Smart Garage Opener"
+    ]
+  },
+  "Smart Irrigation Hub": {
+    "chinese_name": "智能灌溉系统",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能灌溉系统",
+      "Smart Irrigation Hub"
+    ]
+  },
+  "Digital Timer": {
+    "chinese_name": "电子定时器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电子定时器",
+      "Digital Timer"
+    ]
+  },
+  "Low Power Indicator Light": {
+    "chinese_name": "指示灯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Low Power Indicator Light",
+      "指示灯"
+    ]
+  },
+  "Voice Assistant": {
+    "chinese_name": "语音助手待机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Voice Assistant",
+      "语音助手待机"
+    ]
+  },
+  "Smart Home Gateway": {
+    "chinese_name": "智能家庭网关",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能家庭网关",
+      "Smart Home Gateway"
+    ]
+  },
+  "Electric Bell": {
+    "chinese_name": "电铃",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "电铃",
+      "Electric Bell"
+    ]
+  },
+  "Medical Alert Device": {
+    "chinese_name": "医疗警报器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Medical Alert Device",
+      "医疗警报器"
+    ]
+  },
+  "Air Quality Monitor": {
+    "chinese_name": "空气质量检测仪",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Air Quality Monitor",
+      "空气质量检测仪"
+    ]
+  },
+  "Smart Switch": {
+    "chinese_name": "智能开关",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能开关",
+      "Smart Switch"
+    ]
+  },
+  "Smart Mirror": {
+    "chinese_name": "智能镜子待机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Mirror",
+      "智能镜子待机"
+    ]
+  },
+  "Water Level Sensor": {
+    "chinese_name": "水位传感器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "水位传感器",
+      "Water Level Sensor"
+    ]
+  },
+  "Refrigerator Light": {
+    "chinese_name": "冰箱灯",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "冰箱灯",
+      "Refrigerator Light"
+    ]
+  },
+  "Night Light": {
+    "chinese_name": "夜灯",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Night Light",
+      "夜灯"
+    ]
+  },
+  "Phone Base Station": {
+    "chinese_name": "座机基站",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Phone Base Station",
+      "座机基站"
+    ]
+  },
+  "Battery Maintainer": {
+    "chinese_name": "电池维护器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Battery Maintainer",
+      "电池维护器"
+    ]
+  },
+  "Smart Fragrance Diffuser": {
+    "chinese_name": "智能香氛机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Fragrance Diffuser",
+      "智能香氛机"
+    ]
+  },
+  "Toilet Seat Warmer": {
+    "chinese_name": "智能马桶盖保温",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Toilet Seat Warmer",
+      "智能马桶盖保温"
+    ]
+  },
+  "Bidet Heater": {
+    "chinese_name": "智能马桶清洗加热",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "智能马桶清洗加热",
+      "Bidet Heater"
+    ]
+  },
+  "Water Tank Heater": {
+    "chinese_name": "水箱加热器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "水箱加热器",
+      "Water Tank Heater"
+    ]
+  },
+  "Dehumidifier ": {
+    "chinese_name": "除湿机待机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "除湿机待机",
+      "Dehumidifier "
+    ]
+  },
+  "Heated Floor System": {
+    "chinese_name": "地暖系统待机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Heated Floor System",
+      "地暖系统待机"
+    ]
+  },
+  "Baseboard Heater Thermostat": {
+    "chinese_name": "踢脚线加热器温控器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "踢脚线加热器温控器",
+      "Baseboard Heater Thermostat"
+    ]
+  },
+  "Ceiling Fan Controller": {
+    "chinese_name": "吊扇控制器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "吊扇控制器",
+      "Ceiling Fan Controller"
+    ]
+  },
+  "Wireless Charging Pad": {
+    "chinese_name": "无线充电板",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "无线充电板",
+      "Wireless Charging Pad"
+    ]
+  },
+  "Cooktop Pilot Light": {
+    "chinese_name": "灶台引火器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Cooktop Pilot Light",
+      "灶台引火器"
+    ]
+  },
+  "Lighting Controller": {
+    "chinese_name": "照明控制器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "照明控制器",
+      "Lighting Controller"
+    ]
+  },
+  "Power Distribution Unit": {
+    "chinese_name": "电源分配器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Power Distribution Unit",
+      "电源分配器"
+    ]
+  },
+  "Refrigerated Medicine Cabinet": {
+    "chinese_name": "药品冷藏柜",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "药品冷藏柜",
+      "Refrigerated Medicine Cabinet"
+    ]
+  },
+  "LAN Switch": {
+    "chinese_name": "局域网交换机",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "LAN Switch",
+      "局域网交换机"
+    ]
+  },
+  "NAS Server": {
+    "chinese_name": "家庭存储服务器待机",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "NAS Server",
+      "家庭存储服务器待机"
+    ]
+  },
+  "Firewall Appliance": {
+    "chinese_name": "防火墙设备",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Firewall Appliance",
+      "防火墙设备"
+    ]
+  },
+  "Smart Light Bridge": {
+    "chinese_name": "智能灯桥接器",
+    "shiftability": "Non-shiftable",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Light Bridge",
+      "智能灯桥接器"
+    ]
+  },
+  "Smart Thermostat Sensor": {
+    "chinese_name": "智能温控器传感器",
+    "shiftability": "Base",
+    "Pmin": 2,
+    "Tmin": 2,
+    "aliases": [
+      "Smart Thermostat Sensor",
+      "智能温控器传感器"
+    ]
+  }
+}
