@@ -1,17 +1,8 @@
-I've prepared the `README.md` content for you. Since I can't directly provide a downloadable file in this chat interface, I'll give you the complete Markdown code.
-
-To use it, simply **copy all the text** below this message and **paste it into a new file** named `README.md` on your computer.
-
------
-
-```markdown
 # A Personalized AI Agent for Residential Energy Strategy Optimization under Time-of-Use Tariffs
-
 LLM-powered agent for appliance scheduling and energy cost optimization in smart homes.
 
----
 
-## 🏠 Project Introduction
+# 🏠 Project Introduction
 
 * **Personalized Perception:** Identifying each household's appliance mix, power characteristics, and usage habits.
 * **Semantic Understanding:** Extracting scheduling demands and constraint rules from natural language.
@@ -20,19 +11,19 @@ LLM-powered agent for appliance scheduling and energy cost optimization in smart
 
 To address these needs, this project developed an intelligent agent for household appliance energy saving, integrating **Large Language Models (LLM)** with **heuristic scheduling optimization**. The system forms a closed-loop scheduling process centered around four stages: "Perception – Understanding – Reasoning – Optimization." Specifically, it includes:
 
-### 🧩 Perception
+🧩 Perception
 
 Based on non-intrusive load monitoring (NILM) data (e.g., REFIT), it aligns total power with individual appliance power, removes anomalies, unifies granularity, and extracts appliance operating event segments (start/end time, power, energy consumption).
 
-### 🧠 Understanding
+🧠 Understanding
 
 Leveraging Large Language Models (e.g., GPT), it automatically identifies appliance names, usage contexts, and preference constraints from user input, generating structured scheduling rules and parameters (e.g., prohibited operating times, latest completion time, shift direction).
 
-### 🧮 Reasoning
+🧮 Reasoning
 
 By combining user rules with the electricity tariff model, it assesses the legality of shifting each event, constructs multi-dimensional operating intervals and scheduling spaces, and predicts the cost impact of shifts.
 
-### 🔧 Optimization
+🔧 Optimization
 
 It employs a heuristic search algorithm to select time slots from candidate operating intervals that satisfy constraints and offer the lowest electricity price, generating a feasible event schedule. It then provides a cost comparison and energy-saving evaluation between the original and optimized schedules.
 
@@ -59,10 +50,8 @@ In this project, the data undergoes multi-resolution alignment, anomaly removal,
 
 
 ---
-
 ## 🧠 System Architecture and Workflow
 ```
-
 Raw Power Data
 ↓
 Alignment & Modeling (1-min granularity) ← p\_01\_perception\_alignment
@@ -78,8 +67,7 @@ User Natural Language Constraint Parsing ← p\_042\_user\_constraints + llm\_pr
 Candidate Scheduling Event Filtering → Heuristic Scheduling of Scheduling Intervals → Event Collision Resolution ← p\_051\~p\_053
 ↓
 Cost and Energy Saving Comparison Analysis & Final Recommendation → Visualization ← p\_054\_tariff\_cost\_analyzer
-
-````
+```
 
 All processes are uniformly orchestrated by the Agent control flow, and tools support independent testing.
 
