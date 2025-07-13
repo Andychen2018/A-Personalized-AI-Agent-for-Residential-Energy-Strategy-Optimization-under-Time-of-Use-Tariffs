@@ -146,23 +146,22 @@ python personal_household_tariff_scheduling_agent.py
 ## 📁 模块与工具组成
 
 ### 🛠️ 工具模块说明（部分）
+| 模块路径                                     | 功能说明                                       |
+| ---------------------------------------- | ------------------------------------------ |
+| `tools/p_01_perception_alignment.py`     | 原始功率数据的时间对齐与粒度统一处理                         |
+| `tools/p_02_shiftable_identifier.py`     | LLM识别电器语义 → Shiftability 与 Pmin/Tmin 推理    |
+| `tools/p_02_segment_events.py`           | 双阈值提取运行事件段（基于功率序列）                         |
+| `tools/p_03_tariff_modeling.py`          | 根据事件与电价模型模拟运行费用                            |
+| `tools/p_03_energy_summary.py`           | 按年、月、日统计各类电器的能耗与费用                         |
+| `tools/p_041_get_appliance_list.py`      | 提取数据集中电器及其 ID 映射                           |
+| `tools/p_042_user_constraints.py`        | 自然语言调度规则 → 标准 JSON 结构                      |
+| `tools/p_043_filter_shiftable_events.py` | 综合约束与电价规则筛选合法迁移事件                          |
+| `tools/p_051_base_scheduler.py`          | 启发式调度算法：基于 allowed 区间寻找最优时间段               |
+| `tools/p_052_conflict_resolver.py`       | 检测调度冲突并进行平移或合并修复                           |
+| `tools/p_053_tariff_input_builder.py`    | 构建调度输入结构（电价向量 + 合法运行区间）                    |
+| `tools/p_054_tariff_cost_analyzer.py`    | 调度结果费用评估与图表生成                              |
+| `tools/llm_proxy.py`                     | GPT 接口封装：调用 GPTProxyClient.chat() 与大语言模型交互 |
 
-| 模块名                                     |                        功能说明                |
-|-------------------------------------------|-----------------------------------------------|
-├── tools/                                   # 🛠️ 功能工具模块（支持 Agent 调用）
-│   ├── p_01_perception_alignment.py         # 原始功率数据的时间对齐与粒度统一处理
-│   ├── p_02_shiftable_identifier.py         # LLM识别电器语义 → Shiftability 与 Pmin/Tmin 推理
-│   ├── p_02_segment_events.py               # 双阈值提取运行事件段（基于功率序列）
-│   ├── p_03_tariff_modeling.py              # 根据事件与电价模型模拟运行费用
-│   ├── p_03_energy_summsary.py              # 分别按照年、月、日；各个电器，base，shiftable，non-shiftable的条件进行费用的统计
-│   ├── p_041_get_appliance_list.py          # 提取数据集中出现的电器及其 ID 映射
-│   ├── p_042_user_constraints.py            # 自然语言调度规则 → 标准 JSON 结构
-│   ├── p_043_filter_shiftable_events.py     # 综合约束规则与电价模型筛选合法迁移事件
-│   ├── p_051_base_scheduler.py              # 启发式调度算法：基于 allowed 区间找最优时间段
-│   ├── p_052_conflict_resolver.py           # 检测调度冲突并进行平移或合并修复
-│   ├── p_053_tariff_input_builder.py        # 构建调度输入结构：电价向量 + 合法运行区间
-│   ├── p_054_tariff_cost_analyzer.py        # 调度结果费用评估与图表生成
-│   └── llm_proxy.py                         # GPT 调用接口封装器：提供 GPTProxyClient.chat() 方法，与大语言模型交互，实现自然语言 → JSON结构转换
 
 ### 📦 Agent 主控逻辑
 
@@ -197,7 +196,7 @@ python personal_household_tariff_scheduling_agent.py
 
 ## 文件结构整体说明
 
-
+```plaintext
 .
 ├── config/                         # 📄 配置文件（系统默认参数与设备字典）
 │   ├── appliance_constraints.json           # Agent 默认生成的电器约束（禁止时间、完成时间、迁移规则等）
@@ -243,3 +242,4 @@ python personal_household_tariff_scheduling_agent.py
 ├── plot_cost_summary.py           # 最终成本图像绘制（如月度对比图、按电器/类型分布图）
 ├── config.py                      # 调用LLM模型的配置，用户在这里填写自己的open_api_key
 ├── requirements.txt               # Python 环境依赖文件
+```
