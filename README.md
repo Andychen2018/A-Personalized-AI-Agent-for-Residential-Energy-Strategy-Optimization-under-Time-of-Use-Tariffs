@@ -33,6 +33,8 @@ This project implements a complete Agent control logic and modular toolchain, su
 * **🏠 Smart Home System Prototype Validation:** Integrating household electrical equipment for edge-side scheduling.
 * **💡 Energy-Saving Platform & Industry Application Embedding:** Providing clear module interfaces to support parallel scheduling tests for multiple households/tariff schemes.
 
+## 🎥 Demo Video
+<video src="./demo.mp4" controls width="700"></video>
 ---
 
 ## 📊 Dataset Used: REFIT Appliance-Level Energy Data
