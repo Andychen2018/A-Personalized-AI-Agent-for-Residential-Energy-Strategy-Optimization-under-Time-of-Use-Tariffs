@@ -1,0 +1,155 @@
+{
+  "house_id": "house13",
+  "tariff_type": "California",
+  "total_appliances": 9,
+  "total_events": 6638,
+  "appliance_names": [
+    "Television Site (1)",
+    "Xbox",
+    "Washing Machine",
+    "Dishwasher",
+    "Tumble Dryer",
+    "Television Site (2)",
+    "Computer Site",
+    "Microwave",
+    "Kettle"
+  ],
+  "appliance_counts": {
+    "Tumble Dryer": 2628,
+    "Kettle": 1041,
+    "Television Site": 862,
+    "Xbox": 687,
+    "Microwave": 506,
+    "Washing Machine": 500,
+    "Dishwasher": 368,
+    "Computer Site": 46
+  },
+  "appliance_ids": [
+    "Appliance1",
+    "Appliance2",
+    "Appliance3",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "id_to_name": {
+    "Appliance1": "Television Site (1)",
+    "Appliance2": "Xbox",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Tumble Dryer",
+    "Appliance6": "Television Site (2)",
+    "Appliance7": "Computer Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kettle"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Television Site",
+    "Appliance2": "Xbox",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Tumble Dryer",
+    "Appliance6": "Television Site",
+    "Appliance7": "Computer Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kettle"
+  },
+  "reschedulable_ids": [
+    "Appliance3",
+    "Appliance4",
+    "Appliance5"
+  ],
+  "reschedulable_names": [
+    "Washing Machine",
+    "Dishwasher",
+    "Tumble Dryer"
+  ],
+  "non_reschedulable_ids": [
+    "Appliance1",
+    "Appliance2",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "non_reschedulable_names": [
+    "Television Site (1)",
+    "Xbox",
+    "Television Site (2)",
+    "Computer Site",
+    "Microwave",
+    "Kettle"
+  ],
+  "reschedulable_map": {
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Tumble Dryer"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Television Site (1)",
+    "Appliance2": "Xbox",
+    "Appliance6": "Television Site (2)",
+    "Appliance7": "Computer Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kettle"
+  },
+  "appliance_details": [
+    {
+      "appliance_id": "Appliance1",
+      "appliance_name": "Television Site (1)",
+      "is_reschedulable": false,
+      "original_name": "Television Site"
+    },
+    {
+      "appliance_id": "Appliance2",
+      "appliance_name": "Xbox",
+      "is_reschedulable": false,
+      "original_name": "Xbox"
+    },
+    {
+      "appliance_id": "Appliance3",
+      "appliance_name": "Washing Machine",
+      "is_reschedulable": true,
+      "original_name": "Washing Machine"
+    },
+    {
+      "appliance_id": "Appliance4",
+      "appliance_name": "Dishwasher",
+      "is_reschedulable": true,
+      "original_name": "Dishwasher"
+    },
+    {
+      "appliance_id": "Appliance5",
+      "appliance_name": "Tumble Dryer",
+      "is_reschedulable": true,
+      "original_name": "Tumble Dryer"
+    },
+    {
+      "appliance_id": "Appliance6",
+      "appliance_name": "Television Site (2)",
+      "is_reschedulable": false,
+      "original_name": "Television Site"
+    },
+    {
+      "appliance_id": "Appliance7",
+      "appliance_name": "Computer Site",
+      "is_reschedulable": false,
+      "original_name": "Computer Site"
+    },
+    {
+      "appliance_id": "Appliance8",
+      "appliance_name": "Microwave",
+      "is_reschedulable": false,
+      "original_name": "Microwave"
+    },
+    {
+      "appliance_id": "Appliance9",
+      "appliance_name": "Kettle",
+      "is_reschedulable": false,
+      "original_name": "Kettle"
+    }
+  ]
+}

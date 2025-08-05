@@ -1,0 +1,10 @@
+label,cost_TOU_D,cost_TOU_D_Base,energy_TOU_D,energy_TOU_D_Base
+Appliance2 (Xbox),119.4077,161.0051,268.3425,268.3425
+Appliance3 (Washing Machine),84.9924,116.9186,194.865,194.865
+Appliance4 (Dishwasher),98.6751,126.8502,211.4153,211.4153
+Appliance5 (Tumble Dryer),199.7736,271.3689,452.2762,452.2762
+Appliance6 (Television Site),279.243,361.8627,603.1072,603.1072
+Appliance7 (Computer Site),163.3729,218.5302,364.2172,364.2172
+Appliance8 (Microwave),15.2254,18.8877,31.4798,31.4798
+Appliance9 (Kettle),43.7598,59.5399,99.2333,99.2333
+Total,1004.4499000000001,1334.9633000000001,2224.9365,2224.9365

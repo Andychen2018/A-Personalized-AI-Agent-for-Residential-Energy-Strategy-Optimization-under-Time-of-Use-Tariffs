@@ -1,0 +1,37 @@
+{
+  "id_to_name": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance2": "Washer Dryer",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Television Site",
+    "Appliance6": "Microwave",
+    "Appliance7": "Kettle",
+    "Appliance8": "Hi-Fi",
+    "Appliance9": "Electric Heater"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance2": "Washer Dryer",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Television Site",
+    "Appliance6": "Microwave",
+    "Appliance7": "Kettle",
+    "Appliance8": "Hi-Fi",
+    "Appliance9": "Electric Heater"
+  },
+  "reschedulable_map": {
+    "Appliance2": "Washer Dryer",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance5": "Television Site",
+    "Appliance6": "Microwave",
+    "Appliance7": "Kettle",
+    "Appliance8": "Hi-Fi",
+    "Appliance9": "Electric Heater"
+  }
+}

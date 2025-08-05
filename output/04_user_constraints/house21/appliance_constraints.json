@@ -1,0 +1,147 @@
+{
+  "house_id": "house21",
+  "generated_time": "2025-08-05T17:36:03.401581",
+  "user_input": "",
+  "llm_parsing_success": true,
+  "appliance_constraints": {
+    "Fridge-Freezer": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Tumble Dryer": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Washing Machine": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Dishwasher": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Food Mixer": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Television": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Toaster": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Vivarium": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Pond Pump": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    }
+  },
+  "summary": {
+    "total_appliances": 9,
+    "constrained_appliances": 0
+  }
+}

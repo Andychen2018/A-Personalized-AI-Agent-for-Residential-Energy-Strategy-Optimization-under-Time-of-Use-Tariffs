@@ -1,0 +1,37 @@
+{
+  "id_to_name": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance2": "Tumble Dryer",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Computer Site",
+    "Appliance6": "Television Site",
+    "Appliance7": "Combination Microwave",
+    "Appliance8": "Kettle",
+    "Appliance9": "Toaster"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance2": "Tumble Dryer",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Computer Site",
+    "Appliance6": "Television Site",
+    "Appliance7": "Combination Microwave",
+    "Appliance8": "Kettle",
+    "Appliance9": "Toaster"
+  },
+  "reschedulable_map": {
+    "Appliance2": "Tumble Dryer",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance5": "Computer Site",
+    "Appliance6": "Television Site",
+    "Appliance7": "Combination Microwave",
+    "Appliance8": "Kettle",
+    "Appliance9": "Toaster"
+  }
+}

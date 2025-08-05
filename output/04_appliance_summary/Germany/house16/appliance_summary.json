@@ -1,0 +1,153 @@
+{
+  "house_id": "house16",
+  "tariff_type": "Germany",
+  "total_appliances": 9,
+  "total_events": 18994,
+  "appliance_names": [
+    "Fridge-Freezer (1)",
+    "Fridge-Freezer (2)",
+    "Electric Heater (1)",
+    "Electric Heater (2)",
+    "Washing Machine",
+    "Dishwasher",
+    "Computer Site",
+    "Television Site",
+    "Electric Heater (3)"
+  ],
+  "appliance_counts": {
+    "Fridge-Freezer": 14353,
+    "Electric Heater": 2159,
+    "Television Site": 1110,
+    "Dishwasher": 732,
+    "Washing Machine": 431,
+    "Computer Site": 209
+  },
+  "appliance_ids": [
+    "Appliance1",
+    "Appliance2",
+    "Appliance3",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "id_to_name": {
+    "Appliance1": "Fridge-Freezer (1)",
+    "Appliance2": "Fridge-Freezer (2)",
+    "Appliance3": "Electric Heater (1)",
+    "Appliance4": "Electric Heater (2)",
+    "Appliance5": "Washing Machine",
+    "Appliance6": "Dishwasher",
+    "Appliance7": "Computer Site",
+    "Appliance8": "Television Site",
+    "Appliance9": "Electric Heater (3)"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance2": "Fridge-Freezer",
+    "Appliance3": "Electric Heater",
+    "Appliance4": "Electric Heater",
+    "Appliance5": "Washing Machine",
+    "Appliance6": "Dishwasher",
+    "Appliance7": "Computer Site",
+    "Appliance8": "Television Site",
+    "Appliance9": "Electric Heater"
+  },
+  "reschedulable_ids": [
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance9"
+  ],
+  "reschedulable_names": [
+    "Electric Heater (2)",
+    "Washing Machine",
+    "Dishwasher",
+    "Electric Heater (3)"
+  ],
+  "non_reschedulable_ids": [
+    "Appliance1",
+    "Appliance2",
+    "Appliance3",
+    "Appliance7",
+    "Appliance8"
+  ],
+  "non_reschedulable_names": [
+    "Fridge-Freezer (1)",
+    "Fridge-Freezer (2)",
+    "Electric Heater (1)",
+    "Computer Site",
+    "Television Site"
+  ],
+  "reschedulable_map": {
+    "Appliance4": "Electric Heater (2)",
+    "Appliance5": "Washing Machine",
+    "Appliance6": "Dishwasher",
+    "Appliance9": "Electric Heater (3)"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Fridge-Freezer (1)",
+    "Appliance2": "Fridge-Freezer (2)",
+    "Appliance3": "Electric Heater (1)",
+    "Appliance7": "Computer Site",
+    "Appliance8": "Television Site"
+  },
+  "appliance_details": [
+    {
+      "appliance_id": "Appliance1",
+      "appliance_name": "Fridge-Freezer (1)",
+      "is_reschedulable": false,
+      "original_name": "Fridge-Freezer"
+    },
+    {
+      "appliance_id": "Appliance2",
+      "appliance_name": "Fridge-Freezer (2)",
+      "is_reschedulable": false,
+      "original_name": "Fridge-Freezer"
+    },
+    {
+      "appliance_id": "Appliance3",
+      "appliance_name": "Electric Heater (1)",
+      "is_reschedulable": false,
+      "original_name": "Electric Heater"
+    },
+    {
+      "appliance_id": "Appliance4",
+      "appliance_name": "Electric Heater (2)",
+      "is_reschedulable": true,
+      "original_name": "Electric Heater"
+    },
+    {
+      "appliance_id": "Appliance5",
+      "appliance_name": "Washing Machine",
+      "is_reschedulable": true,
+      "original_name": "Washing Machine"
+    },
+    {
+      "appliance_id": "Appliance6",
+      "appliance_name": "Dishwasher",
+      "is_reschedulable": true,
+      "original_name": "Dishwasher"
+    },
+    {
+      "appliance_id": "Appliance7",
+      "appliance_name": "Computer Site",
+      "is_reschedulable": false,
+      "original_name": "Computer Site"
+    },
+    {
+      "appliance_id": "Appliance8",
+      "appliance_name": "Television Site",
+      "is_reschedulable": false,
+      "original_name": "Television Site"
+    },
+    {
+      "appliance_id": "Appliance9",
+      "appliance_name": "Electric Heater (3)",
+      "is_reschedulable": true,
+      "original_name": "Electric Heater"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "TOU_D": {
+    "tariff_name": "California_TOU_D",
+    "tariff_type": "TOU",
+    "currency": "USD",
+    "seasonal_rates": {
+      "summer": {
+        "months": [6, 7, 8, 9],
+        "time_blocks": [
+          { "start": "00:00", "end": "14:00", "rate": 0.40 },
+          { "start": "14:00", "end": "17:00", "rate": 0.48 },
+          { "start": "17:00", "end": "20:00", "rate": 0.60 },
+          { "start": "20:00", "end": "24:00", "rate": 0.48 }
+        ]
+      },
+      "winter": {
+        "months": [1, 2, 3, 4, 5, 10, 11, 12],
+        "time_blocks": [
+          { "start": "00:00", "end": "17:00", "rate": 0.43 },
+          { "start": "17:00", "end": "20:00", "rate": 0.51 },
+          { "start": "20:00", "end": "22:00", "rate": 0.46 },
+          { "start": "22:00", "end": "24:00", "rate": 0.43 }
+        ]
+      }
+    }
+  },
+  "TOU_D_Base": {
+    "tariff_name": "California_TOU_D_Base",
+    "tariff_type": "flat",
+    "currency": "USD",
+    "rate": 0.60
+  }
+}

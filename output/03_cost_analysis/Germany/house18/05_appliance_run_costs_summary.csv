@@ -1,0 +1,11 @@
+label,cost_Germany_Variable,cost_Germany_Variable_Base,energy_Germany_Variable,energy_Germany_Variable_Base
+Appliance1 (Fridge),49.0812,57.6401,169.5118,169.5118
+Appliance2 (Freezer),163.5753,192.1513,565.1535,565.1535
+Appliance3 (Fridge-Freezer),185.06,217.9256,640.9441,640.9441
+Appliance4 (Washer Dryer),3.877,4.111,12.0934,12.0934
+Appliance5 (Washing Machine),14.2536,16.0676,47.2576,47.2576
+Appliance6 (Dishwasher),68.5179,75.8185,222.9956,222.9956
+Appliance7 (Desktop Computer),76.0286,88.2094,259.4395,259.4395
+Appliance8 (Television Site),121.5955,138.5368,407.4613,407.4613
+Appliance9 (Microwave),7.0126,7.461,21.9446,21.9446
+Total,689.0017,797.9213,2346.8014,2346.8014

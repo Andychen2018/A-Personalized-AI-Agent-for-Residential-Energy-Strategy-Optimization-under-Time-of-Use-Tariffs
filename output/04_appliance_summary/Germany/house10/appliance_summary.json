@@ -1,0 +1,156 @@
+{
+  "house_id": "house10",
+  "tariff_type": "Germany",
+  "total_appliances": 9,
+  "total_events": 27425,
+  "appliance_names": [
+    "Blender",
+    "Freezer",
+    "Chest Freezer (In Garage)",
+    "Fridge-Freezer",
+    "Washing Machine",
+    "Dishwasher",
+    "Television Site",
+    "Microwave",
+    "Kenwood KMix"
+  ],
+  "appliance_counts": {
+    "Fridge-Freezer": 9390,
+    "Chest Freezer (In Garage)": 8709,
+    "Freezer": 5442,
+    "Dishwasher": 1498,
+    "Washing Machine": 941,
+    "Microwave": 782,
+    "Blender": 440,
+    "Kenwood KMix": 167,
+    "Television Site": 56
+  },
+  "appliance_ids": [
+    "Appliance1",
+    "Appliance2",
+    "Appliance3",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "id_to_name": {
+    "Appliance1": "Blender",
+    "Appliance2": "Freezer",
+    "Appliance3": "Chest Freezer (In Garage)",
+    "Appliance4": "Fridge-Freezer",
+    "Appliance5": "Washing Machine",
+    "Appliance6": "Dishwasher",
+    "Appliance7": "Television Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kenwood KMix"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Blender",
+    "Appliance2": "Freezer",
+    "Appliance3": "Chest Freezer (In Garage)",
+    "Appliance4": "Fridge-Freezer",
+    "Appliance5": "Washing Machine",
+    "Appliance6": "Dishwasher",
+    "Appliance7": "Television Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kenwood KMix"
+  },
+  "reschedulable_ids": [
+    "Appliance1",
+    "Appliance5",
+    "Appliance6"
+  ],
+  "reschedulable_names": [
+    "Blender",
+    "Washing Machine",
+    "Dishwasher"
+  ],
+  "non_reschedulable_ids": [
+    "Appliance2",
+    "Appliance3",
+    "Appliance4",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "non_reschedulable_names": [
+    "Freezer",
+    "Chest Freezer (In Garage)",
+    "Fridge-Freezer",
+    "Television Site",
+    "Microwave",
+    "Kenwood KMix"
+  ],
+  "reschedulable_map": {
+    "Appliance1": "Blender",
+    "Appliance5": "Washing Machine",
+    "Appliance6": "Dishwasher"
+  },
+  "non_reschedulable_map": {
+    "Appliance2": "Freezer",
+    "Appliance3": "Chest Freezer (In Garage)",
+    "Appliance4": "Fridge-Freezer",
+    "Appliance7": "Television Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kenwood KMix"
+  },
+  "appliance_details": [
+    {
+      "appliance_id": "Appliance1",
+      "appliance_name": "Blender",
+      "is_reschedulable": true,
+      "original_name": "Blender"
+    },
+    {
+      "appliance_id": "Appliance2",
+      "appliance_name": "Freezer",
+      "is_reschedulable": false,
+      "original_name": "Freezer"
+    },
+    {
+      "appliance_id": "Appliance3",
+      "appliance_name": "Chest Freezer (In Garage)",
+      "is_reschedulable": false,
+      "original_name": "Chest Freezer (In Garage)"
+    },
+    {
+      "appliance_id": "Appliance4",
+      "appliance_name": "Fridge-Freezer",
+      "is_reschedulable": false,
+      "original_name": "Fridge-Freezer"
+    },
+    {
+      "appliance_id": "Appliance5",
+      "appliance_name": "Washing Machine",
+      "is_reschedulable": true,
+      "original_name": "Washing Machine"
+    },
+    {
+      "appliance_id": "Appliance6",
+      "appliance_name": "Dishwasher",
+      "is_reschedulable": true,
+      "original_name": "Dishwasher"
+    },
+    {
+      "appliance_id": "Appliance7",
+      "appliance_name": "Television Site",
+      "is_reschedulable": false,
+      "original_name": "Television Site"
+    },
+    {
+      "appliance_id": "Appliance8",
+      "appliance_name": "Microwave",
+      "is_reschedulable": false,
+      "original_name": "Microwave"
+    },
+    {
+      "appliance_id": "Appliance9",
+      "appliance_name": "Kenwood KMix",
+      "is_reschedulable": false,
+      "original_name": "Kenwood KMix"
+    }
+  ]
+}

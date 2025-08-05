@@ -1,0 +1,10 @@
+appliance_id,appliance_name,is_reschedulable,original_name
+Appliance1,Fridge-Freezer (1),False,Fridge-Freezer
+Appliance2,Fridge-Freezer (2),False,Fridge-Freezer
+Appliance3,Electric Heater (1),False,Electric Heater
+Appliance4,Electric Heater (2),True,Electric Heater
+Appliance5,Washing Machine,True,Washing Machine
+Appliance6,Dishwasher,True,Dishwasher
+Appliance7,Computer Site,False,Computer Site
+Appliance8,Television Site,False,Television Site
+Appliance9,Electric Heater (3),True,Electric Heater

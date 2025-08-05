@@ -1,0 +1,9 @@
+Tariff Type: UK
+House ID: house15
+Recommended Tariff: Economy_10
+Available Tariffs: ['Economy_7', 'Economy_10', 'Standard']
+
+Total Costs Comparison:
+  Economy_7: $276.14
+  Economy_10: $240.03
+  Standard: $299.32

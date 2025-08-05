@@ -1,0 +1,147 @@
+{
+  "house_id": "house10",
+  "generated_time": "2025-08-05T17:34:08.610182",
+  "user_input": "Set forbidden operating time for Washing Machine, Tumble Dryer, and Dishwasher as 23:30 to 06:00 (next day);\nEnsure each event completes by 14:00 the next day (i.e., 38:00);\nIgnore events shorter than 5 minutes;\nKeep all other appliance rules as default.",
+  "llm_parsing_success": true,
+  "appliance_constraints": {
+    "Blender": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Freezer": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Chest Freezer (In Garage)": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Fridge-Freezer": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Washing Machine": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:00"
+        ],
+        [
+          "23:30",
+          "30:00"
+        ]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Dishwasher": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:00"
+        ],
+        [
+          "23:30",
+          "30:00"
+        ]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Television Site": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Microwave": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Kenwood KMix": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    }
+  },
+  "summary": {
+    "total_appliances": 9,
+    "constrained_appliances": 0
+  }
+}

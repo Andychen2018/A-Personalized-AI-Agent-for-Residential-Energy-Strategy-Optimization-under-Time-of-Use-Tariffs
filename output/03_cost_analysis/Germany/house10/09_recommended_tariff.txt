@@ -1,0 +1,8 @@
+Tariff Type: Germany
+House ID: house10
+Recommended Tariff: Germany_Variable
+Available Tariffs: ['Germany_Variable', 'Germany_Variable_Base']
+
+Total Costs Comparison:
+  Germany_Variable: $1136.50
+  Germany_Variable_Base: $1322.05

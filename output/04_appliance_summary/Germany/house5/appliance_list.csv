@@ -1,0 +1,10 @@
+appliance_id,appliance_name,is_reschedulable,original_name
+Appliance1,Fridge-Freezer,False,Fridge-Freezer
+Appliance2,Tumble Dryer,True,Tumble Dryer
+Appliance3,Washing Machine,True,Washing Machine
+Appliance4,Dishwasher,True,Dishwasher
+Appliance5,Computer Site,False,Computer Site
+Appliance6,Television Site,False,Television Site
+Appliance7,Combination Microwave,False,Combination Microwave
+Appliance8,Kettle,False,Kettle
+Appliance9,Toaster,False,Toaster

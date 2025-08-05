@@ -1,0 +1,37 @@
+{
+  "id_to_name": {
+    "Appliance1": "Television Site (1)",
+    "Appliance2": "Xbox",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Tumble Dryer",
+    "Appliance6": "Television Site (2)",
+    "Appliance7": "Computer Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kettle"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Television Site",
+    "Appliance2": "Xbox",
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Tumble Dryer",
+    "Appliance6": "Television Site",
+    "Appliance7": "Computer Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kettle"
+  },
+  "reschedulable_map": {
+    "Appliance3": "Washing Machine",
+    "Appliance4": "Dishwasher",
+    "Appliance5": "Tumble Dryer"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Television Site (1)",
+    "Appliance2": "Xbox",
+    "Appliance6": "Television Site (2)",
+    "Appliance7": "Computer Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kettle"
+  }
+}

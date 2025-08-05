@@ -1,0 +1,156 @@
+{
+  "house_id": "house6",
+  "tariff_type": "Germany",
+  "total_appliances": 9,
+  "total_events": 26778,
+  "appliance_names": [
+    "Freezer",
+    "Washing Machine",
+    "Dishwasher",
+    "Computer",
+    "Television Site",
+    "Microwave",
+    "Kettle",
+    "Toaster",
+    "PGM Computer"
+  ],
+  "appliance_counts": {
+    "Freezer": 17507,
+    "Kettle": 3678,
+    "Television Site": 1874,
+    "Microwave": 1824,
+    "Toaster": 753,
+    "PGM Computer": 600,
+    "Washing Machine": 304,
+    "Dishwasher": 224,
+    "Computer": 14
+  },
+  "appliance_ids": [
+    "Appliance1",
+    "Appliance2",
+    "Appliance3",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "id_to_name": {
+    "Appliance1": "Freezer",
+    "Appliance2": "Washing Machine",
+    "Appliance3": "Dishwasher",
+    "Appliance4": "Computer",
+    "Appliance5": "Television Site",
+    "Appliance6": "Microwave",
+    "Appliance7": "Kettle",
+    "Appliance8": "Toaster",
+    "Appliance9": "PGM Computer"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Freezer",
+    "Appliance2": "Washing Machine",
+    "Appliance3": "Dishwasher",
+    "Appliance4": "Computer",
+    "Appliance5": "Television Site",
+    "Appliance6": "Microwave",
+    "Appliance7": "Kettle",
+    "Appliance8": "Toaster",
+    "Appliance9": "PGM Computer"
+  },
+  "reschedulable_ids": [
+    "Appliance2",
+    "Appliance3"
+  ],
+  "reschedulable_names": [
+    "Washing Machine",
+    "Dishwasher"
+  ],
+  "non_reschedulable_ids": [
+    "Appliance1",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "non_reschedulable_names": [
+    "Freezer",
+    "Computer",
+    "Television Site",
+    "Microwave",
+    "Kettle",
+    "Toaster",
+    "PGM Computer"
+  ],
+  "reschedulable_map": {
+    "Appliance2": "Washing Machine",
+    "Appliance3": "Dishwasher"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Freezer",
+    "Appliance4": "Computer",
+    "Appliance5": "Television Site",
+    "Appliance6": "Microwave",
+    "Appliance7": "Kettle",
+    "Appliance8": "Toaster",
+    "Appliance9": "PGM Computer"
+  },
+  "appliance_details": [
+    {
+      "appliance_id": "Appliance1",
+      "appliance_name": "Freezer",
+      "is_reschedulable": false,
+      "original_name": "Freezer"
+    },
+    {
+      "appliance_id": "Appliance2",
+      "appliance_name": "Washing Machine",
+      "is_reschedulable": true,
+      "original_name": "Washing Machine"
+    },
+    {
+      "appliance_id": "Appliance3",
+      "appliance_name": "Dishwasher",
+      "is_reschedulable": true,
+      "original_name": "Dishwasher"
+    },
+    {
+      "appliance_id": "Appliance4",
+      "appliance_name": "Computer",
+      "is_reschedulable": false,
+      "original_name": "Computer"
+    },
+    {
+      "appliance_id": "Appliance5",
+      "appliance_name": "Television Site",
+      "is_reschedulable": false,
+      "original_name": "Television Site"
+    },
+    {
+      "appliance_id": "Appliance6",
+      "appliance_name": "Microwave",
+      "is_reschedulable": false,
+      "original_name": "Microwave"
+    },
+    {
+      "appliance_id": "Appliance7",
+      "appliance_name": "Kettle",
+      "is_reschedulable": false,
+      "original_name": "Kettle"
+    },
+    {
+      "appliance_id": "Appliance8",
+      "appliance_name": "Toaster",
+      "is_reschedulable": false,
+      "original_name": "Toaster"
+    },
+    {
+      "appliance_id": "Appliance9",
+      "appliance_name": "PGM Computer",
+      "is_reschedulable": false,
+      "original_name": "PGM Computer"
+    }
+  ]
+}

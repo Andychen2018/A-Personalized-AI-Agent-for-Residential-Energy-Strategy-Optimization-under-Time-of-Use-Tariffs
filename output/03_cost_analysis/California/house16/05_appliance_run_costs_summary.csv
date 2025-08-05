@@ -1,0 +1,7 @@
+label,cost_TOU_D,cost_TOU_D_Base,energy_TOU_D,energy_TOU_D_Base
+Appliance3 (Electric Heater),1.1224,1.5533,2.5891,2.5891
+Appliance5 (Washing Machine),95.875,124.0144,206.6891,206.6891
+Appliance6 (Dishwasher),136.2473,170.5514,284.2526,284.2526
+Appliance7 (Computer Site),90.1825,121.7905,202.9838,202.9838
+Appliance8 (Television Site),238.3827,311.3366,518.8972,518.8972
+Total,561.8099,729.2462,1215.4117999999999,1215.4117999999999

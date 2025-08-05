@@ -1,0 +1,37 @@
+{
+  "id_to_name": {
+    "Appliance1": "Blender",
+    "Appliance2": "Freezer",
+    "Appliance3": "Chest Freezer (In Garage)",
+    "Appliance4": "Fridge-Freezer",
+    "Appliance5": "Washing Machine",
+    "Appliance6": "Dishwasher",
+    "Appliance7": "Television Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kenwood KMix"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Blender",
+    "Appliance2": "Freezer",
+    "Appliance3": "Chest Freezer (In Garage)",
+    "Appliance4": "Fridge-Freezer",
+    "Appliance5": "Washing Machine",
+    "Appliance6": "Dishwasher",
+    "Appliance7": "Television Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kenwood KMix"
+  },
+  "reschedulable_map": {
+    "Appliance1": "Blender",
+    "Appliance5": "Washing Machine",
+    "Appliance6": "Dishwasher"
+  },
+  "non_reschedulable_map": {
+    "Appliance2": "Freezer",
+    "Appliance3": "Chest Freezer (In Garage)",
+    "Appliance4": "Fridge-Freezer",
+    "Appliance7": "Television Site",
+    "Appliance8": "Microwave",
+    "Appliance9": "Kenwood KMix"
+  }
+}

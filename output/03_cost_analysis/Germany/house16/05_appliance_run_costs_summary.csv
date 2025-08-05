@@ -1,0 +1,7 @@
+label,cost_Germany_Variable,cost_Germany_Variable_Base,energy_Germany_Variable,energy_Germany_Variable_Base
+Appliance3 (Electric Heater),0.8246,0.8802,2.5891,2.5891
+Appliance5 (Washing Machine),62.6341,70.273,206.6891,206.6891
+Appliance6 (Dishwasher),86.6512,96.6467,284.2526,284.2526
+Appliance7 (Computer Site),58.8339,69.0148,202.9838,202.9838
+Appliance8 (Television Site),154.4046,176.4262,518.8972,518.8972
+Total,363.34839999999997,413.24089999999995,1215.4117999999999,1215.4117999999999

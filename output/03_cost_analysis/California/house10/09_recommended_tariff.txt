@@ -1,0 +1,8 @@
+Tariff Type: California
+House ID: house10
+Recommended Tariff: TOU_D
+Available Tariffs: ['TOU_D', 'TOU_D_Base']
+
+Total Costs Comparison:
+  TOU_D: $1749.86
+  TOU_D_Base: $2333.04

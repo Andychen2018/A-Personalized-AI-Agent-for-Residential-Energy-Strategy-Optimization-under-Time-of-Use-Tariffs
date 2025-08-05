@@ -1,0 +1,11 @@
+label,cost_TOU_D,cost_TOU_D_Base,energy_TOU_D,energy_TOU_D_Base
+Appliance1 (Fridge),75.9757,101.7079,169.5118,169.5118
+Appliance2 (Freezer),252.6519,339.0917,565.1535,565.1535
+Appliance3 (Fridge-Freezer),286.1881,384.5655,640.9441,640.9441
+Appliance4 (Washer Dryer),5.1852,7.2558,12.0934,12.0934
+Appliance5 (Washing Machine),20.0743,28.3557,47.2576,47.2576
+Appliance6 (Dishwasher),107.5923,133.7961,222.9956,222.9956
+Appliance7 (Desktop Computer),114.5183,155.6637,259.4395,259.4395
+Appliance8 (Television Site),182.7578,244.4768,407.4613,407.4613
+Appliance9 (Microwave),11.2681,13.1665,21.9446,21.9446
+Total,1056.2117,1408.0797,2346.8014,2346.8014

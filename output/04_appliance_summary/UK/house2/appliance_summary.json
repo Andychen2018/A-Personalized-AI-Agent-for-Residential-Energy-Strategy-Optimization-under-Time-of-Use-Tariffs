@@ -1,0 +1,156 @@
+{
+  "house_id": "house2",
+  "tariff_type": "UK",
+  "total_appliances": 9,
+  "total_events": 14869,
+  "appliance_names": [
+    "Fridge-Freezer",
+    "Washing Machine",
+    "Dishwasher",
+    "Television",
+    "Microwave",
+    "Toaster",
+    "Hi-Fi",
+    "Kettle",
+    "Oven Extractor Fan"
+  ],
+  "appliance_counts": {
+    "Fridge-Freezer": 6931,
+    "Kettle": 2801,
+    "Dishwasher": 1373,
+    "Television": 1334,
+    "Microwave": 1189,
+    "Toaster": 466,
+    "Washing Machine": 403,
+    "Hi-Fi": 233,
+    "Oven Extractor Fan": 139
+  },
+  "appliance_ids": [
+    "Appliance1",
+    "Appliance2",
+    "Appliance3",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "id_to_name": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance2": "Washing Machine",
+    "Appliance3": "Dishwasher",
+    "Appliance4": "Television",
+    "Appliance5": "Microwave",
+    "Appliance6": "Toaster",
+    "Appliance7": "Hi-Fi",
+    "Appliance8": "Kettle",
+    "Appliance9": "Oven Extractor Fan"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance2": "Washing Machine",
+    "Appliance3": "Dishwasher",
+    "Appliance4": "Television",
+    "Appliance5": "Microwave",
+    "Appliance6": "Toaster",
+    "Appliance7": "Hi-Fi",
+    "Appliance8": "Kettle",
+    "Appliance9": "Oven Extractor Fan"
+  },
+  "reschedulable_ids": [
+    "Appliance2",
+    "Appliance3"
+  ],
+  "reschedulable_names": [
+    "Washing Machine",
+    "Dishwasher"
+  ],
+  "non_reschedulable_ids": [
+    "Appliance1",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "non_reschedulable_names": [
+    "Fridge-Freezer",
+    "Television",
+    "Microwave",
+    "Toaster",
+    "Hi-Fi",
+    "Kettle",
+    "Oven Extractor Fan"
+  ],
+  "reschedulable_map": {
+    "Appliance2": "Washing Machine",
+    "Appliance3": "Dishwasher"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance4": "Television",
+    "Appliance5": "Microwave",
+    "Appliance6": "Toaster",
+    "Appliance7": "Hi-Fi",
+    "Appliance8": "Kettle",
+    "Appliance9": "Oven Extractor Fan"
+  },
+  "appliance_details": [
+    {
+      "appliance_id": "Appliance1",
+      "appliance_name": "Fridge-Freezer",
+      "is_reschedulable": false,
+      "original_name": "Fridge-Freezer"
+    },
+    {
+      "appliance_id": "Appliance2",
+      "appliance_name": "Washing Machine",
+      "is_reschedulable": true,
+      "original_name": "Washing Machine"
+    },
+    {
+      "appliance_id": "Appliance3",
+      "appliance_name": "Dishwasher",
+      "is_reschedulable": true,
+      "original_name": "Dishwasher"
+    },
+    {
+      "appliance_id": "Appliance4",
+      "appliance_name": "Television",
+      "is_reschedulable": false,
+      "original_name": "Television"
+    },
+    {
+      "appliance_id": "Appliance5",
+      "appliance_name": "Microwave",
+      "is_reschedulable": false,
+      "original_name": "Microwave"
+    },
+    {
+      "appliance_id": "Appliance6",
+      "appliance_name": "Toaster",
+      "is_reschedulable": false,
+      "original_name": "Toaster"
+    },
+    {
+      "appliance_id": "Appliance7",
+      "appliance_name": "Hi-Fi",
+      "is_reschedulable": false,
+      "original_name": "Hi-Fi"
+    },
+    {
+      "appliance_id": "Appliance8",
+      "appliance_name": "Kettle",
+      "is_reschedulable": false,
+      "original_name": "Kettle"
+    },
+    {
+      "appliance_id": "Appliance9",
+      "appliance_name": "Oven Extractor Fan",
+      "is_reschedulable": false,
+      "original_name": "Oven Extractor Fan"
+    }
+  ]
+}

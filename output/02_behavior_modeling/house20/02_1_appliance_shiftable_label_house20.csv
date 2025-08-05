@@ -1,0 +1,10 @@
+ApplianceID,ApplianceName,ChineseName,Shiftability,Pmin,Tmin,Source,ThresholdSource
+Appliance1,Fridge,Fridge,Base,2,2.0,dict,dict
+Appliance2,Freezer,Freezer,Base,2,2.0,dict,dict
+Appliance3,Tumble Dryer,Tumble Dryer,Shiftable,3,1.5,dict,dict
+Appliance4,Washing Machine,Washing Machine,Shiftable,2,1.0,dict,dict
+Appliance5,Dishwasher,Dishwasher,Shiftable,3,1.5,dict,dict
+Appliance6,Computer Site,Computer Site,Non-shiftable,2,2.0,dict,dict
+Appliance7,Television Site,Television Site,Non-shiftable,2,2.0,dict,dict
+Appliance8,Microwave,Microwave,Non-shiftable,2,2.0,dict,dict
+Appliance9,Kettle,Kettle,Non-shiftable,2,2.0,dict,dict

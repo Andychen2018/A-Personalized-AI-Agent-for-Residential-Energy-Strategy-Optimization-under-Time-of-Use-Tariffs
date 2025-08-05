@@ -1,0 +1,4 @@
+Shiftability,cost_TOU_D,cost_TOU_D_Base,energy_TOU_D,energy_TOU_D_Base
+Base,204.9203,274.9059,458.1726,458.1726
+Non-shiftable,261.8196,350.9942,584.9894,584.9894
+Shiftable,275.3771,364.5027,607.5168,607.5168

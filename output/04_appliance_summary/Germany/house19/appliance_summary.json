@@ -1,0 +1,156 @@
+{
+  "house_id": "house19",
+  "tariff_type": "Germany",
+  "total_appliances": 9,
+  "total_events": 14917,
+  "appliance_names": [
+    "Fridge-Freezer",
+    "Washing Machine",
+    "Television Site",
+    "Microwave",
+    "Kettle",
+    "Toaster",
+    "Bread-maker",
+    "Lamp",
+    "Hi-Fi"
+  ],
+  "appliance_counts": {
+    "Fridge-Freezer": 9730,
+    "Bread-maker": 1880,
+    "Kettle": 1069,
+    "Microwave": 767,
+    "Toaster": 506,
+    "Lamp": 417,
+    "Washing Machine": 414,
+    "Hi-Fi": 133,
+    "Television Site": 1
+  },
+  "appliance_ids": [
+    "Appliance1",
+    "Appliance2",
+    "Appliance3",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "id_to_name": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance2": "Washing Machine",
+    "Appliance3": "Television Site",
+    "Appliance4": "Microwave",
+    "Appliance5": "Kettle",
+    "Appliance6": "Toaster",
+    "Appliance7": "Bread-maker",
+    "Appliance8": "Lamp",
+    "Appliance9": "Hi-Fi"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance2": "Washing Machine",
+    "Appliance3": "Television Site",
+    "Appliance4": "Microwave",
+    "Appliance5": "Kettle",
+    "Appliance6": "Toaster",
+    "Appliance7": "Bread-maker",
+    "Appliance8": "Lamp",
+    "Appliance9": "Hi-Fi"
+  },
+  "reschedulable_ids": [
+    "Appliance2"
+  ],
+  "reschedulable_names": [
+    "Washing Machine"
+  ],
+  "non_reschedulable_ids": [
+    "Appliance1",
+    "Appliance3",
+    "Appliance4",
+    "Appliance5",
+    "Appliance6",
+    "Appliance7",
+    "Appliance8",
+    "Appliance9"
+  ],
+  "non_reschedulable_names": [
+    "Fridge-Freezer",
+    "Television Site",
+    "Microwave",
+    "Kettle",
+    "Toaster",
+    "Bread-maker",
+    "Lamp",
+    "Hi-Fi"
+  ],
+  "reschedulable_map": {
+    "Appliance2": "Washing Machine"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Fridge-Freezer",
+    "Appliance3": "Television Site",
+    "Appliance4": "Microwave",
+    "Appliance5": "Kettle",
+    "Appliance6": "Toaster",
+    "Appliance7": "Bread-maker",
+    "Appliance8": "Lamp",
+    "Appliance9": "Hi-Fi"
+  },
+  "appliance_details": [
+    {
+      "appliance_id": "Appliance1",
+      "appliance_name": "Fridge-Freezer",
+      "is_reschedulable": false,
+      "original_name": "Fridge-Freezer"
+    },
+    {
+      "appliance_id": "Appliance2",
+      "appliance_name": "Washing Machine",
+      "is_reschedulable": true,
+      "original_name": "Washing Machine"
+    },
+    {
+      "appliance_id": "Appliance3",
+      "appliance_name": "Television Site",
+      "is_reschedulable": false,
+      "original_name": "Television Site"
+    },
+    {
+      "appliance_id": "Appliance4",
+      "appliance_name": "Microwave",
+      "is_reschedulable": false,
+      "original_name": "Microwave"
+    },
+    {
+      "appliance_id": "Appliance5",
+      "appliance_name": "Kettle",
+      "is_reschedulable": false,
+      "original_name": "Kettle"
+    },
+    {
+      "appliance_id": "Appliance6",
+      "appliance_name": "Toaster",
+      "is_reschedulable": false,
+      "original_name": "Toaster"
+    },
+    {
+      "appliance_id": "Appliance7",
+      "appliance_name": "Bread-maker",
+      "is_reschedulable": false,
+      "original_name": "Bread-maker"
+    },
+    {
+      "appliance_id": "Appliance8",
+      "appliance_name": "Lamp",
+      "is_reschedulable": false,
+      "original_name": "Lamp"
+    },
+    {
+      "appliance_id": "Appliance9",
+      "appliance_name": "Hi-Fi",
+      "is_reschedulable": false,
+      "original_name": "Hi-Fi"
+    }
+  ]
+}

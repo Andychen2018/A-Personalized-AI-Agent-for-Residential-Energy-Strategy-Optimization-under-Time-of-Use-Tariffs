@@ -1,0 +1,37 @@
+{
+  "id_to_name": {
+    "Appliance1": "Freezer",
+    "Appliance2": "Fridge-Freezer",
+    "Appliance3": "Tumble Dryer",
+    "Appliance4": "Washing Machine",
+    "Appliance5": "Computer Site",
+    "Appliance6": "Television Site",
+    "Appliance7": "Microwave",
+    "Appliance8": "Kettle",
+    "Appliance9": "Plug Site"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Freezer",
+    "Appliance2": "Fridge-Freezer",
+    "Appliance3": "Tumble Dryer",
+    "Appliance4": "Washing Machine",
+    "Appliance5": "Computer Site",
+    "Appliance6": "Television Site",
+    "Appliance7": "Microwave",
+    "Appliance8": "Kettle",
+    "Appliance9": "Plug Site"
+  },
+  "reschedulable_map": {
+    "Appliance3": "Tumble Dryer",
+    "Appliance4": "Washing Machine"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Freezer",
+    "Appliance2": "Fridge-Freezer",
+    "Appliance5": "Computer Site",
+    "Appliance6": "Television Site",
+    "Appliance7": "Microwave",
+    "Appliance8": "Kettle",
+    "Appliance9": "Plug Site"
+  }
+}
