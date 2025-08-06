@@ -268,7 +268,7 @@ class Assistant:
             import test_func_2_int
             import test_func_3_int
             import test_func_4_int
-            import test_func_5_int
+            import Agent_V2.test_func_5_int_bak as test_func_5_int_bak
             import test_func_6_int
 
             # ✅ Tool 1: preprocess
@@ -325,7 +325,7 @@ class Assistant:
                     print("🔄 强制重新生成所有过滤文件...")
                     self._force_regenerate_filter_files()
 
-                    tool_result = test_func_5_int.filter_events_by_constraints_and_tariff(
+                    tool_result = test_func_5_int_bak.filter_events_by_constraints_and_tariff(
                         user_input_param, test_mode=test_mode
                     )
                     response = json.dumps(tool_result, indent=2, ensure_ascii=False)
@@ -421,8 +421,8 @@ class Assistant:
                     print("🔧 为测试模式准备事件过滤和约束分析数据")
 
                     # 调用测试模式激活函数
-                    import test_func_5_int
-                    tool_result = test_func_5_int.activate_test_mode_tariffs(user_input_param)
+                    import Agent_V2.test_func_5_int_bak as test_func_5_int_bak
+                    tool_result = test_func_5_int_bak.activate_test_mode_tariffs(user_input_param)
                     response = json.dumps(tool_result, indent=2, ensure_ascii=False)
                     self.messages.append({"role": "assistant", "content": response})
                     return response
