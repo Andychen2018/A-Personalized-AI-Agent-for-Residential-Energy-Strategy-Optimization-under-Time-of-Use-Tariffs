@@ -1,4 +1,4 @@
-
+2
 import pandas as pd
 import json
 import os
@@ -282,19 +282,40 @@ class LevelBasedScheduler:
         # 获取该电价方案的所有费率，用于等级划分（自动处理季节性）
         all_rates = self.get_all_rates_for_tariff(tariff_name, season)
 
-        # 将费率按从低到高排序，然后直接分配等级
-        sorted_rates = sorted(set(all_rates))
+        # 为Germany_Variable使用固定的价格等级映射，保持与原始数据一致
+        if tariff_name == "Germany_Variable":
+            # Germany_Variable的固定价格等级映射
+            price_level_mapping = {
+                0.22: 0,  # Level 0 (最低价)
+                0.26: 1,  # Level 1
+                0.28: 2,  # Level 2
+                0.30: 3,  # Level 3
+                0.32: 4,  # Level 4
+                0.34: 5   # Level 5 (最高价)
+            }
 
-        # 直接根据费率在排序列表中的位置分配等级
-        try:
-            level = sorted_rates.index(current_rate)
-            return level
-        except ValueError:
-            # 如果找不到精确匹配，找最接近的
-            for i, rate in enumerate(sorted_rates):
-                if current_rate <= rate:
-                    return i
-            return len(sorted_rates) - 1  # 返回最高等级
+            # 查找精确匹配或最接近的价格
+            if current_rate in price_level_mapping:
+                return price_level_mapping[current_rate]
+            else:
+                # 找最接近的价格
+                closest_rate = min(price_level_mapping.keys(), key=lambda x: abs(x - current_rate))
+                return price_level_mapping[closest_rate]
+
+        else:
+            # 其他电价方案使用动态排序
+            sorted_rates = sorted(set(all_rates))
+
+            # 直接根据费率在排序列表中的位置分配等级
+            try:
+                level = sorted_rates.index(current_rate)
+                return level
+            except ValueError:
+                # 如果找不到精确匹配，找最接近的
+                for i, rate in enumerate(sorted_rates):
+                    if current_rate <= rate:
+                        return i
+                return len(sorted_rates) - 1  # 返回最高等级
 
     def get_rate_for_time(self, time_str: str, tariff_name: str, season: str = None) -> float:
         """获取指定时间的电价费率"""
@@ -1191,17 +1212,16 @@ def generate_single_appliance_space_seasonal(scheduler, appliance_name: str, app
                 # 创建新区间
                 price_level_intervals[level].append((level_start, level_end))
 
-    # 重新映射价格等级为连续编号（从0开始）
-    if price_level_intervals:
-        # 按价格等级排序（从低到高）
-        sorted_levels = sorted(price_level_intervals.keys())
+    # 为Germany_Variable强制包含所有6个价格等级，保持与原始数据一致
+    if tariff_name == "Germany_Variable":
+        # 确保包含所有6个价格等级（0-5），即使某些等级没有可用时间
+        for level in range(6):
+            if level not in price_level_intervals:
+                price_level_intervals[level] = []  # 空区间列表
 
-        # 创建新的连续编号映射
-        remapped_intervals = {}
-        for new_level, old_level in enumerate(sorted_levels):
-            remapped_intervals[new_level] = price_level_intervals[old_level]
-
-        price_level_intervals = remapped_intervals
+    # 保持原始价格等级编号（不重新映射）
+    # 注意：即使某些价格等级没有可用时间（如被forbidden_time覆盖），
+    # 也要保持与原始事件数据的价格等级编号一致性
 
     # 生成禁用区间
     forbidden_intervals = []
