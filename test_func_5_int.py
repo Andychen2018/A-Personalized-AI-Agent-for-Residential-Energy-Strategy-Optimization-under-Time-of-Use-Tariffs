@@ -32,17 +32,20 @@ class EnergyOptimizationIntegrator:
             "tariff_config": {
                 "path": "config/tariff_config.json",
                 "tariffs": ["Economy_7", "Economy_10"],
-                "description": "UK Economy tariffs"
+                "description": "UK Economy tariffs",
+                "region": "UK"
             },
             "TOU_D": {
                 "path": "config/TOU_D.json",
                 "tariffs": ["TOU_D"],
-                "description": "California TOU-D seasonal tariff"
+                "description": "California TOU-D seasonal tariff",
+                "region": "California"
             },
             "Germany_Variable": {
                 "path": "config/Germany_Variable.json",
                 "tariffs": ["Germany_Variable"],
-                "description": "Germany variable pricing"
+                "description": "Germany variable pricing",
+                "region": "Germany"
             }
         }
 
@@ -72,6 +75,126 @@ class EnergyOptimizationIntegrator:
 
         house_dirs.sort(key=natural_sort_key)
         return house_dirs
+
+    def _print_p043_statistics_table(self, house_id: str, duration_statistics: Dict):
+        """Print P043 (Duration Filtering) stage statistics table"""
+        if not duration_statistics:
+            return
+
+        print(f"\n📊 P043 Duration Filtering Results:")
+        print("-" * 100)
+
+        # Table header
+        header = f"{'House_ID':<10} {'Total_Events':<13} {'Initial_Reschedulable':<19} {'Final_Reschedulable':<18} {'Events_Filtered_Out':<19} {'Filter_Efficiency_%':<18}"
+        print(header)
+
+        # Single row for current house
+        total_events = duration_statistics.get("total_events", 0)
+        initial_reschedulable = duration_statistics.get("initial_reschedulable", 0)
+        final_reschedulable = duration_statistics.get("final_reschedulable", 0)
+        events_filtered_out = initial_reschedulable - final_reschedulable
+        filter_efficiency = (events_filtered_out / initial_reschedulable * 100) if initial_reschedulable > 0 else 0
+
+        row = f"{house_id:<10} {total_events:>13,} {initial_reschedulable:>19,} {final_reschedulable:>18,} {events_filtered_out:>19,} {filter_efficiency:>18.1f}"
+        print(row)
+        print("=" * 100)
+
+        print(f"\n📋 P043 Summary for {house_id}:")
+        print(f"• Total events processed: {total_events:,}")
+        print(f"• Initial reschedulable events: {initial_reschedulable:,}")
+        print(f"• Events passing duration filter: {final_reschedulable:,}")
+        print(f"• Events filtered out by duration: {events_filtered_out:,}")
+        print(f"• Duration filtering efficiency: {filter_efficiency:.1f}%")
+
+    def _print_p044_statistics_table(self, house_id: str, tariff_results: Dict, duration_statistics: Dict):
+        """Print P044 (TOU Filtering) stage statistics table"""
+        if not tariff_results:
+            return
+
+        print(f"\n📊 P044 TOU Filtering Results:")
+        print("-" * 120)
+
+        # Table header
+        header = f"{'House_ID':<10} {'Tariff':<15} {'Input_Events':<13} {'Final_Reschedulable':<18} {'Events_Filtered_Out':<19} {'Filter_Efficiency_%':<18}"
+        print(header)
+
+        # Print row for each tariff
+        for tariff_name, stats in tariff_results.items():
+            input_events = duration_statistics.get("final_reschedulable", 0)
+            final_reschedulable = stats["reschedulable_events"]
+            events_filtered_out = stats["events_filtered_out"]
+            filter_efficiency = stats["filter_efficiency"]
+
+            row = f"{house_id:<10} {tariff_name:<15} {input_events:>13,} {final_reschedulable:>18,} {events_filtered_out:>19,} {filter_efficiency:>18.1f}"
+            print(row)
+
+        print("=" * 120)
+
+        print(f"\n📋 P044 Summary for {house_id}:")
+        for tariff_name, stats in tariff_results.items():
+            input_events = duration_statistics.get("final_reschedulable", 0)
+            print(f"• {tariff_name}: {input_events:,} → {stats['reschedulable_events']:,} events (filtered out: {stats['events_filtered_out']:,}, efficiency: {stats['filter_efficiency']:.1f}%)")
+
+    def _print_batch_p043_statistics_table(self, results: Dict):
+        """Print batch P043 (Duration Filtering) statistics table"""
+        if not results:
+            return
+
+        print(f"\n📊 Batch P043 Duration Filtering Results:")
+        print("-" * 100)
+
+        # Table header
+        header = f"{'House_ID':<10} {'Total_Events':<13} {'Initial_Reschedulable':<19} {'Final_Reschedulable':<18} {'Events_Filtered_Out':<19} {'Filter_Efficiency_%':<18}"
+        print(header)
+
+        # Sort houses naturally
+        def natural_sort_key(house_id):
+            import re
+            return int(re.search(r'\d+', house_id).group())
+
+        sorted_houses = sorted(results.keys(), key=natural_sort_key)
+
+        # Totals
+        total_events_sum = 0
+        total_initial_reschedulable = 0
+        total_final_reschedulable = 0
+        total_filtered_out = 0
+
+        # Print rows
+        for house_id in sorted_houses:
+            result = results[house_id]
+            duration_stats = result.get("duration_statistics", {})
+
+            total_events = duration_stats.get("total_events", 0)
+            initial_reschedulable = duration_stats.get("initial_reschedulable", 0)
+            final_reschedulable = duration_stats.get("final_reschedulable", 0)
+            events_filtered_out = initial_reschedulable - final_reschedulable
+            filter_efficiency = (events_filtered_out / initial_reschedulable * 100) if initial_reschedulable > 0 else 0
+
+            row = f"{house_id:<10} {total_events:>13,} {initial_reschedulable:>19,} {final_reschedulable:>18,} {events_filtered_out:>19,} {filter_efficiency:>18.1f}"
+            print(row)
+
+            # Add to totals
+            total_events_sum += total_events
+            total_initial_reschedulable += initial_reschedulable
+            total_final_reschedulable += final_reschedulable
+            total_filtered_out += events_filtered_out
+
+        print("-" * 100)
+
+        # Print totals
+        avg_efficiency = (total_filtered_out / total_initial_reschedulable * 100) if total_initial_reschedulable > 0 else 0
+        total_row = f"{'TOTAL':<10} {total_events_sum:>13,} {total_initial_reschedulable:>19,} {total_final_reschedulable:>18,} {total_filtered_out:>19,} {avg_efficiency:>18.1f}"
+        print(total_row)
+        print("=" * 100)
+
+        print(f"\n📋 Batch P043 Summary:")
+        print(f"• Successfully processed: {len(results)} households")
+        print(f"• Total events: {total_events_sum:,}")
+        print(f"• Initial reschedulable events: {total_initial_reschedulable:,}")
+        print(f"• Events passing duration filter: {total_final_reschedulable:,}")
+        print(f"• Events filtered out by duration: {total_filtered_out:,}")
+        print(f"• Average duration filtering efficiency: {avg_efficiency:.1f}%")
     
     def process_single_user(self, house_id: str = "house1", 
                            user_instruction: str = None,
@@ -132,7 +255,10 @@ class EnergyOptimizationIntegrator:
 
             duration_filtered_file = duration_result.get('output_file')
             duration_statistics = duration_result.get('statistics', {})
-            
+
+            # Print P043 stage statistics table
+            self._print_p043_statistics_table(house_id, duration_statistics)
+
             # Step 3: Apply TOU optimization (p044)
             print("💰 Step 3: Applying TOU optimization...")
             tariff_info = self.available_tariffs[tariff_config]
@@ -140,18 +266,18 @@ class EnergyOptimizationIntegrator:
             
             for tariff_name in tariff_info["tariffs"]:
                 print(f"🔄 Processing {tariff_name}...")
-                
-                # Create output directory
-                output_dir = f"output/04_TOU_filter/{tariff_name}/{house_id}"
-                os.makedirs(output_dir, exist_ok=True)
-                
+
+                # Let p_044 handle the path structure internally
+                base_output_dir = "output/04_TOU_filter"
+
                 try:
                     tou_result_file = process_and_mask_events(
                         event_csv_path=duration_filtered_file,
                         constraint_json_path=constraint_file,
                         tariff_config_path=tariff_info["path"],
                         tariff_name=tariff_name,
-                        output_dir=output_dir
+                        output_dir=base_output_dir,
+                        house_id=house_id
                     )
                     
                     if tou_result_file and os.path.exists(tou_result_file):
@@ -164,7 +290,10 @@ class EnergyOptimizationIntegrator:
                     print(f"❌ Error processing {tariff_name}: {e}")
             
             # Generate statistics
-            statistics = self._generate_statistics(output_files)
+            statistics = self._generate_statistics(output_files, duration_statistics)
+
+            # Print P044 stage statistics table
+            self._print_p044_statistics_table(house_id, statistics["tariff_results"], duration_statistics)
             
             return {
                 "status": "success",
@@ -245,7 +374,10 @@ class EnergyOptimizationIntegrator:
             
             print("-" * 40)
         
-        # Generate batch summary
+        # Print batch P043 statistics table
+        self._print_batch_p043_statistics_table(results)
+
+        # Print batch P044 statistics table (existing detailed tables)
         batch_statistics = self._generate_batch_statistics(results)
         
         return {
@@ -291,16 +423,20 @@ class EnergyOptimizationIntegrator:
                 print("\n👋 Using default tariff_config")
                 return "tariff_config"
     
-    def _generate_statistics(self, output_files: List[str]) -> Dict:
-        """Generate statistics from output files"""
+    def _generate_statistics(self, output_files: List[str], duration_statistics: Dict = None) -> Dict:
+        """Generate statistics from output files and duration statistics"""
         stats = {"files": len(output_files), "tariff_results": {}}
-        
+
+        # Get baseline statistics from duration filtering
+        total_events = duration_statistics.get("total_events", 0) if duration_statistics else 0
+        input_reschedulable = duration_statistics.get("initial_reschedulable", 0) if duration_statistics else 0
+
         for file_path in output_files:
             if os.path.exists(file_path):
                 try:
                     df = pd.read_csv(file_path)
                     filename = os.path.basename(file_path)
-                    
+
                     # Extract tariff name
                     if "Economy_7" in filename:
                         tariff_name = "Economy_7"
@@ -312,19 +448,24 @@ class EnergyOptimizationIntegrator:
                         tariff_name = "Germany_Variable"
                     else:
                         tariff_name = "Unknown"
-                    
-                    total_events = len(df)
-                    reschedulable_events = len(df[df['is_reschedulable'] == True])
-                    filter_efficiency = (total_events - reschedulable_events) / total_events * 100 if total_events > 0 else 0
-                    
+
+                    # Final reschedulable events after TOU filtering
+                    final_reschedulable = len(df[df['is_reschedulable'] == True])
+
+                    # Calculate TOU filtering efficiency based on input reschedulable events
+                    events_filtered_out = input_reschedulable - final_reschedulable
+                    filter_efficiency = (events_filtered_out / input_reschedulable * 100) if input_reschedulable > 0 else 0
+
                     stats["tariff_results"][tariff_name] = {
-                        "total_events": total_events,
-                        "reschedulable_events": reschedulable_events,
+                        "total_events": total_events,  # Original total events
+                        "input_reschedulable": input_reschedulable,  # Input to TOU filter
+                        "reschedulable_events": final_reschedulable,  # Final reschedulable
+                        "events_filtered_out": events_filtered_out,
                         "filter_efficiency": round(filter_efficiency, 1)
                     }
                 except Exception as e:
                     print(f"⚠️ Error processing statistics for {file_path}: {e}")
-        
+
         return stats
     
     def _generate_batch_statistics(self, results: Dict) -> Dict:
@@ -346,10 +487,11 @@ class EnergyOptimizationIntegrator:
 
             for tariff, tou_stats in result["statistics"]["tariff_results"].items():
                 detailed_stats[house_id][tariff] = {
-                    "total_events": duration_stats.get("total_events", 0),
-                    "input_reschedulable": duration_stats.get("initial_reschedulable", 0),
-                    "final_reschedulable": tou_stats["reschedulable_events"],
-                    "events_filtered_out": tou_stats["total_events"] - tou_stats["reschedulable_events"],
+                    "total_events": tou_stats["total_events"],
+                    "initial_reschedulable": tou_stats["input_reschedulable"],  # Original reschedulable from duration filter input
+                    "p043_final": duration_stats.get("final_reschedulable", 0),  # P043 duration filter output
+                    "final_reschedulable": tou_stats["reschedulable_events"],  # Final TOU filter output
+                    "events_filtered_out": tou_stats["events_filtered_out"],
                     "filter_efficiency": tou_stats["filter_efficiency"]
                 }
 
@@ -360,18 +502,22 @@ class EnergyOptimizationIntegrator:
                 if tariff not in aggregated_tariff_stats:
                     aggregated_tariff_stats[tariff] = {
                         "total_events": 0,
+                        "input_reschedulable": 0,
                         "reschedulable_events": 0,
+                        "events_filtered_out": 0,
                         "houses": 0
                     }
 
                 aggregated_tariff_stats[tariff]["total_events"] += stats["total_events"]
+                aggregated_tariff_stats[tariff]["input_reschedulable"] += stats["input_reschedulable"]
                 aggregated_tariff_stats[tariff]["reschedulable_events"] += stats["reschedulable_events"]
+                aggregated_tariff_stats[tariff]["events_filtered_out"] += stats["events_filtered_out"]
                 aggregated_tariff_stats[tariff]["houses"] += 1
 
         # Calculate overall efficiency for each tariff
         for tariff, stats in aggregated_tariff_stats.items():
-            if stats["total_events"] > 0:
-                efficiency = (stats["total_events"] - stats["reschedulable_events"]) / stats["total_events"] * 100
+            if stats["input_reschedulable"] > 0:
+                efficiency = stats["events_filtered_out"] / stats["input_reschedulable"] * 100
                 stats["filter_efficiency"] = round(efficiency, 1)
 
         return {
@@ -425,15 +571,16 @@ def print_detailed_table(detailed_stats: Dict, tariff_name: str):
     """Print detailed statistics table for a specific tariff"""
 
     print(f"\n📊 {tariff_name} Results:")
-    print("-" * 100)
+    print("-" * 120)
 
-    # Table header
-    header = f"{'House_ID':<10} {'Total_Events':<13} {'Input_Reschedulable':<18} {'Final_Reschedulable':<17} {'Events_Filtered_Out':<19} {'Filter_Efficiency_%':<18}"
+    # Table header with P043 column
+    header = f"{'House_ID':<10} {'Total_Events':<13} {'Initial_Reschedulable':<19} {'P043_Final':<12} {'Final_Reschedulable':<17} {'Events_Filtered_Out':<19} {'Filter_Efficiency_%':<18}"
     print(header)
 
     # Calculate totals
     total_events = 0
-    total_input_reschedulable = 0
+    total_initial_reschedulable = 0
+    total_p043_final = 0
     total_final_reschedulable = 0
     total_filtered_out = 0
     house_count = 0
@@ -451,27 +598,29 @@ def print_detailed_table(detailed_stats: Dict, tariff_name: str):
             stats = detailed_stats[house_id][tariff_name]
 
             total_events += stats['total_events']
-            total_input_reschedulable += stats['input_reschedulable']
+            total_initial_reschedulable += stats['initial_reschedulable']
+            total_p043_final += stats['p043_final']
             total_final_reschedulable += stats['final_reschedulable']
             total_filtered_out += stats['events_filtered_out']
             house_count += 1
 
-            row = f"{house_id:<10} {stats['total_events']:>13,} {stats['input_reschedulable']:>18,} {stats['final_reschedulable']:>17,} {stats['events_filtered_out']:>19,} {stats['filter_efficiency']:>18.1f}"
+            row = f"{house_id:<10} {stats['total_events']:>13,} {stats['initial_reschedulable']:>19,} {stats['p043_final']:>12,} {stats['final_reschedulable']:>17,} {stats['events_filtered_out']:>19,} {stats['filter_efficiency']:>18.1f}"
             print(row)
 
-    print("-" * 100)
+    print("-" * 120)
 
     # Print totals
-    avg_efficiency = total_filtered_out / total_input_reschedulable * 100 if total_input_reschedulable > 0 else 0
-    total_row = f"{'TOTAL':<10} {total_events:>13,} {total_input_reschedulable:>18,} {total_final_reschedulable:>17,} {total_filtered_out:>19,} {avg_efficiency:>18.1f}"
+    avg_efficiency = total_filtered_out / total_p043_final * 100 if total_p043_final > 0 else 0
+    total_row = f"{'TOTAL':<10} {total_events:>13,} {total_initial_reschedulable:>19,} {total_p043_final:>12,} {total_final_reschedulable:>17,} {total_filtered_out:>19,} {avg_efficiency:>18.1f}"
     print(total_row)
-    print("=" * 100)
+    print("=" * 120)
 
     # Summary
     print(f"\n📋 {tariff_name} Summary:")
     print(f"• Successfully processed: {house_count} households")
     print(f"• Total events: {total_events:,}")
-    print(f"• Input reschedulable events: {total_input_reschedulable:,}")
+    print(f"• Initial reschedulable events: {total_initial_reschedulable:,}")
+    print(f"• P043 duration filter output: {total_p043_final:,}")
     print(f"• Final reschedulable events: {total_final_reschedulable:,}")
     print(f"• Events filtered out by TOU: {total_filtered_out:,}")
     print(f"• Average TOU filtering efficiency: {avg_efficiency:.1f}%")
@@ -524,22 +673,23 @@ def print_result_summary(result: Dict):
 
             for tariff, tou_stats in result["statistics"]["tariff_results"].items():
                 print(f"\n📊 {tariff} Results:")
-                print("-" * 100)
+                print("-" * 120)
 
-                # Table header
-                header = f"{'House_ID':<10} {'Total_Events':<13} {'Input_Reschedulable':<18} {'Final_Reschedulable':<17} {'Events_Filtered_Out':<19} {'Filter_Efficiency_%':<18}"
+                # Table header with P043 column
+                header = f"{'House_ID':<10} {'Total_Events':<13} {'Initial_Reschedulable':<19} {'P043_Final':<12} {'Final_Reschedulable':<17} {'Events_Filtered_Out':<19} {'Filter_Efficiency_%':<18}"
                 print(header)
 
-                # Single row
-                total_events = duration_stats.get('total_events', 0)
-                input_reschedulable = duration_stats.get('initial_reschedulable', 0)
+                # Single row - use corrected statistics
+                total_events = tou_stats['total_events']
+                initial_reschedulable = tou_stats['input_reschedulable']
+                p043_final = duration_stats.get('final_reschedulable', 0)
                 final_reschedulable = tou_stats['reschedulable_events']
-                events_filtered_out = tou_stats['total_events'] - tou_stats['reschedulable_events']
+                events_filtered_out = tou_stats['events_filtered_out']
                 filter_efficiency = tou_stats['filter_efficiency']
 
-                row = f"{result['house_id']:<10} {total_events:>13,} {input_reschedulable:>18,} {final_reschedulable:>17,} {events_filtered_out:>19,} {filter_efficiency:>18.1f}"
+                row = f"{result['house_id']:<10} {total_events:>13,} {initial_reschedulable:>19,} {p043_final:>12,} {final_reschedulable:>17,} {events_filtered_out:>19,} {filter_efficiency:>18.1f}"
                 print(row)
-                print("=" * 100)
+                print("=" * 120)
 
 
 def main():
