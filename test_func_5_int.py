@@ -1,353 +1,624 @@
+#!/usr/bin/env python3
+"""
+test_func_5_int.py - Integrated Tool for Energy Optimization
+
+This tool integrates p042, p043, and p044 functionalities:
+- p042: User constraints processing with LLM
+- p043: Minimum duration filtering  
+- p044: TOU optimization and filtering
+
+Default behavior: Uses config/tariff_config.json for single user processing
+Batch mode: Processes multiple users with tariff_config.json by default, with user choice options
+
+Author: Andychen2018
+"""
+
 import os
 import json
 import pandas as pd
+from typing import Dict, List, Optional, Union
 
-# 导入工具函数
-from Agent_V2.tools.p_042_user_constraints_bak import generate_default_constraints, revise_constraints_by_llm
+# Import individual tool classes
+from tools.p_042_user_constraints import UserConstraintsParser
+from tools.p_043_min_duration_filter import MinDurationEventFilter
 from tools.p_044_tou_optimization_filter import process_and_mask_events
 
-# 文件路径常量
-EVENT_PATH = "./output/02_event_segments/02_appliance_event_segments_id.csv"
-CONSTRAINT_PATH = "./output/04_user_constraints/appliance_constraints_revise_by_llm.json"
-INTERMEDIATE_PATH = "./output/04_user_constraints/shiftable_event_filtered_by_duration.csv"
+class EnergyOptimizationIntegrator:
+    """Integrated energy optimization tool combining p042, p043, p044"""
 
-def print_event_statistics(df, stage_name):
-    """打印事件统计信息"""
-    print(f"📊 {stage_name}:")
-    print(f"   总事件数: {len(df)}")
-    
-    if 'is_reschedulable' in df.columns:
-        reschedulable = len(df[df['is_reschedulable'] == True])
-        print(f"   可重新调度事件数: {reschedulable}")
-    
-    # 按电器类型统计
-    if 'appliance_name' in df.columns:
-        shiftable_appliances = ['Washing Machine', 'Tumble Dryer', 'Dishwasher']
-        for appliance in shiftable_appliances:
-            count = len(df[df['appliance_name'] == appliance])
-            if count > 0:
-                print(f"   {appliance}: {count} 个事件")
-
-def step1_generate_default_constraints_wrapper():
-    """
-    步骤1: 生成默认约束
-    - 基于appliance_summary.json中的电器列表
-    - 为所有电器生成默认约束规则
-    - 保存到config/appliance_constraints.json和output/04_user_constraints/appliance_constraints.json
-    """
-    print("🔧 步骤1: 生成默认电器约束...")
-    
-    # 检查是否需要生成默认约束
-    default_constraint_path = "./output/04_user_constraints/appliance_constraints.json"
-    if not os.path.exists(default_constraint_path):
-        print("📋 生成默认约束文件...")
-        result = generate_default_constraints()
-        if result:
-            print("✅ 默认约束文件生成完成")
-        else:
-            print("❌ 默认约束文件生成失败")
-            return False
-    else:
-        print("📋 默认约束文件已存在，跳过生成")
-    
-    return True
-
-def step2_revise_constraints_by_instruction(user_instruction: str):
-    """
-    步骤2: 根据用户指令修订约束
-    - 调用LLM解析用户自然语言指令
-    - 基于默认约束进行修改
-    - 只针对Shiftability为Shiftable的电器进行约束修改
-    - 保存到appliance_constraints_revise_by_llm.json
-    """
-    print("🧠 步骤2: 根据用户指令修订约束...")
-    print(f"用户指令: {user_instruction}")
-    
-    # 调用LLM解析用户指令并修订约束
-    success = revise_constraints_by_llm(user_instruction)
-    
-    if success:
-        print("✅ 约束已根据用户指令修订")
-        return True
-    else:
-        print("⚠️  LLM约束解析失败，将使用默认约束")
-        # 如果LLM失败，复制默认约束作为fallback
-        default_path = "./output/04_user_constraints/appliance_constraints.json"
-        if os.path.exists(default_path):
-            with open(default_path, 'r', encoding='utf-8') as f:
-                default_constraints = json.load(f)
-            with open(CONSTRAINT_PATH, 'w', encoding='utf-8') as f:
-                json.dump(default_constraints, f, indent=2, ensure_ascii=False)
-            print("✅ 已使用默认约束作为备选方案")
-        return False
-
-def step3_filter_by_min_duration():
-    """
-    步骤3: 按最小持续时间过滤事件
-    - 从02_appliance_event_segments_id.csv中提取Shiftability为Shiftable的事件
-    - 所有Shiftable事件的is_reschedulable初始设为True
-    - 根据约束中的min_duration对事件进行过滤
-    - 将小于最小时间的事件的is_reschedulable改为False
-    - 保存到shiftable_event_filtered_by_duration.csv
-    """
-    print("⏱️  步骤3: 按最小持续时间过滤事件...")
-    
-    # 强制重新生成：删除旧的中间文件
-    if os.path.exists(INTERMEDIATE_PATH):
-        os.remove(INTERMEDIATE_PATH)
-        print(f"🗑️  删除旧文件: {os.path.basename(INTERMEDIATE_PATH)}")
-    
-    # 读取事件数据
-    if not os.path.exists(EVENT_PATH):
-        print(f"❌ 事件文件不存在: {EVENT_PATH}")
-        return False
-    
-    full_df = pd.read_csv(EVENT_PATH, parse_dates=["start_time", "end_time"])
-    
-    # 提取Shiftability为Shiftable的事件
-    shiftable_df = full_df[full_df["Shiftability"] == "Shiftable"].copy()
-    
-    # 初始化所有Shiftable事件的is_reschedulable为True
-    shiftable_df["is_reschedulable"] = True
-    
-    print(f"📊 提取的可移动电器事件:")
-    print(f"   总可移动事件数: {len(shiftable_df)}")
-    
-    # 读取约束配置
-    if not os.path.exists(CONSTRAINT_PATH):
-        print(f"❌ 约束文件不存在: {CONSTRAINT_PATH}")
-        return False
-    
-    with open(CONSTRAINT_PATH, "r", encoding="utf-8") as f:
-        constraint_dict = json.load(f)
-
-    # 根据min_duration过滤事件
-    filtered_count = 0
-    for idx, row in shiftable_df.iterrows():
-        appliance_name = row["appliance_name"]
-        min_duration = constraint_dict.get(appliance_name, {}).get("min_duration", 0)
-        
-        if row["duration(min)"] <= min_duration:
-            shiftable_df.at[idx, "is_reschedulable"] = False
-            filtered_count += 1
-
-    # 确保目录存在并保存结果
-    os.makedirs(os.path.dirname(INTERMEDIATE_PATH), exist_ok=True)
-    shiftable_df.to_csv(INTERMEDIATE_PATH, index=False)
-    
-    print(f"✅ 持续时间过滤完成:")
-    print(f"   过滤掉的短时事件: {filtered_count} 个")
-    print(f"   剩余可调度事件: {len(shiftable_df[shiftable_df['is_reschedulable'] == True])} 个")
-    print(f"   结果保存到: {os.path.basename(INTERMEDIATE_PATH)}")
-    
-    print_event_statistics(shiftable_df, "After min_duration filtering")
-    return True
-
-def step4_apply_tariff_masks(test_mode=False):
-    """
-    步骤4: 应用电价掩码
-    - 基于持续时间过滤后的事件
-    - 根据事件所在时间区间的电价进行分析
-    - 比较是否有更低价格的时间区间可供迁移
-    - 只针对is_reschedulable为True的事件进行筛选
-    - 添加价格相关列：price_level_profile, primary_price_level, start_price_level, end_price_level, optimization_potential
-    - 生成最终的电价掩码文件
-    """
-    print("💰 步骤4: 应用电价掩码...")
-    
-    # 根据模式选择相应的电价方案
-    if test_mode:
-        # 测试模式：处理 TOU_D 和 Germany_Variable
-        tariff_configs = [
-            ("TOU_D", "./config/TOU_D.json"),
-            ("Germany_Variable", "./config/Germany_Variable.json")
-        ]
-        print("🧪 测试模式：处理 TOU_D 和 Germany_Variable 电价方案")
-    else:
-        # 主流程模式：只处理 Economy_7 和 Economy_10
-        tariff_configs = [
-            ("Economy_7", "./config/tariff_config.json"),
-            ("Economy_10", "./config/tariff_config.json")
-        ]
-        print("🏠 主流程模式：处理 Economy_7 和 Economy_10 电价方案")
-    
-    output_files = []
-    
-    for tariff_name, config_path in tariff_configs:
-        if not os.path.exists(config_path):
-            print(f"⚠️ Config file not found: {config_path}, skipping {tariff_name}")
-            continue
-            
-        print(f"\n🔄 Processing {tariff_name} tariff...")
-        
-        # 为新的区间电价创建专门的输出目录
-        if tariff_name in ["TOU_D", "Germany_Variable"]:
-            output_dir = f"./output/04_user_constraints/{tariff_name}/"
-        else:
-            output_dir = "./output/04_user_constraints/"
-        
-        # 强制重新生成：删除旧的输出文件
-        expected_output_path = os.path.join(output_dir, f"shiftable_event_masked_{tariff_name}.csv")
-        if os.path.exists(expected_output_path):
-            os.remove(expected_output_path)
-            print(f"🗑️  删除旧文件: {os.path.basename(expected_output_path)}")
-            
-        try:
-            # 确保输出目录存在
-            os.makedirs(output_dir, exist_ok=True)
-            
-            # 调用核心过滤函数
-            final_path = process_and_mask_events(
-                event_csv_path=INTERMEDIATE_PATH,
-                constraint_json_path=CONSTRAINT_PATH,
-                tariff_name=tariff_name,
-                tariff_config_path=config_path,
-                output_dir=output_dir
-            )
-            
-            print(f"✅ 重新生成文件: {os.path.basename(final_path)}")
-            output_files.append(final_path)
-            
-            # 读取并显示统计信息
-            df_tariff = pd.read_csv(final_path)
-            print_event_statistics(df_tariff, f"After {tariff_name} tariff filtering")
-            
-            # 显示价格优化统计
-            reschedulable_events = df_tariff[df_tariff['is_reschedulable'] == True]
-            if len(reschedulable_events) > 0:
-                avg_optimization_potential = reschedulable_events['optimization_potential'].mean()
-                print(f"   平均优化潜力: {avg_optimization_potential:.2f}")
-            
-        except Exception as e:
-            print(f"❌ Error processing {tariff_name}: {e}")
-    
-    print(f"\n✅ 电价掩码应用完成，生成了 {len(output_files)} 个文件")
-    return output_files
-
-def filter_events_by_constraints_and_tariff(user_instruction: str = None, test_mode: bool = False):
-    """
-    对外主函数：执行完整约束分析与事件筛选流程
-
-    完整流程：
-    1. 加载事件数据和电器信息
-    2. 生成默认约束（基于电器列表）
-    3. 解析用户指令并修订约束（LLM解析）
-    4. 按最小持续时间过滤事件
-    5. 应用电价掩码进行价格优化分析
-
-    Args:
-        user_instruction: 用户约束指令（自然语言）
-        test_mode: False=主流程模式(Economy_7&Economy_10), True=测试模式(TOU_D&Germany_Variable)
-
-    Returns:
-        dict: 包含处理状态、模式、输出文件等信息的结果字典
-    """
-    print("🔄 开始约束分析与事件筛选流程...")
-    print("="*80)
-
-    # 如果没有提供用户指令，使用默认指令
-    if user_instruction is None:
-        user_instruction = (
-            "For Washing Machine, Tumble Dryer, and Dishwasher:\n"
-            "- Replace the default forbidden operating time with 23:30 to 06:00 (next day);\n"
-            "- Set latest_finish to 14:00 of the next day (i.e., 38:00);\n"
-            "- Ignore all events shorter than 5 minutes.\n"
-            "Keep all other appliances with default scheduling rules."
-        )
-
-    # 执行完整流程
-    try:
-        # 步骤1: 生成默认约束
-        if not step1_generate_default_constraints_wrapper():
-            return {"status": "failed", "error": "Failed to generate default constraints"}
-
-        # 步骤2: 根据用户指令修订约束
-        llm_success = step2_revise_constraints_by_instruction(user_instruction)
-
-        # 步骤3: 按最小持续时间过滤事件
-        if not step3_filter_by_min_duration():
-            return {"status": "failed", "error": "Failed to filter events by duration"}
-
-        # 步骤4: 应用电价掩码
-        output_files = step4_apply_tariff_masks(test_mode=test_mode)
-
-        # 构建返回结果
-        result = {
-            "status": "success",
-            "mode": "test_mode" if test_mode else "main_mode",
-            "processed_tariffs": ["TOU_D", "Germany_Variable"] if test_mode else ["Economy_7", "Economy_10"],
-            "output_files": output_files,
-            "llm_parsing_success": llm_success,
-            "user_instruction_applied": user_instruction is not None,
-            "intermediate_files": {
-                "constraints": CONSTRAINT_PATH,
-                "filtered_events": INTERMEDIATE_PATH
+    def __init__(self):
+        self.default_tariff_config = "config/tariff_config.json"
+        self.available_tariffs = {
+            "tariff_config": {
+                "path": "config/tariff_config.json",
+                "tariffs": ["Economy_7", "Economy_10"],
+                "description": "UK Economy tariffs"
+            },
+            "TOU_D": {
+                "path": "config/TOU_D.json",
+                "tariffs": ["TOU_D"],
+                "description": "California TOU-D seasonal tariff"
+            },
+            "Germany_Variable": {
+                "path": "config/Germany_Variable.json",
+                "tariffs": ["Germany_Variable"],
+                "description": "Germany variable pricing"
             }
         }
 
-        print("\n✅ 约束分析与事件筛选流程完成！")
+    def get_all_available_houses(self) -> List[str]:
+        """Get all available house IDs from the output directories"""
+        house_dirs = []
 
-        return result
+        # Check multiple directories to find available houses
+        check_dirs = [
+            "output/02_event_segments",
+            "output/04_appliance_summary/UK",
+            "output/04_min_duration_filter"
+        ]
 
-    except Exception as e:
-        error_msg = f"流程执行失败: {str(e)}"
-        print(f"❌ {error_msg}")
-        return {"status": "failed", "error": error_msg}
+        for check_dir in check_dirs:
+            if os.path.exists(check_dir):
+                for item in os.listdir(check_dir):
+                    if item.startswith("house") and os.path.isdir(os.path.join(check_dir, item)):
+                        if item not in house_dirs:
+                            house_dirs.append(item)
+                break  # Use first available directory
 
-def activate_test_mode_tariffs(user_instruction: str = None):
+        # Sort house IDs naturally (house1, house2, ..., house10, house11, ...)
+        def natural_sort_key(house_id):
+            import re
+            return int(re.search(r'\d+', house_id).group())
+
+        house_dirs.sort(key=natural_sort_key)
+        return house_dirs
+    
+    def process_single_user(self, house_id: str = "house1", 
+                           user_instruction: str = None,
+                           tariff_config: str = None) -> Dict:
+        """
+        Process energy optimization for a single user
+        
+        Args:
+            house_id: House identifier
+            user_instruction: Natural language constraints instruction
+            tariff_config: Tariff configuration to use (default: tariff_config.json)
+        
+        Returns:
+            Processing result dictionary
+        """
+        print(f"🏠 Processing single user: {house_id}")
+        print("=" * 60)
+        
+        # Use default tariff config if not specified
+        if tariff_config is None:
+            tariff_config = "tariff_config"
+        
+        # Set default user instruction if not provided
+        if user_instruction is None:
+            user_instruction = (
+                "For Washing Machine, Tumble Dryer, and Dishwasher:\n"
+                "- Replace the default forbidden operating time with 23:30 to 06:00 (next day);\n"
+                "- Set latest_finish to 14:00 of the next day (i.e., 38:00);\n"
+                "- Ignore all events shorter than 5 minutes.\n"
+                "Keep all other appliances with default scheduling rules."
+            )
+        
+        try:
+            # Step 1: Process user constraints (p042)
+            print("🔧 Step 1: Processing user constraints...")
+            constraints_parser = UserConstraintsParser()
+            constraint_result = constraints_parser.process_single_household(
+                house_id=house_id,
+                user_input=user_instruction
+            )
+
+            if not constraint_result:
+                return {"status": "failed", "error": "Failed to process user constraints"}
+            
+            constraint_file = constraint_result.get('revised_file')
+            llm_success = constraint_result.get('llm_success', False)
+            
+            # Step 2: Apply minimum duration filtering (p043)
+            print("⏱️ Step 2: Applying minimum duration filtering...")
+            duration_filter = MinDurationEventFilter()
+            duration_result = duration_filter.process_single_household(
+                house_id=house_id,
+                output_dir="./output/04_min_duration_filter"
+            )
+            
+            if not duration_result:
+                return {"status": "failed", "error": "Failed to apply duration filtering"}
+
+            duration_filtered_file = duration_result.get('output_file')
+            duration_statistics = duration_result.get('statistics', {})
+            
+            # Step 3: Apply TOU optimization (p044)
+            print("💰 Step 3: Applying TOU optimization...")
+            tariff_info = self.available_tariffs[tariff_config]
+            output_files = []
+            
+            for tariff_name in tariff_info["tariffs"]:
+                print(f"🔄 Processing {tariff_name}...")
+                
+                # Create output directory
+                output_dir = f"output/04_TOU_filter/{tariff_name}/{house_id}"
+                os.makedirs(output_dir, exist_ok=True)
+                
+                try:
+                    tou_result_file = process_and_mask_events(
+                        event_csv_path=duration_filtered_file,
+                        constraint_json_path=constraint_file,
+                        tariff_config_path=tariff_info["path"],
+                        tariff_name=tariff_name,
+                        output_dir=output_dir
+                    )
+                    
+                    if tou_result_file and os.path.exists(tou_result_file):
+                        output_files.append(tou_result_file)
+                        print(f"✅ {tariff_name} optimization completed")
+                    else:
+                        print(f"❌ {tariff_name} optimization failed")
+                        
+                except Exception as e:
+                    print(f"❌ Error processing {tariff_name}: {e}")
+            
+            # Generate statistics
+            statistics = self._generate_statistics(output_files)
+            
+            return {
+                "status": "success",
+                "house_id": house_id,
+                "tariff_config": tariff_config,
+                "processed_tariffs": tariff_info["tariffs"],
+                "output_files": output_files,
+                "llm_parsing_success": llm_success,
+                "user_instruction": user_instruction,
+                "statistics": statistics,
+                "duration_statistics": duration_statistics,
+                "file_paths": {
+                    "constraints": constraint_file,
+                    "duration_filtered": duration_filtered_file,
+                    "tou_optimized": output_files
+                }
+            }
+            
+        except Exception as e:
+            return {
+                "status": "failed",
+                "error": f"Processing failed: {str(e)}"
+            }
+    
+    def process_batch_users(self, house_list: List[str],
+                           user_instructions: Dict[str, str] = None,
+                           tariff_config: str = None,
+                           interactive_mode: bool = True) -> Dict:
+        """
+        Process energy optimization for multiple users
+        
+        Args:
+            house_list: List of house identifiers
+            user_instructions: Dict mapping house_id to user instruction
+            tariff_config: Tariff configuration to use (default: tariff_config.json)
+            interactive_mode: Whether to allow user to choose tariff options
+        
+        Returns:
+            Batch processing result dictionary
+        """
+        print(f"🚀 Processing batch users: {len(house_list)} houses")
+        print("=" * 60)
+        
+        # Interactive tariff selection
+        if interactive_mode:
+            tariff_config = self._interactive_tariff_selection()
+        elif tariff_config is None:
+            tariff_config = "tariff_config"  # Default
+        
+        if user_instructions is None:
+            user_instructions = {}
+        
+        results = {}
+        failed_houses = []
+        
+        for i, house_id in enumerate(house_list, 1):
+            print(f"\n[{i}/{len(house_list)}] Processing {house_id}...")
+            
+            user_instruction = user_instructions.get(house_id, None)
+            
+            try:
+                result = self.process_single_user(
+                    house_id=house_id,
+                    user_instruction=user_instruction,
+                    tariff_config=tariff_config
+                )
+                
+                if result["status"] == "success":
+                    results[house_id] = result
+                    print(f"✅ {house_id} completed successfully!")
+                else:
+                    failed_houses.append(house_id)
+                    print(f"❌ {house_id} failed: {result.get('error', 'Unknown error')}")
+                    
+            except Exception as e:
+                failed_houses.append(house_id)
+                print(f"❌ {house_id} crashed: {str(e)}")
+            
+            print("-" * 40)
+        
+        # Generate batch summary
+        batch_statistics = self._generate_batch_statistics(results)
+        
+        return {
+            "status": "success" if results else "failed",
+            "processed_houses": len(results),
+            "failed_houses": len(failed_houses),
+            "failed_house_list": failed_houses,
+            "tariff_config": tariff_config,
+            "results": results,
+            "batch_statistics": batch_statistics
+        }
+    
+    def _interactive_tariff_selection(self) -> str:
+        """Interactive tariff selection for batch processing"""
+        print("\n📋 Available tariff configurations:")
+        print("-" * 40)
+        
+        options = list(self.available_tariffs.keys())
+        for i, (key, info) in enumerate(self.available_tariffs.items(), 1):
+            print(f"{i}. {key}: {info['description']}")
+            print(f"   Tariffs: {', '.join(info['tariffs'])}")
+            print(f"   Config: {info['path']}")
+            print()
+        
+        while True:
+            try:
+                choice = input(f"Select tariff configuration (1-{len(options)}) [default: 1]: ").strip()
+                
+                if not choice:
+                    choice = "1"
+                
+                choice_idx = int(choice) - 1
+                if 0 <= choice_idx < len(options):
+                    selected = options[choice_idx]
+                    print(f"✅ Selected: {selected}")
+                    return selected
+                else:
+                    print(f"❌ Invalid choice. Please enter 1-{len(options)}")
+                    
+            except ValueError:
+                print("❌ Invalid input. Please enter a number.")
+            except KeyboardInterrupt:
+                print("\n👋 Using default tariff_config")
+                return "tariff_config"
+    
+    def _generate_statistics(self, output_files: List[str]) -> Dict:
+        """Generate statistics from output files"""
+        stats = {"files": len(output_files), "tariff_results": {}}
+        
+        for file_path in output_files:
+            if os.path.exists(file_path):
+                try:
+                    df = pd.read_csv(file_path)
+                    filename = os.path.basename(file_path)
+                    
+                    # Extract tariff name
+                    if "Economy_7" in filename:
+                        tariff_name = "Economy_7"
+                    elif "Economy_10" in filename:
+                        tariff_name = "Economy_10"
+                    elif "TOU_D" in filename:
+                        tariff_name = "TOU_D"
+                    elif "Germany_Variable" in filename:
+                        tariff_name = "Germany_Variable"
+                    else:
+                        tariff_name = "Unknown"
+                    
+                    total_events = len(df)
+                    reschedulable_events = len(df[df['is_reschedulable'] == True])
+                    filter_efficiency = (total_events - reschedulable_events) / total_events * 100 if total_events > 0 else 0
+                    
+                    stats["tariff_results"][tariff_name] = {
+                        "total_events": total_events,
+                        "reschedulable_events": reschedulable_events,
+                        "filter_efficiency": round(filter_efficiency, 1)
+                    }
+                except Exception as e:
+                    print(f"⚠️ Error processing statistics for {file_path}: {e}")
+        
+        return stats
+    
+    def _generate_batch_statistics(self, results: Dict) -> Dict:
+        """Generate batch processing statistics with detailed tables"""
+        if not results:
+            return {}
+
+        total_files = sum(len(r["output_files"]) for r in results.values())
+        total_llm_success = sum(1 for r in results.values() if r["llm_parsing_success"])
+
+        # Collect detailed statistics for each house and tariff
+        detailed_stats = {}
+
+        for house_id, result in results.items():
+            detailed_stats[house_id] = {}
+
+            # Get duration filtering statistics from the result
+            duration_stats = result.get("duration_statistics", {})
+
+            for tariff, tou_stats in result["statistics"]["tariff_results"].items():
+                detailed_stats[house_id][tariff] = {
+                    "total_events": duration_stats.get("total_events", 0),
+                    "input_reschedulable": duration_stats.get("initial_reschedulable", 0),
+                    "final_reschedulable": tou_stats["reschedulable_events"],
+                    "events_filtered_out": tou_stats["total_events"] - tou_stats["reschedulable_events"],
+                    "filter_efficiency": tou_stats["filter_efficiency"]
+                }
+
+        # Aggregate tariff statistics
+        aggregated_tariff_stats = {}
+        for result in results.values():
+            for tariff, stats in result["statistics"]["tariff_results"].items():
+                if tariff not in aggregated_tariff_stats:
+                    aggregated_tariff_stats[tariff] = {
+                        "total_events": 0,
+                        "reschedulable_events": 0,
+                        "houses": 0
+                    }
+
+                aggregated_tariff_stats[tariff]["total_events"] += stats["total_events"]
+                aggregated_tariff_stats[tariff]["reschedulable_events"] += stats["reschedulable_events"]
+                aggregated_tariff_stats[tariff]["houses"] += 1
+
+        # Calculate overall efficiency for each tariff
+        for tariff, stats in aggregated_tariff_stats.items():
+            if stats["total_events"] > 0:
+                efficiency = (stats["total_events"] - stats["reschedulable_events"]) / stats["total_events"] * 100
+                stats["filter_efficiency"] = round(efficiency, 1)
+
+        return {
+            "total_output_files": total_files,
+            "llm_success_rate": f"{total_llm_success}/{len(results)}",
+            "tariff_statistics": aggregated_tariff_stats,
+            "detailed_statistics": detailed_stats
+        }
+
+
+# Main execution functions
+def process_single_household_energy_optimization(house_id: str = "house1", 
+                                               user_instruction: str = None,
+                                               tariff_config: str = None) -> Dict:
     """
-    激活测试模式电价方案 (TOU_D & Germany_Variable)
-
-    这个函数专门用于处理测试模式的电价方案，确保：
-    1. 结果文件存储在正确的子目录中
-    2. 为后续的费用计算提供正确的文件路径
-    3. 与主流程模式完全分离
-
+    Convenience function for single household processing
+    
     Args:
-        user_instruction: 用户约束指令
-
+        house_id: House identifier (default: "house1")
+        user_instruction: Natural language constraints instruction
+        tariff_config: Tariff configuration ("tariff_config", "TOU_D", "Germany_Variable")
+    
     Returns:
-        dict: 测试模式处理结果
+        Processing result dictionary
     """
-    print("🧪 激活测试模式电价方案 (TOU_D & Germany_Variable)")
-    print("="*80)
+    integrator = EnergyOptimizationIntegrator()
+    return integrator.process_single_user(house_id, user_instruction, tariff_config)
 
-    result = filter_events_by_constraints_and_tariff(
-        user_instruction=user_instruction,
-        test_mode=True
-    )
 
-    if result["status"] == "success":
-        print("\n📁 测试模式文件存储位置:")
-        for file_path in result["output_files"]:
-            print(f"   {file_path}")
+def process_batch_household_energy_optimization(house_list: List[str],
+                                              user_instructions: Dict[str, str] = None,
+                                              tariff_config: str = None,
+                                              interactive_mode: bool = True) -> Dict:
+    """
+    Convenience function for batch household processing
+    
+    Args:
+        house_list: List of house identifiers
+        user_instructions: Dict mapping house_id to user instruction
+        tariff_config: Tariff configuration to use
+        interactive_mode: Whether to allow interactive tariff selection
+    
+    Returns:
+        Batch processing result dictionary
+    """
+    integrator = EnergyOptimizationIntegrator()
+    return integrator.process_batch_users(house_list, user_instructions, tariff_config, interactive_mode)
 
-        # 验证文件是否在正确的子目录中
-        expected_dirs = ["TOU_D", "Germany_Variable"]
-        for expected_dir in expected_dirs:
-            expected_file = f"./output/04_user_constraints/{expected_dir}/shiftable_event_masked_{expected_dir}.csv"
-            if os.path.exists(expected_file):
-                print(f"✅ {expected_dir} 文件已正确存储")
+
+def print_detailed_table(detailed_stats: Dict, tariff_name: str):
+    """Print detailed statistics table for a specific tariff"""
+
+    print(f"\n📊 {tariff_name} Results:")
+    print("-" * 100)
+
+    # Table header
+    header = f"{'House_ID':<10} {'Total_Events':<13} {'Input_Reschedulable':<18} {'Final_Reschedulable':<17} {'Events_Filtered_Out':<19} {'Filter_Efficiency_%':<18}"
+    print(header)
+
+    # Calculate totals
+    total_events = 0
+    total_input_reschedulable = 0
+    total_final_reschedulable = 0
+    total_filtered_out = 0
+    house_count = 0
+
+    # Sort houses naturally
+    def natural_sort_key(house_id):
+        import re
+        return int(re.search(r'\d+', house_id).group())
+
+    sorted_houses = sorted(detailed_stats.keys(), key=natural_sort_key)
+
+    # Print table rows
+    for house_id in sorted_houses:
+        if tariff_name in detailed_stats[house_id]:
+            stats = detailed_stats[house_id][tariff_name]
+
+            total_events += stats['total_events']
+            total_input_reschedulable += stats['input_reschedulable']
+            total_final_reschedulable += stats['final_reschedulable']
+            total_filtered_out += stats['events_filtered_out']
+            house_count += 1
+
+            row = f"{house_id:<10} {stats['total_events']:>13,} {stats['input_reschedulable']:>18,} {stats['final_reschedulable']:>17,} {stats['events_filtered_out']:>19,} {stats['filter_efficiency']:>18.1f}"
+            print(row)
+
+    print("-" * 100)
+
+    # Print totals
+    avg_efficiency = total_filtered_out / total_input_reschedulable * 100 if total_input_reschedulable > 0 else 0
+    total_row = f"{'TOTAL':<10} {total_events:>13,} {total_input_reschedulable:>18,} {total_final_reschedulable:>17,} {total_filtered_out:>19,} {avg_efficiency:>18.1f}"
+    print(total_row)
+    print("=" * 100)
+
+    # Summary
+    print(f"\n📋 {tariff_name} Summary:")
+    print(f"• Successfully processed: {house_count} households")
+    print(f"• Total events: {total_events:,}")
+    print(f"• Input reschedulable events: {total_input_reschedulable:,}")
+    print(f"• Final reschedulable events: {total_final_reschedulable:,}")
+    print(f"• Events filtered out by TOU: {total_filtered_out:,}")
+    print(f"• Average TOU filtering efficiency: {avg_efficiency:.1f}%")
+
+
+def print_result_summary(result: Dict):
+    """Print a formatted summary of processing results"""
+
+    if result["status"] != "success":
+        print(f"❌ Processing failed: {result.get('error', 'Unknown error')}")
+        return
+
+    if "batch_statistics" in result:
+        # Batch processing summary with detailed tables
+        print("\n📊 Batch Processing Summary:")
+        print("=" * 50)
+        print(f"✅ Successfully processed: {result['processed_houses']} houses")
+        if result['failed_houses'] > 0:
+            print(f"❌ Failed to process: {result['failed_houses']} houses")
+
+        batch_stats = result["batch_statistics"]
+        print(f"📁 Total output files: {batch_stats['total_output_files']}")
+        print(f"🧠 LLM success rate: {batch_stats['llm_success_rate']}")
+
+        # Print detailed tables for each tariff
+        if "detailed_statistics" in batch_stats:
+            detailed_stats = batch_stats["detailed_statistics"]
+
+            # Get all tariffs
+            all_tariffs = set()
+            for house_stats in detailed_stats.values():
+                all_tariffs.update(house_stats.keys())
+
+            # Print table for each tariff
+            for tariff in sorted(all_tariffs):
+                print_detailed_table(detailed_stats, tariff)
+
+    else:
+        # Single processing summary with single-row table
+        print("\n📊 Processing Summary:")
+        print("=" * 50)
+        print(f"🏠 House: {result['house_id']}")
+        print(f"📋 Tariff config: {result['tariff_config']}")
+        print(f"🧠 LLM parsing: {'✅ Success' if result['llm_parsing_success'] else '⚠️ Failed'}")
+        print(f"📁 Output files: {len(result['output_files'])}")
+
+        # Print single-house table for each tariff
+        if result["statistics"]["tariff_results"]:
+            duration_stats = result.get("duration_statistics", {})
+
+            for tariff, tou_stats in result["statistics"]["tariff_results"].items():
+                print(f"\n📊 {tariff} Results:")
+                print("-" * 100)
+
+                # Table header
+                header = f"{'House_ID':<10} {'Total_Events':<13} {'Input_Reschedulable':<18} {'Final_Reschedulable':<17} {'Events_Filtered_Out':<19} {'Filter_Efficiency_%':<18}"
+                print(header)
+
+                # Single row
+                total_events = duration_stats.get('total_events', 0)
+                input_reschedulable = duration_stats.get('initial_reschedulable', 0)
+                final_reschedulable = tou_stats['reschedulable_events']
+                events_filtered_out = tou_stats['total_events'] - tou_stats['reschedulable_events']
+                filter_efficiency = tou_stats['filter_efficiency']
+
+                row = f"{result['house_id']:<10} {total_events:>13,} {input_reschedulable:>18,} {final_reschedulable:>17,} {events_filtered_out:>19,} {filter_efficiency:>18.1f}"
+                print(row)
+                print("=" * 100)
+
+
+def main():
+    """Main function for interactive execution"""
+    print("🚀 Energy Optimization Integration Tool")
+    print("=" * 60)
+    print("This tool integrates p042 (constraints), p043 (duration), p044 (TOU optimization)")
+    print()
+
+    try:
+        # Choose processing mode
+        print("📋 Processing modes:")
+        print("1. Single household processing")
+        print("2. Batch household processing")
+        print()
+
+        try:
+            mode_choice = input("Select mode (1-2) [default: 1]: ").strip()
+            if not mode_choice:
+                mode_choice = "1"
+        except (EOFError, KeyboardInterrupt):
+            print("Using default mode: 1")
+            mode_choice = "1"
+
+        if mode_choice == "1":
+            # Single household processing
+            print("\n🏠 Single Household Processing")
+            print("-" * 40)
+
+            house_id = input("Enter house ID [default: house1]: ").strip()
+            if not house_id:
+                house_id = "house1"
+
+            print("\n📝 User instruction (press Enter for default):")
+            user_instruction = input().strip()
+            if not user_instruction:
+                user_instruction = None
+
+            print(f"\n🔄 Processing {house_id}...")
+            result = process_single_household_energy_optimization(
+                house_id=house_id,
+                user_instruction=user_instruction
+            )
+
+            print_result_summary(result)
+
+        elif mode_choice == "2":
+            # Batch household processing
+            print("\n🏠 Batch Household Processing")
+            print("-" * 40)
+
+            # Get house list
+            integrator = EnergyOptimizationIntegrator()
+            all_houses = integrator.get_all_available_houses()
+
+            print(f"Available houses: {len(all_houses)} houses ({', '.join(all_houses)})")
+            house_input = input(f"Enter house IDs (comma-separated) [default: all {len(all_houses)} houses]: ").strip()
+            if not house_input:
+                house_list = all_houses
             else:
-                print(f"⚠️  {expected_dir} 文件未找到: {expected_file}")
+                house_list = [h.strip() for h in house_input.split(",")]
 
-    return result
+            print(f"\n🔄 Processing {len(house_list)} houses...")
+            result = process_batch_household_energy_optimization(
+                house_list=house_list,
+                interactive_mode=True
+            )
+
+            print_result_summary(result)
+
+        else:
+            print("❌ Invalid mode selection")
+            return
+
+    except KeyboardInterrupt:
+        print("\n\n👋 Process interrupted by user")
+    except Exception as e:
+        print(f"\n❌ Unexpected error: {str(e)}")
+
 
 if __name__ == "__main__":
-    # 测试主流程模式
-    print("🧪 测试 test_func_5_int.py 主流程模式")
-    result = filter_events_by_constraints_and_tariff(test_mode=False)
-    print("\n📋 主流程模式结果:")
-    print(f"   状态: {result['status']}")
-    print(f"   处理的电价方案: {result['processed_tariffs']}")
-    print(f"   输出文件数: {len(result['output_files'])}")
-
-    print("\n" + "="*50)
-
-    # 测试测试模式
-    print("🧪 测试测试模式")
-    test_result = activate_test_mode_tariffs()
-    print("\n📋 测试模式结果:")
-    print(f"   状态: {test_result['status']}")
-    print(f"   处理的电价方案: {test_result['processed_tariffs']}")
-    print(f"   输出文件数: {len(test_result['output_files'])}")
+    main()

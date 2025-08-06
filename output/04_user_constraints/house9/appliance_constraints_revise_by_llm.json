@@ -1,7 +1,7 @@
 {
   "house_id": "house9",
-  "generated_time": "2025-08-05T17:33:57.012806",
-  "user_input": "Set forbidden operating time for Washing Machine, Tumble Dryer, and Dishwasher as 23:30 to 06:00 (next day);\nEnsure each event completes by 14:00 the next day (i.e., 38:00);\nIgnore events shorter than 5 minutes;\nKeep all other appliance rules as default.",
+  "generated_time": "2025-08-06T11:01:23.465525",
+  "user_input": "For Washing Machine, Tumble Dryer, and Dishwasher:\n- Replace the default forbidden operating time with 23:30 to 06:00 (next day);\n- Set latest_finish to 14:00 of the next day (i.e., 38:00);\n- Ignore all events shorter than 5 minutes.\nKeep all other appliances with default scheduling rules.",
   "llm_parsing_success": true,
   "appliance_constraints": {
     "Fridge-Freezer": {
