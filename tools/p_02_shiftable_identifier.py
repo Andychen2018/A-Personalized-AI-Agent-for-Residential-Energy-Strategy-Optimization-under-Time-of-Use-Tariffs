@@ -63,10 +63,9 @@ def infer_shiftability(name_input: str, shift_dict: Dict[str, Dict], llm_client:
     """
     Priority: match shift_dict by English name (key); otherwise match aliases or Chinese name; fallback to LLM if all fail.
 
+    **重要修改**: 保持电器名称的唯一性，不将带编号的电器名称标准化
     """
-    # """
-    # 优先用英文名（主键）匹配 shift_dict，否则使用 aliases 和中文名匹配；都失败则 fallback 到 LLM 判断。
-    # """
+    original_name = name_input.strip()  # 保留原始名称
     normalized_input = name_input.strip().lower()
 
     # 构建查找表： alias / 中文名 / 英文名（主键） → 标准英文名
@@ -88,16 +87,39 @@ def infer_shiftability(name_input: str, shift_dict: Dict[str, Dict], llm_client:
             if key_cn and key_cn not in name_lookup:
                 name_lookup[key_cn] = (eng_name, props["shiftability"], "dict")
 
-    # ✅ 字典匹配成功
+    # ✅ 1. 精确匹配
     if normalized_input in name_lookup:
-        return name_lookup[normalized_input]
+        matched_eng_name, shiftability, source = name_lookup[normalized_input]
+        # 如果原始名称有编号或特殊标识，保留它们
+        if original_name != matched_eng_name and ("(" in original_name or "site" in original_name.lower()):
+            return original_name, shiftability, source  # 保持原始名称
+        else:
+            return matched_eng_name, shiftability, source  # 使用标准名称
 
-    # ❌ fallback to LLM
+    # ✅ 2. 智能匹配：处理带编号的电器名称
+    base_name = original_name
+    if "(" in original_name:
+        base_name = original_name.split("(")[0].strip()
+    elif "site" in original_name.lower():
+        base_name = original_name.replace(" Site", "").replace(" site", "")
+
+    # 用基础名称匹配字典
+    base_normalized = base_name.lower()
+    if base_normalized in name_lookup and base_name != original_name:
+        matched_eng_name, shiftability, source = name_lookup[base_normalized]
+        return original_name, shiftability, source  # 保持原始名称，但使用匹配到的shiftability
+
+    # ❌ fallback to LLM - 但尝试保持原始名称的唯一性
     print(f"⚠️ No match found in local dictionary. Falling back to LLM to determine shiftability: {name_input}")
-    # print(f"⚠️ 未匹配到本地字典，调用 LLM 判断 shiftability: {name_input}")
+
+    # 检查是否是带编号的已知电器类型
+    base_name = original_name
+    if "(" in original_name:
+        # 提取基础名称用于LLM查询，但保留完整名称
+        base_name = original_name.split("(")[0].strip()
 
     prompt = (
-        f"Appliance Chinese name: {name_input}.\n"
+        f"Appliance name: {base_name}.\n"
         "Please determine whether it belongs to one of the following three categories: Shiftable, Non-shiftable, or Base.\n"
         "Also return the English name of the appliance.\n"
         "Important requirements:\n"
@@ -120,28 +142,61 @@ def infer_shiftability(name_input: str, shift_dict: Dict[str, Dict], llm_client:
         json_str = response['content'].strip("```json").strip()
         if not json_str:
             print("⚠️ LLM response content is empty and cannot be parsed.")
-            # print("⚠️ LLM 响应内容为空，无法解析。")
-            return "Unknown", "Unknown", "llm"
+            return original_name, "Unknown", "llm"  # 保持原始名称
         result = json.loads(json_str)
         eng_name = result.get("english_name", "Unknown")
         shift = result.get("shiftability", "Unknown").capitalize()
         if shift not in {"Shiftable", "Non-shiftable", "Base"}:
             shift = "Unknown"
-        return eng_name, shift, "llm"
-    except Exception as e:
+
+        # 如果原始名称有编号或特殊标识，保留原始名称而不是LLM返回的标准名称
+        if original_name != base_name and ("(" in original_name or "site" in original_name.lower()):
+            return original_name, shift, "llm"  # 保持原始名称的唯一性
+        else:
+            return eng_name, shift, "llm"  # 使用LLM返回的标准名称
+
+    except Exception:
         print("⚠️ Unable to parse LLM response:", response)
-        # print("⚠️ 无法解析 LLM 响应：", response)
-        return "Unknown", "Unknown", "llm"
+        # 即使解析失败，也要保持原始名称的唯一性
+        return original_name, "Unknown", "llm"
 
 
 
 # 5. 获取设备的 Pmin, Tmin（支持分类默认值）
 def get_threshold_for_device(eng_name: str, shiftability: str, threshold_dict: Dict[str, Dict]) -> Tuple[float, int, str]:
+    """
+    获取设备的Pmin, Tmin参数，支持带编号的电器名称智能匹配
+    """
+    # 1. 精确匹配
     for key in threshold_dict:
         if key.lower() == eng_name.lower():
             val = threshold_dict[key]
             return val.get("Pmin", 2.0), val.get("Tmin", 1), "dict"
 
+    # 2. 智能匹配：处理带编号的电器名称
+    # 如 "Washing Machine (1)" -> "Washing Machine"
+    base_name = eng_name
+    if "(" in eng_name:
+        base_name = eng_name.split("(")[0].strip()
+    elif "site" in eng_name.lower():
+        # 如 "Computer Site" -> "Computer"
+        base_name = eng_name.replace(" Site", "").replace(" site", "")
+
+    # 用基础名称再次匹配
+    if base_name != eng_name:
+        for key in threshold_dict:
+            if key.lower() == base_name.lower():
+                val = threshold_dict[key]
+                return val.get("Pmin", 2.0), val.get("Tmin", 1), "dict"
+
+    # 3. 模糊匹配：检查是否包含关键词
+    for key in threshold_dict:
+        if base_name.lower() in key.lower() or key.lower() in base_name.lower():
+            if len(base_name) >= 4:  # 避免过短的匹配
+                val = threshold_dict[key]
+                return val.get("Pmin", 2.0), val.get("Tmin", 1), "dict"
+
+    # 4. 默认值
     if shiftability == "Base":
         return 1.0, 5, "base-default"
 

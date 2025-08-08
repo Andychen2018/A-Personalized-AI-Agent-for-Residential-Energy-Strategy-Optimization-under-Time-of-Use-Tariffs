@@ -2,8 +2,8 @@ ApplianceID,ApplianceName,ChineseName,Shiftability,Pmin,Tmin,Source,ThresholdSou
 Appliance1,Fridge,Fridge,Base,2,2,dict,dict
 Appliance2,Freezer,Freezer,Base,2,2,dict,dict
 Appliance3,Fridge-Freezer,Fridge-Freezer,Base,2,2,dict,dict
-Appliance4,Washing Machine,Washing Machine (1),Shiftable,2,1,llm,dict
-Appliance5,Washing Machine,Washing Machine (2),Shiftable,2,1,llm,dict
+Appliance4,Washing Machine (1),Washing Machine (1),Shiftable,2,1,dict,dict
+Appliance5,Washing Machine (2),Washing Machine (2),Shiftable,2,1,dict,dict
 Appliance6,Computer Site,Computer Site,Non-shiftable,2,2,dict,dict
 Appliance7,Television Site,Television Site,Non-shiftable,2,2,dict,dict
 Appliance8,Microwave,Microwave,Non-shiftable,2,2,dict,dict

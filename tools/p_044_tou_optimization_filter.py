@@ -192,6 +192,8 @@ def should_keep_for_tou_rescheduling(level_minutes, price_info, threshold_minute
     """
     TOU filtering logic: Determine if events are worth rescheduling
     Keep events that have >= 5 minutes in non-lowest price periods
+
+    🎯 改进版本：考虑绝对价格差异，而不仅仅是相对等级
     """
     if not level_minutes:
         return False
@@ -205,11 +207,27 @@ def should_keep_for_tou_rescheduling(level_minutes, price_info, threshold_minute
     if low_price_minutes == total_minutes:
         return False
 
-    # 3. Calculate time in non-lowest price levels (Level 1, Level 2, etc.)
+    # 🎯 改进：计算加权价格差异，而不仅仅看等级
+    lowest_price = price_info["levels"][price_info["min_level"]]
+
+    # 计算事件在高价格时段的加权时间和价格差异
+    high_price_weighted_minutes = 0
+    for level, minutes in level_minutes.items():
+        if level > price_info["min_level"]:
+            current_price = price_info["levels"][level]
+            price_diff = current_price - lowest_price
+            # 价格差异越大，权重越高
+            high_price_weighted_minutes += minutes * (price_diff / lowest_price)
+
+    # 3. 如果加权高价格时间 >= 阈值，值得调度
+    # 这样可以更好地处理季节性价格差异
+    if high_price_weighted_minutes >= threshold_minutes * 0.1:  # 降低阈值，因为使用了加权
+        return True
+
+    # 4. 备用逻辑：如果在非最低价格等级的时间 >= 阈值，也值得调度
     non_low_price_minutes = sum(minutes for level, minutes in level_minutes.items()
                                if level > price_info["min_level"])
 
-    # 4. If time in non-lowest price levels >= threshold, worth rescheduling
     if non_low_price_minutes >= threshold_minutes:
         return True
 

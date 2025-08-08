@@ -2,7 +2,7 @@ ApplianceID,ApplianceName,ChineseName,Shiftability,Pmin,Tmin,Source,ThresholdSou
 Appliance1,Freezer,Freezer,Base,2.0,2.0,dict,dict
 Appliance2,Washing Machine,Washing Machine,Shiftable,2.0,1.0,dict,dict
 Appliance3,Dishwasher,Dishwasher,Shiftable,3.0,1.5,dict,dict
-Appliance4,Computer,MJY Computer,Non-shiftable,2.0,1.0,llm,default
+Appliance4,Computer,MJY Computer,Non-shiftable,2.0,2.0,llm,dict
 Appliance5,Television Site,Television Site,Non-shiftable,2.0,2.0,dict,dict
 Appliance6,Microwave,Microwave,Non-shiftable,2.0,2.0,dict,dict
 Appliance7,Kettle,Kettle,Non-shiftable,2.0,2.0,dict,dict

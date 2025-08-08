@@ -52,5 +52,53 @@
   "Standard": {
     "type": "flat",
     "rate": 0.3
+  },
+  "Germany_Variable": {
+    "type": "time_based",
+    "periods": [
+      {
+        "start": "22:00",
+        "end": "06:00",
+        "rate": 0.20
+      },
+      {
+        "start": "06:00",
+        "end": "22:00",
+        "rate": 0.30
+      }
+    ]
+  },
+  "TOU_D": {
+    "type": "seasonal_time_based",
+    "summer": {
+      "months": [6, 7, 8, 9],
+      "periods": [
+        {
+          "start": "16:00",
+          "end": "21:00",
+          "rate": 0.45
+        },
+        {
+          "start": "21:00",
+          "end": "16:00",
+          "rate": 0.25
+        }
+      ]
+    },
+    "winter": {
+      "months": [1, 2, 3, 4, 5, 10, 11, 12],
+      "periods": [
+        {
+          "start": "17:00",
+          "end": "20:00",
+          "rate": 0.35
+        },
+        {
+          "start": "20:00",
+          "end": "17:00",
+          "rate": 0.20
+        }
+      ]
+    }
   }
 }

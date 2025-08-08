@@ -26,10 +26,10 @@ Tumble_Dryer_2013-11-17_04,Tumble Dryer,Appliance4,Shiftable,2013-11-17 12:46:00
 Tumble_Dryer_2013-11-17_05,Tumble Dryer,Appliance4,Shiftable,2013-11-17 13:07:00,2013-11-17 13:40:00,33.0,1131.33,False,"{""0"": 33, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2013-11-17_07,Tumble Dryer,Appliance4,Shiftable,2013-11-17 16:44:00,2013-11-17 16:58:00,14.0,28636.34,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
 Tumble_Dryer_2013-11-19_01,Tumble Dryer,Appliance4,Shiftable,2013-11-19 11:58:00,2013-11-19 12:45:00,47.0,10297.2,True,"{""0"": 0, ""1"": 47}",1,1,1,1.0
-Tumble_Dryer_2013-11-19_02,Tumble Dryer,Appliance4,Shiftable,2013-11-19 12:57:00,2013-11-19 13:20:00,23.0,3808.56,False,"{""0"": 20, ""1"": 3}",0,1,0,0.0
+Tumble_Dryer_2013-11-19_02,Tumble Dryer,Appliance4,Shiftable,2013-11-19 12:57:00,2013-11-19 13:20:00,23.0,3808.56,True,"{""0"": 20, ""1"": 3}",0,1,0,0.0
 Tumble_Dryer_2013-11-19_03,Tumble Dryer,Appliance4,Shiftable,2013-11-19 13:25:00,2013-11-19 14:07:00,42.0,1348.68,False,"{""0"": 42, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2013-11-21_01,Tumble Dryer,Appliance4,Shiftable,2013-11-21 12:01:00,2013-11-21 12:52:00,51.0,9494.18,True,"{""0"": 0, ""1"": 51}",1,1,1,1.0
-Tumble_Dryer_2013-11-21_02,Tumble Dryer,Appliance4,Shiftable,2013-11-21 12:56:00,2013-11-21 13:27:00,31.0,2342.98,False,"{""0"": 27, ""1"": 4}",0,1,0,0.0
+Tumble_Dryer_2013-11-21_02,Tumble Dryer,Appliance4,Shiftable,2013-11-21 12:56:00,2013-11-21 13:27:00,31.0,2342.98,True,"{""0"": 27, ""1"": 4}",0,1,0,0.0
 Tumble_Dryer_2013-11-22_01,Tumble Dryer,Appliance4,Shiftable,2013-11-22 12:20:00,2013-11-22 13:10:00,50.0,12561.85,True,"{""0"": 10, ""1"": 40}",1,1,0,1.0
 Tumble_Dryer_2013-11-22_02,Tumble Dryer,Appliance4,Shiftable,2013-11-22 13:25:00,2013-11-22 14:11:00,46.0,30555.53,False,"{""0"": 46, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2013-11-23_01,Tumble Dryer,Appliance4,Shiftable,2013-11-23 07:20:00,2013-11-23 07:43:00,23.0,66554.73,True,"{""0"": 0, ""1"": 23}",1,1,1,1.0
@@ -73,7 +73,7 @@ Tumble_Dryer_2013-12-06_04,Tumble Dryer,Appliance4,Shiftable,2013-12-06 18:20:00
 Tumble_Dryer_2013-12-07_01,Tumble Dryer,Appliance4,Shiftable,2013-12-07 12:37:00,2013-12-07 13:25:00,48.0,40596.33,True,"{""0"": 25, ""1"": 23}",0,1,0,0.0
 Tumble_Dryer_2013-12-07_02,Tumble Dryer,Appliance4,Shiftable,2013-12-07 13:26:00,2013-12-07 13:43:00,17.0,36641.78,False,"{""0"": 17, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2013-12-07_03,Tumble Dryer,Appliance4,Shiftable,2013-12-07 18:23:00,2013-12-07 19:06:00,43.0,57062.64,True,"{""0"": 0, ""1"": 43}",1,1,1,1.0
-Tumble_Dryer_2013-12-07_04,Tumble Dryer,Appliance4,Shiftable,2013-12-07 21:02:00,2013-12-07 22:02:00,60.0,108855.24,False,"{""0"": 58, ""1"": 2}",0,0,1,0.0
+Tumble_Dryer_2013-12-07_04,Tumble Dryer,Appliance4,Shiftable,2013-12-07 21:02:00,2013-12-07 22:02:00,60.0,108855.24,True,"{""0"": 58, ""1"": 2}",0,0,1,0.0
 Tumble_Dryer_2013-12-09_01,Tumble Dryer,Appliance4,Shiftable,2013-12-09 12:10:00,2013-12-09 13:00:00,50.0,14516.45,True,"{""0"": 0, ""1"": 50}",1,1,0,1.0
 Tumble_Dryer_2013-12-09_02,Tumble Dryer,Appliance4,Shiftable,2013-12-09 13:08:00,2013-12-09 13:45:00,37.0,2989.41,False,"{""0"": 37, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2013-12-09_03,Tumble Dryer,Appliance4,Shiftable,2013-12-09 13:47:00,2013-12-09 14:41:00,54.0,7005.73,False,"{""0"": 54, ""1"": 0}",0,0,0,0.0
@@ -106,7 +106,7 @@ Tumble_Dryer_2013-12-21_01,Tumble Dryer,Appliance4,Shiftable,2013-12-21 09:01:00
 Tumble_Dryer_2013-12-21_02,Tumble Dryer,Appliance4,Shiftable,2013-12-21 10:04:00,2013-12-21 11:02:00,58.0,82509.2,True,"{""0"": 0, ""1"": 58}",1,1,1,1.0
 Tumble_Dryer_2013-12-21_04,Tumble Dryer,Appliance4,Shiftable,2013-12-21 11:09:00,2013-12-21 11:57:00,48.0,32361.95,True,"{""0"": 0, ""1"": 48}",1,1,1,1.0
 Tumble_Dryer_2013-12-21_05,Tumble Dryer,Appliance4,Shiftable,2013-12-21 12:17:00,2013-12-21 12:39:00,22.0,1601.0,True,"{""0"": 0, ""1"": 22}",1,1,1,1.0
-Tumble_Dryer_2013-12-21_06,Tumble Dryer,Appliance4,Shiftable,2013-12-21 15:24:00,2013-12-21 16:03:00,39.0,90613.83,False,"{""0"": 36, ""1"": 3}",0,0,1,0.0
+Tumble_Dryer_2013-12-21_06,Tumble Dryer,Appliance4,Shiftable,2013-12-21 15:24:00,2013-12-21 16:03:00,39.0,90613.83,True,"{""0"": 36, ""1"": 3}",0,0,1,0.0
 Tumble_Dryer_2013-12-21_07,Tumble Dryer,Appliance4,Shiftable,2013-12-21 16:05:00,2013-12-21 16:59:00,54.0,100626.22,True,"{""0"": 0, ""1"": 54}",1,1,1,1.0
 Tumble_Dryer_2013-12-22_01,Tumble Dryer,Appliance4,Shiftable,2013-12-22 11:37:00,2013-12-22 12:28:00,51.0,43958.74,True,"{""0"": 0, ""1"": 51}",1,1,1,1.0
 Tumble_Dryer_2013-12-22_02,Tumble Dryer,Appliance4,Shiftable,2013-12-22 13:54:00,2013-12-22 14:18:00,24.0,55879.01,False,"{""0"": 24, ""1"": 0}",0,0,0,0.0
@@ -161,7 +161,7 @@ Tumble_Dryer_2014-01-10_03,Tumble Dryer,Appliance4,Shiftable,2014-01-10 12:52:00
 Tumble_Dryer_2014-01-11_01,Tumble Dryer,Appliance4,Shiftable,2014-01-11 09:10:00,2014-01-11 10:02:00,52.0,20718.47,True,"{""0"": 0, ""1"": 52}",1,1,1,1.0
 Tumble_Dryer_2014-01-11_02,Tumble Dryer,Appliance4,Shiftable,2014-01-11 14:33:00,2014-01-11 15:31:00,58.0,3760.8,False,"{""0"": 58, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2014-01-11_03,Tumble Dryer,Appliance4,Shiftable,2014-01-11 15:41:00,2014-01-11 15:54:00,13.0,32675.73,False,"{""0"": 13, ""1"": 0}",0,0,0,0.0
-Tumble_Dryer_2014-01-11_04,Tumble Dryer,Appliance4,Shiftable,2014-01-11 15:55:00,2014-01-11 16:04:00,9.0,11012.92,False,"{""0"": 5, ""1"": 4}",0,0,1,0.0
+Tumble_Dryer_2014-01-11_04,Tumble Dryer,Appliance4,Shiftable,2014-01-11 15:55:00,2014-01-11 16:04:00,9.0,11012.92,True,"{""0"": 5, ""1"": 4}",0,0,1,0.0
 Tumble_Dryer_2014-01-11_05,Tumble Dryer,Appliance4,Shiftable,2014-01-11 19:47:00,2014-01-11 20:37:00,50.0,54357.28,True,"{""0"": 37, ""1"": 13}",0,1,0,0.0
 Tumble_Dryer_2014-01-11_06,Tumble Dryer,Appliance4,Shiftable,2014-01-11 20:43:00,2014-01-11 21:00:00,17.0,15644.25,False,"{""0"": 17, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2014-01-12_01,Tumble Dryer,Appliance4,Shiftable,2014-01-12 11:42:00,2014-01-12 12:17:00,35.0,64939.78,True,"{""0"": 0, ""1"": 35}",1,1,1,1.0
@@ -264,7 +264,7 @@ Tumble_Dryer_2014-04-24_01,Tumble Dryer,Appliance4,Shiftable,2014-04-24 18:11:00
 Tumble_Dryer_2014-04-24_02,Tumble Dryer,Appliance4,Shiftable,2014-04-24 20:41:00,2014-04-24 21:10:00,29.0,26305.35,False,"{""0"": 29, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2014-04-25_01,Tumble Dryer,Appliance4,Shiftable,2014-04-25 10:25:00,2014-04-25 11:15:00,50.0,28348.95,True,"{""0"": 0, ""1"": 50}",1,1,1,1.0
 Tumble_Dryer_2014-04-26_01,Tumble Dryer,Appliance4,Shiftable,2014-04-26 17:28:00,2014-04-26 17:33:00,5.0,11830.04,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
-Tumble_Dryer_2014-04-26_02,Tumble Dryer,Appliance4,Shiftable,2014-04-26 19:56:00,2014-04-26 20:18:00,22.0,19597.27,False,"{""0"": 18, ""1"": 4}",0,1,0,0.0
+Tumble_Dryer_2014-04-26_02,Tumble Dryer,Appliance4,Shiftable,2014-04-26 19:56:00,2014-04-26 20:18:00,22.0,19597.27,True,"{""0"": 18, ""1"": 4}",0,1,0,0.0
 Tumble_Dryer_2014-04-27_02,Tumble Dryer,Appliance4,Shiftable,2014-04-27 16:48:00,2014-04-27 17:12:00,24.0,1920.14,True,"{""0"": 0, ""1"": 24}",1,1,1,1.0
 Tumble_Dryer_2014-05-01_01,Tumble Dryer,Appliance4,Shiftable,2014-05-01 13:31:00,2014-05-01 13:41:00,10.0,226.64,False,"{""0"": 10, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2014-05-01_02,Tumble Dryer,Appliance4,Shiftable,2014-05-01 13:50:00,2014-05-01 14:00:00,10.0,86.76,False,"{""0"": 10, ""1"": 0}",0,0,0,0.0
@@ -362,7 +362,7 @@ Tumble_Dryer_2014-10-06_01,Tumble Dryer,Appliance4,Shiftable,2014-10-06 15:57:00
 Tumble_Dryer_2014-10-07_01,Tumble Dryer,Appliance4,Shiftable,2014-10-07 07:25:00,2014-10-07 07:53:00,28.0,68477.89,True,"{""0"": 0, ""1"": 28}",1,1,1,1.0
 Tumble_Dryer_2014-10-07_02,Tumble Dryer,Appliance4,Shiftable,2014-10-07 18:53:00,2014-10-07 19:34:00,41.0,53708.52,True,"{""0"": 0, ""1"": 41}",1,1,1,1.0
 Tumble_Dryer_2014-10-08_01,Tumble Dryer,Appliance4,Shiftable,2014-10-08 12:00:00,2014-10-08 12:48:00,48.0,4339.28,True,"{""0"": 0, ""1"": 48}",1,1,1,1.0
-Tumble_Dryer_2014-10-08_02,Tumble Dryer,Appliance4,Shiftable,2014-10-08 12:56:00,2014-10-08 13:27:00,31.0,5768.71,False,"{""0"": 27, ""1"": 4}",0,1,0,0.0
+Tumble_Dryer_2014-10-08_02,Tumble Dryer,Appliance4,Shiftable,2014-10-08 12:56:00,2014-10-08 13:27:00,31.0,5768.71,True,"{""0"": 27, ""1"": 4}",0,1,0,0.0
 Tumble_Dryer_2014-10-09_01,Tumble Dryer,Appliance4,Shiftable,2014-10-09 17:07:00,2014-10-09 17:33:00,26.0,9406.65,True,"{""0"": 0, ""1"": 26}",1,1,1,1.0
 Tumble_Dryer_2014-10-10_01,Tumble Dryer,Appliance4,Shiftable,2014-10-10 11:26:00,2014-10-10 11:43:00,17.0,1844.51,True,"{""0"": 0, ""1"": 17}",1,1,1,1.0
 Tumble_Dryer_2014-10-10_02,Tumble Dryer,Appliance4,Shiftable,2014-10-10 16:26:00,2014-10-10 16:33:00,7.0,13848.17,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
@@ -392,7 +392,7 @@ Tumble_Dryer_2014-10-18_04,Tumble Dryer,Appliance4,Shiftable,2014-10-18 16:20:00
 Tumble_Dryer_2014-10-18_05,Tumble Dryer,Appliance4,Shiftable,2014-10-18 16:34:00,2014-10-18 16:52:00,18.0,8078.38,True,"{""0"": 0, ""1"": 18}",1,1,1,1.0
 Tumble_Dryer_2014-10-18_06,Tumble Dryer,Appliance4,Shiftable,2014-10-18 22:19:00,2014-10-18 22:26:00,7.0,9877.29,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
 Tumble_Dryer_2014-10-19_01,Tumble Dryer,Appliance4,Shiftable,2014-10-19 10:27:00,2014-10-19 10:42:00,15.0,33646.57,True,"{""0"": 0, ""1"": 15}",1,1,1,1.0
-Tumble_Dryer_2014-10-20_01,Tumble Dryer,Appliance4,Shiftable,2014-10-20 19:56:00,2014-10-20 20:36:00,40.0,84367.38,False,"{""0"": 36, ""1"": 4}",0,1,0,0.0
+Tumble_Dryer_2014-10-20_01,Tumble Dryer,Appliance4,Shiftable,2014-10-20 19:56:00,2014-10-20 20:36:00,40.0,84367.38,True,"{""0"": 36, ""1"": 4}",0,1,0,0.0
 Tumble_Dryer_2014-10-20_02,Tumble Dryer,Appliance4,Shiftable,2014-10-20 20:58:00,2014-10-20 21:11:00,13.0,23587.76,False,"{""0"": 13, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2014-10-21_01,Tumble Dryer,Appliance4,Shiftable,2014-10-21 07:18:00,2014-10-21 07:51:00,33.0,69838.73,True,"{""0"": 0, ""1"": 33}",1,1,1,1.0
 Tumble_Dryer_2014-10-21_02,Tumble Dryer,Appliance4,Shiftable,2014-10-21 17:44:00,2014-10-21 18:05:00,21.0,55974.79,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
@@ -525,7 +525,7 @@ Tumble_Dryer_2014-12-20_02,Tumble Dryer,Appliance4,Shiftable,2014-12-20 12:11:00
 Tumble_Dryer_2014-12-20_03,Tumble Dryer,Appliance4,Shiftable,2014-12-20 14:30:00,2014-12-20 15:14:00,44.0,4440.92,False,"{""0"": 44, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2014-12-20_04,Tumble Dryer,Appliance4,Shiftable,2014-12-20 17:27:00,2014-12-20 18:10:00,43.0,87754.81,True,"{""0"": 0, ""1"": 43}",1,1,1,1.0
 Tumble_Dryer_2014-12-21_01,Tumble Dryer,Appliance4,Shiftable,2014-12-21 16:24:00,2014-12-21 16:59:00,35.0,16211.51,True,"{""0"": 0, ""1"": 35}",1,1,1,1.0
-Tumble_Dryer_2014-12-21_02,Tumble Dryer,Appliance4,Shiftable,2014-12-21 19:59:00,2014-12-21 20:53:00,54.0,84549.87,False,"{""0"": 53, ""1"": 1}",0,1,0,0.0
+Tumble_Dryer_2014-12-21_02,Tumble Dryer,Appliance4,Shiftable,2014-12-21 19:59:00,2014-12-21 20:53:00,54.0,84549.87,True,"{""0"": 53, ""1"": 1}",0,1,0,0.0
 Tumble_Dryer_2014-12-22_01,Tumble Dryer,Appliance4,Shiftable,2014-12-22 08:38:00,2014-12-22 08:52:00,14.0,37017.92,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
 Tumble_Dryer_2014-12-22_02,Tumble Dryer,Appliance4,Shiftable,2014-12-22 16:19:00,2014-12-22 17:17:00,58.0,130176.97,True,"{""0"": 0, ""1"": 58}",1,1,1,1.0
 Tumble_Dryer_2014-12-22_03,Tumble Dryer,Appliance4,Shiftable,2014-12-22 17:18:00,2014-12-22 17:46:00,28.0,46754.08,True,"{""0"": 0, ""1"": 28}",1,1,1,1.0
@@ -555,7 +555,7 @@ Tumble_Dryer_2015-01-04_02,Tumble Dryer,Appliance4,Shiftable,2015-01-04 18:12:00
 Tumble_Dryer_2015-01-05_01,Tumble Dryer,Appliance4,Shiftable,2015-01-05 12:02:00,2015-01-05 12:54:00,52.0,7315.91,True,"{""0"": 0, ""1"": 52}",1,1,1,1.0
 Tumble_Dryer_2015-01-05_02,Tumble Dryer,Appliance4,Shiftable,2015-01-05 20:25:00,2015-01-05 21:17:00,52.0,83275.54,False,"{""0"": 52, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2015-01-06_01,Tumble Dryer,Appliance4,Shiftable,2015-01-06 19:41:00,2015-01-06 20:45:00,64.0,99364.16,True,"{""0"": 45, ""1"": 19}",0,1,0,0.0
-Tumble_Dryer_2015-01-07_01,Tumble Dryer,Appliance4,Shiftable,2015-01-07 12:58:00,2015-01-07 13:40:00,42.0,29578.22,False,"{""0"": 40, ""1"": 2}",0,1,0,0.0
+Tumble_Dryer_2015-01-07_01,Tumble Dryer,Appliance4,Shiftable,2015-01-07 12:58:00,2015-01-07 13:40:00,42.0,29578.22,True,"{""0"": 40, ""1"": 2}",0,1,0,0.0
 Tumble_Dryer_2015-01-08_01,Tumble Dryer,Appliance4,Shiftable,2015-01-08 18:25:00,2015-01-08 19:10:00,45.0,78603.43,True,"{""0"": 0, ""1"": 45}",1,1,1,1.0
 Tumble_Dryer_2015-01-09_01,Tumble Dryer,Appliance4,Shiftable,2015-01-09 12:14:00,2015-01-09 12:31:00,17.0,2090.89,True,"{""0"": 0, ""1"": 17}",1,1,1,1.0
 Tumble_Dryer_2015-01-09_02,Tumble Dryer,Appliance4,Shiftable,2015-01-09 12:52:00,2015-01-09 13:12:00,20.0,42632.89,True,"{""0"": 12, ""1"": 8}",0,1,0,0.0
@@ -588,7 +588,7 @@ Tumble_Dryer_2015-01-21_01,Tumble Dryer,Appliance4,Shiftable,2015-01-21 13:05:00
 Tumble_Dryer_2015-01-21_02,Tumble Dryer,Appliance4,Shiftable,2015-01-21 13:56:00,2015-01-21 14:25:00,29.0,13934.97,False,"{""0"": 29, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2015-01-22_01,Tumble Dryer,Appliance4,Shiftable,2015-01-22 17:00:00,2015-01-22 17:40:00,40.0,78490.98,True,"{""0"": 0, ""1"": 40}",1,1,1,1.0
 Tumble_Dryer_2015-01-22_02,Tumble Dryer,Appliance4,Shiftable,2015-01-22 18:30:00,2015-01-22 18:46:00,16.0,37705.69,True,"{""0"": 0, ""1"": 16}",1,1,1,1.0
-Tumble_Dryer_2015-01-22_03,Tumble Dryer,Appliance4,Shiftable,2015-01-22 19:58:00,2015-01-22 20:25:00,27.0,43118.72,False,"{""0"": 25, ""1"": 2}",0,1,0,0.0
+Tumble_Dryer_2015-01-22_03,Tumble Dryer,Appliance4,Shiftable,2015-01-22 19:58:00,2015-01-22 20:25:00,27.0,43118.72,True,"{""0"": 25, ""1"": 2}",0,1,0,0.0
 Tumble_Dryer_2015-01-23_01,Tumble Dryer,Appliance4,Shiftable,2015-01-23 08:28:00,2015-01-23 08:49:00,21.0,39687.84,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
 Tumble_Dryer_2015-01-23_02,Tumble Dryer,Appliance4,Shiftable,2015-01-23 11:10:00,2015-01-23 12:02:00,52.0,12654.66,True,"{""0"": 0, ""1"": 52}",1,1,1,1.0
 Tumble_Dryer_2015-01-23_03,Tumble Dryer,Appliance4,Shiftable,2015-01-23 13:40:00,2015-01-23 13:52:00,12.0,388.16,False,"{""0"": 12, ""1"": 0}",0,0,0,0.0
@@ -613,7 +613,7 @@ Tumble_Dryer_2015-01-30_03,Tumble Dryer,Appliance4,Shiftable,2015-01-30 19:17:00
 Tumble_Dryer_2015-01-31_01,Tumble Dryer,Appliance4,Shiftable,2015-01-31 08:27:00,2015-01-31 09:25:00,58.0,112280.37,True,"{""0"": 0, ""1"": 58}",1,1,1,1.0
 Tumble_Dryer_2015-01-31_02,Tumble Dryer,Appliance4,Shiftable,2015-01-31 10:57:00,2015-01-31 11:34:00,37.0,4343.11,True,"{""0"": 0, ""1"": 37}",1,1,1,1.0
 Tumble_Dryer_2015-01-31_03,Tumble Dryer,Appliance4,Shiftable,2015-01-31 13:24:00,2015-01-31 13:53:00,29.0,4239.54,False,"{""0"": 29, ""1"": 0}",0,0,0,0.0
-Tumble_Dryer_2015-02-01_01,Tumble Dryer,Appliance4,Shiftable,2015-02-01 12:59:00,2015-02-01 14:08:00,69.0,74827.95,False,"{""0"": 68, ""1"": 1}",0,1,0,0.0
+Tumble_Dryer_2015-02-01_01,Tumble Dryer,Appliance4,Shiftable,2015-02-01 12:59:00,2015-02-01 14:08:00,69.0,74827.95,True,"{""0"": 68, ""1"": 1}",0,1,0,0.0
 Tumble_Dryer_2015-02-02_01,Tumble Dryer,Appliance4,Shiftable,2015-02-02 15:24:00,2015-02-02 16:13:00,49.0,4393.24,True,"{""0"": 36, ""1"": 13}",0,0,1,0.0
 Tumble_Dryer_2015-02-02_02,Tumble Dryer,Appliance4,Shiftable,2015-02-02 16:25:00,2015-02-02 16:55:00,30.0,52757.89,True,"{""0"": 0, ""1"": 30}",1,1,1,1.0
 Tumble_Dryer_2015-02-03_01,Tumble Dryer,Appliance4,Shiftable,2015-02-03 13:33:00,2015-02-03 14:17:00,44.0,98532.19,False,"{""0"": 44, ""1"": 0}",0,0,0,0.0
@@ -698,7 +698,7 @@ Tumble_Dryer_2015-03-17_02,Tumble Dryer,Appliance4,Shiftable,2015-03-17 18:33:00
 Tumble_Dryer_2015-03-18_01,Tumble Dryer,Appliance4,Shiftable,2015-03-18 14:32:00,2015-03-18 15:03:00,31.0,53925.41,False,"{""0"": 31, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2015-03-19_01,Tumble Dryer,Appliance4,Shiftable,2015-03-19 16:59:00,2015-03-19 17:51:00,52.0,114957.68,True,"{""0"": 0, ""1"": 52}",1,1,1,1.0
 Tumble_Dryer_2015-03-19_02,Tumble Dryer,Appliance4,Shiftable,2015-03-19 18:23:00,2015-03-19 18:55:00,32.0,47304.73,True,"{""0"": 0, ""1"": 32}",1,1,1,1.0
-Tumble_Dryer_2015-03-20_01,Tumble Dryer,Appliance4,Shiftable,2015-03-20 15:33:00,2015-03-20 16:02:00,29.0,21880.12,False,"{""0"": 27, ""1"": 2}",0,0,1,0.0
+Tumble_Dryer_2015-03-20_01,Tumble Dryer,Appliance4,Shiftable,2015-03-20 15:33:00,2015-03-20 16:02:00,29.0,21880.12,True,"{""0"": 27, ""1"": 2}",0,0,1,0.0
 Tumble_Dryer_2015-03-20_02,Tumble Dryer,Appliance4,Shiftable,2015-03-20 16:53:00,2015-03-20 17:34:00,41.0,28847.53,True,"{""0"": 0, ""1"": 41}",1,1,1,1.0
 Tumble_Dryer_2015-03-20_03,Tumble Dryer,Appliance4,Shiftable,2015-03-20 18:46:00,2015-03-20 19:31:00,45.0,86324.49,True,"{""0"": 0, ""1"": 45}",1,1,1,1.0
 Tumble_Dryer_2015-03-21_01,Tumble Dryer,Appliance4,Shiftable,2015-03-21 08:54:00,2015-03-21 09:37:00,43.0,6621.68,True,"{""0"": 0, ""1"": 43}",1,1,1,1.0
@@ -757,14 +757,14 @@ Tumble_Dryer_2015-05-03_01,Tumble Dryer,Appliance4,Shiftable,2015-05-03 19:13:00
 Tumble_Dryer_2015-05-03_02,Tumble Dryer,Appliance4,Shiftable,2015-05-03 20:14:00,2015-05-03 20:41:00,27.0,10905.9,False,"{""0"": 27, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2015-05-04_01,Tumble Dryer,Appliance4,Shiftable,2015-05-04 17:51:00,2015-05-04 18:17:00,26.0,6145.2,True,"{""0"": 0, ""1"": 26}",1,1,1,1.0
 Tumble_Dryer_2015-05-04_02,Tumble Dryer,Appliance4,Shiftable,2015-05-04 20:51:00,2015-05-04 21:24:00,33.0,10635.07,False,"{""0"": 33, ""1"": 0}",0,0,0,0.0
-Tumble_Dryer_2015-05-05_01,Tumble Dryer,Appliance4,Shiftable,2015-05-05 19:56:00,2015-05-05 20:04:00,8.0,9438.07,False,"{""0"": 4, ""1"": 4}",0,1,0,0.0
+Tumble_Dryer_2015-05-05_01,Tumble Dryer,Appliance4,Shiftable,2015-05-05 19:56:00,2015-05-05 20:04:00,8.0,9438.07,True,"{""0"": 4, ""1"": 4}",0,1,0,0.0
 Tumble_Dryer_2015-05-05_02,Tumble Dryer,Appliance4,Shiftable,2015-05-05 21:00:00,2015-05-05 21:10:00,10.0,28284.38,False,"{""0"": 10, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2015-05-06_01,Tumble Dryer,Appliance4,Shiftable,2015-05-06 14:21:00,2015-05-06 15:07:00,46.0,9906.64,False,"{""0"": 46, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2015-05-06_02,Tumble Dryer,Appliance4,Shiftable,2015-05-06 19:50:00,2015-05-06 20:16:00,26.0,11409.9,True,"{""0"": 16, ""1"": 10}",0,1,0,0.0
 Tumble_Dryer_2015-05-06_03,Tumble Dryer,Appliance4,Shiftable,2015-05-06 20:17:00,2015-05-06 20:57:00,40.0,45423.11,False,"{""0"": 40, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2015-05-06_04,Tumble Dryer,Appliance4,Shiftable,2015-05-06 21:32:00,2015-05-06 21:46:00,14.0,20665.87,False,"{""0"": 14, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2015-05-07_01,Tumble Dryer,Appliance4,Shiftable,2015-05-07 18:45:00,2015-05-07 18:57:00,12.0,421.68,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
-Tumble_Dryer_2015-05-07_02,Tumble Dryer,Appliance4,Shiftable,2015-05-07 21:34:00,2015-05-07 22:03:00,29.0,43599.09,False,"{""0"": 26, ""1"": 3}",0,0,1,0.0
+Tumble_Dryer_2015-05-07_02,Tumble Dryer,Appliance4,Shiftable,2015-05-07 21:34:00,2015-05-07 22:03:00,29.0,43599.09,True,"{""0"": 26, ""1"": 3}",0,0,1,0.0
 Tumble_Dryer_2015-05-08_01,Tumble Dryer,Appliance4,Shiftable,2015-05-08 17:19:00,2015-05-08 17:59:00,40.0,41435.2,True,"{""0"": 0, ""1"": 40}",1,1,1,1.0
 Tumble_Dryer_2015-05-08_02,Tumble Dryer,Appliance4,Shiftable,2015-05-08 18:06:00,2015-05-08 18:55:00,49.0,21033.84,True,"{""0"": 0, ""1"": 49}",1,1,1,1.0
 Tumble_Dryer_2015-05-08_03,Tumble Dryer,Appliance4,Shiftable,2015-05-08 19:36:00,2015-05-08 20:17:00,41.0,21757.75,True,"{""0"": 17, ""1"": 24}",1,1,0,1.0
@@ -773,7 +773,7 @@ Tumble_Dryer_2015-05-09_01,Tumble Dryer,Appliance4,Shiftable,2015-05-09 10:42:00
 Tumble_Dryer_2015-05-09_02,Tumble Dryer,Appliance4,Shiftable,2015-05-09 12:40:00,2015-05-09 13:05:00,25.0,6497.21,True,"{""0"": 5, ""1"": 20}",1,1,0,1.0
 Tumble_Dryer_2015-05-09_03,Tumble Dryer,Appliance4,Shiftable,2015-05-09 13:08:00,2015-05-09 13:21:00,13.0,1336.1,False,"{""0"": 13, ""1"": 0}",0,0,0,0.0
 Tumble_Dryer_2015-05-10_01,Tumble Dryer,Appliance4,Shiftable,2015-05-10 18:21:00,2015-05-10 18:32:00,11.0,501.0,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
-Tumble_Dryer_2015-05-10_02,Tumble Dryer,Appliance4,Shiftable,2015-05-10 21:29:00,2015-05-10 22:04:00,35.0,9737.92,False,"{""0"": 31, ""1"": 4}",0,0,1,0.0
+Tumble_Dryer_2015-05-10_02,Tumble Dryer,Appliance4,Shiftable,2015-05-10 21:29:00,2015-05-10 22:04:00,35.0,9737.92,True,"{""0"": 31, ""1"": 4}",0,0,1,0.0
 Tumble_Dryer_2015-05-19_01,Tumble Dryer,Appliance4,Shiftable,2015-05-19 21:55:00,2015-05-19 22:15:00,20.0,1251.78,True,"{""0"": 5, ""1"": 15}",1,0,1,1.0
 Tumble_Dryer_2015-05-20_01,Tumble Dryer,Appliance4,Shiftable,2015-05-20 16:28:00,2015-05-20 17:07:00,39.0,6708.26,True,"{""0"": 0, ""1"": 39}",1,1,1,1.0
 Tumble_Dryer_2015-05-20_02,Tumble Dryer,Appliance4,Shiftable,2015-05-20 20:34:00,2015-05-20 20:42:00,8.0,366.57,False,"{""0"": 8, ""1"": 0}",0,0,0,0.0
@@ -833,7 +833,7 @@ Washing_Machine_2013-11-22_01,Washing Machine,Appliance5,Shiftable,2013-11-22 08
 Washing_Machine_2013-11-22_02,Washing Machine,Appliance5,Shiftable,2013-11-22 19:24:00,2013-11-22 20:30:00,66.0,40383.62,True,"{""0"": 30, ""1"": 36}",1,1,0,1.0
 Washing_Machine_2013-11-23_01,Washing Machine,Appliance5,Shiftable,2013-11-23 07:21:00,2013-11-23 09:11:00,110.0,39968.7,True,"{""0"": 0, ""1"": 110}",1,1,1,1.0
 Washing_Machine_2013-11-23_02,Washing Machine,Appliance5,Shiftable,2013-11-23 12:31:00,2013-11-23 12:53:00,22.0,8095.53,True,"{""0"": 0, ""1"": 22}",1,1,1,1.0
-Washing_Machine_2013-11-23_03,Washing Machine,Appliance5,Shiftable,2013-11-23 12:56:00,2013-11-23 13:30:00,34.0,3661.93,False,"{""0"": 30, ""1"": 4}",0,1,0,0.0
+Washing_Machine_2013-11-23_03,Washing Machine,Appliance5,Shiftable,2013-11-23 12:56:00,2013-11-23 13:30:00,34.0,3661.93,True,"{""0"": 30, ""1"": 4}",0,1,0,0.0
 Washing_Machine_2013-11-23_05,Washing Machine,Appliance5,Shiftable,2013-11-23 18:23:00,2013-11-23 19:17:00,54.0,29015.26,True,"{""0"": 0, ""1"": 54}",1,1,1,1.0
 Washing_Machine_2013-11-24_01,Washing Machine,Appliance5,Shiftable,2013-11-24 08:47:00,2013-11-24 09:11:00,24.0,23764.28,True,"{""0"": 0, ""1"": 24}",1,1,1,1.0
 Washing_Machine_2013-11-24_02,Washing Machine,Appliance5,Shiftable,2013-11-24 09:12:00,2013-11-24 09:41:00,29.0,2159.87,True,"{""0"": 0, ""1"": 29}",1,1,1,1.0
@@ -879,7 +879,7 @@ Washing_Machine_2013-12-07_08,Washing Machine,Appliance5,Shiftable,2013-12-07 13
 Washing_Machine_2013-12-07_09,Washing Machine,Appliance5,Shiftable,2013-12-07 19:03:00,2013-12-07 20:52:00,109.0,37852.48,True,"{""0"": 52, ""1"": 57}",1,1,0,1.0
 Washing_Machine_2013-12-09_01,Washing Machine,Appliance5,Shiftable,2013-12-09 07:58:00,2013-12-09 08:57:00,59.0,30766.14,True,"{""0"": 0, ""1"": 59}",1,1,1,1.0
 Washing_Machine_2013-12-09_02,Washing Machine,Appliance5,Shiftable,2013-12-09 12:20:00,2013-12-09 12:58:00,38.0,17533.09,True,"{""0"": 0, ""1"": 38}",1,1,1,1.0
-Washing_Machine_2013-12-09_03,Washing Machine,Appliance5,Shiftable,2013-12-09 12:59:00,2013-12-09 13:15:00,16.0,1518.44,False,"{""0"": 15, ""1"": 1}",0,1,0,0.0
+Washing_Machine_2013-12-09_03,Washing Machine,Appliance5,Shiftable,2013-12-09 12:59:00,2013-12-09 13:15:00,16.0,1518.44,True,"{""0"": 15, ""1"": 1}",0,1,0,0.0
 Washing_Machine_2013-12-10_01,Washing Machine,Appliance5,Shiftable,2013-12-10 07:48:00,2013-12-10 09:41:00,113.0,39614.18,True,"{""0"": 0, ""1"": 113}",1,1,1,1.0
 Washing_Machine_2013-12-12_02,Washing Machine,Appliance5,Shiftable,2013-12-12 07:49:00,2013-12-12 08:51:00,62.0,36917.4,True,"{""0"": 0, ""1"": 62}",1,1,1,1.0
 Washing_Machine_2013-12-12_03,Washing Machine,Appliance5,Shiftable,2013-12-12 09:28:00,2013-12-12 10:33:00,65.0,31492.0,True,"{""0"": 0, ""1"": 65}",1,1,1,1.0
@@ -1122,7 +1122,7 @@ Washing_Machine_2014-05-22_01,Washing Machine,Appliance5,Shiftable,2014-05-22 16
 Washing_Machine_2014-05-23_01,Washing Machine,Appliance5,Shiftable,2014-05-23 06:42:00,2014-05-23 07:01:00,19.0,22294.97,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
 Washing_Machine_2014-05-23_02,Washing Machine,Appliance5,Shiftable,2014-05-23 07:03:00,2014-05-23 07:41:00,38.0,4448.25,True,"{""0"": 0, ""1"": 38}",1,1,1,1.0
 Washing_Machine_2014-05-24_01,Washing Machine,Appliance5,Shiftable,2014-05-24 11:11:00,2014-05-24 12:07:00,56.0,25988.44,True,"{""0"": 0, ""1"": 56}",1,1,1,1.0
-Washing_Machine_2014-05-24_02,Washing Machine,Appliance5,Shiftable,2014-05-24 12:59:00,2014-05-24 13:58:00,59.0,29416.85,False,"{""0"": 58, ""1"": 1}",0,1,0,0.0
+Washing_Machine_2014-05-24_02,Washing Machine,Appliance5,Shiftable,2014-05-24 12:59:00,2014-05-24 13:58:00,59.0,29416.85,True,"{""0"": 58, ""1"": 1}",0,1,0,0.0
 Washing_Machine_2014-05-25_01,Washing Machine,Appliance5,Shiftable,2014-05-25 07:22:00,2014-05-25 08:20:00,58.0,27187.05,True,"{""0"": 0, ""1"": 58}",1,1,1,1.0
 Washing_Machine_2014-05-26_01,Washing Machine,Appliance5,Shiftable,2014-05-26 06:51:00,2014-05-26 07:49:00,58.0,27748.6,True,"{""0"": 0, ""1"": 58}",1,1,1,1.0
 Washing_Machine_2014-05-26_02,Washing Machine,Appliance5,Shiftable,2014-05-26 13:57:00,2014-05-26 14:27:00,30.0,5536.02,False,"{""0"": 30, ""1"": 0}",0,0,0,0.0
@@ -1257,7 +1257,7 @@ Washing_Machine_2014-08-13_03,Washing Machine,Appliance5,Shiftable,2014-08-13 08
 Washing_Machine_2014-08-14_01,Washing Machine,Appliance5,Shiftable,2014-08-14 17:24:00,2014-08-14 18:20:00,56.0,24640.47,True,"{""0"": 0, ""1"": 56}",1,1,1,1.0
 Washing_Machine_2014-08-15_01,Washing Machine,Appliance5,Shiftable,2014-08-15 07:17:00,2014-08-15 08:16:00,59.0,25714.14,True,"{""0"": 0, ""1"": 59}",1,1,1,1.0
 Washing_Machine_2014-08-15_02,Washing Machine,Appliance5,Shiftable,2014-08-15 11:57:00,2014-08-15 12:54:00,57.0,26738.53,True,"{""0"": 0, ""1"": 57}",1,1,1,1.0
-Washing_Machine_2014-08-15_03,Washing Machine,Appliance5,Shiftable,2014-08-15 12:57:00,2014-08-15 13:56:00,59.0,14260.86,False,"{""0"": 56, ""1"": 3}",0,1,0,0.0
+Washing_Machine_2014-08-15_03,Washing Machine,Appliance5,Shiftable,2014-08-15 12:57:00,2014-08-15 13:56:00,59.0,14260.86,True,"{""0"": 56, ""1"": 3}",0,1,0,0.0
 Washing_Machine_2014-08-16_01,Washing Machine,Appliance5,Shiftable,2014-08-16 11:04:00,2014-08-16 12:04:00,60.0,18000.32,True,"{""0"": 0, ""1"": 60}",1,1,1,1.0
 Washing_Machine_2014-08-16_02,Washing Machine,Appliance5,Shiftable,2014-08-16 12:06:00,2014-08-16 13:01:00,55.0,8194.11,True,"{""0"": 1, ""1"": 54}",1,1,0,1.0
 Washing_Machine_2014-08-16_03,Washing Machine,Appliance5,Shiftable,2014-08-16 13:34:00,2014-08-16 14:29:00,55.0,23829.71,False,"{""0"": 55, ""1"": 0}",0,0,0,0.0
@@ -1282,7 +1282,7 @@ Washing_Machine_2014-08-26_04,Washing Machine,Appliance5,Shiftable,2014-08-26 19
 Washing_Machine_2014-08-27_01,Washing Machine,Appliance5,Shiftable,2014-08-27 06:06:00,2014-08-27 07:03:00,57.0,25511.57,True,"{""0"": 0, ""1"": 57}",1,1,1,1.0
 Washing_Machine_2014-08-27_02,Washing Machine,Appliance5,Shiftable,2014-08-27 07:04:00,2014-08-27 07:44:00,40.0,20620.05,True,"{""0"": 0, ""1"": 40}",1,1,1,1.0
 Washing_Machine_2014-08-27_03,Washing Machine,Appliance5,Shiftable,2014-08-27 07:45:00,2014-08-27 08:00:00,15.0,2583.16,True,"{""0"": 0, ""1"": 15}",1,1,1,1.0
-Washing_Machine_2014-08-27_04,Washing Machine,Appliance5,Shiftable,2014-08-27 12:57:00,2014-08-27 13:52:00,55.0,19356.68,False,"{""0"": 52, ""1"": 3}",0,1,0,0.0
+Washing_Machine_2014-08-27_04,Washing Machine,Appliance5,Shiftable,2014-08-27 12:57:00,2014-08-27 13:52:00,55.0,19356.68,True,"{""0"": 52, ""1"": 3}",0,1,0,0.0
 Washing_Machine_2014-08-28_01,Washing Machine,Appliance5,Shiftable,2014-08-28 17:30:00,2014-08-28 18:26:00,56.0,25586.19,True,"{""0"": 0, ""1"": 56}",1,1,1,1.0
 Washing_Machine_2014-08-29_01,Washing Machine,Appliance5,Shiftable,2014-08-29 06:47:00,2014-08-29 07:10:00,23.0,21570.01,True,"{""0"": 0, ""1"": 23}",1,1,1,1.0
 Washing_Machine_2014-08-29_02,Washing Machine,Appliance5,Shiftable,2014-08-29 07:11:00,2014-08-29 07:44:00,33.0,2409.67,True,"{""0"": 0, ""1"": 33}",1,1,1,1.0
@@ -1291,7 +1291,7 @@ Washing_Machine_2014-08-29_04,Washing Machine,Appliance5,Shiftable,2014-08-29 08
 Washing_Machine_2014-08-29_05,Washing Machine,Appliance5,Shiftable,2014-08-29 10:08:00,2014-08-29 11:05:00,57.0,21696.68,True,"{""0"": 0, ""1"": 57}",1,1,1,1.0
 Washing_Machine_2014-08-29_07,Washing Machine,Appliance5,Shiftable,2014-08-29 17:06:00,2014-08-29 18:02:00,56.0,20464.59,True,"{""0"": 0, ""1"": 56}",1,1,1,1.0
 Washing_Machine_2014-09-01_01,Washing Machine,Appliance5,Shiftable,2014-09-01 13:13:00,2014-09-01 14:09:00,56.0,25918.51,False,"{""0"": 56, ""1"": 0}",0,0,0,0.0
-Washing_Machine_2014-09-01_02,Washing Machine,Appliance5,Shiftable,2014-09-01 21:04:00,2014-09-01 22:03:00,59.0,23789.94,False,"{""0"": 56, ""1"": 3}",0,0,1,0.0
+Washing_Machine_2014-09-01_02,Washing Machine,Appliance5,Shiftable,2014-09-01 21:04:00,2014-09-01 22:03:00,59.0,23789.94,True,"{""0"": 56, ""1"": 3}",0,0,1,0.0
 Washing_Machine_2014-09-03_01,Washing Machine,Appliance5,Shiftable,2014-09-03 07:38:00,2014-09-03 08:34:00,56.0,26887.86,True,"{""0"": 0, ""1"": 56}",1,1,1,1.0
 Washing_Machine_2014-09-03_02,Washing Machine,Appliance5,Shiftable,2014-09-03 08:36:00,2014-09-03 09:29:00,53.0,16966.52,True,"{""0"": 0, ""1"": 53}",1,1,1,1.0
 Washing_Machine_2014-09-03_04,Washing Machine,Appliance5,Shiftable,2014-09-03 12:39:00,2014-09-03 13:44:00,65.0,22784.81,True,"{""0"": 44, ""1"": 21}",0,1,0,0.0
@@ -1390,7 +1390,7 @@ Washing_Machine_2014-10-20_01,Washing Machine,Appliance5,Shiftable,2014-10-20 18
 Washing_Machine_2014-10-20_03,Washing Machine,Appliance5,Shiftable,2014-10-20 21:08:00,2014-10-20 21:59:00,51.0,25156.74,False,"{""0"": 51, ""1"": 0}",0,0,0,0.0
 Washing_Machine_2014-10-22_01,Washing Machine,Appliance5,Shiftable,2014-10-22 08:23:00,2014-10-22 10:12:00,109.0,37636.18,True,"{""0"": 0, ""1"": 109}",1,1,1,1.0
 Washing_Machine_2014-10-22_02,Washing Machine,Appliance5,Shiftable,2014-10-22 12:43:00,2014-10-22 14:06:00,83.0,25430.11,True,"{""0"": 66, ""1"": 17}",0,1,0,0.0
-Washing_Machine_2014-10-22_03,Washing Machine,Appliance5,Shiftable,2014-10-22 19:58:00,2014-10-22 20:56:00,58.0,29011.17,False,"{""0"": 56, ""1"": 2}",0,1,0,0.0
+Washing_Machine_2014-10-22_03,Washing Machine,Appliance5,Shiftable,2014-10-22 19:58:00,2014-10-22 20:56:00,58.0,29011.17,True,"{""0"": 56, ""1"": 2}",0,1,0,0.0
 Washing_Machine_2014-10-26_01,Washing Machine,Appliance5,Shiftable,2014-10-26 19:16:00,2014-10-26 20:18:00,62.0,33489.12,True,"{""0"": 18, ""1"": 44}",1,1,0,1.0
 Washing_Machine_2014-10-26_02,Washing Machine,Appliance5,Shiftable,2014-10-26 20:22:00,2014-10-26 21:19:00,57.0,27297.67,False,"{""0"": 57, ""1"": 0}",0,0,0,0.0
 Washing_Machine_2014-10-27_01,Washing Machine,Appliance5,Shiftable,2014-10-27 08:05:00,2014-10-27 08:49:00,44.0,12650.65,True,"{""0"": 0, ""1"": 44}",1,1,1,1.0
@@ -1420,7 +1420,7 @@ Washing_Machine_2014-11-08_03,Washing Machine,Appliance5,Shiftable,2014-11-08 18
 Washing_Machine_2014-11-09_01,Washing Machine,Appliance5,Shiftable,2014-11-09 08:15:00,2014-11-09 10:02:00,107.0,33420.27,True,"{""0"": 0, ""1"": 107}",1,1,1,1.0
 Washing_Machine_2014-11-10_01,Washing Machine,Appliance5,Shiftable,2014-11-10 13:15:00,2014-11-10 14:18:00,63.0,6744.03,False,"{""0"": 63, ""1"": 0}",0,0,0,0.0
 Washing_Machine_2014-11-10_02,Washing Machine,Appliance5,Shiftable,2014-11-10 18:16:00,2014-11-10 19:27:00,71.0,23513.38,True,"{""0"": 0, ""1"": 71}",1,1,1,1.0
-Washing_Machine_2014-11-10_03,Washing Machine,Appliance5,Shiftable,2014-11-10 21:05:00,2014-11-10 22:03:00,58.0,28842.31,False,"{""0"": 55, ""1"": 3}",0,0,1,0.0
+Washing_Machine_2014-11-10_03,Washing Machine,Appliance5,Shiftable,2014-11-10 21:05:00,2014-11-10 22:03:00,58.0,28842.31,True,"{""0"": 55, ""1"": 3}",0,0,1,0.0
 Washing_Machine_2014-11-12_01,Washing Machine,Appliance5,Shiftable,2014-11-12 08:13:00,2014-11-12 09:13:00,60.0,30919.19,True,"{""0"": 0, ""1"": 60}",1,1,1,1.0
 Washing_Machine_2014-11-13_01,Washing Machine,Appliance5,Shiftable,2014-11-13 16:58:00,2014-11-13 17:58:00,60.0,32320.04,True,"{""0"": 0, ""1"": 60}",1,1,1,1.0
 Washing_Machine_2014-11-14_01,Washing Machine,Appliance5,Shiftable,2014-11-14 08:00:00,2014-11-14 08:59:00,59.0,27704.0,True,"{""0"": 0, ""1"": 59}",1,1,1,1.0
@@ -1542,7 +1542,7 @@ Washing_Machine_2015-01-16_02,Washing Machine,Appliance5,Shiftable,2015-01-16 16
 Washing_Machine_2015-01-16_03,Washing Machine,Appliance5,Shiftable,2015-01-16 18:22:00,2015-01-16 18:45:00,23.0,23671.48,True,"{""0"": 0, ""1"": 23}",1,1,1,1.0
 Washing_Machine_2015-01-16_04,Washing Machine,Appliance5,Shiftable,2015-01-16 18:46:00,2015-01-16 19:22:00,36.0,4110.23,True,"{""0"": 0, ""1"": 36}",1,1,1,1.0
 Washing_Machine_2015-01-16_05,Washing Machine,Appliance5,Shiftable,2015-01-16 20:10:00,2015-01-16 21:09:00,59.0,29706.81,False,"{""0"": 59, ""1"": 0}",0,0,0,0.0
-Washing_Machine_2015-01-17_01,Washing Machine,Appliance5,Shiftable,2015-01-17 12:58:00,2015-01-17 14:04:00,66.0,37186.44,False,"{""0"": 64, ""1"": 2}",0,1,0,0.0
+Washing_Machine_2015-01-17_01,Washing Machine,Appliance5,Shiftable,2015-01-17 12:58:00,2015-01-17 14:04:00,66.0,37186.44,True,"{""0"": 64, ""1"": 2}",0,1,0,0.0
 Washing_Machine_2015-01-17_02,Washing Machine,Appliance5,Shiftable,2015-01-17 20:30:00,2015-01-17 21:31:00,61.0,34630.63,False,"{""0"": 61, ""1"": 0}",0,0,0,0.0
 Washing_Machine_2015-01-19_02,Washing Machine,Appliance5,Shiftable,2015-01-19 12:36:00,2015-01-19 13:46:00,70.0,42185.99,True,"{""0"": 46, ""1"": 24}",0,1,0,0.0
 Washing_Machine_2015-01-19_03,Washing Machine,Appliance5,Shiftable,2015-01-19 19:48:00,2015-01-19 20:49:00,61.0,31366.27,True,"{""0"": 49, ""1"": 12}",0,1,0,0.0
@@ -1550,7 +1550,7 @@ Washing_Machine_2015-01-20_01,Washing Machine,Appliance5,Shiftable,2015-01-20 07
 Washing_Machine_2015-01-21_01,Washing Machine,Appliance5,Shiftable,2015-01-21 08:34:00,2015-01-21 09:37:00,63.0,37696.4,True,"{""0"": 0, ""1"": 63}",1,1,1,1.0
 Washing_Machine_2015-01-22_01,Washing Machine,Appliance5,Shiftable,2015-01-22 07:19:00,2015-01-22 08:22:00,63.0,35389.48,True,"{""0"": 0, ""1"": 63}",1,1,1,1.0
 Washing_Machine_2015-01-22_02,Washing Machine,Appliance5,Shiftable,2015-01-22 17:01:00,2015-01-22 18:13:00,72.0,30850.38,True,"{""0"": 0, ""1"": 72}",1,1,1,1.0
-Washing_Machine_2015-01-22_03,Washing Machine,Appliance5,Shiftable,2015-01-22 19:57:00,2015-01-22 21:21:00,84.0,46057.38,False,"{""0"": 81, ""1"": 3}",0,1,0,0.0
+Washing_Machine_2015-01-22_03,Washing Machine,Appliance5,Shiftable,2015-01-22 19:57:00,2015-01-22 21:21:00,84.0,46057.38,True,"{""0"": 81, ""1"": 3}",0,1,0,0.0
 Washing_Machine_2015-01-23_02,Washing Machine,Appliance5,Shiftable,2015-01-23 11:47:00,2015-01-23 13:35:00,108.0,41574.24,True,"{""0"": 35, ""1"": 73}",1,1,0,1.0
 Washing_Machine_2015-01-23_03,Washing Machine,Appliance5,Shiftable,2015-01-23 16:08:00,2015-01-23 18:01:00,113.0,34194.47,True,"{""0"": 0, ""1"": 113}",1,1,1,1.0
 Washing_Machine_2015-01-24_01,Washing Machine,Appliance5,Shiftable,2015-01-24 07:52:00,2015-01-24 08:55:00,63.0,38811.38,True,"{""0"": 0, ""1"": 63}",1,1,1,1.0
@@ -1630,13 +1630,13 @@ Washing_Machine_2015-03-07_01,Washing Machine,Appliance5,Shiftable,2015-03-07 08
 Washing_Machine_2015-03-07_03,Washing Machine,Appliance5,Shiftable,2015-03-07 12:54:00,2015-03-07 13:56:00,62.0,30067.75,True,"{""0"": 56, ""1"": 6}",0,1,0,0.0
 Washing_Machine_2015-03-08_01,Washing Machine,Appliance5,Shiftable,2015-03-08 07:54:00,2015-03-08 08:57:00,63.0,36219.72,True,"{""0"": 0, ""1"": 63}",1,1,1,1.0
 Washing_Machine_2015-03-09_01,Washing Machine,Appliance5,Shiftable,2015-03-09 07:03:00,2015-03-09 08:07:00,64.0,40622.31,True,"{""0"": 0, ""1"": 64}",1,1,1,1.0
-Washing_Machine_2015-03-09_02,Washing Machine,Appliance5,Shiftable,2015-03-09 12:56:00,2015-03-09 13:56:00,60.0,29332.14,False,"{""0"": 56, ""1"": 4}",0,1,0,0.0
+Washing_Machine_2015-03-09_02,Washing Machine,Appliance5,Shiftable,2015-03-09 12:56:00,2015-03-09 13:56:00,60.0,29332.14,True,"{""0"": 56, ""1"": 4}",0,1,0,0.0
 Washing_Machine_2015-03-11_01,Washing Machine,Appliance5,Shiftable,2015-03-11 07:15:00,2015-03-11 08:19:00,64.0,39480.81,True,"{""0"": 0, ""1"": 64}",1,1,1,1.0
 Washing_Machine_2015-03-11_02,Washing Machine,Appliance5,Shiftable,2015-03-11 08:23:00,2015-03-11 09:26:00,63.0,30820.0,True,"{""0"": 0, ""1"": 63}",1,1,1,1.0
 Washing_Machine_2015-03-12_01,Washing Machine,Appliance5,Shiftable,2015-03-12 19:32:00,2015-03-12 21:25:00,113.0,39587.32,True,"{""0"": 85, ""1"": 28}",0,1,0,0.0
 Washing_Machine_2015-03-13_04,Washing Machine,Appliance5,Shiftable,2015-03-13 18:20:00,2015-03-13 19:21:00,61.0,31195.79,True,"{""0"": 0, ""1"": 61}",1,1,1,1.0
 Washing_Machine_2015-03-14_01,Washing Machine,Appliance5,Shiftable,2015-03-14 07:55:00,2015-03-14 08:59:00,64.0,39683.9,True,"{""0"": 0, ""1"": 64}",1,1,1,1.0
-Washing_Machine_2015-03-14_02,Washing Machine,Appliance5,Shiftable,2015-03-14 19:56:00,2015-03-14 20:58:00,62.0,35839.16,False,"{""0"": 58, ""1"": 4}",0,1,0,0.0
+Washing_Machine_2015-03-14_02,Washing Machine,Appliance5,Shiftable,2015-03-14 19:56:00,2015-03-14 20:58:00,62.0,35839.16,True,"{""0"": 58, ""1"": 4}",0,1,0,0.0
 Washing_Machine_2015-03-15_01,Washing Machine,Appliance5,Shiftable,2015-03-15 09:36:00,2015-03-15 10:35:00,59.0,33112.72,True,"{""0"": 0, ""1"": 59}",1,1,1,1.0
 Washing_Machine_2015-03-16_01,Washing Machine,Appliance5,Shiftable,2015-03-16 07:46:00,2015-03-16 09:37:00,111.0,40888.1,True,"{""0"": 0, ""1"": 111}",1,1,1,1.0
 Washing_Machine_2015-03-16_02,Washing Machine,Appliance5,Shiftable,2015-03-16 12:01:00,2015-03-16 13:05:00,64.0,36223.81,True,"{""0"": 5, ""1"": 59}",1,1,0,1.0
@@ -1658,7 +1658,7 @@ Washing_Machine_2015-03-26_01,Washing Machine,Appliance5,Shiftable,2015-03-26 07
 Washing_Machine_2015-03-27_01,Washing Machine,Appliance5,Shiftable,2015-03-27 07:05:00,2015-03-27 08:07:00,62.0,38422.54,True,"{""0"": 0, ""1"": 62}",1,1,1,1.0
 Washing_Machine_2015-03-27_02,Washing Machine,Appliance5,Shiftable,2015-03-27 08:14:00,2015-03-27 09:28:00,74.0,24836.72,True,"{""0"": 0, ""1"": 74}",1,1,1,1.0
 Washing_Machine_2015-03-27_03,Washing Machine,Appliance5,Shiftable,2015-03-27 18:12:00,2015-03-27 20:02:00,110.0,33750.66,True,"{""0"": 2, ""1"": 108}",1,1,0,1.0
-Washing_Machine_2015-03-27_04,Washing Machine,Appliance5,Shiftable,2015-03-27 20:05:00,2015-03-27 22:03:00,118.0,39062.32,False,"{""0"": 115, ""1"": 3}",0,0,1,0.0
+Washing_Machine_2015-03-27_04,Washing Machine,Appliance5,Shiftable,2015-03-27 20:05:00,2015-03-27 22:03:00,118.0,39062.32,True,"{""0"": 115, ""1"": 3}",0,0,1,0.0
 Washing_Machine_2015-03-28_01,Washing Machine,Appliance5,Shiftable,2015-03-28 12:07:00,2015-03-28 13:13:00,66.0,37342.67,True,"{""0"": 13, ""1"": 53}",1,1,0,1.0
 Washing_Machine_2015-03-28_02,Washing Machine,Appliance5,Shiftable,2015-03-28 18:20:00,2015-03-28 20:11:00,111.0,41975.12,True,"{""0"": 11, ""1"": 100}",1,1,0,1.0
 Washing_Machine_2015-03-29_01,Washing Machine,Appliance5,Shiftable,2015-03-29 07:29:00,2015-03-29 09:19:00,110.0,36823.25,True,"{""0"": 0, ""1"": 110}",1,1,1,1.0
@@ -1666,14 +1666,14 @@ Washing_Machine_2015-03-29_02,Washing Machine,Appliance5,Shiftable,2015-03-29 20
 Washing_Machine_2015-03-30_01,Washing Machine,Appliance5,Shiftable,2015-03-30 12:05:00,2015-03-30 13:10:00,65.0,32620.93,True,"{""0"": 10, ""1"": 55}",1,1,0,1.0
 Washing_Machine_2015-03-30_03,Washing Machine,Appliance5,Shiftable,2015-03-30 20:10:00,2015-03-30 21:11:00,61.0,36668.76,False,"{""0"": 61, ""1"": 0}",0,0,0,0.0
 Washing_Machine_2015-04-02_01,Washing Machine,Appliance5,Shiftable,2015-04-02 08:40:00,2015-04-02 09:41:00,61.0,37612.45,True,"{""0"": 0, ""1"": 61}",1,1,1,1.0
-Washing_Machine_2015-04-02_02,Washing Machine,Appliance5,Shiftable,2015-04-02 19:56:00,2015-04-02 21:02:00,66.0,41345.14,False,"{""0"": 62, ""1"": 4}",0,1,0,0.0
+Washing_Machine_2015-04-02_02,Washing Machine,Appliance5,Shiftable,2015-04-02 19:56:00,2015-04-02 21:02:00,66.0,41345.14,True,"{""0"": 62, ""1"": 4}",0,1,0,0.0
 Washing_Machine_2015-04-07_01,Washing Machine,Appliance5,Shiftable,2015-04-07 18:23:00,2015-04-07 19:25:00,62.0,36642.47,True,"{""0"": 0, ""1"": 62}",1,1,1,1.0
 Washing_Machine_2015-04-07_02,Washing Machine,Appliance5,Shiftable,2015-04-07 19:38:00,2015-04-07 21:31:00,113.0,36733.25,True,"{""0"": 91, ""1"": 22}",0,1,0,0.0
 Washing_Machine_2015-04-08_01,Washing Machine,Appliance5,Shiftable,2015-04-08 07:40:00,2015-04-08 08:40:00,60.0,27874.99,True,"{""0"": 0, ""1"": 60}",1,1,1,1.0
 Washing_Machine_2015-04-08_02,Washing Machine,Appliance5,Shiftable,2015-04-08 14:08:00,2015-04-08 15:10:00,62.0,35418.56,False,"{""0"": 62, ""1"": 0}",0,0,0,0.0
 Washing_Machine_2015-04-08_03,Washing Machine,Appliance5,Shiftable,2015-04-08 15:25:00,2015-04-08 16:21:00,56.0,34329.13,True,"{""0"": 35, ""1"": 21}",0,0,1,0.0
 Washing_Machine_2015-04-08_04,Washing Machine,Appliance5,Shiftable,2015-04-08 19:47:00,2015-04-08 21:37:00,110.0,37481.27,True,"{""0"": 97, ""1"": 13}",0,1,0,0.0
-Washing_Machine_2015-04-09_02,Washing Machine,Appliance5,Shiftable,2015-04-09 19:56:00,2015-04-09 20:53:00,57.0,32813.78,False,"{""0"": 53, ""1"": 4}",0,1,0,0.0
+Washing_Machine_2015-04-09_02,Washing Machine,Appliance5,Shiftable,2015-04-09 19:56:00,2015-04-09 20:53:00,57.0,32813.78,True,"{""0"": 53, ""1"": 4}",0,1,0,0.0
 Washing_Machine_2015-04-09_03,Washing Machine,Appliance5,Shiftable,2015-04-09 21:08:00,2015-04-09 22:08:00,60.0,33726.09,True,"{""0"": 52, ""1"": 8}",0,0,1,0.0
 Washing_Machine_2015-04-10_01,Washing Machine,Appliance5,Shiftable,2015-04-10 08:19:00,2015-04-10 09:20:00,61.0,33563.46,True,"{""0"": 0, ""1"": 61}",1,1,1,1.0
 Washing_Machine_2015-04-10_02,Washing Machine,Appliance5,Shiftable,2015-04-10 10:04:00,2015-04-10 11:08:00,64.0,40279.68,True,"{""0"": 0, ""1"": 64}",1,1,1,1.0
@@ -1767,7 +1767,7 @@ Washing_Machine_2015-05-29_04,Washing Machine,Appliance5,Shiftable,2015-05-29 14
 Washing_Machine_2015-05-30_01,Washing Machine,Appliance5,Shiftable,2015-05-30 06:34:00,2015-05-30 08:21:00,107.0,32920.99,True,"{""0"": 0, ""1"": 107}",1,1,1,1.0
 Washing_Machine_2015-05-30_02,Washing Machine,Appliance5,Shiftable,2015-05-30 18:35:00,2015-05-30 20:30:00,115.0,25704.72,True,"{""0"": 30, ""1"": 85}",1,1,0,1.0
 Washing_Machine_2015-05-31_01,Washing Machine,Appliance5,Shiftable,2015-05-31 20:37:00,2015-05-31 22:28:00,111.0,39517.67,True,"{""0"": 83, ""1"": 28}",0,0,1,0.0
-Washing_Machine_2015-06-01_01,Washing Machine,Appliance5,Shiftable,2015-06-01 12:58:00,2015-06-01 13:57:00,59.0,33723.87,False,"{""0"": 57, ""1"": 2}",0,1,0,0.0
+Washing_Machine_2015-06-01_01,Washing Machine,Appliance5,Shiftable,2015-06-01 12:58:00,2015-06-01 13:57:00,59.0,33723.87,True,"{""0"": 57, ""1"": 2}",0,1,0,0.0
 Washing_Machine_2015-06-02_01,Washing Machine,Appliance5,Shiftable,2015-06-02 07:37:00,2015-06-02 08:47:00,70.0,25346.06,True,"{""0"": 0, ""1"": 70}",1,1,1,1.0
 Washing_Machine_2015-06-02_02,Washing Machine,Appliance5,Shiftable,2015-06-02 16:51:00,2015-06-02 17:47:00,56.0,20709.0,True,"{""0"": 0, ""1"": 56}",1,1,1,1.0
 Washing_Machine_2015-06-02_03,Washing Machine,Appliance5,Shiftable,2015-06-02 18:56:00,2015-06-02 19:54:00,58.0,30143.21,True,"{""0"": 0, ""1"": 58}",1,1,1,1.0
@@ -1830,7 +1830,7 @@ Washing_Machine_2015-07-06_02,Washing Machine,Appliance5,Shiftable,2015-07-06 20
 Washing_Machine_2015-07-07_01,Washing Machine,Appliance5,Shiftable,2015-07-07 17:12:00,2015-07-07 18:21:00,69.0,23216.84,True,"{""0"": 0, ""1"": 69}",1,1,1,1.0
 Washing_Machine_2015-07-07_02,Washing Machine,Appliance5,Shiftable,2015-07-07 18:29:00,2015-07-07 19:20:00,51.0,15621.15,True,"{""0"": 0, ""1"": 51}",1,1,1,1.0
 Washing_Machine_2015-07-07_03,Washing Machine,Appliance5,Shiftable,2015-07-07 19:35:00,2015-07-07 20:31:00,56.0,20117.14,True,"{""0"": 31, ""1"": 25}",0,1,0,0.0
-Dishwasher_2013-11-03_01,Dishwasher,Appliance6,Shiftable,2013-11-03 12:59:00,2013-11-03 14:12:00,73.0,27444.7,False,"{""0"": 72, ""1"": 1}",0,1,0,0.0
+Dishwasher_2013-11-03_01,Dishwasher,Appliance6,Shiftable,2013-11-03 12:59:00,2013-11-03 14:12:00,73.0,27444.7,True,"{""0"": 72, ""1"": 1}",0,1,0,0.0
 Dishwasher_2013-11-04_02,Dishwasher,Appliance6,Shiftable,2013-11-04 13:01:00,2013-11-04 14:20:00,79.0,18214.94,False,"{""0"": 79, ""1"": 0}",0,0,0,0.0
 Dishwasher_2013-11-05_01,Dishwasher,Appliance6,Shiftable,2013-11-05 08:06:00,2013-11-05 09:20:00,74.0,83671.14,True,"{""0"": 0, ""1"": 74}",1,1,1,1.0
 Dishwasher_2013-11-05_04,Dishwasher,Appliance6,Shiftable,2013-11-05 16:57:00,2013-11-05 18:11:00,74.0,81218.31,True,"{""0"": 0, ""1"": 74}",1,1,1,1.0
@@ -1886,7 +1886,7 @@ Dishwasher_2013-12-10_04,Dishwasher,Appliance6,Shiftable,2013-12-10 16:57:00,201
 Dishwasher_2013-12-11_01,Dishwasher,Appliance6,Shiftable,2013-12-11 16:08:00,2013-12-11 17:27:00,79.0,90997.81,True,"{""0"": 0, ""1"": 79}",1,1,1,1.0
 Dishwasher_2013-12-12_01,Dishwasher,Appliance6,Shiftable,2013-12-12 08:22:00,2013-12-12 09:39:00,77.0,90984.73,True,"{""0"": 0, ""1"": 77}",1,1,1,1.0
 Dishwasher_2013-12-13_01,Dishwasher,Appliance6,Shiftable,2013-12-13 08:11:00,2013-12-13 09:25:00,74.0,82441.93,True,"{""0"": 0, ""1"": 74}",1,1,1,1.0
-Dishwasher_2013-12-13_03,Dishwasher,Appliance6,Shiftable,2013-12-13 12:56:00,2013-12-13 14:09:00,73.0,73690.1,False,"{""0"": 69, ""1"": 4}",0,1,0,0.0
+Dishwasher_2013-12-13_03,Dishwasher,Appliance6,Shiftable,2013-12-13 12:56:00,2013-12-13 14:09:00,73.0,73690.1,True,"{""0"": 69, ""1"": 4}",0,1,0,0.0
 Dishwasher_2013-12-14_01,Dishwasher,Appliance6,Shiftable,2013-12-14 11:48:00,2013-12-14 13:14:00,86.0,57702.89,True,"{""0"": 14, ""1"": 72}",1,1,0,1.0
 Dishwasher_2013-12-15_01,Dishwasher,Appliance6,Shiftable,2013-12-15 13:14:00,2013-12-15 14:34:00,80.0,73291.84,False,"{""0"": 80, ""1"": 0}",0,0,0,0.0
 Dishwasher_2013-12-16_01,Dishwasher,Appliance6,Shiftable,2013-12-16 08:08:00,2013-12-16 09:26:00,78.0,91525.94,True,"{""0"": 0, ""1"": 78}",1,1,1,1.0
@@ -1939,7 +1939,7 @@ Dishwasher_2014-01-14_01,Dishwasher,Appliance6,Shiftable,2014-01-14 08:34:00,201
 Dishwasher_2014-01-14_03,Dishwasher,Appliance6,Shiftable,2014-01-14 19:23:00,2014-01-14 20:38:00,75.0,86479.94,True,"{""0"": 38, ""1"": 37}",0,1,0,0.0
 Dishwasher_2014-01-15_01,Dishwasher,Appliance6,Shiftable,2014-01-15 17:13:00,2014-01-15 18:33:00,80.0,59634.03,True,"{""0"": 0, ""1"": 80}",1,1,1,1.0
 Dishwasher_2014-01-16_01,Dishwasher,Appliance6,Shiftable,2014-01-16 12:48:00,2014-01-16 12:53:00,5.0,130.0,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
-Dishwasher_2014-01-16_02,Dishwasher,Appliance6,Shiftable,2014-01-16 12:57:00,2014-01-16 14:04:00,67.0,45012.02,False,"{""0"": 64, ""1"": 3}",0,1,0,0.0
+Dishwasher_2014-01-16_02,Dishwasher,Appliance6,Shiftable,2014-01-16 12:57:00,2014-01-16 14:04:00,67.0,45012.02,True,"{""0"": 64, ""1"": 3}",0,1,0,0.0
 Dishwasher_2014-01-17_01,Dishwasher,Appliance6,Shiftable,2014-01-17 13:37:00,2014-01-17 14:48:00,71.0,57891.03,False,"{""0"": 71, ""1"": 0}",0,0,0,0.0
 Dishwasher_2014-01-18_01,Dishwasher,Appliance6,Shiftable,2014-01-18 07:21:00,2014-01-18 08:35:00,74.0,84319.05,True,"{""0"": 0, ""1"": 74}",1,1,1,1.0
 Dishwasher_2014-01-18_03,Dishwasher,Appliance6,Shiftable,2014-01-18 15:11:00,2014-01-18 16:25:00,74.0,82683.81,True,"{""0"": 49, ""1"": 25}",0,0,1,0.0
@@ -2006,7 +2006,7 @@ Dishwasher_2014-04-08_01,Dishwasher,Appliance6,Shiftable,2014-04-08 13:18:00,201
 Dishwasher_2014-04-09_01,Dishwasher,Appliance6,Shiftable,2014-04-09 07:06:00,2014-04-09 08:26:00,80.0,4237.69,True,"{""0"": 0, ""1"": 80}",1,1,1,1.0
 Dishwasher_2014-04-09_06,Dishwasher,Appliance6,Shiftable,2014-04-09 13:57:00,2014-04-09 14:28:00,31.0,510.56,False,"{""0"": 31, ""1"": 0}",0,0,0,0.0
 Dishwasher_2014-04-10_01,Dishwasher,Appliance6,Shiftable,2014-04-10 06:59:00,2014-04-10 08:07:00,68.0,23753.69,True,"{""0"": 0, ""1"": 68}",1,1,1,1.0
-Dishwasher_2014-04-10_04,Dishwasher,Appliance6,Shiftable,2014-04-10 12:59:00,2014-04-10 14:08:00,69.0,17829.58,False,"{""0"": 68, ""1"": 1}",0,1,0,0.0
+Dishwasher_2014-04-10_04,Dishwasher,Appliance6,Shiftable,2014-04-10 12:59:00,2014-04-10 14:08:00,69.0,17829.58,True,"{""0"": 68, ""1"": 1}",0,1,0,0.0
 Dishwasher_2014-04-11_01,Dishwasher,Appliance6,Shiftable,2014-04-11 06:41:00,2014-04-11 07:56:00,75.0,69640.56,True,"{""0"": 0, ""1"": 75}",1,1,1,1.0
 Dishwasher_2014-04-11_04,Dishwasher,Appliance6,Shiftable,2014-04-11 19:03:00,2014-04-11 20:20:00,77.0,79959.92,True,"{""0"": 20, ""1"": 57}",1,1,0,1.0
 Dishwasher_2014-04-12_01,Dishwasher,Appliance6,Shiftable,2014-04-12 17:46:00,2014-04-12 18:59:00,73.0,80770.46,True,"{""0"": 0, ""1"": 73}",1,1,1,1.0
@@ -2085,7 +2085,7 @@ Dishwasher_2014-06-08_06,Dishwasher,Appliance6,Shiftable,2014-06-08 19:25:00,201
 Dishwasher_2014-06-09_01,Dishwasher,Appliance6,Shiftable,2014-06-09 07:25:00,2014-06-09 09:13:00,108.0,68053.84,True,"{""0"": 0, ""1"": 108}",1,1,1,1.0
 Dishwasher_2014-06-10_01,Dishwasher,Appliance6,Shiftable,2014-06-10 07:05:00,2014-06-10 08:39:00,94.0,58498.11,True,"{""0"": 0, ""1"": 94}",1,1,1,1.0
 Dishwasher_2014-06-11_01,Dishwasher,Appliance6,Shiftable,2014-06-11 07:22:00,2014-06-11 08:58:00,96.0,68860.74,True,"{""0"": 0, ""1"": 96}",1,1,1,1.0
-Dishwasher_2014-06-11_04,Dishwasher,Appliance6,Shiftable,2014-06-11 19:56:00,2014-06-11 21:35:00,99.0,66730.81,False,"{""0"": 95, ""1"": 4}",0,1,0,0.0
+Dishwasher_2014-06-11_04,Dishwasher,Appliance6,Shiftable,2014-06-11 19:56:00,2014-06-11 21:35:00,99.0,66730.81,True,"{""0"": 95, ""1"": 4}",0,1,0,0.0
 Dishwasher_2014-06-12_01,Dishwasher,Appliance6,Shiftable,2014-06-12 18:10:00,2014-06-12 19:45:00,95.0,66878.51,True,"{""0"": 0, ""1"": 95}",1,1,1,1.0
 Dishwasher_2014-06-14_01,Dishwasher,Appliance6,Shiftable,2014-06-14 08:52:00,2014-06-14 10:27:00,95.0,66278.71,True,"{""0"": 0, ""1"": 95}",1,1,1,1.0
 Dishwasher_2014-06-14_03,Dishwasher,Appliance6,Shiftable,2014-06-14 20:25:00,2014-06-14 22:00:00,95.0,63133.16,False,"{""0"": 95, ""1"": 0}",0,0,1,0.0
@@ -2113,7 +2113,7 @@ Dishwasher_2014-07-03_03,Dishwasher,Appliance6,Shiftable,2014-07-03 17:41:00,201
 Dishwasher_2014-07-04_01,Dishwasher,Appliance6,Shiftable,2014-07-04 19:35:00,2014-07-04 21:14:00,99.0,67113.93,True,"{""0"": 74, ""1"": 25}",0,1,0,0.0
 Dishwasher_2014-07-06_01,Dishwasher,Appliance6,Shiftable,2014-07-06 11:47:00,2014-07-06 13:22:00,95.0,65789.86,True,"{""0"": 22, ""1"": 73}",1,1,0,1.0
 Dishwasher_2014-07-06_02,Dishwasher,Appliance6,Shiftable,2014-07-06 17:46:00,2014-07-06 19:20:00,94.0,59459.6,True,"{""0"": 0, ""1"": 94}",1,1,1,1.0
-Dishwasher_2014-07-06_03,Dishwasher,Appliance6,Shiftable,2014-07-06 19:57:00,2014-07-06 21:29:00,92.0,49875.37,False,"{""0"": 89, ""1"": 3}",0,1,0,0.0
+Dishwasher_2014-07-06_03,Dishwasher,Appliance6,Shiftable,2014-07-06 19:57:00,2014-07-06 21:29:00,92.0,49875.37,True,"{""0"": 89, ""1"": 3}",0,1,0,0.0
 Dishwasher_2014-07-07_01,Dishwasher,Appliance6,Shiftable,2014-07-07 08:33:00,2014-07-07 09:20:00,47.0,26341.07,True,"{""0"": 0, ""1"": 47}",1,1,1,1.0
 Dishwasher_2014-07-07_03,Dishwasher,Appliance6,Shiftable,2014-07-07 17:26:00,2014-07-07 19:00:00,94.0,64868.5,True,"{""0"": 0, ""1"": 94}",1,1,1,1.0
 Dishwasher_2014-07-08_01,Dishwasher,Appliance6,Shiftable,2014-07-08 17:38:00,2014-07-08 19:10:00,92.0,64458.1,True,"{""0"": 0, ""1"": 92}",1,1,1,1.0
@@ -2129,7 +2129,7 @@ Dishwasher_2014-07-29_03,Dishwasher,Appliance6,Shiftable,2014-07-29 16:43:00,201
 Dishwasher_2014-07-30_01,Dishwasher,Appliance6,Shiftable,2014-07-30 16:49:00,2014-07-30 18:27:00,98.0,63143.49,True,"{""0"": 0, ""1"": 98}",1,1,1,1.0
 Dishwasher_2014-07-31_01,Dishwasher,Appliance6,Shiftable,2014-07-31 07:02:00,2014-07-31 08:35:00,93.0,58494.8,True,"{""0"": 0, ""1"": 93}",1,1,1,1.0
 Dishwasher_2014-08-01_02,Dishwasher,Appliance6,Shiftable,2014-08-01 08:08:00,2014-08-01 09:42:00,94.0,62800.29,True,"{""0"": 0, ""1"": 94}",1,1,1,1.0
-Dishwasher_2014-08-02_01,Dishwasher,Appliance6,Shiftable,2014-08-02 12:59:00,2014-08-02 13:59:00,60.0,41284.01,False,"{""0"": 59, ""1"": 1}",0,1,0,0.0
+Dishwasher_2014-08-02_01,Dishwasher,Appliance6,Shiftable,2014-08-02 12:59:00,2014-08-02 13:59:00,60.0,41284.01,True,"{""0"": 59, ""1"": 1}",0,1,0,0.0
 Dishwasher_2014-08-03_01,Dishwasher,Appliance6,Shiftable,2014-08-03 12:15:00,2014-08-03 13:54:00,99.0,66895.8,True,"{""0"": 54, ""1"": 45}",0,1,0,0.0
 Dishwasher_2014-08-03_02,Dishwasher,Appliance6,Shiftable,2014-08-03 18:03:00,2014-08-03 19:35:00,92.0,53224.1,True,"{""0"": 0, ""1"": 92}",1,1,1,1.0
 Dishwasher_2014-08-04_01,Dishwasher,Appliance6,Shiftable,2014-08-04 15:38:00,2014-08-04 17:11:00,93.0,58741.52,True,"{""0"": 22, ""1"": 71}",1,0,1,1.0
@@ -2146,7 +2146,7 @@ Dishwasher_2014-08-12_01,Dishwasher,Appliance6,Shiftable,2014-08-12 07:02:00,201
 Dishwasher_2014-08-12_02,Dishwasher,Appliance6,Shiftable,2014-08-12 16:21:00,2014-08-12 17:53:00,92.0,62040.83,True,"{""0"": 0, ""1"": 92}",1,1,1,1.0
 Dishwasher_2014-08-13_01,Dishwasher,Appliance6,Shiftable,2014-08-13 13:40:00,2014-08-13 15:14:00,94.0,62503.62,False,"{""0"": 94, ""1"": 0}",0,0,0,0.0
 Dishwasher_2014-08-14_02,Dishwasher,Appliance6,Shiftable,2014-08-14 19:53:00,2014-08-14 21:28:00,95.0,65013.73,True,"{""0"": 88, ""1"": 7}",0,1,0,0.0
-Dishwasher_2014-08-15_01,Dishwasher,Appliance6,Shiftable,2014-08-15 12:58:00,2014-08-15 14:36:00,98.0,63540.44,False,"{""0"": 96, ""1"": 2}",0,1,0,0.0
+Dishwasher_2014-08-15_01,Dishwasher,Appliance6,Shiftable,2014-08-15 12:58:00,2014-08-15 14:36:00,98.0,63540.44,True,"{""0"": 96, ""1"": 2}",0,1,0,0.0
 Dishwasher_2014-08-16_01,Dishwasher,Appliance6,Shiftable,2014-08-16 07:31:00,2014-08-16 09:06:00,95.0,64864.58,True,"{""0"": 0, ""1"": 95}",1,1,1,1.0
 Dishwasher_2014-08-16_02,Dishwasher,Appliance6,Shiftable,2014-08-16 12:32:00,2014-08-16 14:04:00,92.0,58938.04,True,"{""0"": 64, ""1"": 28}",0,1,0,0.0
 Dishwasher_2014-08-17_01,Dishwasher,Appliance6,Shiftable,2014-08-17 11:47:00,2014-08-17 13:22:00,95.0,51112.08,True,"{""0"": 22, ""1"": 73}",1,1,0,1.0
@@ -2223,10 +2223,10 @@ Dishwasher_2014-10-14_01,Dishwasher,Appliance6,Shiftable,2014-10-14 07:46:00,201
 Dishwasher_2014-10-15_01,Dishwasher,Appliance6,Shiftable,2014-10-15 12:40:00,2014-10-15 14:18:00,98.0,70600.34,True,"{""0"": 78, ""1"": 20}",0,1,0,0.0
 Dishwasher_2014-10-15_03,Dishwasher,Appliance6,Shiftable,2014-10-15 17:24:00,2014-10-15 19:04:00,100.0,67139.68,True,"{""0"": 0, ""1"": 100}",1,1,1,1.0
 Dishwasher_2014-10-16_01,Dishwasher,Appliance6,Shiftable,2014-10-16 18:30:00,2014-10-16 20:07:00,97.0,70961.19,True,"{""0"": 7, ""1"": 90}",1,1,0,1.0
-Dishwasher_2014-10-17_01,Dishwasher,Appliance6,Shiftable,2014-10-17 20:26:00,2014-10-17 22:04:00,98.0,71244.31,False,"{""0"": 94, ""1"": 4}",0,0,1,0.0
+Dishwasher_2014-10-17_01,Dishwasher,Appliance6,Shiftable,2014-10-17 20:26:00,2014-10-17 22:04:00,98.0,71244.31,True,"{""0"": 94, ""1"": 4}",0,0,1,0.0
 Dishwasher_2014-10-19_01,Dishwasher,Appliance6,Shiftable,2014-10-19 11:04:00,2014-10-19 12:39:00,95.0,67894.18,True,"{""0"": 0, ""1"": 95}",1,1,1,1.0
 Dishwasher_2014-10-19_03,Dishwasher,Appliance6,Shiftable,2014-10-19 16:21:00,2014-10-19 18:01:00,100.0,67828.46,True,"{""0"": 0, ""1"": 100}",1,1,1,1.0
-Dishwasher_2014-10-20_01,Dishwasher,Appliance6,Shiftable,2014-10-20 19:58:00,2014-10-20 21:33:00,95.0,67705.91,False,"{""0"": 93, ""1"": 2}",0,1,0,0.0
+Dishwasher_2014-10-20_01,Dishwasher,Appliance6,Shiftable,2014-10-20 19:58:00,2014-10-20 21:33:00,95.0,67705.91,True,"{""0"": 93, ""1"": 2}",0,1,0,0.0
 Dishwasher_2014-10-21_01,Dishwasher,Appliance6,Shiftable,2014-10-21 17:28:00,2014-10-21 19:06:00,98.0,70503.69,True,"{""0"": 0, ""1"": 98}",1,1,1,1.0
 Dishwasher_2014-10-22_01,Dishwasher,Appliance6,Shiftable,2014-10-22 15:07:00,2014-10-22 16:43:00,96.0,65069.21,True,"{""0"": 53, ""1"": 43}",0,0,1,0.0
 Dishwasher_2014-10-22_03,Dishwasher,Appliance6,Shiftable,2014-10-22 18:23:00,2014-10-22 20:01:00,98.0,65716.49,True,"{""0"": 1, ""1"": 97}",1,1,0,1.0
@@ -2297,7 +2297,7 @@ Dishwasher_2014-12-23_01,Dishwasher,Appliance6,Shiftable,2014-12-23 08:29:00,201
 Dishwasher_2014-12-23_02,Dishwasher,Appliance6,Shiftable,2014-12-23 13:20:00,2014-12-23 14:59:00,99.0,64092.27,False,"{""0"": 99, ""1"": 0}",0,0,0,0.0
 Dishwasher_2014-12-23_04,Dishwasher,Appliance6,Shiftable,2014-12-23 20:34:00,2014-12-23 22:12:00,98.0,72730.37,True,"{""0"": 86, ""1"": 12}",0,0,1,0.0
 Dishwasher_2014-12-24_01,Dishwasher,Appliance6,Shiftable,2014-12-24 12:27:00,2014-12-24 14:03:00,96.0,73535.14,True,"{""0"": 63, ""1"": 33}",0,1,0,0.0
-Dishwasher_2014-12-24_05,Dishwasher,Appliance6,Shiftable,2014-12-24 20:24:00,2014-12-24 22:02:00,98.0,72987.36,False,"{""0"": 96, ""1"": 2}",0,0,1,0.0
+Dishwasher_2014-12-24_05,Dishwasher,Appliance6,Shiftable,2014-12-24 20:24:00,2014-12-24 22:02:00,98.0,72987.36,True,"{""0"": 96, ""1"": 2}",0,0,1,0.0
 Dishwasher_2014-12-25_01,Dishwasher,Appliance6,Shiftable,2014-12-25 09:03:00,2014-12-25 10:47:00,104.0,78652.09,True,"{""0"": 0, ""1"": 104}",1,1,1,1.0
 Dishwasher_2014-12-25_03,Dishwasher,Appliance6,Shiftable,2014-12-25 13:19:00,2014-12-25 14:54:00,95.0,66257.72,False,"{""0"": 95, ""1"": 0}",0,0,0,0.0
 Dishwasher_2014-12-25_04,Dishwasher,Appliance6,Shiftable,2014-12-25 15:58:00,2014-12-25 17:36:00,98.0,70100.42,True,"{""0"": 2, ""1"": 96}",1,0,1,1.0
@@ -2495,7 +2495,7 @@ Dishwasher_2015-06-23_01,Dishwasher,Appliance6,Shiftable,2015-06-23 19:09:00,201
 Dishwasher_2015-06-24_01,Dishwasher,Appliance6,Shiftable,2015-06-24 16:34:00,2015-06-24 18:09:00,95.0,67513.73,True,"{""0"": 0, ""1"": 95}",1,1,1,1.0
 Dishwasher_2015-06-25_01,Dishwasher,Appliance6,Shiftable,2015-06-25 07:47:00,2015-06-25 09:27:00,100.0,69989.9,True,"{""0"": 0, ""1"": 100}",1,1,1,1.0
 Dishwasher_2015-06-26_01,Dishwasher,Appliance6,Shiftable,2015-06-26 20:37:00,2015-06-26 22:12:00,95.0,65821.42,True,"{""0"": 83, ""1"": 12}",0,0,1,0.0
-Dishwasher_2015-06-27_01,Dishwasher,Appliance6,Shiftable,2015-06-27 14:30:00,2015-06-27 16:01:00,91.0,62863.61,False,"{""0"": 90, ""1"": 1}",0,0,1,0.0
+Dishwasher_2015-06-27_01,Dishwasher,Appliance6,Shiftable,2015-06-27 14:30:00,2015-06-27 16:01:00,91.0,62863.61,True,"{""0"": 90, ""1"": 1}",0,0,1,0.0
 Dishwasher_2015-06-28_01,Dishwasher,Appliance6,Shiftable,2015-06-28 08:26:00,2015-06-28 10:01:00,95.0,65272.79,True,"{""0"": 0, ""1"": 95}",1,1,1,1.0
 Dishwasher_2015-06-29_01,Dishwasher,Appliance6,Shiftable,2015-06-29 19:50:00,2015-06-29 21:29:00,99.0,67058.96,True,"{""0"": 89, ""1"": 10}",0,1,0,0.0
 Dishwasher_2015-07-01_01,Dishwasher,Appliance6,Shiftable,2015-07-01 08:11:00,2015-07-01 09:44:00,93.0,61869.02,True,"{""0"": 0, ""1"": 93}",1,1,1,1.0

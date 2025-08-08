@@ -1,7 +1,7 @@
 ApplianceID,ApplianceName,ChineseName,Shiftability,Pmin,Tmin,Source,ThresholdSource
-Appliance1,Blender,Magimix (Blender),Shiftable,2.0,2.0,llm,dict
+Appliance1,Magimix (Blender),Magimix (Blender),Shiftable,2.0,1.0,llm,default
 Appliance2,Freezer,Freezer,Base,2.0,2.0,dict,dict
-Appliance3,Chest Freezer (In Garage),Chest Freezer (In Garage),Non-shiftable,2.0,1.0,llm,default
+Appliance3,Chest Freezer (In Garage),Chest Freezer (In Garage),Base,2.0,2.0,dict,dict
 Appliance4,Fridge-Freezer,Fridge-Freezer,Base,2.0,2.0,dict,dict
 Appliance5,Washing Machine,Washing Machine,Shiftable,2.0,1.0,dict,dict
 Appliance6,Dishwasher,Dishwasher,Shiftable,3.0,1.5,dict,dict
