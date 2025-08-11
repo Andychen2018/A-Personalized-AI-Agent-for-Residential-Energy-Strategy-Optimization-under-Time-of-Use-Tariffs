@@ -16,6 +16,7 @@ Author: Andychen2018
 import os
 import json
 import pandas as pd
+import argparse
 from typing import Dict, List, Optional, Union
 
 # Import individual tool classes
@@ -692,41 +693,26 @@ def print_result_summary(result: Dict):
                 print("=" * 120)
 
 
-def main():
-    """Main function for interactive execution"""
+def main(mode, house_id, user_instruction, house_list):
+    """
+    Main function for interactive execution
+    
+    Args:
+        mode: Processing mode (1=single, 2=batch)
+        house_id: House ID for single household mode
+        user_instruction: User instruction for constraints
+        house_list: List of house IDs for batch mode (comma-separated string)
+    """
     print("🚀 Energy Optimization Integration Tool")
     print("=" * 60)
     print("This tool integrates p042 (constraints), p043 (duration), p044 (TOU optimization)")
     print()
 
     try:
-        # Choose processing mode
-        print("📋 Processing modes:")
-        print("1. Single household processing")
-        print("2. Batch household processing")
-        print()
-
-        try:
-            mode_choice = input("Select mode (1-2) [default: 1]: ").strip()
-            if not mode_choice:
-                mode_choice = "1"
-        except (EOFError, KeyboardInterrupt):
-            print("Using default mode: 1")
-            mode_choice = "1"
-
-        if mode_choice == "1":
+        if mode == 1:
             # Single household processing
             print("\n🏠 Single Household Processing")
             print("-" * 40)
-
-            house_id = input("Enter house ID [default: house1]: ").strip()
-            if not house_id:
-                house_id = "house1"
-
-            print("\n📝 User instruction (press Enter for default):")
-            user_instruction = input().strip()
-            if not user_instruction:
-                user_instruction = None
 
             print(f"\n🔄 Processing {house_id}...")
             result = process_single_household_energy_optimization(
@@ -736,7 +722,7 @@ def main():
 
             print_result_summary(result)
 
-        elif mode_choice == "2":
+        elif mode == 2:
             # Batch household processing
             print("\n🏠 Batch Household Processing")
             print("-" * 40)
@@ -745,20 +731,20 @@ def main():
             integrator = EnergyOptimizationIntegrator()
             all_houses = integrator.get_all_available_houses()
 
-            print(f"Available houses: {len(all_houses)} houses ({', '.join(all_houses)})")
-            house_input = input(f"Enter house IDs (comma-separated) [default: all {len(all_houses)} houses]: ").strip()
-            if not house_input:
-                house_list = all_houses
+            if house_list is None or house_list == '' or house_list.strip() == '':
+                house_list_parsed = all_houses
             else:
-                house_list = [h.strip() for h in house_input.split(",")]
+                house_list_parsed = [h.strip() for h in house_list.split(',')]
 
-            print(f"\n🔄 Processing {len(house_list)} houses...")
-            result = process_batch_household_energy_optimization(
-                house_list=house_list,
-                interactive_mode=True
-            )
-
-            print_result_summary(result)
+            print(f"\n🔄 Processing {len(house_list_parsed)} households: {house_list_parsed}")
+            
+            for house_id in house_list_parsed:
+                print(f"\n📦 Processing {house_id}...")
+                result = process_single_household_energy_optimization(
+                    house_id=house_id,
+                    user_instruction=user_instruction
+                )
+                print_result_summary(result)
 
         else:
             print("❌ Invalid mode selection")
@@ -770,8 +756,40 @@ def main():
         print(f"\n❌ Unexpected error: {str(e)}")
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Energy Optimization Integration Tool")
+    parser.add_argument(
+        "--mode", 
+        type=int, 
+        default=1,
+        choices=[1, 2],
+        help="Processing mode: 1=Single household (default), 2=Batch processing"
+    )
+    parser.add_argument(
+        "--house-id", 
+        type=str, 
+        default="house1",
+        help="House ID for single household mode (default: house1)"
+    )
+    parser.add_argument(
+        "--user-instruction", 
+        type=str, 
+        default=None,
+        help="User instruction for constraints (optional)"
+    )
+    parser.add_argument(
+        "--house-list", 
+        type=str, 
+        default=None,
+        help="Comma-separated list of house IDs for batch mode (default: all houses)"
+    )
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    print("args:", args)
+    main(args.mode, args.house_id, args.user_instruction, args.house_list)
 # #!/usr/bin/env python3
 # """
 # test_func_5_int.py - Integrated Tool for Energy Optimization

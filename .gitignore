@@ -1,7 +1,5 @@
 settings.py
 
-tools/settings.py
-
 .env
 
 __pycache__/

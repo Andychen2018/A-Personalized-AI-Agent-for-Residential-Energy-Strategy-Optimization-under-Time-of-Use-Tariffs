@@ -4,6 +4,6 @@ Recommended Tariff: Economy_10
 Available Tariffs: ['Economy_7', 'Economy_10', 'Standard']
 
 Total Costs Comparison:
-  Economy_7: $1035.60
-  Economy_10: $936.60
-  Standard: $1166.51
+  Economy_7: $1075.24
+  Economy_10: $972.44
+  Standard: $1211.48

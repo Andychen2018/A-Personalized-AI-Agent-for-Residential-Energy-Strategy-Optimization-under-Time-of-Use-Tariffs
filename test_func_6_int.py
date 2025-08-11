@@ -15,6 +15,7 @@ Test Function 6 Integration Tool
 
 import os
 import sys
+import argparse
 from typing import List, Dict, Optional
 
 # 添加 tools 目录到 Python 路径
@@ -22,13 +23,13 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'tools'))
 
 # 导入各个工具模块
 try:
-    from p_051_appliance_space_generator import run_generate_appliance_spaces, process_batch_houses as p051_batch
-    from p_052_event_scheduler import run_event_scheduler, process_batch_houses as p052_batch
-    from p_053_collision_resolver import run_collision_resolution, run_single_house_collision_resolution
-    from p_054_event_splitter import run_splitter_interactive, split_events_for_house, list_houses_from_segments, summarize_results
+    from tools.p_051_appliance_space_generator import run_generate_appliance_spaces, process_batch_houses as p051_batch
+    from tools.p_052_event_scheduler import run_event_scheduler, process_batch_houses as p052_batch
+    from tools.p_053_collision_resolver import run_collision_resolution, run_single_house_collision_resolution
+    from tools.p_054_event_splitter import run_splitter_interactive, split_events_for_house, list_houses_from_segments, summarize_results
 except ImportError as e:
-    print(f"❌ 导入工具模块失败: {e}")
-    sys.exit(1)
+    print(f"Warning: Some modules could not be imported: {e}")
+    print("Please ensure the tools directory is accessible.")
 
 
 class IntegratedWorkflow:
@@ -42,6 +43,38 @@ class IntegratedWorkflow:
             'house_list': None,        # 批处理时的house列表
             'test_mode': False         # P051的测试模式标志
         }
+        
+    def setup_configuration_from_args(self, tariff_group="UK", processing_mode="single", house_id="house1"):
+        """从参数设置配置"""
+        print("🎯 Test Function 6 Integration Tool")
+        print("=" * 60)
+        print("集成执行 P051~P054 工具的完整流程")
+        print()
+        
+        # 设置电价方案组
+        self.config['tariff_group'] = tariff_group
+        self.config['test_mode'] = (tariff_group in ['TOU_D', 'Germany_Variable'])
+        print(f"✅ 已选择电价方案组: {self.config['tariff_group']}")
+        
+        # 设置处理模式
+        self.config['processing_mode'] = processing_mode
+        
+        if processing_mode == "single":
+            # 确保house ID格式正确
+            if house_id.isdigit():
+                house_id = f"house{house_id}"
+            elif not house_id.startswith("house"):
+                house_id = f"house{house_id}"
+            self.config['house_id'] = house_id
+            print(f"✅ 已选择处理模式: 单个家庭处理 ({house_id})")
+        else:
+            # 批量处理
+            available_houses = [f"house{i}" for i in range(1, 22) if i not in [12, 14]]
+            self.config['house_list'] = available_houses
+            print(f"✅ 已选择处理模式: 批量处理 ({len(available_houses)} 个家庭)")
+        
+        print()
+        return True
         
     def setup_configuration(self):
         """设置全局配置参数"""
@@ -324,24 +357,29 @@ class IntegratedWorkflow:
         print(f"{'TOTAL':8} {'':12} {'':12} {total_events:8d} {total_migrated:10d} {total_non_migrated:12d} {overall_migration_rate:9.1f}%")
         print("-" * 80)
 
-    def run_complete_workflow(self):
-        """执行完整的工作流程"""
-        print("🚀 开始执行完整的 P051~P054 工作流程")
-        print("=" * 60)
+    def run_complete_workflow(self, interactive=True, tariff_group="UK", processing_mode="single", house_id="house1"):
+        """执行完整工作流程"""
+        if interactive:
+            success = self.setup_configuration()
+        else:
+            success = self.setup_configuration_from_args(tariff_group, processing_mode, house_id)
+            
+        if not success:
+            return False
         
-        # 设置配置
-        self.setup_configuration()
-        
-        # 确认执行
-        print(f"\n⚠️  即将开始执行完整流程，这可能需要较长时间...")
-        try:
-            confirm = input("是否继续？(y/N) [默认: N]: ").strip().lower()
-            if confirm not in ['y', 'yes', '1']:
+        # 确认执行 (仅在交互模式下询问)
+        if interactive:
+            print(f"\n⚠️  即将开始执行完整流程，这可能需要较长时间...")
+            try:
+                confirm = input("是否继续？(y/N) [默认: N]: ").strip().lower()
+                if confirm not in ['y', 'yes', '1']:
+                    print("❌ 用户取消执行")
+                    return False
+            except (EOFError, KeyboardInterrupt):
                 print("❌ 用户取消执行")
                 return False
-        except (EOFError, KeyboardInterrupt):
-            print("❌ 用户取消执行")
-            return False
+        else:
+            print(f"\n🚀 开始执行完整流程...")
             
         # 执行各个步骤
         steps = [
@@ -356,13 +394,17 @@ class IntegratedWorkflow:
             if step_func():
                 success_count += 1
             else:
-                print(f"\n❌ {step_name} 执行失败，是否继续执行后续步骤？")
-                try:
-                    continue_choice = input("继续执行？(y/N) [默认: N]: ").strip().lower()
-                    if continue_choice not in ['y', 'yes']:
+                print(f"\n❌ {step_name} 执行失败")
+                if interactive:
+                    print("是否继续执行后续步骤？")
+                    try:
+                        continue_choice = input("继续执行？(y/N) [默认: N]: ").strip().lower()
+                        if continue_choice not in ['y', 'yes']:
+                            break
+                    except (EOFError, KeyboardInterrupt):
                         break
-                except (EOFError, KeyboardInterrupt):
-                    break
+                else:
+                    print("自动继续执行后续步骤...")
                     
         # 总结
         print(f"\n{'='*60}")
@@ -385,11 +427,60 @@ class IntegratedWorkflow:
             return False
 
 
-def main():
-    """主函数"""
+def main(tariff_group, mode, house_id, interactive):
+    """
+    主函数
+    
+    Args:
+        tariff_group: 电价方案组 ("UK", "TOU_D", "Germany_Variable")
+        mode: 处理模式 (1=single, 2=batch)
+        house_id: 单个家庭处理时的house ID
+        interactive: 是否使用交互模式
+    """
+    # 转换数字模式为字符串模式
+    if mode == 1:
+        processing_mode = "single"
+    elif mode == 2:
+        processing_mode = "batch"
+    else:
+        print("❌ Invalid mode. Using single mode as default.")
+        processing_mode = "single"
+    
     workflow = IntegratedWorkflow()
-    workflow.run_complete_workflow()
+    workflow.run_complete_workflow(interactive, tariff_group, processing_mode, house_id)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Test Function 6 Integration Tool - 集成执行 P051~P054 工具的完整流程")
+    parser.add_argument(
+        "--tariff-group", 
+        type=str, 
+        default="UK",
+        choices=["UK", "TOU_D", "Germany_Variable"],
+        help="电价方案组 (default: UK)"
+    )
+    parser.add_argument(
+        "--mode", 
+        type=int, 
+        default=2,
+        choices=[1, 2],
+        help="处理模式: 1=Single household (default), 2=Batch processing"
+    )
+    parser.add_argument(
+        "--house-id", 
+        type=str, 
+        default="house1",
+        help="单个家庭处理时的house ID (default: house1)"
+    )
+    parser.add_argument(
+        "--interactive", 
+        action="store_true",
+        help="使用交互模式 (默认使用命令行参数)"
+    )
+    return parser.parse_args()
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    print("args:", args)
+    main(args.tariff_group, args.mode, args.house_id, args.interactive)

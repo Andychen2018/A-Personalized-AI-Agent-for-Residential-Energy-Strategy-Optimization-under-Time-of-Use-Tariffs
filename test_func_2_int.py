@@ -593,7 +593,17 @@ def preprocess_single_house(house_number: int):
         return None
 
 
-if __name__ == "__main__":
+import argparse
+
+
+def main(mode, house_number):
+    """
+    Main function for perception module processing
+    
+    Args:
+        mode: Processing mode (1-5)
+        house_number: House number for single household processing
+    """
     print("🚀 Starting Agent V2 Test - Perception Module")
     print("=" * 80)
 
@@ -601,69 +611,35 @@ if __name__ == "__main__":
     user_input = """Hi, I have several appliances at home: Aggregate, Fridge, Chest Freezer, Upright Freezer, Tumble Dryer, Washing Machine, Dishwasher, Computer Site, Television Site, Electric Heater.
     Note: Entry 0 is the Aggregate total power of the household and not an actual appliance."""
 
-    # Select running mode
-    print("Please select running mode:")
-    print("1. Complete pipeline - Batch process all households (perception + shiftability + events)")
-    print("2. Complete pipeline - Single household (Default)")
-    print("3. Perception only - Batch process all households")
-    print("4. Perception only - Single household")
-    print("5. Test mode (process first 3 households - perception only)")
+    target_houses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21]
 
-    choice = input("Please enter your choice (1/2/3/4/5) [Default: 2]: ").strip()
+    if mode == 1:
+        # Single household mode
+        print(f"Available households: {target_houses}")
+        if house_number in target_houses:
+            result = process_single_house_complete(house_number)
+        else:
+            print(f"❌ Household number {house_number} is not in the target list")
+            print(f"Available households: {target_houses}")
 
-    # Set default to single household complete pipeline
-    if not choice:
-        choice = "2"
-
-    if choice == "1":
-        # Complete pipeline - batch process all households
+    elif mode == 2:
+        # Batch mode - process all households
         results = batch_process_complete_pipeline()
 
-    elif choice == "2":
-        # Complete pipeline - single household
-        target_houses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21]
+    elif mode == 3:
+        # Perception only - single household            
         print(f"Available households: {target_houses}")
-        house_num = input("Please enter household number (1-21) [Default: 1]: ").strip()
+        if house_number in target_houses:
+            result = preprocess_single_house(house_number)
+        else:
+            print(f"❌ Household number {house_number} is not in the target list")
+            print(f"Available households: {target_houses}")
 
-        # Set default to house 1
-        if not house_num:
-            house_num = "1"
-
-        try:
-            house_number = int(house_num)
-            if house_number in target_houses:
-                result = process_single_house_complete(house_number)
-            else:
-                print(f"❌ Household number {house_number} is not in the target list")
-                print(f"Available households: {target_houses}")
-        except ValueError:
-            print("❌ Please enter a valid number")
-
-    elif choice == "3":
+    elif mode == 4:
         # Perception only - batch process all households
         results = batch_preprocess_target_houses()
 
-    elif choice == "4":
-        # Perception only - single household
-        target_houses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21]
-        print(f"Available households: {target_houses}")
-        house_num = input("Please enter household number (1-21) [Default: 1]: ").strip()
-
-        # Set default to house 1
-        if not house_num:
-            house_num = "1"
-
-        try:
-            house_number = int(house_num)
-            if house_number in target_houses:
-                result = preprocess_single_house(house_number)
-            else:
-                print(f"❌ Household number {house_number} is not in the target list")
-                print(f"Available households: {target_houses}")
-        except ValueError:
-            print("❌ Please enter a valid number")
-
-    elif choice == "5":
+    elif mode == 5:
         # Test mode - process first 3 households only (perception only)
         print("🧪 Test mode: Processing first 3 households [1, 2, 3] - Perception only")
         test_results = batch_preprocess_specific_houses(
@@ -677,3 +653,27 @@ if __name__ == "__main__":
         print("❌ Invalid choice, exiting program")
 
     print("\n🏁 Program execution completed!")
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Agent V2 Test - Perception Module")
+    parser.add_argument(
+        "--mode", 
+        type=int, 
+        default=2,
+        choices=[1, 2, 3, 4, 5],
+        help="Processing mode: 1=Single household (default), 2=Batch processing, 3=Perception only single, 4=Perception only batch, 5=Test mode"
+    )
+    parser.add_argument(
+        "--house-number", 
+        type=int, 
+        default=1,
+        help="House number for single household processing (1-21, default: 1)"
+    )
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    args = parse_args()
+    print("args:", args)
+    main(args.mode, args.house_number)
