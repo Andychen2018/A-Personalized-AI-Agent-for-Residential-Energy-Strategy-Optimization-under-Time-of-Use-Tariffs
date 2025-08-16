@@ -1,6 +1,6 @@
 {
   "id_to_name": {
-    "Appliance1": "Blender",
+    "Appliance1": "Magimix (Blender)",
     "Appliance2": "Freezer",
     "Appliance3": "Chest Freezer (In Garage)",
     "Appliance4": "Fridge-Freezer",
@@ -11,7 +11,7 @@
     "Appliance9": "Kenwood KMix"
   },
   "id_to_original_name": {
-    "Appliance1": "Blender",
+    "Appliance1": "Magimix (Blender)",
     "Appliance2": "Freezer",
     "Appliance3": "Chest Freezer (In Garage)",
     "Appliance4": "Fridge-Freezer",
@@ -22,7 +22,7 @@
     "Appliance9": "Kenwood KMix"
   },
   "reschedulable_map": {
-    "Appliance1": "Blender",
+    "Appliance1": "Magimix (Blender)",
     "Appliance5": "Washing Machine",
     "Appliance6": "Dishwasher"
   },

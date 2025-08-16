@@ -1676,6 +1676,12 @@ def main():
             house_id = input("输入house ID [默认: house1]: ").strip()
             if not house_id:
                 house_id = "house1"
+            else:
+                # 确保house ID格式正确
+                if house_id.isdigit():
+                    house_id = f"house{house_id}"
+                elif not house_id.startswith("house"):
+                    house_id = f"house{house_id}"
 
             # 处理多个电价方案
             all_results = {}
@@ -1717,7 +1723,19 @@ def main():
             if not house_input:
                 house_list = all_houses
             else:
-                house_list = [h.strip() for h in house_input.split(",")]
+                # 处理用户输入，确保格式正确
+                raw_list = [h.strip() for h in house_input.split(",")]
+                house_list = []
+                for h in raw_list:
+                    # 如果输入的是纯数字，转换为 houseN 格式
+                    if h.isdigit():
+                        house_list.append(f"house{h}")
+                    # 如果已经是 houseN 格式，直接使用
+                    elif h.startswith("house"):
+                        house_list.append(h)
+                    # 其他格式，尝试添加 house 前缀
+                    else:
+                        house_list.append(f"house{h}")
 
             # 处理多个电价方案
             all_results = {}

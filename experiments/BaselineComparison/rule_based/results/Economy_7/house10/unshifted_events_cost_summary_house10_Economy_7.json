@@ -1,0 +1,14 @@
+{
+  "house_id": "10",
+  "tariff_type": "Economy_7",
+  "total_unshifted_events": 25540,
+  "total_complete_events": 26486,
+  "total_shifted_events": 946,
+  "total_unshifted_cost": 859.8347127920539,
+  "data_quality": {
+    "total_events": 25540,
+    "successful": 25540,
+    "data_missing": 0,
+    "errors": 0
+  }
+}

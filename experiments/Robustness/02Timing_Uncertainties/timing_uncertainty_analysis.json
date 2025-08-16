@@ -1,0 +1,143 @@
+{
+  "timing_perturbations": {
+    "total_events": 10398,
+    "total_perturbed": 8769,
+    "perturbation_rate": 84.333525678015
+  },
+  "savings_analysis": {
+    "Economy_7": {
+      "house_results": {
+        "house1": {
+          "standard_cost": 624.11,
+          "baseline_optimized_cost": 438.74480165866527,
+          "perturbed_optimized_cost": 439.2225553170637,
+          "baseline_savings": 185.36519834133475,
+          "perturbed_savings": 184.8874446829363,
+          "savings_retention": 99.74226356259241,
+          "cost_degradation": 0.4777536583984556
+        },
+        "house2": {
+          "standard_cost": 479.93,
+          "baseline_optimized_cost": 379.4287912937542,
+          "perturbed_optimized_cost": 379.1555196440508,
+          "baseline_savings": 100.50120870624579,
+          "perturbed_savings": 100.77448035594921,
+          "savings_retention": 100.27190881902939,
+          "cost_degradation": -0.27327164970341755
+        },
+        "house3": {
+          "standard_cost": 998.95,
+          "baseline_optimized_cost": 804.0772789680374,
+          "perturbed_optimized_cost": 819.5930844404536,
+          "baseline_savings": 194.87272103196267,
+          "perturbed_savings": 179.35691555954645,
+          "savings_retention": 92.03797976943558,
+          "cost_degradation": 15.515805472416218
+        },
+        "house20": {
+          "standard_cost": 524.15,
+          "baseline_optimized_cost": 423.8387833531165,
+          "perturbed_optimized_cost": 426.4514175195435,
+          "baseline_savings": 100.31121664688345,
+          "perturbed_savings": 97.69858248045648,
+          "savings_retention": 97.39547155965221,
+          "cost_degradation": 2.6126341664269717
+        },
+        "house21": {
+          "standard_cost": 495.2,
+          "baseline_optimized_cost": 391.3570463474981,
+          "perturbed_optimized_cost": 391.24814542826357,
+          "baseline_savings": 103.84295365250188,
+          "perturbed_savings": 103.95185457173642,
+          "savings_retention": 100.10487078362482,
+          "cost_degradation": -0.10890091923454293
+        }
+      },
+      "avg_baseline_savings": 136.97865967578568,
+      "avg_perturbed_savings": 133.333855530125,
+      "avg_retention_rate": 97.91049889886688,
+      "t_statistic": 1.2100443353098063,
+      "p_value": 0.29287820240376183,
+      "significant": "False"
+    },
+    "Economy_10": {
+      "house_results": {
+        "house1": {
+          "standard_cost": 624.11,
+          "baseline_optimized_cost": 424.8749198880451,
+          "perturbed_optimized_cost": 425.0755532558439,
+          "baseline_savings": 199.23508011195491,
+          "perturbed_savings": 199.03444674415613,
+          "savings_retention": 99.89929817194539,
+          "cost_degradation": 0.20063336779878682
+        },
+        "house2": {
+          "standard_cost": 479.93,
+          "baseline_optimized_cost": 330.21722183891,
+          "perturbed_optimized_cost": 330.0753184155991,
+          "baseline_savings": 149.71277816109,
+          "perturbed_savings": 149.8546815844009,
+          "savings_retention": 100.0947837753423,
+          "cost_degradation": -0.14190342331090733
+        },
+        "house3": {
+          "standard_cost": 998.95,
+          "baseline_optimized_cost": 685.0658561113607,
+          "perturbed_optimized_cost": 715.1005213458535,
+          "baseline_savings": 313.8841438886393,
+          "perturbed_savings": 283.84947865414654,
+          "savings_retention": 90.43128943615943,
+          "cost_degradation": 30.034665234492763
+        },
+        "house20": {
+          "standard_cost": 524.15,
+          "baseline_optimized_cost": 387.537257522758,
+          "perturbed_optimized_cost": 392.83307102513936,
+          "baseline_savings": 136.61274247724197,
+          "perturbed_savings": 131.31692897486062,
+          "savings_retention": 96.12348496461553,
+          "cost_degradation": 5.29581350238135
+        },
+        "house21": {
+          "standard_cost": 495.2,
+          "baseline_optimized_cost": 352.6649420861307,
+          "perturbed_optimized_cost": 353.8972421833025,
+          "baseline_savings": 142.5350579138693,
+          "perturbed_savings": 141.30275781669746,
+          "savings_retention": 99.13544070125086,
+          "cost_degradation": 1.2323000971718443
+        }
+      },
+      "avg_baseline_savings": 188.39596051055906,
+      "avg_perturbed_savings": 181.07165875485234,
+      "avg_retention_rate": 97.1368594098627,
+      "t_statistic": 1.2716503769916045,
+      "p_value": 0.27240540912228,
+      "significant": "False"
+    }
+  },
+  "overall_retention_rate": 97.52367915436479,
+  "expected_retention_rate": 95.0,
+  "experiment_metadata": {
+    "experiment_type": "timing_uncertainty",
+    "perturbation_range": "±5 minutes",
+    "target_houses": [
+      "house1",
+      "house2",
+      "house3",
+      "house20",
+      "house21"
+    ],
+    "tariff_types": [
+      "Economy_7",
+      "Economy_10"
+    ],
+    "standard_costs": {
+      "house1": 624.11,
+      "house2": 479.93,
+      "house3": 998.95,
+      "house20": 524.15,
+      "house21": 495.2
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "house_id": "house16",
-  "generated_time": "2025-08-07T18:55:31.715897",
+  "generated_time": "2025-08-11T13:39:54.485558",
   "user_input": "",
   "llm_parsing_success": true,
   "appliance_constraints": {
@@ -34,7 +34,7 @@
       "shift_rule": "only_delay",
       "min_duration": 5
     },
-    "Electric Heater (1)": {
+    "Electric Heater": {
       "forbidden_time": [
         [
           "00:00",
@@ -124,7 +124,7 @@
       "shift_rule": "only_delay",
       "min_duration": 5
     },
-    "Electric Heater (3)": {
+    "Electric Heater(3)": {
       "forbidden_time": [
         [
           "00:00",

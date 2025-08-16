@@ -1,0 +1,280 @@
+{
+  "Economy_7": {
+    "house1": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Electric Heater",
+          "constraint_type": "forbidden_time",
+          "constraint_path": "constraints.forbidden_time[0]",
+          "original_value": [
+            "00:00",
+            "06:30"
+          ],
+          "corrupted_value": [
+            "06:30",
+            "00:00"
+          ]
+        },
+        {
+          "appliance": "Chest Freezer",
+          "constraint_type": "latest_finish",
+          "constraint_path": "constraints.latest_finish",
+          "original_value": "24:00",
+          "corrupted_value": "99:99"
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_7/house1/appliance_reschedulable_spaces.json"
+    },
+    "house2": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Television",
+          "constraint_type": "forbidden_time",
+          "constraint_path": "constraints.forbidden_time[0]",
+          "original_value": [
+            "00:00",
+            "06:30"
+          ],
+          "corrupted_value": [
+            "21:00",
+            "09:30"
+          ]
+        },
+        {
+          "appliance": "Dishwasher",
+          "constraint_type": "min_duration",
+          "constraint_path": "constraints.min_duration",
+          "original_value": 5,
+          "corrupted_value": 31
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_7/house2/appliance_reschedulable_spaces.json"
+    },
+    "house3": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Television",
+          "constraint_type": "min_duration",
+          "constraint_path": "constraints.min_duration",
+          "original_value": 5,
+          "corrupted_value": 1440
+        },
+        {
+          "appliance": "Fridge-Freezer",
+          "constraint_type": "forbidden_time",
+          "constraint_path": "constraints.forbidden_time[0]",
+          "original_value": [
+            "00:00",
+            "06:30"
+          ],
+          "corrupted_value": [
+            "06:30",
+            "00:00"
+          ]
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_7/house3/appliance_reschedulable_spaces.json"
+    },
+    "house20": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Fridge",
+          "constraint_type": "forbidden_time",
+          "constraint_path": "constraints.forbidden_time[1]",
+          "original_value": [
+            "23:00",
+            "24:00"
+          ],
+          "corrupted_value": [
+            "22:00",
+            "01:00"
+          ]
+        },
+        {
+          "appliance": "Freezer",
+          "constraint_type": "forbidden_time",
+          "constraint_path": "constraints.forbidden_time[0]",
+          "original_value": [
+            "00:00",
+            "06:30"
+          ],
+          "corrupted_value": [
+            "06:30",
+            "00:00"
+          ]
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_7/house20/appliance_reschedulable_spaces.json"
+    },
+    "house21": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Vivarium",
+          "constraint_type": "forbidden_time",
+          "constraint_path": "constraints.forbidden_time[0]",
+          "original_value": [
+            "00:00",
+            "06:30"
+          ],
+          "corrupted_value": [
+            "23:00",
+            "05:30"
+          ]
+        },
+        {
+          "appliance": "Washing Machine",
+          "constraint_type": "latest_finish",
+          "constraint_path": "constraints.latest_finish",
+          "original_value": "38:00",
+          "corrupted_value": "20:00"
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_7/house21/appliance_reschedulable_spaces.json"
+    }
+  },
+  "Economy_10": {
+    "house1": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Tumble Dryer",
+          "constraint_type": "latest_finish",
+          "constraint_path": "constraints.latest_finish",
+          "original_value": "38:00",
+          "corrupted_value": "09:00"
+        },
+        {
+          "appliance": "Fridge",
+          "constraint_type": "forbidden_time",
+          "constraint_path": "constraints.forbidden_time[0]",
+          "original_value": [
+            "00:00",
+            "06:30"
+          ],
+          "corrupted_value": [
+            "01:05",
+            "05:25"
+          ]
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_10/house1/appliance_reschedulable_spaces.json"
+    },
+    "house2": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Washing Machine",
+          "constraint_type": "min_duration",
+          "constraint_path": "constraints.min_duration",
+          "original_value": 5,
+          "corrupted_value": 4
+        },
+        {
+          "appliance": "Dishwasher",
+          "constraint_type": "shift_rule",
+          "constraint_path": "constraints.shift_rule",
+          "original_value": "only_delay",
+          "corrupted_value": "only_advance"
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_10/house2/appliance_reschedulable_spaces.json"
+    },
+    "house3": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Dishwasher",
+          "constraint_type": "min_duration",
+          "constraint_path": "constraints.min_duration",
+          "original_value": 5,
+          "corrupted_value": 2
+        },
+        {
+          "appliance": "Fridge-Freezer",
+          "constraint_type": "forbidden_time",
+          "constraint_path": "constraints.forbidden_time[1]",
+          "original_value": [
+            "23:00",
+            "24:00"
+          ],
+          "corrupted_value": [
+            "23:35",
+            "23:25"
+          ]
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_10/house3/appliance_reschedulable_spaces.json"
+    },
+    "house20": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Computer Site",
+          "constraint_type": "min_duration",
+          "constraint_path": "constraints.min_duration",
+          "original_value": 5,
+          "corrupted_value": 22
+        },
+        {
+          "appliance": "Television Site",
+          "constraint_type": "min_duration",
+          "constraint_path": "constraints.min_duration",
+          "original_value": 5,
+          "corrupted_value": 27
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_10/house20/appliance_reschedulable_spaces.json"
+    },
+    "house21": {
+      "total_constraints": 45,
+      "corrupted_constraints": 2,
+      "error_rate": 0.044444444444444446,
+      "corruption_log": [
+        {
+          "appliance": "Dishwasher",
+          "constraint_type": "shift_rule",
+          "constraint_path": "constraints.shift_rule",
+          "original_value": "only_delay",
+          "corrupted_value": "none"
+        },
+        {
+          "appliance": "Pond Pump",
+          "constraint_type": "forbidden_time",
+          "constraint_path": "constraints.forbidden_time[0]",
+          "original_value": [
+            "00:00",
+            "06:30"
+          ],
+          "corrupted_value": [
+            "01:43",
+            "04:47"
+          ]
+        }
+      ],
+      "output_file": "/home/deep/TimeSeries/Agent_V2/experiments/Robustness/03Constraint_Parsing_Errors/Error_data/UK/Economy_10/house21/appliance_reschedulable_spaces.json"
+    }
+  }
+}

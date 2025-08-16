@@ -1,0 +1,3 @@
+event_id,appliance_name,appliance_id,original_start_time,original_end_time,optimized_start_time,optimized_end_time,duration_minutes,original_cost,optimized_cost,cost_savings,savings_percentage,is_shifted
+Tumble_Dryer_2014-03-31_01,Tumble Dryer,Appliance3,2014-03-31 16:50:00,2014-03-31 17:05:00,2014-03-31 20:05:00,2014-03-31 20:20:00,15,0.03263235912698412,0.01631617956349206,0.01631617956349206,50.0,True
+Washing_Machine_2014-03-10_01,Washing Machine,Appliance4,2014-03-10 07:34:00,2014-03-10 08:18:00,2014-03-10 13:04:00,2014-03-10 13:48:00,44,0.1441791686507936,0.0720895843253968,0.0720895843253968,50.0,True

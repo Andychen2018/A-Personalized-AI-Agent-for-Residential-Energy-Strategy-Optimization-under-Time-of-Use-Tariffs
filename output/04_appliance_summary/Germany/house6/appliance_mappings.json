@@ -23,15 +23,15 @@
   },
   "reschedulable_map": {
     "Appliance2": "Washing Machine",
-    "Appliance3": "Dishwasher"
+    "Appliance3": "Dishwasher",
+    "Appliance4": "Computer",
+    "Appliance9": "PGM Computer"
   },
   "non_reschedulable_map": {
     "Appliance1": "Freezer",
-    "Appliance4": "Computer",
     "Appliance5": "Television Site",
     "Appliance6": "Microwave",
     "Appliance7": "Kettle",
-    "Appliance8": "Toaster",
-    "Appliance9": "PGM Computer"
+    "Appliance8": "Toaster"
   }
 }

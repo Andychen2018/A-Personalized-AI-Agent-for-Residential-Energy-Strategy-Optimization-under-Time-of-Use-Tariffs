@@ -1,0 +1,33 @@
+{
+  "calculation_timestamp": "2025-08-14T00:49:53.671550",
+  "tariff_statistics": {
+    "Economy_7": {
+      "house_count": 19,
+      "total_events": 9647,
+      "total_original_cost": 2499.046463778884,
+      "total_optimized_cost": 1647.3549728575977,
+      "total_savings": 851.6914909212867,
+      "savings_percentage": 34.08065849377679,
+      "average_savings_per_house": 44.82586794322562,
+      "average_events_per_house": 507.7368421052632
+    },
+    "Economy_10": {
+      "house_count": 19,
+      "total_events": 9257,
+      "total_original_cost": 2225.123992533828,
+      "total_optimized_cost": 1417.0238170227012,
+      "total_savings": 808.1001755111272,
+      "savings_percentage": 36.31708517020279,
+      "average_savings_per_house": 42.53158818479617,
+      "average_events_per_house": 487.2105263157895
+    }
+  },
+  "grand_total": {
+    "total_houses": 38,
+    "total_events": 18904,
+    "total_original_cost": 4724.170456312713,
+    "total_optimized_cost": 3064.3787898802984,
+    "total_savings": 1659.7916664324143,
+    "savings_percentage": 35.1340342559931
+  }
+}

@@ -1,4 +1,23 @@
 appliance_id,appliance_name,month,cost_Germany_Variable,cost_Germany_Variable_Base,energy_Germany_Variable,energy_Germany_Variable_Base
+Appliance1,Magimix (Blender),2013-11,1.8169,2.1174,6.2328,6.2328
+Appliance1,Magimix (Blender),2013-12,6.8314,7.7095,22.6802,22.6802
+Appliance1,Magimix (Blender),2014-01,3.1636,3.6883,10.847199999999999,10.847199999999999
+Appliance1,Magimix (Blender),2014-02,16.497600000000002,19.506100000000004,57.372,57.372
+Appliance1,Magimix (Blender),2014-04,6.355,7.4536,21.9224,21.9224
+Appliance1,Magimix (Blender),2014-05,6.4894,7.658,22.5232,22.5232
+Appliance1,Magimix (Blender),2014-06,3.2808,3.8221,11.2416,11.2416
+Appliance1,Magimix (Blender),2014-07,0.0037,0.0040999999999999995,0.0116,0.0116
+Appliance1,Magimix (Blender),2014-08,0.003,0.0035,0.0102,0.0102
+Appliance1,Magimix (Blender),2014-09,0.0088,0.009300000000000001,0.0275,0.0275
+Appliance1,Magimix (Blender),2014-10,0.0014,0.0016,0.0049,0.0049
+Appliance1,Magimix (Blender),2014-11,0.007,0.007,0.0206,0.0206
+Appliance1,Magimix (Blender),2014-12,0.008199999999999999,0.0088,0.0261,0.0261
+Appliance1,Magimix (Blender),2015-01,0.0076,0.0076,0.0224,0.0224
+Appliance1,Magimix (Blender),2015-02,0.0072,0.007599999999999999,0.0228,0.0228
+Appliance1,Magimix (Blender),2015-03,0.0054,0.0057,0.0171,0.0171
+Appliance1,Magimix (Blender),2015-04,0.0029000000000000002,0.003,0.0092,0.0092
+Appliance1,Magimix (Blender),2015-05,0.011,0.011699999999999999,0.0346,0.0346
+Appliance1,Magimix (Blender),2015-06,0.015300000000000001,0.0154,0.0455,0.0455
 Appliance2,Freezer,2013-11,3.1468,3.6929,10.8585,10.8585
 Appliance2,Freezer,2013-12,9.3055,10.9894,32.3223,32.3223
 Appliance2,Freezer,2014-01,7.2184,8.5334,25.101,25.101
@@ -15,25 +34,25 @@ Appliance2,Freezer,2015-03,0.6199,0.7724,2.2719,2.2719
 Appliance2,Freezer,2015-04,0.3079,0.3645,1.072,1.072
 Appliance2,Freezer,2015-05,0.0403,0.0527,0.15510000000000002,0.15510000000000002
 Appliance2,Freezer,2015-06,0.0357,0.0405,0.1193,0.1193
-Appliance3,Chest Freezer (In Garage),2013-11,1.9474,2.2848,6.7206,6.7206
-Appliance3,Chest Freezer (In Garage),2013-12,6.7546,7.9885,23.4968,23.4968
-Appliance3,Chest Freezer (In Garage),2014-01,5.2542,6.2255,18.3094,18.3094
-Appliance3,Chest Freezer (In Garage),2014-02,0.996,1.1542000000000001,3.3971,3.3971
+Appliance3,Chest Freezer (In Garage),2013-11,1.946,2.2827,6.7142,6.7142
+Appliance3,Chest Freezer (In Garage),2013-12,6.7526,7.9864,23.4907,23.4907
+Appliance3,Chest Freezer (In Garage),2014-01,5.2529,6.224,18.3051,18.3051
+Appliance3,Chest Freezer (In Garage),2014-02,0.9881,1.1455,3.3703,3.3703
 Appliance3,Chest Freezer (In Garage),2014-03,0.0844,0.09809999999999999,0.2883,0.2883
 Appliance3,Chest Freezer (In Garage),2014-04,7.5901,8.9354,26.2822,26.2822
-Appliance3,Chest Freezer (In Garage),2014-05,9.3981,11.0551,32.517,32.517
+Appliance3,Chest Freezer (In Garage),2014-05,9.3979,11.0547,32.5158,32.5158
 Appliance3,Chest Freezer (In Garage),2014-06,34.9609,41.4501,121.9137,121.9137
 Appliance3,Chest Freezer (In Garage),2014-08,10.2934,12.1674,35.786500000000004,35.786500000000004
 Appliance3,Chest Freezer (In Garage),2014-09,10.2913,12.1807,35.8263,35.8263
-Appliance3,Chest Freezer (In Garage),2014-10,11.2646,13.2864,39.0799,39.0799
+Appliance3,Chest Freezer (In Garage),2014-10,11.2639,13.2851,39.0764,39.0764
 Appliance3,Chest Freezer (In Garage),2014-11,8.6186,10.1827,29.9461,29.9461
-Appliance3,Chest Freezer (In Garage),2014-12,8.0416,9.5227,28.006,28.006
+Appliance3,Chest Freezer (In Garage),2014-12,8.0415,9.5225,28.0055,28.0055
 Appliance3,Chest Freezer (In Garage),2015-01,7.5765,8.9716,26.39,26.39
 Appliance3,Chest Freezer (In Garage),2015-02,6.9109,8.1781,24.0541,24.0541
 Appliance3,Chest Freezer (In Garage),2015-03,8.183300000000001,9.6701,28.4424,28.4424
 Appliance3,Chest Freezer (In Garage),2015-04,8.9586,10.5041,30.8936,30.8936
-Appliance3,Chest Freezer (In Garage),2015-05,7.2306,8.4829,24.950499999999998,24.950499999999998
-Appliance3,Chest Freezer (In Garage),2015-06,2.9475,3.4953,10.2805,10.2805
+Appliance3,Chest Freezer (In Garage),2015-05,6.8237,8.0067,23.5487,23.5487
+Appliance3,Chest Freezer (In Garage),2015-06,2.4577,2.9162,8.5767,8.5767
 Appliance4,Fridge-Freezer,2013-11,1.4478,1.7077,5.0216,5.0216
 Appliance4,Fridge-Freezer,2013-12,4.609,5.4407,16.0014,16.0014
 Appliance4,Fridge-Freezer,2014-01,3.5007,4.0995,12.0553,12.0553

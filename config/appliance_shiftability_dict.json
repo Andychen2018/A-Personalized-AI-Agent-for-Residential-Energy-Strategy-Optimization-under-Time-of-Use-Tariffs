@@ -382,7 +382,7 @@
   },
   "EV Charger": {
     "chinese_name": "电动车充电桩",
-    "shiftability": "Non-shiftable"
+    "shiftability": "Shiftable"
   },
   "Smart Sprinkler": {
     "chinese_name": "智能洒水器",
@@ -996,9 +996,9 @@
     "chinese_name": "太阳能逆变器（空闲）",
     "shiftability": "Non-shiftable"
   },
-  "EV Charger": {
+  "EV": {
     "chinese_name": "电动车充电桩（空闲）",
-    "shiftability": "Non-shiftable"
+    "shiftability": "shiftable"
   },
   "Smart Garage Opener": {
     "chinese_name": "智能车库开关",

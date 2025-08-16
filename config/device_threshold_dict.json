@@ -861,7 +861,7 @@
   },
   "EV Charger": {
     "chinese_name": "电动车充电桩",
-    "shiftability": "Non-shiftable",
+    "shiftability": "shiftable",
     "Pmin": 2,
     "Tmin": 2,
     "aliases": [
@@ -2493,9 +2493,9 @@
       "太阳能逆变器（空闲）"
     ]
   },
-  "EV Charger": {
+  "EV": {
     "chinese_name": "电动车充电桩（空闲）",
-    "shiftability": "Non-shiftable",
+    "shiftability": "shiftable",
     "Pmin": 2,
     "Tmin": 2,
     "aliases": [

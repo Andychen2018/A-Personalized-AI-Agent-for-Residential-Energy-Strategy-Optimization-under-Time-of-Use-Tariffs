@@ -1,0 +1,9 @@
+{
+  "total_files_processed": 38,
+  "successful_optimizations": 38,
+  "total_events_optimized": 30296,
+  "total_original_cost": 7098.057737706726,
+  "total_optimized_cost": 5044.422877393143,
+  "total_savings": 2053.6348603135816,
+  "average_savings_percentage": 34.762483881061165
+}

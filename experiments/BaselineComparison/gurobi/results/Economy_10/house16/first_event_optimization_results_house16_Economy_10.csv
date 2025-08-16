@@ -1,0 +1,3 @@
+event_id,appliance_name,appliance_id,original_start_time,original_end_time,optimized_start_time,optimized_end_time,duration_minutes,original_cost,optimized_cost,cost_savings,savings_percentage,is_shifted
+Washing_Machine_2014-01-10_01,Washing Machine,Appliance5,2014-01-10 17:58:00,2014-01-10 19:21:00,2014-01-10 20:13:00,2014-01-10 21:36:00,83,0.24367446031746035,0.12183723015873017,0.12183723015873017,50.0,True
+Dishwasher_2014-01-11_01,Dishwasher,Appliance6,2014-01-11 08:17:00,2014-01-11 08:55:00,2014-01-11 13:02:00,2014-01-11 13:40:00,38,0.2671127467532467,0.13355637337662335,0.13355637337662335,50.0,True

@@ -2,8 +2,8 @@ appliance_id,appliance_name,is_reschedulable,original_name
 Appliance1,Fridge,False,Fridge
 Appliance2,Freezer,False,Freezer
 Appliance3,Fridge-Freezer,False,Fridge-Freezer
-Appliance4,Washing Machine (1),True,Washing Machine
-Appliance5,Washing Machine (2),True,Washing Machine
+Appliance4,Washing Machine (1),True,Washing Machine (1)
+Appliance5,Washing Machine (2),True,Washing Machine (2)
 Appliance6,Computer Site,False,Computer Site
 Appliance7,Television Site,False,Television Site
 Appliance8,Microwave,False,Microwave

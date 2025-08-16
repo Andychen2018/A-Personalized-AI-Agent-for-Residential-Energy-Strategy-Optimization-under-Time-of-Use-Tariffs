@@ -1,0 +1,72 @@
+{
+  "house1": {
+    "appliances": [
+      "Aggregate",
+      "Fridge",
+      "Chest Freezer", 
+      "Upright Freezer",
+      "Tumble Dryer",
+      "Washing Machine",
+      "Dishwasher",
+      "Computer Site",
+      "Television Site",
+      "Electric Heater"
+    ]
+  },
+  "house2": {
+    "appliances": [
+      "Aggregate",
+      "Fridge",
+      "Chest Freezer",
+      "Upright Freezer", 
+      "Tumble Dryer",
+      "Washing Machine",
+      "Dishwasher",
+      "Computer Site",
+      "Television Site",
+      "Electric Heater"
+    ]
+  },
+  "house3": {
+    "appliances": [
+      "Aggregate",
+      "Fridge",
+      "Chest Freezer",
+      "Upright Freezer",
+      "Tumble Dryer", 
+      "Washing Machine",
+      "Dishwasher",
+      "Computer Site",
+      "Television Site",
+      "Electric Heater"
+    ]
+  },
+  "house20": {
+    "appliances": [
+      "Aggregate",
+      "Fridge",
+      "Chest Freezer",
+      "Upright Freezer",
+      "Tumble Dryer",
+      "Washing Machine", 
+      "Dishwasher",
+      "Computer Site",
+      "Television Site",
+      "Electric Heater"
+    ]
+  },
+  "house21": {
+    "appliances": [
+      "Aggregate",
+      "Fridge",
+      "Chest Freezer",
+      "Upright Freezer",
+      "Tumble Dryer",
+      "Washing Machine",
+      "Dishwasher", 
+      "Computer Site",
+      "Television Site",
+      "Electric Heater"
+    ]
+  }
+}

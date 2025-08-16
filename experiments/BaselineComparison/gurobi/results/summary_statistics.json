@@ -1,0 +1,17 @@
+{
+  "houses_with_e7": 19,
+  "houses_with_e10": 19,
+  "houses_with_both": 19,
+  "e7_total_original": 10898.823352463305,
+  "e7_total_optimized": 9921.155844782828,
+  "e7_total_savings": 977.6675076804773,
+  "e7_avg_savings_rate": 8.328817786501695,
+  "e7_overall_savings_rate": 8.970395023968427,
+  "e10_total_original": 9882.42186830809,
+  "e10_total_optimized": 8806.454515674981,
+  "e10_total_savings": 1075.9673526331103,
+  "e10_avg_savings_rate": 9.95157021177157,
+  "e10_overall_savings_rate": 10.887688938716801,
+  "e7_better_count": 9,
+  "e10_better_count": 10
+}

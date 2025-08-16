@@ -1,0 +1,4 @@
+event_id,appliance_name,appliance_id,original_start_time,original_end_time,optimized_start_time,optimized_end_time,duration_minutes,original_cost,optimized_cost,cost_savings,savings_percentage,is_shifted
+Tumble_Dryer_2013-09-28_01,Tumble Dryer,Appliance2,2013-09-28 06:10:00,2013-09-28 07:15:00,2013-09-28 13:10:00,2013-09-28 14:15:00,65,0.2906215436507936,0.1453107718253968,0.1453107718253968,50.0,True
+Washing_Machine_2013-09-27_01,Washing Machine,Appliance3,2013-09-27 07:29:00,2013-10-10 04:47:00,2013-09-27 07:29:00,2013-10-10 04:47:00,18558,1.3954451646478307,1.3954451646478307,0.0,0.0,False
+Dishwasher_2013-09-26_01,Dishwasher,Appliance4,2013-09-26 19:43:00,2013-09-27 03:18:00,2013-09-26 19:43:00,2013-09-27 03:18:00,455,0.015068808440742274,0.015068808440742274,0.0,0.0,False

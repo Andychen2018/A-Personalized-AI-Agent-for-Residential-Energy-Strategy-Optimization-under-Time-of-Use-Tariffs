@@ -4,5 +4,5 @@ Recommended Tariff: Germany_Variable
 Available Tariffs: ['Germany_Variable', 'Germany_Variable_Base']
 
 Total Costs Comparison:
-  Germany_Variable: $614.34
-  Germany_Variable_Base: $717.30
+  Germany_Variable: $668.51
+  Germany_Variable_Base: $780.13

@@ -1,0 +1,16 @@
+{
+  "house_id": "18",
+  "tariff_type": "Economy_7",
+  "total_events": 314,
+  "total_original_cost_calculated": 60.03135444937014,
+  "total_optimized_cost_calculated": 30.829034425442636,
+  "total_cost_savings_calculated": 29.202320023927506,
+  "total_savings_percentage_calculated": 48.645112694494436,
+  "data_quality": {
+    "total_events": 314,
+    "original_data_missing": 19,
+    "optimized_data_missing": 19,
+    "out_of_range": 0,
+    "successful": 314
+  }
+}

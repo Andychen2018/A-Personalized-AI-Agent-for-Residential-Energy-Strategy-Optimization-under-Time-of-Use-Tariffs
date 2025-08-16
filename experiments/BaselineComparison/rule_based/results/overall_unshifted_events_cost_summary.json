@@ -1,0 +1,21 @@
+{
+  "calculation_timestamp": "2025-08-14T01:09:19.754271",
+  "tariff_statistics": {
+    "Economy_10": {
+      "house_count": 19,
+      "total_unshifted_events": 465783,
+      "total_complete_events": 475040,
+      "total_shifted_events": 9257,
+      "total_unshifted_cost": 7655.613723393906,
+      "average_unshifted_cost_per_house": 402.92703807336346,
+      "shift_rate": 1.9486780060626474
+    }
+  },
+  "grand_total": {
+    "total_houses": 19,
+    "total_unshifted_events": 465783,
+    "total_complete_events": 475040,
+    "total_shifted_events": 9257,
+    "total_unshifted_cost": 7655.613723393906
+  }
+}

@@ -1,0 +1,466 @@
+appliance_id,appliance_name,Shiftability,start_time,end_time,duration(min),energy(W),event_id,is_reschedulable,price_level_profile,primary_price_level,start_price_level,end_price_level,optimization_potential
+Appliance5,Tumble Dryer,Shiftable,2013-09-23 03:21:00,2013-09-23 03:27:00,6.0,46.4,house2_event_9204,False,"{""0"": 6, ""1"": 0}",0,0,0,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-09-24 11:20:00,2013-09-24 11:28:00,8.0,2515.47,house2_event_9209,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-09-26 16:53:00,2013-09-26 17:04:00,11.0,5832.65,house2_event_9217,True,"{""0"": 0, ""1"": 11}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-09-26 17:33:00,2013-09-26 17:39:00,6.0,3833.29,house2_event_9218,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-09-28 16:35:00,2013-09-28 16:40:00,5.0,955.37,house2_event_9223,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-09-28 19:51:00,2013-09-28 19:56:00,5.0,2886.28,house2_event_9225,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-09-29 09:45:00,2013-09-29 09:50:00,5.0,913.93,house2_event_9227,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-09-29 16:27:00,2013-09-29 16:31:00,4.0,1372.84,house2_event_9228,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-09-29 16:28:00,2013-09-29 16:36:00,8.0,6803.25,house2_event_9229,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-09-29 16:39:00,2013-09-29 16:46:00,7.0,402.26,house2_event_9230,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-02 15:24:00,2013-10-02 15:29:00,5.0,3984.13,house2_event_9243,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-04 12:04:00,2013-10-04 12:12:00,8.0,1434.85,house2_event_9248,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-06 15:54:00,2013-10-06 15:59:00,5.0,92.54,house2_event_9260,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-07 16:20:00,2013-10-07 16:28:00,8.0,2498.52,house2_event_9266,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-09 16:44:00,2013-10-09 16:57:00,13.0,13733.7,house2_event_9279,True,"{""0"": 0, ""1"": 13}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-10 12:07:00,2013-10-10 12:13:00,6.0,1067.58,house2_event_9282,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-10 16:17:00,2013-10-10 16:23:00,6.0,750.45,house2_event_9283,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-11 12:13:00,2013-10-11 12:23:00,10.0,2989.74,house2_event_9285,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-15 17:40:00,2013-10-15 17:52:00,12.0,10754.67,house2_event_9306,True,"{""0"": 0, ""1"": 12}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-16 10:21:00,2013-10-16 10:26:00,5.0,253.53,house2_event_9307,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-20 13:53:00,2013-10-20 13:58:00,5.0,50.25,house2_event_9309,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-21 06:43:00,2013-10-21 06:48:00,5.0,531.77,house2_event_9313,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-21 15:46:00,2013-10-21 15:51:00,5.0,1025.38,house2_event_9317,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-23 09:46:00,2013-10-23 09:51:00,5.0,176.31,house2_event_9325,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-23 09:57:00,2013-10-23 10:02:00,5.0,94.23,house2_event_9326,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2013-10-23 10:26:00,2013-10-23 10:31:00,5.0,662.14,house2_event_9327,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-02-21 11:58:00,2014-02-21 12:04:00,6.0,1825.32,house2_event_9338,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-03-06 18:29:00,2014-03-06 18:42:00,13.0,393.84,house2_event_9353,True,"{""0"": 0, ""1"": 13}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-03-10 18:06:00,2014-03-10 18:09:00,3.0,3420.36,house2_event_9364,True,"{""0"": 0, ""1"": 3}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-03-13 12:03:00,2014-03-13 12:11:00,8.0,4950.8,house2_event_9366,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-03-16 18:30:00,2014-03-16 18:35:00,5.0,3912.93,house2_event_9376,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-03-16 18:40:00,2014-03-16 18:45:00,5.0,4512.73,house2_event_9377,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-03-28 17:12:00,2014-03-28 17:18:00,6.0,3976.93,house2_event_9402,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-03-29 17:07:00,2014-03-29 17:22:00,15.0,10704.15,house2_event_9405,True,"{""0"": 0, ""1"": 15}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-03-30 17:22:00,2014-03-30 17:29:00,7.0,6317.43,house2_event_9408,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-04-01 17:05:00,2014-04-01 17:15:00,10.0,6545.27,house2_event_9415,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-04-11 16:14:00,2014-04-11 16:19:00,5.0,2918.37,house2_event_9422,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-04-16 16:05:00,2014-04-16 16:42:00,37.0,4335.13,house2_event_9430,True,"{""0"": 0, ""1"": 37}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-04-16 16:41:00,2014-04-16 16:52:00,11.0,8163.02,house2_event_9431,True,"{""0"": 0, ""1"": 11}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-04-17 08:05:00,2014-04-18 15:42:00,1897.0,63712.8,house2_event_9432,True,"{""0"": 421, ""1"": 1476}",1,1,1,0.22192936215076436
+Appliance5,Tumble Dryer,Shiftable,2014-04-23 16:59:00,2014-04-23 17:04:00,5.0,4204.2,house2_event_9436,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-04-24 17:17:00,2014-04-24 17:19:00,2.0,4641.64,house2_event_9437,True,"{""0"": 0, ""1"": 2}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-04-28 16:39:00,2014-04-28 16:52:00,13.0,10511.58,house2_event_9444,True,"{""0"": 0, ""1"": 13}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-05-11 15:17:00,2014-05-11 15:24:00,7.0,1285.59,house2_event_9466,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-05-14 16:24:00,2014-05-14 16:31:00,7.0,1514.35,house2_event_9470,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-05-14 16:45:00,2014-05-14 16:53:00,8.0,5658.12,house2_event_9471,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-05-21 14:27:00,2014-05-21 14:41:00,14.0,653.55,house2_event_9482,True,"{""0"": 0, ""1"": 14}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-05-21 14:46:00,2014-05-21 15:01:00,15.0,698.99,house2_event_9483,True,"{""0"": 0, ""1"": 15}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-05-21 15:08:00,2014-05-21 15:14:00,6.0,188.48,house2_event_9484,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-05-22 16:47:00,2014-05-22 16:51:00,4.0,3898.75,house2_event_9492,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-05-25 10:00:00,2014-05-25 10:14:00,14.0,2477.31,house2_event_9497,True,"{""0"": 0, ""1"": 14}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-06-01 17:28:00,2014-06-01 17:42:00,14.0,10890.43,house2_event_9508,True,"{""0"": 0, ""1"": 14}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-06-11 16:40:00,2014-06-11 16:46:00,6.0,2869.03,house2_event_9522,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-06-12 16:48:00,2014-06-12 16:58:00,10.0,4407.38,house2_event_9524,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-06-16 16:26:00,2014-06-16 16:35:00,9.0,4890.24,house2_event_9531,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-06-16 16:32:00,2014-06-16 16:41:00,9.0,3322.18,house2_event_9532,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-06-16 16:49:00,2014-06-16 16:57:00,8.0,4741.4,house2_event_9533,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-06-18 17:31:00,2014-06-18 17:38:00,7.0,4407.17,house2_event_9536,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-06-20 16:17:00,2014-06-20 16:22:00,5.0,2248.19,house2_event_9539,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-07-09 16:01:00,2014-07-09 16:06:00,5.0,3291.24,house2_event_9565,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-07-10 12:21:00,2014-07-10 12:31:00,10.0,2721.38,house2_event_9569,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-07-14 15:37:00,2014-07-14 15:43:00,6.0,271.62,house2_event_9581,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-07-14 15:53:00,2014-07-14 15:59:00,6.0,225.32,house2_event_9582,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-07-14 16:01:00,2014-07-14 16:07:00,6.0,1832.13,house2_event_9583,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-07-24 11:03:00,2014-07-24 11:08:00,5.0,1417.52,house2_event_9598,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-07-25 22:36:00,2014-07-25 22:40:00,4.0,2873.92,house2_event_9601,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-08-03 16:03:00,2014-08-03 16:11:00,8.0,4158.86,house2_event_9604,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-08-04 07:10:00,2014-08-04 07:15:00,5.0,98.94,house2_event_9606,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-08-08 12:02:00,2014-08-08 12:06:00,4.0,2310.54,house2_event_9613,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-08-09 14:43:00,2014-08-09 14:50:00,7.0,4417.4,house2_event_9617,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-08-12 15:58:00,2014-08-12 16:21:00,23.0,4737.3,house2_event_9626,True,"{""0"": 0, ""1"": 23}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-08-12 18:05:00,2014-08-12 18:13:00,8.0,2153.92,house2_event_9628,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-08-15 20:32:00,2014-08-15 20:38:00,6.0,4384.77,house2_event_9636,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-08-20 16:30:00,2014-08-20 16:35:00,5.0,2709.19,house2_event_9643,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-09-04 17:19:00,2014-09-04 17:23:00,4.0,3318.19,house2_event_9650,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-09-10 11:55:00,2014-09-10 12:00:00,5.0,3095.31,house2_event_9662,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-09-18 16:43:00,2014-09-18 16:57:00,14.0,8896.35,house2_event_9672,True,"{""0"": 0, ""1"": 14}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-09-22 14:19:00,2014-09-22 14:24:00,5.0,3113.89,house2_event_9680,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-09-23 16:32:00,2014-09-23 16:45:00,13.0,3927.64,house2_event_9684,True,"{""0"": 0, ""1"": 13}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-09-23 19:51:00,2014-09-23 19:56:00,5.0,2311.97,house2_event_9689,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-09-28 16:11:00,2014-09-28 16:21:00,10.0,8368.8,house2_event_9700,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-01 17:47:00,2014-10-01 17:52:00,5.0,4087.9,house2_event_9711,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-07 13:29:00,2014-10-07 13:36:00,7.0,4807.45,house2_event_9725,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-08 16:55:00,2014-10-08 17:01:00,6.0,5134.37,house2_event_9731,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-11 17:01:00,2014-10-11 17:12:00,11.0,8568.71,house2_event_9749,True,"{""0"": 0, ""1"": 11}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-13 16:08:00,2014-10-13 16:14:00,6.0,4232.01,house2_event_9755,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-14 13:57:00,2014-10-14 14:02:00,5.0,2249.41,house2_event_9757,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-17 12:40:00,2014-10-17 12:48:00,8.0,3982.84,house2_event_9766,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-20 16:45:00,2014-10-20 16:50:00,5.0,2393.91,house2_event_9769,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-20 17:00:00,2014-10-20 17:08:00,8.0,3074.77,house2_event_9771,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-22 17:47:00,2014-10-22 17:55:00,8.0,2812.61,house2_event_9780,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-24 17:38:00,2014-10-24 17:46:00,8.0,1923.06,house2_event_9785,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-25 16:58:00,2014-10-25 17:03:00,5.0,2445.02,house2_event_9788,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-30 13:52:00,2014-10-30 13:57:00,5.0,3709.52,house2_event_9805,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-31 11:30:00,2014-10-31 11:33:00,3.0,3937.55,house2_event_9810,True,"{""0"": 0, ""1"": 3}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-10-31 17:33:00,2014-10-31 17:46:00,13.0,6381.95,house2_event_9813,True,"{""0"": 0, ""1"": 13}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-06 20:16:00,2014-11-06 20:21:00,5.0,3716.95,house2_event_9821,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-12 16:58:00,2014-11-12 17:08:00,10.0,5160.92,house2_event_9833,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-18 14:39:00,2014-11-18 14:44:00,5.0,3375.57,house2_event_9850,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-18 17:03:00,2014-11-18 17:07:00,4.0,4093.99,house2_event_9851,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-21 16:56:00,2014-11-21 16:59:00,3.0,3631.53,house2_event_9857,True,"{""0"": 0, ""1"": 3}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-21 19:27:00,2014-11-21 19:35:00,8.0,4431.74,house2_event_9861,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-22 11:55:00,2014-11-22 12:03:00,8.0,1902.05,house2_event_9865,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-22 17:10:00,2014-11-22 17:14:00,4.0,2195.0,house2_event_9869,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-23 17:06:00,2014-11-23 17:13:00,7.0,3874.6,house2_event_9873,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-24 17:16:00,2014-11-24 17:25:00,9.0,5238.77,house2_event_9875,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-26 16:47:00,2014-11-26 16:53:00,6.0,3517.11,house2_event_9887,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-11-30 21:57:00,2014-11-30 22:06:00,9.0,10866.22,house2_event_9904,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-09 22:09:00,2014-12-09 22:13:00,4.0,3834.07,house2_event_9926,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-11 11:53:00,2014-12-11 11:58:00,5.0,3672.23,house2_event_9928,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-13 11:58:00,2014-12-13 12:07:00,9.0,1579.32,house2_event_9936,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-13 17:50:00,2014-12-13 17:59:00,9.0,6189.3,house2_event_9941,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-15 16:41:00,2014-12-15 17:03:00,22.0,3826.24,house2_event_9951,True,"{""0"": 0, ""1"": 22}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-19 11:25:00,2014-12-19 11:29:00,4.0,4333.65,house2_event_9965,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-21 17:01:00,2014-12-21 17:09:00,8.0,6181.04,house2_event_9974,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-25 12:19:00,2014-12-25 12:24:00,5.0,2454.64,house2_event_9990,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-25 17:10:00,2014-12-25 17:15:00,5.0,4812.84,house2_event_9993,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-25 19:49:00,2014-12-25 19:52:00,3.0,3345.32,house2_event_9998,True,"{""0"": 0, ""1"": 3}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-26 09:56:00,2014-12-26 10:02:00,6.0,2910.88,house2_event_10000,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-26 17:59:00,2014-12-26 18:05:00,6.0,2083.8,house2_event_10002,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2014-12-27 18:09:00,2014-12-27 18:13:00,4.0,4815.37,house2_event_10009,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-06 10:08:00,2015-01-06 11:37:00,89.0,547.58,house2_event_10030,True,"{""0"": 0, ""1"": 89}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-10 15:38:00,2015-01-10 15:56:00,18.0,3635.03,house2_event_10045,True,"{""0"": 0, ""1"": 18}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-12 17:22:00,2015-01-12 17:32:00,10.0,2388.29,house2_event_10063,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-12 17:33:00,2015-01-12 17:40:00,7.0,3335.51,house2_event_10064,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-13 12:40:00,2015-01-13 12:45:00,5.0,2814.37,house2_event_10071,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-14 12:19:00,2015-01-14 12:47:00,28.0,10592.64,house2_event_10078,True,"{""0"": 0, ""1"": 28}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-14 17:16:00,2015-01-14 17:22:00,6.0,2029.83,house2_event_10081,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-14 17:31:00,2015-01-14 17:46:00,15.0,11710.17,house2_event_10082,True,"{""0"": 0, ""1"": 15}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-16 22:26:00,2015-01-16 22:28:00,2.0,2225.42,house2_event_10092,True,"{""0"": 0, ""1"": 2}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-19 12:48:00,2015-01-19 12:54:00,6.0,2801.04,house2_event_10095,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-25 10:31:00,2015-01-25 10:42:00,11.0,4697.11,house2_event_10125,True,"{""0"": 0, ""1"": 11}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-27 17:24:00,2015-01-27 17:29:00,5.0,3062.14,house2_event_10134,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-27 17:40:00,2015-01-27 17:48:00,8.0,5148.74,house2_event_10135,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-28 16:46:00,2015-01-28 17:06:00,20.0,7972.34,house2_event_10140,True,"{""0"": 0, ""1"": 20}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-01-29 13:11:00,2015-01-29 13:18:00,7.0,3748.93,house2_event_10143,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-01 17:26:00,2015-02-01 17:35:00,9.0,7813.72,house2_event_10158,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-02 07:54:00,2015-02-02 07:56:00,2.0,658.69,house2_event_10163,True,"{""0"": 0, ""1"": 2}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-02 16:50:00,2015-02-02 16:55:00,5.0,4405.87,house2_event_10168,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-02 17:39:00,2015-02-02 17:45:00,6.0,4723.55,house2_event_10169,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-05 13:11:00,2015-02-05 13:17:00,6.0,4179.21,house2_event_10179,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-07 19:44:00,2015-02-07 19:49:00,5.0,2601.81,house2_event_10190,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-10 13:10:00,2015-02-10 13:16:00,6.0,1669.35,house2_event_10201,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-11 07:22:00,2015-02-11 07:27:00,5.0,3329.29,house2_event_10204,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-11 15:40:00,2015-02-11 16:04:00,24.0,7568.01,house2_event_10205,True,"{""0"": 0, ""1"": 24}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-11 21:17:00,2015-02-11 21:25:00,8.0,2998.59,house2_event_10207,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-12 16:59:00,2015-02-12 17:04:00,5.0,3746.02,house2_event_10210,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-13 14:15:00,2015-02-13 14:20:00,5.0,3344.87,house2_event_10216,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-17 21:23:00,2015-02-17 21:38:00,15.0,5431.6,house2_event_10225,True,"{""0"": 0, ""1"": 15}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-21 16:39:00,2015-02-21 16:59:00,20.0,18762.11,house2_event_10232,True,"{""0"": 0, ""1"": 20}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-23 16:50:00,2015-02-23 16:58:00,8.0,2665.34,house2_event_10242,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-23 17:07:00,2015-02-23 17:16:00,9.0,1956.04,house2_event_10243,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-23 17:20:00,2015-02-23 17:38:00,18.0,9370.34,house2_event_10244,True,"{""0"": 0, ""1"": 18}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-26 11:23:00,2015-02-26 11:32:00,9.0,3977.99,house2_event_10256,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-02-26 17:35:00,2015-02-26 17:45:00,10.0,6798.32,house2_event_10258,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-03-03 22:47:00,2015-03-03 22:55:00,8.0,3617.33,house2_event_10274,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-03-04 07:21:00,2015-03-04 07:27:00,6.0,4084.97,house2_event_10276,False,"{""0"": 6, ""1"": 0}",0,0,0,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-03-05 18:03:00,2015-03-05 18:08:00,5.0,789.14,house2_event_10282,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-03-12 14:02:00,2015-03-12 14:08:00,6.0,3782.32,house2_event_10299,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-03-18 16:53:00,2015-03-18 16:59:00,6.0,7471.21,house2_event_10317,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-03-18 17:01:00,2015-03-18 17:12:00,11.0,6493.31,house2_event_10318,True,"{""0"": 0, ""1"": 11}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-03-24 16:55:00,2015-03-24 17:01:00,6.0,5968.18,house2_event_10328,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-03-25 18:07:00,2015-03-25 18:15:00,8.0,5970.92,house2_event_10332,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-03-30 14:51:00,2015-03-30 15:07:00,16.0,1698.4,house2_event_10342,True,"{""0"": 0, ""1"": 16}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-04-01 20:00:00,2015-04-01 20:05:00,5.0,3862.37,house2_event_10345,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-04-02 07:05:00,2015-04-02 07:10:00,5.0,3527.58,house2_event_10346,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-04-08 18:26:00,2015-04-08 18:31:00,5.0,2228.59,house2_event_10359,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-04-12 08:57:00,2015-04-12 09:06:00,9.0,2568.62,house2_event_10381,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-04-12 09:30:00,2015-04-12 09:35:00,5.0,3026.83,house2_event_10383,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-04-24 19:35:00,2015-04-24 19:41:00,6.0,3059.03,house2_event_10445,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-04-28 19:15:00,2015-04-28 19:20:00,5.0,3477.42,house2_event_10458,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-04-29 20:49:00,2015-04-29 20:56:00,7.0,3601.09,house2_event_10464,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-05-01 12:16:00,2015-05-01 12:22:00,6.0,2266.98,house2_event_10470,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-05-03 10:11:00,2015-05-03 10:21:00,10.0,7488.75,house2_event_10477,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-05-19 16:26:00,2015-05-19 16:51:00,25.0,19913.02,house2_event_10489,True,"{""0"": 0, ""1"": 25}",1,1,1,0.0
+Appliance5,Tumble Dryer,Shiftable,2015-05-22 11:38:00,2015-05-22 11:44:00,6.0,336.38,house2_event_10499,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2013-09-20 11:12:00,2013-09-20 11:21:00,9.0,4427.07,house2_event_10512,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2013-09-21 17:30:00,2013-09-21 17:36:00,6.0,4660.9,house2_event_10513,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2013-09-27 16:40:00,2013-09-27 16:45:00,5.0,4161.06,house2_event_10517,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2013-10-01 17:42:00,2013-10-01 17:48:00,6.0,42.93,house2_event_10521,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2013-10-14 10:57:00,2013-10-14 11:02:00,5.0,2997.52,house2_event_10540,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2013-10-16 10:28:00,2013-10-16 10:34:00,6.0,2741.04,house2_event_10543,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2013-10-20 13:41:00,2013-10-20 13:49:00,8.0,3758.54,house2_event_10547,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2013-10-21 11:18:00,2013-10-21 11:26:00,8.0,4574.09,house2_event_10549,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2013-10-23 19:52:00,2013-10-23 20:10:00,18.0,1755.11,house2_event_10555,True,"{""0"": 0, ""1"": 18}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-03-07 07:23:00,2014-03-07 07:28:00,5.0,3898.72,house2_event_10559,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-03-07 11:55:00,2014-03-07 12:01:00,6.0,2812.85,house2_event_10561,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-03-08 11:57:00,2014-03-08 12:02:00,5.0,3157.27,house2_event_10562,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-03-09 12:52:00,2014-03-09 12:59:00,7.0,4532.56,house2_event_10564,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-03-14 08:08:00,2014-03-14 08:16:00,8.0,3624.03,house2_event_10568,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-03-14 12:15:00,2014-03-14 12:18:00,3.0,3468.15,house2_event_10570,True,"{""0"": 0, ""1"": 3}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-03-20 11:34:00,2014-03-20 11:39:00,5.0,3494.94,house2_event_10584,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-03-28 07:22:00,2014-03-28 07:27:00,5.0,3040.48,house2_event_10590,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-05 11:00:00,2014-04-05 11:07:00,7.0,4088.23,house2_event_10605,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-05 11:11:00,2014-04-05 11:17:00,6.0,2252.37,house2_event_10606,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-06 01:04:00,2014-04-06 02:45:00,101.0,1046.08,house2_event_10609,False,"{""0"": 101, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-10 00:37:00,2014-04-10 00:50:00,13.0,793.44,house2_event_10616,False,"{""0"": 13, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-10 23:58:00,2014-04-10 23:59:00,1.0,32.28,house2_event_10620,True,"{""0"": 0, ""1"": 1}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-11 02:12:00,2014-04-11 02:36:00,24.0,1534.23,house2_event_10621,False,"{""0"": 24, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-11 04:24:00,2014-04-11 04:39:00,15.0,442.76,house2_event_10622,False,"{""0"": 15, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-12 09:19:00,2014-04-12 09:24:00,5.0,449.69,house2_event_10624,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-22 01:40:00,2014-04-22 01:59:00,19.0,584.01,house2_event_10635,False,"{""0"": 19, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-25 09:28:00,2014-04-25 09:54:00,26.0,896.57,house2_event_10642,True,"{""0"": 0, ""1"": 26}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-04-25 11:26:00,2014-04-25 11:31:00,5.0,3200.41,house2_event_10643,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-05-04 19:28:00,2014-05-04 19:33:00,5.0,3476.13,house2_event_10651,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-05-04 19:37:00,2014-05-04 19:44:00,7.0,1448.22,house2_event_10652,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-05-29 03:21:00,2014-05-29 03:27:00,6.0,353.86,house2_event_10666,False,"{""0"": 6, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-05-29 04:17:00,2014-05-29 04:24:00,7.0,54.0,house2_event_10667,False,"{""0"": 7, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-06-06 23:27:00,2014-06-06 23:33:00,6.0,3966.16,house2_event_10692,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-06-07 11:36:00,2014-06-07 11:54:00,18.0,558.65,house2_event_10693,True,"{""0"": 0, ""1"": 18}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-06-07 16:48:00,2014-06-07 17:11:00,23.0,716.61,house2_event_10696,True,"{""0"": 0, ""1"": 23}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-06-07 19:03:00,2014-06-07 20:55:00,112.0,2262.75,house2_event_10697,True,"{""0"": 0, ""1"": 112}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-06-08 00:57:00,2014-06-08 01:07:00,10.0,303.62,house2_event_10702,False,"{""0"": 10, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-06-10 20:31:00,2014-06-10 20:38:00,7.0,5904.77,house2_event_10707,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-06-15 06:16:00,2014-06-15 06:21:00,5.0,2583.38,house2_event_10712,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-07-09 12:09:00,2014-07-09 12:23:00,14.0,52.66,house2_event_10737,True,"{""0"": 0, ""1"": 14}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-07-18 20:14:00,2014-07-18 20:21:00,7.0,2433.77,house2_event_10744,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-07-25 06:15:00,2014-07-25 06:22:00,7.0,3774.29,house2_event_10747,False,"{""0"": 7, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-07-25 10:49:00,2014-07-25 10:53:00,4.0,5878.66,house2_event_10750,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-08-04 13:37:00,2014-08-04 13:41:00,4.0,364.33,house2_event_10752,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-08-07 12:11:00,2014-08-07 12:19:00,8.0,3054.21,house2_event_10754,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-08-14 06:17:00,2014-08-14 06:25:00,8.0,5839.08,house2_event_10760,False,"{""0"": 8, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-08-19 11:19:00,2014-08-19 11:29:00,10.0,7245.08,house2_event_10764,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-09-02 12:36:00,2014-09-02 12:43:00,7.0,4889.05,house2_event_10769,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-09-04 12:27:00,2014-09-04 12:33:00,6.0,3736.24,house2_event_10770,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-09-05 12:00:00,2014-09-05 12:04:00,4.0,3583.5,house2_event_10771,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-09-07 11:32:00,2014-09-07 11:38:00,6.0,4185.51,house2_event_10775,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-09-15 11:19:00,2014-09-15 11:24:00,5.0,2685.45,house2_event_10781,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-09-20 10:53:00,2014-09-20 10:56:00,3.0,3444.2,house2_event_10786,True,"{""0"": 0, ""1"": 3}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-09-28 08:19:00,2014-09-28 08:24:00,5.0,3165.43,house2_event_10793,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-09-28 08:28:00,2014-09-28 08:36:00,8.0,4047.47,house2_event_10794,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-04 15:14:00,2014-10-04 16:08:00,54.0,213.11,house2_event_10801,True,"{""0"": 0, ""1"": 54}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-09 14:33:00,2014-10-09 14:39:00,6.0,4433.17,house2_event_10809,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-12 21:01:00,2014-10-12 21:07:00,6.0,3806.0,house2_event_10817,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-13 12:21:00,2014-10-13 12:29:00,8.0,2893.67,house2_event_10818,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-14 11:35:00,2014-10-14 11:41:00,6.0,3470.33,house2_event_10821,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-16 07:40:00,2014-10-16 07:43:00,3.0,4718.18,house2_event_10822,True,"{""0"": 0, ""1"": 3}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-22 12:01:00,2014-10-22 12:06:00,5.0,3412.77,house2_event_10837,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-24 11:49:00,2014-10-24 11:53:00,4.0,3455.26,house2_event_10840,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-27 07:18:00,2014-10-27 07:23:00,5.0,3303.35,house2_event_10852,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-10-29 21:10:00,2014-10-29 21:16:00,6.0,4453.59,house2_event_10855,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-07 09:34:00,2014-11-07 09:38:00,4.0,3072.34,house2_event_10860,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-07 11:24:00,2014-11-07 11:30:00,6.0,2614.7,house2_event_10861,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-11 10:16:00,2014-11-11 10:23:00,7.0,3475.7,house2_event_10864,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-12 18:32:00,2014-11-12 18:37:00,5.0,3230.68,house2_event_10866,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-14 12:09:00,2014-11-14 12:14:00,5.0,3014.14,house2_event_10868,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-15 11:39:00,2014-11-15 11:42:00,3.0,3440.45,house2_event_10869,True,"{""0"": 0, ""1"": 3}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-18 07:19:00,2014-11-18 07:24:00,5.0,3605.01,house2_event_10872,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-22 11:28:00,2014-11-22 11:35:00,7.0,3282.15,house2_event_10873,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-22 11:52:00,2014-11-22 11:58:00,6.0,3543.5,house2_event_10874,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-22 22:16:00,2014-11-22 22:21:00,5.0,818.21,house2_event_10876,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-23 05:32:00,2014-11-23 05:37:00,5.0,39.43,house2_event_10878,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-23 07:35:00,2014-11-23 07:41:00,6.0,4435.93,house2_event_10880,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-25 20:58:00,2014-11-25 21:07:00,9.0,5726.53,house2_event_10883,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-26 12:31:00,2014-11-26 12:39:00,8.0,3293.97,house2_event_10884,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-26 21:49:00,2014-11-26 21:55:00,6.0,3279.12,house2_event_10886,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-11-29 13:51:00,2014-11-29 13:56:00,5.0,3536.65,house2_event_10889,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-01 06:55:00,2014-12-01 07:00:00,5.0,3625.52,house2_event_10892,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-03 12:21:00,2014-12-03 12:26:00,5.0,3204.69,house2_event_10894,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-03 21:17:00,2014-12-03 21:22:00,5.0,3861.2,house2_event_10895,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-10 07:10:00,2014-12-10 07:17:00,7.0,5038.6,house2_event_10899,False,"{""0"": 7, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-15 07:18:00,2014-12-15 07:30:00,12.0,7151.39,house2_event_10902,False,"{""0"": 12, ""1"": 0}",0,0,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-20 21:03:00,2014-12-20 21:09:00,6.0,4216.73,house2_event_10908,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-20 21:38:00,2014-12-20 21:42:00,4.0,4516.44,house2_event_10909,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-21 07:27:00,2014-12-21 07:32:00,5.0,3471.58,house2_event_10911,True,"{""0"": 4, ""1"": 1}",0,0,1,0.8
+Appliance6,Washing Machine,Shiftable,2014-12-21 07:45:00,2014-12-21 07:50:00,5.0,2556.94,house2_event_10912,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-27 10:08:00,2014-12-27 10:18:00,10.0,7057.56,house2_event_10927,True,"{""0"": 0, ""1"": 10}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2014-12-29 08:09:00,2014-12-29 08:14:00,5.0,3289.9,house2_event_10933,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-07 11:55:00,2015-01-07 12:03:00,8.0,4366.87,house2_event_10937,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-08 12:30:00,2015-01-08 12:36:00,6.0,4505.89,house2_event_10938,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-15 11:27:00,2015-01-15 11:32:00,5.0,3181.94,house2_event_10951,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-16 18:02:00,2015-01-16 18:07:00,5.0,2712.78,house2_event_10954,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-18 21:30:00,2015-01-18 21:35:00,5.0,3909.77,house2_event_10957,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-21 12:16:00,2015-01-21 12:25:00,9.0,4709.29,house2_event_10964,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-26 11:41:00,2015-01-26 11:46:00,5.0,3775.38,house2_event_10972,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-29 01:48:00,2015-01-29 01:59:00,11.0,84.19,house2_event_10977,False,"{""0"": 11, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-29 04:32:00,2015-01-29 04:39:00,7.0,105.13,house2_event_10980,False,"{""0"": 7, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2015-01-30 11:35:00,2015-01-30 11:40:00,5.0,4166.4,house2_event_10982,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-02-02 11:52:00,2015-02-02 12:00:00,8.0,6054.24,house2_event_10989,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-02-07 12:58:00,2015-02-07 13:07:00,9.0,5932.81,house2_event_11001,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-02-16 00:12:00,2015-02-16 00:17:00,5.0,3468.67,house2_event_11011,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-02-21 21:45:00,2015-02-21 21:50:00,5.0,72.0,house2_event_11017,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-03-01 08:20:00,2015-03-01 08:25:00,5.0,2728.04,house2_event_11022,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-03-14 07:19:00,2015-03-14 07:24:00,5.0,2599.31,house2_event_11032,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2015-03-14 07:23:00,2015-03-14 07:28:00,5.0,2381.97,house2_event_11033,True,"{""0"": 5, ""1"": 0}",0,0,0,1.0
+Appliance6,Washing Machine,Shiftable,2015-03-15 18:21:00,2015-03-15 18:29:00,8.0,4270.96,house2_event_11036,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-03-30 19:02:00,2015-03-30 19:09:00,7.0,4345.65,house2_event_11047,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-04-09 21:17:00,2015-04-09 21:25:00,8.0,3120.82,house2_event_11053,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-04-16 12:35:00,2015-04-16 12:41:00,6.0,3215.81,house2_event_11067,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-04-17 07:15:00,2015-04-17 07:20:00,5.0,3130.68,house2_event_11070,False,"{""0"": 5, ""1"": 0}",0,0,0,0.0
+Appliance6,Washing Machine,Shiftable,2015-04-19 18:25:00,2015-04-19 18:32:00,7.0,3926.38,house2_event_11075,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-04-22 21:34:00,2015-04-22 21:40:00,6.0,3139.78,house2_event_11080,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-04-23 18:59:00,2015-04-23 19:06:00,7.0,3208.41,house2_event_11082,True,"{""0"": 0, ""1"": 7}",1,1,1,0.0
+Appliance6,Washing Machine,Shiftable,2015-05-02 08:23:00,2015-05-02 08:28:00,5.0,3130.2,house2_event_11087,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-09-19 17:08:00,2013-09-19 17:31:00,23.0,429.5,house2_event_11103,True,"{""0"": 0, ""1"": 23}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-09-21 18:00:00,2013-09-21 18:19:00,19.0,413.51,house2_event_11104,True,"{""0"": 0, ""1"": 19}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-09-29 09:56:00,2013-09-29 10:20:00,24.0,443.43,house2_event_11106,True,"{""0"": 0, ""1"": 24}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-09-29 15:10:00,2013-09-29 18:20:00,190.0,3608.53,house2_event_11107,True,"{""0"": 0, ""1"": 190}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-09-30 07:29:00,2013-09-30 11:59:00,270.0,4657.78,house2_event_11108,True,"{""0"": 2, ""1"": 268}",1,0,1,0.007407407407407408
+Appliance7,Dishwasher,Shiftable,2013-09-30 15:56:00,2013-10-01 06:31:00,875.0,15221.94,house2_event_11109,True,"{""0"": 361, ""1"": 514}",1,1,0,0.4125714285714286
+Appliance7,Dishwasher,Shiftable,2013-10-03 17:12:00,2013-10-03 17:59:00,47.0,636.46,house2_event_11111,True,"{""0"": 0, ""1"": 47}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-04 06:43:00,2013-10-04 07:12:00,29.0,572.33,house2_event_11112,False,"{""0"": 29, ""1"": 0}",0,0,0,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-04 23:36:00,2013-10-05 14:10:00,874.0,14828.18,house2_event_11114,True,"{""0"": 421, ""1"": 453}",1,1,1,0.4816933638443936
+Appliance7,Dishwasher,Shiftable,2013-10-05 17:32:00,2013-10-05 17:44:00,12.0,228.1,house2_event_11115,True,"{""0"": 0, ""1"": 12}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-06 19:32:00,2013-10-06 21:06:00,94.0,1888.66,house2_event_11117,True,"{""0"": 0, ""1"": 94}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-07 08:07:00,2013-10-07 08:13:00,6.0,143.65,house2_event_11118,True,"{""0"": 0, ""1"": 6}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-07 14:34:00,2013-10-08 16:08:00,1534.0,25698.22,house2_event_11119,True,"{""0"": 421, ""1"": 1113}",1,1,1,0.27444589308996087
+Appliance7,Dishwasher,Shiftable,2013-10-09 08:14:00,2013-10-09 08:22:00,8.0,144.98,house2_event_11120,True,"{""0"": 0, ""1"": 8}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-09 17:13:00,2013-10-09 22:59:00,346.0,5443.4,house2_event_11121,True,"{""0"": 0, ""1"": 346}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-10 17:55:00,2013-10-10 18:15:00,20.0,341.03,house2_event_11122,True,"{""0"": 0, ""1"": 20}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-11 13:06:00,2013-10-11 13:15:00,9.0,150.54,house2_event_11123,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-12 07:37:00,2013-10-12 07:59:00,22.0,426.69,house2_event_11124,True,"{""0"": 0, ""1"": 22}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-12 15:56:00,2013-10-12 16:32:00,36.0,748.19,house2_event_11125,True,"{""0"": 0, ""1"": 36}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-13 15:18:00,2013-10-13 18:08:00,170.0,2790.38,house2_event_11126,True,"{""0"": 0, ""1"": 170}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-16 10:21:00,2013-10-16 10:32:00,11.0,194.78,house2_event_11128,True,"{""0"": 0, ""1"": 11}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-16 19:53:00,2013-10-16 21:13:00,80.0,1497.32,house2_event_11129,True,"{""0"": 0, ""1"": 80}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-20 14:09:00,2013-10-20 16:06:00,117.0,1800.42,house2_event_11130,True,"{""0"": 0, ""1"": 117}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2013-10-20 19:33:00,2013-10-20 20:54:00,81.0,1539.26,house2_event_11131,True,"{""0"": 0, ""1"": 81}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-02-21 13:41:00,2014-02-22 16:03:00,1582.0,3409.46,house2_event_11134,True,"{""0"": 421, ""1"": 1161}",1,1,1,0.2661188369152971
+Appliance7,Dishwasher,Shiftable,2014-02-24 11:13:00,2014-02-24 11:22:00,9.0,168.26,house2_event_11135,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-02-24 15:15:00,2014-02-24 16:14:00,59.0,929.78,house2_event_11136,True,"{""0"": 0, ""1"": 59}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-02-27 16:50:00,2014-02-27 18:43:00,113.0,1717.0,house2_event_11137,True,"{""0"": 0, ""1"": 113}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-02-27 18:51:00,2014-02-27 20:24:00,93.0,1348.77,house2_event_11138,True,"{""0"": 0, ""1"": 93}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-03-03 18:30:00,2014-03-04 07:50:00,800.0,11695.42,house2_event_11139,True,"{""0"": 421, ""1"": 379}",0,1,1,0.52625
+Appliance7,Dishwasher,Shiftable,2014-03-06 07:43:00,2014-03-06 08:06:00,23.0,258.08,house2_event_11140,True,"{""0"": 0, ""1"": 23}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-03-07 19:50:00,2014-03-07 22:33:00,163.0,2225.46,house2_event_11141,True,"{""0"": 0, ""1"": 163}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-03-08 16:41:00,2014-03-08 16:58:00,17.0,295.81,house2_event_11142,True,"{""0"": 0, ""1"": 17}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-03-11 09:09:00,2014-03-11 10:16:00,67.0,1258.27,house2_event_11143,True,"{""0"": 0, ""1"": 67}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-03-11 18:20:00,2014-03-11 19:00:00,40.0,568.9,house2_event_11144,True,"{""0"": 0, ""1"": 40}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-03-16 15:42:00,2014-03-16 19:21:00,219.0,4072.78,house2_event_11147,True,"{""0"": 0, ""1"": 219}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-03-20 11:00:00,2014-03-20 11:22:00,22.0,419.13,house2_event_11148,True,"{""0"": 0, ""1"": 22}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-03-22 14:41:00,2014-03-23 11:08:00,1227.0,19963.71,house2_event_11149,True,"{""0"": 421, ""1"": 806}",1,1,1,0.34311328443357786
+Appliance7,Dishwasher,Shiftable,2014-03-30 10:27:00,2014-04-01 22:49:00,3622.0,55258.71,house2_event_11150,True,"{""0"": 842, ""1"": 2780}",1,1,1,0.23246824958586415
+Appliance7,Dishwasher,Shiftable,2014-04-05 09:13:00,2014-04-05 11:38:00,145.0,2313.5,house2_event_11151,True,"{""0"": 0, ""1"": 145}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-04-06 17:35:00,2014-04-06 17:51:00,16.0,312.76,house2_event_11152,True,"{""0"": 0, ""1"": 16}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-04-10 14:29:00,2014-04-10 20:49:00,380.0,6153.5,house2_event_11153,True,"{""0"": 0, ""1"": 380}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-04-12 09:39:00,2014-04-12 20:21:00,642.0,10581.05,house2_event_11154,True,"{""0"": 0, ""1"": 642}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-04-26 15:06:00,2014-04-26 19:38:00,272.0,4285.66,house2_event_11155,True,"{""0"": 0, ""1"": 272}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-04-27 15:50:00,2014-04-28 06:06:00,856.0,13761.53,house2_event_11156,True,"{""0"": 336, ""1"": 520}",1,1,0,0.3925233644859813
+Appliance7,Dishwasher,Shiftable,2014-05-08 15:33:00,2014-05-08 19:01:00,208.0,3712.33,house2_event_11157,True,"{""0"": 0, ""1"": 208}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-05-10 18:37:00,2014-05-10 21:10:00,153.0,2584.77,house2_event_11158,True,"{""0"": 0, ""1"": 153}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-05-11 12:01:00,2014-05-11 17:03:00,302.0,5157.45,house2_event_11159,True,"{""0"": 0, ""1"": 302}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-05-12 09:08:00,2014-05-12 09:47:00,39.0,708.42,house2_event_11160,True,"{""0"": 0, ""1"": 39}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-05-23 12:10:00,2014-05-23 13:26:00,76.0,1394.05,house2_event_11162,True,"{""0"": 0, ""1"": 76}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-05-23 13:49:00,2014-05-23 13:54:00,5.0,137.48,house2_event_11163,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-05-24 07:23:00,2014-05-24 07:32:00,9.0,148.46,house2_event_11164,True,"{""0"": 8, ""1"": 1}",0,0,1,0.8888888888888888
+Appliance7,Dishwasher,Shiftable,2014-05-25 07:32:00,2014-05-25 21:05:00,813.0,13287.98,house2_event_11165,True,"{""0"": 0, ""1"": 813}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-05-29 09:41:00,2014-05-29 09:45:00,4.0,79.9,house2_event_11168,True,"{""0"": 0, ""1"": 4}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-05-31 13:31:00,2014-05-31 20:45:00,434.0,7214.08,house2_event_11170,True,"{""0"": 0, ""1"": 434}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-06-04 13:17:00,2014-06-04 20:45:00,448.0,7285.73,house2_event_11172,True,"{""0"": 0, ""1"": 448}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-06-06 10:55:00,2014-06-06 11:32:00,37.0,720.86,house2_event_11173,True,"{""0"": 0, ""1"": 37}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-06-14 16:15:00,2014-06-14 22:35:00,380.0,5760.05,house2_event_11174,True,"{""0"": 0, ""1"": 380}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-06-16 13:01:00,2014-06-16 13:10:00,9.0,167.62,house2_event_11175,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-07-01 15:16:00,2014-07-01 19:19:00,243.0,3752.21,house2_event_11177,True,"{""0"": 0, ""1"": 243}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-07-04 12:56:00,2014-07-04 17:47:00,291.0,4697.49,house2_event_11178,True,"{""0"": 0, ""1"": 291}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-07-06 07:24:00,2014-07-06 09:23:00,119.0,2215.23,house2_event_11179,True,"{""0"": 7, ""1"": 112}",1,0,1,0.058823529411764705
+Appliance7,Dishwasher,Shiftable,2014-07-07 08:40:00,2014-07-07 09:38:00,58.0,1056.7,house2_event_11180,True,"{""0"": 0, ""1"": 58}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-07-09 17:14:00,2014-07-09 19:11:00,117.0,1990.88,house2_event_11181,True,"{""0"": 0, ""1"": 117}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-07-12 07:29:00,2014-07-12 07:43:00,14.0,314.89,house2_event_11183,True,"{""0"": 2, ""1"": 12}",1,0,1,0.14285714285714285
+Appliance7,Dishwasher,Shiftable,2014-07-12 22:09:00,2014-07-13 20:53:00,1364.0,22912.13,house2_event_11185,True,"{""0"": 421, ""1"": 943}",1,1,1,0.3086510263929619
+Appliance7,Dishwasher,Shiftable,2014-07-19 08:45:00,2014-07-19 15:33:00,408.0,7035.5,house2_event_11186,True,"{""0"": 0, ""1"": 408}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-08-02 21:56:00,2014-08-03 06:22:00,506.0,8549.23,house2_event_11187,True,"{""0"": 352, ""1"": 154}",0,1,0,0.6956521739130435
+Appliance7,Dishwasher,Shiftable,2014-08-04 14:01:00,2014-08-04 19:33:00,332.0,5492.88,house2_event_11188,True,"{""0"": 0, ""1"": 332}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-08-05 14:48:00,2014-08-05 15:48:00,60.0,1073.38,house2_event_11189,True,"{""0"": 0, ""1"": 60}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-08-06 17:20:00,2014-08-06 20:17:00,177.0,2932.74,house2_event_11190,True,"{""0"": 0, ""1"": 177}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-08-08 15:49:00,2014-08-08 21:25:00,336.0,5364.82,house2_event_11191,True,"{""0"": 0, ""1"": 336}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-08-09 14:26:00,2014-08-09 15:38:00,72.0,1217.37,house2_event_11192,True,"{""0"": 0, ""1"": 72}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-08-09 17:30:00,2014-08-09 17:39:00,9.0,169.27,house2_event_11193,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-08-14 08:24:00,2014-08-15 20:11:00,2147.0,34377.54,house2_event_11194,True,"{""0"": 421, ""1"": 1726}",1,1,1,0.1960875640428505
+Appliance7,Dishwasher,Shiftable,2014-08-17 17:36:00,2014-08-17 17:58:00,22.0,448.62,house2_event_11195,True,"{""0"": 0, ""1"": 22}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-08-19 08:36:00,2014-08-19 19:38:00,662.0,11566.56,house2_event_11196,True,"{""0"": 0, ""1"": 662}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-06 07:02:00,2014-09-06 07:58:00,56.0,1006.28,house2_event_11197,True,"{""0"": 29, ""1"": 27}",0,0,1,0.5178571428571429
+Appliance7,Dishwasher,Shiftable,2014-09-08 15:33:00,2014-09-08 16:18:00,45.0,835.4,house2_event_11198,True,"{""0"": 0, ""1"": 45}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-12 09:22:00,2014-09-12 09:37:00,15.0,276.41,house2_event_11199,True,"{""0"": 0, ""1"": 15}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-15 17:04:00,2014-09-15 20:18:00,194.0,3155.49,house2_event_11200,True,"{""0"": 0, ""1"": 194}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-17 13:51:00,2014-09-17 14:08:00,17.0,348.73,house2_event_11201,True,"{""0"": 0, ""1"": 17}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-19 15:41:00,2014-09-19 15:59:00,18.0,379.8,house2_event_11203,True,"{""0"": 0, ""1"": 18}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-20 07:08:00,2014-09-20 07:18:00,10.0,190.5,house2_event_11204,False,"{""0"": 10, ""1"": 0}",0,0,0,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-20 11:42:00,2014-09-20 17:44:00,362.0,6074.19,house2_event_11205,True,"{""0"": 0, ""1"": 362}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-22 08:05:00,2014-09-22 14:56:00,411.0,6753.64,house2_event_11206,True,"{""0"": 0, ""1"": 411}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-22 15:55:00,2014-09-22 17:42:00,107.0,1775.64,house2_event_11207,True,"{""0"": 0, ""1"": 107}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-26 18:09:00,2014-09-26 19:58:00,109.0,1921.43,house2_event_11209,True,"{""0"": 0, ""1"": 109}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-27 07:44:00,2014-09-27 08:16:00,32.0,531.17,house2_event_11210,True,"{""0"": 0, ""1"": 32}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-27 15:43:00,2014-09-27 17:03:00,80.0,1234.82,house2_event_11211,True,"{""0"": 0, ""1"": 80}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-29 15:15:00,2014-09-29 18:42:00,207.0,3372.61,house2_event_11212,True,"{""0"": 0, ""1"": 207}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-30 08:29:00,2014-09-30 18:47:00,618.0,10012.5,house2_event_11213,True,"{""0"": 0, ""1"": 618}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-09-30 19:51:00,2014-09-30 22:09:00,138.0,2498.43,house2_event_11214,True,"{""0"": 0, ""1"": 138}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-10-03 10:14:00,2014-10-03 10:29:00,15.0,322.06,house2_event_11215,True,"{""0"": 0, ""1"": 15}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-10-03 12:48:00,2014-10-03 14:22:00,94.0,1565.62,house2_event_11216,True,"{""0"": 0, ""1"": 94}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-10-05 22:43:00,2014-10-05 23:10:00,27.0,509.65,house2_event_11218,True,"{""0"": 0, ""1"": 27}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-10-06 11:57:00,2014-10-06 12:16:00,19.0,403.39,house2_event_11219,True,"{""0"": 0, ""1"": 19}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-10-09 08:17:00,2014-10-26 09:41:00,24564.0,368314.85,house2_event_11220,True,"{""0"": 7157, ""1"": 17407}",1,1,1,0.2913613418010096
+Appliance7,Dishwasher,Shiftable,2014-10-26 15:38:00,2014-10-26 19:39:00,241.0,3855.73,house2_event_11221,True,"{""0"": 0, ""1"": 241}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-10-28 15:59:00,2014-10-28 18:35:00,156.0,2683.44,house2_event_11222,True,"{""0"": 0, ""1"": 156}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-10-30 08:54:00,2014-10-30 15:37:00,403.0,6803.5,house2_event_11223,True,"{""0"": 0, ""1"": 403}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-10-31 09:08:00,2014-10-31 15:40:00,392.0,6170.23,house2_event_11224,True,"{""0"": 0, ""1"": 392}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-05 16:37:00,2014-11-05 18:55:00,138.0,2086.93,house2_event_11225,True,"{""0"": 0, ""1"": 138}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-07 08:38:00,2014-11-07 08:58:00,20.0,384.39,house2_event_11226,True,"{""0"": 0, ""1"": 20}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-11 14:15:00,2014-11-11 19:37:00,322.0,6776.12,house2_event_11227,True,"{""0"": 0, ""1"": 322}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-12 18:51:00,2014-11-12 23:26:00,275.0,4894.07,house2_event_11232,True,"{""0"": 0, ""1"": 275}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-14 17:46:00,2014-11-14 23:00:00,314.0,5305.91,house2_event_11233,True,"{""0"": 0, ""1"": 314}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-16 15:33:00,2014-11-16 18:41:00,188.0,3119.81,house2_event_11234,True,"{""0"": 0, ""1"": 188}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-19 08:40:00,2014-11-19 09:21:00,41.0,845.35,house2_event_11235,True,"{""0"": 0, ""1"": 41}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-20 07:55:00,2014-11-20 10:15:00,140.0,2353.54,house2_event_11236,True,"{""0"": 0, ""1"": 140}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-20 14:08:00,2014-11-20 21:58:00,470.0,8304.97,house2_event_11237,True,"{""0"": 0, ""1"": 470}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-23 08:21:00,2014-11-23 16:56:00,515.0,7836.16,house2_event_11238,True,"{""0"": 0, ""1"": 515}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-23 18:14:00,2014-11-23 18:48:00,34.0,681.91,house2_event_11240,True,"{""0"": 0, ""1"": 34}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-24 15:48:00,2014-11-24 19:24:00,216.0,4213.1,house2_event_11242,True,"{""0"": 0, ""1"": 216}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-27 14:27:00,2014-11-27 15:32:00,65.0,1265.24,house2_event_11243,True,"{""0"": 0, ""1"": 65}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-28 15:24:00,2014-11-28 15:41:00,17.0,323.29,house2_event_11244,True,"{""0"": 0, ""1"": 17}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-11-28 16:46:00,2014-11-28 23:22:00,396.0,6464.2,house2_event_11245,True,"{""0"": 0, ""1"": 396}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-01 11:51:00,2014-12-01 11:56:00,5.0,128.98,house2_event_11247,True,"{""0"": 0, ""1"": 5}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-01 18:19:00,2014-12-01 18:39:00,20.0,370.26,house2_event_11248,True,"{""0"": 0, ""1"": 20}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-02 09:40:00,2014-12-02 10:23:00,43.0,791.61,house2_event_11249,True,"{""0"": 0, ""1"": 43}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-08 00:09:00,2014-12-08 07:08:00,419.0,7022.47,house2_event_11251,True,"{""0"": 398, ""1"": 21}",0,1,0,0.9498806682577565
+Appliance7,Dishwasher,Shiftable,2014-12-08 18:13:00,2014-12-08 22:44:00,271.0,4591.2,house2_event_11253,True,"{""0"": 0, ""1"": 271}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-11 17:58:00,2014-12-12 11:53:00,1075.0,17846.96,house2_event_11255,True,"{""0"": 421, ""1"": 654}",1,1,1,0.3916279069767442
+Appliance7,Dishwasher,Shiftable,2014-12-13 14:13:00,2014-12-13 19:57:00,344.0,5565.07,house2_event_11256,True,"{""0"": 0, ""1"": 344}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-15 08:18:00,2014-12-15 09:02:00,44.0,793.89,house2_event_11257,True,"{""0"": 0, ""1"": 44}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-21 08:14:00,2014-12-21 21:07:00,773.0,12432.04,house2_event_11258,True,"{""0"": 0, ""1"": 773}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-24 16:03:00,2014-12-24 23:07:00,424.0,6837.15,house2_event_11259,True,"{""0"": 0, ""1"": 424}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-27 15:48:00,2014-12-27 19:49:00,241.0,4235.8,house2_event_11260,True,"{""0"": 0, ""1"": 241}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2014-12-28 08:43:00,2014-12-30 09:44:00,2941.0,42944.65,house2_event_11261,True,"{""0"": 842, ""1"": 2099}",1,1,1,0.2862971778306698
+Appliance7,Dishwasher,Shiftable,2015-01-02 18:41:00,2015-01-02 19:33:00,52.0,1067.01,house2_event_11267,True,"{""0"": 0, ""1"": 52}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-03 17:55:00,2015-01-03 22:25:00,270.0,4633.9,house2_event_11268,True,"{""0"": 0, ""1"": 270}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-07 17:40:00,2015-01-07 19:51:00,131.0,2154.96,house2_event_11269,True,"{""0"": 0, ""1"": 131}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-09 10:56:00,2015-01-09 11:21:00,25.0,429.32,house2_event_11270,True,"{""0"": 0, ""1"": 25}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-09 12:45:00,2015-01-09 15:42:00,177.0,2980.83,house2_event_11271,True,"{""0"": 0, ""1"": 177}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-10 15:23:00,2015-01-10 15:32:00,9.0,195.55,house2_event_11272,True,"{""0"": 0, ""1"": 9}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-13 16:45:00,2015-01-13 18:13:00,88.0,1459.93,house2_event_11273,True,"{""0"": 0, ""1"": 88}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-14 07:24:00,2015-01-14 08:59:00,95.0,1498.47,house2_event_11274,True,"{""0"": 7, ""1"": 88}",1,0,1,0.07368421052631578
+Appliance7,Dishwasher,Shiftable,2015-01-20 15:57:00,2015-01-20 17:46:00,109.0,2036.52,house2_event_11277,True,"{""0"": 0, ""1"": 109}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-21 06:56:00,2015-01-21 09:10:00,134.0,2149.32,house2_event_11278,True,"{""0"": 35, ""1"": 99}",1,0,1,0.26119402985074625
+Appliance7,Dishwasher,Shiftable,2015-01-21 14:02:00,2015-01-21 15:58:00,116.0,2196.69,house2_event_11279,True,"{""0"": 0, ""1"": 116}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-28 09:43:00,2015-01-28 11:24:00,101.0,1657.14,house2_event_11280,True,"{""0"": 0, ""1"": 101}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-30 10:44:00,2015-01-30 15:25:00,281.0,4772.96,house2_event_11281,True,"{""0"": 0, ""1"": 281}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-01-30 17:47:00,2015-01-31 19:56:00,1569.0,25250.85,house2_event_11282,True,"{""0"": 421, ""1"": 1148}",1,1,1,0.26832377310388783
+Appliance7,Dishwasher,Shiftable,2015-01-31 19:53:00,2015-02-01 00:39:00,286.0,5067.95,house2_event_11283,True,"{""0"": 9, ""1"": 277}",1,1,0,0.03146853146853147
+Appliance7,Dishwasher,Shiftable,2015-02-01 20:10:00,2015-02-01 22:29:00,139.0,2541.67,house2_event_11285,True,"{""0"": 0, ""1"": 139}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-02 11:28:00,2015-02-02 11:50:00,22.0,461.59,house2_event_11286,True,"{""0"": 0, ""1"": 22}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-02 15:15:00,2015-02-02 20:56:00,341.0,5484.34,house2_event_11287,True,"{""0"": 0, ""1"": 341}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-03 11:19:00,2015-02-03 17:22:00,363.0,6409.43,house2_event_11289,True,"{""0"": 0, ""1"": 363}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-04 14:56:00,2015-02-04 19:51:00,295.0,5021.94,house2_event_11290,True,"{""0"": 0, ""1"": 295}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-06 10:06:00,2015-02-06 11:24:00,78.0,1616.85,house2_event_11291,True,"{""0"": 0, ""1"": 78}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-07 13:45:00,2015-02-08 03:51:00,846.0,14488.97,house2_event_11294,True,"{""0"": 201, ""1"": 645}",1,1,0,0.2375886524822695
+Appliance7,Dishwasher,Shiftable,2015-02-08 19:57:00,2015-02-08 21:05:00,68.0,1081.33,house2_event_11295,True,"{""0"": 0, ""1"": 68}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-12 17:47:00,2015-02-12 22:46:00,299.0,4508.01,house2_event_11296,True,"{""0"": 0, ""1"": 299}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-13 17:00:00,2015-02-13 22:51:00,351.0,5961.98,house2_event_11297,True,"{""0"": 0, ""1"": 351}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-25 08:27:00,2015-02-25 08:48:00,21.0,322.27,house2_event_11299,True,"{""0"": 0, ""1"": 21}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-26 15:30:00,2015-02-26 15:46:00,16.0,365.35,house2_event_11300,True,"{""0"": 0, ""1"": 16}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-02-28 08:03:00,2015-02-28 19:11:00,668.0,10740.78,house2_event_11303,True,"{""0"": 0, ""1"": 668}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-03-02 16:26:00,2015-03-02 19:36:00,190.0,3065.08,house2_event_11305,True,"{""0"": 0, ""1"": 190}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-03-12 17:25:00,2015-03-12 18:40:00,75.0,1480.01,house2_event_11306,True,"{""0"": 0, ""1"": 75}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-03-13 08:58:00,2015-03-13 09:23:00,25.0,510.92,house2_event_11307,True,"{""0"": 0, ""1"": 25}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-03-14 12:13:00,2015-03-14 22:52:00,639.0,10317.12,house2_event_11308,True,"{""0"": 0, ""1"": 639}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-03-16 15:05:00,2015-03-16 19:46:00,281.0,4607.59,house2_event_11309,True,"{""0"": 0, ""1"": 281}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-03-26 18:58:00,2015-03-26 19:17:00,19.0,372.89,house2_event_11310,True,"{""0"": 0, ""1"": 19}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-04-12 15:57:00,2015-04-12 19:30:00,213.0,3628.59,house2_event_11312,True,"{""0"": 0, ""1"": 213}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-04-18 20:00:00,2015-04-19 00:41:00,281.0,4494.73,house2_event_11314,True,"{""0"": 11, ""1"": 270}",1,1,0,0.03914590747330961
+Appliance7,Dishwasher,Shiftable,2015-04-22 13:36:00,2015-04-22 22:23:00,527.0,8589.66,house2_event_11315,True,"{""0"": 0, ""1"": 527}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-04-30 15:26:00,2015-04-30 16:38:00,72.0,1223.27,house2_event_11317,True,"{""0"": 0, ""1"": 72}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-05-02 07:44:00,2015-05-02 09:31:00,107.0,1964.89,house2_event_11318,True,"{""0"": 0, ""1"": 107}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-05-02 12:11:00,2015-05-02 12:37:00,26.0,533.97,house2_event_11319,True,"{""0"": 0, ""1"": 26}",1,1,1,0.0
+Appliance7,Dishwasher,Shiftable,2015-05-03 00:26:00,2015-05-03 13:35:00,789.0,12880.97,house2_event_11320,True,"{""0"": 421, ""1"": 368}",0,1,1,0.5335868187579215
+Appliance7,Dishwasher,Shiftable,2015-05-09 12:07:00,2015-05-09 12:48:00,41.0,713.7,house2_event_11321,True,"{""0"": 0, ""1"": 41}",1,1,1,0.0

@@ -2,25 +2,28 @@
   "house_id": "house16",
   "tariff_type": "UK",
   "total_appliances": 9,
-  "total_events": 18994,
+  "total_events": 18186,
   "appliance_names": [
     "Fridge-Freezer (1)",
     "Fridge-Freezer (2)",
-    "Electric Heater (1)",
+    "Electric Heater",
     "Electric Heater (2)",
     "Washing Machine",
     "Dishwasher",
     "Computer Site",
     "Television Site",
-    "Electric Heater (3)"
+    "Electric Heater(3)"
   ],
   "appliance_counts": {
-    "Fridge-Freezer": 14353,
-    "Electric Heater": 2159,
+    "Fridge-Freezer (2)": 9986,
+    "Fridge-Freezer (1)": 3559,
+    "Electric Heater(3)": 1306,
     "Television Site": 1110,
+    "Electric Heater (2)": 803,
     "Dishwasher": 732,
     "Washing Machine": 431,
-    "Computer Site": 209
+    "Computer Site": 209,
+    "Electric Heater": 50
   },
   "appliance_ids": [
     "Appliance1",
@@ -36,88 +39,88 @@
   "id_to_name": {
     "Appliance1": "Fridge-Freezer (1)",
     "Appliance2": "Fridge-Freezer (2)",
-    "Appliance3": "Electric Heater (1)",
+    "Appliance3": "Electric Heater",
     "Appliance4": "Electric Heater (2)",
     "Appliance5": "Washing Machine",
     "Appliance6": "Dishwasher",
     "Appliance7": "Computer Site",
     "Appliance8": "Television Site",
-    "Appliance9": "Electric Heater (3)"
+    "Appliance9": "Electric Heater(3)"
   },
   "id_to_original_name": {
-    "Appliance1": "Fridge-Freezer",
-    "Appliance2": "Fridge-Freezer",
+    "Appliance1": "Fridge-Freezer (1)",
+    "Appliance2": "Fridge-Freezer (2)",
     "Appliance3": "Electric Heater",
-    "Appliance4": "Electric Heater",
+    "Appliance4": "Electric Heater (2)",
     "Appliance5": "Washing Machine",
     "Appliance6": "Dishwasher",
     "Appliance7": "Computer Site",
     "Appliance8": "Television Site",
-    "Appliance9": "Electric Heater"
+    "Appliance9": "Electric Heater(3)"
   },
   "reschedulable_ids": [
-    "Appliance4",
     "Appliance5",
-    "Appliance6",
-    "Appliance9"
+    "Appliance6"
   ],
   "reschedulable_names": [
-    "Electric Heater (2)",
     "Washing Machine",
-    "Dishwasher",
-    "Electric Heater (3)"
+    "Dishwasher"
   ],
   "non_reschedulable_ids": [
     "Appliance1",
     "Appliance2",
     "Appliance3",
+    "Appliance4",
     "Appliance7",
-    "Appliance8"
+    "Appliance8",
+    "Appliance9"
   ],
   "non_reschedulable_names": [
     "Fridge-Freezer (1)",
     "Fridge-Freezer (2)",
-    "Electric Heater (1)",
+    "Electric Heater",
+    "Electric Heater (2)",
     "Computer Site",
-    "Television Site"
+    "Television Site",
+    "Electric Heater(3)"
   ],
   "reschedulable_map": {
-    "Appliance4": "Electric Heater (2)",
     "Appliance5": "Washing Machine",
-    "Appliance6": "Dishwasher",
-    "Appliance9": "Electric Heater (3)"
+    "Appliance6": "Dishwasher"
   },
   "non_reschedulable_map": {
     "Appliance1": "Fridge-Freezer (1)",
     "Appliance2": "Fridge-Freezer (2)",
-    "Appliance3": "Electric Heater (1)",
+    "Appliance3": "Electric Heater",
+    "Appliance4": "Electric Heater (2)",
     "Appliance7": "Computer Site",
-    "Appliance8": "Television Site"
+    "Appliance8": "Television Site",
+    "Appliance9": "Electric Heater(3)"
   },
   "appliance_details": [
     {
       "appliance_id": "Appliance1",
       "appliance_name": "Fridge-Freezer (1)",
       "is_reschedulable": false,
-      "original_name": "Fridge-Freezer"
+      "original_name": "Fridge-Freezer (1)"
     },
     {
       "appliance_id": "Appliance2",
       "appliance_name": "Fridge-Freezer (2)",
       "is_reschedulable": false,
-      "original_name": "Fridge-Freezer"
+      "original_name": "Fridge-Freezer (2)"
     },
     {
       "appliance_id": "Appliance3",
-      "appliance_name": "Electric Heater (1)",
+      "appliance_name": "Electric Heater",
       "is_reschedulable": false,
       "original_name": "Electric Heater"
     },
     {
       "appliance_id": "Appliance4",
       "appliance_name": "Electric Heater (2)",
-      "is_reschedulable": true,
-      "original_name": "Electric Heater"
+      "is_reschedulable": false,
+      "original_name": "Electric Heater (2)"
     },
     {
       "appliance_id": "Appliance5",
@@ -145,9 +148,9 @@
     },
     {
       "appliance_id": "Appliance9",
-      "appliance_name": "Electric Heater (3)",
-      "is_reschedulable": true,
-      "original_name": "Electric Heater"
+      "appliance_name": "Electric Heater(3)",
+      "is_reschedulable": false,
+      "original_name": "Electric Heater(3)"
     }
   ]
 }

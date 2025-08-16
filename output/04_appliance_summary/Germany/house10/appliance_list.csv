@@ -1,5 +1,5 @@
 appliance_id,appliance_name,is_reschedulable,original_name
-Appliance1,Blender,True,Blender
+Appliance1,Magimix (Blender),True,Magimix (Blender)
 Appliance2,Freezer,False,Freezer
 Appliance3,Chest Freezer (In Garage),False,Chest Freezer (In Garage)
 Appliance4,Fridge-Freezer,False,Fridge-Freezer

@@ -2,7 +2,7 @@
   "house_id": "house7",
   "tariff_type": "California",
   "total_appliances": 9,
-  "total_events": 33999,
+  "total_events": 19204,
   "appliance_names": [
     "Fridge",
     "Freezer (Garage)",
@@ -15,7 +15,6 @@
     "Kettle"
   ],
   "appliance_counts": {
-    "Freezer (Garage)": 14803,
     "Fridge": 11555,
     "Dishwasher": 1431,
     "Kettle": 1275,
@@ -23,7 +22,8 @@
     "Television Site": 1088,
     "Freezer": 1035,
     "Tumble Dryer": 849,
-    "Toaster": 796
+    "Toaster": 796,
+    "Freezer (Garage)": 8
   },
   "appliance_ids": [
     "Appliance1",

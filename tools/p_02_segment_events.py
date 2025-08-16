@@ -3,10 +3,11 @@ import pandas as pd
 from typing import Tuple
 
 # ========== Parameter Settings ==========
-DEFAULT_PMIN = 2.0
-DEFAULT_TMIN = 1  # minutes
-BASELOAD_PMIN = 1.0
-BASELOAD_TMIN = 5
+# 🎯 调整参数以减少过多的短时间事件
+DEFAULT_PMIN = 10.0  # 提高最小功率阈值到10W，过滤掉待机功率
+DEFAULT_TMIN = 5     # 提高最小持续时间到5分钟，过滤掉瞬时波动
+BASELOAD_PMIN = 5.0  # 基础负载最小功率阈值
+BASELOAD_TMIN = 10   # 基础负载最小持续时间
 
 # ========== Utility Function: Load Data ==========
 def load_power_data(power_csv: str) -> pd.DataFrame:

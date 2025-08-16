@@ -1,0 +1,11 @@
+{
+  "house_id": "house16",
+  "tariff_type": "Economy_7",
+  "total_first_events": 2,
+  "total_original_cost": 0.510787207070707,
+  "total_optimized_cost": 0.2607944398448774,
+  "total_savings": 0.2499927672258297,
+  "average_savings_percentage": 48.89179270111287,
+  "shifted_events": 2,
+  "optimization_timestamp": "2025-08-13T21:30:44.069694"
+}

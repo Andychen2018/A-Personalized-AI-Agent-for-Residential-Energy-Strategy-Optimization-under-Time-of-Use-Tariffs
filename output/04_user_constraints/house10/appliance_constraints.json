@@ -1,10 +1,10 @@
 {
   "house_id": "house10",
-  "generated_time": "2025-08-07T18:54:57.853463",
+  "generated_time": "2025-08-11T13:39:18.860878",
   "user_input": "",
   "llm_parsing_success": true,
   "appliance_constraints": {
-    "Blender": {
+    "Magimix (Blender)": {
       "forbidden_time": [
         [
           "00:00",

@@ -1,0 +1,3516 @@
+{
+  "dataset_info": {
+    "name": "Extended Appliance Classification Dataset",
+    "description": "500 diverse appliance names with variants for LLM classification testing",
+    "total_samples": 500,
+    "base_source": "appliance_shiftability_dict.json",
+    "generation_date": "2024-01-01"
+  },
+  "distribution": {
+    "shiftable": 31,
+    "base": 56,
+    "non-shiftable": 413
+  },
+  "test_cases": [
+    {
+      "appliance_name": "Samsung Pool Pump",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Pool Pump",
+      "base_chinese_name": "泳池泵",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Window Cleaning Robot (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Window Cleaning Robot",
+      "base_chinese_name": "擦窗机器人",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Spot Cooler (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Spot Cooler",
+      "base_chinese_name": "局部空调",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Scanner (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Scanner",
+      "base_chinese_name": "扫描仪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Sauna Blanket (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Sauna Blanket",
+      "base_chinese_name": "桑拿毯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Thermostat (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smart Thermostat",
+      "base_chinese_name": "智能温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "安全报警器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Security Alarm",
+      "base_chinese_name": "安全报警器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "RV Heater (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "RV Heater",
+      "base_chinese_name": "房车加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "酒柜 (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Wine Cooler",
+      "base_chinese_name": "酒柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电脑 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Computer Site",
+      "base_chinese_name": "电脑",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Hi-Fi (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hi-Fi",
+      "base_chinese_name": "高保真音响",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能插线板",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Power Strip",
+      "base_chinese_name": "智能插线板",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Baby Food Processors",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Baby Food Processor",
+      "base_chinese_name": "婴儿辅食机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Pool Pumps",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Pool Pump",
+      "base_chinese_name": "泳池泵",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "手机充电器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Phone Charger",
+      "base_chinese_name": "手机充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "地暖系统待机 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Heated Floor System",
+      "base_chinese_name": "地暖系统待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电饭煲 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Rice Cooker",
+      "base_chinese_name": "电饭煲",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Upright Freezer (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Upright Freezer",
+      "base_chinese_name": "立式冷冻柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "蒸汽拖把 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Steam Mop",
+      "base_chinese_name": "蒸汽拖把",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Meter (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smart Meter",
+      "base_chinese_name": "智能电表",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Toilet Seat Warmer (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Toilet Seat Warmer",
+      "base_chinese_name": "智能马桶盖保温",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Space Heater",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Space Heater",
+      "base_chinese_name": "电暖器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Backup Power Unit (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Backup Power Unit",
+      "base_chinese_name": "备用电源",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "空气净化器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "空气净化器",
+      "base_chinese_name": "",
+      "variant_type": "distractor"
+    },
+    {
+      "appliance_name": "相机充电器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Camera Charger",
+      "base_chinese_name": "相机充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "鱼缸过滤器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Aquarium Filter",
+      "base_chinese_name": "鱼缸过滤器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Heated Floor Systems",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Heated Floor System",
+      "base_chinese_name": "地暖系统待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Coffee Machine (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Coffee Machine",
+      "base_chinese_name": "智能咖啡机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电热水壶 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Kettle",
+      "base_chinese_name": "电热水壶",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Baseboard Heater Thermostat",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Baseboard Heater Thermostat",
+      "base_chinese_name": "踢脚线加热器温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Portable Air Conditioner (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Portable Air Conditioner",
+      "base_chinese_name": "便携式空调",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能窗帘 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Curtain",
+      "base_chinese_name": "智能窗帘",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "海尔 Smart Fan",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Fan",
+      "base_chinese_name": "智能风扇",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电脑 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Computer Site",
+      "base_chinese_name": "电脑",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "LG Air Fryer",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Air Fryer",
+      "base_chinese_name": "空气炸锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "榨汁机 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Juicer",
+      "base_chinese_name": "榨汁机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "信号放大器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Repeater",
+      "base_chinese_name": "信号放大器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Fryers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Fryer",
+      "base_chinese_name": "电炸锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Printers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Printer",
+      "base_chinese_name": "打印机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "漏水探测器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Leak Detector",
+      "base_chinese_name": "漏水探测器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Kettles",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Kettle",
+      "base_chinese_name": "电热水壶",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Solar Inverters",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Solar Inverter",
+      "base_chinese_name": "太阳能逆变器（空闲）",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "空气质量检测仪 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Air Quality Monitor",
+      "base_chinese_name": "空气质量检测仪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "冰淇淋机 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Ice Cream Maker",
+      "base_chinese_name": "冰淇淋机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Portable Washing Machine (2)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Portable Washing Machine",
+      "base_chinese_name": "便携洗衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Samsung Digital Clock",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Digital Clock",
+      "base_chinese_name": "电子时钟",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Thermostat (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Thermostat",
+      "base_chinese_name": "温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Curling Iron (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Curling Iron",
+      "base_chinese_name": "卷发棒",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Refrigerator (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Refrigerator",
+      "base_chinese_name": "冰箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Espresso Machine (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Espresso Machine",
+      "base_chinese_name": "意式咖啡机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "美的 Infrared Cooker",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Infrared Cooker",
+      "base_chinese_name": "红外线电灶",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "油汀取暖器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oil-filled Radiator",
+      "base_chinese_name": "油汀取暖器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Bread-maker (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Bread-maker",
+      "base_chinese_name": "面包机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "游戏机",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Game Console",
+      "base_chinese_name": "游戏机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Air Quality Monitor (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Air Quality Monitor",
+      "base_chinese_name": "空气质量检测仪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Samsung Refrigerated Medicine Cabinet",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Refrigerated Medicine Cabinet",
+      "base_chinese_name": "药品冷藏柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "太阳能逆变器（空闲） (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Solar Inverter",
+      "base_chinese_name": "太阳能逆变器（空闲）",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Facial Steamer",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Facial Steamer",
+      "base_chinese_name": "面部蒸汽机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "局域网交换机 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "LAN Switch",
+      "base_chinese_name": "局域网交换机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "灶台引火器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Cooktop Pilot Light",
+      "base_chinese_name": "灶台引火器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Ceiling Fan Controller (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Ceiling Fan Controller",
+      "base_chinese_name": "吊扇控制器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Water Heater Pilots",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Heater Pilot",
+      "base_chinese_name": "热水器引火装置",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "按摩椅",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Massage Chair",
+      "base_chinese_name": "按摩椅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "婴儿辅食机 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Baby Food Processor",
+      "base_chinese_name": "婴儿辅食机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Sprinkler Controller",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Sprinkler Controller",
+      "base_chinese_name": "洒水控制器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "食品料理机 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Food Processor",
+      "base_chinese_name": "食品料理机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Vivarium (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Vivarium",
+      "base_chinese_name": "生态箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Thermostat",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Thermostat",
+      "base_chinese_name": "温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "格力 UV Bottle Sterilizer",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "UV Bottle Sterilizer",
+      "base_chinese_name": "奶瓶消毒器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Carbon Monoxide Detector (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Carbon Monoxide Detector",
+      "base_chinese_name": "一氧化碳报警器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Siemens Smart Hub",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Hub",
+      "base_chinese_name": "智能家居中心",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Oven",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Smart Oven",
+      "base_chinese_name": "智能烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "踢脚线加热器温控器 (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Baseboard Heater Thermostat",
+      "base_chinese_name": "踢脚线加热器温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Dryer",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Tumble Dryer",
+      "base_chinese_name": "滚筒式干衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "美的 Light Sensor",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Light Sensor",
+      "base_chinese_name": "光照传感器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Greenhouse Heater (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Greenhouse Heater",
+      "base_chinese_name": "温室加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "温室加热器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Greenhouse Heater",
+      "base_chinese_name": "温室加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Baby Bottle Warmer (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Baby Bottle Warmer",
+      "base_chinese_name": "奶瓶加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "投影仪",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Projector",
+      "base_chinese_name": "投影仪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Phone Base Stations",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Phone Base Station",
+      "base_chinese_name": "座机基站",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "房车微波炉 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "RV Microwave",
+      "base_chinese_name": "房车微波炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "背部按摩器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Back Massager",
+      "base_chinese_name": "背部按摩器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "煮蛋器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Egg Cooker",
+      "base_chinese_name": "煮蛋器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "温控器",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Thermostat",
+      "base_chinese_name": "温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "局域网交换机 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "LAN Switch",
+      "base_chinese_name": "局域网交换机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Light Bridge (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Light Bridge",
+      "base_chinese_name": "智能灯桥接器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Heated Eyelash Wand (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Heated Eyelash Wand",
+      "base_chinese_name": "电热睫毛棒",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "冰箱 (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Refrigerator",
+      "base_chinese_name": "冰箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "UV Bottle Sterilizer (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "UV Bottle Sterilizer",
+      "base_chinese_name": "奶瓶消毒器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Egg Boiler (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Egg Boiler",
+      "base_chinese_name": "煮蛋器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Thermostat Sensor (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smart Thermostat Sensor",
+      "base_chinese_name": "智能温控器传感器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "External Hard Drive (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "External Hard Drive",
+      "base_chinese_name": "外置硬盘",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "饮水机 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Dispenser",
+      "base_chinese_name": "饮水机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "3D 打印机 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "3D Printer",
+      "base_chinese_name": "3D 打印机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "加热睫毛夹 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Heated Eyelash Curler",
+      "base_chinese_name": "加热睫毛夹",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "卷发棒 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hair Curler",
+      "base_chinese_name": "卷发棒",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Toothbrushs",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Toothbrush",
+      "base_chinese_name": "电动牙刷",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Oven Extractor Fan (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oven Extractor Fan",
+      "base_chinese_name": "烤箱抽油烟机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "鞋油机 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Shoe Polisher",
+      "base_chinese_name": "鞋油机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电围栏 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Fence",
+      "base_chinese_name": "电围栏",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Humidifier",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Humidifier",
+      "base_chinese_name": "加湿器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "UV Bottle Sterilizer",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "UV Bottle Sterilizer",
+      "base_chinese_name": "奶瓶消毒器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能电表",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smart Meter",
+      "base_chinese_name": "智能电表",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Home Battery System",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Home Battery System",
+      "base_chinese_name": "家用蓄电系统",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Bell (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Bell",
+      "base_chinese_name": "电铃",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "房车加热器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "RV Heater",
+      "base_chinese_name": "房车加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Food Steamer (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Food Steamer",
+      "base_chinese_name": "电蒸锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Portable Power Station (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Portable Power Station",
+      "base_chinese_name": "便携电源站",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Ice Makers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Ice Maker",
+      "base_chinese_name": "制冰机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电池维护器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Battery Maintainer",
+      "base_chinese_name": "电池维护器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Ice Maker (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Ice Maker",
+      "base_chinese_name": "制冰机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Facial Cleansing Brush (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Facial Cleansing Brush",
+      "base_chinese_name": "洁面仪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电动抛光器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Nail Polisher",
+      "base_chinese_name": "电动抛光器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Heater",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Heater",
+      "base_chinese_name": "智能取暖器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "迷你风扇",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Mini Fan",
+      "base_chinese_name": "迷你风扇",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "煮蛋器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Egg Cooker",
+      "base_chinese_name": "煮蛋器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Fragrance Diffuser",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Fragrance Diffuser",
+      "base_chinese_name": "智能香氛机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Backup Power Unit (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Backup Power Unit",
+      "base_chinese_name": "备用电源",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Set-top Box (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Set-top Box",
+      "base_chinese_name": "机顶盒待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Baseboard Heater Thermostat (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Baseboard Heater Thermostat",
+      "base_chinese_name": "踢脚线加热器温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "不间断电源 (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "UPS [Uninterruptible Power Supply]",
+      "base_chinese_name": "不间断电源",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "格力 Night Light",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Night Light",
+      "base_chinese_name": "夜灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "烤箱时钟功能",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oven",
+      "base_chinese_name": "烤箱时钟功能",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Oral Irrigator",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oral Irrigator",
+      "base_chinese_name": "冲牙器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Hot Pots",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Hot Pot",
+      "base_chinese_name": "电火锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Air Purifier (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Air Purifier",
+      "base_chinese_name": "空气净化器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "食物加热器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Food Warmer",
+      "base_chinese_name": "食物加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电脑",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Computer Site",
+      "base_chinese_name": "电脑",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电烤炉",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Grill",
+      "base_chinese_name": "电烤炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "吹风机 (1)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Hair Dryer",
+      "base_chinese_name": "吹风机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Glue Guns",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Glue Gun",
+      "base_chinese_name": "热熔胶枪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Voice Assistant",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Voice Assistant",
+      "base_chinese_name": "语音助手待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Thermostat (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Thermostat",
+      "base_chinese_name": "温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Straightener (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Straightener",
+      "base_chinese_name": "直发器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Water Dispensers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Dispenser",
+      "base_chinese_name": "饮水机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Chopper",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Chopper",
+      "base_chinese_name": "碎菜机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "车库门电机 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Garage Door Motor",
+      "base_chinese_name": "车库门电机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Glue Gun (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Glue Gun",
+      "base_chinese_name": "热熔胶枪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Upright Freezer (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Upright Freezer",
+      "base_chinese_name": "立式冷冻柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Nail Files",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Nail File",
+      "base_chinese_name": "电动美甲锉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Night Lights",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Night Light",
+      "base_chinese_name": "夜灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "USB Hubs",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "USB Hub",
+      "base_chinese_name": "USB集线器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "家用蓄电系统 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Home Battery System",
+      "base_chinese_name": "家用蓄电系统",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "高压锅",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Pressure Cooker",
+      "base_chinese_name": "高压锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "磨光机",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Grinding Machine",
+      "base_chinese_name": "磨光机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "热水器引火装置 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Heater Pilot",
+      "base_chinese_name": "热水器引火装置",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "无线充电板",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Wireless Charging Pad",
+      "base_chinese_name": "无线充电板",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Oven (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oven",
+      "base_chinese_name": "烤箱时钟功能",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "迷你风扇 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Personal Fan",
+      "base_chinese_name": "迷你风扇",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电煎锅",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Skillet",
+      "base_chinese_name": "电煎锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "格力 Smart Light Switch",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Light Switch",
+      "base_chinese_name": "智能开关",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Wine Cooler (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Wine Cooler",
+      "base_chinese_name": "酒柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Pressure Cookers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Pressure Cooker",
+      "base_chinese_name": "高压锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "湿度传感器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Humidity Sensor",
+      "base_chinese_name": "湿度传感器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Fridge-Freezer (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Fridge-Freezer",
+      "base_chinese_name": "冰箱冷冻柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Vivariums",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Vivarium",
+      "base_chinese_name": "生态箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Rechargeable Lawn Mowers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Rechargeable Lawn Mower",
+      "base_chinese_name": "充电式割草机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "LG LAN Switch",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "LAN Switch",
+      "base_chinese_name": "局域网交换机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "家庭存储服务器待机 (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "NAS Server",
+      "base_chinese_name": "家庭存储服务器待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Robotic Lawn Mower (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Robotic Lawn Mower",
+      "base_chinese_name": "机器人割草机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "功放待机 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Audio Amplifier",
+      "base_chinese_name": "功放待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电动抛光器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Nail Polisher",
+      "base_chinese_name": "电动抛光器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "海尔 Electric Nail File",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Nail File",
+      "base_chinese_name": "电动美甲锉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "LG Iron",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Iron",
+      "base_chinese_name": "熨斗",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能温控器",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smart Thermostat",
+      "base_chinese_name": "智能温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Oven Extractor Fan (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oven Extractor Fan",
+      "base_chinese_name": "烤箱抽油烟机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Straighteners",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Straightener",
+      "base_chinese_name": "直发器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电热毯控制器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Blanket Controller",
+      "base_chinese_name": "电热毯控制器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Power Strip",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Power Strip",
+      "base_chinese_name": "智能插线板",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Repeater (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Repeater",
+      "base_chinese_name": "信号放大器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "吊扇控制器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Ceiling Fan Controller",
+      "base_chinese_name": "吊扇控制器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Humidifiers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Humidifier",
+      "base_chinese_name": "加湿器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能插线板 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Power Strip",
+      "base_chinese_name": "智能插线板",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Gas Water Heater",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Gas Water Heater",
+      "base_chinese_name": "燃气热水器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "充电式吸尘器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Rechargeable Vacuum",
+      "base_chinese_name": "充电式吸尘器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "TV",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "TV",
+      "base_chinese_name": "电视",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Oven Extractor Fan",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oven Extractor Fan",
+      "base_chinese_name": "烤箱抽油烟机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Sauna Blanket (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Sauna Blanket",
+      "base_chinese_name": "桑拿毯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电动工具充电器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Power Tools Charger",
+      "base_chinese_name": "电动工具充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "理发器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hair Clipper",
+      "base_chinese_name": "理发器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Blanket Controllers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Blanket Controller",
+      "base_chinese_name": "电热毯控制器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Bike Charger (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Bike Charger",
+      "base_chinese_name": "电动自行车充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "台式电脑 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Desktop Computer",
+      "base_chinese_name": "台式电脑",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电动牙刷 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Toothbrush",
+      "base_chinese_name": "电动牙刷",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Steam Generator Irons",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Steam Generator Iron",
+      "base_chinese_name": "蒸汽挂烫机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Portable Air Conditioners",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Portable Air Conditioner",
+      "base_chinese_name": "便携式空调",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Rice Cooker (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Rice Cooker",
+      "base_chinese_name": "电饭煲",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Reading Light (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Reading Light",
+      "base_chinese_name": "阅读灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "吸尘器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Vacuum Cleaner",
+      "base_chinese_name": "吸尘器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Blanket (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Blanket",
+      "base_chinese_name": "电热毯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "户外照明定时器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Outdoor Light Timer",
+      "base_chinese_name": "户外照明定时器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Vacuum Cleaner (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Vacuum Cleaner",
+      "base_chinese_name": "吸尘器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Steam Oven",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Steam Oven",
+      "base_chinese_name": "蒸烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能灌溉系统 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Irrigation Hub",
+      "base_chinese_name": "智能灌溉系统",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "笔记本电脑充电器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Laptop Charger",
+      "base_chinese_name": "笔记本电脑充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "榨汁机 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Juicer",
+      "base_chinese_name": "榨汁机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Shoe Polishers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Shoe Polisher",
+      "base_chinese_name": "鞋油机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Siemens Kettle",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Kettle",
+      "base_chinese_name": "电热水壶",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Scooter Charger (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Scooter Charger",
+      "base_chinese_name": "电动滑板车充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Insect Trap (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Insect Trap",
+      "base_chinese_name": "灭蚊器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Scanner",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Scanner",
+      "base_chinese_name": "扫描仪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "台式烤箱 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Countertop Oven",
+      "base_chinese_name": "台式烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Meat Grinder (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Meat Grinder",
+      "base_chinese_name": "绞肉机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "照明控制器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Lighting Controller",
+      "base_chinese_name": "照明控制器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "搅拌机 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Blender",
+      "base_chinese_name": "搅拌机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Meat Grinders",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Meat Grinder",
+      "base_chinese_name": "绞肉机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Water Heater Pilot (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Heater Pilot",
+      "base_chinese_name": "热水器引火装置",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "慢炖锅",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Slow Cooker",
+      "base_chinese_name": "慢炖锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "自动洗碗机",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Dishwasher",
+      "base_chinese_name": "洗碗机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "海尔 Robot Vacuum",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Robot Vacuum",
+      "base_chinese_name": "扫地机器人",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "调制解调器",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Modem",
+      "base_chinese_name": "调制解调器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Grill",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Grill",
+      "base_chinese_name": "电烤炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Emergency Light (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Emergency Light",
+      "base_chinese_name": "应急灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Baby Bottle Warmers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Baby Bottle Warmer",
+      "base_chinese_name": "奶瓶加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Deep Fryer (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Deep Fryer",
+      "base_chinese_name": "油炸锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能门铃 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Doorbell",
+      "base_chinese_name": "智能门铃",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "USB集线器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "USB Hub",
+      "base_chinese_name": "USB集线器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Siemens Food Warmer",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Food Warmer",
+      "base_chinese_name": "食物加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "踢脚线加热器温控器 (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Baseboard Heater Thermostat",
+      "base_chinese_name": "踢脚线加热器温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Grinding Machine (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Grinding Machine",
+      "base_chinese_name": "磨光机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "格力 Smart Coffee Machine",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Coffee Machine",
+      "base_chinese_name": "智能咖啡机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Humidity Sensor (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Humidity Sensor",
+      "base_chinese_name": "湿度传感器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "不间断电源 (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "UPS [Uninterruptible Power Supply]",
+      "base_chinese_name": "不间断电源",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Television Site (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Television Site",
+      "base_chinese_name": "电视机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "语音助手待机 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Voice Assistant",
+      "base_chinese_name": "语音助手待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Clothes Dryer (2)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Clothes Dryer",
+      "base_chinese_name": "衣物烘干机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "奶瓶加热器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Baby Bottle Warmer",
+      "base_chinese_name": "奶瓶加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Medical Alert Devices",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Medical Alert Device",
+      "base_chinese_name": "医疗警报器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Shoe Dryer (1)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Electric Shoe Dryer",
+      "base_chinese_name": "电鞋干燥器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "LG Smart Dryer Rack",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Smart Dryer Rack",
+      "base_chinese_name": "智能晾衣架",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Humidity Sensor (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Humidity Sensor",
+      "base_chinese_name": "湿度传感器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "卷发棒 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hair Curler",
+      "base_chinese_name": "卷发棒",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "美的 Sewing Machine",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Sewing Machine",
+      "base_chinese_name": "缝纫机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "充电式割草机 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Rechargeable Lawn Mower",
+      "base_chinese_name": "充电式割草机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "保温炖锅 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Thermal Cooker",
+      "base_chinese_name": "保温炖锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "显示器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Monitor",
+      "base_chinese_name": "显示器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Vacuum Cleaner",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Vacuum Cleaner",
+      "base_chinese_name": "吸尘器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Bosch Bidet Heater",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Bidet Heater",
+      "base_chinese_name": "智能马桶清洗加热",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "烤箱时钟功能 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oven",
+      "base_chinese_name": "烤箱时钟功能",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Tumble Dryers",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Tumble Dryer",
+      "base_chinese_name": "滚筒式干衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "海尔 RV Heater",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "RV Heater",
+      "base_chinese_name": "房车加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "衣物烘干机 (1)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Clothes Dryer",
+      "base_chinese_name": "衣物烘干机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电池充电器待机 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Battery Charger",
+      "base_chinese_name": "电池充电器待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "USB集线器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "USB Hub",
+      "base_chinese_name": "USB集线器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能烤箱 (3)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Smart Oven",
+      "base_chinese_name": "智能烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电锯 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Saw",
+      "base_chinese_name": "电锯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Smokers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Smoker",
+      "base_chinese_name": "电熏炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Low Power Indicator Light (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Low Power Indicator Light",
+      "base_chinese_name": "指示灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "机器人割草机 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Robotic Lawn Mower",
+      "base_chinese_name": "机器人割草机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电围栏 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Fence",
+      "base_chinese_name": "电围栏",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "多功能炖锅 (1)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Multi Cooker",
+      "base_chinese_name": "多功能炖锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电动滑板车充电器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Scooter Charger",
+      "base_chinese_name": "电动滑板车充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "冰柜 (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Freezer",
+      "base_chinese_name": "冰柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "医疗警报器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Medical Alert Device",
+      "base_chinese_name": "医疗警报器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Steamers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Steamer",
+      "base_chinese_name": "电蒸锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "房车微波炉 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "RV Microwave",
+      "base_chinese_name": "房车微波炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Straightener",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Straightener",
+      "base_chinese_name": "直发器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Travel Iron (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Travel Iron",
+      "base_chinese_name": "便携熨斗",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Air Purifier",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Air Purifier",
+      "base_chinese_name": "空气净化器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "LG Pressure Cooker",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Pressure Cooker",
+      "base_chinese_name": "高压锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Iron",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Iron",
+      "base_chinese_name": "熨斗",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "便携电源站 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Portable Power Station",
+      "base_chinese_name": "便携电源站",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Tumble Dryer (3)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Tumble Dryer",
+      "base_chinese_name": "滚筒式干衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Steam Generator Iron",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Steam Generator Iron",
+      "base_chinese_name": "蒸汽挂烫机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Window Cleaning Robot (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Window Cleaning Robot",
+      "base_chinese_name": "擦窗机器人",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电锯 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Saw",
+      "base_chinese_name": "电锯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Instant Heater (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Instant Heater",
+      "base_chinese_name": "即热式加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "按摩枪 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Massage Gun",
+      "base_chinese_name": "按摩枪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Watch Charger (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Watch Charger",
+      "base_chinese_name": "智能手表充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "格力 Soldering Iron",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Soldering Iron",
+      "base_chinese_name": "电烙铁",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Humidifier (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Humidifier",
+      "base_chinese_name": "加湿器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Motion Sensors",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Motion Sensor",
+      "base_chinese_name": "动作传感器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Sprinklers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Sprinkler",
+      "base_chinese_name": "智能洒水器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "慢炖锅 (2)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Slow Cooker",
+      "base_chinese_name": "慢炖锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Watch Chargers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Watch Charger",
+      "base_chinese_name": "智能手表充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Rice Cooker",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Rice Cooker",
+      "base_chinese_name": "智能电饭煲",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Bread-makers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Bread-maker",
+      "base_chinese_name": "面包机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Firewall Appliance (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Firewall Appliance",
+      "base_chinese_name": "防火墙设备",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "LG Humidity Sensor",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Humidity Sensor",
+      "base_chinese_name": "湿度传感器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "除湿机待机",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Dehumidifier",
+      "base_chinese_name": "除湿机待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Soldering Iron (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Soldering Iron",
+      "base_chinese_name": "电烙铁",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "UV Bottle Sterilizer (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "UV Bottle Sterilizer",
+      "base_chinese_name": "奶瓶消毒器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "医疗警报器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Medical Alert Device",
+      "base_chinese_name": "医疗警报器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "迷你洗衣机 (1)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Mini Washing Machine",
+      "base_chinese_name": "迷你洗衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Lamps",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Lamp",
+      "base_chinese_name": "灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Refrigerator Light",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Refrigerator Light",
+      "base_chinese_name": "冰箱灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Oil-filled Radiator (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oil-filled Radiator",
+      "base_chinese_name": "油汀取暖器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Grill (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Grill",
+      "base_chinese_name": "电烤炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "无线路由器 (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Router",
+      "base_chinese_name": "无线路由器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能洒水器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Sprinkler",
+      "base_chinese_name": "智能洒水器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "灭蚊器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Insect Trap",
+      "base_chinese_name": "灭蚊器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "海尔 Water Purifier",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Water Purifier",
+      "base_chinese_name": "净水器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "扫描仪",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Scanner",
+      "base_chinese_name": "扫描仪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "充电式吸尘器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Rechargeable Vacuum",
+      "base_chinese_name": "充电式吸尘器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "一氧化碳报警器",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Carbon Monoxide Detector",
+      "base_chinese_name": "一氧化碳报警器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "太阳能逆变器（空闲） (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Solar Inverter",
+      "base_chinese_name": "太阳能逆变器（空闲）",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Power Strip (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Power Strip",
+      "base_chinese_name": "智能插线板",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Blanket",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Blanket",
+      "base_chinese_name": "电热毯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "吹风机",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Hair Dryer",
+      "base_chinese_name": "吹风机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "饮料冷藏柜",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Beverage Cooler",
+      "base_chinese_name": "饮料冷藏柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Pressure Cooker (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Pressure Cooker",
+      "base_chinese_name": "高压锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电烧烤架 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric BBQ",
+      "base_chinese_name": "电烧烤架",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "面包机 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Bread-maker",
+      "base_chinese_name": "面包机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Oven (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Oven",
+      "base_chinese_name": "电烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Fridge",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Fridge",
+      "base_chinese_name": "冰箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电磁炉 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Induction Cooker",
+      "base_chinese_name": "电磁炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "音响",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Speaker",
+      "base_chinese_name": "音响",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Boiler Standby (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Boiler Standby",
+      "base_chinese_name": "锅炉待机电耗",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "LED灯带",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "LED Strip Light",
+      "base_chinese_name": "LED灯带",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "格力 Mini Fridge",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Mini Fridge",
+      "base_chinese_name": "迷你冰箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "水箱加热器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Tank Heater",
+      "base_chinese_name": "水箱加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电视",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "TV",
+      "base_chinese_name": "电视",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Air Fryers",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Air Fryer",
+      "base_chinese_name": "空气炸锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Oral Irrigators",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oral Irrigator",
+      "base_chinese_name": "冲牙器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电视 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "TV",
+      "base_chinese_name": "电视",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Circulation Pump",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Circulation Pump",
+      "base_chinese_name": "循环泵",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能家居中心 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Hub",
+      "base_chinese_name": "智能家居中心",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Gas Water Heater (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Gas Water Heater",
+      "base_chinese_name": "燃气热水器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "监控摄像头",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "监控摄像头",
+      "base_chinese_name": "",
+      "variant_type": "distractor"
+    },
+    {
+      "appliance_name": "Back Massager (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Back Massager",
+      "base_chinese_name": "背部按摩器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "格力 EV Charger",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "EV Charger",
+      "base_chinese_name": "电动车充电桩（空闲）",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "冲牙器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Flosser",
+      "base_chinese_name": "冲牙器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Sous Vide Cooker (2)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Sous Vide Cooker",
+      "base_chinese_name": "低温慢煮机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "育苗加热垫",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Seedling Heat Mat",
+      "base_chinese_name": "育苗加热垫",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Freezer",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Freezer",
+      "base_chinese_name": "冰柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "夜灯 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Night Light",
+      "base_chinese_name": "夜灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Sewing Machine",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Sewing Machine",
+      "base_chinese_name": "缝纫机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "安全报警器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Security Alarm",
+      "base_chinese_name": "安全报警器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "衣物烘干机",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Tumble Dryer",
+      "base_chinese_name": "滚筒式干衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "音响 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Speaker",
+      "base_chinese_name": "音响",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "座机基站 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Phone Base Station",
+      "base_chinese_name": "座机基站",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Foot Massager",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Foot Massager",
+      "base_chinese_name": "足部按摩器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "冰柜",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Freezer",
+      "base_chinese_name": "冰柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Water Tank Heater",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Tank Heater",
+      "base_chinese_name": "水箱加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Sprinkler Controllers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Sprinkler Controller",
+      "base_chinese_name": "洒水控制器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "迷你冰箱 (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Mini Fridge",
+      "base_chinese_name": "迷你冰箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Computer Site (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Computer Site",
+      "base_chinese_name": "电脑",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "房车加热器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "RV Heater",
+      "base_chinese_name": "房车加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Space Heaters",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Space Heater",
+      "base_chinese_name": "电暖器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "洗衣机 (3)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Washing Machine",
+      "base_chinese_name": "洗衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Grill (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Grill",
+      "base_chinese_name": "电烤炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Oil-filled Radiators",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oil-filled Radiator",
+      "base_chinese_name": "油汀取暖器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Refrigerator Light (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Refrigerator Light",
+      "base_chinese_name": "冰箱灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能烤箱 (1)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Smart Oven",
+      "base_chinese_name": "智能烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Portable Heater (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Portable Heater",
+      "base_chinese_name": "便携式加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "鱼缸加热器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Aquarium Heater",
+      "base_chinese_name": "鱼缸加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电动剃须刀 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Shaver",
+      "base_chinese_name": "电动剃须刀",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Stove Lighter (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Stove Lighter",
+      "base_chinese_name": "点火器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电蒸锅",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Steamer",
+      "base_chinese_name": "电蒸锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Fridge (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Fridge",
+      "base_chinese_name": "冰箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Combination Microwave (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Combination Microwave",
+      "base_chinese_name": "组合微波炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "温控器 (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Thermostat",
+      "base_chinese_name": "温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Insect Trap (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Insect Trap",
+      "base_chinese_name": "灭蚊器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Plug (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Plug",
+      "base_chinese_name": "智能插座待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Hubs",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Hub",
+      "base_chinese_name": "智能家居中心",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "备用电源",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Backup Power Unit",
+      "base_chinese_name": "备用电源",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "无线充电板 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Wireless Charging Pad",
+      "base_chinese_name": "无线充电板",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Greenhouse Heater (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Greenhouse Heater",
+      "base_chinese_name": "温室加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Wine Cooler (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Wine Cooler",
+      "base_chinese_name": "酒柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Outdoor Patio Heater (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Outdoor Patio Heater",
+      "base_chinese_name": "户外加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Kenwood KMix (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Kenwood KMix",
+      "base_chinese_name": "立式厨师机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "美甲烘干机",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Nail Dryer",
+      "base_chinese_name": "美甲烘干机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Light Switch (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Light Switch",
+      "base_chinese_name": "智能开关",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Shavers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Shaver",
+      "base_chinese_name": "电动剃须刀",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "蒸烤箱 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Steam Oven",
+      "base_chinese_name": "蒸烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "手持打蛋器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hand Mixer",
+      "base_chinese_name": "手持打蛋器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能门锁 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Lock",
+      "base_chinese_name": "智能门锁",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Scales",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Scale",
+      "base_chinese_name": "智能体重秤",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "熨斗 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Iron",
+      "base_chinese_name": "熨斗",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Curtains",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Curtain",
+      "base_chinese_name": "智能窗帘",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电动开罐器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Can Opener",
+      "base_chinese_name": "电动开罐器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能风扇",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Fan",
+      "base_chinese_name": "智能风扇",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Water Heater Pilot (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Heater Pilot",
+      "base_chinese_name": "热水器引火装置",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Hot Pot (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Hot Pot",
+      "base_chinese_name": "电火锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Foot Spa (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Foot Spa",
+      "base_chinese_name": "足浴盆",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Metal Cutter (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Metal Cutter",
+      "base_chinese_name": "金属切割机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Printer (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Printer",
+      "base_chinese_name": "打印机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Meter",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smart Meter",
+      "base_chinese_name": "智能电表",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "语音助手待机",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Voice Assistant",
+      "base_chinese_name": "语音助手待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电动螺丝刀 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Screwdriver",
+      "base_chinese_name": "电动螺丝刀",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "面包机",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Bread-maker",
+      "base_chinese_name": "面包机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能电表 (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smart Meter",
+      "base_chinese_name": "智能电表",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "备用电源 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Backup Power Unit",
+      "base_chinese_name": "备用电源",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Water Tank Heater (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Tank Heater",
+      "base_chinese_name": "水箱加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Rice Cookers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Rice Cooker",
+      "base_chinese_name": "智能电饭煲",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "烟雾报警器 (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smoke Detector",
+      "base_chinese_name": "烟雾报警器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Hair Clippers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hair Clipper",
+      "base_chinese_name": "理发器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "户外加热器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Outdoor Patio Heater",
+      "base_chinese_name": "户外加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电视机",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Television",
+      "base_chinese_name": "电视机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Egg Cooker (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Egg Cooker",
+      "base_chinese_name": "煮蛋器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "踢脚线加热器温控器 (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Baseboard Heater Thermostat",
+      "base_chinese_name": "踢脚线加热器温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电脑 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Computer",
+      "base_chinese_name": "电脑",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart TV",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Television",
+      "base_chinese_name": "电视机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Oven",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Oven",
+      "base_chinese_name": "电烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Modem (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Modem",
+      "base_chinese_name": "调制解调器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Power Tools Charger (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Power Tools Charger",
+      "base_chinese_name": "电动工具充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "油炸锅 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Deep Fryer",
+      "base_chinese_name": "油炸锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Thermostat (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smart Thermostat",
+      "base_chinese_name": "智能温控器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Hair Curler (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hair Curler",
+      "base_chinese_name": "卷发棒",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Grinding Machine (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Grinding Machine",
+      "base_chinese_name": "磨光机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能车库开关 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Garage Opener",
+      "base_chinese_name": "智能车库开关",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Siemens Thermal Cooker",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Thermal Cooker",
+      "base_chinese_name": "保温炖锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Leak Detector",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Leak Detector",
+      "base_chinese_name": "漏水探测器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电磁炉",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Induction Cooker",
+      "base_chinese_name": "电磁炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "华夫饼机",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Waffle Maker",
+      "base_chinese_name": "华夫饼机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Fan",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Fan",
+      "base_chinese_name": "智能风扇",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Repeater",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Repeater",
+      "base_chinese_name": "信号放大器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Security Camera (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Security Camera",
+      "base_chinese_name": "安防摄像头",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Countertop Ovens",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Countertop Oven",
+      "base_chinese_name": "台式烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Food Steamers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Food Steamer",
+      "base_chinese_name": "电蒸锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Lamp (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Lamp",
+      "base_chinese_name": "灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电烤箱",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Oven",
+      "base_chinese_name": "电烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "爬宠加热垫 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Reptile Heating Pad",
+      "base_chinese_name": "爬宠加热垫",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Hair Clipper (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hair Clipper",
+      "base_chinese_name": "理发器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Food Mixer",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Food Mixer",
+      "base_chinese_name": "食品搅拌机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "灯 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Lamp",
+      "base_chinese_name": "灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Projectors",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Projector",
+      "base_chinese_name": "投影仪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Leak Detector (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Leak Detector",
+      "base_chinese_name": "漏水探测器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Bosch Hand Mixer",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hand Mixer",
+      "base_chinese_name": "手持打蛋器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Freezer (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Freezer",
+      "base_chinese_name": "冰柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Foot Spa",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Foot Spa",
+      "base_chinese_name": "足浴盆",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "迷你冰箱 (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Mini Fridge",
+      "base_chinese_name": "迷你冰箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "灯 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Lamp",
+      "base_chinese_name": "灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric BBQ (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric BBQ",
+      "base_chinese_name": "电烧烤架",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "海尔 Hair Dryer",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Hair Dryer",
+      "base_chinese_name": "吹风机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Portable Heater (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Portable Heater",
+      "base_chinese_name": "便携式加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "加热睫毛夹 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Heated Eyelash Curler",
+      "base_chinese_name": "加热睫毛夹",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Speaker",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Speaker",
+      "base_chinese_name": "音响",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Home Gateway (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Home Gateway",
+      "base_chinese_name": "智能家庭网关",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电热毯控制器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Blanket Controller",
+      "base_chinese_name": "电热毯控制器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smoke Exhaust Fan",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smoke Exhaust Fan",
+      "base_chinese_name": "烟道风机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Wireless Charging Pad (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Wireless Charging Pad",
+      "base_chinese_name": "无线充电板",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Gas Detector (3)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Gas Detector",
+      "base_chinese_name": "燃气报警器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Audio Amplifier (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Audio Amplifier",
+      "base_chinese_name": "功放待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Photo Printer (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Photo Printer",
+      "base_chinese_name": "照片打印机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Vacuum Cleaner (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Vacuum Cleaner",
+      "base_chinese_name": "吸尘器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "应急灯",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Emergency Light",
+      "base_chinese_name": "应急灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Gas Detector (2)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Gas Detector",
+      "base_chinese_name": "燃气报警器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "海尔 Smart Fragrance Diffuser",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Fragrance Diffuser",
+      "base_chinese_name": "智能香氛机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "太阳能充电器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Solar Panel Battery Charger",
+      "base_chinese_name": "太阳能充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Blankets",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Blanket",
+      "base_chinese_name": "电热毯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "冰箱冷冻柜",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Fridge-Freezer",
+      "base_chinese_name": "冰箱冷冻柜",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电熏炉 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Smoker",
+      "base_chinese_name": "电熏炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电动工具充电器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Power Tools Charger",
+      "base_chinese_name": "电动工具充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Cooktop Pilot Light",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Cooktop Pilot Light",
+      "base_chinese_name": "灶台引火器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "高保真音响 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hi-Fi",
+      "base_chinese_name": "高保真音响",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "热风枪",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hot Air Gun",
+      "base_chinese_name": "热风枪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Bike Chargers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Bike Charger",
+      "base_chinese_name": "电动自行车充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "LG Travel Iron",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Travel Iron",
+      "base_chinese_name": "便携熨斗",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Meters",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Smart Meter",
+      "base_chinese_name": "智能电表",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "LG Oil-filled Radiator",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Oil-filled Radiator",
+      "base_chinese_name": "油汀取暖器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Mirror (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Mirror",
+      "base_chinese_name": "智能镜子待机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "美的 Espresso Machine",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Espresso Machine",
+      "base_chinese_name": "意式咖啡机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Juicers",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Juicer",
+      "base_chinese_name": "榨汁机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "滚筒式干衣机",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Tumble Dryer",
+      "base_chinese_name": "滚筒式干衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "洒水控制器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Sprinkler Controller",
+      "base_chinese_name": "洒水控制器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Bread-maker (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Bread-maker",
+      "base_chinese_name": "面包机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Power Distribution Units",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Power Distribution Unit",
+      "base_chinese_name": "电源分配器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Reading Light (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Reading Light",
+      "base_chinese_name": "阅读灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "夜灯",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Night Light",
+      "base_chinese_name": "夜灯",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "烤面包机 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Toaster",
+      "base_chinese_name": "烤面包机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Pet Water Fountains",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Pet Water Fountain",
+      "base_chinese_name": "宠物饮水机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "生态箱 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Vivarium",
+      "base_chinese_name": "生态箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Hot Air Gun (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hot Air Gun",
+      "base_chinese_name": "热风枪",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "吸尘器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Vacuum Cleaner",
+      "base_chinese_name": "吸尘器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Robotic Lawn Mower (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Robotic Lawn Mower",
+      "base_chinese_name": "机器人割草机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Smart Light",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Light",
+      "base_chinese_name": "",
+      "variant_type": "distractor"
+    },
+    {
+      "appliance_name": "Washing Machine (1)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Washing Machine",
+      "base_chinese_name": "洗衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能马桶清洗加热 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Bidet Heater",
+      "base_chinese_name": "智能马桶清洗加热",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Hi-Fis",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Hi-Fi",
+      "base_chinese_name": "高保真音响",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Hair Dryers",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Hair Dryer",
+      "base_chinese_name": "吹风机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "海尔 Smart Oven",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Smart Oven",
+      "base_chinese_name": "智能烤箱",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Iron (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Iron",
+      "base_chinese_name": "熨斗",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电源分配器 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Power Distribution Unit",
+      "base_chinese_name": "电源分配器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Router (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Router",
+      "base_chinese_name": "无线路由器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "电围栏 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Fence",
+      "base_chinese_name": "电围栏",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "EV Charger (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "EV Charger",
+      "base_chinese_name": "电动车充电桩（空闲）",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Modem (1)",
+      "ground_truth_shiftability": "base",
+      "base_english_name": "Modem",
+      "base_chinese_name": "调制解调器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Portable Washing Machine (1)",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Portable Washing Machine",
+      "base_chinese_name": "便携洗衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "局部空调",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Spot Cooler",
+      "base_chinese_name": "局部空调",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "足部按摩器",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Foot Massager",
+      "base_chinese_name": "足部按摩器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Solar Panel Battery Charger",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Solar Panel Battery Charger",
+      "base_chinese_name": "太阳能充电器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "酸奶机 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Yogurt Maker",
+      "base_chinese_name": "酸奶机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Portable Power Station (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Portable Power Station",
+      "base_chinese_name": "便携电源站",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "水流传感器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Water Flow Sensor",
+      "base_chinese_name": "水流传感器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Game Console (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Game Console",
+      "base_chinese_name": "游戏机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "微波炉",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Microwave",
+      "base_chinese_name": "微波炉时钟功能",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Digital Clock (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Digital Clock",
+      "base_chinese_name": "电子时钟",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "鞋油机",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Shoe Polisher",
+      "base_chinese_name": "鞋油机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "智能门铃",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Smart Doorbell",
+      "base_chinese_name": "智能门铃",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "外置硬盘 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "External Hard Drive",
+      "base_chinese_name": "外置硬盘",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "RV Microwave (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "RV Microwave",
+      "base_chinese_name": "房车微波炉",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "座机基站 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Phone Base Station",
+      "base_chinese_name": "座机基站",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "鱼缸加热器 (2)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Aquarium Heater",
+      "base_chinese_name": "鱼缸加热器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Electric Skillet (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Electric Skillet",
+      "base_chinese_name": "电煎锅",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "吸尘器 (3)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Vacuum Cleaner",
+      "base_chinese_name": "吸尘器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "全自动洗衣机",
+      "ground_truth_shiftability": "shiftable",
+      "base_english_name": "Washing Machine",
+      "base_chinese_name": "洗衣机",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Heated Eyelash Curler (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Heated Eyelash Curler",
+      "base_chinese_name": "加热睫毛夹",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "Light Sensor",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Light Sensor",
+      "base_chinese_name": "光照传感器",
+      "variant_type": "generated"
+    },
+    {
+      "appliance_name": "热熔胶枪 (1)",
+      "ground_truth_shiftability": "non-shiftable",
+      "base_english_name": "Glue Gun",
+      "base_chinese_name": "热熔胶枪",
+      "variant_type": "generated"
+    }
+  ]
+}

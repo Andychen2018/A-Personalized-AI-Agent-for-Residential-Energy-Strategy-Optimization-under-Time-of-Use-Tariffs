@@ -1,10 +1,11 @@
 label,cost_Germany_Variable,cost_Germany_Variable_Base,energy_Germany_Variable,energy_Germany_Variable_Base
+Appliance1 (Magimix (Blender)),44.5162,52.0403,153.0719,153.0719
 Appliance2 (Freezer),53.3042,63.0005,185.2973,185.2973
-Appliance3 (Chest Freezer (In Garage)),157.3026,185.8337,546.581,546.581
+Appliance3 (Chest Freezer (In Garage)),156.3923,184.7621,543.4266,543.4266
 Appliance4 (Fridge-Freezer),84.11,99.0756,291.4002,291.4002
 Appliance5 (Washing Machine),122.9714,135.4658,398.4296,398.4296
 Appliance6 (Dishwasher),493.6988,577.5072,1698.5586,1698.5586
 Appliance7 (Television Site),202.8302,236.9368,696.8739,696.8739
 Appliance8 (Microwave),11.1014,12.1863,35.8431,35.8431
 Appliance9 (Kenwood KMix),11.1841,12.0486,35.4365,35.4365
-Total,1136.5027,1322.0545,3888.4201999999996,3888.4201999999996
+Total,1180.1086,1373.0232,4038.3377,4038.3377

@@ -1,23 +1,64 @@
 appliance_id,appliance_name,month,cost_Germany_Variable,cost_Germany_Variable_Base,energy_Germany_Variable,energy_Germany_Variable_Base
-Appliance3,Electric Heater,2014-01,0.0001,0.0001,0.0002,0.0002
+Appliance1,Fridge-Freezer (1),2014-01,4.5035,5.282,15.5356,15.5356
+Appliance1,Fridge-Freezer (1),2014-02,1.836,2.1371,6.286,6.286
+Appliance1,Fridge-Freezer (1),2014-03,8.897,10.5031,30.8914,30.8914
+Appliance1,Fridge-Freezer (1),2014-04,9.4031,11.0547,32.5145,32.5145
+Appliance1,Fridge-Freezer (1),2014-05,11.1064,13.0619,38.4162,38.4162
+Appliance1,Fridge-Freezer (1),2014-06,10.8683,12.7083,37.3756,37.3756
+Appliance1,Fridge-Freezer (1),2014-07,4.6966,5.5068,16.1963,16.1963
+Appliance1,Fridge-Freezer (1),2014-08,7.9445,9.3439,27.4829,27.4829
+Appliance1,Fridge-Freezer (1),2014-09,11.013,12.8835,37.8963,37.8963
+Appliance1,Fridge-Freezer (1),2014-10,9.9208,11.7207,34.4727,34.4727
+Appliance1,Fridge-Freezer (1),2014-11,5.5485999999999995,6.535,19.221,19.221
+Appliance1,Fridge-Freezer (1),2014-12,9.3002,10.941600000000001,32.1814,32.1814
+Appliance1,Fridge-Freezer (1),2015-01,9.7955,11.5732,34.0375,34.0375
+Appliance1,Fridge-Freezer (1),2015-02,8.1816,9.6527,28.3897,28.3897
+Appliance1,Fridge-Freezer (1),2015-03,8.4935,10.0344,29.514,29.514
+Appliance1,Fridge-Freezer (1),2015-04,5.4809,6.5057,19.1345,19.1345
+Appliance1,Fridge-Freezer (1),2015-05,4.3137,5.1011,15.0004,15.0004
+Appliance1,Fridge-Freezer (1),2015-06,4.703,5.5545,16.3353,16.3353
+Appliance1,Fridge-Freezer (1),2015-07,1.7623,2.0914,6.1483,6.1483
+Appliance2,Fridge-Freezer (2),2014-01,2.0701,2.454,7.2132,7.2132
+Appliance2,Fridge-Freezer (2),2014-02,0.7511,0.8665,2.5489,2.5489
+Appliance2,Fridge-Freezer (2),2014-03,4.2895,5.1064,15.0188,15.0188
+Appliance2,Fridge-Freezer (2),2014-04,4.7524,5.6233,16.5384,16.5384
+Appliance2,Fridge-Freezer (2),2014-05,5.3911999999999995,6.3611,18.7094,18.7094
+Appliance2,Fridge-Freezer (2),2014-06,5.7645,6.8082,20.0189,20.0189
+Appliance2,Fridge-Freezer (2),2014-07,2.7119,3.2152,9.4572,9.4572
+Appliance2,Fridge-Freezer (2),2014-08,4.2539,5.0544,14.8649,14.8649
+Appliance2,Fridge-Freezer (2),2014-09,5.9661,7.0285,20.6696,20.6696
+Appliance2,Fridge-Freezer (2),2014-10,4.9096,5.9003,17.3497,17.3497
+Appliance2,Fridge-Freezer (2),2014-11,2.1375,2.4947,7.3377,7.3377
+Appliance2,Fridge-Freezer (2),2014-12,4.2921,5.1389,15.1163,15.1163
+Appliance2,Fridge-Freezer (2),2015-01,4.0594,4.7881,14.0819,14.0819
+Appliance2,Fridge-Freezer (2),2015-02,3.6869,4.3974,12.9335,12.9335
+Appliance2,Fridge-Freezer (2),2015-03,3.9975,4.7581,13.9977,13.9977
+Appliance2,Fridge-Freezer (2),2015-04,0.1811,0.2174,0.6395,0.6395
 Appliance3,Electric Heater,2014-02,0.0742,0.0742,0.2183,0.2183
-Appliance3,Electric Heater,2014-03,0.0002,0.0002,0.0008,0.0008
-Appliance3,Electric Heater,2014-04,0.0001,0.0002,0.0006000000000000001,0.0006000000000000001
-Appliance3,Electric Heater,2014-05,0.0,0.0,0.00030000000000000003,0.00030000000000000003
-Appliance3,Electric Heater,2014-06,0.0,0.0,0.0,0.0
-Appliance3,Electric Heater,2014-07,0.0,0.0,0.0,0.0
-Appliance3,Electric Heater,2014-08,0.0,0.0,0.0,0.0
-Appliance3,Electric Heater,2014-09,0.0,0.0,0.0,0.0
+Appliance3,Electric Heater,2014-03,0.0001,0.0001,0.0004,0.0004
+Appliance3,Electric Heater,2014-04,0.0001,0.0002,0.0005,0.0005
 Appliance3,Electric Heater,2014-10,0.1361,0.1505,0.4427,0.4427
 Appliance3,Electric Heater,2014-11,0.2774,0.2983,0.877,0.877
 Appliance3,Electric Heater,2014-12,0.2103,0.2218,0.6522,0.6522
 Appliance3,Electric Heater,2015-01,0.046400000000000004,0.0498,0.14629999999999999,0.14629999999999999
-Appliance3,Electric Heater,2015-02,0.0798,0.0851,0.2507,0.2507
-Appliance3,Electric Heater,2015-03,0.0,0.0,0.0,0.0
-Appliance3,Electric Heater,2015-04,0.0,0.0,0.0,0.0
-Appliance3,Electric Heater,2015-05,0.0,0.0,0.0,0.0
-Appliance3,Electric Heater,2015-06,0.0,0.0,0.0,0.0
-Appliance3,Electric Heater,2015-07,0.0,0.0,0.0,0.0
+Appliance3,Electric Heater,2015-02,0.0753,0.08,0.2357,0.2357
+Appliance4,Electric Heater (2),2014-01,3.0282,3.1703,9.3252,9.3252
+Appliance4,Electric Heater (2),2014-02,0.0529,0.0529,0.15560000000000002,0.15560000000000002
+Appliance4,Electric Heater (2),2014-04,0.0326,0.0339,0.1,0.1
+Appliance4,Electric Heater (2),2014-05,2.0439,2.2565,6.6405,6.6405
+Appliance4,Electric Heater (2),2014-06,0.6647000000000001,0.7189,2.1151,2.1151
+Appliance4,Electric Heater (2),2014-07,0.2073,0.22920000000000001,0.6746,0.6746
+Appliance4,Electric Heater (2),2014-09,0.2753,0.2973,0.8736,0.8736
+Appliance4,Electric Heater (2),2014-10,0.2347,0.2777,0.8175,0.8175
+Appliance4,Electric Heater (2),2014-11,0.0005,0.0007999999999999999,0.0051,0.0051
+Appliance4,Electric Heater (2),2014-12,0.0017,0.0034,0.0204,0.0204
+Appliance4,Electric Heater (2),2015-01,0.0264,0.0334,0.1027,0.1027
+Appliance4,Electric Heater (2),2015-02,0.0285,0.0374,0.11220000000000001,0.11220000000000001
+Appliance4,Electric Heater (2),2015-03,0.0002,0.0013000000000000002,0.014700000000000001,0.014700000000000001
+Appliance4,Electric Heater (2),2015-04,0.0005,0.0005,0.0023,0.0023
+Appliance4,Electric Heater (2),2015-05,0.0003,0.0007000000000000001,0.0049,0.0049
+Appliance4,Electric Heater (2),2015-06,0.0,0.0,0.0005,0.0005
+Appliance4,Electric Heater (2),2015-07,0.0,0.0,0.0001,0.0001
 Appliance5,Washing Machine,2014-01,2.7809,3.1354,9.2215,9.2215
 Appliance5,Washing Machine,2014-02,0.8653,0.9383,2.7593,2.7593
 Appliance5,Washing Machine,2014-03,5.7475000000000005,6.5066999999999995,19.1374,19.1374
@@ -80,3 +121,18 @@ Appliance8,Television Site,2014-10,9.5738,11.1993,32.9384,32.9384
 Appliance8,Television Site,2014-11,6.0072,7.0632,20.7737,20.7737
 Appliance8,Television Site,2014-12,43.7791,50.6039,148.83509999999998,148.83509999999998
 Appliance8,Television Site,2015-04,18.0435,20.8122,61.2123,61.2123
+Appliance9,Electric Heater(3),2014-01,7.9918,10.018799999999999,29.4683,29.4683
+Appliance9,Electric Heater(3),2014-02,2.29,2.6954,7.928100000000001,7.928100000000001
+Appliance9,Electric Heater(3),2014-03,14.1704,18.5046,54.4248,54.4248
+Appliance9,Electric Heater(3),2014-04,7.232,9.0874,26.7281,26.7281
+Appliance9,Electric Heater(3),2014-05,5.3871,6.7381,19.817999999999998,19.817999999999998
+Appliance9,Electric Heater(3),2014-06,0.6561,0.881,2.5919,2.5919
+Appliance9,Electric Heater(3),2014-07,0.1479,0.2015,0.5921000000000001,0.5921000000000001
+Appliance9,Electric Heater(3),2014-08,0.1619,0.1983,0.5831,0.5831
+Appliance9,Electric Heater(3),2014-09,2.6656,3.5924,10.5663,10.5663
+Appliance9,Electric Heater(3),2014-10,7.6917,10.0517,29.5645,29.5645
+Appliance9,Electric Heater(3),2014-11,3.5345,4.55,13.383000000000001,13.383000000000001
+Appliance9,Electric Heater(3),2014-12,9.0709,11.457799999999999,33.6991,33.6991
+Appliance9,Electric Heater(3),2015-01,6.5698,9.2716,27.2697,27.2697
+Appliance9,Electric Heater(3),2015-02,8.0816,10.4057,30.6034,30.6034
+Appliance9,Electric Heater(3),2015-03,2.5711,3.2934,9.686300000000001,9.686300000000001

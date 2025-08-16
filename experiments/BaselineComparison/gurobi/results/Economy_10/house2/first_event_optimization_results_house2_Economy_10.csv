@@ -1,0 +1,3 @@
+event_id,appliance_name,appliance_id,original_start_time,original_end_time,optimized_start_time,optimized_end_time,duration_minutes,original_cost,optimized_cost,cost_savings,savings_percentage,is_shifted
+Washing_Machine_2013-09-20_01,Washing Machine,Appliance2,2013-09-20 07:49:00,2013-09-20 09:29:00,2013-09-20 13:04:00,2013-09-20 14:44:00,100,0.3603178659812411,0.18015893299062055,0.18015893299062055,50.0,True
+Dishwasher_2013-09-18_01,Dishwasher,Appliance3,2013-09-18 12:42:00,2013-09-18 14:37:00,2013-09-18 13:12:00,2013-09-18 15:07:00,115,0.15291415021606647,0.1500434936504099,0.0028706565656565763,1.877299492297058,True

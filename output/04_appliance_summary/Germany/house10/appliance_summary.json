@@ -2,9 +2,9 @@
   "house_id": "house10",
   "tariff_type": "Germany",
   "total_appliances": 9,
-  "total_events": 27425,
+  "total_events": 26486,
   "appliance_names": [
-    "Blender",
+    "Magimix (Blender)",
     "Freezer",
     "Chest Freezer (In Garage)",
     "Fridge-Freezer",
@@ -16,12 +16,12 @@
   ],
   "appliance_counts": {
     "Fridge-Freezer": 9390,
-    "Chest Freezer (In Garage)": 8709,
+    "Chest Freezer (In Garage)": 7543,
     "Freezer": 5442,
     "Dishwasher": 1498,
     "Washing Machine": 941,
     "Microwave": 782,
-    "Blender": 440,
+    "Magimix (Blender)": 667,
     "Kenwood KMix": 167,
     "Television Site": 56
   },
@@ -37,7 +37,7 @@
     "Appliance9"
   ],
   "id_to_name": {
-    "Appliance1": "Blender",
+    "Appliance1": "Magimix (Blender)",
     "Appliance2": "Freezer",
     "Appliance3": "Chest Freezer (In Garage)",
     "Appliance4": "Fridge-Freezer",
@@ -48,7 +48,7 @@
     "Appliance9": "Kenwood KMix"
   },
   "id_to_original_name": {
-    "Appliance1": "Blender",
+    "Appliance1": "Magimix (Blender)",
     "Appliance2": "Freezer",
     "Appliance3": "Chest Freezer (In Garage)",
     "Appliance4": "Fridge-Freezer",
@@ -64,7 +64,7 @@
     "Appliance6"
   ],
   "reschedulable_names": [
-    "Blender",
+    "Magimix (Blender)",
     "Washing Machine",
     "Dishwasher"
   ],
@@ -85,7 +85,7 @@
     "Kenwood KMix"
   ],
   "reschedulable_map": {
-    "Appliance1": "Blender",
+    "Appliance1": "Magimix (Blender)",
     "Appliance5": "Washing Machine",
     "Appliance6": "Dishwasher"
   },
@@ -100,9 +100,9 @@
   "appliance_details": [
     {
       "appliance_id": "Appliance1",
-      "appliance_name": "Blender",
+      "appliance_name": "Magimix (Blender)",
       "is_reschedulable": true,
-      "original_name": "Blender"
+      "original_name": "Magimix (Blender)"
     },
     {
       "appliance_id": "Appliance2",

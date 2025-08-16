@@ -1,0 +1,17 @@
+{
+  "house_id": "house1",
+  "tariff_type": "Economy_7",
+  "total_events": 39503,
+  "reschedulable_events": 1185,
+  "non_reschedulable_events": 38318,
+  "optimized_events": 601,
+  "total_original_cost": 461.9754960966352,
+  "total_optimized_cost": 437.63214475835196,
+  "total_savings": 24.34335133828324,
+  "overall_savings_percentage": 5.269403148861199,
+  "reschedulable_original_cost": 69.97338094819105,
+  "reschedulable_optimized_cost": 45.630029609907595,
+  "reschedulable_savings": 24.34335133828346,
+  "non_reschedulable_cost": 392.00211514844574,
+  "calculation_timestamp": "2025-08-13T16:58:33.022054"
+}

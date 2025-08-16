@@ -1,0 +1,17 @@
+{
+  "house_id": "house11",
+  "tariff_type": "Economy_7",
+  "total_events": 0,
+  "reschedulable_events": 0,
+  "non_reschedulable_events": 0,
+  "optimized_events": 0,
+  "total_original_cost": 0.0,
+  "total_optimized_cost": 0.0,
+  "total_savings": 0.0,
+  "overall_savings_percentage": 0,
+  "reschedulable_original_cost": 0,
+  "reschedulable_optimized_cost": 0,
+  "reschedulable_savings": 0,
+  "non_reschedulable_cost": 0,
+  "processing_timestamp": "2025-08-13T21:30:39.870379"
+}

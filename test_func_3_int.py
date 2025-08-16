@@ -399,57 +399,73 @@ def batch_tariff_analysis(
     }
 
 
-import argparse
-
-
-def main(mode, tariff_type, house_id):
-    """
-    Main function for interactive tariff cost analysis
-    
-    Args:
-        mode: Processing mode (1=single, 2=batch, 3=display only)
-        tariff_type: Tariff type (UK, Germany, California)
-        house_id: House ID for single household mode
-    """
+def main():
+    """Main function for interactive tariff cost analysis"""
     print("🚀 Starting Agent V2 Test - Tariff Cost Analysis Module")
     print("=" * 80)
 
     # Display available tariff types
     available_types = get_available_tariff_types()
     print("📊 Available tariff types:")
-    for i, t_type in enumerate(available_types, 1):
-        print(f"  {i}. {t_type}")
-        display_tariff_info(t_type)
+    for i, tariff_type in enumerate(available_types, 1):
+        print(f"  {i}. {tariff_type}")
+        display_tariff_info(tariff_type)
 
     print("\n" + "=" * 80)
-    
+    print("Please select processing mode:")
+    print("1. Single household analysis (Default)")
+    print("2. Batch analysis - All households")
+    print("3. Display tariff information only")
+
     try:
-        if mode == 3:
+        choice = input("Please enter your choice (1/2/3) [Default: 1]: ").strip()
+        if not choice:
+            choice = "1"
+
+        if choice == "3":
             # Just display tariff information
             print("\n📊 Tariff Information Display Mode")
             return
 
-        # Validate tariff type
-        if tariff_type not in available_types:
-            print(f"Warning: {tariff_type} not in available types, using UK as default")
-            tariff_type = "UK"
+        # Select tariff type
+        print("\nSelect tariff type:")
+        for i, tariff_type in enumerate(available_types, 1):
+            print(f"  {i}. {tariff_type}")
 
-        print(f"\n✅ Selected tariff type: {tariff_type}")
+        tariff_choice = input(f"Please enter your choice (1-{len(available_types)}) [Default: 1]: ").strip()
+        if not tariff_choice:
+            tariff_choice = "1"
+
+        try:
+            tariff_index = int(tariff_choice) - 1
+            if 0 <= tariff_index < len(available_types):
+                selected_tariff = available_types[tariff_index]
+            else:
+                print("Invalid choice, using UK as default")
+                selected_tariff = "UK"
+        except ValueError:
+            print("Invalid input, using UK as default")
+            selected_tariff = "UK"
+
+        print(f"\n✅ Selected tariff type: {selected_tariff}")
 
         # Load house configuration
         house_appliances = load_house_appliances_config()
 
-        if mode == 1:
+        if choice == "1":
             # Single household mode
             print(f"\n📋 Available households: {list(house_appliances.keys())}")
-            
-            if house_id not in house_appliances:
-                print(f"❌ House {house_id} not found in configuration")
+            house_input = input("Enter house ID (e.g., house1) [Default: house1]: ").strip()
+            if not house_input:
+                house_input = "house1"
+
+            if house_input not in house_appliances:
+                print(f"❌ House {house_input} not found in configuration")
                 return
 
             success, message = single_house_tariff_analysis(
-                house_id=house_id,
-                tariff_type=tariff_type
+                house_id=house_input,
+                tariff_type=selected_tariff
             )
 
             if success:
@@ -457,11 +473,11 @@ def main(mode, tariff_type, house_id):
             else:
                 print(f"\n❌ Analysis failed: {message}")
 
-        elif mode == 2:
+        elif choice == "2":
             # Batch mode
             results = batch_tariff_analysis(
                 house_data_dict=house_appliances,
-                tariff_type=tariff_type
+                tariff_type=selected_tariff
             )
 
             print(f"\n🎉 Batch analysis completed!")
@@ -480,32 +496,5 @@ def main(mode, tariff_type, house_id):
         print(f"\n❌ Unexpected error: {str(e)}")
 
 
-def parse_args():
-    parser = argparse.ArgumentParser(description="Agent V2 Test - Tariff Cost Analysis Module")
-    parser.add_argument(
-        "--mode", 
-        type=int, 
-        default=1,
-        choices=[1, 2, 3],
-        help="Processing mode: 1=Single household (default), 2=Batch analysis, 3=Display tariff info only"
-    )
-    parser.add_argument(
-        "--tariff-type", 
-        type=str, 
-        default="UK",
-        choices=["UK", "Germany", "California"],
-        help="Tariff type (default: UK)"
-    )
-    parser.add_argument(
-        "--house-id", 
-        type=str, 
-        default="house1",
-        help="House ID for single household mode (default: house1)"
-    )
-    return parser.parse_args()
-
-
 if __name__ == "__main__":
-    args = parse_args()
-    print("args:", args)
-    main(args.mode, args.tariff_type, args.house_id)
+    main()

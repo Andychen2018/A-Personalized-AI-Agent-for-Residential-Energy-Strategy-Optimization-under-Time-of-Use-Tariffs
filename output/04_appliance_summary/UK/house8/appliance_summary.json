@@ -2,7 +2,7 @@
   "house_id": "house8",
   "tariff_type": "UK",
   "total_appliances": 9,
-  "total_events": 27576,
+  "total_events": 27618,
   "appliance_names": [
     "Fridge",
     "Freezer",
@@ -19,7 +19,7 @@
     "Fridge": 9725,
     "Kettle": 2813,
     "Microwave": 1522,
-    "Dryer": 619,
+    "Dryer": 661,
     "Toaster": 618,
     "Washing Machine": 523,
     "Television Site": 14,

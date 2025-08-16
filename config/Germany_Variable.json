@@ -1,5 +1,6 @@
 {
   "Germany_Variable": {
+    "type": "time_based",
     "tariff_type": "TOU",
     "currency": "EUR",
     "time_blocks": [
@@ -13,6 +14,7 @@
     "default_rate": 0.30
   },
   "Germany_Variable_Base": {
+    "type": "flat",
     "tariff_type": "flat",
     "currency": "EUR",
     "rate": 0.34

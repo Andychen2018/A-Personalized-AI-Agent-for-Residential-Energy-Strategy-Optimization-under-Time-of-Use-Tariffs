@@ -1,7 +1,11 @@
 label,cost_TOU_D,cost_TOU_D_Base,energy_TOU_D,energy_TOU_D_Base
-Appliance3 (Electric Heater),1.1224,1.5533,2.5891,2.5891
+Appliance1 (Fridge-Freezer (1)),213.8033,286.2173,477.0296,477.0296
+Appliance2 (Fridge-Freezer (2)),91.969,123.8949,206.4956,206.4956
+Appliance3 (Electric Heater),1.1156,1.5437,2.5731,2.5731
+Appliance4 (Electric Heater (2)),9.4213,12.5964,20.965,20.965
 Appliance5 (Washing Machine),95.875,124.0144,206.6891,206.6891
 Appliance6 (Dishwasher),136.2473,170.5514,284.2526,284.2526
 Appliance7 (Computer Site),90.1825,121.7905,202.9838,202.9838
 Appliance8 (Television Site),238.3827,311.3366,518.8972,518.8972
-Total,561.8099,729.2462,1215.4117999999999,1215.4117999999999
+Appliance9 (Electric Heater(3)),130.3481,178.1461,296.9067,296.9067
+Total,1007.3447999999999,1330.0913,2216.7927,2216.7927

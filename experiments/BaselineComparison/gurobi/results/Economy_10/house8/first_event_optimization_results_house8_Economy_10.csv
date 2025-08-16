@@ -1,0 +1,3 @@
+event_id,appliance_name,appliance_id,original_start_time,original_end_time,optimized_start_time,optimized_end_time,duration_minutes,original_cost,optimized_cost,cost_savings,savings_percentage,is_shifted
+Dryer_2013-11-03_01,Dryer,Appliance3,2013-11-03 00:33:00,2013-11-03 01:07:00,2013-11-03 01:03:00,2013-11-03 01:37:00,34,0.17561669444444444,0.08912272222222223,0.08649397222222222,49.25156602898262,True
+Washing_Machine_2013-11-07_01,Washing Machine,Appliance4,2013-11-07 06:38:00,2013-11-07 08:04:00,2013-11-07 13:08:00,2013-11-07 14:34:00,86,0.4214615449134199,0.21073077245670996,0.21073077245670996,50.0,True

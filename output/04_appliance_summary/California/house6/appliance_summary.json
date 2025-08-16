@@ -60,42 +60,42 @@
   },
   "reschedulable_ids": [
     "Appliance2",
-    "Appliance3"
+    "Appliance3",
+    "Appliance4",
+    "Appliance9"
   ],
   "reschedulable_names": [
     "Washing Machine",
-    "Dishwasher"
+    "Dishwasher",
+    "Computer",
+    "PGM Computer"
   ],
   "non_reschedulable_ids": [
     "Appliance1",
-    "Appliance4",
     "Appliance5",
     "Appliance6",
     "Appliance7",
-    "Appliance8",
-    "Appliance9"
+    "Appliance8"
   ],
   "non_reschedulable_names": [
     "Freezer",
-    "Computer",
     "Television Site",
     "Microwave",
     "Kettle",
-    "Toaster",
-    "PGM Computer"
+    "Toaster"
   ],
   "reschedulable_map": {
     "Appliance2": "Washing Machine",
-    "Appliance3": "Dishwasher"
+    "Appliance3": "Dishwasher",
+    "Appliance4": "Computer",
+    "Appliance9": "PGM Computer"
   },
   "non_reschedulable_map": {
     "Appliance1": "Freezer",
-    "Appliance4": "Computer",
     "Appliance5": "Television Site",
     "Appliance6": "Microwave",
     "Appliance7": "Kettle",
-    "Appliance8": "Toaster",
-    "Appliance9": "PGM Computer"
+    "Appliance8": "Toaster"
   },
   "appliance_details": [
     {
@@ -119,7 +119,7 @@
     {
       "appliance_id": "Appliance4",
       "appliance_name": "Computer",
-      "is_reschedulable": false,
+      "is_reschedulable": true,
       "original_name": "Computer"
     },
     {
@@ -149,7 +149,7 @@
     {
       "appliance_id": "Appliance9",
       "appliance_name": "PGM Computer",
-      "is_reschedulable": false,
+      "is_reschedulable": true,
       "original_name": "PGM Computer"
     }
   ]

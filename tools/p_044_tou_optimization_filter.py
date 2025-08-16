@@ -253,8 +253,17 @@ def process_and_mask_events(
                 "./Agent_V2/config/TOU_D.json",
                 os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "TOU_D.json")
             ]
+        elif tariff_name in ["Germany_Variable", "Germany_Variable_Base"]:
+            # For Germany tariffs, use specific config file
+            possible_paths = [
+                "./config/Germany_Variable.json",
+                "../config/Germany_Variable.json",
+                "../Agent_V2/config/Germany_Variable.json",
+                "./Agent_V2/config/Germany_Variable.json",
+                os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "Germany_Variable.json")
+            ]
         else:
-            # For UK/Germany tariffs, use general config file
+            # For UK tariffs, use general config file
             possible_paths = [
                 "./config/tariff_config.json",
                 "../config/tariff_config.json",
@@ -270,6 +279,8 @@ def process_and_mask_events(
         if tariff_config_path is None:
             if tariff_name == "TOU_D":
                 tariff_config_path = "./config/TOU_D.json"
+            elif tariff_name in ["Germany_Variable", "Germany_Variable_Base"]:
+                tariff_config_path = "./config/Germany_Variable.json"
             else:
                 tariff_config_path = "./config/tariff_config.json"
 
