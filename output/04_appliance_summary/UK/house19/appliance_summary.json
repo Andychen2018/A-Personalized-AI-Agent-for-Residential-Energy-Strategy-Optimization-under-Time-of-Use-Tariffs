@@ -2,7 +2,7 @@
   "house_id": "house19",
   "tariff_type": "UK",
   "total_appliances": 9,
-  "total_events": 14917,
+  "total_events": 14761,
   "appliance_names": [
     "Fridge-Freezer",
     "Washing Machine",
@@ -15,7 +15,7 @@
     "Hi-Fi"
   ],
   "appliance_counts": {
-    "Fridge-Freezer": 9730,
+    "Fridge-Freezer": 9574,
     "Bread-maker": 1880,
     "Kettle": 1069,
     "Microwave": 767,

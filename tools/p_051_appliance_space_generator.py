@@ -13,7 +13,7 @@ class LevelBasedScheduler:
         # 加载配置
         with open(tariff_config_path, 'r') as f:
             self.tariff_config = json.load(f)
-        print(f"✅ 电价配置加载成功: {list(self.tariff_config.keys())}")
+        print(f"✅ Tariff configuration loaded successfully: {list(self.tariff_config.keys())}")
         
         with open(constraints_path, 'r') as f:
             constraints_data = json.load(f)
@@ -24,7 +24,7 @@ class LevelBasedScheduler:
         else:
             self.constraints = constraints_data
 
-        print(f"✅ 约束配置加载成功: {list(self.constraints.keys())}")
+        print(f"✅ Constraint configuration loaded successfully: {list(self.constraints.keys())}")
     
     def get_appliance_global_intervals(self, appliance_name: str, tariff_name: str, show_details: bool = False) -> Dict[int, List[Tuple[int, int]]]:
         """获取以电器为中心的全局可运行区间（按价格等级分组，考虑用户约束）"""
@@ -839,22 +839,22 @@ def run_debug_analysis():
 def generate_appliance_global_spaces(scheduler, tariff_name: str, output_dir: str):
     """为每种电器生成全局约束空间和可运行空间"""
     
-    print(f"\n🏗️ 生成电器全局空间文件 - {tariff_name}")
-    print(f"{'='*60}")
-    
+    print(f"\n🏗️ Generating appliance global space file - {tariff_name}")
+    print(f"{'='*120}")
+
     appliance_spaces = {}
-    
+
     for appliance_name in scheduler.constraints.keys():
-        print(f"\n📱 处理电器: {appliance_name}")
-        
-        # 获取电器约束
+        print(f"\n📱 Processing appliance: {appliance_name}")
+
+        # Get appliance constraints
         appliance_constraints = scheduler.constraints[appliance_name]
         forbidden_times = appliance_constraints.get("forbidden_time", [])
         latest_finish = appliance_constraints.get("latest_finish", "24:00")
         shift_rule = appliance_constraints.get("shift_rule", "only_delay")
         min_duration = appliance_constraints.get("min_duration", 5)
-        
-        print(f"   约束信息:")
+
+        print(f"   Constraint information:")
         print(f"     forbidden_time: {forbidden_times}")
         print(f"     latest_finish: {latest_finish}")
         print(f"     shift_rule: {shift_rule}")
@@ -935,17 +935,17 @@ def generate_appliance_global_spaces(scheduler, tariff_name: str, output_dir: st
             'price_level_intervals': price_level_intervals
         }
         
-        print(f"   ✅ 生成空间:")
-        print(f"     可运行区间数: {len(available_intervals)}")
+        print(f"   ✅ Generated spaces:")
+        print(f"     Available intervals: {len(available_intervals)}")
 
-        # 动态显示各价格等级的区间数
+        # Display interval counts for each price level
         for level in sorted(price_level_intervals.keys()):
-            level_name = f"等级{level}"
+            level_name = f"Level {level}"
             if level == 0:
-                level_name += "(最低价)"
+                level_name += " (lowest price)"
             elif level == max(price_level_intervals.keys()):
-                level_name += "(最高价)"
-            print(f"     {level_name}区间数: {len(price_level_intervals[level])}")
+                level_name += " (highest price)"
+            print(f"     {level_name} intervals: {len(price_level_intervals[level])}")
     
     # 保存到JSON文件
     import json
@@ -971,7 +971,7 @@ def generate_appliance_global_spaces(scheduler, tariff_name: str, output_dir: st
     with open(spaces_file, 'w', encoding='utf-8') as f:
         json.dump(serializable_spaces, f, indent=2, ensure_ascii=False)
     
-    print(f"\n📁 电器全局空间文件已保存: {spaces_file}")
+    print(f"\n📁 Appliance global space file saved: {spaces_file}")
     return appliance_spaces
 
 def generate_appliance_global_spaces_no_save(scheduler, tariff_name: str):
@@ -1297,43 +1297,47 @@ def generate_appliance_intervals_csv(appliance_spaces: dict, tariff_name: str, o
     csv_file = os.path.join(output_dir, f"appliance_intervals_{tariff_name}.csv")
     df_debug.to_csv(csv_file, index=False)
     
-    print(f"📁 电器区间CSV文件已保存: {csv_file}")
+    print(f"📁 Appliance intervals CSV file saved: {csv_file}")
     return csv_file
 
-def run_generate_appliance_spaces(test_mode: bool = False):
+def run_generate_appliance_spaces(test_mode: bool = False, tariff_schemes: list = None):
     """生成所有电器的全局空间文件
 
     Args:
         test_mode: False=主流程(Economy_7, Economy_10), True=测试流程(TOU_D, Germany_Variable)
+        tariff_schemes: 指定要生成的电价方案列表，如果提供则忽略test_mode
     """
 
-    print("🏗️ 开始生成电器全局空间文件...")
+    print("🏗️ Starting appliance global space file generation...")
 
-    # 初始化调度器
+    # Initialize scheduler
     tariff_path = "./config/tariff_config.json"
     constraints_path = "./output/04_user_constraints/appliance_constraints_revise_by_llm.json"
     output_dir = "./output/05_scheduling/appliance_spaces"
 
-    if test_mode:
-        # 测试模式：只生成TOU_D和Germany_Variable
+    if tariff_schemes:
+        # 使用指定的电价方案列表
+        print(f"🎯 Generating appliance spaces for specified tariff schemes: {tariff_schemes}")
+    elif test_mode:
+        # Test mode: generate TOU_D and Germany_Variable only
         tariff_schemes = ["TOU_D", "Germany_Variable"]
-        print("🧪 测试模式：生成 TOU_D 和 Germany_Variable 电器空间")
+        print("🧪 Test mode: generating TOU_D and Germany_Variable appliance spaces")
     else:
-        # 主流程模式：只生成Economy_7和Economy_10
+        # Main workflow mode: generate Economy_7 and Economy_10 only
         tariff_schemes = ["Economy_7", "Economy_10"]
-        print("🏠 主流程模式：生成 Economy_7 和 Economy_10 电器空间")
+        print("🏠 Main workflow mode: generating Economy_7 and Economy_10 appliance spaces")
 
     for tariff_name in tariff_schemes:
-        print(f"\n{'='*60}")
-        print(f"🚀 生成 {tariff_name} 电器空间")
-        print(f"{'='*60}")
+        print(f"\n{'='*120}")
+        print(f"🚀 Generating {tariff_name} appliance spaces")
+        print(f"{'='*120}")
 
         scheduler = LevelBasedScheduler(tariff_path, constraints_path)
 
-        # 生成电器全局空间
+        # Generate appliance global spaces
         appliance_spaces = generate_appliance_global_spaces(scheduler, tariff_name, output_dir)
 
-        # 生成CSV调试文件
+        # Generate CSV debug files
         generate_appliance_intervals_csv(appliance_spaces, tariff_name, output_dir)
 
 def get_all_available_houses() -> List[str]:

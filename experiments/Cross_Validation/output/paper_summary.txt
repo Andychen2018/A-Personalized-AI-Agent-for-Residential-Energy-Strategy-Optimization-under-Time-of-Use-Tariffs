@@ -1,0 +1,39 @@
+For UK/Economy_7 tariff scheme:
+- Overall cost savings: 7.9% ± 0.9%
+- Coefficient of variation: 0.115 (< 0.15 (stable))
+For UK/Economy_10 tariff scheme:
+- Overall cost savings: 9.6% ± 0.8%
+- Coefficient of variation: 0.082 (< 0.15 (stable))
+
+Seasonal Performance Analysis:
+
+UK/Economy_7:
+  Winter: 8.6% ± 5.7% (n=38)
+  Spring: 7.6% ± 4.4% (n=19)
+  Summer: 6.9% ± 4.2% (n=19)
+  Autumn: 7.9% ± 5.4% (n=19)
+
+UK/Economy_10:
+  Winter: 10.1% ± 6.8% (n=38)
+  Spring: 9.9% ± 5.9% (n=19)
+  Summer: 9.1% ± 5.4% (n=19)
+  Autumn: 9.0% ± 6.4% (n=19)
+
+============================================================
+PAPER TEXT SUGGESTION:
+============================================================
+
+Using 5-fold temporal cross-validation (training on 4 months, testing on 1 month),
+the system achieves consistent performance across different seasonal patterns with
+coefficient of variation < 0.15 for cost savings metrics (CV = 0.082).
+
+Detailed seasonal analysis reveals that:
+- winter months (December-February) show 10.1% ± 6.8% average cost savings
+- spring months (March-May) show 9.9% ± 5.9% average cost savings
+- summer months (June-August) show 9.1% ± 5.4% average cost savings
+- autumn months (September-November) show 9.0% ± 6.4% average cost savings
+
+The variation is primarily attributed to different appliance usage patterns and
+seasonal constraint preferences. Overall system performance demonstrates
+9.6% ± 0.8%
+cost savings with high stability (CV = 0.082).

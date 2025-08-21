@@ -1,0 +1,442 @@
+event_id,appliance_name,appliance_id,Shiftability,start_time,end_time,duration(min),energy(W),is_reschedulable,price_level_profile,primary_price_level,start_price_level,end_price_level,optimization_potential
+Washing_Machine_2013-11-30_01,Washing Machine,Appliance2,Shiftable,2013-11-30 11:23:00,2013-11-30 13:36:00,133.0,51820.43,True,"{""0"": 36, ""1"": 97}",1,1,0,1.0
+Washing_Machine_2013-11-30_02,Washing Machine,Appliance2,Shiftable,2013-11-30 16:05:00,2013-11-30 16:24:00,19.0,1851.02,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
+Washing_Machine_2013-12-06_01,Washing Machine,Appliance2,Shiftable,2013-12-06 11:21:00,2013-12-06 13:38:00,137.0,63139.77,True,"{""0"": 38, ""1"": 99}",1,1,0,1.0
+Washing_Machine_2013-12-10_01,Washing Machine,Appliance2,Shiftable,2013-12-10 11:06:00,2013-12-10 13:20:00,134.0,41394.78,True,"{""0"": 20, ""1"": 114}",1,1,0,1.0
+Washing_Machine_2013-12-17_01,Washing Machine,Appliance2,Shiftable,2013-12-17 10:19:00,2013-12-17 12:31:00,132.0,39504.47,True,"{""0"": 0, ""1"": 132}",1,1,1,1.0
+Washing_Machine_2013-12-18_01,Washing Machine,Appliance2,Shiftable,2013-12-18 10:50:00,2013-12-18 13:20:00,150.0,65069.6,True,"{""0"": 20, ""1"": 130}",1,1,0,1.0
+Washing_Machine_2013-12-28_01,Washing Machine,Appliance2,Shiftable,2013-12-28 10:21:00,2013-12-28 12:37:00,136.0,40923.0,True,"{""0"": 0, ""1"": 136}",1,1,1,1.0
+Washing_Machine_2013-12-28_02,Washing Machine,Appliance2,Shiftable,2013-12-28 12:55:00,2013-12-28 15:07:00,132.0,45187.58,True,"{""0"": 127, ""1"": 5}",0,1,0,0.0
+Washing_Machine_2013-12-28_03,Washing Machine,Appliance2,Shiftable,2013-12-28 15:10:00,2013-12-28 17:21:00,131.0,47925.25,True,"{""0"": 50, ""1"": 81}",1,0,1,1.0
+Washing_Machine_2013-12-28_05,Washing Machine,Appliance2,Shiftable,2013-12-28 19:23:00,2013-12-28 19:54:00,31.0,3248.65,True,"{""0"": 0, ""1"": 31}",1,1,1,1.0
+Washing_Machine_2013-12-30_02,Washing Machine,Appliance2,Shiftable,2013-12-30 22:52:00,2013-12-30 22:59:00,7.0,804.23,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+Washing_Machine_2014-01-11_01,Washing Machine,Appliance2,Shiftable,2014-01-11 10:51:00,2014-01-11 12:08:00,77.0,41270.01,True,"{""0"": 0, ""1"": 77}",1,1,1,1.0
+Washing_Machine_2014-01-12_01,Washing Machine,Appliance2,Shiftable,2014-01-12 12:40:00,2014-01-12 14:08:00,88.0,45168.16,True,"{""0"": 68, ""1"": 20}",0,1,0,0.0
+Washing_Machine_2014-01-16_01,Washing Machine,Appliance2,Shiftable,2014-01-16 11:29:00,2014-01-16 13:43:00,134.0,62537.58,True,"{""0"": 43, ""1"": 91}",1,1,0,1.0
+Washing_Machine_2014-01-17_01,Washing Machine,Appliance2,Shiftable,2014-01-17 10:14:00,2014-01-17 12:29:00,135.0,63377.43,True,"{""0"": 0, ""1"": 135}",1,1,1,1.0
+Washing_Machine_2014-01-19_01,Washing Machine,Appliance2,Shiftable,2014-01-19 11:21:00,2014-01-19 12:38:00,77.0,43711.8,True,"{""0"": 0, ""1"": 77}",1,1,1,1.0
+Washing_Machine_2014-01-21_01,Washing Machine,Appliance2,Shiftable,2014-01-21 09:31:00,2014-01-21 11:45:00,134.0,62797.11,True,"{""0"": 0, ""1"": 134}",1,1,1,1.0
+Washing_Machine_2014-03-08_01,Washing Machine,Appliance2,Shiftable,2014-03-08 12:32:00,2014-03-08 14:44:00,132.0,34424.91,True,"{""0"": 104, ""1"": 28}",0,1,0,0.0
+Washing_Machine_2014-03-09_01,Washing Machine,Appliance2,Shiftable,2014-03-09 14:23:00,2014-03-09 16:38:00,135.0,66140.2,True,"{""0"": 97, ""1"": 38}",0,0,1,0.0
+Washing_Machine_2014-03-15_01,Washing Machine,Appliance2,Shiftable,2014-03-15 11:31:00,2014-03-15 13:41:00,130.0,38326.3,True,"{""0"": 41, ""1"": 89}",1,1,0,1.0
+Washing_Machine_2014-03-16_01,Washing Machine,Appliance2,Shiftable,2014-03-16 10:19:00,2014-03-16 12:32:00,133.0,46162.99,True,"{""0"": 0, ""1"": 133}",1,1,1,1.0
+Washing_Machine_2014-03-27_01,Washing Machine,Appliance2,Shiftable,2014-03-27 10:21:00,2014-03-27 12:34:00,133.0,46429.95,True,"{""0"": 0, ""1"": 133}",1,1,1,1.0
+Washing_Machine_2014-03-29_01,Washing Machine,Appliance2,Shiftable,2014-03-29 10:04:00,2014-03-29 12:18:00,134.0,48821.64,True,"{""0"": 0, ""1"": 134}",1,1,1,1.0
+Washing_Machine_2014-04-01_01,Washing Machine,Appliance2,Shiftable,2014-04-01 10:45:00,2014-04-01 12:03:00,78.0,43069.27,True,"{""0"": 0, ""1"": 78}",1,1,1,1.0
+Washing_Machine_2014-04-06_01,Washing Machine,Appliance2,Shiftable,2014-04-06 09:57:00,2014-04-06 12:11:00,134.0,59747.49,True,"{""0"": 0, ""1"": 134}",1,1,1,1.0
+Washing_Machine_2014-04-08_01,Washing Machine,Appliance2,Shiftable,2014-04-08 11:54:00,2014-04-08 14:05:00,131.0,40015.77,True,"{""0"": 65, ""1"": 66}",1,1,0,1.0
+Washing_Machine_2014-04-13_01,Washing Machine,Appliance2,Shiftable,2014-04-13 13:52:00,2014-04-13 16:03:00,131.0,40155.15,True,"{""0"": 128, ""1"": 3}",0,0,1,0.0
+Washing_Machine_2014-04-15_01,Washing Machine,Appliance2,Shiftable,2014-04-15 10:33:00,2014-04-15 12:42:00,129.0,46586.5,True,"{""0"": 0, ""1"": 129}",1,1,1,1.0
+Washing_Machine_2014-04-15_02,Washing Machine,Appliance2,Shiftable,2014-04-15 12:49:00,2014-04-15 12:58:00,9.0,958.24,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Washing_Machine_2014-04-18_01,Washing Machine,Appliance2,Shiftable,2014-04-18 09:55:00,2014-04-18 12:04:00,129.0,29760.94,True,"{""0"": 0, ""1"": 129}",1,1,1,1.0
+Washing_Machine_2014-04-18_02,Washing Machine,Appliance2,Shiftable,2014-04-18 12:08:00,2014-04-18 14:22:00,134.0,45188.28,True,"{""0"": 82, ""1"": 52}",0,1,0,0.0
+Washing_Machine_2014-04-18_03,Washing Machine,Appliance2,Shiftable,2014-04-18 14:53:00,2014-04-18 16:10:00,77.0,32101.05,True,"{""0"": 67, ""1"": 10}",0,0,1,0.0
+Washing_Machine_2014-04-24_01,Washing Machine,Appliance2,Shiftable,2014-04-24 12:46:00,2014-04-24 15:01:00,135.0,66338.79,True,"{""0"": 121, ""1"": 14}",0,1,0,0.0
+Washing_Machine_2014-04-28_01,Washing Machine,Appliance2,Shiftable,2014-04-28 10:04:00,2014-04-28 12:17:00,133.0,17261.69,True,"{""0"": 0, ""1"": 133}",1,1,1,1.0
+Washing_Machine_2014-05-02_01,Washing Machine,Appliance2,Shiftable,2014-05-02 19:27:00,2014-05-02 19:44:00,17.0,1811.31,True,"{""0"": 0, ""1"": 17}",1,1,1,1.0
+Washing_Machine_2014-05-11_01,Washing Machine,Appliance2,Shiftable,2014-05-11 09:39:00,2014-05-11 11:52:00,133.0,43162.12,True,"{""0"": 0, ""1"": 133}",1,1,1,1.0
+Washing_Machine_2014-05-16_01,Washing Machine,Appliance2,Shiftable,2014-05-16 09:32:00,2014-05-16 10:50:00,78.0,22260.32,True,"{""0"": 0, ""1"": 78}",1,1,1,1.0
+Washing_Machine_2014-05-16_02,Washing Machine,Appliance2,Shiftable,2014-05-16 11:10:00,2014-05-16 13:21:00,131.0,40427.26,True,"{""0"": 21, ""1"": 110}",1,1,0,1.0
+Washing_Machine_2014-05-29_01,Washing Machine,Appliance2,Shiftable,2014-05-29 09:24:00,2014-05-29 11:37:00,133.0,40121.08,True,"{""0"": 0, ""1"": 133}",1,1,1,1.0
+Washing_Machine_2014-06-02_01,Washing Machine,Appliance2,Shiftable,2014-06-02 09:30:00,2014-06-02 11:45:00,135.0,52132.1,True,"{""0"": 0, ""1"": 135}",1,1,1,1.0
+Washing_Machine_2014-06-06_01,Washing Machine,Appliance2,Shiftable,2014-06-06 09:32:00,2014-06-06 11:45:00,133.0,60609.27,True,"{""0"": 0, ""1"": 133}",1,1,1,1.0
+Washing_Machine_2014-06-08_01,Washing Machine,Appliance2,Shiftable,2014-06-08 09:53:00,2014-06-08 11:00:00,67.0,18431.78,True,"{""0"": 0, ""1"": 67}",1,1,1,1.0
+Washing_Machine_2014-06-08_02,Washing Machine,Appliance2,Shiftable,2014-06-08 11:06:00,2014-06-08 13:19:00,133.0,36285.59,True,"{""0"": 19, ""1"": 114}",1,1,0,1.0
+Washing_Machine_2014-06-11_01,Washing Machine,Appliance2,Shiftable,2014-06-11 17:11:00,2014-06-11 17:21:00,10.0,1207.61,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+Washing_Machine_2014-06-21_01,Washing Machine,Appliance2,Shiftable,2014-06-21 09:36:00,2014-06-21 10:40:00,64.0,17663.89,True,"{""0"": 0, ""1"": 64}",1,1,1,1.0
+Washing_Machine_2014-06-25_01,Washing Machine,Appliance2,Shiftable,2014-06-25 10:21:00,2014-06-25 12:47:00,146.0,59192.95,True,"{""0"": 0, ""1"": 146}",1,1,1,1.0
+Washing_Machine_2014-07-01_01,Washing Machine,Appliance2,Shiftable,2014-07-01 11:27:00,2014-07-01 13:42:00,135.0,59496.99,True,"{""0"": 42, ""1"": 93}",1,1,0,1.0
+Washing_Machine_2014-07-09_01,Washing Machine,Appliance2,Shiftable,2014-07-09 08:40:00,2014-07-09 09:39:00,59.0,15818.62,True,"{""0"": 0, ""1"": 59}",1,1,1,1.0
+Washing_Machine_2014-07-10_01,Washing Machine,Appliance2,Shiftable,2014-07-10 10:58:00,2014-07-10 11:07:00,9.0,1023.7,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Washing_Machine_2014-07-17_01,Washing Machine,Appliance2,Shiftable,2014-07-17 09:14:00,2014-07-17 11:27:00,133.0,26664.17,True,"{""0"": 0, ""1"": 133}",1,1,1,1.0
+Washing_Machine_2014-07-23_02,Washing Machine,Appliance2,Shiftable,2014-07-23 09:24:00,2014-07-23 11:53:00,149.0,64383.57,True,"{""0"": 0, ""1"": 149}",1,1,1,1.0
+Washing_Machine_2014-07-26_01,Washing Machine,Appliance2,Shiftable,2014-07-26 10:38:00,2014-07-26 12:50:00,132.0,29975.93,True,"{""0"": 0, ""1"": 132}",1,1,1,1.0
+Washing_Machine_2014-08-06_01,Washing Machine,Appliance2,Shiftable,2014-08-06 14:38:00,2014-08-06 16:08:00,90.0,29324.4,True,"{""0"": 82, ""1"": 8}",0,0,1,0.0
+Washing_Machine_2014-08-06_03,Washing Machine,Appliance2,Shiftable,2014-08-06 16:33:00,2014-08-06 16:45:00,12.0,1341.2,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+Washing_Machine_2014-08-06_04,Washing Machine,Appliance2,Shiftable,2014-08-06 16:49:00,2014-08-06 17:00:00,11.0,1137.63,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+Washing_Machine_2014-08-06_05,Washing Machine,Appliance2,Shiftable,2014-08-06 17:01:00,2014-08-06 17:10:00,9.0,1029.21,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Washing_Machine_2014-08-07_01,Washing Machine,Appliance2,Shiftable,2014-08-07 11:10:00,2014-08-07 12:16:00,66.0,24853.15,True,"{""0"": 0, ""1"": 66}",1,1,1,1.0
+Washing_Machine_2014-08-18_01,Washing Machine,Appliance2,Shiftable,2014-08-18 09:39:00,2014-08-18 12:08:00,149.0,37264.67,True,"{""0"": 0, ""1"": 149}",1,1,1,1.0
+Washing_Machine_2014-08-19_01,Washing Machine,Appliance2,Shiftable,2014-08-19 09:34:00,2014-08-19 11:46:00,132.0,37328.88,True,"{""0"": 0, ""1"": 132}",1,1,1,1.0
+Washing_Machine_2014-08-20_02,Washing Machine,Appliance2,Shiftable,2014-08-20 08:54:00,2014-08-20 11:21:00,147.0,63182.19,True,"{""0"": 0, ""1"": 147}",1,1,1,1.0
+Washing_Machine_2014-08-28_01,Washing Machine,Appliance2,Shiftable,2014-08-28 09:55:00,2014-08-28 11:23:00,88.0,29144.88,True,"{""0"": 0, ""1"": 88}",1,1,1,1.0
+Washing_Machine_2014-08-28_02,Washing Machine,Appliance2,Shiftable,2014-08-28 12:54:00,2014-08-28 14:24:00,90.0,38439.4,True,"{""0"": 84, ""1"": 6}",0,1,0,0.0
+Washing_Machine_2014-09-17_01,Washing Machine,Appliance2,Shiftable,2014-09-17 10:14:00,2014-09-17 12:29:00,135.0,38306.83,True,"{""0"": 0, ""1"": 135}",1,1,1,1.0
+Washing_Machine_2014-09-23_01,Washing Machine,Appliance2,Shiftable,2014-09-23 12:10:00,2014-09-23 14:23:00,133.0,35399.06,True,"{""0"": 83, ""1"": 50}",0,1,0,0.0
+Washing_Machine_2014-09-28_01,Washing Machine,Appliance2,Shiftable,2014-09-28 09:57:00,2014-09-28 12:11:00,134.0,61815.54,True,"{""0"": 0, ""1"": 134}",1,1,1,1.0
+Washing_Machine_2014-10-03_01,Washing Machine,Appliance2,Shiftable,2014-10-03 09:40:00,2014-10-03 11:10:00,90.0,31340.15,True,"{""0"": 0, ""1"": 90}",1,1,1,1.0
+Washing_Machine_2014-10-10_01,Washing Machine,Appliance2,Shiftable,2014-10-10 11:24:00,2014-10-10 13:33:00,129.0,35125.83,True,"{""0"": 33, ""1"": 96}",1,1,0,1.0
+Washing_Machine_2014-10-15_01,Washing Machine,Appliance2,Shiftable,2014-10-15 11:00:00,2014-10-15 12:05:00,65.0,21325.29,True,"{""0"": 0, ""1"": 65}",1,1,1,1.0
+Washing_Machine_2014-10-15_02,Washing Machine,Appliance2,Shiftable,2014-10-15 12:45:00,2014-10-15 12:55:00,10.0,898.99,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+Washing_Machine_2014-10-19_01,Washing Machine,Appliance2,Shiftable,2014-10-19 16:51:00,2014-10-19 19:03:00,132.0,29012.14,True,"{""0"": 0, ""1"": 132}",1,1,1,1.0
+Washing_Machine_2014-10-26_01,Washing Machine,Appliance2,Shiftable,2014-10-26 09:52:00,2014-10-26 12:05:00,133.0,29513.0,True,"{""0"": 0, ""1"": 133}",1,1,1,1.0
+Washing_Machine_2014-10-28_01,Washing Machine,Appliance2,Shiftable,2014-10-28 16:12:00,2014-10-28 17:20:00,68.0,32120.32,True,"{""0"": 0, ""1"": 68}",1,1,1,1.0
+Washing_Machine_2014-10-28_02,Washing Machine,Appliance2,Shiftable,2014-10-28 17:47:00,2014-10-28 18:02:00,15.0,2137.2,True,"{""0"": 0, ""1"": 15}",1,1,1,1.0
+Washing_Machine_2014-10-30_01,Washing Machine,Appliance2,Shiftable,2014-10-30 11:17:00,2014-10-30 13:33:00,136.0,64535.38,True,"{""0"": 33, ""1"": 103}",1,1,0,1.0
+Washing_Machine_2014-11-08_01,Washing Machine,Appliance2,Shiftable,2014-11-08 10:42:00,2014-11-08 12:56:00,134.0,45623.95,True,"{""0"": 0, ""1"": 134}",1,1,1,1.0
+Washing_Machine_2014-11-15_01,Washing Machine,Appliance2,Shiftable,2014-11-15 10:55:00,2014-11-15 12:01:00,66.0,27681.87,True,"{""0"": 0, ""1"": 66}",1,1,1,1.0
+Washing_Machine_2014-11-16_01,Washing Machine,Appliance2,Shiftable,2014-11-16 12:32:00,2014-11-16 14:44:00,132.0,45038.44,True,"{""0"": 104, ""1"": 28}",0,1,0,0.0
+Washing_Machine_2014-11-21_01,Washing Machine,Appliance2,Shiftable,2014-11-21 10:16:00,2014-11-21 12:28:00,132.0,35138.62,True,"{""0"": 0, ""1"": 132}",1,1,1,1.0
+Washing_Machine_2014-11-25_01,Washing Machine,Appliance2,Shiftable,2014-11-25 10:32:00,2014-11-25 12:56:00,144.0,46307.88,True,"{""0"": 0, ""1"": 144}",1,1,1,1.0
+Washing_Machine_2014-12-02_01,Washing Machine,Appliance2,Shiftable,2014-12-02 10:12:00,2014-12-02 12:23:00,131.0,45000.55,True,"{""0"": 0, ""1"": 131}",1,1,1,1.0
+Washing_Machine_2014-12-10_01,Washing Machine,Appliance2,Shiftable,2014-12-10 11:13:00,2014-12-10 12:17:00,64.0,14901.19,True,"{""0"": 0, ""1"": 64}",1,1,1,1.0
+Washing_Machine_2014-12-10_02,Washing Machine,Appliance2,Shiftable,2014-12-10 12:26:00,2014-12-10 12:43:00,17.0,1701.14,True,"{""0"": 0, ""1"": 17}",1,1,1,1.0
+Washing_Machine_2014-12-14_01,Washing Machine,Appliance2,Shiftable,2014-12-14 11:18:00,2014-12-14 13:29:00,131.0,51854.53,True,"{""0"": 29, ""1"": 102}",1,1,0,1.0
+Washing_Machine_2014-12-21_01,Washing Machine,Appliance2,Shiftable,2014-12-21 10:31:00,2014-12-21 11:06:00,35.0,6741.5,True,"{""0"": 0, ""1"": 35}",1,1,1,1.0
+Washing_Machine_2014-12-21_02,Washing Machine,Appliance2,Shiftable,2014-12-21 11:22:00,2014-12-21 11:41:00,19.0,2176.61,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
+Washing_Machine_2014-12-23_02,Washing Machine,Appliance2,Shiftable,2014-12-23 11:00:00,2014-12-23 12:05:00,65.0,26261.47,True,"{""0"": 0, ""1"": 65}",1,1,1,1.0
+Washing_Machine_2014-12-29_01,Washing Machine,Appliance2,Shiftable,2014-12-29 10:58:00,2014-12-29 11:17:00,19.0,2137.5,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
+Washing_Machine_2014-12-29_02,Washing Machine,Appliance2,Shiftable,2014-12-29 11:31:00,2014-12-29 12:49:00,78.0,46478.14,True,"{""0"": 0, ""1"": 78}",1,1,1,1.0
+Washing_Machine_2015-01-03_01,Washing Machine,Appliance2,Shiftable,2015-01-03 11:23:00,2015-01-03 12:58:00,95.0,50613.13,True,"{""0"": 0, ""1"": 95}",1,1,1,1.0
+Washing_Machine_2015-01-12_01,Washing Machine,Appliance2,Shiftable,2015-01-12 11:21:00,2015-01-12 12:38:00,77.0,46197.81,True,"{""0"": 0, ""1"": 77}",1,1,1,1.0
+Washing_Machine_2015-01-16_02,Washing Machine,Appliance2,Shiftable,2015-01-16 10:25:00,2015-01-16 11:26:00,61.0,42637.86,True,"{""0"": 0, ""1"": 61}",1,1,1,1.0
+Washing_Machine_2015-01-17_01,Washing Machine,Appliance2,Shiftable,2015-01-17 12:04:00,2015-01-17 14:33:00,149.0,65156.54,True,"{""0"": 93, ""1"": 56}",0,1,0,0.0
+Washing_Machine_2015-01-24_01,Washing Machine,Appliance2,Shiftable,2015-01-24 10:14:00,2015-01-24 11:35:00,81.0,45013.54,True,"{""0"": 0, ""1"": 81}",1,1,1,1.0
+Washing_Machine_2015-01-29_01,Washing Machine,Appliance2,Shiftable,2015-01-29 10:05:00,2015-01-29 12:19:00,134.0,60857.56,True,"{""0"": 0, ""1"": 134}",1,1,1,1.0
+Washing_Machine_2015-02-01_01,Washing Machine,Appliance2,Shiftable,2015-02-01 11:44:00,2015-02-01 14:13:00,149.0,66200.79,True,"{""0"": 73, ""1"": 76}",1,1,0,1.0
+Washing_Machine_2015-02-02_02,Washing Machine,Appliance2,Shiftable,2015-02-02 11:52:00,2015-02-02 13:09:00,77.0,45673.0,True,"{""0"": 9, ""1"": 68}",1,1,0,1.0
+Washing_Machine_2015-02-07_01,Washing Machine,Appliance2,Shiftable,2015-02-07 15:29:00,2015-02-07 16:50:00,81.0,51874.91,True,"{""0"": 31, ""1"": 50}",1,0,1,1.0
+Washing_Machine_2015-02-08_01,Washing Machine,Appliance2,Shiftable,2015-02-08 10:49:00,2015-02-08 12:00:00,71.0,31716.37,True,"{""0"": 0, ""1"": 71}",1,1,1,1.0
+Washing_Machine_2015-02-08_02,Washing Machine,Appliance2,Shiftable,2015-02-08 12:18:00,2015-02-08 14:36:00,138.0,27875.72,True,"{""0"": 96, ""1"": 42}",0,1,0,0.0
+Washing_Machine_2015-02-11_01,Washing Machine,Appliance2,Shiftable,2015-02-11 11:21:00,2015-02-11 13:35:00,134.0,61734.67,True,"{""0"": 35, ""1"": 99}",1,1,0,1.0
+Washing_Machine_2015-02-17_01,Washing Machine,Appliance2,Shiftable,2015-02-17 12:12:00,2015-02-17 14:28:00,136.0,48078.49,True,"{""0"": 88, ""1"": 48}",0,1,0,0.0
+Washing_Machine_2015-03-01_01,Washing Machine,Appliance2,Shiftable,2015-03-01 12:01:00,2015-03-01 13:14:00,73.0,33549.26,True,"{""0"": 14, ""1"": 59}",1,1,0,1.0
+Washing_Machine_2015-03-07_01,Washing Machine,Appliance2,Shiftable,2015-03-07 10:55:00,2015-03-07 13:08:00,133.0,46915.26,True,"{""0"": 8, ""1"": 125}",1,1,0,1.0
+Washing_Machine_2015-03-08_01,Washing Machine,Appliance2,Shiftable,2015-03-08 10:42:00,2015-03-08 12:55:00,133.0,55559.36,True,"{""0"": 0, ""1"": 133}",1,1,1,1.0
+Washing_Machine_2015-03-15_01,Washing Machine,Appliance2,Shiftable,2015-03-15 10:32:00,2015-03-15 12:44:00,132.0,40734.79,True,"{""0"": 0, ""1"": 132}",1,1,1,1.0
+Washing_Machine_2015-03-30_01,Washing Machine,Appliance2,Shiftable,2015-03-30 10:58:00,2015-03-30 13:08:00,130.0,46853.82,True,"{""0"": 8, ""1"": 122}",1,1,0,1.0
+Washing_Machine_2015-04-08_01,Washing Machine,Appliance2,Shiftable,2015-04-08 10:04:00,2015-04-08 12:18:00,134.0,39268.77,True,"{""0"": 0, ""1"": 134}",1,1,1,1.0
+Washing_Machine_2015-04-08_03,Washing Machine,Appliance2,Shiftable,2015-04-08 12:29:00,2015-04-08 12:51:00,22.0,11985.63,True,"{""0"": 0, ""1"": 22}",1,1,1,1.0
+Washing_Machine_2015-04-08_04,Washing Machine,Appliance2,Shiftable,2015-04-08 12:59:00,2015-04-08 13:42:00,43.0,9420.88,True,"{""0"": 42, ""1"": 1}",0,1,0,0.0
+Washing_Machine_2015-04-10_01,Washing Machine,Appliance2,Shiftable,2015-04-10 10:52:00,2015-04-10 12:03:00,71.0,34622.5,True,"{""0"": 0, ""1"": 71}",1,1,1,1.0
+Washing_Machine_2015-04-13_02,Washing Machine,Appliance2,Shiftable,2015-04-13 10:34:00,2015-04-13 13:01:00,147.0,65654.27,True,"{""0"": 1, ""1"": 146}",1,1,0,1.0
+Washing_Machine_2015-04-16_01,Washing Machine,Appliance2,Shiftable,2015-04-16 10:41:00,2015-04-16 12:00:00,79.0,40624.92,True,"{""0"": 0, ""1"": 79}",1,1,1,1.0
+Washing_Machine_2015-04-17_01,Washing Machine,Appliance2,Shiftable,2015-04-17 12:07:00,2015-04-17 13:15:00,68.0,24931.03,True,"{""0"": 15, ""1"": 53}",1,1,0,1.0
+Washing_Machine_2015-04-20_01,Washing Machine,Appliance2,Shiftable,2015-04-20 11:10:00,2015-04-20 13:22:00,132.0,39653.87,True,"{""0"": 22, ""1"": 110}",1,1,0,1.0
+Washing_Machine_2015-04-24_01,Washing Machine,Appliance2,Shiftable,2015-04-24 10:46:00,2015-04-24 13:07:00,141.0,20505.78,True,"{""0"": 7, ""1"": 134}",1,1,0,1.0
+Washing_Machine_2015-04-27_01,Washing Machine,Appliance2,Shiftable,2015-04-27 10:49:00,2015-04-27 13:03:00,134.0,59578.28,True,"{""0"": 3, ""1"": 131}",1,1,0,1.0
+Washing_Machine_2015-05-04_01,Washing Machine,Appliance2,Shiftable,2015-05-04 11:00:00,2015-05-04 12:17:00,77.0,38679.46,True,"{""0"": 0, ""1"": 77}",1,1,1,1.0
+Washing_Machine_2015-05-04_02,Washing Machine,Appliance2,Shiftable,2015-05-04 12:24:00,2015-05-04 14:36:00,132.0,40797.65,True,"{""0"": 96, ""1"": 36}",0,1,0,0.0
+Washing_Machine_2015-05-20_03,Washing Machine,Appliance2,Shiftable,2015-05-20 11:02:00,2015-05-20 11:22:00,20.0,9304.73,True,"{""0"": 0, ""1"": 20}",1,1,1,1.0
+Washing_Machine_2015-05-20_04,Washing Machine,Appliance2,Shiftable,2015-05-20 11:34:00,2015-05-20 11:54:00,20.0,1549.52,True,"{""0"": 0, ""1"": 20}",1,1,1,1.0
+Washing_Machine_2015-05-20_06,Washing Machine,Appliance2,Shiftable,2015-05-20 12:16:00,2015-05-20 12:22:00,6.0,470.75,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Washing_Machine_2015-05-20_07,Washing Machine,Appliance2,Shiftable,2015-05-20 12:25:00,2015-05-20 12:46:00,21.0,4189.66,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+Washing_Machine_2015-05-21_01,Washing Machine,Appliance2,Shiftable,2015-05-21 10:27:00,2015-05-21 10:39:00,12.0,5537.73,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+Washing_Machine_2015-05-21_05,Washing Machine,Appliance2,Shiftable,2015-05-21 11:15:00,2015-05-21 11:33:00,18.0,2173.95,True,"{""0"": 0, ""1"": 18}",1,1,1,1.0
+Washing_Machine_2015-05-21_06,Washing Machine,Appliance2,Shiftable,2015-05-21 11:36:00,2015-05-21 11:56:00,20.0,1922.59,True,"{""0"": 0, ""1"": 20}",1,1,1,1.0
+Washing_Machine_2015-05-21_08,Washing Machine,Appliance2,Shiftable,2015-05-21 12:00:00,2015-05-21 12:19:00,19.0,1662.23,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
+Washing_Machine_2015-05-25_04,Washing Machine,Appliance2,Shiftable,2015-05-25 12:52:00,2015-05-25 12:59:00,7.0,453.39,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+Washing_Machine_2015-05-26_03,Washing Machine,Appliance2,Shiftable,2015-05-26 11:19:00,2015-05-26 11:26:00,7.0,442.03,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+Washing_Machine_2015-05-26_04,Washing Machine,Appliance2,Shiftable,2015-05-26 11:34:00,2015-05-26 12:09:00,35.0,2878.57,True,"{""0"": 0, ""1"": 35}",1,1,1,1.0
+Washing_Machine_2015-05-26_07,Washing Machine,Appliance2,Shiftable,2015-05-26 12:35:00,2015-05-26 12:41:00,6.0,878.62,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Washing_Machine_2015-05-26_08,Washing Machine,Appliance2,Shiftable,2015-05-26 12:46:00,2015-05-26 12:58:00,12.0,2575.85,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+Washing_Machine_2015-06-09_05,Washing Machine,Appliance2,Shiftable,2015-06-09 16:37:00,2015-06-09 16:42:00,5.0,500.5,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+Washing_Machine_2015-06-09_08,Washing Machine,Appliance2,Shiftable,2015-06-09 16:55:00,2015-06-09 17:05:00,10.0,927.24,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+Washing_Machine_2015-06-09_11,Washing Machine,Appliance2,Shiftable,2015-06-09 17:25:00,2015-06-09 17:31:00,6.0,948.62,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Washing_Machine_2015-06-22_01,Washing Machine,Appliance2,Shiftable,2015-06-22 11:34:00,2015-06-22 11:40:00,6.0,217.54,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Washing_Machine_2015-06-22_02,Washing Machine,Appliance2,Shiftable,2015-06-22 12:03:00,2015-06-22 12:23:00,20.0,1527.19,True,"{""0"": 0, ""1"": 20}",1,1,1,1.0
+Washing_Machine_2015-06-22_03,Washing Machine,Appliance2,Shiftable,2015-06-22 12:28:00,2015-06-22 12:34:00,6.0,683.69,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Washing_Machine_2015-06-22_04,Washing Machine,Appliance2,Shiftable,2015-06-22 12:36:00,2015-06-22 12:57:00,21.0,1928.54,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+Washing_Machine_2015-06-27_01,Washing Machine,Appliance2,Shiftable,2015-06-27 11:39:00,2015-06-27 12:53:00,74.0,37025.78,True,"{""0"": 0, ""1"": 74}",1,1,1,1.0
+Dishwasher_2013-12-02_01,Dishwasher,Appliance3,Shiftable,2013-12-02 14:48:00,2013-12-02 16:45:00,117.0,73790.8,True,"{""0"": 72, ""1"": 45}",0,0,1,0.0
+Dishwasher_2013-12-07_01,Dishwasher,Appliance3,Shiftable,2013-12-07 11:26:00,2013-12-07 13:22:00,116.0,70419.67,True,"{""0"": 22, ""1"": 94}",1,1,0,1.0
+Dishwasher_2013-12-14_01,Dishwasher,Appliance3,Shiftable,2013-12-14 11:42:00,2013-12-14 13:37:00,115.0,72749.93,True,"{""0"": 37, ""1"": 78}",1,1,0,1.0
+Dishwasher_2013-12-19_01,Dishwasher,Appliance3,Shiftable,2013-12-19 15:03:00,2013-12-19 16:58:00,115.0,69463.62,True,"{""0"": 57, ""1"": 58}",1,0,1,1.0
+Dishwasher_2013-12-24_01,Dishwasher,Appliance3,Shiftable,2013-12-24 20:26:00,2013-12-24 22:24:00,118.0,76295.09,True,"{""0"": 94, ""1"": 24}",0,0,1,0.0
+Dishwasher_2013-12-28_01,Dishwasher,Appliance3,Shiftable,2013-12-28 11:28:00,2013-12-28 13:24:00,116.0,73907.95,True,"{""0"": 24, ""1"": 92}",1,1,0,1.0
+Dishwasher_2014-01-02_01,Dishwasher,Appliance3,Shiftable,2014-01-02 10:57:00,2014-01-02 12:53:00,116.0,73173.21,True,"{""0"": 0, ""1"": 116}",1,1,1,1.0
+Dishwasher_2014-01-06_01,Dishwasher,Appliance3,Shiftable,2014-01-06 11:16:00,2014-01-06 13:11:00,115.0,71486.03,True,"{""0"": 11, ""1"": 104}",1,1,0,1.0
+Dishwasher_2014-01-09_01,Dishwasher,Appliance3,Shiftable,2014-01-09 11:00:00,2014-01-09 12:58:00,118.0,63220.25,True,"{""0"": 0, ""1"": 118}",1,1,1,1.0
+Dishwasher_2014-01-13_01,Dishwasher,Appliance3,Shiftable,2014-01-13 11:41:00,2014-01-13 13:35:00,114.0,71954.49,True,"{""0"": 35, ""1"": 79}",1,1,0,1.0
+Dishwasher_2014-01-19_01,Dishwasher,Appliance3,Shiftable,2014-01-19 11:27:00,2014-01-19 13:25:00,118.0,75565.09,True,"{""0"": 25, ""1"": 93}",1,1,0,1.0
+Dishwasher_2014-01-22_01,Dishwasher,Appliance3,Shiftable,2014-01-22 11:14:00,2014-01-22 13:10:00,116.0,77768.51,True,"{""0"": 10, ""1"": 106}",1,1,0,1.0
+Dishwasher_2014-03-09_01,Dishwasher,Appliance3,Shiftable,2014-03-09 11:54:00,2014-03-09 13:48:00,114.0,70344.44,True,"{""0"": 48, ""1"": 66}",1,1,0,1.0
+Dishwasher_2014-03-13_01,Dishwasher,Appliance3,Shiftable,2014-03-13 09:58:00,2014-03-13 11:50:00,112.0,67791.77,True,"{""0"": 0, ""1"": 112}",1,1,1,1.0
+Dishwasher_2014-03-16_01,Dishwasher,Appliance3,Shiftable,2014-03-16 11:23:00,2014-03-16 13:02:00,99.0,86611.18,True,"{""0"": 2, ""1"": 97}",1,1,0,1.0
+Dishwasher_2014-03-21_01,Dishwasher,Appliance3,Shiftable,2014-03-21 12:22:00,2014-03-21 14:16:00,114.0,68390.53,True,"{""0"": 76, ""1"": 38}",0,1,0,0.0
+Dishwasher_2014-03-24_01,Dishwasher,Appliance3,Shiftable,2014-03-24 10:57:00,2014-03-24 12:52:00,115.0,72542.06,True,"{""0"": 0, ""1"": 115}",1,1,1,1.0
+Dishwasher_2014-03-29_01,Dishwasher,Appliance3,Shiftable,2014-03-29 14:33:00,2014-03-29 16:26:00,113.0,69908.76,True,"{""0"": 87, ""1"": 26}",0,0,1,0.0
+Dishwasher_2014-04-03_01,Dishwasher,Appliance3,Shiftable,2014-04-03 09:44:00,2014-04-03 11:39:00,115.0,69467.17,True,"{""0"": 0, ""1"": 115}",1,1,1,1.0
+Dishwasher_2014-04-13_02,Dishwasher,Appliance3,Shiftable,2014-04-13 11:51:00,2014-04-13 13:43:00,112.0,66640.66,True,"{""0"": 43, ""1"": 69}",1,1,0,1.0
+Dishwasher_2014-04-27_01,Dishwasher,Appliance3,Shiftable,2014-04-27 10:26:00,2014-04-27 12:18:00,112.0,70664.63,True,"{""0"": 0, ""1"": 112}",1,1,1,1.0
+Dishwasher_2014-05-03_01,Dishwasher,Appliance3,Shiftable,2014-05-03 10:24:00,2014-05-03 12:18:00,114.0,75224.16,True,"{""0"": 0, ""1"": 114}",1,1,1,1.0
+Dishwasher_2014-05-08_01,Dishwasher,Appliance3,Shiftable,2014-05-08 15:38:00,2014-05-08 17:31:00,113.0,72451.81,True,"{""0"": 22, ""1"": 91}",1,0,1,1.0
+Dishwasher_2014-05-13_01,Dishwasher,Appliance3,Shiftable,2014-05-13 12:25:00,2014-05-13 14:18:00,113.0,70890.73,True,"{""0"": 78, ""1"": 35}",0,1,0,0.0
+Dishwasher_2014-05-20_01,Dishwasher,Appliance3,Shiftable,2014-05-20 09:27:00,2014-05-20 11:20:00,113.0,69843.79,True,"{""0"": 0, ""1"": 113}",1,1,1,1.0
+Dishwasher_2014-05-25_01,Dishwasher,Appliance3,Shiftable,2014-05-25 08:58:00,2014-05-25 10:39:00,101.0,87305.13,True,"{""0"": 0, ""1"": 101}",1,1,1,1.0
+Dishwasher_2014-06-01_01,Dishwasher,Appliance3,Shiftable,2014-06-01 09:06:00,2014-06-01 10:44:00,98.0,86395.49,True,"{""0"": 0, ""1"": 98}",1,1,1,1.0
+Dishwasher_2014-06-05_01,Dishwasher,Appliance3,Shiftable,2014-06-05 10:15:00,2014-06-05 11:54:00,99.0,86415.94,True,"{""0"": 0, ""1"": 99}",1,1,1,1.0
+Dishwasher_2014-06-08_01,Dishwasher,Appliance3,Shiftable,2014-06-08 15:46:00,2014-06-08 17:25:00,99.0,82216.11,True,"{""0"": 14, ""1"": 85}",1,0,1,1.0
+Dishwasher_2014-06-13_01,Dishwasher,Appliance3,Shiftable,2014-06-13 12:10:00,2014-06-13 13:47:00,97.0,77721.41,True,"{""0"": 47, ""1"": 50}",1,1,0,1.0
+Dishwasher_2014-06-20_01,Dishwasher,Appliance3,Shiftable,2014-06-20 10:04:00,2014-06-20 11:42:00,98.0,84798.62,True,"{""0"": 0, ""1"": 98}",1,1,1,1.0
+Dishwasher_2014-06-26_02,Dishwasher,Appliance3,Shiftable,2014-06-26 10:21:00,2014-06-26 11:57:00,96.0,83899.96,True,"{""0"": 0, ""1"": 96}",1,1,1,1.0
+Dishwasher_2014-07-02_01,Dishwasher,Appliance3,Shiftable,2014-07-02 11:16:00,2014-07-02 12:53:00,97.0,82893.82,True,"{""0"": 0, ""1"": 97}",1,1,1,1.0
+Dishwasher_2014-07-10_01,Dishwasher,Appliance3,Shiftable,2014-07-10 10:39:00,2014-07-10 12:17:00,98.0,77959.81,True,"{""0"": 0, ""1"": 98}",1,1,1,1.0
+Dishwasher_2014-07-18_01,Dishwasher,Appliance3,Shiftable,2014-07-18 11:39:00,2014-07-18 13:12:00,93.0,60606.45,True,"{""0"": 12, ""1"": 81}",1,1,0,1.0
+Dishwasher_2014-07-22_01,Dishwasher,Appliance3,Shiftable,2014-07-22 15:30:00,2014-07-22 17:02:00,92.0,75447.5,True,"{""0"": 30, ""1"": 62}",1,0,1,1.0
+Dishwasher_2014-07-27_01,Dishwasher,Appliance3,Shiftable,2014-07-27 10:15:00,2014-07-27 11:49:00,94.0,76789.19,True,"{""0"": 0, ""1"": 94}",1,1,1,1.0
+Dishwasher_2014-08-01_01,Dishwasher,Appliance3,Shiftable,2014-08-01 11:09:00,2014-08-01 12:46:00,97.0,79820.44,True,"{""0"": 0, ""1"": 97}",1,1,1,1.0
+Dishwasher_2014-08-07_01,Dishwasher,Appliance3,Shiftable,2014-08-07 09:58:00,2014-08-07 11:33:00,95.0,76897.16,True,"{""0"": 0, ""1"": 95}",1,1,1,1.0
+Dishwasher_2014-08-11_01,Dishwasher,Appliance3,Shiftable,2014-08-11 10:21:00,2014-08-11 11:59:00,98.0,82485.21,True,"{""0"": 0, ""1"": 98}",1,1,1,1.0
+Dishwasher_2014-08-16_01,Dishwasher,Appliance3,Shiftable,2014-08-16 10:39:00,2014-08-16 12:16:00,97.0,55886.96,True,"{""0"": 0, ""1"": 97}",1,1,1,1.0
+Dishwasher_2014-08-22_01,Dishwasher,Appliance3,Shiftable,2014-08-22 09:44:00,2014-08-22 11:25:00,101.0,78502.56,True,"{""0"": 0, ""1"": 101}",1,1,1,1.0
+Dishwasher_2014-08-26_01,Dishwasher,Appliance3,Shiftable,2014-08-26 10:09:00,2014-08-26 11:48:00,99.0,90326.51,True,"{""0"": 0, ""1"": 99}",1,1,1,1.0
+Dishwasher_2014-08-30_01,Dishwasher,Appliance3,Shiftable,2014-08-30 10:17:00,2014-09-01 16:55:00,3278.0,36056.22,True,"{""0"": 180, ""1"": 218}",1,1,1,1.0
+Dishwasher_2014-09-11_01,Dishwasher,Appliance3,Shiftable,2014-09-11 10:08:00,2014-09-11 11:45:00,97.0,84168.98,True,"{""0"": 0, ""1"": 97}",1,1,1,1.0
+Dishwasher_2014-09-17_01,Dishwasher,Appliance3,Shiftable,2014-09-17 12:24:00,2014-09-17 14:03:00,99.0,85089.35,True,"{""0"": 63, ""1"": 36}",0,1,0,0.0
+Dishwasher_2014-09-22_01,Dishwasher,Appliance3,Shiftable,2014-09-22 14:55:00,2014-09-22 16:34:00,99.0,82826.14,True,"{""0"": 65, ""1"": 34}",0,0,1,0.0
+Dishwasher_2014-09-27_01,Dishwasher,Appliance3,Shiftable,2014-09-27 10:51:00,2014-09-27 12:27:00,96.0,80355.0,True,"{""0"": 0, ""1"": 96}",1,1,1,1.0
+Dishwasher_2014-10-02_01,Dishwasher,Appliance3,Shiftable,2014-10-02 10:23:00,2014-10-02 12:00:00,97.0,84683.16,True,"{""0"": 0, ""1"": 97}",1,1,1,1.0
+Dishwasher_2014-10-07_01,Dishwasher,Appliance3,Shiftable,2014-10-07 10:31:00,2014-10-07 12:12:00,101.0,87164.98,True,"{""0"": 0, ""1"": 101}",1,1,1,1.0
+Dishwasher_2014-10-13_01,Dishwasher,Appliance3,Shiftable,2014-10-13 12:29:00,2014-10-13 14:06:00,97.0,84743.56,True,"{""0"": 66, ""1"": 31}",0,1,0,0.0
+Dishwasher_2014-10-18_01,Dishwasher,Appliance3,Shiftable,2014-10-18 14:59:00,2014-10-18 16:37:00,98.0,83128.09,True,"{""0"": 61, ""1"": 37}",0,0,1,0.0
+Dishwasher_2014-11-08_01,Dishwasher,Appliance3,Shiftable,2014-11-08 14:58:00,2014-11-08 16:39:00,101.0,90680.49,True,"{""0"": 62, ""1"": 39}",0,0,1,0.0
+Dishwasher_2014-11-12_01,Dishwasher,Appliance3,Shiftable,2014-11-12 12:49:00,2014-11-12 14:29:00,100.0,90241.58,True,"{""0"": 89, ""1"": 11}",0,1,0,0.0
+Dishwasher_2014-11-17_01,Dishwasher,Appliance3,Shiftable,2014-11-17 12:19:00,2014-11-17 13:36:00,77.0,74357.2,True,"{""0"": 36, ""1"": 41}",1,1,0,1.0
+Dishwasher_2014-11-23_02,Dishwasher,Appliance3,Shiftable,2014-11-23 11:42:00,2014-11-23 13:20:00,98.0,85435.0,True,"{""0"": 20, ""1"": 78}",1,1,0,1.0
+Dishwasher_2014-11-25_01,Dishwasher,Appliance3,Shiftable,2014-11-25 11:38:00,2014-11-25 13:19:00,101.0,92240.52,True,"{""0"": 19, ""1"": 82}",1,1,0,1.0
+Dishwasher_2014-12-02_01,Dishwasher,Appliance3,Shiftable,2014-12-02 12:38:00,2014-12-02 14:19:00,101.0,91535.32,True,"{""0"": 79, ""1"": 22}",0,1,0,0.0
+Dishwasher_2014-12-11_01,Dishwasher,Appliance3,Shiftable,2014-12-11 11:45:00,2014-12-11 13:32:00,107.0,97453.02,True,"{""0"": 32, ""1"": 75}",1,1,0,1.0
+Dishwasher_2014-12-17_01,Dishwasher,Appliance3,Shiftable,2014-12-17 12:37:00,2014-12-17 14:20:00,103.0,77222.59,True,"{""0"": 80, ""1"": 23}",0,1,0,0.0
+Dishwasher_2014-12-20_01,Dishwasher,Appliance3,Shiftable,2014-12-20 12:36:00,2014-12-20 14:18:00,102.0,91222.28,True,"{""0"": 78, ""1"": 24}",0,1,0,0.0
+Dishwasher_2014-12-25_01,Dishwasher,Appliance3,Shiftable,2014-12-25 11:40:00,2014-12-25 13:21:00,101.0,89579.38,True,"{""0"": 21, ""1"": 80}",1,1,0,1.0
+Dishwasher_2014-12-29_01,Dishwasher,Appliance3,Shiftable,2014-12-29 12:29:00,2014-12-29 14:13:00,104.0,96746.34,True,"{""0"": 73, ""1"": 31}",0,1,0,0.0
+Dishwasher_2015-01-04_01,Dishwasher,Appliance3,Shiftable,2015-01-04 19:08:00,2015-01-04 20:50:00,102.0,93150.97,True,"{""0"": 50, ""1"": 52}",1,1,0,1.0
+Dishwasher_2015-01-07_01,Dishwasher,Appliance3,Shiftable,2015-01-07 14:54:00,2015-01-07 16:35:00,101.0,90470.72,True,"{""0"": 66, ""1"": 35}",0,0,1,0.0
+Dishwasher_2015-01-18_01,Dishwasher,Appliance3,Shiftable,2015-01-18 14:49:00,2015-01-18 16:34:00,105.0,96022.15,True,"{""0"": 71, ""1"": 34}",0,0,1,0.0
+Dishwasher_2015-01-25_01,Dishwasher,Appliance3,Shiftable,2015-01-25 11:29:00,2015-01-25 13:16:00,107.0,96558.7,True,"{""0"": 16, ""1"": 91}",1,1,0,1.0
+Dishwasher_2015-01-29_01,Dishwasher,Appliance3,Shiftable,2015-01-29 14:51:00,2015-01-29 16:32:00,101.0,89285.27,True,"{""0"": 69, ""1"": 32}",0,0,1,0.0
+Dishwasher_2015-02-03_01,Dishwasher,Appliance3,Shiftable,2015-02-03 10:56:00,2015-02-03 12:43:00,107.0,98568.42,True,"{""0"": 0, ""1"": 107}",1,1,1,1.0
+Dishwasher_2015-02-09_01,Dishwasher,Appliance3,Shiftable,2015-02-09 12:24:00,2015-02-09 14:05:00,101.0,94580.91,True,"{""0"": 65, ""1"": 36}",0,1,0,0.0
+Dishwasher_2015-02-25_01,Dishwasher,Appliance3,Shiftable,2015-02-25 14:45:00,2015-02-25 16:29:00,104.0,94952.57,True,"{""0"": 75, ""1"": 29}",0,0,1,0.0
+Dishwasher_2015-03-03_01,Dishwasher,Appliance3,Shiftable,2015-03-03 11:28:00,2015-03-03 13:08:00,100.0,90898.14,True,"{""0"": 8, ""1"": 92}",1,1,0,1.0
+Dishwasher_2015-03-08_01,Dishwasher,Appliance3,Shiftable,2015-03-08 12:09:00,2015-03-08 13:51:00,102.0,92193.9,True,"{""0"": 51, ""1"": 51}",0,1,0,0.0
+Dishwasher_2015-03-13_01,Dishwasher,Appliance3,Shiftable,2015-03-13 11:17:00,2015-03-13 12:58:00,101.0,93302.35,True,"{""0"": 0, ""1"": 101}",1,1,1,1.0
+Dishwasher_2015-03-18_01,Dishwasher,Appliance3,Shiftable,2015-03-18 11:33:00,2015-03-18 13:17:00,104.0,96189.19,True,"{""0"": 17, ""1"": 87}",1,1,0,1.0
+Dishwasher_2015-04-11_01,Dishwasher,Appliance3,Shiftable,2015-04-11 14:46:00,2015-04-11 16:29:00,103.0,92015.89,True,"{""0"": 74, ""1"": 29}",0,0,1,0.0
+Dishwasher_2015-04-20_01,Dishwasher,Appliance3,Shiftable,2015-04-20 15:03:00,2015-04-20 16:43:00,100.0,90330.08,True,"{""0"": 57, ""1"": 43}",0,0,1,0.0
+Dishwasher_2015-04-28_01,Dishwasher,Appliance3,Shiftable,2015-04-28 11:25:00,2015-04-28 13:04:00,99.0,85671.53,True,"{""0"": 4, ""1"": 95}",1,1,0,1.0
+Dishwasher_2015-05-02_01,Dishwasher,Appliance3,Shiftable,2015-05-02 11:27:00,2015-05-02 13:09:00,102.0,88437.28,True,"{""0"": 9, ""1"": 93}",1,1,0,1.0
+Dishwasher_2015-05-06_01,Dishwasher,Appliance3,Shiftable,2015-05-06 12:46:00,2015-05-06 14:24:00,98.0,84761.16,True,"{""0"": 84, ""1"": 14}",0,1,0,0.0
+Dishwasher_2015-05-21_01,Dishwasher,Appliance3,Shiftable,2015-05-21 11:24:00,2015-05-21 11:33:00,9.0,501.52,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Dishwasher_2015-05-21_02,Dishwasher,Appliance3,Shiftable,2015-05-21 11:38:00,2015-05-21 11:56:00,18.0,28979.25,True,"{""0"": 0, ""1"": 18}",1,1,1,1.0
+Dishwasher_2015-05-21_03,Dishwasher,Appliance3,Shiftable,2015-05-21 12:00:00,2015-05-21 12:22:00,22.0,19738.51,True,"{""0"": 0, ""1"": 22}",1,1,1,1.0
+Dishwasher_2015-05-21_05,Dishwasher,Appliance3,Shiftable,2015-05-21 12:31:00,2015-05-21 12:37:00,6.0,428.34,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dishwasher_2015-05-27_02,Dishwasher,Appliance3,Shiftable,2015-05-27 11:17:00,2015-05-27 11:22:00,5.0,317.98,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+Dishwasher_2015-05-27_07,Dishwasher,Appliance3,Shiftable,2015-05-27 12:40:00,2015-05-27 12:46:00,6.0,6463.24,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dishwasher_2015-06-24_06,Dishwasher,Appliance3,Shiftable,2015-06-24 08:33:00,2015-06-24 08:59:00,26.0,204.0,True,"{""0"": 0, ""1"": 26}",1,1,1,1.0
+Dishwasher_2015-06-26_01,Dishwasher,Appliance3,Shiftable,2015-06-26 14:48:00,2015-06-26 16:22:00,94.0,80086.0,True,"{""0"": 72, ""1"": 22}",0,0,1,0.0
+Computer_2013-11-28_01,Computer,Appliance4,Shiftable,2013-11-28 12:15:00,2014-10-01 14:59:00,442244.0,22351145.71,True,"{""0"": 119, ""1"": 45}",0,1,0,0.0
+Computer_2014-10-01_01,Computer,Appliance4,Shiftable,2014-10-01 15:01:00,2014-10-19 00:04:00,25023.0,1451766.0,True,"{""0"": 179, ""1"": 360}",1,0,1,1.0
+Computer_2014-10-19_01,Computer,Appliance4,Shiftable,2014-10-19 00:06:00,2014-10-19 02:16:00,130.0,342.0,True,"{""0"": 76, ""1"": 54}",0,1,0,0.0
+Computer_2014-10-19_03,Computer,Appliance4,Shiftable,2014-10-19 02:37:00,2014-10-20 00:29:00,1312.0,70225.0,True,"{""0"": 503, ""1"": 780}",1,0,1,1.0
+Computer_2014-10-20_01,Computer,Appliance4,Shiftable,2014-10-20 00:30:00,2014-10-20 01:02:00,32.0,2441.69,True,"{""0"": 2, ""1"": 30}",1,1,0,1.0
+Computer_2014-10-20_04,Computer,Appliance4,Shiftable,2014-10-20 02:57:00,2014-11-20 02:29:00,44612.0,2393646.61,True,"{""0"": 483, ""1"": 780}",1,0,0,1.0
+Computer_2014-11-20_03,Computer,Appliance4,Shiftable,2014-11-20 04:14:00,2014-11-21 23:51:00,2617.0,154094.46,True,"{""0"": 406, ""1"": 771}",1,0,1,1.0
+Computer_2014-11-21_01,Computer,Appliance4,Shiftable,2014-11-21 23:52:00,2014-11-22 16:57:00,1025.0,18871.17,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+Computer_2014-11-22_01,Computer,Appliance4,Shiftable,2014-11-22 16:58:00,2015-06-28 22:14:00,314236.0,19607497.1,True,"{""0"": 120, ""1"": 196}",1,1,1,1.0
+PGM_Computer_2013-11-28_01,PGM Computer,Appliance9,Shiftable,2013-11-28 12:15:00,2014-07-04 10:11:00,313796.0,3572409.56,True,"{""0"": 300, ""1"": 405}",1,1,1,1.0
+PGM_Computer_2014-07-08_01,PGM Computer,Appliance9,Shiftable,2014-07-08 21:33:00,2014-07-08 22:59:00,86.0,423.51,True,"{""0"": 27, ""1"": 59}",1,0,1,1.0
+PGM_Computer_2014-07-09_01,PGM Computer,Appliance9,Shiftable,2014-07-09 08:38:00,2014-07-09 09:03:00,25.0,1789.4,True,"{""0"": 0, ""1"": 25}",1,1,1,1.0
+PGM_Computer_2014-07-09_02,PGM Computer,Appliance9,Shiftable,2014-07-09 18:14:00,2014-07-09 20:55:00,161.0,878.79,True,"{""0"": 55, ""1"": 106}",1,1,0,1.0
+PGM_Computer_2014-07-09_03,PGM Computer,Appliance9,Shiftable,2014-07-09 22:10:00,2014-07-10 00:19:00,129.0,3172.38,True,"{""0"": 0, ""1"": 110}",1,1,1,1.0
+PGM_Computer_2014-07-10_01,PGM Computer,Appliance9,Shiftable,2014-07-10 11:34:00,2014-07-10 11:59:00,25.0,1828.55,True,"{""0"": 0, ""1"": 25}",1,1,1,1.0
+PGM_Computer_2014-07-10_03,PGM Computer,Appliance9,Shiftable,2014-07-10 23:02:00,2014-07-10 23:16:00,14.0,1083.35,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
+PGM_Computer_2014-07-11_01,PGM Computer,Appliance9,Shiftable,2014-07-11 08:58:00,2014-07-11 12:37:00,219.0,9298.63,True,"{""0"": 0, ""1"": 219}",1,1,1,1.0
+PGM_Computer_2014-07-13_02,PGM Computer,Appliance9,Shiftable,2014-07-13 18:18:00,2014-07-13 18:47:00,29.0,2082.69,True,"{""0"": 0, ""1"": 29}",1,1,1,1.0
+PGM_Computer_2014-07-15_01,PGM Computer,Appliance9,Shiftable,2014-07-15 11:40:00,2014-07-15 13:18:00,98.0,7566.77,True,"{""0"": 18, ""1"": 80}",1,1,0,1.0
+PGM_Computer_2014-07-15_02,PGM Computer,Appliance9,Shiftable,2014-07-15 15:03:00,2014-07-15 16:36:00,93.0,7134.04,True,"{""0"": 57, ""1"": 36}",0,0,1,0.0
+PGM_Computer_2014-07-16_02,PGM Computer,Appliance9,Shiftable,2014-07-16 15:53:00,2014-07-16 19:28:00,215.0,16518.22,True,"{""0"": 7, ""1"": 208}",1,0,1,1.0
+PGM_Computer_2014-07-16_03,PGM Computer,Appliance9,Shiftable,2014-07-16 19:40:00,2014-07-16 21:32:00,112.0,2446.63,True,"{""0"": 92, ""1"": 20}",0,1,0,0.0
+PGM_Computer_2014-07-17_01,PGM Computer,Appliance9,Shiftable,2014-07-17 10:42:00,2014-07-17 11:44:00,62.0,2095.58,True,"{""0"": 0, ""1"": 62}",1,1,1,1.0
+PGM_Computer_2014-07-17_02,PGM Computer,Appliance9,Shiftable,2014-07-17 12:12:00,2014-07-17 12:46:00,34.0,202.3,True,"{""0"": 0, ""1"": 34}",1,1,1,1.0
+PGM_Computer_2014-07-17_03,PGM Computer,Appliance9,Shiftable,2014-07-17 12:49:00,2014-07-17 13:08:00,19.0,1232.7,True,"{""0"": 8, ""1"": 11}",1,1,0,1.0
+PGM_Computer_2014-07-17_05,PGM Computer,Appliance9,Shiftable,2014-07-17 17:03:00,2014-07-17 17:14:00,11.0,62.94,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2014-07-18_01,PGM Computer,Appliance9,Shiftable,2014-07-18 10:08:00,2014-07-18 12:35:00,147.0,9610.66,True,"{""0"": 0, ""1"": 147}",1,1,1,1.0
+PGM_Computer_2014-07-18_02,PGM Computer,Appliance9,Shiftable,2014-07-18 22:54:00,2014-07-18 23:15:00,21.0,1417.85,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+PGM_Computer_2014-07-19_01,PGM Computer,Appliance9,Shiftable,2014-07-19 10:11:00,2014-07-19 20:53:00,642.0,46972.71,True,"{""0"": 233, ""1"": 409}",1,1,0,1.0
+PGM_Computer_2014-07-19_03,PGM Computer,Appliance9,Shiftable,2014-07-19 21:16:00,2014-07-19 22:50:00,94.0,7266.43,True,"{""0"": 44, ""1"": 50}",1,0,1,1.0
+PGM_Computer_2014-07-20_01,PGM Computer,Appliance9,Shiftable,2014-07-20 10:52:00,2014-07-20 13:13:00,141.0,8615.61,True,"{""0"": 13, ""1"": 128}",1,1,0,1.0
+PGM_Computer_2014-07-20_02,PGM Computer,Appliance9,Shiftable,2014-07-20 19:14:00,2014-07-20 19:35:00,21.0,1495.25,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+PGM_Computer_2014-07-20_04,PGM Computer,Appliance9,Shiftable,2014-07-20 21:07:00,2014-07-20 22:21:00,74.0,5439.36,True,"{""0"": 53, ""1"": 21}",0,0,1,0.0
+PGM_Computer_2014-07-21_01,PGM Computer,Appliance9,Shiftable,2014-07-21 10:12:00,2014-07-21 14:44:00,272.0,18327.28,True,"{""0"": 104, ""1"": 168}",1,1,0,1.0
+PGM_Computer_2014-07-21_02,PGM Computer,Appliance9,Shiftable,2014-07-21 17:44:00,2014-07-21 18:08:00,24.0,1621.41,True,"{""0"": 0, ""1"": 24}",1,1,1,1.0
+PGM_Computer_2014-07-21_03,PGM Computer,Appliance9,Shiftable,2014-07-21 19:00:00,2014-07-21 22:49:00,229.0,8505.41,True,"{""0"": 120, ""1"": 109}",0,1,1,0.0
+PGM_Computer_2014-07-22_01,PGM Computer,Appliance9,Shiftable,2014-07-22 16:49:00,2014-07-22 17:12:00,23.0,1647.12,True,"{""0"": 0, ""1"": 23}",1,1,1,1.0
+PGM_Computer_2014-07-22_02,PGM Computer,Appliance9,Shiftable,2014-07-22 19:44:00,2014-08-12 13:53:00,29889.0,437306.02,True,"{""0"": 120, ""1"": 136}",1,1,0,1.0
+PGM_Computer_2014-08-15_01,PGM Computer,Appliance9,Shiftable,2014-08-15 10:36:00,2014-08-15 11:45:00,69.0,4919.43,True,"{""0"": 0, ""1"": 69}",1,1,1,1.0
+PGM_Computer_2014-08-15_02,PGM Computer,Appliance9,Shiftable,2014-08-15 11:52:00,2014-08-15 12:24:00,32.0,2251.3,True,"{""0"": 0, ""1"": 32}",1,1,1,1.0
+PGM_Computer_2014-08-15_03,PGM Computer,Appliance9,Shiftable,2014-08-15 13:30:00,2014-09-01 16:55:00,24685.0,314705.95,True,"{""0"": 150, ""1"": 55}",0,0,1,0.0
+PGM_Computer_2014-10-01_01,PGM Computer,Appliance9,Shiftable,2014-10-01 15:01:00,2014-10-19 00:04:00,25023.0,460807.38,True,"{""0"": 179, ""1"": 360}",1,0,1,1.0
+PGM_Computer_2014-10-19_01,PGM Computer,Appliance9,Shiftable,2014-10-19 00:06:00,2014-10-19 02:35:00,149.0,909.97,True,"{""0"": 95, ""1"": 54}",0,1,0,0.0
+PGM_Computer_2014-10-19_03,PGM Computer,Appliance9,Shiftable,2014-10-19 04:03:00,2014-10-20 00:29:00,1226.0,9936.37,True,"{""0"": 417, ""1"": 780}",1,0,1,1.0
+PGM_Computer_2014-10-20_01,PGM Computer,Appliance9,Shiftable,2014-10-20 00:30:00,2014-10-20 01:02:00,32.0,153.16,True,"{""0"": 2, ""1"": 30}",1,1,0,1.0
+PGM_Computer_2014-10-21_01,PGM Computer,Appliance9,Shiftable,2014-10-21 04:59:00,2014-11-20 02:51:00,43072.0,508885.08,True,"{""0"": 361, ""1"": 780}",1,0,0,1.0
+PGM_Computer_2014-11-20_02,PGM Computer,Appliance9,Shiftable,2014-11-20 04:14:00,2014-11-21 23:51:00,2617.0,26003.02,True,"{""0"": 406, ""1"": 771}",1,0,1,1.0
+PGM_Computer_2014-11-21_01,PGM Computer,Appliance9,Shiftable,2014-11-21 23:52:00,2014-11-22 16:57:00,1025.0,7379.94,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2014-11-22_01,PGM Computer,Appliance9,Shiftable,2014-11-22 16:58:00,2015-01-22 21:05:00,88087.0,1146171.85,True,"{""0"": 65, ""1"": 182}",1,1,0,1.0
+PGM_Computer_2015-01-23_01,PGM Computer,Appliance9,Shiftable,2015-01-23 16:03:00,2015-01-23 17:35:00,92.0,5381.66,True,"{""0"": 0, ""1"": 92}",1,1,1,1.0
+PGM_Computer_2015-01-24_01,PGM Computer,Appliance9,Shiftable,2015-01-24 13:54:00,2015-06-05 12:18:00,189984.0,2028855.91,True,"{""0"": 246, ""1"": 360}",1,0,1,1.0
+PGM_Computer_2015-06-05_01,PGM Computer,Appliance9,Shiftable,2015-06-05 12:19:00,2015-06-05 12:29:00,10.0,39.77,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+PGM_Computer_2015-06-05_03,PGM Computer,Appliance9,Shiftable,2015-06-05 12:37:00,2015-06-05 12:58:00,21.0,134.66,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+PGM_Computer_2015-06-05_14,PGM Computer,Appliance9,Shiftable,2015-06-05 15:57:00,2015-06-05 16:02:00,5.0,40.0,True,"{""0"": 3, ""1"": 2}",0,0,1,0.0
+PGM_Computer_2015-06-05_15,PGM Computer,Appliance9,Shiftable,2015-06-05 16:04:00,2015-06-05 16:12:00,8.0,30.17,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-05_19,PGM Computer,Appliance9,Shiftable,2015-06-05 16:58:00,2015-06-05 17:04:00,6.0,46.0,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-05_21,PGM Computer,Appliance9,Shiftable,2015-06-05 17:12:00,2015-06-05 17:21:00,9.0,57.07,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-05_22,PGM Computer,Appliance9,Shiftable,2015-06-05 17:25:00,2015-06-05 17:34:00,9.0,67.72,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-05_23,PGM Computer,Appliance9,Shiftable,2015-06-05 18:11:00,2015-06-05 18:40:00,29.0,219.08,True,"{""0"": 0, ""1"": 29}",1,1,1,1.0
+PGM_Computer_2015-06-05_24,PGM Computer,Appliance9,Shiftable,2015-06-05 18:42:00,2015-06-05 18:48:00,6.0,37.44,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-05_25,PGM Computer,Appliance9,Shiftable,2015-06-05 19:05:00,2015-06-05 19:30:00,25.0,141.71,True,"{""0"": 0, ""1"": 25}",1,1,1,1.0
+PGM_Computer_2015-06-05_28,PGM Computer,Appliance9,Shiftable,2015-06-05 19:57:00,2015-06-05 20:03:00,6.0,42.89,True,"{""0"": 3, ""1"": 3}",0,1,0,0.0
+PGM_Computer_2015-06-05_42,PGM Computer,Appliance9,Shiftable,2015-06-05 22:01:00,2015-06-05 22:15:00,14.0,71.19,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
+PGM_Computer_2015-06-05_43,PGM Computer,Appliance9,Shiftable,2015-06-05 22:16:00,2015-06-05 22:27:00,11.0,81.5,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-05_45,PGM Computer,Appliance9,Shiftable,2015-06-05 22:50:00,2015-06-05 23:19:00,29.0,187.87,True,"{""0"": 0, ""1"": 29}",1,1,1,1.0
+PGM_Computer_2015-06-05_46,PGM Computer,Appliance9,Shiftable,2015-06-05 23:20:00,2015-06-05 23:29:00,9.0,60.0,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-05_47,PGM Computer,Appliance9,Shiftable,2015-06-05 23:31:00,2015-06-05 23:44:00,13.0,65.83,True,"{""0"": 0, ""1"": 13}",1,1,1,1.0
+PGM_Computer_2015-06-05_49,PGM Computer,Appliance9,Shiftable,2015-06-05 23:48:00,2015-06-05 23:53:00,5.0,33.62,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-05_50,PGM Computer,Appliance9,Shiftable,2015-06-05 23:54:00,2015-06-05 23:59:00,5.0,40.0,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-06_03,PGM Computer,Appliance9,Shiftable,2015-06-06 00:14:00,2015-06-06 00:33:00,19.0,100.33,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
+PGM_Computer_2015-06-06_25,PGM Computer,Appliance9,Shiftable,2015-06-06 05:58:00,2015-06-06 06:17:00,19.0,140.33,True,"{""0"": 2, ""1"": 17}",1,0,1,1.0
+PGM_Computer_2015-06-06_26,PGM Computer,Appliance9,Shiftable,2015-06-06 06:21:00,2015-06-06 06:27:00,6.0,29.89,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-06_28,PGM Computer,Appliance9,Shiftable,2015-06-06 07:25:00,2015-06-06 07:36:00,11.0,59.89,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-06_32,PGM Computer,Appliance9,Shiftable,2015-06-06 07:48:00,2015-06-06 07:57:00,9.0,66.5,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-06_35,PGM Computer,Appliance9,Shiftable,2015-06-06 08:43:00,2015-06-06 08:51:00,8.0,62.38,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-06_39,PGM Computer,Appliance9,Shiftable,2015-06-06 09:05:00,2015-06-06 09:12:00,7.0,47.96,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+PGM_Computer_2015-06-06_41,PGM Computer,Appliance9,Shiftable,2015-06-06 09:16:00,2015-06-06 09:35:00,19.0,132.38,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
+PGM_Computer_2015-06-06_43,PGM Computer,Appliance9,Shiftable,2015-06-06 09:44:00,2015-06-06 10:04:00,20.0,152.73,True,"{""0"": 0, ""1"": 20}",1,1,1,1.0
+PGM_Computer_2015-06-06_46,PGM Computer,Appliance9,Shiftable,2015-06-06 10:15:00,2015-06-06 10:20:00,5.0,41.0,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-06_49,PGM Computer,Appliance9,Shiftable,2015-06-06 10:33:00,2015-06-06 10:43:00,10.0,74.0,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+PGM_Computer_2015-06-06_50,PGM Computer,Appliance9,Shiftable,2015-06-06 10:45:00,2015-06-06 11:03:00,18.0,125.78,True,"{""0"": 0, ""1"": 18}",1,1,1,1.0
+PGM_Computer_2015-06-06_51,PGM Computer,Appliance9,Shiftable,2015-06-06 11:05:00,2015-06-06 11:40:00,35.0,272.61,True,"{""0"": 0, ""1"": 35}",1,1,1,1.0
+PGM_Computer_2015-06-06_52,PGM Computer,Appliance9,Shiftable,2015-06-06 11:41:00,2015-06-06 11:52:00,11.0,76.33,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-06_54,PGM Computer,Appliance9,Shiftable,2015-06-06 12:14:00,2015-06-06 12:30:00,16.0,108.0,True,"{""0"": 0, ""1"": 16}",1,1,1,1.0
+PGM_Computer_2015-06-06_56,PGM Computer,Appliance9,Shiftable,2015-06-06 12:56:00,2015-06-06 13:05:00,9.0,56.57,True,"{""0"": 5, ""1"": 4}",0,1,0,0.0
+PGM_Computer_2015-06-06_75,PGM Computer,Appliance9,Shiftable,2015-06-06 15:57:00,2015-06-06 16:07:00,10.0,81.6,True,"{""0"": 3, ""1"": 7}",1,0,1,1.0
+PGM_Computer_2015-06-06_76,PGM Computer,Appliance9,Shiftable,2015-06-06 16:09:00,2015-06-06 16:32:00,23.0,153.24,True,"{""0"": 0, ""1"": 23}",1,1,1,1.0
+PGM_Computer_2015-06-06_77,PGM Computer,Appliance9,Shiftable,2015-06-06 16:34:00,2015-06-06 16:40:00,6.0,41.67,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-06_79,PGM Computer,Appliance9,Shiftable,2015-06-06 17:05:00,2015-06-06 17:11:00,6.0,37.0,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-06_82,PGM Computer,Appliance9,Shiftable,2015-06-06 17:38:00,2015-06-06 17:47:00,9.0,64.33,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-06_84,PGM Computer,Appliance9,Shiftable,2015-06-06 17:56:00,2015-06-06 18:01:00,5.0,41.78,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-06_85,PGM Computer,Appliance9,Shiftable,2015-06-06 18:03:00,2015-06-06 18:08:00,5.0,25.33,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-06_88,PGM Computer,Appliance9,Shiftable,2015-06-06 18:23:00,2015-06-06 18:32:00,9.0,63.78,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-06_92,PGM Computer,Appliance9,Shiftable,2015-06-06 18:43:00,2015-06-06 18:50:00,7.0,45.18,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+PGM_Computer_2015-06-06_101,PGM Computer,Appliance9,Shiftable,2015-06-06 22:11:00,2015-06-06 22:19:00,8.0,61.71,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-06_105,PGM Computer,Appliance9,Shiftable,2015-06-06 22:54:00,2015-06-06 23:02:00,8.0,53.5,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-06_107,PGM Computer,Appliance9,Shiftable,2015-06-06 23:10:00,2015-06-06 23:19:00,9.0,60.91,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-06_109,PGM Computer,Appliance9,Shiftable,2015-06-06 23:26:00,2015-06-06 23:39:00,13.0,92.0,True,"{""0"": 0, ""1"": 13}",1,1,1,1.0
+PGM_Computer_2015-06-06_110,PGM Computer,Appliance9,Shiftable,2015-06-06 23:41:00,2015-06-06 23:54:00,13.0,96.0,True,"{""0"": 0, ""1"": 13}",1,1,1,1.0
+PGM_Computer_2015-06-07_01,PGM Computer,Appliance9,Shiftable,2015-06-07 00:03:00,2015-06-07 00:10:00,7.0,52.16,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+PGM_Computer_2015-06-07_04,PGM Computer,Appliance9,Shiftable,2015-06-07 00:22:00,2015-06-07 00:32:00,10.0,68.77,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+PGM_Computer_2015-06-07_05,PGM Computer,Appliance9,Shiftable,2015-06-07 00:34:00,2015-06-07 00:45:00,11.0,87.0,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-07_07,PGM Computer,Appliance9,Shiftable,2015-06-07 00:52:00,2015-06-07 01:04:00,12.0,87.3,True,"{""0"": 4, ""1"": 8}",1,1,0,1.0
+PGM_Computer_2015-06-07_32,PGM Computer,Appliance9,Shiftable,2015-06-07 05:57:00,2015-06-07 06:09:00,12.0,59.5,True,"{""0"": 3, ""1"": 9}",1,0,1,1.0
+PGM_Computer_2015-06-07_33,PGM Computer,Appliance9,Shiftable,2015-06-07 06:10:00,2015-06-07 06:18:00,8.0,56.0,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-07_36,PGM Computer,Appliance9,Shiftable,2015-06-07 06:27:00,2015-06-07 06:49:00,22.0,172.11,True,"{""0"": 0, ""1"": 22}",1,1,1,1.0
+PGM_Computer_2015-06-07_37,PGM Computer,Appliance9,Shiftable,2015-06-07 07:24:00,2015-06-07 07:36:00,12.0,82.0,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+PGM_Computer_2015-06-07_38,PGM Computer,Appliance9,Shiftable,2015-06-07 07:39:00,2015-06-07 07:51:00,12.0,87.0,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+PGM_Computer_2015-06-07_39,PGM Computer,Appliance9,Shiftable,2015-06-07 07:52:00,2015-06-07 07:58:00,6.0,44.17,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-07_42,PGM Computer,Appliance9,Shiftable,2015-06-07 08:23:00,2015-06-07 08:37:00,14.0,90.28,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
+PGM_Computer_2015-06-07_43,PGM Computer,Appliance9,Shiftable,2015-06-07 08:39:00,2015-06-07 08:58:00,19.0,131.19,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
+PGM_Computer_2015-06-07_44,PGM Computer,Appliance9,Shiftable,2015-06-07 08:59:00,2015-06-07 09:08:00,9.0,57.08,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-07_45,PGM Computer,Appliance9,Shiftable,2015-06-07 09:10:00,2015-06-07 09:16:00,6.0,39.73,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-07_47,PGM Computer,Appliance9,Shiftable,2015-06-07 09:23:00,2015-06-07 09:38:00,15.0,111.89,True,"{""0"": 0, ""1"": 15}",1,1,1,1.0
+PGM_Computer_2015-06-07_48,PGM Computer,Appliance9,Shiftable,2015-06-07 09:40:00,2015-06-07 09:50:00,10.0,63.22,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+PGM_Computer_2015-06-07_49,PGM Computer,Appliance9,Shiftable,2015-06-07 09:52:00,2015-06-07 10:08:00,16.0,119.78,True,"{""0"": 0, ""1"": 16}",1,1,1,1.0
+PGM_Computer_2015-06-07_50,PGM Computer,Appliance9,Shiftable,2015-06-07 10:43:00,2015-06-07 10:54:00,11.0,89.0,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-07_53,PGM Computer,Appliance9,Shiftable,2015-06-07 11:19:00,2015-06-07 11:29:00,10.0,74.56,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+PGM_Computer_2015-06-07_54,PGM Computer,Appliance9,Shiftable,2015-06-07 11:31:00,2015-06-07 11:39:00,8.0,63.58,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-07_56,PGM Computer,Appliance9,Shiftable,2015-06-07 11:59:00,2015-06-07 12:05:00,6.0,45.79,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-07_59,PGM Computer,Appliance9,Shiftable,2015-06-07 12:52:00,2015-06-07 12:58:00,6.0,43.17,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-07_75,PGM Computer,Appliance9,Shiftable,2015-06-07 16:16:00,2015-06-07 16:27:00,11.0,81.5,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-07_76,PGM Computer,Appliance9,Shiftable,2015-06-07 16:29:00,2015-06-07 16:34:00,5.0,41.78,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-07_77,PGM Computer,Appliance9,Shiftable,2015-06-07 16:36:00,2015-06-07 16:42:00,6.0,42.0,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-07_78,PGM Computer,Appliance9,Shiftable,2015-06-07 16:44:00,2015-06-07 16:50:00,6.0,27.75,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-07_79,PGM Computer,Appliance9,Shiftable,2015-06-07 16:51:00,2015-06-07 17:10:00,19.0,132.78,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
+PGM_Computer_2015-06-07_81,PGM Computer,Appliance9,Shiftable,2015-06-07 17:19:00,2015-06-07 17:36:00,17.0,108.22,True,"{""0"": 0, ""1"": 17}",1,1,1,1.0
+PGM_Computer_2015-06-07_85,PGM Computer,Appliance9,Shiftable,2015-06-07 18:02:00,2015-06-07 18:17:00,15.0,106.55,True,"{""0"": 0, ""1"": 15}",1,1,1,1.0
+PGM_Computer_2015-06-07_86,PGM Computer,Appliance9,Shiftable,2015-06-07 18:18:00,2015-06-07 18:23:00,5.0,41.88,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-07_88,PGM Computer,Appliance9,Shiftable,2015-06-07 18:33:00,2015-06-07 18:39:00,6.0,46.67,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-07_89,PGM Computer,Appliance9,Shiftable,2015-06-07 18:43:00,2015-06-07 18:54:00,11.0,82.5,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-07_91,PGM Computer,Appliance9,Shiftable,2015-06-07 18:58:00,2015-06-07 19:08:00,10.0,82.0,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+PGM_Computer_2015-06-07_92,PGM Computer,Appliance9,Shiftable,2015-06-07 19:44:00,2015-06-07 19:51:00,7.0,53.32,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+PGM_Computer_2015-06-07_94,PGM Computer,Appliance9,Shiftable,2015-06-07 19:57:00,2015-06-07 20:05:00,8.0,55.14,True,"{""0"": 5, ""1"": 3}",0,1,0,0.0
+PGM_Computer_2015-06-07_108,PGM Computer,Appliance9,Shiftable,2015-06-07 23:56:00,2015-06-08 00:04:00,8.0,61.5,True,"{""0"": 0, ""1"": 4}",1,1,1,1.0
+PGM_Computer_2015-06-08_02,PGM Computer,Appliance9,Shiftable,2015-06-08 00:13:00,2015-06-08 00:20:00,7.0,50.06,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+PGM_Computer_2015-06-08_03,PGM Computer,Appliance9,Shiftable,2015-06-08 00:37:00,2015-06-08 00:56:00,19.0,138.88,True,"{""0"": 0, ""1"": 19}",1,1,1,1.0
+PGM_Computer_2015-06-08_29,PGM Computer,Appliance9,Shiftable,2015-06-08 05:50:00,2015-06-08 06:01:00,11.0,67.75,True,"{""0"": 10, ""1"": 1}",0,0,1,0.0
+PGM_Computer_2015-06-08_30,PGM Computer,Appliance9,Shiftable,2015-06-08 06:03:00,2015-06-08 06:14:00,11.0,83.75,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-08_32,PGM Computer,Appliance9,Shiftable,2015-06-08 06:18:00,2015-06-08 06:43:00,25.0,180.8,True,"{""0"": 0, ""1"": 25}",1,1,1,1.0
+PGM_Computer_2015-06-08_33,PGM Computer,Appliance9,Shiftable,2015-06-08 06:44:00,2015-06-08 06:58:00,14.0,91.62,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
+PGM_Computer_2015-06-08_40,PGM Computer,Appliance9,Shiftable,2015-06-08 07:26:00,2015-06-08 07:34:00,8.0,63.0,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-08_41,PGM Computer,Appliance9,Shiftable,2015-06-08 07:36:00,2015-06-08 07:41:00,5.0,42.0,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-08_47,PGM Computer,Appliance9,Shiftable,2015-06-08 08:26:00,2015-06-08 08:35:00,9.0,64.33,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-08_48,PGM Computer,Appliance9,Shiftable,2015-06-08 08:37:00,2015-06-08 08:42:00,5.0,38.86,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-08_50,PGM Computer,Appliance9,Shiftable,2015-06-08 08:50:00,2015-06-08 09:02:00,12.0,84.56,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+PGM_Computer_2015-06-08_52,PGM Computer,Appliance9,Shiftable,2015-06-08 09:10:00,2015-06-08 09:21:00,11.0,85.28,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-08_55,PGM Computer,Appliance9,Shiftable,2015-06-08 10:03:00,2015-06-08 10:40:00,37.0,269.5,True,"{""0"": 0, ""1"": 37}",1,1,1,1.0
+PGM_Computer_2015-06-08_59,PGM Computer,Appliance9,Shiftable,2015-06-08 11:26:00,2015-06-08 11:37:00,11.0,67.56,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-08_61,PGM Computer,Appliance9,Shiftable,2015-06-08 11:46:00,2015-06-08 11:56:00,10.0,68.11,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+PGM_Computer_2015-06-08_62,PGM Computer,Appliance9,Shiftable,2015-06-08 12:14:00,2015-06-08 13:05:00,51.0,821.81,True,"{""0"": 5, ""1"": 46}",1,1,0,1.0
+PGM_Computer_2015-06-08_86,PGM Computer,Appliance9,Shiftable,2015-06-08 16:23:00,2015-06-08 16:37:00,14.0,107.88,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
+PGM_Computer_2015-06-08_92,PGM Computer,Appliance9,Shiftable,2015-06-08 16:56:00,2015-06-08 17:03:00,7.0,48.25,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+PGM_Computer_2015-06-08_93,PGM Computer,Appliance9,Shiftable,2015-06-08 17:05:00,2015-06-08 20:56:00,231.0,1594.44,True,"{""0"": 56, ""1"": 175}",1,1,0,1.0
+PGM_Computer_2015-06-08_94,PGM Computer,Appliance9,Shiftable,2015-06-08 20:58:00,2015-06-08 22:19:00,81.0,434.19,True,"{""0"": 62, ""1"": 19}",0,0,1,0.0
+PGM_Computer_2015-06-08_96,PGM Computer,Appliance9,Shiftable,2015-06-08 22:25:00,2015-06-08 23:05:00,40.0,380.68,True,"{""0"": 0, ""1"": 40}",1,1,1,1.0
+PGM_Computer_2015-06-08_98,PGM Computer,Appliance9,Shiftable,2015-06-08 23:09:00,2015-06-08 23:18:00,9.0,60.89,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-08_101,PGM Computer,Appliance9,Shiftable,2015-06-08 23:27:00,2015-06-08 23:33:00,6.0,45.33,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-08_102,PGM Computer,Appliance9,Shiftable,2015-06-08 23:34:00,2015-06-08 23:41:00,7.0,53.12,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+PGM_Computer_2015-06-08_104,PGM Computer,Appliance9,Shiftable,2015-06-08 23:44:00,2015-06-08 23:53:00,9.0,58.95,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-08_105,PGM Computer,Appliance9,Shiftable,2015-06-08 23:54:00,2015-06-09 00:00:00,6.0,43.89,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-09_03,PGM Computer,Appliance9,Shiftable,2015-06-09 00:10:00,2015-06-09 00:18:00,8.0,56.33,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-09_04,PGM Computer,Appliance9,Shiftable,2015-06-09 00:20:00,2015-06-09 00:25:00,5.0,40.89,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-09_07,PGM Computer,Appliance9,Shiftable,2015-06-09 00:40:00,2015-06-09 00:49:00,9.0,57.0,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-09_32,PGM Computer,Appliance9,Shiftable,2015-06-09 06:11:00,2015-06-09 06:23:00,12.0,87.25,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+PGM_Computer_2015-06-09_33,PGM Computer,Appliance9,Shiftable,2015-06-09 06:24:00,2015-06-09 06:30:00,6.0,46.25,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-09_34,PGM Computer,Appliance9,Shiftable,2015-06-09 06:37:00,2015-06-09 06:43:00,6.0,45.0,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-09_35,PGM Computer,Appliance9,Shiftable,2015-06-09 06:44:00,2015-06-09 06:50:00,6.0,35.06,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-09_36,PGM Computer,Appliance9,Shiftable,2015-06-09 06:52:00,2015-06-09 07:10:00,18.0,127.49,True,"{""0"": 0, ""1"": 18}",1,1,1,1.0
+PGM_Computer_2015-06-09_37,PGM Computer,Appliance9,Shiftable,2015-06-09 07:11:00,2015-06-09 07:22:00,11.0,82.55,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-09_42,PGM Computer,Appliance9,Shiftable,2015-06-09 07:48:00,2015-06-09 07:53:00,5.0,34.5,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-09_44,PGM Computer,Appliance9,Shiftable,2015-06-09 07:58:00,2015-06-09 08:04:00,6.0,43.46,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-09_45,PGM Computer,Appliance9,Shiftable,2015-06-09 08:05:00,2015-06-09 08:12:00,7.0,55.27,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+PGM_Computer_2015-06-09_46,PGM Computer,Appliance9,Shiftable,2015-06-09 08:15:00,2015-06-09 08:37:00,22.0,154.3,True,"{""0"": 0, ""1"": 22}",1,1,1,1.0
+PGM_Computer_2015-06-09_48,PGM Computer,Appliance9,Shiftable,2015-06-09 08:59:00,2015-06-09 09:09:00,10.0,80.0,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+PGM_Computer_2015-06-09_50,PGM Computer,Appliance9,Shiftable,2015-06-09 09:32:00,2015-06-09 09:43:00,11.0,74.4,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-09_52,PGM Computer,Appliance9,Shiftable,2015-06-09 09:49:00,2015-06-09 10:09:00,20.0,146.19,True,"{""0"": 0, ""1"": 20}",1,1,1,1.0
+PGM_Computer_2015-06-09_53,PGM Computer,Appliance9,Shiftable,2015-06-09 10:10:00,2015-06-09 11:01:00,51.0,616.78,True,"{""0"": 0, ""1"": 51}",1,1,1,1.0
+PGM_Computer_2015-06-09_54,PGM Computer,Appliance9,Shiftable,2015-06-09 11:16:00,2015-06-09 11:22:00,6.0,42.99,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-09_55,PGM Computer,Appliance9,Shiftable,2015-06-09 11:34:00,2015-06-09 12:32:00,58.0,2575.86,True,"{""0"": 0, ""1"": 58}",1,1,1,1.0
+PGM_Computer_2015-06-09_57,PGM Computer,Appliance9,Shiftable,2015-06-09 12:53:00,2015-06-09 13:02:00,9.0,70.57,True,"{""0"": 2, ""1"": 7}",1,1,0,1.0
+PGM_Computer_2015-06-09_75,PGM Computer,Appliance9,Shiftable,2015-06-09 15:50:00,2015-06-09 16:12:00,22.0,157.33,True,"{""0"": 10, ""1"": 12}",1,0,1,1.0
+PGM_Computer_2015-06-09_76,PGM Computer,Appliance9,Shiftable,2015-06-09 16:13:00,2015-06-09 16:23:00,10.0,65.33,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+PGM_Computer_2015-06-09_78,PGM Computer,Appliance9,Shiftable,2015-06-09 16:26:00,2015-06-09 16:44:00,18.0,142.33,True,"{""0"": 0, ""1"": 18}",1,1,1,1.0
+PGM_Computer_2015-06-09_81,PGM Computer,Appliance9,Shiftable,2015-06-09 16:52:00,2015-06-09 16:58:00,6.0,43.12,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-09_86,PGM Computer,Appliance9,Shiftable,2015-06-09 17:15:00,2015-06-09 17:23:00,8.0,63.0,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-09_88,PGM Computer,Appliance9,Shiftable,2015-06-09 17:30:00,2015-06-09 17:35:00,5.0,34.95,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-09_90,PGM Computer,Appliance9,Shiftable,2015-06-09 17:43:00,2015-06-09 17:52:00,9.0,65.34,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-09_93,PGM Computer,Appliance9,Shiftable,2015-06-09 18:37:00,2015-06-09 18:50:00,13.0,98.46,True,"{""0"": 0, ""1"": 13}",1,1,1,1.0
+PGM_Computer_2015-06-09_94,PGM Computer,Appliance9,Shiftable,2015-06-09 18:52:00,2015-06-09 18:58:00,6.0,44.62,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-09_95,PGM Computer,Appliance9,Shiftable,2015-06-09 19:00:00,2015-06-09 19:13:00,13.0,100.86,True,"{""0"": 0, ""1"": 13}",1,1,1,1.0
+PGM_Computer_2015-06-09_98,PGM Computer,Appliance9,Shiftable,2015-06-09 19:22:00,2015-06-09 19:30:00,8.0,65.14,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+PGM_Computer_2015-06-09_99,PGM Computer,Appliance9,Shiftable,2015-06-09 19:32:00,2015-06-09 19:46:00,14.0,91.45,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
+PGM_Computer_2015-06-09_101,PGM Computer,Appliance9,Shiftable,2015-06-09 19:55:00,2015-06-09 20:01:00,6.0,46.75,True,"{""0"": 1, ""1"": 5}",1,1,0,1.0
+PGM_Computer_2015-06-09_110,PGM Computer,Appliance9,Shiftable,2015-06-09 21:33:00,2015-06-09 22:58:00,85.0,975.11,True,"{""0"": 27, ""1"": 58}",1,0,1,1.0
+PGM_Computer_2015-06-09_111,PGM Computer,Appliance9,Shiftable,2015-06-09 22:59:00,2015-06-10 00:56:00,117.0,1307.83,True,"{""0"": 0, ""1"": 61}",1,1,1,1.0
+PGM_Computer_2015-06-10_01,PGM Computer,Appliance9,Shiftable,2015-06-10 00:58:00,2015-06-10 01:09:00,11.0,80.25,True,"{""0"": 9, ""1"": 2}",0,1,0,0.0
+PGM_Computer_2015-06-10_21,PGM Computer,Appliance9,Shiftable,2015-06-10 05:53:00,2015-06-10 06:04:00,11.0,69.54,True,"{""0"": 7, ""1"": 4}",0,0,1,0.0
+PGM_Computer_2015-06-10_22,PGM Computer,Appliance9,Shiftable,2015-06-10 06:05:00,2015-06-10 06:17:00,12.0,70.5,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+PGM_Computer_2015-06-10_29,PGM Computer,Appliance9,Shiftable,2015-06-10 06:36:00,2015-06-10 06:42:00,6.0,44.86,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+PGM_Computer_2015-06-10_31,PGM Computer,Appliance9,Shiftable,2015-06-10 06:48:00,2015-06-10 07:00:00,12.0,82.83,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+PGM_Computer_2015-06-10_33,PGM Computer,Appliance9,Shiftable,2015-06-10 07:27:00,2015-06-10 07:41:00,14.0,90.11,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
+PGM_Computer_2015-06-10_34,PGM Computer,Appliance9,Shiftable,2015-06-10 07:42:00,2015-06-10 07:47:00,5.0,31.51,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+PGM_Computer_2015-06-10_35,PGM Computer,Appliance9,Shiftable,2015-06-10 08:03:00,2015-06-10 08:17:00,14.0,101.29,True,"{""0"": 0, ""1"": 14}",1,1,1,1.0
+PGM_Computer_2015-06-10_36,PGM Computer,Appliance9,Shiftable,2015-06-10 08:19:00,2015-06-10 08:34:00,15.0,115.93,True,"{""0"": 0, ""1"": 15}",1,1,1,1.0
+PGM_Computer_2015-06-10_38,PGM Computer,Appliance9,Shiftable,2015-06-10 08:56:00,2015-06-10 09:07:00,11.0,89.0,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-10_40,PGM Computer,Appliance9,Shiftable,2015-06-10 09:11:00,2015-06-10 09:20:00,9.0,68.11,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-10_41,PGM Computer,Appliance9,Shiftable,2015-06-10 09:22:00,2015-06-10 09:31:00,9.0,62.08,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-10_44,PGM Computer,Appliance9,Shiftable,2015-06-10 09:38:00,2015-06-10 09:49:00,11.0,85.71,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+PGM_Computer_2015-06-10_46,PGM Computer,Appliance9,Shiftable,2015-06-10 09:53:00,2015-06-10 10:02:00,9.0,59.79,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-10_47,PGM Computer,Appliance9,Shiftable,2015-06-10 10:03:00,2015-06-10 10:12:00,9.0,68.0,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+PGM_Computer_2015-06-10_48,PGM Computer,Appliance9,Shiftable,2015-06-10 10:14:00,2015-06-10 10:35:00,21.0,154.53,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+PGM_Computer_2015-06-10_51,PGM Computer,Appliance9,Shiftable,2015-06-10 10:42:00,2015-06-27 00:26:00,23864.0,173606.66,True,"{""0"": 300, ""1"": 498}",1,1,1,1.0
+PGM_Computer_2015-06-28_01,PGM Computer,Appliance9,Shiftable,2015-06-28 15:37:00,2015-06-28 22:14:00,397.0,8962.95,True,"{""0"": 143, ""1"": 254}",1,0,1,1.0

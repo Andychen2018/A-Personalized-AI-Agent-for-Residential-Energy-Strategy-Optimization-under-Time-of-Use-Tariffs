@@ -2,7 +2,7 @@
   "house_id": "house1",
   "tariff_type": "California",
   "total_appliances": 9,
-  "total_events": 39503,
+  "total_events": 39348,
   "appliance_names": [
     "Fridge",
     "Chest Freezer",
@@ -15,9 +15,9 @@
     "Electric Heater"
   ],
   "appliance_counts": {
-    "Chest Freezer": 13924,
-    "Upright Freezer": 11520,
-    "Fridge": 5812,
+    "Chest Freezer": 13861,
+    "Upright Freezer": 11513,
+    "Fridge": 5727,
     "Electric Heater": 3900,
     "Television Site": 2139,
     "Computer Site": 1023,

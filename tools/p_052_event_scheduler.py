@@ -133,7 +133,7 @@ class EventScheduler:
             self.appliance_id_mapping[appliance_id] = real_name
             self.reverse_id_mapping[real_name] = appliance_id
 
-        print(f"   📋 建立电器ID映射表 ({len(self.appliance_id_mapping)} 个电器):")
+        print(f"   📋 Building appliance ID mapping table ({len(self.appliance_id_mapping)} appliances):")
         for appliance_id, real_name in self.appliance_id_mapping.items():
             print(f"     {appliance_id} ↔ {real_name}")
 
@@ -471,12 +471,12 @@ class EventScheduler:
                         loaded_seasons += 1
 
                 if loaded_seasons > 0:
-                    print(f"✅ 已加载 {house_id} 的电器工作空间 ({loaded_seasons} 个季节)")
-                    # 建立电器ID映射表
+                    print(f"✅ Loaded {house_id} appliance working spaces ({loaded_seasons} seasons)")
+                    # Build appliance ID mapping table
                     self.build_appliance_id_mapping(house_id)
                     return True
                 else:
-                    print(f"❌ 未找到 {house_id} 的任何季节工作空间")
+                    print(f"❌ No seasonal working spaces found for {house_id}")
                     return False
             else:
                 # 其他电价方案
@@ -489,13 +489,13 @@ class EventScheduler:
                 with open(spaces_file, 'r', encoding='utf-8') as f:
                     self.appliance_spaces[house_id] = json.load(f)
 
-                print(f"✅ 已加载 {house_id} 的电器工作空间 ({len(self.appliance_spaces[house_id])} 个电器)")
-                # 建立电器ID映射表
+                print(f"✅ Loaded {house_id} appliance working spaces ({len(self.appliance_spaces[house_id])} appliances)")
+                # Build appliance ID mapping table
                 self.build_appliance_id_mapping(house_id)
                 return True
 
         except Exception as e:
-            print(f"❌ 加载电器工作空间失败: {e}")
+            print(f"❌ Failed to load appliance working spaces: {e}")
             return False
 
     def load_and_extract_reschedulable_events(self, house_id: str) -> pd.DataFrame:
@@ -513,16 +513,16 @@ class EventScheduler:
             # 提取可调度事件
             df_reschedulable = df[df['is_reschedulable'] == True].copy()
 
-            print(f"📊 {house_id} 事件统计:")
-            print(f"   总事件数: {len(df)}")
-            print(f"   可调度事件数: {len(df_reschedulable)}")
+            print(f"📊 {house_id} event statistics:")
+            print(f"   Total events: {len(df)}")
+            print(f"   Reschedulable events: {len(df_reschedulable)}")
             if len(df) > 0:
-                print(f"   可调度比例: {len(df_reschedulable)/len(df)*100:.1f}%")
+                print(f"   Reschedulable ratio: {len(df_reschedulable)/len(df)*100:.1f}%")
 
             return df_reschedulable
 
         except Exception as e:
-            print(f"❌ 读取事件文件失败: {e}")
+            print(f"❌ Failed to read event file: {e}")
             return pd.DataFrame()
 
     def save_reschedulable_events(self, df: pd.DataFrame, house_id: str, season: str = None):
@@ -534,7 +534,7 @@ class EventScheduler:
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
         df.to_csv(output_path, index=False)
-        print(f"📁 可调度事件已保存: {output_path}")
+        print(f"📁 Reschedulable events saved: {output_path}")
     
     def time_to_minutes(self, time_str: str) -> int:
         """时间字符串转分钟（支持48小时制）"""
@@ -726,9 +726,9 @@ class EventScheduler:
 
     def schedule_events_for_house(self, house_id: str, season: str = None) -> pd.DataFrame:
         """为指定用户调度事件"""
-        print(f"\n🏠 处理 {house_id} - {self.tariff_name}")
+        print(f"\n🏠 Processing {house_id} - {self.tariff_name}")
         if season:
-            print(f"   季节: {season}")
+            print(f"   Season: {season}")
 
         # 加载电器工作空间
         if not self.load_appliance_spaces(house_id, season):
@@ -737,7 +737,7 @@ class EventScheduler:
         # 加载可调度事件
         df_events = self.load_and_extract_reschedulable_events(house_id)
         if df_events.empty:
-            print(f"   ⚠️ 没有可调度事件")
+            print(f"   ⚠️ No reschedulable events")
             return pd.DataFrame()
 
         # 保存可调度事件
@@ -805,15 +805,15 @@ class EventScheduler:
         # 统计信息
         failed_count = len(df_events) - successful_count
         success_rate = successful_count / len(df_events) * 100 if len(df_events) > 0 else 0
-        print(f"   📊 调度结果: {successful_count}/{len(df_events)} 成功 ({success_rate:.1f}%)")
+        print(f"   📊 Scheduling results: {successful_count}/{len(df_events)} successful ({success_rate:.1f}%)")
 
         # 显示失败原因统计
         if failure_reasons:
-            print(f"   ❌ 失败原因统计:")
+            print(f"   ❌ Failure reason statistics:")
             for reason, count in failure_reasons.items():
-                print(f"     {reason}: {count} 个事件")
+                print(f"     {reason}: {count} events")
 
-        print(f"   📁 结果已保存: {output_path}")
+        print(f"   📁 Results saved: {output_path}")
 
         # 返回统计信息（用于批处理）
         self.last_result = {
@@ -976,8 +976,8 @@ def process_batch_houses(tariff_name: str, house_list: List[str] = None) -> Dict
 
 def run_event_scheduler(mode: str = None, tariff_name: str = None, house_id: str = None):
     """运行事件调度器主函数"""
-    print("🚀 P052 - Event Scheduler")
-    print("=" * 60)
+    print("🚀 Event Scheduler")
+    print("=" * 120)
 
     # 交互式选择参数
     if not mode:
@@ -1021,7 +1021,7 @@ def run_event_scheduler(mode: str = None, tariff_name: str = None, house_id: str
     all_results = {}
 
     for tariff in tariff_list:
-        print(f"\n🔄 处理电价方案: {tariff}")
+        print(f"\n🔄 Processing tariff scheme: {tariff}")
 
         if mode == "single":
             if not house_id:
@@ -1039,21 +1039,21 @@ def run_event_scheduler(mode: str = None, tariff_name: str = None, house_id: str
             all_results[tariff] = result
 
     # 显示总结
-    print(f"\n📊 处理总结:")
-    print("=" * 60)
+    print(f"\n📊 Processing Summary:")
+    print("=" * 120)
 
     for tariff, tariff_results in all_results.items():
         if mode == "single":
             for house, result in tariff_results.items():
                 if result["status"] == "success":
-                    print(f"✅ {tariff} - {house}: {result['successful_events']}/{result['total_events']} 成功")
+                    print(f"✅ {tariff} - {house}: {result['successful_events']}/{result['total_events']} successful")
                 else:
-                    print(f"❌ {tariff} - {house}: 失败 - {result.get('error', '未知错误')}")
+                    print(f"❌ {tariff} - {house}: failed - {result.get('error', 'unknown error')}")
         else:
             if tariff_results["status"] == "success":
-                print(f"✅ {tariff}: {tariff_results['successful_houses']}/{tariff_results['total_houses']} 用户成功")
+                print(f"✅ {tariff}: {tariff_results['successful_houses']}/{tariff_results['total_houses']} households successful")
             else:
-                print(f"❌ {tariff}: 批量处理失败")
+                print(f"❌ {tariff}: batch processing failed")
 
     return all_results
 

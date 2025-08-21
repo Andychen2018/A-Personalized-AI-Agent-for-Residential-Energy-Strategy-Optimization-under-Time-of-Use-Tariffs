@@ -15,10 +15,7 @@ from tools.p_02_event_id import (
     batch_add_event_id,
     add_event_id_single
 )
-# 其他工具暂时注释掉，等需要时再启用
-# from tools.llm_proxy import GPTProxyClient
-# from tools.p_03_tariff_modeling import simulate_tariff_cost_detailed
-# from tools.p_03_energy_summary import summarize_tariff_results_and_visualize
+
 
 
 def load_house_appliances_config(config_path: str = "./config/house_appliances.json") -> dict:
@@ -67,7 +64,7 @@ def batch_preprocess_target_houses():
     Batch process specified household data - perception alignment step only
     """
     print("🏠 Starting batch processing of specified households' raw data perception...")
-    print("=" * 80)
+    print("=" * 120)
 
     # Specify target household numbers
     target_houses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21]
@@ -134,16 +131,16 @@ def batch_preprocess_target_houses():
             stat['status'] = 'Failed'
 
     # Display comprehensive results table
-    print("\n" + "=" * 100)
+    print("\n" + "=" * 120)
     print("🎉 Batch perception processing completed!")
     print(f"✅ Successfully processed {len(results)} household data")
     print("📋 Processing results summary:")
-    print("=" * 100)
+    print("=" * 120)
 
     # Create formatted table
     print(f"{'House':<8} {'Original':<12} {'Issues':<10} {'Clean':<12} {'Processed':<12} {'Status':<15}")
     print(f"{'ID':<8} {'Records':<12} {'Count':<10} {'Records':<12} {'Records':<12} {'Status':<15}")
-    print("-" * 100)
+    print("-" * 110)
 
     total_original = 0
     total_issues = 0
@@ -168,7 +165,7 @@ def batch_preprocess_target_houses():
             total_processed += stat['processed_records']
             success_count += 1
 
-    print("-" * 100)
+    print("-" * 110)
     # Format totals with proper alignment
     total_orig_str = f"{total_original:,}"
     total_issues_str = f"{total_issues:,}"
@@ -177,7 +174,7 @@ def batch_preprocess_target_houses():
     success_str = f"{success_count} Success"
 
     print(f"{'TOTAL':<8} {total_orig_str:<12} {total_issues_str:<10} {total_clean_str:<12} {total_processed_str:<12} {success_str:<15}")
-    print("=" * 100)
+    print("=" * 120)
 
     # Additional summary
     print(f"\n📈 Data Processing Summary:")
@@ -201,7 +198,7 @@ def batch_process_complete_pipeline():
     """
     print("🚀 Starting complete processing pipeline for all specified households...")
     print("This includes: 1) Perception alignment, 2) Shiftability identification, 3) Event segmentation, 4) Event ID assignment")
-    print("=" * 100)
+    print("=" * 120)
 
     # Target households
     target_houses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21]
@@ -221,16 +218,16 @@ def batch_process_complete_pipeline():
     print(f"📋 Found appliance configurations for {len(target_house_appliances)} households")
 
     # Step 1: Perception alignment (if not already done)
-    print("\n" + "=" * 100)
+    print("\n" + "=" * 120)
     print("STEP 1: Perception Alignment")
-    print("=" * 100)
+    print("=" * 120)
 
     perception_results = batch_preprocess_target_houses()
 
     # Step 2: Shiftability identification
-    print("\n" + "=" * 100)
+    print("\n" + "=" * 120)
     print("STEP 2: Shiftability Identification")
-    print("=" * 100)
+    print("=" * 120)
 
     shiftability_results = batch_identify_appliance_shiftability(
         house_appliances_dict=target_house_appliances,
@@ -238,14 +235,14 @@ def batch_process_complete_pipeline():
     )
 
     # Display Step 2 summary table
-    print("\n" + "=" * 100)
+    print("\n" + "=" * 120)
     print("📊 STEP 2 SUMMARY: Shiftability Identification Results")
-    print("=" * 100)
+    print("=" * 120)
 
     header_format = '{:<8} {:<12} {:<12} {:<12} {:<15}'
     print(header_format.format('House', 'Total', 'Shiftable', 'Non-Shiftable', 'Status'))
     print(header_format.format('ID', 'Appliances', 'Appliances', 'Appliances', ''))
-    print("-" * 100)
+    print("-" * 110)
 
     step2_total_appliances = 0
     step2_total_shiftable = 0
@@ -286,7 +283,7 @@ def batch_process_complete_pipeline():
             status
         ))
 
-    print("-" * 100)
+    print("-" * 110)
     step2_total_non_shiftable = step2_total_appliances - step2_total_shiftable
     success_str = f"{step2_success_count} Success"
 
@@ -297,12 +294,12 @@ def batch_process_complete_pipeline():
         str(step2_total_non_shiftable),
         success_str
     ))
-    print("=" * 100)
+    print("=" * 120)
 
     # Step 3: Event segmentation
-    print("\n" + "=" * 100)
+    print("\n" + "=" * 120)
     print("STEP 3: Event Segmentation")
-    print("=" * 100)
+    print("=" * 120)
 
     segmentation_results = batch_run_event_segmentation(
         house_data_dict=target_house_appliances,
@@ -312,14 +309,14 @@ def batch_process_complete_pipeline():
     )
 
     # Display Step 3 summary table
-    print("\n" + "=" * 100)
+    print("\n" + "=" * 120)
     print("📊 STEP 3 SUMMARY: Event Segmentation Results")
-    print("=" * 100)
+    print("=" * 120)
 
     header_format = '{:<8} {:<15} {:<15} {:<15}'
     print(header_format.format('House', 'Events', 'Shiftable', 'Status'))
     print(header_format.format('ID', 'Generated', 'Events', ''))
-    print("-" * 100)
+    print("-" * 110)
 
     step3_total_events = 0
     step3_total_shiftable_events = 0
@@ -354,18 +351,18 @@ def batch_process_complete_pipeline():
 
         print(header_format.format(house_display, events_str, shiftable_str, status))
 
-    print("-" * 100)
+    print("-" * 110)
     success_str = f"{step3_success_count} Success"
     total_events_str = f"{step3_total_events:,}"
     total_shiftable_str = f"{step3_total_shiftable_events:,}"
 
     print(header_format.format('TOTAL', total_events_str, total_shiftable_str, success_str))
-    print("=" * 100)
+    print("=" * 120)
 
     # Step 4: Event ID assignment
-    print("\n" + "=" * 100)
+    print("\n" + "=" * 120)
     print("STEP 4: Event ID Assignment")
-    print("=" * 100)
+    print("=" * 120)
 
     event_id_results = batch_add_event_id(
         house_data_dict=target_house_appliances,
@@ -374,14 +371,14 @@ def batch_process_complete_pipeline():
     )
 
     # Display Step 4 summary table
-    print("\n" + "=" * 100)
+    print("\n" + "=" * 120)
     print("📊 STEP 4 SUMMARY: Event ID Assignment Results")
-    print("=" * 100)
+    print("=" * 120)
 
     header_format = '{:<8} {:<15} {:<15} {:<15}'
     print(header_format.format('House', 'Events with', 'Reschedulable', 'Status'))
     print(header_format.format('ID', 'Event IDs', 'Events', ''))
-    print("-" * 100)
+    print("-" * 110)
 
     step4_total_events = 0
     step4_total_reschedulable = 0
@@ -416,13 +413,13 @@ def batch_process_complete_pipeline():
 
         print(header_format.format(house_display, events_str, reschedulable_str, status))
 
-    print("-" * 100)
+    print("-" * 110)
     success_str = f"{step4_success_count} Success"
     total_events_str = f"{step4_total_events:,}"
     total_reschedulable_str = f"{step4_total_reschedulable:,}"
 
     print(header_format.format('TOTAL', total_events_str, total_reschedulable_str, success_str))
-    print("=" * 100)
+    print("=" * 120)
 
     # Final comprehensive summary
     print("\n" + "=" * 120)
@@ -485,7 +482,7 @@ def process_single_house_complete(house_number: int):
 
     print(f"🚀 Starting complete processing pipeline for {house_id.upper()}...")
     print("This includes: 1) Perception alignment, 2) Shiftability identification, 3) Event segmentation, 4) Event ID assignment")
-    print("=" * 80)
+    print("=" * 120)
 
     # Load house appliances configuration
     house_appliances = load_house_appliances_config()
@@ -605,7 +602,7 @@ def main(mode, house_number):
         house_number: House number for single household processing
     """
     print("🚀 Starting Agent V2 Test - Perception Module")
-    print("=" * 80)
+    print("=" * 120)
 
     # User input description (temporarily retained, may be used in subsequent steps)
     user_input = """Hi, I have several appliances at home: Aggregate, Fridge, Chest Freezer, Upright Freezer, Tumble Dryer, Washing Machine, Dishwasher, Computer Site, Television Site, Electric Heater.

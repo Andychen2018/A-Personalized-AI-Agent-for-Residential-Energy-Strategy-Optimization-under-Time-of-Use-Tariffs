@@ -1,0 +1,37 @@
+{
+  "id_to_name": {
+    "Appliance1": "Aggregate",
+    "Appliance2": "Fridge",
+    "Appliance3": "Chest Freezer",
+    "Appliance4": "Upright Freezer",
+    "Appliance5": "Tumble Dryer",
+    "Appliance6": "Washing Machine",
+    "Appliance7": "Dishwasher",
+    "Appliance8": "Computer Site",
+    "Appliance9": "Television Site"
+  },
+  "id_to_original_name": {
+    "Appliance1": "Aggregate",
+    "Appliance2": "Fridge",
+    "Appliance3": "Chest Freezer",
+    "Appliance4": "Upright Freezer",
+    "Appliance5": "Tumble Dryer",
+    "Appliance6": "Washing Machine",
+    "Appliance7": "Dishwasher",
+    "Appliance8": "Computer Site",
+    "Appliance9": "Television Site"
+  },
+  "reschedulable_map": {
+    "Appliance5": "Tumble Dryer",
+    "Appliance6": "Washing Machine",
+    "Appliance7": "Dishwasher"
+  },
+  "non_reschedulable_map": {
+    "Appliance1": "Aggregate",
+    "Appliance2": "Fridge",
+    "Appliance3": "Chest Freezer",
+    "Appliance4": "Upright Freezer",
+    "Appliance8": "Computer Site",
+    "Appliance9": "Television Site"
+  }
+}

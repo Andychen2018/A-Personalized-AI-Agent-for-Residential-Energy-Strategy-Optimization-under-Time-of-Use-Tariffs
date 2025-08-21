@@ -2,7 +2,7 @@
   "house_id": "house21",
   "tariff_type": "UK",
   "total_appliances": 9,
-  "total_events": 8879,
+  "total_events": 8777,
   "appliance_names": [
     "Fridge-Freezer",
     "Tumble Dryer",
@@ -15,7 +15,7 @@
     "Pond Pump"
   ],
   "appliance_counts": {
-    "Fridge-Freezer": 5880,
+    "Fridge-Freezer": 5778,
     "Television": 869,
     "Dishwasher": 837,
     "Toaster": 737,

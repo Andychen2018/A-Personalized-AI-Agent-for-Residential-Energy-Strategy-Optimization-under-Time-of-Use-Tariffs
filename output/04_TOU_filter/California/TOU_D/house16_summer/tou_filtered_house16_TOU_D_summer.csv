@@ -1,0 +1,341 @@
+event_id,appliance_name,appliance_id,Shiftability,start_time,end_time,duration(min),energy(W),is_reschedulable,price_level_profile,primary_price_level,start_price_level,end_price_level,optimization_potential,month
+Electric_Heater_2014-06-01_01,Electric Heater,Appliance4,Shiftable,2014-06-01 13:28:00,2014-06-01 20:22:00,414.0,7391.27,True,"{""0"": 32, ""1"": 202, ""2"": 180}",1,0,1,0.5,6
+Electric_Heater_2014-06-02_01,Electric Heater,Appliance4,Shiftable,2014-06-02 17:42:00,2014-06-02 20:36:00,174.0,4618.02,True,"{""0"": 0, ""1"": 36, ""2"": 138}",2,2,1,1.0,6
+Electric_Heater_2014-06-03_01,Electric Heater,Appliance4,Shiftable,2014-06-03 07:40:00,2014-06-03 20:57:00,797.0,7951.45,True,"{""0"": 380, ""1"": 237, ""2"": 180}",0,0,1,0.0,6
+Electric_Heater_2014-06-04_01,Electric Heater,Appliance4,Shiftable,2014-06-04 07:40:00,2014-06-04 19:42:00,722.0,12090.35,True,"{""0"": 380, ""1"": 180, ""2"": 162}",0,0,2,0.0,6
+Electric_Heater_2014-06-05_01,Electric Heater,Appliance4,Shiftable,2014-06-05 13:13:00,2014-06-05 23:21:00,608.0,12492.81,True,"{""0"": 47, ""1"": 381, ""2"": 180}",1,0,1,0.5,6
+Electric_Heater_2014-06-06_01,Electric Heater,Appliance4,Shiftable,2014-06-06 17:07:00,2014-06-06 21:32:00,265.0,6721.42,True,"{""0"": 0, ""1"": 92, ""2"": 173}",2,2,1,1.0,6
+Electric_Heater_2014-06-07_01,Electric Heater,Appliance4,Shiftable,2014-06-07 09:30:00,2014-06-07 14:29:00,299.0,4870.97,True,"{""0"": 270, ""1"": 29, ""2"": 0}",0,0,1,0.0,6
+Electric_Heater_2014-06-07_02,Electric Heater,Appliance4,Shiftable,2014-06-07 14:34:00,2014-06-07 14:54:00,20.0,291.23,True,"{""0"": 0, ""1"": 20, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-07_03,Electric Heater,Appliance4,Shiftable,2014-06-07 16:14:00,2014-06-07 22:40:00,386.0,7720.37,True,"{""0"": 0, ""1"": 206, ""2"": 180}",1,1,1,0.5,6
+Electric_Heater_2014-06-08_01,Electric Heater,Appliance4,Shiftable,2014-06-08 07:34:00,2014-06-08 19:24:00,710.0,13488.99,True,"{""0"": 386, ""1"": 180, ""2"": 144}",0,0,2,0.0,6
+Electric_Heater_2014-06-08_02,Electric Heater,Appliance4,Shiftable,2014-06-08 19:55:00,2014-06-08 20:30:00,35.0,217.76,True,"{""0"": 0, ""1"": 30, ""2"": 5}",1,2,1,0.5,6
+Electric_Heater_2014-06-09_01,Electric Heater,Appliance4,Shiftable,2014-06-09 06:04:00,2014-06-09 15:49:00,585.0,10317.58,True,"{""0"": 476, ""1"": 109, ""2"": 0}",0,0,1,0.0,6
+Electric_Heater_2014-06-09_02,Electric Heater,Appliance4,Shiftable,2014-06-09 17:36:00,2014-06-09 18:53:00,77.0,895.68,True,"{""0"": 0, ""1"": 0, ""2"": 77}",2,2,2,1.0,6
+Electric_Heater_2014-06-10_01,Electric Heater,Appliance4,Shiftable,2014-06-10 18:32:00,2014-06-10 20:46:00,134.0,675.34,True,"{""0"": 0, ""1"": 46, ""2"": 88}",2,2,1,1.0,6
+Electric_Heater_2014-06-11_01,Electric Heater,Appliance4,Shiftable,2014-06-11 07:59:00,2014-06-11 20:07:00,728.0,9912.67,True,"{""0"": 361, ""1"": 187, ""2"": 180}",0,0,1,0.0,6
+Electric_Heater_2014-06-12_01,Electric Heater,Appliance4,Shiftable,2014-06-12 06:54:00,2014-06-12 09:51:00,177.0,2056.06,False,"{""0"": 177, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-14_01,Electric Heater,Appliance4,Shiftable,2014-06-14 10:42:00,2014-06-14 11:02:00,20.0,312.9,False,"{""0"": 20, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-15_01,Electric Heater,Appliance4,Shiftable,2014-06-15 10:11:00,2014-06-15 11:06:00,55.0,701.38,False,"{""0"": 55, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-15_02,Electric Heater,Appliance4,Shiftable,2014-06-15 20:50:00,2014-06-15 23:52:00,182.0,2826.1,True,"{""0"": 0, ""1"": 182, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-18_01,Electric Heater,Appliance4,Shiftable,2014-06-18 13:56:00,2014-06-18 14:26:00,30.0,442.56,True,"{""0"": 4, ""1"": 26, ""2"": 0}",1,0,1,0.5,6
+Electric_Heater_2014-06-18_02,Electric Heater,Appliance4,Shiftable,2014-06-18 14:59:00,2014-06-18 15:31:00,32.0,391.6,True,"{""0"": 0, ""1"": 32, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-23_01,Electric Heater,Appliance4,Shiftable,2014-06-23 14:06:00,2014-06-23 15:12:00,66.0,881.24,True,"{""0"": 0, ""1"": 66, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-23_02,Electric Heater,Appliance4,Shiftable,2014-06-23 15:37:00,2014-06-23 22:50:00,433.0,6479.52,True,"{""0"": 0, ""1"": 253, ""2"": 180}",1,1,1,0.5,6
+Electric_Heater_2014-06-24_13,Electric Heater,Appliance4,Shiftable,2014-06-24 12:11:00,2014-06-24 12:17:00,6.0,16.5,False,"{""0"": 6, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-24_15,Electric Heater,Appliance4,Shiftable,2014-06-24 12:50:00,2014-06-24 13:30:00,40.0,603.78,False,"{""0"": 40, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-24_16,Electric Heater,Appliance4,Shiftable,2014-06-24 14:56:00,2014-06-24 21:19:00,383.0,4120.5,True,"{""0"": 0, ""1"": 203, ""2"": 180}",1,1,1,0.5,6
+Electric_Heater_2014-06-25_01,Electric Heater,Appliance4,Shiftable,2014-06-25 10:37:00,2014-06-25 10:42:00,5.0,71.35,False,"{""0"": 5, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-25_02,Electric Heater,Appliance4,Shiftable,2014-06-25 20:58:00,2014-06-26 00:09:00,191.0,3725.92,True,"{""0"": 0, ""1"": 182, ""2"": 0}",1,1,0,0.5,6
+Electric_Heater_2014-06-26_01,Electric Heater,Appliance4,Shiftable,2014-06-26 07:45:00,2014-06-26 08:15:00,30.0,465.73,False,"{""0"": 30, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-26_02,Electric Heater,Appliance4,Shiftable,2014-06-26 11:47:00,2014-06-26 13:20:00,93.0,1352.46,False,"{""0"": 93, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-27_01,Electric Heater,Appliance4,Shiftable,2014-06-27 14:51:00,2014-06-27 16:43:00,112.0,1643.67,True,"{""0"": 0, ""1"": 112, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-28_01,Electric Heater,Appliance4,Shiftable,2014-06-28 08:15:00,2014-06-28 09:29:00,74.0,1014.71,False,"{""0"": 74, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-07-03_01,Electric Heater,Appliance4,Shiftable,2014-07-03 09:58:00,2014-07-03 13:02:00,184.0,3092.8,False,"{""0"": 184, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-07_01,Electric Heater,Appliance4,Shiftable,2014-07-07 18:51:00,2014-07-07 21:43:00,172.0,4454.74,True,"{""0"": 0, ""1"": 103, ""2"": 69}",1,2,1,0.5,7
+Electric_Heater_2014-07-08_01,Electric Heater,Appliance4,Shiftable,2014-07-08 13:40:00,2014-07-08 14:46:00,66.0,876.4,True,"{""0"": 20, ""1"": 46, ""2"": 0}",1,0,1,0.5,7
+Electric_Heater_2014-07-09_01,Electric Heater,Appliance4,Shiftable,2014-07-09 07:19:00,2014-07-09 12:02:00,283.0,4029.03,False,"{""0"": 283, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-09_02,Electric Heater,Appliance4,Shiftable,2014-07-09 13:16:00,2014-07-09 14:42:00,86.0,996.98,True,"{""0"": 44, ""1"": 42, ""2"": 0}",0,0,1,0.0,7
+Electric_Heater_2014-07-10_01,Electric Heater,Appliance4,Shiftable,2014-07-10 09:17:00,2014-07-10 10:13:00,56.0,817.18,False,"{""0"": 56, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-10_02,Electric Heater,Appliance4,Shiftable,2014-07-10 14:48:00,2014-07-10 16:31:00,103.0,1789.69,True,"{""0"": 0, ""1"": 103, ""2"": 0}",1,1,1,0.5,7
+Electric_Heater_2014-07-11_01,Electric Heater,Appliance4,Shiftable,2014-07-11 10:43:00,2014-07-11 11:05:00,22.0,740.7,False,"{""0"": 22, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-11_02,Electric Heater,Appliance4,Shiftable,2014-07-11 11:13:00,2014-07-11 12:27:00,74.0,2634.71,False,"{""0"": 74, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-11_03,Electric Heater,Appliance4,Shiftable,2014-07-11 13:32:00,2014-07-11 15:48:00,136.0,3931.44,True,"{""0"": 28, ""1"": 108, ""2"": 0}",1,0,1,0.5,7
+Electric_Heater_2014-07-11_04,Electric Heater,Appliance4,Shiftable,2014-07-11 15:50:00,2014-07-11 16:10:00,20.0,247.16,True,"{""0"": 0, ""1"": 20, ""2"": 0}",1,1,1,0.5,7
+Electric_Heater_2014-07-11_05,Electric Heater,Appliance4,Shiftable,2014-07-11 16:26:00,2014-07-11 16:39:00,13.0,192.07,True,"{""0"": 0, ""1"": 13, ""2"": 0}",1,1,1,0.5,7
+Electric_Heater_2014-07-12_01,Electric Heater,Appliance4,Shiftable,2014-07-12 00:43:00,2014-07-12 01:08:00,25.0,139.91,False,"{""0"": 25, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-12_02,Electric Heater,Appliance4,Shiftable,2014-07-12 09:02:00,2014-07-12 09:40:00,38.0,500.22,False,"{""0"": 38, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-12_03,Electric Heater,Appliance4,Shiftable,2014-07-12 09:53:00,2014-07-12 10:13:00,20.0,267.81,False,"{""0"": 20, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-13_01,Electric Heater,Appliance4,Shiftable,2014-07-13 10:35:00,2014-07-13 16:08:00,333.0,5061.44,True,"{""0"": 205, ""1"": 128, ""2"": 0}",0,0,1,0.0,7
+Electric_Heater_2014-07-13_02,Electric Heater,Appliance4,Shiftable,2014-07-13 16:10:00,2014-07-13 16:28:00,18.0,227.4,True,"{""0"": 0, ""1"": 18, ""2"": 0}",1,1,1,0.5,7
+Electric_Heater_2014-07-13_03,Electric Heater,Appliance4,Shiftable,2014-07-13 16:31:00,2014-07-13 16:50:00,19.0,286.06,True,"{""0"": 0, ""1"": 19, ""2"": 0}",1,1,1,0.5,7
+Electric_Heater_2014-07-13_04,Electric Heater,Appliance4,Shiftable,2014-07-13 22:58:00,2014-07-14 03:12:00,254.0,4128.61,True,"{""0"": 0, ""1"": 62, ""2"": 0}",1,1,0,0.5,7
+Electric_Heater_2014-07-14_01,Electric Heater,Appliance4,Shiftable,2014-07-14 07:00:00,2014-07-14 07:17:00,17.0,253.63,False,"{""0"": 17, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-14_02,Electric Heater,Appliance4,Shiftable,2014-07-14 08:02:00,2014-08-01 15:57:00,26395.0,5803.47,True,"{""0"": 358, ""1"": 117, ""2"": 0}",0,0,1,0.0,7
+Electric_Heater_2014-09-04_01,Electric Heater,Appliance4,Shiftable,2014-09-04 10:43:00,2014-09-04 14:22:00,219.0,5469.31,True,"{""0"": 197, ""1"": 22, ""2"": 0}",0,0,1,0.0,9
+Electric_Heater_2014-09-04_02,Electric Heater,Appliance4,Shiftable,2014-09-04 17:07:00,2014-09-04 17:23:00,16.0,170.82,True,"{""0"": 0, ""1"": 0, ""2"": 16}",2,2,2,1.0,9
+Electric_Heater_2014-09-04_03,Electric Heater,Appliance4,Shiftable,2014-09-04 17:52:00,2014-09-04 18:28:00,36.0,465.11,True,"{""0"": 0, ""1"": 0, ""2"": 36}",2,2,2,1.0,9
+Electric_Heater_2014-09-05_01,Electric Heater,Appliance4,Shiftable,2014-09-05 08:35:00,2014-09-05 09:56:00,81.0,1181.66,False,"{""0"": 81, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-05_02,Electric Heater,Appliance4,Shiftable,2014-09-05 11:37:00,2014-09-05 12:33:00,56.0,740.9,False,"{""0"": 56, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-05_03,Electric Heater,Appliance4,Shiftable,2014-09-05 14:41:00,2014-09-05 15:04:00,23.0,281.86,True,"{""0"": 0, ""1"": 23, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-06_01,Electric Heater,Appliance4,Shiftable,2014-09-06 08:25:00,2014-09-06 08:55:00,30.0,373.23,False,"{""0"": 30, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-06_02,Electric Heater,Appliance4,Shiftable,2014-09-06 09:37:00,2014-09-06 10:11:00,34.0,442.93,False,"{""0"": 34, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-06_03,Electric Heater,Appliance4,Shiftable,2014-09-06 10:23:00,2014-09-06 10:40:00,17.0,182.32,False,"{""0"": 17, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-06_04,Electric Heater,Appliance4,Shiftable,2014-09-06 14:28:00,2014-09-06 16:35:00,127.0,1364.4,True,"{""0"": 0, ""1"": 127, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-07_01,Electric Heater,Appliance4,Shiftable,2014-09-07 16:55:00,2014-09-07 17:12:00,17.0,185.95,True,"{""0"": 0, ""1"": 5, ""2"": 12}",2,1,2,1.0,9
+Electric_Heater_2014-09-07_02,Electric Heater,Appliance4,Shiftable,2014-09-07 17:30:00,2014-09-07 17:40:00,10.0,130.32,True,"{""0"": 0, ""1"": 0, ""2"": 10}",2,2,2,1.0,9
+Electric_Heater_2014-09-07_03,Electric Heater,Appliance4,Shiftable,2014-09-07 18:20:00,2014-09-07 19:43:00,83.0,1251.99,True,"{""0"": 0, ""1"": 0, ""2"": 83}",2,2,2,1.0,9
+Electric_Heater_2014-09-07_04,Electric Heater,Appliance4,Shiftable,2014-09-07 19:52:00,2014-09-07 20:27:00,35.0,512.54,True,"{""0"": 0, ""1"": 27, ""2"": 8}",1,2,1,0.5,9
+Electric_Heater_2014-09-08_01,Electric Heater,Appliance4,Shiftable,2014-09-08 13:03:00,2014-09-08 16:11:00,188.0,4270.95,True,"{""0"": 57, ""1"": 131, ""2"": 0}",1,0,1,0.5,9
+Electric_Heater_2014-09-09_01,Electric Heater,Appliance4,Shiftable,2014-09-09 09:12:00,2014-09-09 09:29:00,17.0,202.41,False,"{""0"": 17, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-09_02,Electric Heater,Appliance4,Shiftable,2014-09-09 09:54:00,2014-09-09 11:51:00,117.0,1698.71,False,"{""0"": 117, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-09_03,Electric Heater,Appliance4,Shiftable,2014-09-09 12:03:00,2014-09-09 12:19:00,16.0,212.8,False,"{""0"": 16, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-09_04,Electric Heater,Appliance4,Shiftable,2014-09-09 12:22:00,2014-09-09 12:40:00,18.0,221.55,False,"{""0"": 18, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-09_05,Electric Heater,Appliance4,Shiftable,2014-09-09 14:45:00,2014-09-09 15:48:00,63.0,931.3,True,"{""0"": 0, ""1"": 63, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-09_06,Electric Heater,Appliance4,Shiftable,2014-09-09 16:53:00,2014-09-09 18:39:00,106.0,1552.26,True,"{""0"": 0, ""1"": 7, ""2"": 99}",2,1,2,1.0,9
+Electric_Heater_2014-09-10_01,Electric Heater,Appliance4,Shiftable,2014-09-10 08:12:00,2014-09-10 11:16:00,184.0,5006.3,False,"{""0"": 184, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-10_02,Electric Heater,Appliance4,Shiftable,2014-09-10 12:45:00,2014-09-10 14:27:00,102.0,1511.02,True,"{""0"": 75, ""1"": 27, ""2"": 0}",0,0,1,0.0,9
+Electric_Heater_2014-09-10_03,Electric Heater,Appliance4,Shiftable,2014-09-10 16:44:00,2014-09-10 17:18:00,34.0,508.54,True,"{""0"": 0, ""1"": 16, ""2"": 18}",2,1,2,1.0,9
+Electric_Heater_2014-09-11_01,Electric Heater,Appliance4,Shiftable,2014-09-11 00:02:00,2014-09-11 00:12:00,10.0,161.62,False,"{""0"": 10, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-11_02,Electric Heater,Appliance4,Shiftable,2014-09-11 11:38:00,2014-09-11 12:27:00,49.0,764.42,False,"{""0"": 49, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-11_03,Electric Heater,Appliance4,Shiftable,2014-09-11 18:36:00,2014-09-11 20:23:00,107.0,1268.99,True,"{""0"": 0, ""1"": 23, ""2"": 84}",2,2,1,1.0,9
+Electric_Heater_2014-09-12_01,Electric Heater,Appliance4,Shiftable,2014-09-12 12:18:00,2014-09-12 12:51:00,33.0,527.08,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-12_02,Electric Heater,Appliance4,Shiftable,2014-09-12 12:54:00,2014-09-12 13:22:00,28.0,424.8,False,"{""0"": 28, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-13_01,Electric Heater,Appliance4,Shiftable,2014-09-13 11:52:00,2014-09-13 12:58:00,66.0,1056.27,False,"{""0"": 66, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-13_02,Electric Heater,Appliance4,Shiftable,2014-09-13 13:56:00,2014-09-13 14:18:00,22.0,321.38,True,"{""0"": 4, ""1"": 18, ""2"": 0}",1,0,1,0.5,9
+Electric_Heater_2014-09-13_03,Electric Heater,Appliance4,Shiftable,2014-09-13 14:33:00,2014-09-13 14:57:00,24.0,326.82,True,"{""0"": 0, ""1"": 24, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-13_05,Electric Heater,Appliance4,Shiftable,2014-09-13 18:43:00,2014-09-13 18:54:00,11.0,175.14,True,"{""0"": 0, ""1"": 0, ""2"": 11}",2,2,2,1.0,9
+Electric_Heater_2014-09-14_01,Electric Heater,Appliance4,Shiftable,2014-09-14 10:16:00,2014-09-14 13:38:00,202.0,2813.96,False,"{""0"": 202, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-14_02,Electric Heater,Appliance4,Shiftable,2014-09-14 18:17:00,2014-09-14 20:06:00,109.0,1425.9,True,"{""0"": 0, ""1"": 6, ""2"": 103}",2,2,1,1.0,9
+Electric_Heater_2014-09-14_03,Electric Heater,Appliance4,Shiftable,2014-09-14 20:12:00,2014-09-14 21:18:00,66.0,858.5,True,"{""0"": 0, ""1"": 66, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-15_01,Electric Heater,Appliance4,Shiftable,2014-09-15 10:25:00,2014-09-15 13:45:00,200.0,2781.36,False,"{""0"": 200, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-15_02,Electric Heater,Appliance4,Shiftable,2014-09-15 17:30:00,2014-09-15 18:30:00,60.0,820.88,True,"{""0"": 0, ""1"": 0, ""2"": 60}",2,2,2,1.0,9
+Electric_Heater_2014-09-15_03,Electric Heater,Appliance4,Shiftable,2014-09-15 18:37:00,2014-09-15 20:35:00,118.0,1620.38,True,"{""0"": 0, ""1"": 35, ""2"": 83}",2,2,1,1.0,9
+Electric_Heater_2014-09-16_01,Electric Heater,Appliance4,Shiftable,2014-09-16 15:01:00,2014-09-16 16:02:00,61.0,874.47,True,"{""0"": 0, ""1"": 61, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-16_02,Electric Heater,Appliance4,Shiftable,2014-09-16 16:34:00,2014-09-16 16:51:00,17.0,200.21,True,"{""0"": 0, ""1"": 17, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-16_03,Electric Heater,Appliance4,Shiftable,2014-09-16 17:46:00,2014-09-16 18:03:00,17.0,171.36,True,"{""0"": 0, ""1"": 0, ""2"": 17}",2,2,2,1.0,9
+Electric_Heater_2014-09-18_01,Electric Heater,Appliance4,Shiftable,2014-09-18 11:04:00,2014-09-18 13:28:00,144.0,1938.38,False,"{""0"": 144, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-18_02,Electric Heater,Appliance4,Shiftable,2014-09-18 16:28:00,2014-09-18 17:17:00,49.0,710.52,True,"{""0"": 0, ""1"": 32, ""2"": 17}",1,1,2,0.5,9
+Electric_Heater_2014-09-18_03,Electric Heater,Appliance4,Shiftable,2014-09-18 19:18:00,2014-09-18 20:57:00,99.0,904.72,True,"{""0"": 0, ""1"": 57, ""2"": 42}",1,2,1,0.5,9
+Electric_Heater_2014-09-18_04,Electric Heater,Appliance4,Shiftable,2014-09-18 21:13:00,2014-09-18 22:07:00,54.0,372.91,True,"{""0"": 0, ""1"": 54, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-18_05,Electric Heater,Appliance4,Shiftable,2014-09-18 22:08:00,2014-09-18 22:26:00,18.0,198.08,True,"{""0"": 0, ""1"": 18, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-18_07,Electric Heater,Appliance4,Shiftable,2014-09-18 23:54:00,2014-09-19 00:34:00,40.0,618.14,True,"{""0"": 0, ""1"": 6, ""2"": 0}",1,1,0,0.5,9
+Electric_Heater_2014-09-19_01,Electric Heater,Appliance4,Shiftable,2014-09-19 00:55:00,2014-09-19 02:02:00,67.0,896.23,False,"{""0"": 67, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-19_02,Electric Heater,Appliance4,Shiftable,2014-09-19 02:25:00,2014-09-19 02:44:00,19.0,206.23,False,"{""0"": 19, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-19_03,Electric Heater,Appliance4,Shiftable,2014-09-19 08:27:00,2014-09-19 09:04:00,37.0,494.75,False,"{""0"": 37, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-19_04,Electric Heater,Appliance4,Shiftable,2014-09-19 09:45:00,2014-09-19 10:40:00,55.0,548.82,False,"{""0"": 55, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-06-02_01,Washing Machine,Appliance5,Shiftable,2014-06-02 06:18:00,2014-06-02 07:36:00,78.0,29656.73,False,"{""0"": 78, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-03_01,Washing Machine,Appliance5,Shiftable,2014-06-03 19:02:00,2014-06-03 20:13:00,71.0,36135.92,True,"{""0"": 0, ""1"": 13, ""2"": 58}",2,2,1,1.0,6
+Washing_Machine_2014-06-05_01,Washing Machine,Appliance5,Shiftable,2014-06-05 05:33:00,2014-06-05 07:00:00,87.0,42437.79,False,"{""0"": 87, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-06_01,Washing Machine,Appliance5,Shiftable,2014-06-06 16:36:00,2014-06-06 17:49:00,73.0,28213.06,True,"{""0"": 0, ""1"": 24, ""2"": 49}",2,1,2,1.0,6
+Washing_Machine_2014-06-08_01,Washing Machine,Appliance5,Shiftable,2014-06-08 06:54:00,2014-06-08 08:40:00,106.0,52596.99,False,"{""0"": 106, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-08_02,Washing Machine,Appliance5,Shiftable,2014-06-08 08:45:00,2014-06-08 09:46:00,61.0,26717.48,False,"{""0"": 61, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-10_01,Washing Machine,Appliance5,Shiftable,2014-06-10 18:36:00,2014-06-10 19:38:00,62.0,27588.83,True,"{""0"": 0, ""1"": 0, ""2"": 62}",2,2,2,1.0,6
+Washing_Machine_2014-06-11_01,Washing Machine,Appliance5,Shiftable,2014-06-11 16:35:00,2014-06-11 17:57:00,82.0,38197.5,True,"{""0"": 0, ""1"": 25, ""2"": 57}",2,1,2,1.0,6
+Washing_Machine_2014-06-12_01,Washing Machine,Appliance5,Shiftable,2014-06-12 04:47:00,2014-06-12 05:46:00,59.0,27468.33,False,"{""0"": 59, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-13_01,Washing Machine,Appliance5,Shiftable,2014-06-13 17:20:00,2014-06-13 18:18:00,58.0,26618.23,True,"{""0"": 0, ""1"": 0, ""2"": 58}",2,2,2,1.0,6
+Washing_Machine_2014-06-14_01,Washing Machine,Appliance5,Shiftable,2014-06-14 06:01:00,2014-06-14 06:58:00,57.0,23642.38,False,"{""0"": 57, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-14_02,Washing Machine,Appliance5,Shiftable,2014-06-14 07:00:00,2014-06-14 08:31:00,91.0,35486.82,False,"{""0"": 91, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-18_01,Washing Machine,Appliance5,Shiftable,2014-06-18 14:04:00,2014-06-18 15:19:00,75.0,21625.29,True,"{""0"": 0, ""1"": 75, ""2"": 0}",1,1,1,0.5,6
+Washing_Machine_2014-06-18_02,Washing Machine,Appliance5,Shiftable,2014-06-18 16:20:00,2014-06-18 17:46:00,86.0,34128.53,True,"{""0"": 0, ""1"": 40, ""2"": 46}",2,1,2,1.0,6
+Washing_Machine_2014-06-18_03,Washing Machine,Appliance5,Shiftable,2014-06-18 17:48:00,2014-06-18 19:08:00,80.0,30882.92,True,"{""0"": 0, ""1"": 0, ""2"": 80}",2,2,2,1.0,6
+Washing_Machine_2014-06-20_01,Washing Machine,Appliance5,Shiftable,2014-06-20 18:05:00,2014-06-20 19:09:00,64.0,25796.82,True,"{""0"": 0, ""1"": 0, ""2"": 64}",2,2,2,1.0,6
+Washing_Machine_2014-06-21_01,Washing Machine,Appliance5,Shiftable,2014-06-21 06:35:00,2014-06-21 07:42:00,67.0,20853.54,False,"{""0"": 67, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-22_01,Washing Machine,Appliance5,Shiftable,2014-06-22 08:10:00,2014-06-22 08:58:00,48.0,26631.75,False,"{""0"": 48, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-25_01,Washing Machine,Appliance5,Shiftable,2014-06-25 18:50:00,2014-06-25 19:49:00,59.0,25468.28,True,"{""0"": 0, ""1"": 0, ""2"": 59}",2,2,2,1.0,6
+Washing_Machine_2014-06-27_01,Washing Machine,Appliance5,Shiftable,2014-06-27 04:39:00,2014-06-27 05:50:00,71.0,28945.85,False,"{""0"": 71, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-27_02,Washing Machine,Appliance5,Shiftable,2014-06-27 18:31:00,2014-06-27 19:44:00,73.0,32096.99,True,"{""0"": 0, ""1"": 0, ""2"": 73}",2,2,2,1.0,6
+Washing_Machine_2014-06-28_01,Washing Machine,Appliance5,Shiftable,2014-06-28 06:48:00,2014-06-28 07:53:00,65.0,24199.64,False,"{""0"": 65, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-06-28_02,Washing Machine,Appliance5,Shiftable,2014-06-28 08:15:00,2014-06-28 09:17:00,62.0,27012.95,False,"{""0"": 62, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2014-07-01_01,Washing Machine,Appliance5,Shiftable,2014-07-01 06:30:00,2014-07-01 07:28:00,58.0,22741.15,False,"{""0"": 58, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-07-01_02,Washing Machine,Appliance5,Shiftable,2014-07-01 07:29:00,2014-07-01 08:28:00,59.0,24650.65,False,"{""0"": 59, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-07-02_01,Washing Machine,Appliance5,Shiftable,2014-07-02 18:58:00,2014-07-02 20:01:00,63.0,30216.05,True,"{""0"": 0, ""1"": 1, ""2"": 62}",2,2,1,1.0,7
+Washing_Machine_2014-07-02_02,Washing Machine,Appliance5,Shiftable,2014-07-02 20:07:00,2014-07-02 21:20:00,73.0,25914.63,True,"{""0"": 0, ""1"": 73, ""2"": 0}",1,1,1,0.5,7
+Washing_Machine_2014-07-04_01,Washing Machine,Appliance5,Shiftable,2014-07-04 17:35:00,2014-07-04 18:22:00,47.0,23246.32,True,"{""0"": 0, ""1"": 0, ""2"": 47}",2,2,2,1.0,7
+Washing_Machine_2014-07-06_01,Washing Machine,Appliance5,Shiftable,2014-07-06 08:04:00,2014-07-06 09:02:00,58.0,26329.55,False,"{""0"": 58, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-07-09_01,Washing Machine,Appliance5,Shiftable,2014-07-09 04:49:00,2014-07-09 05:46:00,57.0,27460.37,False,"{""0"": 57, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-07-10_01,Washing Machine,Appliance5,Shiftable,2014-07-10 04:27:00,2014-07-10 05:46:00,79.0,30656.69,False,"{""0"": 79, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-07-10_03,Washing Machine,Appliance5,Shiftable,2014-07-10 09:05:00,2014-07-10 10:13:00,68.0,27960.52,False,"{""0"": 68, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-07-10_04,Washing Machine,Appliance5,Shiftable,2014-07-10 11:59:00,2014-07-10 13:18:00,79.0,29434.12,False,"{""0"": 79, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-07-10_05,Washing Machine,Appliance5,Shiftable,2014-07-10 17:37:00,2014-07-10 18:58:00,81.0,26802.22,True,"{""0"": 0, ""1"": 0, ""2"": 81}",2,2,2,1.0,7
+Washing_Machine_2014-07-12_01,Washing Machine,Appliance5,Shiftable,2014-07-12 06:28:00,2014-07-12 07:32:00,64.0,19670.0,False,"{""0"": 64, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-07-12_02,Washing Machine,Appliance5,Shiftable,2014-07-12 08:46:00,2014-07-12 09:08:00,22.0,6008.24,False,"{""0"": 22, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-07-12_03,Washing Machine,Appliance5,Shiftable,2014-07-12 09:29:00,2014-07-12 10:29:00,60.0,24613.38,False,"{""0"": 60, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Washing_Machine_2014-08-08_01,Washing Machine,Appliance5,Shiftable,2014-08-08 18:41:00,2014-08-08 19:42:00,61.0,20016.1,True,"{""0"": 0, ""1"": 0, ""2"": 61}",2,2,2,1.0,8
+Washing_Machine_2014-08-08_02,Washing Machine,Appliance5,Shiftable,2014-08-08 19:46:00,2014-08-08 21:02:00,76.0,20463.52,True,"{""0"": 0, ""1"": 62, ""2"": 14}",1,2,1,0.5,8
+Washing_Machine_2014-08-09_01,Washing Machine,Appliance5,Shiftable,2014-08-09 07:13:00,2014-08-09 08:11:00,58.0,21654.91,False,"{""0"": 58, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-09_02,Washing Machine,Appliance5,Shiftable,2014-08-09 08:37:00,2014-08-09 09:13:00,36.0,18549.4,False,"{""0"": 36, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-11_01,Washing Machine,Appliance5,Shiftable,2014-08-11 09:37:00,2014-08-11 10:47:00,70.0,24672.4,False,"{""0"": 70, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-11_02,Washing Machine,Appliance5,Shiftable,2014-08-11 11:26:00,2014-08-11 12:30:00,64.0,28898.35,False,"{""0"": 64, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-11_03,Washing Machine,Appliance5,Shiftable,2014-08-11 12:31:00,2014-08-11 12:55:00,24.0,3340.82,False,"{""0"": 24, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-13_01,Washing Machine,Appliance5,Shiftable,2014-08-13 13:22:00,2014-08-13 14:40:00,78.0,28406.12,True,"{""0"": 38, ""1"": 40, ""2"": 0}",1,0,1,0.5,8
+Washing_Machine_2014-08-15_01,Washing Machine,Appliance5,Shiftable,2014-08-15 11:32:00,2014-08-15 12:43:00,71.0,31063.87,False,"{""0"": 71, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-17_01,Washing Machine,Appliance5,Shiftable,2014-08-17 10:27:00,2014-08-17 11:30:00,63.0,30517.77,False,"{""0"": 63, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-17_02,Washing Machine,Appliance5,Shiftable,2014-08-17 13:06:00,2014-08-17 14:37:00,91.0,37045.02,True,"{""0"": 54, ""1"": 37, ""2"": 0}",0,0,1,0.0,8
+Washing_Machine_2014-08-20_01,Washing Machine,Appliance5,Shiftable,2014-08-20 16:55:00,2014-08-20 17:53:00,58.0,25432.41,True,"{""0"": 0, ""1"": 5, ""2"": 53}",2,1,2,1.0,8
+Washing_Machine_2014-08-22_01,Washing Machine,Appliance5,Shiftable,2014-08-22 17:15:00,2014-08-22 18:37:00,82.0,27994.37,True,"{""0"": 0, ""1"": 0, ""2"": 82}",2,2,2,1.0,8
+Washing_Machine_2014-08-22_02,Washing Machine,Appliance5,Shiftable,2014-08-22 18:40:00,2014-08-22 19:44:00,64.0,26653.32,True,"{""0"": 0, ""1"": 0, ""2"": 64}",2,2,2,1.0,8
+Washing_Machine_2014-08-23_01,Washing Machine,Appliance5,Shiftable,2014-08-23 08:20:00,2014-08-23 09:39:00,79.0,33893.7,False,"{""0"": 79, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-23_02,Washing Machine,Appliance5,Shiftable,2014-08-23 09:44:00,2014-08-23 11:08:00,84.0,31732.84,False,"{""0"": 84, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-24_01,Washing Machine,Appliance5,Shiftable,2014-08-24 09:48:00,2014-08-24 11:11:00,83.0,31056.01,False,"{""0"": 83, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-27_01,Washing Machine,Appliance5,Shiftable,2014-08-27 11:16:00,2014-08-27 12:29:00,73.0,32814.68,False,"{""0"": 73, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-29_01,Washing Machine,Appliance5,Shiftable,2014-08-29 07:06:00,2014-08-29 08:18:00,72.0,20967.13,False,"{""0"": 72, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-30_01,Washing Machine,Appliance5,Shiftable,2014-08-30 09:23:00,2014-08-30 10:32:00,69.0,26422.47,False,"{""0"": 69, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-08-30_02,Washing Machine,Appliance5,Shiftable,2014-08-30 10:42:00,2014-08-30 11:47:00,65.0,31495.6,False,"{""0"": 65, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Washing_Machine_2014-09-02_01,Washing Machine,Appliance5,Shiftable,2014-09-02 16:46:00,2014-09-02 19:15:00,149.0,58691.23,True,"{""0"": 0, ""1"": 14, ""2"": 135}",2,1,2,1.0,9
+Washing_Machine_2014-09-03_01,Washing Machine,Appliance5,Shiftable,2014-09-03 19:38:00,2014-09-03 20:33:00,55.0,26255.78,True,"{""0"": 0, ""1"": 33, ""2"": 22}",1,2,1,0.5,9
+Washing_Machine_2014-09-04_01,Washing Machine,Appliance5,Shiftable,2014-09-04 12:16:00,2014-09-04 13:37:00,81.0,10086.21,False,"{""0"": 81, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-05_01,Washing Machine,Appliance5,Shiftable,2014-09-05 11:49:00,2014-09-05 12:06:00,17.0,6868.99,False,"{""0"": 17, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-05_02,Washing Machine,Appliance5,Shiftable,2014-09-05 19:26:00,2014-09-05 20:26:00,60.0,30656.57,True,"{""0"": 0, ""1"": 26, ""2"": 34}",2,2,1,1.0,9
+Washing_Machine_2014-09-06_01,Washing Machine,Appliance5,Shiftable,2014-09-06 06:24:00,2014-09-06 09:04:00,160.0,54034.38,False,"{""0"": 160, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-10_01,Washing Machine,Appliance5,Shiftable,2014-09-10 07:31:00,2014-09-10 08:31:00,60.0,20270.21,False,"{""0"": 60, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-11_01,Washing Machine,Appliance5,Shiftable,2014-09-11 17:38:00,2014-09-11 18:51:00,73.0,32397.14,True,"{""0"": 0, ""1"": 0, ""2"": 73}",2,2,2,1.0,9
+Washing_Machine_2014-09-12_01,Washing Machine,Appliance5,Shiftable,2014-09-12 06:53:00,2014-09-12 08:11:00,78.0,26250.37,False,"{""0"": 78, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-12_02,Washing Machine,Appliance5,Shiftable,2014-09-12 16:56:00,2014-09-12 18:01:00,65.0,29644.06,True,"{""0"": 0, ""1"": 4, ""2"": 61}",2,1,2,1.0,9
+Washing_Machine_2014-09-16_01,Washing Machine,Appliance5,Shiftable,2014-09-16 16:48:00,2014-09-16 17:46:00,58.0,23577.88,True,"{""0"": 0, ""1"": 12, ""2"": 46}",2,1,2,1.0,9
+Washing_Machine_2014-09-17_01,Washing Machine,Appliance5,Shiftable,2014-09-17 18:59:00,2014-09-17 20:31:00,92.0,32956.07,True,"{""0"": 0, ""1"": 31, ""2"": 61}",2,2,1,1.0,9
+Washing_Machine_2014-09-18_01,Washing Machine,Appliance5,Shiftable,2014-09-18 09:45:00,2014-09-18 10:55:00,70.0,26190.19,False,"{""0"": 70, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-19_01,Washing Machine,Appliance5,Shiftable,2014-09-19 04:00:00,2014-09-19 05:15:00,75.0,26980.72,False,"{""0"": 75, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-20_01,Washing Machine,Appliance5,Shiftable,2014-09-20 09:25:00,2014-09-20 10:36:00,71.0,27801.87,False,"{""0"": 71, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-21_01,Washing Machine,Appliance5,Shiftable,2014-09-21 09:33:00,2014-09-21 10:44:00,71.0,25200.98,False,"{""0"": 71, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-21_02,Washing Machine,Appliance5,Shiftable,2014-09-21 10:45:00,2014-09-21 12:03:00,78.0,31130.61,False,"{""0"": 78, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-23_01,Washing Machine,Appliance5,Shiftable,2014-09-23 18:23:00,2014-09-23 19:52:00,89.0,37124.94,True,"{""0"": 0, ""1"": 0, ""2"": 89}",2,2,2,1.0,9
+Washing_Machine_2014-09-26_01,Washing Machine,Appliance5,Shiftable,2014-09-26 08:02:00,2014-09-26 09:15:00,73.0,24626.03,False,"{""0"": 73, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-26_02,Washing Machine,Appliance5,Shiftable,2014-09-26 17:24:00,2014-09-26 18:33:00,69.0,28940.91,True,"{""0"": 0, ""1"": 0, ""2"": 69}",2,2,2,1.0,9
+Washing_Machine_2014-09-27_01,Washing Machine,Appliance5,Shiftable,2014-09-27 09:54:00,2014-09-27 11:00:00,66.0,29888.62,False,"{""0"": 66, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2014-09-28_03,Washing Machine,Appliance5,Shiftable,2014-09-28 13:52:00,2014-09-28 15:11:00,79.0,28304.92,True,"{""0"": 8, ""1"": 71, ""2"": 0}",1,0,1,0.5,9
+Washing_Machine_2014-09-29_01,Washing Machine,Appliance5,Shiftable,2014-09-29 02:59:00,2014-09-29 04:11:00,72.0,27455.37,False,"{""0"": 72, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Washing_Machine_2015-06-06_01,Washing Machine,Appliance5,Shiftable,2015-06-06 05:38:00,2015-06-06 06:30:00,52.0,25628.76,False,"{""0"": 52, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2015-06-22_01,Washing Machine,Appliance5,Shiftable,2015-06-22 23:06:00,2015-06-22 23:58:00,52.0,24579.64,True,"{""0"": 0, ""1"": 52, ""2"": 0}",1,1,1,0.5,6
+Washing_Machine_2015-06-23_02,Washing Machine,Appliance5,Shiftable,2015-06-23 05:01:00,2015-06-23 05:53:00,52.0,27109.99,False,"{""0"": 52, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Washing_Machine_2015-06-28_01,Washing Machine,Appliance5,Shiftable,2015-06-28 22:40:00,2015-06-28 23:46:00,66.0,30218.63,True,"{""0"": 0, ""1"": 66, ""2"": 0}",1,1,1,0.5,6
+Washing_Machine_2015-07-02_01,Washing Machine,Appliance5,Shiftable,2015-07-02 18:54:00,2015-07-02 20:02:00,68.0,38191.62,True,"{""0"": 0, ""1"": 2, ""2"": 66}",2,2,1,1.0,7
+Washing_Machine_2015-07-02_02,Washing Machine,Appliance5,Shiftable,2015-07-02 20:04:00,2015-07-02 20:35:00,31.0,14437.91,True,"{""0"": 0, ""1"": 31, ""2"": 0}",1,1,1,0.5,7
+Washing_Machine_2015-07-03_01,Washing Machine,Appliance5,Shiftable,2015-07-03 22:37:00,2015-07-03 23:30:00,53.0,26312.91,True,"{""0"": 0, ""1"": 53, ""2"": 0}",1,1,1,0.5,7
+Washing_Machine_2015-07-04_01,Washing Machine,Appliance5,Shiftable,2015-07-04 18:17:00,2015-07-04 19:09:00,52.0,23466.65,True,"{""0"": 0, ""1"": 0, ""2"": 52}",2,2,2,1.0,7
+Dishwasher_2014-06-01_01,Dishwasher,Appliance6,Shiftable,2014-06-01 14:56:00,2014-06-01 15:31:00,35.0,47789.88,True,"{""0"": 0, ""1"": 35, ""2"": 0}",1,1,1,0.5,6
+Dishwasher_2014-06-01_03,Dishwasher,Appliance6,Shiftable,2014-06-01 16:45:00,2014-06-01 17:15:00,30.0,22950.85,True,"{""0"": 0, ""1"": 15, ""2"": 15}",1,1,2,0.5,6
+Dishwasher_2014-06-03_01,Dishwasher,Appliance6,Shiftable,2014-06-03 04:25:00,2014-06-03 04:58:00,33.0,45220.16,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2014-06-03_03,Dishwasher,Appliance6,Shiftable,2014-06-03 19:08:00,2014-06-03 19:41:00,33.0,42346.45,True,"{""0"": 0, ""1"": 0, ""2"": 33}",2,2,2,1.0,6
+Dishwasher_2014-06-04_01,Dishwasher,Appliance6,Shiftable,2014-06-04 19:06:00,2014-06-04 19:39:00,33.0,45015.2,True,"{""0"": 0, ""1"": 0, ""2"": 33}",2,2,2,1.0,6
+Dishwasher_2014-06-05_01,Dishwasher,Appliance6,Shiftable,2014-06-05 17:49:00,2014-06-05 18:32:00,43.0,46688.71,True,"{""0"": 0, ""1"": 0, ""2"": 43}",2,2,2,1.0,6
+Dishwasher_2014-06-06_01,Dishwasher,Appliance6,Shiftable,2014-06-06 14:23:00,2014-06-06 15:45:00,82.0,77487.07,True,"{""0"": 0, ""1"": 82, ""2"": 0}",1,1,1,0.5,6
+Dishwasher_2014-06-08_01,Dishwasher,Appliance6,Shiftable,2014-06-08 07:08:00,2014-06-08 07:41:00,33.0,33326.79,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2014-06-09_01,Dishwasher,Appliance6,Shiftable,2014-06-09 17:02:00,2014-06-09 17:36:00,34.0,43681.32,True,"{""0"": 0, ""1"": 0, ""2"": 34}",2,2,2,1.0,6
+Dishwasher_2014-06-10_01,Dishwasher,Appliance6,Shiftable,2014-06-10 18:04:00,2014-06-10 18:37:00,33.0,44392.39,True,"{""0"": 0, ""1"": 0, ""2"": 33}",2,2,2,1.0,6
+Dishwasher_2014-06-13_01,Dishwasher,Appliance6,Shiftable,2014-06-13 05:16:00,2014-06-13 05:49:00,33.0,43793.62,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2014-06-13_03,Dishwasher,Appliance6,Shiftable,2014-06-13 20:21:00,2014-06-13 20:53:00,32.0,42848.46,True,"{""0"": 0, ""1"": 32, ""2"": 0}",1,1,1,0.5,6
+Dishwasher_2014-06-14_01,Dishwasher,Appliance6,Shiftable,2014-06-14 18:13:00,2014-06-14 18:53:00,40.0,42992.23,True,"{""0"": 0, ""1"": 0, ""2"": 40}",2,2,2,1.0,6
+Dishwasher_2014-06-16_01,Dishwasher,Appliance6,Shiftable,2014-06-16 10:07:00,2014-06-16 10:41:00,34.0,707.89,False,"{""0"": 34, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2014-06-17_01,Dishwasher,Appliance6,Shiftable,2014-06-17 18:07:00,2014-06-17 18:39:00,32.0,44307.55,True,"{""0"": 0, ""1"": 0, ""2"": 32}",2,2,2,1.0,6
+Dishwasher_2014-06-19_01,Dishwasher,Appliance6,Shiftable,2014-06-19 18:39:00,2014-06-19 19:17:00,38.0,46144.64,True,"{""0"": 0, ""1"": 0, ""2"": 38}",2,2,2,1.0,6
+Dishwasher_2014-06-22_02,Dishwasher,Appliance6,Shiftable,2014-06-22 20:32:00,2014-06-22 21:05:00,33.0,43812.37,True,"{""0"": 0, ""1"": 33, ""2"": 0}",1,1,1,0.5,6
+Dishwasher_2014-06-23_01,Dishwasher,Appliance6,Shiftable,2014-06-23 19:48:00,2014-06-23 20:19:00,31.0,41034.81,True,"{""0"": 0, ""1"": 19, ""2"": 12}",1,2,1,0.5,6
+Dishwasher_2014-06-24_01,Dishwasher,Appliance6,Shiftable,2014-06-24 18:10:00,2014-06-24 18:41:00,31.0,38669.9,True,"{""0"": 0, ""1"": 0, ""2"": 31}",2,2,2,1.0,6
+Dishwasher_2014-06-26_01,Dishwasher,Appliance6,Shiftable,2014-06-26 06:15:00,2014-06-26 06:48:00,33.0,32421.09,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2014-06-28_01,Dishwasher,Appliance6,Shiftable,2014-06-28 08:44:00,2014-06-28 09:28:00,44.0,47724.83,False,"{""0"": 44, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2014-06-29_01,Dishwasher,Appliance6,Shiftable,2014-06-29 08:52:00,2014-06-29 09:25:00,33.0,45607.84,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2014-06-29_03,Dishwasher,Appliance6,Shiftable,2014-06-29 16:38:00,2014-06-29 17:10:00,32.0,41665.34,True,"{""0"": 0, ""1"": 22, ""2"": 10}",1,1,2,0.5,6
+Dishwasher_2014-06-30_01,Dishwasher,Appliance6,Shiftable,2014-06-30 18:06:00,2014-06-30 18:39:00,33.0,44384.33,True,"{""0"": 0, ""1"": 0, ""2"": 33}",2,2,2,1.0,6
+Dishwasher_2014-07-02_01,Dishwasher,Appliance6,Shiftable,2014-07-02 18:23:00,2014-07-02 18:56:00,33.0,44156.22,True,"{""0"": 0, ""1"": 0, ""2"": 33}",2,2,2,1.0,7
+Dishwasher_2014-07-03_01,Dishwasher,Appliance6,Shiftable,2014-07-03 18:35:00,2014-07-03 19:07:00,32.0,43515.87,True,"{""0"": 0, ""1"": 0, ""2"": 32}",2,2,2,1.0,7
+Dishwasher_2014-07-05_01,Dishwasher,Appliance6,Shiftable,2014-07-05 16:43:00,2014-07-05 17:16:00,33.0,43647.2,True,"{""0"": 0, ""1"": 17, ""2"": 16}",1,1,2,0.5,7
+Dishwasher_2014-07-07_01,Dishwasher,Appliance6,Shiftable,2014-07-07 17:49:00,2014-07-07 18:22:00,33.0,42531.14,True,"{""0"": 0, ""1"": 0, ""2"": 33}",2,2,2,1.0,7
+Dishwasher_2014-07-08_01,Dishwasher,Appliance6,Shiftable,2014-07-08 20:42:00,2014-07-08 21:23:00,41.0,43844.9,True,"{""0"": 0, ""1"": 41, ""2"": 0}",1,1,1,0.5,7
+Dishwasher_2014-07-11_01,Dishwasher,Appliance6,Shiftable,2014-07-11 06:28:00,2014-07-11 07:00:00,32.0,43454.81,False,"{""0"": 32, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Dishwasher_2014-07-11_03,Dishwasher,Appliance6,Shiftable,2014-07-11 18:19:00,2014-07-11 18:50:00,31.0,39622.64,True,"{""0"": 0, ""1"": 0, ""2"": 31}",2,2,2,1.0,7
+Dishwasher_2014-07-12_01,Dishwasher,Appliance6,Shiftable,2014-07-12 20:07:00,2014-07-12 20:39:00,32.0,40328.42,True,"{""0"": 0, ""1"": 32, ""2"": 0}",1,1,1,0.5,7
+Dishwasher_2014-07-13_01,Dishwasher,Appliance6,Shiftable,2014-07-13 16:41:00,2014-07-13 17:13:00,32.0,38878.55,True,"{""0"": 0, ""1"": 19, ""2"": 13}",1,1,2,0.5,7
+Dishwasher_2014-08-09_01,Dishwasher,Appliance6,Shiftable,2014-08-09 12:18:00,2014-08-09 12:59:00,41.0,42839.39,False,"{""0"": 41, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Dishwasher_2014-08-09_04,Dishwasher,Appliance6,Shiftable,2014-08-09 20:07:00,2014-08-09 20:37:00,30.0,38012.12,True,"{""0"": 0, ""1"": 30, ""2"": 0}",1,1,1,0.5,8
+Dishwasher_2014-08-11_01,Dishwasher,Appliance6,Shiftable,2014-08-11 14:37:00,2014-08-11 15:10:00,33.0,45770.92,True,"{""0"": 0, ""1"": 33, ""2"": 0}",1,1,1,0.5,8
+Dishwasher_2014-08-12_02,Dishwasher,Appliance6,Shiftable,2014-08-12 11:38:00,2014-08-12 12:10:00,32.0,41709.22,False,"{""0"": 32, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Dishwasher_2014-08-12_04,Dishwasher,Appliance6,Shiftable,2014-08-12 20:33:00,2014-08-12 21:04:00,31.0,35381.48,True,"{""0"": 0, ""1"": 31, ""2"": 0}",1,1,1,0.5,8
+Dishwasher_2014-08-14_01,Dishwasher,Appliance6,Shiftable,2014-08-14 05:01:00,2014-08-14 05:34:00,33.0,45090.42,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Dishwasher_2014-08-15_01,Dishwasher,Appliance6,Shiftable,2014-08-15 07:04:00,2014-08-15 07:37:00,33.0,43975.2,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Dishwasher_2014-08-16_01,Dishwasher,Appliance6,Shiftable,2014-08-16 12:09:00,2014-08-16 12:43:00,34.0,44747.58,False,"{""0"": 34, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Dishwasher_2014-08-17_01,Dishwasher,Appliance6,Shiftable,2014-08-17 18:03:00,2014-08-17 18:46:00,43.0,46099.36,True,"{""0"": 0, ""1"": 0, ""2"": 43}",2,2,2,1.0,8
+Dishwasher_2014-08-19_01,Dishwasher,Appliance6,Shiftable,2014-08-19 18:23:00,2014-08-19 19:01:00,38.0,46817.32,True,"{""0"": 0, ""1"": 0, ""2"": 38}",2,2,2,1.0,8
+Dishwasher_2014-08-20_01,Dishwasher,Appliance6,Shiftable,2014-08-20 19:07:00,2014-08-20 19:40:00,33.0,43074.38,True,"{""0"": 0, ""1"": 0, ""2"": 33}",2,2,2,1.0,8
+Dishwasher_2014-08-22_01,Dishwasher,Appliance6,Shiftable,2014-08-22 19:27:00,2014-08-22 20:01:00,34.0,47632.1,True,"{""0"": 0, ""1"": 1, ""2"": 33}",2,2,1,1.0,8
+Dishwasher_2014-08-23_01,Dishwasher,Appliance6,Shiftable,2014-08-23 19:45:00,2014-08-23 20:18:00,33.0,45132.51,True,"{""0"": 0, ""1"": 18, ""2"": 15}",1,2,1,0.5,8
+Dishwasher_2014-08-25_01,Dishwasher,Appliance6,Shiftable,2014-08-25 12:25:00,2014-08-25 13:05:00,40.0,49613.34,False,"{""0"": 40, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Dishwasher_2014-08-25_03,Dishwasher,Appliance6,Shiftable,2014-08-25 23:10:00,2014-08-25 23:43:00,33.0,43557.48,True,"{""0"": 0, ""1"": 33, ""2"": 0}",1,1,1,0.5,8
+Dishwasher_2014-08-27_01,Dishwasher,Appliance6,Shiftable,2014-08-27 18:40:00,2014-08-27 19:14:00,34.0,48366.95,True,"{""0"": 0, ""1"": 0, ""2"": 34}",2,2,2,1.0,8
+Dishwasher_2014-08-29_01,Dishwasher,Appliance6,Shiftable,2014-08-29 17:08:00,2014-08-29 17:51:00,43.0,48293.31,True,"{""0"": 0, ""1"": 0, ""2"": 43}",2,2,2,1.0,8
+Dishwasher_2014-09-02_01,Dishwasher,Appliance6,Shiftable,2014-09-02 19:29:00,2014-09-02 20:01:00,32.0,44827.71,True,"{""0"": 0, ""1"": 1, ""2"": 31}",2,2,1,1.0,9
+Dishwasher_2014-09-03_01,Dishwasher,Appliance6,Shiftable,2014-09-03 20:43:00,2014-09-03 21:15:00,32.0,43180.96,True,"{""0"": 0, ""1"": 32, ""2"": 0}",1,1,1,0.5,9
+Dishwasher_2014-09-04_01,Dishwasher,Appliance6,Shiftable,2014-09-04 21:24:00,2014-09-04 21:57:00,33.0,44318.52,True,"{""0"": 0, ""1"": 33, ""2"": 0}",1,1,1,0.5,9
+Dishwasher_2014-09-05_01,Dishwasher,Appliance6,Shiftable,2014-09-05 19:23:00,2014-09-05 19:55:00,32.0,43237.91,True,"{""0"": 0, ""1"": 0, ""2"": 32}",2,2,2,1.0,9
+Dishwasher_2014-09-06_01,Dishwasher,Appliance6,Shiftable,2014-09-06 20:34:00,2014-09-06 21:06:00,32.0,44672.15,True,"{""0"": 0, ""1"": 32, ""2"": 0}",1,1,1,0.5,9
+Dishwasher_2014-09-07_01,Dishwasher,Appliance6,Shiftable,2014-09-07 18:06:00,2014-09-07 18:39:00,33.0,43678.85,True,"{""0"": 0, ""1"": 0, ""2"": 33}",2,2,2,1.0,9
+Dishwasher_2014-09-08_01,Dishwasher,Appliance6,Shiftable,2014-09-08 18:41:00,2014-09-08 19:22:00,41.0,43979.15,True,"{""0"": 0, ""1"": 0, ""2"": 41}",2,2,2,1.0,9
+Dishwasher_2014-09-09_01,Dishwasher,Appliance6,Shiftable,2014-09-09 19:13:00,2014-09-09 19:45:00,32.0,42949.54,True,"{""0"": 0, ""1"": 0, ""2"": 32}",2,2,2,1.0,9
+Dishwasher_2014-09-10_01,Dishwasher,Appliance6,Shiftable,2014-09-10 19:55:00,2014-09-10 20:28:00,33.0,41908.64,True,"{""0"": 0, ""1"": 28, ""2"": 5}",1,2,1,0.5,9
+Dishwasher_2014-09-11_01,Dishwasher,Appliance6,Shiftable,2014-09-11 19:19:00,2014-09-11 19:52:00,33.0,42580.28,True,"{""0"": 0, ""1"": 0, ""2"": 33}",2,2,2,1.0,9
+Dishwasher_2014-09-13_01,Dishwasher,Appliance6,Shiftable,2014-09-13 20:05:00,2014-09-13 20:43:00,38.0,47105.05,True,"{""0"": 0, ""1"": 38, ""2"": 0}",1,1,1,0.5,9
+Dishwasher_2014-09-15_01,Dishwasher,Appliance6,Shiftable,2014-09-15 20:09:00,2014-09-15 20:42:00,33.0,46858.98,True,"{""0"": 0, ""1"": 33, ""2"": 0}",1,1,1,0.5,9
+Dishwasher_2014-09-17_01,Dishwasher,Appliance6,Shiftable,2014-09-17 16:53:00,2014-09-17 17:27:00,34.0,46288.39,True,"{""0"": 0, ""1"": 7, ""2"": 27}",2,1,2,1.0,9
+Dishwasher_2014-09-17_03,Dishwasher,Appliance6,Shiftable,2014-09-17 18:48:00,2014-09-17 19:17:00,29.0,35858.21,True,"{""0"": 0, ""1"": 0, ""2"": 29}",2,2,2,1.0,9
+Dishwasher_2014-09-19_01,Dishwasher,Appliance6,Shiftable,2014-09-19 05:00:00,2014-09-19 05:41:00,41.0,45286.47,False,"{""0"": 41, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Dishwasher_2014-09-19_03,Dishwasher,Appliance6,Shiftable,2014-09-19 19:42:00,2014-09-19 20:14:00,32.0,43433.88,True,"{""0"": 0, ""1"": 14, ""2"": 18}",2,2,1,1.0,9
+Dishwasher_2014-09-21_01,Dishwasher,Appliance6,Shiftable,2014-09-21 12:01:00,2014-09-21 12:35:00,34.0,46237.14,False,"{""0"": 34, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Dishwasher_2014-09-21_03,Dishwasher,Appliance6,Shiftable,2014-09-21 19:15:00,2014-09-21 19:46:00,31.0,39754.86,True,"{""0"": 0, ""1"": 0, ""2"": 31}",2,2,2,1.0,9
+Dishwasher_2014-09-22_01,Dishwasher,Appliance6,Shiftable,2014-09-22 18:28:00,2014-09-22 19:02:00,34.0,44944.16,True,"{""0"": 0, ""1"": 0, ""2"": 34}",2,2,2,1.0,9
+Dishwasher_2014-09-24_01,Dishwasher,Appliance6,Shiftable,2014-09-24 17:27:00,2014-09-24 18:01:00,34.0,46599.96,True,"{""0"": 0, ""1"": 0, ""2"": 34}",2,2,2,1.0,9
+Dishwasher_2014-09-24_03,Dishwasher,Appliance6,Shiftable,2014-09-24 19:19:00,2014-09-24 19:48:00,29.0,36459.93,True,"{""0"": 0, ""1"": 0, ""2"": 29}",2,2,2,1.0,9
+Dishwasher_2014-09-25_01,Dishwasher,Appliance6,Shiftable,2014-09-25 22:19:00,2014-09-25 22:52:00,33.0,45826.96,True,"{""0"": 0, ""1"": 33, ""2"": 0}",1,1,1,0.5,9
+Dishwasher_2014-09-26_02,Dishwasher,Appliance6,Shiftable,2014-09-26 23:55:00,2014-09-27 00:37:00,42.0,47359.75,True,"{""0"": 0, ""1"": 5, ""2"": 0}",1,1,0,0.5,9
+Dishwasher_2014-09-28_01,Dishwasher,Appliance6,Shiftable,2014-09-28 10:05:00,2014-09-28 10:42:00,37.0,46102.52,False,"{""0"": 37, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Dishwasher_2014-09-28_03,Dishwasher,Appliance6,Shiftable,2014-09-28 18:21:00,2014-09-28 18:52:00,31.0,42157.78,True,"{""0"": 0, ""1"": 0, ""2"": 31}",2,2,2,1.0,9
+Dishwasher_2014-09-29_01,Dishwasher,Appliance6,Shiftable,2014-09-29 22:06:00,2014-09-29 22:38:00,32.0,43076.07,True,"{""0"": 0, ""1"": 32, ""2"": 0}",1,1,1,0.5,9
+Dishwasher_2015-06-01_01,Dishwasher,Appliance6,Shiftable,2015-06-01 01:01:00,2015-06-01 01:34:00,33.0,41383.47,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2015-06-03_01,Dishwasher,Appliance6,Shiftable,2015-06-03 08:12:00,2015-06-03 08:50:00,38.0,41685.44,False,"{""0"": 38, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2015-06-05_01,Dishwasher,Appliance6,Shiftable,2015-06-05 23:41:00,2015-06-06 00:14:00,33.0,37603.85,True,"{""0"": 0, ""1"": 19, ""2"": 0}",1,1,0,0.5,6
+Dishwasher_2015-06-09_01,Dishwasher,Appliance6,Shiftable,2015-06-09 08:30:00,2015-06-09 09:03:00,33.0,41388.57,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2015-06-09_02,Dishwasher,Appliance6,Shiftable,2015-06-09 21:13:00,2015-06-09 21:46:00,33.0,38065.81,True,"{""0"": 0, ""1"": 33, ""2"": 0}",1,1,1,0.5,6
+Dishwasher_2015-06-18_01,Dishwasher,Appliance6,Shiftable,2015-06-18 08:47:00,2015-06-18 09:20:00,33.0,38899.59,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2015-06-22_01,Dishwasher,Appliance6,Shiftable,2015-06-22 22:35:00,2015-06-22 23:08:00,33.0,37447.78,True,"{""0"": 0, ""1"": 33, ""2"": 0}",1,1,1,0.5,6
+Dishwasher_2015-06-25_01,Dishwasher,Appliance6,Shiftable,2015-06-25 18:36:00,2015-06-25 19:06:00,30.0,36694.76,True,"{""0"": 0, ""1"": 0, ""2"": 30}",2,2,2,1.0,6
+Dishwasher_2015-06-28_01,Dishwasher,Appliance6,Shiftable,2015-06-28 09:58:00,2015-06-28 10:30:00,32.0,35742.96,False,"{""0"": 32, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Dishwasher_2015-06-29_01,Dishwasher,Appliance6,Shiftable,2015-06-29 23:14:00,2015-06-29 23:52:00,38.0,39860.69,True,"{""0"": 0, ""1"": 38, ""2"": 0}",1,1,1,0.5,6
+Dishwasher_2015-07-01_01,Dishwasher,Appliance6,Shiftable,2015-07-01 03:27:00,2015-07-01 04:00:00,33.0,33905.75,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Dishwasher_2015-07-02_01,Dishwasher,Appliance6,Shiftable,2015-07-02 02:22:00,2015-07-02 02:54:00,32.0,31190.86,False,"{""0"": 32, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Dishwasher_2015-07-03_01,Dishwasher,Appliance6,Shiftable,2015-07-03 04:57:00,2015-07-03 05:29:00,32.0,34602.48,False,"{""0"": 32, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Dishwasher_2015-07-04_01,Dishwasher,Appliance6,Shiftable,2015-07-04 14:09:00,2015-07-04 14:41:00,32.0,34235.75,True,"{""0"": 0, ""1"": 32, ""2"": 0}",1,1,1,0.5,7
+Dishwasher_2015-07-06_01,Dishwasher,Appliance6,Shiftable,2015-07-06 00:47:00,2015-07-06 01:25:00,38.0,37315.08,False,"{""0"": 38, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-06-01_03,Electric Heater,Appliance9,Shiftable,2014-06-01 00:40:00,2014-06-01 01:13:00,33.0,9694.5,False,"{""0"": 33, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-01_05,Electric Heater,Appliance9,Shiftable,2014-06-01 02:10:00,2014-06-01 02:55:00,45.0,13565.22,False,"{""0"": 45, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-01_07,Electric Heater,Appliance9,Shiftable,2014-06-01 03:51:00,2014-06-01 04:27:00,36.0,10456.12,False,"{""0"": 36, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-01_09,Electric Heater,Appliance9,Shiftable,2014-06-01 05:24:00,2014-06-01 05:54:00,30.0,8118.24,False,"{""0"": 30, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-01_11,Electric Heater,Appliance9,Shiftable,2014-06-01 06:50:00,2014-06-01 07:18:00,28.0,7111.53,False,"{""0"": 28, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-02_02,Electric Heater,Appliance9,Shiftable,2014-06-02 21:03:00,2014-06-02 21:18:00,15.0,3608.08,True,"{""0"": 0, ""1"": 15, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-02_04,Electric Heater,Appliance9,Shiftable,2014-06-02 22:15:00,2014-06-02 22:29:00,14.0,2797.25,True,"{""0"": 0, ""1"": 14, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-02_06,Electric Heater,Appliance9,Shiftable,2014-06-02 23:22:00,2014-06-02 23:36:00,14.0,3155.87,True,"{""0"": 0, ""1"": 14, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-03_03,Electric Heater,Appliance9,Shiftable,2014-06-03 00:03:00,2014-06-03 00:17:00,14.0,2922.5,False,"{""0"": 14, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-03_04,Electric Heater,Appliance9,Shiftable,2014-06-03 00:44:00,2014-06-03 00:59:00,15.0,2862.04,False,"{""0"": 15, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-03_05,Electric Heater,Appliance9,Shiftable,2014-06-03 01:26:00,2014-06-03 01:41:00,15.0,3254.66,False,"{""0"": 15, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-03_07,Electric Heater,Appliance9,Shiftable,2014-06-03 02:38:00,2014-06-03 02:54:00,16.0,3626.1,False,"{""0"": 16, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-03_08,Electric Heater,Appliance9,Shiftable,2014-06-03 03:21:00,2014-06-03 03:36:00,15.0,3345.23,False,"{""0"": 15, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-03_10,Electric Heater,Appliance9,Shiftable,2014-06-03 04:28:00,2014-06-03 04:43:00,15.0,3561.19,False,"{""0"": 15, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-03_11,Electric Heater,Appliance9,Shiftable,2014-06-03 05:10:00,2014-06-03 05:26:00,16.0,3482.37,False,"{""0"": 16, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-06_02,Electric Heater,Appliance9,Shiftable,2014-06-06 16:24:00,2014-06-06 16:36:00,12.0,4465.46,True,"{""0"": 0, ""1"": 12, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-07_04,Electric Heater,Appliance9,Shiftable,2014-06-07 13:31:00,2014-06-07 13:50:00,19.0,9315.42,False,"{""0"": 19, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-08_03,Electric Heater,Appliance9,Shiftable,2014-06-08 22:34:00,2014-06-08 22:53:00,19.0,4912.19,True,"{""0"": 0, ""1"": 19, ""2"": 0}",1,1,1,0.5,6
+Electric_Heater_2014-06-09_03,Electric Heater,Appliance9,Shiftable,2014-06-09 00:19:00,2014-06-09 00:43:00,24.0,5972.85,False,"{""0"": 24, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-09_05,Electric Heater,Appliance9,Shiftable,2014-06-09 01:39:00,2014-06-09 02:05:00,26.0,6716.32,False,"{""0"": 26, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-09_07,Electric Heater,Appliance9,Shiftable,2014-06-09 03:02:00,2014-06-09 03:27:00,25.0,6392.99,False,"{""0"": 25, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-09_09,Electric Heater,Appliance9,Shiftable,2014-06-09 04:23:00,2014-06-09 04:52:00,29.0,7788.73,False,"{""0"": 29, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-09_11,Electric Heater,Appliance9,Shiftable,2014-06-09 05:49:00,2014-06-09 07:05:00,76.0,23616.29,False,"{""0"": 76, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-09_13,Electric Heater,Appliance9,Shiftable,2014-06-09 07:52:00,2014-06-09 08:09:00,17.0,3987.43,False,"{""0"": 17, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-06-09_15,Electric Heater,Appliance9,Shiftable,2014-06-09 09:06:00,2014-06-09 09:13:00,7.0,158.23,False,"{""0"": 7, ""1"": 0, ""2"": 0}",0,0,0,0.0,6
+Electric_Heater_2014-07-02_01,Electric Heater,Appliance9,Shiftable,2014-07-02 15:18:00,2014-07-02 16:03:00,45.0,1441.93,True,"{""0"": 0, ""1"": 45, ""2"": 0}",1,1,1,0.5,7
+Electric_Heater_2014-07-02_02,Electric Heater,Appliance9,Shiftable,2014-07-02 22:41:00,2014-07-03 08:44:00,603.0,19812.46,True,"{""0"": 0, ""1"": 79, ""2"": 0}",1,1,0,0.5,7
+Electric_Heater_2014-07-04_01,Electric Heater,Appliance9,Shiftable,2014-07-04 00:36:00,2014-07-04 06:59:00,383.0,12686.73,False,"{""0"": 383, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-06_01,Electric Heater,Appliance9,Shiftable,2014-07-06 03:31:00,2014-07-06 03:42:00,11.0,362.3,False,"{""0"": 11, ""1"": 0, ""2"": 0}",0,0,0,0.0,7
+Electric_Heater_2014-07-06_02,Electric Heater,Appliance9,Shiftable,2014-07-06 20:47:00,2014-07-06 21:22:00,35.0,1138.23,True,"{""0"": 0, ""1"": 35, ""2"": 0}",1,1,1,0.5,7
+Electric_Heater_2014-08-09_01,Electric Heater,Appliance9,Shiftable,2014-08-09 21:44:00,2014-08-10 00:00:00,136.0,5155.16,True,"{""0"": 0, ""1"": 136, ""2"": 0}",1,1,0,0.5,8
+Electric_Heater_2014-08-10_01,Electric Heater,Appliance9,Shiftable,2014-08-10 04:45:00,2014-08-10 09:46:00,301.0,9896.62,False,"{""0"": 301, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Electric_Heater_2014-08-10_02,Electric Heater,Appliance9,Shiftable,2014-08-10 10:34:00,2014-08-10 11:30:00,56.0,1769.64,False,"{""0"": 56, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Electric_Heater_2014-08-11_02,Electric Heater,Appliance9,Shiftable,2014-08-11 12:20:00,2014-08-11 12:29:00,9.0,271.99,False,"{""0"": 9, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Electric_Heater_2014-08-12_01,Electric Heater,Appliance9,Shiftable,2014-08-12 03:29:00,2014-08-12 10:48:00,439.0,14293.17,False,"{""0"": 439, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Electric_Heater_2014-08-13_01,Electric Heater,Appliance9,Shiftable,2014-08-13 08:20:00,2014-08-13 08:57:00,37.0,1175.05,False,"{""0"": 37, ""1"": 0, ""2"": 0}",0,0,0,0.0,8
+Electric_Heater_2014-08-24_01,Electric Heater,Appliance9,Shiftable,2014-08-24 20:45:00,2014-08-24 21:44:00,59.0,2116.35,True,"{""0"": 0, ""1"": 59, ""2"": 0}",1,1,1,0.5,8
+Electric_Heater_2014-08-25_01,Electric Heater,Appliance9,Shiftable,2014-08-25 14:30:00,2014-08-25 14:38:00,8.0,186.14,True,"{""0"": 0, ""1"": 8, ""2"": 0}",1,1,1,0.5,8
+Electric_Heater_2014-09-04_04,Electric Heater,Appliance9,Shiftable,2014-09-04 02:13:00,2014-09-04 10:05:00,472.0,15519.71,False,"{""0"": 472, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-06_05,Electric Heater,Appliance9,Shiftable,2014-09-06 20:09:00,2014-09-06 22:39:00,150.0,4834.93,True,"{""0"": 0, ""1"": 150, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-07_05,Electric Heater,Appliance9,Shiftable,2014-09-07 16:07:00,2014-09-07 17:40:00,93.0,3498.62,True,"{""0"": 0, ""1"": 53, ""2"": 40}",1,1,2,0.5,9
+Electric_Heater_2014-09-07_06,Electric Heater,Appliance9,Shiftable,2014-09-07 20:28:00,2014-09-07 20:50:00,22.0,853.79,True,"{""0"": 0, ""1"": 22, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-08_03,Electric Heater,Appliance9,Shiftable,2014-09-08 01:38:00,2014-09-08 08:29:00,411.0,13700.71,False,"{""0"": 411, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-09_07,Electric Heater,Appliance9,Shiftable,2014-09-09 07:03:00,2014-09-09 07:44:00,41.0,1559.69,False,"{""0"": 41, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-20_01,Electric Heater,Appliance9,Shiftable,2014-09-20 23:22:00,2014-09-21 08:44:00,562.0,195178.71,True,"{""0"": 0, ""1"": 38, ""2"": 0}",1,1,0,0.5,9
+Electric_Heater_2014-09-21_01,Electric Heater,Appliance9,Shiftable,2014-09-21 11:04:00,2014-09-21 11:28:00,24.0,12295.27,False,"{""0"": 24, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-21_02,Electric Heater,Appliance9,Shiftable,2014-09-21 11:59:00,2014-09-21 12:17:00,18.0,8242.43,False,"{""0"": 18, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-22_01,Electric Heater,Appliance9,Shiftable,2014-09-22 21:11:00,2014-09-22 22:21:00,70.0,43302.33,True,"{""0"": 0, ""1"": 70, ""2"": 0}",1,1,1,0.5,9
+Electric_Heater_2014-09-23_01,Electric Heater,Appliance9,Shiftable,2014-09-23 22:43:00,2014-09-24 02:29:00,226.0,81741.16,True,"{""0"": 0, ""1"": 77, ""2"": 0}",1,1,0,0.5,9
+Electric_Heater_2014-09-24_01,Electric Heater,Appliance9,Shiftable,2014-09-24 02:56:00,2014-09-24 05:38:00,162.0,50130.23,False,"{""0"": 162, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-24_02,Electric Heater,Appliance9,Shiftable,2014-09-24 06:05:00,2014-09-24 07:01:00,56.0,16667.16,False,"{""0"": 56, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-26_01,Electric Heater,Appliance9,Shiftable,2014-09-26 09:09:00,2014-09-26 09:49:00,40.0,11909.45,False,"{""0"": 40, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-29_01,Electric Heater,Appliance9,Shiftable,2014-09-29 22:43:00,2014-09-30 04:49:00,366.0,129158.06,True,"{""0"": 0, ""1"": 77, ""2"": 0}",1,1,0,0.5,9
+Electric_Heater_2014-09-30_01,Electric Heater,Appliance9,Shiftable,2014-09-30 05:16:00,2014-09-30 07:06:00,110.0,34270.82,False,"{""0"": 110, ""1"": 0, ""2"": 0}",0,0,0,0.0,9
+Electric_Heater_2014-09-30_02,Electric Heater,Appliance9,Shiftable,2014-09-30 07:18:00,2014-09-30 07:50:00,32.0,10657.09,False,"{""0"": 32, ""1"": 0, ""2"": 0}",0,0,0,0.0,9

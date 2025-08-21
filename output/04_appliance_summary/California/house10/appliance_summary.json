@@ -2,7 +2,7 @@
   "house_id": "house10",
   "tariff_type": "California",
   "total_appliances": 9,
-  "total_events": 26486,
+  "total_events": 25819,
   "appliance_names": [
     "Magimix (Blender)",
     "Freezer",
@@ -15,9 +15,9 @@
     "Kenwood KMix"
   ],
   "appliance_counts": {
-    "Fridge-Freezer": 9390,
-    "Chest Freezer (In Garage)": 7543,
-    "Freezer": 5442,
+    "Fridge-Freezer": 9100,
+    "Chest Freezer (In Garage)": 7223,
+    "Freezer": 5385,
     "Dishwasher": 1498,
     "Washing Machine": 941,
     "Microwave": 782,

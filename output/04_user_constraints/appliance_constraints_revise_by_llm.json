@@ -1,0 +1,93 @@
+{
+  "house_id": "global_default",
+  "generated_time": "2025-01-08T00:00:00.000000",
+  "user_input": "Default global constraints for all appliances",
+  "llm_parsing_success": true,
+  "appliance_constraints": {
+    "Fridge": {
+      "forbidden_time": [
+        ["00:00", "06:30"],
+        ["23:00", "24:00"]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Chest Freezer": {
+      "forbidden_time": [
+        ["00:00", "06:30"],
+        ["23:00", "24:00"]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Upright Freezer": {
+      "forbidden_time": [
+        ["00:00", "06:30"],
+        ["23:00", "24:00"]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Tumble Dryer": {
+      "forbidden_time": [
+        ["00:00", "06:00"],
+        ["23:30", "30:00"]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Washing Machine": {
+      "forbidden_time": [
+        ["00:00", "06:00"],
+        ["23:30", "30:00"]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Dishwasher": {
+      "forbidden_time": [
+        ["00:00", "06:00"],
+        ["23:30", "30:00"]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Computer Site": {
+      "forbidden_time": [
+        ["00:00", "06:30"],
+        ["23:00", "24:00"]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Television Site": {
+      "forbidden_time": [
+        ["00:00", "06:30"],
+        ["23:00", "24:00"]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "Electric Heater": {
+      "forbidden_time": [
+        ["00:00", "06:30"],
+        ["23:00", "24:00"]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    }
+  },
+  "summary": {
+    "total_appliances": 9,
+    "constrained_appliances": 0
+  }
+}

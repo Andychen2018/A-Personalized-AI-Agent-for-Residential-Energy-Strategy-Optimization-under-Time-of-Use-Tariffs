@@ -2,7 +2,7 @@
   "house_id": "house4",
   "tariff_type": "California",
   "total_appliances": 9,
-  "total_events": 35359,
+  "total_events": 34892,
   "appliance_names": [
     "Fridge",
     "Freezer",
@@ -15,9 +15,9 @@
     "Kettle"
   ],
   "appliance_counts": {
-    "Fridge-Freezer": 14764,
-    "Fridge": 7224,
-    "Freezer": 6538,
+    "Fridge-Freezer": 14384,
+    "Fridge": 7151,
+    "Freezer": 6524,
     "Television Site": 1908,
     "Microwave": 1880,
     "Kettle": 1801,

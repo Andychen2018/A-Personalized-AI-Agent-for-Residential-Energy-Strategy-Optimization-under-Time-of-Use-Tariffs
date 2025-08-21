@@ -1,0 +1,4834 @@
+{
+  "fold_results": {},
+  "seasonal_results": {},
+  "overall_stats": {},
+  "house_stats": {},
+  "UK/Economy_7": {
+    "fold_results": {
+      "Fold_1": [
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 75.55128460224248,
+          "optimized_cost": 72.9344655258536,
+          "savings_pct": 3.4636328027587338,
+          "events": 6994,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 161.96406784550337,
+          "optimized_cost": 151.3300640761307,
+          "savings_pct": 6.56565614264294,
+          "events": 2586,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 23.28450316610462,
+          "optimized_cost": 21.856583253432476,
+          "savings_pct": 6.132490362735229,
+          "events": 2126,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 58.220769215232146,
+          "optimized_cost": 53.1915327954965,
+          "savings_pct": 8.63821706158403,
+          "events": 533,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 32.37961958117964,
+          "optimized_cost": 28.449441590867483,
+          "savings_pct": 12.137813974184356,
+          "events": 1249,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 60.1031723553043,
+          "optimized_cost": 54.09526088658311,
+          "savings_pct": 9.99599727150005,
+          "events": 2224,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 57.22645820187931,
+          "optimized_cost": 55.22346362687931,
+          "savings_pct": 3.5001197661647776,
+          "events": 8582,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 53.42365201565491,
+          "optimized_cost": 48.735748150075196,
+          "savings_pct": 8.774959570727216,
+          "events": 3293,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 31.980061761472435,
+          "optimized_cost": 31.319751843682383,
+          "savings_pct": 2.0647549798842215,
+          "events": 2565,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 79.70209908673908,
+          "optimized_cost": 66.55913516298901,
+          "savings_pct": 16.490110140570707,
+          "events": 2784,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 73.73883518651806,
+          "optimized_cost": 66.58707745787109,
+          "savings_pct": 9.698766885260689,
+          "events": 6198,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 72.10277556400096,
+          "optimized_cost": 63.60926645191439,
+          "savings_pct": 11.779725600920091,
+          "events": 1138,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 185.54059647935378,
+          "optimized_cost": 157.9344337320921,
+          "savings_pct": 14.878772231571217,
+          "events": 7140,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 137.38361578255893,
+          "optimized_cost": 134.10622632317532,
+          "savings_pct": 2.3855751944764894,
+          "events": 7036,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 212.30760866244185,
+          "optimized_cost": 201.84498649245444,
+          "savings_pct": 4.928048615828198,
+          "events": 8044,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 324.7407916687505,
+          "optimized_cost": 321.54907388027846,
+          "savings_pct": 0.9828508984260043,
+          "events": 2955,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 132.23711110370033,
+          "optimized_cost": 105.1870698224063,
+          "savings_pct": 20.455710999373988,
+          "events": 8320,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 122.49453478541,
+          "optimized_cost": 122.21160231257635,
+          "savings_pct": 0.23097558868997764,
+          "events": 4707,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 95.48800304576375,
+          "optimized_cost": 88.7375145239487,
+          "savings_pct": 7.06946245234576,
+          "events": 2613,
+          "season": "Autumn"
+        }
+      ],
+      "Fold_2": [
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 115.9638267629975,
+          "optimized_cost": 111.39355801143499,
+          "savings_pct": 3.9411158454636475,
+          "events": 7764,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 137.10381054216987,
+          "optimized_cost": 116.44276953485875,
+          "savings_pct": 15.069632948645339,
+          "events": 7460,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 19.33307871933878,
+          "optimized_cost": 18.42630220514915,
+          "savings_pct": 4.6902851188547965,
+          "events": 2092,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 111.53489457151223,
+          "optimized_cost": 102.40288562993774,
+          "savings_pct": 8.187580197800216,
+          "events": 1449,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 61.1846074636629,
+          "optimized_cost": 52.21196454455682,
+          "savings_pct": 14.664869631524347,
+          "events": 1583,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 167.6274266390961,
+          "optimized_cost": 155.43653461343894,
+          "savings_pct": 7.272611809464981,
+          "events": 3801,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 63.1508224462747,
+          "optimized_cost": 57.84706371111126,
+          "savings_pct": 8.398558450565853,
+          "events": 9503,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 54.587422118757125,
+          "optimized_cost": 48.34585762002295,
+          "savings_pct": 11.43407081058967,
+          "events": 3851,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 29.543066670256735,
+          "optimized_cost": 28.885203440270708,
+          "savings_pct": 2.2267939795442717,
+          "events": 2573,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 70.09148698286077,
+          "optimized_cost": 59.11491422967159,
+          "savings_pct": 15.660350815318335,
+          "events": 2049,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 63.11394117052023,
+          "optimized_cost": 53.288966618587175,
+          "savings_pct": 15.567043302506011,
+          "events": 6047,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 65.54280617552007,
+          "optimized_cost": 58.81080737463379,
+          "savings_pct": 10.271148267375606,
+          "events": 987,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 222.71745402357882,
+          "optimized_cost": 186.76513301243995,
+          "savings_pct": 16.14257004183096,
+          "events": 6548,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 113.38356628773732,
+          "optimized_cost": 108.37925878317067,
+          "savings_pct": 4.413609192594148,
+          "events": 7626,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 235.54616057012774,
+          "optimized_cost": 223.2977412271873,
+          "savings_pct": 5.200008063512376,
+          "events": 7087,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 87.00787724888175,
+          "optimized_cost": 80.75287819603844,
+          "savings_pct": 7.189003169162718,
+          "events": 5047,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 204.68555663132875,
+          "optimized_cost": 162.0632872717886,
+          "savings_pct": 20.823291130555756,
+          "events": 9409,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 60.742750940777285,
+          "optimized_cost": 59.29214521476569,
+          "savings_pct": 2.3881133197702895,
+          "events": 5571,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 143.22104282220863,
+          "optimized_cost": 129.91100214858574,
+          "savings_pct": 9.293355509319728,
+          "events": 4093,
+          "season": "Winter"
+        }
+      ],
+      "Fold_3": [
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 101.29127687941039,
+          "optimized_cost": 98.68887117941038,
+          "savings_pct": 2.569229829236164,
+          "events": 6490,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 422.3360880104695,
+          "optimized_cost": 418.1270323096881,
+          "savings_pct": 0.9966128446681665,
+          "events": 4351,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 23.279261161439337,
+          "optimized_cost": 22.195527444484068,
+          "savings_pct": 4.65536130824636,
+          "events": 2178,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 178.68452227026555,
+          "optimized_cost": 165.4620547026418,
+          "savings_pct": 7.399895301297765,
+          "events": 1374,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 46.40129205421292,
+          "optimized_cost": 42.25775742670547,
+          "savings_pct": 8.929782866102851,
+          "events": 1853,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 111.57963261293287,
+          "optimized_cost": 95.97350210656836,
+          "savings_pct": 13.986540501080343,
+          "events": 4904,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 79.89814827913199,
+          "optimized_cost": 76.025302280015,
+          "savings_pct": 4.847228731242711,
+          "events": 10252,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 182.60560871585741,
+          "optimized_cost": 174.9644974319068,
+          "savings_pct": 4.184488821392404,
+          "events": 5370,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 73.28900626929445,
+          "optimized_cost": 72.49167153896896,
+          "savings_pct": 1.0879322437471006,
+          "events": 2997,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 90.29741676392192,
+          "optimized_cost": 74.61780290246045,
+          "savings_pct": 17.364410216136115,
+          "events": 2972,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 68.25964928536217,
+          "optimized_cost": 62.586246039659514,
+          "savings_pct": 8.311503655673311,
+          "events": 5323,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 94.85782192121779,
+          "optimized_cost": 85.73242561313305,
+          "savings_pct": 9.620077842039906,
+          "events": 1753,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 141.56452069004098,
+          "optimized_cost": 119.6752257227466,
+          "savings_pct": 15.462415908023683,
+          "events": 4728,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 80.52639701207644,
+          "optimized_cost": 78.12874978551886,
+          "savings_pct": 2.9774674088522906,
+          "events": 4950,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 142.91158463929017,
+          "optimized_cost": 138.43627760407276,
+          "savings_pct": 3.1315215253634747,
+          "events": 5196,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 38.38399378607869,
+          "optimized_cost": 34.02424987665475,
+          "savings_pct": 11.358234199707368,
+          "events": 3314,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 112.45778053063208,
+          "optimized_cost": 87.90239868546001,
+          "savings_pct": 21.835200489737115,
+          "events": 6119,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 56.8642094101627,
+          "optimized_cost": 56.59908913732862,
+          "savings_pct": 0.4662339907370629,
+          "events": 4228,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 123.09399830561512,
+          "optimized_cost": 115.79056363536267,
+          "savings_pct": 5.933217517331457,
+          "events": 2707,
+          "season": "Winter"
+        }
+      ],
+      "Fold_4": [
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 104.77773239452421,
+          "optimized_cost": 96.34149672474629,
+          "savings_pct": 8.051553967605049,
+          "events": 11637,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 256.86393105802154,
+          "optimized_cost": 238.58145180741545,
+          "savings_pct": 7.117573563287234,
+          "events": 9707,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 57.238840869840004,
+          "optimized_cost": 56.50533465620191,
+          "savings_pct": 1.2814833467820788,
+          "events": 4118,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 177.10435645150562,
+          "optimized_cost": 159.69344434448948,
+          "savings_pct": 9.830877374144983,
+          "events": 2393,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 88.94223175217778,
+          "optimized_cost": 79.57806853861359,
+          "savings_pct": 10.528365467212259,
+          "events": 4337,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 159.20420317157345,
+          "optimized_cost": 142.79343665670297,
+          "savings_pct": 10.30799827388018,
+          "events": 7033,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 131.99959890909622,
+          "optimized_cost": 127.50269808664206,
+          "savings_pct": 3.40675339896376,
+          "events": 21620,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 207.79648640803282,
+          "optimized_cost": 196.43623250373338,
+          "savings_pct": 5.467009621131056,
+          "events": 9399,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 60.759683142835065,
+          "optimized_cost": 58.91684196537422,
+          "savings_pct": 3.0329999798199414,
+          "events": 4505,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 124.31624192668832,
+          "optimized_cost": 104.40798053592736,
+          "savings_pct": 16.014207863925968,
+          "events": 4165,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 168.46130422048705,
+          "optimized_cost": 153.6682250569303,
+          "savings_pct": 8.781292078918687,
+          "events": 16781,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 130.8790778461602,
+          "optimized_cost": 121.38781908950678,
+          "savings_pct": 7.251929729983095,
+          "events": 3135,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 215.22166475205796,
+          "optimized_cost": 186.29895051176473,
+          "savings_pct": 13.438570077790773,
+          "events": 8457,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 155.4414671397056,
+          "optimized_cost": 150.28570677555732,
+          "savings_pct": 3.31685003945212,
+          "events": 9955,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 301.5805560294968,
+          "optimized_cost": 291.173696756689,
+          "savings_pct": 3.4507726260010934,
+          "events": 9258,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 82.50605351435081,
+          "optimized_cost": 75.76739939926578,
+          "savings_pct": 8.167466298594597,
+          "events": 8635,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 199.63193951468483,
+          "optimized_cost": 167.53244676729554,
+          "savings_pct": 16.07933721699281,
+          "events": 10983,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 85.12825923022544,
+          "optimized_cost": 84.67164916222242,
+          "savings_pct": 0.5363789558625124,
+          "events": 7219,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 193.13084387721625,
+          "optimized_cost": 177.72213102813566,
+          "savings_pct": 7.978380117717883,
+          "events": 6525,
+          "season": "Spring"
+        }
+      ],
+      "Fold_5": [
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 64.49414025724212,
+          "optimized_cost": 59.24062061577871,
+          "savings_pct": 8.145731721531847,
+          "events": 6463,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 88.44651667748843,
+          "optimized_cost": 76.35912778607624,
+          "savings_pct": 13.666325532624048,
+          "events": 1715,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 25.951616737673486,
+          "optimized_cost": 25.303426803051373,
+          "savings_pct": 2.497686140999254,
+          "events": 1172,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 94.93431493739679,
+          "optimized_cost": 88.28452588334514,
+          "savings_pct": 7.00462109874261,
+          "events": 889,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 47.57978227941059,
+          "optimized_cost": 44.63263386525868,
+          "savings_pct": 6.194119167769368,
+          "events": 3272,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 88.5364333638482,
+          "optimized_cost": 80.69538106034032,
+          "savings_pct": 8.85630017564,
+          "events": 3248,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 119.27901626347762,
+          "optimized_cost": 117.7691496142395,
+          "savings_pct": 1.2658275500050635,
+          "events": 14697,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 98.04746913330555,
+          "optimized_cost": 91.97779830058855,
+          "savings_pct": 6.190543097511951,
+          "events": 5218,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 38.12925033813938,
+          "optimized_cost": 37.211029850852675,
+          "savings_pct": 2.4081787057015354,
+          "events": 2121,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 87.1638954206367,
+          "optimized_cost": 74.70816385609399,
+          "savings_pct": 14.290012515427033,
+          "events": 3132,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 94.46404172394625,
+          "optimized_cost": 86.47808960257714,
+          "savings_pct": 8.453959809073787,
+          "events": 8458,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 64.67303527873993,
+          "optimized_cost": 61.7683992296614,
+          "savings_pct": 4.491262914380916,
+          "events": 1764,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 172.6510786519155,
+          "optimized_cost": 152.05588167073603,
+          "savings_pct": 11.928797168248085,
+          "events": 6350,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 120.80610050345226,
+          "optimized_cost": 118.3870750240938,
+          "savings_pct": 2.0024034128055685,
+          "events": 5325,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 118.5855440386308,
+          "optimized_cost": 113.32926003245736,
+          "savings_pct": 4.432482937769498,
+          "events": 5098,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 44.586247774209895,
+          "optimized_cost": 40.80329458058062,
+          "savings_pct": 8.484574016603963,
+          "events": 4760,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 106.45896752591335,
+          "optimized_cost": 92.73329119808687,
+          "savings_pct": 12.892926398600931,
+          "events": 6777,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 65.93056016475094,
+          "optimized_cost": 65.87202394823548,
+          "savings_pct": 0.08878464913568143,
+          "events": 5454,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 118.28744976953686,
+          "optimized_cost": 108.9618064070495,
+          "savings_pct": 7.883882339721426,
+          "events": 4165,
+          "season": "Summer"
+        }
+      ]
+    },
+    "seasonal_results": {
+      "Autumn": {
+        "mean": 7.9038758178760355,
+        "std": 5.363995343759415,
+        "count": 19,
+        "raw_values": [
+          3.4636328027587338,
+          6.56565614264294,
+          6.132490362735229,
+          8.63821706158403,
+          12.137813974184356,
+          9.99599727150005,
+          3.5001197661647776,
+          8.774959570727216,
+          2.0647549798842215,
+          16.490110140570707,
+          9.698766885260689,
+          11.779725600920091,
+          14.878772231571217,
+          2.3855751944764894,
+          4.928048615828198,
+          0.9828508984260043,
+          20.455710999373988,
+          0.23097558868997764,
+          7.06946245234576
+        ]
+      },
+      "Winter": {
+        "mean": 8.630299126447756,
+        "std": 5.658612947057966,
+        "count": 38,
+        "raw_values": [
+          3.9411158454636475,
+          2.569229829236164,
+          15.069632948645339,
+          0.9966128446681665,
+          4.6902851188547965,
+          4.65536130824636,
+          8.187580197800216,
+          7.399895301297765,
+          14.664869631524347,
+          8.929782866102851,
+          7.272611809464981,
+          13.986540501080343,
+          8.398558450565853,
+          4.847228731242711,
+          11.43407081058967,
+          4.184488821392404,
+          2.2267939795442717,
+          1.0879322437471006,
+          15.660350815318335,
+          17.364410216136115,
+          15.567043302506011,
+          8.311503655673311,
+          10.271148267375606,
+          9.620077842039906,
+          16.14257004183096,
+          15.462415908023683,
+          4.413609192594148,
+          2.9774674088522906,
+          5.200008063512376,
+          3.1315215253634747,
+          7.189003169162718,
+          11.358234199707368,
+          20.823291130555756,
+          21.835200489737115,
+          2.3881133197702895,
+          0.4662339907370629,
+          9.293355509319728,
+          5.933217517331457
+        ]
+      },
+      "Spring": {
+        "mean": 7.581042105161371,
+        "std": 4.403672262686663,
+        "count": 19,
+        "raw_values": [
+          8.051553967605049,
+          7.117573563287234,
+          1.2814833467820788,
+          9.830877374144983,
+          10.528365467212259,
+          10.30799827388018,
+          3.40675339896376,
+          5.467009621131056,
+          3.0329999798199414,
+          16.014207863925968,
+          8.781292078918687,
+          7.251929729983095,
+          13.438570077790773,
+          3.31685003945212,
+          3.4507726260010934,
+          8.167466298594597,
+          16.07933721699281,
+          0.5363789558625124,
+          7.978380117717883
+        ]
+      },
+      "Summer": {
+        "mean": 6.9041273343311875,
+        "std": 4.15144088951338,
+        "count": 19,
+        "raw_values": [
+          8.145731721531847,
+          13.666325532624048,
+          2.497686140999254,
+          7.00462109874261,
+          6.194119167769368,
+          8.85630017564,
+          1.2658275500050635,
+          6.190543097511951,
+          2.4081787057015354,
+          14.290012515427033,
+          8.453959809073787,
+          4.491262914380916,
+          11.928797168248085,
+          2.0024034128055685,
+          4.432482937769498,
+          8.484574016603963,
+          12.892926398600931,
+          0.08878464913568143,
+          7.883882339721426
+        ]
+      }
+    },
+    "house_results": {
+      "house1": {
+        "1": {
+          "baseline": 45.81012260635076,
+          "optimized": 44.191143881350754,
+          "events": 3316
+        },
+        "2": {
+          "baseline": 31.19507858114301,
+          "optimized": 29.96811455614301,
+          "events": 2256
+        },
+        "3": {
+          "baseline": 70.09619829826738,
+          "optimized": 68.72075662326738,
+          "events": 4234
+        },
+        "4": {
+          "baseline": 45.6001687358571,
+          "optimized": 41.26991642141518,
+          "events": 4794
+        },
+        "5": {
+          "baseline": 29.164470731492017,
+          "optimized": 26.959538431492017,
+          "events": 3372
+        },
+        "6": {
+          "baseline": 30.013092927175073,
+          "optimized": 28.112041871839104,
+          "events": 3471
+        },
+        "7": {
+          "baseline": 27.96614433361971,
+          "optimized": 25.802700817156293,
+          "events": 2653
+        },
+        "8": {
+          "baseline": 18.756842822991945,
+          "optimized": 17.013153247991948,
+          "events": 1891
+        },
+        "9": {
+          "baseline": 17.77115310063047,
+          "optimized": 16.42476655063047,
+          "events": 1919
+        },
+        "10": {
+          "baseline": 24.860857702820397,
+          "optimized": 23.6241043028204,
+          "events": 3157
+        },
+        "11": {
+          "baseline": 50.690426899422086,
+          "optimized": 49.3103612230332,
+          "events": 3837
+        },
+        "12": {
+          "baseline": 70.15370415664674,
+          "optimized": 67.20241413008424,
+          "events": 4448
+        }
+      },
+      "house10": {
+        "1": {
+          "baseline": 61.166712317450575,
+          "optimized": 51.99087339589444,
+          "events": 3484
+        },
+        "2": {
+          "baseline": 394.27122080774024,
+          "optimized": 392.8068574582194,
+          "events": 2593
+        },
+        "3": {
+          "baseline": 28.064867202729282,
+          "optimized": 25.3201748514687,
+          "events": 1758
+        },
+        "4": {
+          "baseline": 70.26627751884855,
+          "optimized": 63.27669517488755,
+          "events": 4009
+        },
+        "5": {
+          "baseline": 116.93270898831366,
+          "optimized": 109.99886905004703,
+          "events": 3701
+        },
+        "6": {
+          "baseline": 69.6649445508593,
+          "optimized": 65.30588758248086,
+          "events": 1997
+        },
+        "7": {
+          "baseline": 20.480153989956243,
+          "optimized": 16.624395131124288,
+          "events": 596
+        },
+        "8": {
+          "baseline": 28.340648284149047,
+          "optimized": 24.494824394309724,
+          "events": 537
+        },
+        "9": {
+          "baseline": 39.62571440338315,
+          "optimized": 35.23990826064224,
+          "events": 582
+        },
+        "10": {
+          "baseline": 40.76223312336337,
+          "optimized": 36.28923433138776,
+          "events": 747
+        },
+        "11": {
+          "baseline": 121.20183472213999,
+          "optimized": 115.04082974474294,
+          "events": 1839
+        },
+        "12": {
+          "baseline": 75.93709822471928,
+          "optimized": 64.45189613896432,
+          "events": 3976
+        }
+      },
+      "house11": {
+        "1": {
+          "baseline": 10.550657453699547,
+          "optimized": 9.887254666568028,
+          "events": 1195
+        },
+        "2": {
+          "baseline": 14.150020764219354,
+          "optimized": 13.237407641657995,
+          "events": 1115
+        },
+        "3": {
+          "baseline": 9.129240397219984,
+          "optimized": 8.958119802826072,
+          "events": 1063
+        },
+        "4": {
+          "baseline": 14.572154185271208,
+          "optimized": 14.359831646674982,
+          "events": 1309
+        },
+        "5": {
+          "baseline": 7.100061076740372,
+          "optimized": 7.040927479593632,
+          "events": 1059
+        },
+        "6": {
+          "baseline": 35.56662560782843,
+          "optimized": 35.1045755299333,
+          "events": 1750
+        },
+        "7": {
+          "baseline": 10.038852350716752,
+          "optimized": 9.696058315210287,
+          "events": 515
+        },
+        "8": {
+          "baseline": 9.04573813712727,
+          "optimized": 8.9658327088664,
+          "events": 272
+        },
+        "9": {
+          "baseline": 6.867026249829464,
+          "optimized": 6.641535778974683,
+          "events": 385
+        },
+        "10": {
+          "baseline": 11.605396237021605,
+          "optimized": 11.058717623742533,
+          "events": 1125
+        },
+        "11": {
+          "baseline": 11.679106929083016,
+          "optimized": 10.797865629689941,
+          "events": 1001
+        },
+        "12": {
+          "baseline": 8.782421265639234,
+          "optimized": 8.539047538581123,
+          "events": 897
+        }
+      },
+      "house13": {
+        "1": {
+          "baseline": 80.96620043649897,
+          "optimized": 76.22628566127361,
+          "events": 700
+        },
+        "2": {
+          "baseline": 37.58998390341342,
+          "optimized": 30.963175000448317,
+          "events": 662
+        },
+        "3": {
+          "baseline": 141.09453836685213,
+          "optimized": 134.4988797021935,
+          "events": 712
+        },
+        "4": {
+          "baseline": 75.6599647976345,
+          "optimized": 66.8639031100887,
+          "events": 1080
+        },
+        "5": {
+          "baseline": 64.4753155078932,
+          "optimized": 58.429465405750875,
+          "events": 990
+        },
+        "6": {
+          "baseline": 36.969076145977894,
+          "optimized": 34.40007582864989,
+          "events": 323
+        },
+        "7": {
+          "baseline": 28.374894024796326,
+          "optimized": 26.38897706749203,
+          "events": 272
+        },
+        "8": {
+          "baseline": 41.60809872649765,
+          "optimized": 38.14215357542836,
+          "events": 446
+        },
+        "9": {
+          "baseline": 24.95132218610281,
+          "optimized": 23.75339524042476,
+          "events": 171
+        },
+        "10": {
+          "baseline": 21.328643070292983,
+          "optimized": 18.778657518243655,
+          "events": 247
+        },
+        "11": {
+          "baseline": 36.89212614493916,
+          "optimized": 34.412875277252844,
+          "events": 286
+        },
+        "12": {
+          "baseline": 30.568694135013263,
+          "optimized": 26.176599968664128,
+          "events": 749
+        }
+      },
+      "house15": {
+        "1": {
+          "baseline": 34.981659605168694,
+          "optimized": 29.93294886696929,
+          "events": 974
+        },
+        "2": {
+          "baseline": 18.28496951974122,
+          "optimized": 16.743912493071363,
+          "events": 731
+        },
+        "3": {
+          "baseline": 28.116322534471696,
+          "optimized": 25.5138449336341,
+          "events": 1122
+        },
+        "4": {
+          "baseline": 28.914236086164323,
+          "optimized": 26.56131778911452,
+          "events": 1411
+        },
+        "5": {
+          "baseline": 33.85548597713414,
+          "optimized": 28.758690094694195,
+          "events": 1445
+        },
+        "6": {
+          "baseline": 26.17250968887932,
+          "optimized": 24.258060654804886,
+          "events": 1481
+        },
+        "7": {
+          "baseline": 17.984315003584772,
+          "optimized": 16.887263774765483,
+          "events": 1455
+        },
+        "8": {
+          "baseline": 16.257113289264158,
+          "optimized": 15.11891297455995,
+          "events": 1098
+        },
+        "9": {
+          "baseline": 13.338353986561657,
+          "optimized": 12.62645711593325,
+          "events": 719
+        },
+        "10": {
+          "baseline": 19.510809023706052,
+          "optimized": 17.048787959847445,
+          "events": 759
+        },
+        "11": {
+          "baseline": 12.868810557473587,
+          "optimized": 11.400653631020038,
+          "events": 490
+        },
+        "12": {
+          "baseline": 26.202947858494205,
+          "optimized": 22.27901567758753,
+          "events": 609
+        }
+      },
+      "house16": {
+        "1": {
+          "baseline": 96.8908090565881,
+          "optimized": 89.19534848916788,
+          "events": 2273
+        },
+        "2": {
+          "baseline": 37.465584334048415,
+          "optimized": 31.58911881796177,
+          "events": 1897
+        },
+        "3": {
+          "baseline": 74.11404827888445,
+          "optimized": 64.3843832886066,
+          "events": 3007
+        },
+        "4": {
+          "baseline": 66.83937871400182,
+          "optimized": 60.477099986430964,
+          "events": 2472
+        },
+        "5": {
+          "baseline": 51.45778086849505,
+          "optimized": 45.358652414848116,
+          "events": 2362
+        },
+        "6": {
+          "baseline": 40.90704358907659,
+          "optimized": 36.957684255423885,
+          "events": 2199
+        },
+        "7": {
+          "baseline": 16.314743728171425,
+          "optimized": 14.765238594114221,
+          "events": 873
+        },
+        "8": {
+          "baseline": 35.40446646433098,
+          "optimized": 32.93471397025988,
+          "events": 1010
+        },
+        "9": {
+          "baseline": 36.81722317134581,
+          "optimized": 32.99542849596622,
+          "events": 1365
+        },
+        "10": {
+          "baseline": 38.301346657444086,
+          "optimized": 34.63224139969851,
+          "events": 1487
+        },
+        "11": {
+          "baseline": 21.801825697860217,
+          "optimized": 19.463019486884605,
+          "events": 737
+        },
+        "12": {
+          "baseline": 70.73661758250798,
+          "optimized": 66.24118612427105,
+          "events": 1528
+        }
+      },
+      "house17": {
+        "1": {
+          "baseline": 30.536481607717434,
+          "optimized": 28.03862769877248,
+          "events": 4468
+        },
+        "2": {
+          "baseline": 28.82006094872399,
+          "optimized": 26.46080752372399,
+          "events": 3513
+        },
+        "3": {
+          "baseline": 51.078087330407996,
+          "optimized": 49.564494756291005,
+          "events": 6739
+        },
+        "4": {
+          "baseline": 57.48510286274658,
+          "optimized": 55.58583290353443,
+          "events": 8014
+        },
+        "5": {
+          "baseline": 40.24468757675812,
+          "optimized": 39.08332426578883,
+          "events": 7598
+        },
+        "6": {
+          "baseline": 34.269808469591524,
+          "optimized": 32.83354091731879,
+          "events": 6008
+        },
+        "7": {
+          "baseline": 67.96948217411088,
+          "optimized": 67.43579988735746,
+          "events": 4282
+        },
+        "8": {
+          "baseline": 25.602078840795684,
+          "optimized": 25.143653480317745,
+          "events": 5011
+        },
+        "9": {
+          "baseline": 25.707455248571044,
+          "optimized": 25.189696246564303,
+          "events": 5404
+        },
+        "10": {
+          "baseline": 29.309154861429494,
+          "optimized": 28.474223936429496,
+          "events": 4079
+        },
+        "11": {
+          "baseline": 27.917303340449816,
+          "optimized": 26.749239690449816,
+          "events": 4503
+        },
+        "12": {
+          "baseline": 32.61434083855727,
+          "optimized": 29.80843601233878,
+          "events": 5035
+        }
+      },
+      "house18": {
+        "1": {
+          "baseline": 26.079190167271317,
+          "optimized": 23.09824214353714,
+          "events": 1960
+        },
+        "2": {
+          "baseline": 45.78355101457748,
+          "optimized": 43.92996033957748,
+          "events": 1863
+        },
+        "3": {
+          "baseline": 136.82205770127993,
+          "optimized": 131.03453709232932,
+          "events": 3507
+        },
+        "4": {
+          "baseline": 61.016127262970215,
+          "optimized": 55.28746835047021,
+          "events": 3643
+        },
+        "5": {
+          "baseline": 107.34627578184977,
+          "optimized": 104.47566997176082,
+          "events": 3427
+        },
+        "6": {
+          "baseline": 39.43408336321285,
+          "optimized": 36.67309418150232,
+          "events": 2329
+        },
+        "7": {
+          "baseline": 34.14459620048691,
+          "optimized": 32.08349451776991,
+          "events": 1757
+        },
+        "8": {
+          "baseline": 29.40256349311286,
+          "optimized": 27.99229331811286,
+          "events": 1936
+        },
+        "9": {
+          "baseline": 34.50030943970578,
+          "optimized": 31.902010464705782,
+          "events": 1525
+        },
+        "10": {
+          "baseline": 30.023517554477948,
+          "optimized": 27.621154438898238,
+          "events": 1727
+        },
+        "11": {
+          "baseline": 23.400134461176965,
+          "optimized": 21.114593711176962,
+          "events": 1566
+        },
+        "12": {
+          "baseline": 28.508231951485808,
+          "optimized": 25.24761547648581,
+          "events": 1891
+        }
+      },
+      "house19": {
+        "1": {
+          "baseline": 15.388922138728327,
+          "optimized": 15.066351012315236,
+          "events": 1339
+        },
+        "2": {
+          "baseline": 12.400885337650102,
+          "optimized": 12.264959658086509,
+          "events": 1153
+        },
+        "3": {
+          "baseline": 60.88812093164435,
+          "optimized": 60.226711880882455,
+          "events": 1844
+        },
+        "4": {
+          "baseline": 21.816398424620186,
+          "optimized": 21.178185146314227,
+          "events": 1709
+        },
+        "5": {
+          "baseline": 21.89841469004635,
+          "optimized": 21.19410215166872,
+          "events": 1609
+        },
+        "6": {
+          "baseline": 17.044870028168525,
+          "optimized": 16.54455466739127,
+          "events": 1187
+        },
+        "7": {
+          "baseline": 13.456922228801655,
+          "optimized": 13.153821034605246,
+          "events": 758
+        },
+        "8": {
+          "baseline": 12.455254036064488,
+          "optimized": 12.19689494721721,
+          "events": 560
+        },
+        "9": {
+          "baseline": 12.217074073273237,
+          "optimized": 11.86031386903022,
+          "events": 803
+        },
+        "10": {
+          "baseline": 15.46089107656947,
+          "optimized": 15.16963516779696,
+          "events": 1120
+        },
+        "11": {
+          "baseline": 16.519170684902967,
+          "optimized": 16.150116675885425,
+          "events": 1445
+        },
+        "12": {
+          "baseline": 14.154144531528408,
+          "optimized": 13.818852427955473,
+          "events": 1234
+        }
+      },
+      "house2": {
+        "1": {
+          "baseline": 39.60468396998307,
+          "optimized": 33.71594729443641,
+          "events": 1092
+        },
+        "2": {
+          "baseline": 30.94105687807778,
+          "optimized": 25.970514346104927,
+          "events": 1073
+        },
+        "3": {
+          "baseline": 59.35635988584413,
+          "optimized": 48.647288556355534,
+          "events": 1899
+        },
+        "4": {
+          "baseline": 55.69943398769105,
+          "optimized": 45.95325413751608,
+          "events": 1786
+        },
+        "5": {
+          "baseline": 42.144802101950745,
+          "optimized": 36.388020319897905,
+          "events": 1445
+        },
+        "6": {
+          "baseline": 26.47200583704653,
+          "optimized": 22.066706078513377,
+          "events": 934
+        },
+        "7": {
+          "baseline": 23.566661535480808,
+          "optimized": 20.014010046375667,
+          "events": 876
+        },
+        "8": {
+          "baseline": 21.074254172265796,
+          "optimized": 18.12218113106391,
+          "events": 764
+        },
+        "9": {
+          "baseline": 42.522979712890105,
+          "optimized": 36.57197267865442,
+          "events": 1492
+        },
+        "10": {
+          "baseline": 52.908975530933354,
+          "optimized": 44.31585095579639,
+          "events": 1909
+        },
+        "11": {
+          "baseline": 26.79312355580572,
+          "optimized": 22.243284207192612,
+          "events": 875
+        },
+        "12": {
+          "baseline": 30.4868030128777,
+          "optimized": 25.39896693523518,
+          "events": 957
+        }
+      },
+      "house20": {
+        "1": {
+          "baseline": 34.057470886271744,
+          "optimized": 28.395831165911886,
+          "events": 2961
+        },
+        "2": {
+          "baseline": 38.083282159550166,
+          "optimized": 35.580025759206,
+          "events": 2453
+        },
+        "3": {
+          "baseline": 30.176367125812007,
+          "optimized": 27.006220280453515,
+          "events": 2870
+        },
+        "4": {
+          "baseline": 60.09698529285674,
+          "optimized": 54.73784355457578,
+          "events": 6132
+        },
+        "5": {
+          "baseline": 58.254210745216014,
+          "optimized": 54.53314874568652,
+          "events": 5893
+        },
+        "6": {
+          "baseline": 50.1101081824143,
+          "optimized": 44.39723275666802,
+          "events": 4756
+        },
+        "7": {
+          "baseline": 31.733835814174498,
+          "optimized": 29.662147383535324,
+          "events": 2488
+        },
+        "8": {
+          "baseline": 30.734604116367542,
+          "optimized": 28.072937230851156,
+          "events": 3108
+        },
+        "9": {
+          "baseline": 31.995601793404205,
+          "optimized": 28.743004988190663,
+          "events": 2862
+        },
+        "10": {
+          "baseline": 45.127610350694106,
+          "optimized": 41.639452533226866,
+          "events": 3079
+        },
+        "11": {
+          "baseline": 28.611224835823947,
+          "optimized": 24.94762492464423,
+          "events": 3119
+        },
+        "12": {
+          "baseline": 29.056470284248483,
+          "optimized": 24.89313545267529,
+          "events": 3086
+        }
+      },
+      "house21": {
+        "1": {
+          "baseline": 23.071679620544238,
+          "optimized": 19.664787314098852,
+          "events": 521
+        },
+        "2": {
+          "baseline": 22.08127661084754,
+          "optimized": 17.89050558564289,
+          "events": 584
+        },
+        "3": {
+          "baseline": 72.77654531037025,
+          "optimized": 67.84192002749015,
+          "events": 1169
+        },
+        "4": {
+          "baseline": 47.39722400087496,
+          "optimized": 43.397493200957655,
+          "events": 1235
+        },
+        "5": {
+          "baseline": 28.8528665336608,
+          "optimized": 25.995160542152675,
+          "events": 1141
+        },
+        "6": {
+          "baseline": 54.62898731162443,
+          "optimized": 51.99516534639645,
+          "events": 759
+        },
+        "7": {
+          "baseline": 12.981812765072414,
+          "optimized": 12.615054660201789,
+          "events": 732
+        },
+        "8": {
+          "baseline": 25.80798003676071,
+          "optimized": 25.139292488757935,
+          "events": 433
+        },
+        "9": {
+          "baseline": 25.883242476906805,
+          "optimized": 24.014052080701678,
+          "events": 599
+        },
+        "10": {
+          "baseline": 42.11036163099989,
+          "optimized": 39.55239586988094,
+          "events": 583
+        },
+        "11": {
+          "baseline": 29.99241393300107,
+          "optimized": 24.056870582033447,
+          "events": 555
+        },
+        "12": {
+          "baseline": 42.47112655497584,
+          "optimized": 39.14602006053494,
+          "events": 466
+        }
+      },
+      "house3": {
+        "1": {
+          "baseline": 83.93114283300034,
+          "optimized": 72.11685876783517,
+          "events": 2757
+        },
+        "2": {
+          "baseline": 58.076731183239104,
+          "optimized": 48.72321828406328,
+          "events": 1411
+        },
+        "3": {
+          "baseline": 83.48778950680189,
+          "optimized": 70.95200743868332,
+          "events": 3317
+        },
+        "4": {
+          "baseline": 87.57850419508134,
+          "optimized": 74.98375912733262,
+          "events": 3012
+        },
+        "5": {
+          "baseline": 72.55384979089254,
+          "optimized": 63.83307223700277,
+          "events": 3052
+        },
+        "6": {
+          "baseline": 55.08931076608408,
+          "optimized": 47.482119147429366,
+          "events": 2393
+        },
+        "7": {
+          "baseline": 44.37300745731686,
+          "optimized": 39.79886524918935,
+          "events": 2060
+        },
+        "8": {
+          "baseline": 61.52613852611004,
+          "optimized": 53.46969204647242,
+          "events": 1907
+        },
+        "9": {
+          "baseline": 66.75193266848858,
+          "optimized": 58.78732437507425,
+          "events": 2383
+        },
+        "10": {
+          "baseline": 77.694700927698,
+          "optimized": 67.86706881845495,
+          "events": 3285
+        },
+        "11": {
+          "baseline": 107.84589555165579,
+          "optimized": 90.06736491363714,
+          "events": 3855
+        },
+        "12": {
+          "baseline": 138.7863111905785,
+          "optimized": 114.64827424460478,
+          "events": 3791
+        }
+      },
+      "house4": {
+        "1": {
+          "baseline": 52.52511699809798,
+          "optimized": 50.14322388786176,
+          "events": 3669
+        },
+        "2": {
+          "baseline": 54.64281836009101,
+          "optimized": 53.46229057639058,
+          "events": 2716
+        },
+        "3": {
+          "baseline": 25.883578651985435,
+          "optimized": 24.66645920912829,
+          "events": 2234
+        },
+        "4": {
+          "baseline": 53.31014379919474,
+          "optimized": 51.139996345738375,
+          "events": 3624
+        },
+        "5": {
+          "baseline": 53.099284151677665,
+          "optimized": 51.66536903335043,
+          "events": 3337
+        },
+        "6": {
+          "baseline": 49.03203918883318,
+          "optimized": 47.480341396468496,
+          "events": 2994
+        },
+        "7": {
+          "baseline": 43.1376595732827,
+          "optimized": 42.06830330641498,
+          "events": 2474
+        },
+        "8": {
+          "baseline": 32.07676712299726,
+          "optimized": 31.623307798848703,
+          "events": 1450
+        },
+        "9": {
+          "baseline": 45.591673807172306,
+          "optimized": 44.69546391883011,
+          "events": 1401
+        },
+        "10": {
+          "baseline": 76.6624090752022,
+          "optimized": 75.50408299563817,
+          "events": 3167
+        },
+        "11": {
+          "baseline": 60.721206707356735,
+          "optimized": 58.602143327537156,
+          "events": 3869
+        },
+        "12": {
+          "baseline": 60.85844928963935,
+          "optimized": 58.23603489530891,
+          "events": 3957
+        }
+      },
+      "house5": {
+        "1": {
+          "baseline": 99.05810697417613,
+          "optimized": 94.64722858668219,
+          "events": 3299
+        },
+        "2": {
+          "baseline": 54.78077352094556,
+          "optimized": 53.32978054883479,
+          "events": 1829
+        },
+        "3": {
+          "baseline": 88.13081111834461,
+          "optimized": 85.10649705523798,
+          "events": 3367
+        },
+        "4": {
+          "baseline": 78.7520454589577,
+          "optimized": 75.20229903193338,
+          "events": 3164
+        },
+        "5": {
+          "baseline": 99.36062181208293,
+          "optimized": 95.82078333563743,
+          "events": 3230
+        },
+        "6": {
+          "baseline": 123.4678887584562,
+          "optimized": 120.15061438911825,
+          "events": 2864
+        },
+        "7": {
+          "baseline": 41.42159770936675,
+          "optimized": 39.50171417591089,
+          "events": 1661
+        },
+        "8": {
+          "baseline": 28.052637895245162,
+          "optimized": 27.05891189411333,
+          "events": 1417
+        },
+        "9": {
+          "baseline": 49.11130843401888,
+          "optimized": 46.76863396243313,
+          "events": 2020
+        },
+        "10": {
+          "baseline": 95.37299483506459,
+          "optimized": 90.36653476322677,
+          "events": 4062
+        },
+        "11": {
+          "baseline": 116.93461382737726,
+          "optimized": 111.47845172922769,
+          "events": 3982
+        },
+        "12": {
+          "baseline": 136.4880535959516,
+          "optimized": 128.6505126405051,
+          "events": 3788
+        }
+      },
+      "house6": {
+        "1": {
+          "baseline": 35.721637186140924,
+          "optimized": 32.2110096444109,
+          "events": 2327
+        },
+        "2": {
+          "baseline": 13.494263450861895,
+          "optimized": 11.727968264427012,
+          "events": 1256
+        },
+        "3": {
+          "baseline": 24.889730335216793,
+          "optimized": 22.296281612227737,
+          "events": 2058
+        },
+        "4": {
+          "baseline": 32.836555323146655,
+          "optimized": 29.95816616586535,
+          "events": 2235
+        },
+        "5": {
+          "baseline": 25.51923837891963,
+          "optimized": 23.536102821530356,
+          "events": 2531
+        },
+        "6": {
+          "baseline": 24.150259812284524,
+          "optimized": 22.27313041187008,
+          "events": 3869
+        },
+        "7": {
+          "baseline": 14.977319593571886,
+          "optimized": 13.756405136563789,
+          "events": 1864
+        },
+        "8": {
+          "baseline": 15.83369940471736,
+          "optimized": 14.264381232211033,
+          "events": 1493
+        },
+        "9": {
+          "baseline": 13.775228775920645,
+          "optimized": 12.782508211805798,
+          "events": 1403
+        },
+        "10": {
+          "baseline": 47.090482414512536,
+          "optimized": 45.3338499666504,
+          "events": 1508
+        },
+        "11": {
+          "baseline": 277.6503092542379,
+          "optimized": 276.21522391362805,
+          "events": 1447
+        },
+        "12": {
+          "baseline": 51.28624006274082,
+          "optimized": 48.54186855162753,
+          "events": 2720
+        }
+      },
+      "house7": {
+        "1": {
+          "baseline": 91.88619900583743,
+          "optimized": 72.16849958778224,
+          "events": 4302
+        },
+        "2": {
+          "baseline": 40.67717431401002,
+          "optimized": 31.39509288061829,
+          "events": 1988
+        },
+        "3": {
+          "baseline": 71.78060621662206,
+          "optimized": 56.50730580484172,
+          "events": 4131
+        },
+        "4": {
+          "baseline": 64.62740398747412,
+          "optimized": 52.696553054244596,
+          "events": 3777
+        },
+        "5": {
+          "baseline": 69.40945243610778,
+          "optimized": 57.56814717247242,
+          "events": 3760
+        },
+        "6": {
+          "baseline": 65.59508309110291,
+          "optimized": 57.2677465405785,
+          "events": 3446
+        },
+        "7": {
+          "baseline": 36.19861052056346,
+          "optimized": 33.007622439157586,
+          "events": 2276
+        },
+        "8": {
+          "baseline": 32.866869174155966,
+          "optimized": 28.266866512376616,
+          "events": 2181
+        },
+        "9": {
+          "baseline": 37.39348783119392,
+          "optimized": 31.45880224655267,
+          "events": 2320
+        },
+        "10": {
+          "baseline": 41.9705927893372,
+          "optimized": 33.34928558421444,
+          "events": 2425
+        },
+        "11": {
+          "baseline": 90.26651831436314,
+          "optimized": 71.83778423819186,
+          "events": 5895
+        },
+        "12": {
+          "baseline": 112.79935762549133,
+          "optimized": 89.89478768400636,
+          "events": 5107
+        }
+      },
+      "house8": {
+        "1": {
+          "baseline": 27.33091982590667,
+          "optimized": 26.46965884523931,
+          "events": 2435
+        },
+        "2": {
+          "baseline": 29.214736319369663,
+          "optimized": 28.942786289054077,
+          "events": 1394
+        },
+        "3": {
+          "baseline": 27.649473090793037,
+          "optimized": 27.656302848274546,
+          "events": 2834
+        },
+        "4": {
+          "baseline": 50.499347899581174,
+          "optimized": 50.456337346516214,
+          "events": 3012
+        },
+        "5": {
+          "baseline": 19.50740113577466,
+          "optimized": 19.285869434267543,
+          "events": 2325
+        },
+        "6": {
+          "baseline": 15.121510194869598,
+          "optimized": 14.92944238143866,
+          "events": 1882
+        },
+        "7": {
+          "baseline": 13.238438453457356,
+          "optimized": 13.25779848772819,
+          "events": 1828
+        },
+        "8": {
+          "baseline": 38.0486850770953,
+          "optimized": 38.06176318780958,
+          "events": 1788
+        },
+        "9": {
+          "baseline": 14.643436634198288,
+          "optimized": 14.552462272697706,
+          "events": 1838
+        },
+        "10": {
+          "baseline": 14.636280450145357,
+          "optimized": 14.541549682636385,
+          "events": 1571
+        },
+        "11": {
+          "baseline": 107.85825433526463,
+          "optimized": 107.67005262993996,
+          "events": 3136
+        },
+        "12": {
+          "baseline": 33.411831114870616,
+          "optimized": 32.82248636952638,
+          "events": 3136
+        }
+      },
+      "house9": {
+        "1": {
+          "baseline": 67.46821814828425,
+          "optimized": 60.15387718959984,
+          "events": 2322
+        },
+        "2": {
+          "baseline": 54.672144068244975,
+          "optimized": 51.81794886754893,
+          "events": 1202
+        },
+        "3": {
+          "baseline": 68.42185423737014,
+          "optimized": 63.97261476781374,
+          "events": 1505
+        },
+        "4": {
+          "baseline": 58.19289100811916,
+          "optimized": 53.565700740966484,
+          "events": 1684
+        },
+        "5": {
+          "baseline": 73.30903946824583,
+          "optimized": 67.18312343673064,
+          "events": 2487
+        },
+        "6": {
+          "baseline": 61.62891340085128,
+          "optimized": 56.973306850438554,
+          "events": 2354
+        },
+        "7": {
+          "baseline": 52.14801741223873,
+          "optimized": 47.843772723472725,
+          "events": 1771
+        },
+        "8": {
+          "baseline": 26.20666736134784,
+          "optimized": 24.84266925165014,
+          "events": 1140
+        },
+        "9": {
+          "baseline": 39.9327649959503,
+          "optimized": 36.27536443192663,
+          "events": 1254
+        },
+        "10": {
+          "baseline": 43.40245506580137,
+          "optimized": 40.49813084605121,
+          "events": 1308
+        },
+        "11": {
+          "baseline": 52.085547979962385,
+          "optimized": 48.23938367789749,
+          "events": 1305
+        },
+        "12": {
+          "baseline": 75.75282467392437,
+          "optimized": 69.75712495898588,
+          "events": 1771
+        }
+      }
+    },
+    "overall_stats": {
+      "mean_savings_pct": 7.9299287020528215,
+      "std_savings_pct": 0.9084043233521272,
+      "coefficient_variation": 0.11455390804673546,
+      "fold_savings": [
+        7.9038758178760355,
+        9.622842716021005,
+        7.637755536874509,
+        7.581042105161371,
+        6.9041273343311875
+      ]
+    }
+  },
+  "UK/Economy_10": {
+    "fold_results": {
+      "Fold_1": [
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 73.30156849045605,
+          "optimized_cost": 71.13510170290377,
+          "savings_pct": 2.955553110482701,
+          "events": 6994,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 144.42072547330898,
+          "optimized_cost": 135.97290109537863,
+          "savings_pct": 5.849454328832896,
+          "events": 2586,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 21.793237885900908,
+          "optimized_cost": 20.6983861373161,
+          "savings_pct": 5.023814057906103,
+          "events": 2126,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 53.69152755277119,
+          "optimized_cost": 46.914779352994316,
+          "savings_pct": 12.621634191942647,
+          "events": 533,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 28.35915996697042,
+          "optimized_cost": 24.96358787396238,
+          "savings_pct": 11.973457947847626,
+          "events": 1249,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 55.60109397342796,
+          "optimized_cost": 49.61256782308659,
+          "savings_pct": 10.770518567860034,
+          "events": 2224,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 51.838409922899544,
+          "optimized_cost": 50.40056896559635,
+          "savings_pct": 2.7736980348003115,
+          "events": 8582,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 47.119884684349124,
+          "optimized_cost": 44.75791675813512,
+          "savings_pct": 5.012677645619398,
+          "events": 3293,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 30.03796293254643,
+          "optimized_cost": 29.321453164322257,
+          "savings_pct": 2.385347401330697,
+          "events": 2565,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 69.24248697849451,
+          "optimized_cost": 57.915390288223264,
+          "savings_pct": 16.35859309009112,
+          "events": 2784,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 67.88675880453492,
+          "optimized_cost": 61.64233955474274,
+          "savings_pct": 9.198287500765238,
+          "events": 6198,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 64.18192479716917,
+          "optimized_cost": 56.94151822121786,
+          "savings_pct": 11.28106799357108,
+          "events": 1138,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 163.98198693846808,
+          "optimized_cost": 133.5626173619071,
+          "savings_pct": 18.550433583888353,
+          "events": 7140,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 126.29382602865238,
+          "optimized_cost": 122.75012616612975,
+          "savings_pct": 2.8059169430172046,
+          "events": 7036,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 191.87598470896722,
+          "optimized_cost": 177.20599604192827,
+          "savings_pct": 7.645557462175388,
+          "events": 8044,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 299.02669670584703,
+          "optimized_cost": 297.0062244040785,
+          "savings_pct": 0.6756829152803197,
+          "events": 2955,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 114.44700135716185,
+          "optimized_cost": 84.65037301979581,
+          "savings_pct": 26.03530715879384,
+          "events": 8320,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 118.51328436208992,
+          "optimized_cost": 113.36886660818755,
+          "savings_pct": 4.340794183194515,
+          "events": 4707,
+          "season": "Autumn"
+        },
+        {
+          "test_months": [
+            10,
+            11
+          ],
+          "baseline_cost": 88.50338720489984,
+          "optimized_cost": 75.88966964678568,
+          "savings_pct": 14.252242718023139,
+          "events": 2613,
+          "season": "Autumn"
+        }
+      ],
+      "Fold_2": [
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 115.66252731764237,
+          "optimized_cost": 112.29275484197501,
+          "savings_pct": 2.9134522250348223,
+          "events": 7764,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 116.57672435435236,
+          "optimized_cost": 100.28427234668453,
+          "savings_pct": 13.975733233114779,
+          "events": 7460,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 17.55659113224448,
+          "optimized_cost": 17.05965428082858,
+          "savings_pct": 2.830485984851737,
+          "events": 2092,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 100.71622841804134,
+          "optimized_cost": 86.50569173249619,
+          "savings_pct": 14.10948057602166,
+          "events": 1449,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 52.012246897647316,
+          "optimized_cost": 44.9037178370064,
+          "savings_pct": 13.667029372196687,
+          "events": 1583,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 153.2214089021785,
+          "optimized_cost": 142.53412448558555,
+          "savings_pct": 6.975059486247155,
+          "events": 3801,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 57.00320630290529,
+          "optimized_cost": 52.58716297264997,
+          "savings_pct": 7.747008662616663,
+          "events": 9503,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 49.34609236610879,
+          "optimized_cost": 44.47418478528618,
+          "savings_pct": 9.87293491179997,
+          "events": 3851,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 27.938806906900204,
+          "optimized_cost": 27.153016604017655,
+          "savings_pct": 2.812540655372362,
+          "events": 2573,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 61.62307669977518,
+          "optimized_cost": 51.82495203460235,
+          "savings_pct": 15.900090014831378,
+          "events": 2049,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 56.41716090835738,
+          "optimized_cost": 48.54555564962334,
+          "savings_pct": 13.952501565118599,
+          "events": 6047,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 58.95887052822358,
+          "optimized_cost": 51.820121996523156,
+          "savings_pct": 12.108014396719332,
+          "events": 987,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 194.3222443064755,
+          "optimized_cost": 154.7804400542645,
+          "savings_pct": 20.348573264647783,
+          "events": 6548,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 103.60971929355529,
+          "optimized_cost": 98.607622724919,
+          "savings_pct": 4.827825615919249,
+          "events": 7626,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 208.76946689967832,
+          "optimized_cost": 197.8385082252567,
+          "savings_pct": 5.235899117218304,
+          "events": 7087,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 76.16327231951949,
+          "optimized_cost": 71.64250727329842,
+          "savings_pct": 5.935623442301163,
+          "events": 5047,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 178.20900415102938,
+          "optimized_cost": 126.70215469924753,
+          "savings_pct": 28.902495526056914,
+          "events": 9409,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 62.069744577420494,
+          "optimized_cost": 55.16141592896157,
+          "savings_pct": 11.129945346950908,
+          "events": 5571,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            12,
+            1
+          ],
+          "baseline_cost": 132.81310048609873,
+          "optimized_cost": 109.93453161494622,
+          "savings_pct": 17.226138677145904,
+          "events": 4093,
+          "season": "Winter"
+        }
+      ],
+      "Fold_3": [
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 99.53468510880451,
+          "optimized_cost": 97.48213672327118,
+          "savings_pct": 2.0621438479356438,
+          "events": 6490,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 390.0294808417498,
+          "optimized_cost": 385.7657669324527,
+          "savings_pct": 1.09317734138846,
+          "events": 4351,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 21.3768125002775,
+          "optimized_cost": 20.47987833832348,
+          "savings_pct": 4.195827427229268,
+          "events": 2178,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 161.53875195799165,
+          "optimized_cost": 143.06603665826924,
+          "savings_pct": 11.435469864547587,
+          "events": 1374,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 41.266190297327974,
+          "optimized_cost": 36.156546773840745,
+          "savings_pct": 12.382154705029999,
+          "events": 1853,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 100.66300853769472,
+          "optimized_cost": 87.90113932649717,
+          "savings_pct": 12.67781422052241,
+          "events": 4904,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 73.54708746813785,
+          "optimized_cost": 70.19113371882938,
+          "savings_pct": 4.563000201418363,
+          "events": 10252,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 166.89484071335866,
+          "optimized_cost": 161.2407278542979,
+          "savings_pct": 3.387829626663951,
+          "events": 5370,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 68.83363486802206,
+          "optimized_cost": 67.83555644959057,
+          "savings_pct": 1.4499865078244847,
+          "events": 2997,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 79.29488332827432,
+          "optimized_cost": 64.54144101651042,
+          "savings_pct": 18.60579358025645,
+          "events": 2972,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 62.60828060909465,
+          "optimized_cost": 57.29760892230977,
+          "savings_pct": 8.48237906410967,
+          "events": 5323,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 85.4944808928797,
+          "optimized_cost": 77.77705412531952,
+          "savings_pct": 9.026812826935249,
+          "events": 1753,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 121.94733141893691,
+          "optimized_cost": 99.32346570791262,
+          "savings_pct": 18.55216136981501,
+          "events": 4728,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 74.76312126173258,
+          "optimized_cost": 72.22791747937963,
+          "savings_pct": 3.390981729451406,
+          "events": 4950,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 131.3417303632733,
+          "optimized_cost": 124.47309758305838,
+          "savings_pct": 5.2295890736457,
+          "events": 5196,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 32.87539830518159,
+          "optimized_cost": 29.710385672912118,
+          "savings_pct": 9.627298209100713,
+          "events": 3314,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 98.4455093909092,
+          "optimized_cost": 70.78626267133284,
+          "savings_pct": 28.095996344278667,
+          "events": 6119,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 57.66889086909419,
+          "optimized_cost": 53.64904029705072,
+          "savings_pct": 6.9705702874854225,
+          "events": 4228,
+          "season": "Winter"
+        },
+        {
+          "test_months": [
+            2,
+            3
+          ],
+          "baseline_cost": 116.24560416539946,
+          "optimized_cost": 102.62372270760348,
+          "savings_pct": 11.71819059791212,
+          "events": 2707,
+          "season": "Winter"
+        }
+      ],
+      "Fold_4": [
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 97.47418540785092,
+          "optimized_cost": 89.56346134282862,
+          "savings_pct": 8.115711900460928,
+          "events": 11637,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 235.7653658356432,
+          "optimized_cost": 212.3162200234066,
+          "savings_pct": 9.945967139458247,
+          "events": 9707,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 52.872382479820786,
+          "optimized_cost": 52.16213469993224,
+          "savings_pct": 1.3433247124046654,
+          "events": 4118,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 161.8899430996748,
+          "optimized_cost": 140.98523619978954,
+          "savings_pct": 12.91291262423531,
+          "events": 2393,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 77.35769018328118,
+          "optimized_cost": 68.76864715738307,
+          "savings_pct": 11.103024153834419,
+          "events": 4337,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 144.48483977414293,
+          "optimized_cost": 128.8542542108132,
+          "savings_pct": 10.818149217428823,
+          "events": 7033,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 121.09497332938753,
+          "optimized_cost": 116.84727935963345,
+          "savings_pct": 3.5077376483663207,
+          "events": 21620,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 189.6731613526716,
+          "optimized_cost": 180.22099312632537,
+          "savings_pct": 4.98339784023065,
+          "events": 9399,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 57.371571554915064,
+          "optimized_cost": 55.509240823505124,
+          "savings_pct": 3.2460863123251733,
+          "events": 4505,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 111.46092890231495,
+          "optimized_cost": 89.50425844177244,
+          "savings_pct": 19.698983919096417,
+          "events": 4165,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 156.10170708266264,
+          "optimized_cost": 140.07579977677761,
+          "savings_pct": 10.266324184013321,
+          "events": 16781,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 120.96096653893387,
+          "optimized_cost": 109.94796638917413,
+          "savings_pct": 9.104590071388838,
+          "events": 3135,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 190.18422391559812,
+          "optimized_cost": 161.52675859362643,
+          "savings_pct": 15.068266300936505,
+          "events": 8457,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 145.69434685528623,
+          "optimized_cost": 139.47463000552358,
+          "savings_pct": 4.269017284480162,
+          "events": 9955,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 276.3013691529439,
+          "optimized_cost": 260.7861614205875,
+          "savings_pct": 5.615320611664462,
+          "events": 9258,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 72.2423933021048,
+          "optimized_cost": 67.2457128541875,
+          "savings_pct": 6.9165488842847065,
+          "events": 8635,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 181.97548823936236,
+          "optimized_cost": 137.6477580965879,
+          "savings_pct": 24.359176376802885,
+          "events": 10983,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 88.6354844389984,
+          "optimized_cost": 80.64593250703795,
+          "savings_pct": 9.013942872348261,
+          "events": 7219,
+          "season": "Spring"
+        },
+        {
+          "test_months": [
+            4,
+            5,
+            6
+          ],
+          "baseline_cost": 180.68077386250422,
+          "optimized_cost": 147.51122250593642,
+          "savings_pct": 18.358096795517056,
+          "events": 6525,
+          "season": "Spring"
+        }
+      ],
+      "Fold_5": [
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 59.01918909188858,
+          "optimized_cost": 54.27461847720377,
+          "savings_pct": 8.03903050463445,
+          "events": 6463,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 80.06749264157136,
+          "optimized_cost": 66.92579597611046,
+          "savings_pct": 16.413273641889564,
+          "events": 1715,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 24.19077388310115,
+          "optimized_cost": 23.582288119588043,
+          "savings_pct": 2.5153629497491026,
+          "events": 1172,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 89.11792704761883,
+          "optimized_cost": 80.94318872151494,
+          "savings_pct": 9.172944879806105,
+          "events": 889,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 41.824675837381534,
+          "optimized_cost": 39.60768170962962,
+          "savings_pct": 5.300684544147597,
+          "events": 3272,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 79.11925203494121,
+          "optimized_cost": 71.64978639872604,
+          "savings_pct": 9.440768768790251,
+          "events": 3248,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 109.79913200459846,
+          "optimized_cost": 107.73762097167574,
+          "savings_pct": 1.8775294442549748,
+          "events": 14697,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 90.25691053409255,
+          "optimized_cost": 84.08344033706547,
+          "savings_pct": 6.839886453564343,
+          "events": 5218,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 35.302685733122374,
+          "optimized_cost": 34.698685777994115,
+          "savings_pct": 1.7109178596051193,
+          "events": 2121,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 80.43529375818227,
+          "optimized_cost": 66.41398952284868,
+          "savings_pct": 17.431780976006287,
+          "events": 3132,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 88.85790705036831,
+          "optimized_cost": 79.08021767357197,
+          "savings_pct": 11.003735853528433,
+          "events": 8458,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 59.87245670566473,
+          "optimized_cost": 56.13000832635251,
+          "savings_pct": 6.250701215936805,
+          "events": 1764,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 157.06402057535516,
+          "optimized_cost": 134.63086905065208,
+          "savings_pct": 14.28280738168182,
+          "events": 6350,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 113.80952397652064,
+          "optimized_cost": 109.80671373416746,
+          "savings_pct": 3.5171135969068574,
+          "events": 5325,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 109.59122451382297,
+          "optimized_cost": 100.93362307003343,
+          "savings_pct": 7.899903922231958,
+          "events": 5098,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 40.15809041023523,
+          "optimized_cost": 36.45526695753422,
+          "savings_pct": 9.220616356193222,
+          "events": 4760,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 98.22101416119875,
+          "optimized_cost": 77.80429182178217,
+          "savings_pct": 20.786511434212013,
+          "events": 6777,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 66.5761290987099,
+          "optimized_cost": 62.74339163774356,
+          "savings_pct": 5.756924460543039,
+          "events": 5454,
+          "season": "Summer"
+        },
+        {
+          "test_months": [
+            7,
+            8,
+            9
+          ],
+          "baseline_cost": 107.91384586848241,
+          "optimized_cost": 90.55796344572465,
+          "savings_pct": 16.083091361519866,
+          "events": 4165,
+          "season": "Summer"
+        }
+      ]
+    },
+    "seasonal_results": {
+      "Autumn": {
+        "mean": 8.974212570285399,
+        "std": 6.429225880428693,
+        "count": 19,
+        "raw_values": [
+          2.955553110482701,
+          5.849454328832896,
+          5.023814057906103,
+          12.621634191942647,
+          11.973457947847626,
+          10.770518567860034,
+          2.7736980348003115,
+          5.012677645619398,
+          2.385347401330697,
+          16.35859309009112,
+          9.198287500765238,
+          11.28106799357108,
+          18.550433583888353,
+          2.8059169430172046,
+          7.645557462175388,
+          0.6756829152803197,
+          26.03530715879384,
+          4.340794183194515,
+          14.252242718023139
+        ]
+      },
+      "Winter": {
+        "mean": 10.089947602624102,
+        "std": 6.7785095182449835,
+        "count": 38,
+        "raw_values": [
+          2.9134522250348223,
+          2.0621438479356438,
+          13.975733233114779,
+          1.09317734138846,
+          2.830485984851737,
+          4.195827427229268,
+          14.10948057602166,
+          11.435469864547587,
+          13.667029372196687,
+          12.382154705029999,
+          6.975059486247155,
+          12.67781422052241,
+          7.747008662616663,
+          4.563000201418363,
+          9.87293491179997,
+          3.387829626663951,
+          2.812540655372362,
+          1.4499865078244847,
+          15.900090014831378,
+          18.60579358025645,
+          13.952501565118599,
+          8.48237906410967,
+          12.108014396719332,
+          9.026812826935249,
+          20.348573264647783,
+          18.55216136981501,
+          4.827825615919249,
+          3.390981729451406,
+          5.235899117218304,
+          5.2295890736457,
+          5.935623442301163,
+          9.627298209100713,
+          28.902495526056914,
+          28.095996344278667,
+          11.129945346950908,
+          6.9705702874854225,
+          17.226138677145904,
+          11.71819059791212
+        ]
+      },
+      "Spring": {
+        "mean": 9.928767307856692,
+        "std": 5.89790717721716,
+        "count": 19,
+        "raw_values": [
+          8.115711900460928,
+          9.945967139458247,
+          1.3433247124046654,
+          12.91291262423531,
+          11.103024153834419,
+          10.818149217428823,
+          3.5077376483663207,
+          4.98339784023065,
+          3.2460863123251733,
+          19.698983919096417,
+          10.266324184013321,
+          9.104590071388838,
+          15.068266300936505,
+          4.269017284480162,
+          5.615320611664462,
+          6.9165488842847065,
+          24.359176376802885,
+          9.013942872348261,
+          18.358096795517056
+        ]
+      },
+      "Summer": {
+        "mean": 9.13387292658957,
+        "std": 5.436391470769321,
+        "count": 19,
+        "raw_values": [
+          8.03903050463445,
+          16.413273641889564,
+          2.5153629497491026,
+          9.172944879806105,
+          5.300684544147597,
+          9.440768768790251,
+          1.8775294442549748,
+          6.839886453564343,
+          1.7109178596051193,
+          17.431780976006287,
+          11.003735853528433,
+          6.250701215936805,
+          14.28280738168182,
+          3.5171135969068574,
+          7.899903922231958,
+          9.220616356193222,
+          20.786511434212013,
+          5.756924460543039,
+          16.083091361519866
+        ]
+      }
+    },
+    "house_results": {
+      "house1": {
+        "1": {
+          "baseline": 45.49834751977095,
+          "optimized": 44.25617810762686,
+          "events": 3316
+        },
+        "2": {
+          "baseline": 28.717600111591423,
+          "optimized": 27.63446520453031,
+          "events": 2256
+        },
+        "3": {
+          "baseline": 70.81708499721309,
+          "optimized": 69.84767151874087,
+          "events": 4234
+        },
+        "4": {
+          "baseline": 43.1996029966229,
+          "optimized": 39.472415756443226,
+          "events": 4794
+        },
+        "5": {
+          "baseline": 26.80392054277071,
+          "optimized": 24.59347090547912,
+          "events": 3372
+        },
+        "6": {
+          "baseline": 27.470661868457313,
+          "optimized": 25.49757468090626,
+          "events": 3471
+        },
+        "7": {
+          "baseline": 25.221701206884617,
+          "optimized": 23.50374282685522,
+          "events": 2653
+        },
+        "8": {
+          "baseline": 17.358698734802992,
+          "optimized": 15.650849887922696,
+          "events": 1891
+        },
+        "9": {
+          "baseline": 16.438789150200968,
+          "optimized": 15.120025762425849,
+          "events": 1919
+        },
+        "10": {
+          "baseline": 22.401947528058752,
+          "optimized": 21.651210267901295,
+          "events": 3157
+        },
+        "11": {
+          "baseline": 50.89962096239729,
+          "optimized": 49.48389143500247,
+          "events": 3837
+        },
+        "12": {
+          "baseline": 70.16417979787141,
+          "optimized": 68.03657673434816,
+          "events": 4448
+        }
+      },
+      "house10": {
+        "1": {
+          "baseline": 52.4768695833456,
+          "optimized": 45.1210360667413,
+          "events": 3484
+        },
+        "2": {
+          "baseline": 364.7839804237047,
+          "optimized": 363.73946175063224,
+          "events": 2593
+        },
+        "3": {
+          "baseline": 25.24550041804509,
+          "optimized": 22.026305181820465,
+          "events": 1758
+        },
+        "4": {
+          "baseline": 64.0226204038621,
+          "optimized": 55.16211660627997,
+          "events": 4009
+        },
+        "5": {
+          "baseline": 107.1662033340118,
+          "optimized": 99.3739884804097,
+          "events": 3701
+        },
+        "6": {
+          "baseline": 64.57654209776929,
+          "optimized": 57.78011493671692,
+          "events": 1997
+        },
+        "7": {
+          "baseline": 17.981253879636526,
+          "optimized": 14.10450391314929,
+          "events": 596
+        },
+        "8": {
+          "baseline": 25.48753308488986,
+          "optimized": 21.340588715906478,
+          "events": 537
+        },
+        "9": {
+          "baseline": 36.598705677044975,
+          "optimized": 31.480703347054707,
+          "events": 582
+        },
+        "10": {
+          "baseline": 35.171913952978485,
+          "optimized": 32.292854831451706,
+          "events": 747
+        },
+        "11": {
+          "baseline": 109.24881152033049,
+          "optimized": 103.68004626392693,
+          "events": 1839
+        },
+        "12": {
+          "baseline": 64.09985477100676,
+          "optimized": 55.16323627994323,
+          "events": 3976
+        }
+      },
+      "house11": {
+        "1": {
+          "baseline": 9.747100655678707,
+          "optimized": 9.335765242498756,
+          "events": 1195
+        },
+        "2": {
+          "baseline": 12.80394838286254,
+          "optimized": 12.068360491257229,
+          "events": 1115
+        },
+        "3": {
+          "baseline": 8.572864117414959,
+          "optimized": 8.411517847066253,
+          "events": 1063
+        },
+        "4": {
+          "baseline": 13.403748756172813,
+          "optimized": 13.198432399922815,
+          "events": 1309
+        },
+        "5": {
+          "baseline": 6.599532571913728,
+          "optimized": 6.539084894830395,
+          "events": 1059
+        },
+        "6": {
+          "baseline": 32.86910115173424,
+          "optimized": 32.42461740517903,
+          "events": 1750
+        },
+        "7": {
+          "baseline": 9.225093242767462,
+          "optimized": 8.9679169991115,
+          "events": 515
+        },
+        "8": {
+          "baseline": 8.552978789377653,
+          "optimized": 8.394460512377652,
+          "events": 272
+        },
+        "9": {
+          "baseline": 6.4127018509560365,
+          "optimized": 6.219910608098894,
+          "events": 385
+        },
+        "10": {
+          "baseline": 10.885149852913111,
+          "optimized": 10.351797559206126,
+          "events": 1125
+        },
+        "11": {
+          "baseline": 10.908088032987795,
+          "optimized": 10.346588578109973,
+          "events": 1001
+        },
+        "12": {
+          "baseline": 7.809490476565773,
+          "optimized": 7.723889038329823,
+          "events": 897
+        }
+      },
+      "house13": {
+        "1": {
+          "baseline": 73.24609319396531,
+          "optimized": 65.66191314148647,
+          "events": 700
+        },
+        "2": {
+          "baseline": 33.92495228522403,
+          "optimized": 24.65276551879044,
+          "events": 662
+        },
+        "3": {
+          "baseline": 127.61379967276763,
+          "optimized": 118.4132711394788,
+          "events": 712
+        },
+        "4": {
+          "baseline": 69.09336013257021,
+          "optimized": 59.706288019086614,
+          "events": 1080
+        },
+        "5": {
+          "baseline": 59.30617058840453,
+          "optimized": 50.858252026422804,
+          "events": 990
+        },
+        "6": {
+          "baseline": 33.490412378700086,
+          "optimized": 30.420696154280108,
+          "events": 323
+        },
+        "7": {
+          "baseline": 26.594929915637596,
+          "optimized": 24.31359381803126,
+          "events": 272
+        },
+        "8": {
+          "baseline": 39.575797819337325,
+          "optimized": 35.23688364939807,
+          "events": 446
+        },
+        "9": {
+          "baseline": 22.947199312643917,
+          "optimized": 21.392711254085608,
+          "events": 171
+        },
+        "10": {
+          "baseline": 19.77493509904329,
+          "optimized": 16.3256759158011,
+          "events": 247
+        },
+        "11": {
+          "baseline": 33.9165924537279,
+          "optimized": 30.589103437193213,
+          "events": 286
+        },
+        "12": {
+          "baseline": 27.47013522407603,
+          "optimized": 20.84377859100973,
+          "events": 749
+        }
+      },
+      "house15": {
+        "1": {
+          "baseline": 29.330563711669534,
+          "optimized": 25.104085411316234,
+          "events": 974
+        },
+        "2": {
+          "baseline": 16.410702493458686,
+          "optimized": 14.346768314696233,
+          "events": 731
+        },
+        "3": {
+          "baseline": 24.855487803869288,
+          "optimized": 21.80977845914451,
+          "events": 1122
+        },
+        "4": {
+          "baseline": 24.76666792784691,
+          "optimized": 22.71526536640275,
+          "events": 1411
+        },
+        "5": {
+          "baseline": 29.794201808905733,
+          "optimized": 25.030256719975203,
+          "events": 1445
+        },
+        "6": {
+          "baseline": 22.796820446528535,
+          "optimized": 21.02312507100512,
+          "events": 1481
+        },
+        "7": {
+          "baseline": 15.693981073131718,
+          "optimized": 14.89778502773737,
+          "events": 1455
+        },
+        "8": {
+          "baseline": 13.957445247087918,
+          "optimized": 13.265617973469096,
+          "events": 1098
+        },
+        "9": {
+          "baseline": 12.173249517161896,
+          "optimized": 11.444278708423145,
+          "events": 719
+        },
+        "10": {
+          "baseline": 17.297359994310035,
+          "optimized": 15.29727142445708,
+          "events": 759
+        },
+        "11": {
+          "baseline": 11.061799972660385,
+          "optimized": 9.666316449505299,
+          "events": 490
+        },
+        "12": {
+          "baseline": 22.681683185977782,
+          "optimized": 19.799632425690167,
+          "events": 609
+        }
+      },
+      "house16": {
+        "1": {
+          "baseline": 88.9534659002285,
+          "optimized": 81.91851278168257,
+          "events": 2273
+        },
+        "2": {
+          "baseline": 33.98708839184427,
+          "optimized": 29.116038959488204,
+          "events": 1897
+        },
+        "3": {
+          "baseline": 66.67592014585045,
+          "optimized": 58.785100367008965,
+          "events": 3007
+        },
+        "4": {
+          "baseline": 60.96773512703567,
+          "optimized": 54.915916948494576,
+          "events": 2472
+        },
+        "5": {
+          "baseline": 46.50592060008223,
+          "optimized": 40.980935642744925,
+          "events": 2362
+        },
+        "6": {
+          "baseline": 37.01118404702503,
+          "optimized": 32.95740161957368,
+          "events": 2199
+        },
+        "7": {
+          "baseline": 14.69454687844951,
+          "optimized": 13.069781668133805,
+          "events": 873
+        },
+        "8": {
+          "baseline": 32.142807148816544,
+          "optimized": 29.642405584678848,
+          "events": 1010
+        },
+        "9": {
+          "baseline": 32.28189800767515,
+          "optimized": 28.937599145913374,
+          "events": 1365
+        },
+        "10": {
+          "baseline": 35.691397533223444,
+          "optimized": 31.80603087409654,
+          "events": 1487
+        },
+        "11": {
+          "baseline": 19.909696440204513,
+          "optimized": 17.80653694899005,
+          "events": 737
+        },
+        "12": {
+          "baseline": 64.26794300195002,
+          "optimized": 60.61561170390297,
+          "events": 1528
+        }
+      },
+      "house17": {
+        "1": {
+          "baseline": 27.67195767232519,
+          "optimized": 26.10298687740315,
+          "events": 4468
+        },
+        "2": {
+          "baseline": 26.42360251096897,
+          "optimized": 24.21346836247831,
+          "events": 3513
+        },
+        "3": {
+          "baseline": 47.12348495716888,
+          "optimized": 45.977665356351075,
+          "events": 6739
+        },
+        "4": {
+          "baseline": 52.788651035434896,
+          "optimized": 51.1263570236734,
+          "events": 8014
+        },
+        "5": {
+          "baseline": 37.21871134114811,
+          "optimized": 35.946346800400484,
+          "events": 7598
+        },
+        "6": {
+          "baseline": 31.087610952804518,
+          "optimized": 29.774575535559563,
+          "events": 6008
+        },
+        "7": {
+          "baseline": 62.46907129980043,
+          "optimized": 61.828841541938154,
+          "events": 4282
+        },
+        "8": {
+          "baseline": 23.68760661933522,
+          "optimized": 23.02014070499456,
+          "events": 5011
+        },
+        "9": {
+          "baseline": 23.6424540854628,
+          "optimized": 22.888638724743036,
+          "events": 5404
+        },
+        "10": {
+          "baseline": 26.694500092993014,
+          "optimized": 26.013078553160927,
+          "events": 4079
+        },
+        "11": {
+          "baseline": 25.14390982990653,
+          "optimized": 24.387490412435422,
+          "events": 4503
+        },
+        "12": {
+          "baseline": 29.331248630580102,
+          "optimized": 26.48417609524682,
+          "events": 5035
+        }
+      },
+      "house18": {
+        "1": {
+          "baseline": 23.792380150368295,
+          "optimized": 21.43457521473276,
+          "events": 1960
+        },
+        "2": {
+          "baseline": 41.74595172997174,
+          "optimized": 40.41993167830568,
+          "events": 1863
+        },
+        "3": {
+          "baseline": 125.14888898338691,
+          "optimized": 120.8207961759922,
+          "events": 3507
+        },
+        "4": {
+          "baseline": 55.587765683147424,
+          "optimized": 50.73311793792091,
+          "events": 3643
+        },
+        "5": {
+          "baseline": 98.37484852396354,
+          "optimized": 96.20049419502442,
+          "events": 3427
+        },
+        "6": {
+          "baseline": 35.71054714556064,
+          "optimized": 33.28738099338005,
+          "events": 2329
+        },
+        "7": {
+          "baseline": 31.55616718309324,
+          "optimized": 29.473664741686992,
+          "events": 1757
+        },
+        "8": {
+          "baseline": 26.94802991110899,
+          "optimized": 25.384466398323966,
+          "events": 1936
+        },
+        "9": {
+          "baseline": 31.75271343989033,
+          "optimized": 29.225309197054507,
+          "events": 1525
+        },
+        "10": {
+          "baseline": 26.67945477093823,
+          "optimized": 25.412340401724034,
+          "events": 1727
+        },
+        "11": {
+          "baseline": 20.440429913410895,
+          "optimized": 19.345576356411083,
+          "events": 1566
+        },
+        "12": {
+          "baseline": 25.553712215740497,
+          "optimized": 23.039609570553417,
+          "events": 1891
+        }
+      },
+      "house19": {
+        "1": {
+          "baseline": 14.665920212000806,
+          "optimized": 14.217234501220055,
+          "events": 1339
+        },
+        "2": {
+          "baseline": 11.913046314564326,
+          "optimized": 11.679573911019217,
+          "events": 1153
+        },
+        "3": {
+          "baseline": 56.92058855345773,
+          "optimized": 56.15598253857135,
+          "events": 1844
+        },
+        "4": {
+          "baseline": 20.547228165675257,
+          "optimized": 19.920014497474693,
+          "events": 1709
+        },
+        "5": {
+          "baseline": 20.630407927576293,
+          "optimized": 19.93024867187168,
+          "events": 1609
+        },
+        "6": {
+          "baseline": 16.193935461663518,
+          "optimized": 15.658977654158747,
+          "events": 1187
+        },
+        "7": {
+          "baseline": 12.459863749305882,
+          "optimized": 12.253628708397606,
+          "events": 758
+        },
+        "8": {
+          "baseline": 11.452768633730084,
+          "optimized": 11.279984340012277,
+          "events": 560
+        },
+        "9": {
+          "baseline": 11.390053350086411,
+          "optimized": 11.165072729584235,
+          "events": 803
+        },
+        "10": {
+          "baseline": 14.583680967769565,
+          "optimized": 14.25404238516755,
+          "events": 1120
+        },
+        "11": {
+          "baseline": 15.454281964776866,
+          "optimized": 15.067410779154708,
+          "events": 1445
+        },
+        "12": {
+          "baseline": 13.2728866948994,
+          "optimized": 12.9357821027976,
+          "events": 1234
+        }
+      },
+      "house2": {
+        "1": {
+          "baseline": 34.90018611232324,
+          "optimized": 29.785291686507062,
+          "events": 1092
+        },
+        "2": {
+          "baseline": 27.01404109927342,
+          "optimized": 22.595284998836597,
+          "events": 1073
+        },
+        "3": {
+          "baseline": 52.280842229000896,
+          "optimized": 41.946156017673815,
+          "events": 1899
+        },
+        "4": {
+          "baseline": 49.46931708562188,
+          "optimized": 39.798209766027,
+          "events": 1786
+        },
+        "5": {
+          "baseline": 38.58992720648719,
+          "optimized": 30.33039236431364,
+          "events": 1445
+        },
+        "6": {
+          "baseline": 23.40168461020587,
+          "optimized": 19.375656311431804,
+          "events": 934
+        },
+        "7": {
+          "baseline": 22.178032896258088,
+          "optimized": 18.309470830430968,
+          "events": 876
+        },
+        "8": {
+          "baseline": 19.810211328014695,
+          "optimized": 16.140129012537894,
+          "events": 764
+        },
+        "9": {
+          "baseline": 38.44704953390949,
+          "optimized": 31.964389679879822,
+          "events": 1492
+        },
+        "10": {
+          "baseline": 46.67935284360385,
+          "optimized": 38.824606174195225,
+          "events": 1909
+        },
+        "11": {
+          "baseline": 22.563134134890657,
+          "optimized": 19.090784114028043,
+          "events": 875
+        },
+        "12": {
+          "baseline": 26.722890587451946,
+          "optimized": 22.039660348095282,
+          "events": 957
+        }
+      },
+      "house20": {
+        "1": {
+          "baseline": 30.099869418803344,
+          "optimized": 25.968706681170982,
+          "events": 2961
+        },
+        "2": {
+          "baseline": 35.07599469117982,
+          "optimized": 32.696060406721905,
+          "events": 2453
+        },
+        "3": {
+          "baseline": 27.53228591791483,
+          "optimized": 24.601548515587865,
+          "events": 2870
+        },
+        "4": {
+          "baseline": 55.89582158213871,
+          "optimized": 50.313596626206945,
+          "events": 6132
+        },
+        "5": {
+          "baseline": 53.90846079558444,
+          "optimized": 49.702320469050015,
+          "events": 5893
+        },
+        "6": {
+          "baseline": 46.29742470493947,
+          "optimized": 40.059882681520676,
+          "events": 4756
+        },
+        "7": {
+          "baseline": 29.75904790735868,
+          "optimized": 26.906119959078804,
+          "events": 2488
+        },
+        "8": {
+          "baseline": 29.501145529541052,
+          "optimized": 25.892120785497365,
+          "events": 3108
+        },
+        "9": {
+          "baseline": 29.597713613468578,
+          "optimized": 26.281976928995793,
+          "events": 2862
+        },
+        "10": {
+          "baseline": 41.21400916470464,
+          "optimized": 38.42490490267474,
+          "events": 3079
+        },
+        "11": {
+          "baseline": 26.672749639830275,
+          "optimized": 23.217434652068,
+          "events": 3119
+        },
+        "12": {
+          "baseline": 26.317291489554037,
+          "optimized": 22.57684896845236,
+          "events": 3086
+        }
+      },
+      "house21": {
+        "1": {
+          "baseline": 20.946372273303197,
+          "optimized": 16.130938699777598,
+          "events": 521
+        },
+        "2": {
+          "baseline": 19.289928621366137,
+          "optimized": 15.952579081051883,
+          "events": 584
+        },
+        "3": {
+          "baseline": 66.20455227151355,
+          "optimized": 61.824475044267636,
+          "events": 1169
+        },
+        "4": {
+          "baseline": 43.76495108405772,
+          "optimized": 38.909292440853555,
+          "events": 1235
+        },
+        "5": {
+          "baseline": 26.403493093413335,
+          "optimized": 23.17862597872839,
+          "events": 1141
+        },
+        "6": {
+          "baseline": 50.792522361462815,
+          "optimized": 47.86004796959218,
+          "events": 759
+        },
+        "7": {
+          "baseline": 12.086500458093719,
+          "optimized": 11.245516528889723,
+          "events": 732
+        },
+        "8": {
+          "baseline": 23.76837782240148,
+          "optimized": 22.804790582035693,
+          "events": 433
+        },
+        "9": {
+          "baseline": 24.017578425169532,
+          "optimized": 22.079701215427093,
+          "events": 599
+        },
+        "10": {
+          "baseline": 38.396108651998,
+          "optimized": 35.968376986304165,
+          "events": 583
+        },
+        "11": {
+          "baseline": 25.785816145171175,
+          "optimized": 20.973141234913697,
+          "events": 555
+        },
+        "12": {
+          "baseline": 38.01249825492038,
+          "optimized": 35.689183296745554,
+          "events": 466
+        }
+      },
+      "house3": {
+        "1": {
+          "baseline": 73.18654361768525,
+          "optimized": 61.22142226448328,
+          "events": 2757
+        },
+        "2": {
+          "baseline": 49.87093124882449,
+          "optimized": 39.02645132053666,
+          "events": 1411
+        },
+        "3": {
+          "baseline": 72.07640017011242,
+          "optimized": 60.29701438737597,
+          "events": 3317
+        },
+        "4": {
+          "baseline": 76.80424763367719,
+          "optimized": 65.04057140954049,
+          "events": 3012
+        },
+        "5": {
+          "baseline": 63.842337392410954,
+          "optimized": 56.129298713701594,
+          "events": 3052
+        },
+        "6": {
+          "baseline": 49.537638889510006,
+          "optimized": 40.35688847038435,
+          "events": 2393
+        },
+        "7": {
+          "baseline": 40.63602545476647,
+          "optimized": 35.22230537668713,
+          "events": 2060
+        },
+        "8": {
+          "baseline": 55.122449461144,
+          "optimized": 46.4190157299942,
+          "events": 1907
+        },
+        "9": {
+          "baseline": 61.3055456594447,
+          "optimized": 52.98954794397075,
+          "events": 2383
+        },
+        "10": {
+          "baseline": 70.11089007969208,
+          "optimized": 57.74567876230474,
+          "events": 3285
+        },
+        "11": {
+          "baseline": 93.87109685877599,
+          "optimized": 75.81693859960235,
+          "events": 3855
+        },
+        "12": {
+          "baseline": 121.13570068879025,
+          "optimized": 93.5590177897812,
+          "events": 3791
+        }
+      },
+      "house4": {
+        "1": {
+          "baseline": 48.01338819775689,
+          "optimized": 45.67757776480234,
+          "events": 3669
+        },
+        "2": {
+          "baseline": 50.60919553646042,
+          "optimized": 49.333354854107476,
+          "events": 2716
+        },
+        "3": {
+          "baseline": 24.153925725272156,
+          "optimized": 22.894562625272155,
+          "events": 2234
+        },
+        "4": {
+          "baseline": 50.02484212471401,
+          "optimized": 47.43866999138068,
+          "events": 3624
+        },
+        "5": {
+          "baseline": 49.66671613708752,
+          "optimized": 47.886323847832124,
+          "events": 3337
+        },
+        "6": {
+          "baseline": 46.00278859348469,
+          "optimized": 44.14963616631077,
+          "events": 2994
+        },
+        "7": {
+          "baseline": 40.65676562454571,
+          "optimized": 38.94338838079571,
+          "events": 2474
+        },
+        "8": {
+          "baseline": 30.083955922558893,
+          "optimized": 29.16686073654436,
+          "events": 1450
+        },
+        "9": {
+          "baseline": 43.06880242941603,
+          "optimized": 41.696464616827384,
+          "events": 1401
+        },
+        "10": {
+          "baseline": 70.85363132902864,
+          "optimized": 69.47876014150602,
+          "events": 3167
+        },
+        "11": {
+          "baseline": 55.44019469962373,
+          "optimized": 53.27136602462373,
+          "events": 3869
+        },
+        "12": {
+          "baseline": 55.59633109579839,
+          "optimized": 52.93004496011666,
+          "events": 3957
+        }
+      },
+      "house5": {
+        "1": {
+          "baseline": 88.93144384172598,
+          "optimized": 84.11984032148894,
+          "events": 3299
+        },
+        "2": {
+          "baseline": 50.201592562376334,
+          "optimized": 48.59326587670769,
+          "events": 1829
+        },
+        "3": {
+          "baseline": 81.140137800897,
+          "optimized": 75.87983170635069,
+          "events": 3367
+        },
+        "4": {
+          "baseline": 72.0069222544565,
+          "optimized": 66.47405621872302,
+          "events": 3164
+        },
+        "5": {
+          "baseline": 89.69246655058134,
+          "optimized": 83.84577205377384,
+          "events": 3230
+        },
+        "6": {
+          "baseline": 114.60198034790604,
+          "optimized": 110.46633314809063,
+          "events": 2864
+        },
+        "7": {
+          "baseline": 38.797551363813525,
+          "optimized": 35.04481463180732,
+          "events": 1661
+        },
+        "8": {
+          "baseline": 25.640277475773118,
+          "optimized": 23.880088000174045,
+          "events": 1417
+        },
+        "9": {
+          "baseline": 45.153395674236315,
+          "optimized": 42.008720438052066,
+          "events": 2020
+        },
+        "10": {
+          "baseline": 86.36326376891677,
+          "optimized": 78.81574967028607,
+          "events": 4062
+        },
+        "11": {
+          "baseline": 105.51272094005046,
+          "optimized": 98.3902463716422,
+          "events": 3982
+        },
+        "12": {
+          "baseline": 119.83802305795233,
+          "optimized": 113.71866790376777,
+          "events": 3788
+        }
+      },
+      "house6": {
+        "1": {
+          "baseline": 31.208953026699742,
+          "optimized": 28.617094210001714,
+          "events": 2327
+        },
+        "2": {
+          "baseline": 10.916327225817763,
+          "optimized": 10.184052525627775,
+          "events": 1256
+        },
+        "3": {
+          "baseline": 21.959071079363827,
+          "optimized": 19.52633314728434,
+          "events": 2058
+        },
+        "4": {
+          "baseline": 28.135799827283915,
+          "optimized": 26.126770322226037,
+          "events": 2235
+        },
+        "5": {
+          "baseline": 22.393187067456722,
+          "optimized": 20.95846375400449,
+          "events": 2531
+        },
+        "6": {
+          "baseline": 21.713406407364158,
+          "optimized": 20.160478777956975,
+          "events": 3869
+        },
+        "7": {
+          "baseline": 13.571421202802235,
+          "optimized": 12.293013460253498,
+          "events": 1864
+        },
+        "8": {
+          "baseline": 14.35683158027124,
+          "optimized": 12.694197646937907,
+          "events": 1493
+        },
+        "9": {
+          "baseline": 12.22983762716176,
+          "optimized": 11.468055850342818,
+          "events": 1403
+        },
+        "10": {
+          "baseline": 42.647102395074064,
+          "optimized": 41.60630174343037,
+          "events": 1508
+        },
+        "11": {
+          "baseline": 256.379594310773,
+          "optimized": 255.39992266064817,
+          "events": 1447
+        },
+        "12": {
+          "baseline": 44.95431929281975,
+          "optimized": 43.0254130632967,
+          "events": 2720
+        }
+      },
+      "house7": {
+        "1": {
+          "baseline": 79.53079117871157,
+          "optimized": 56.71924931750132,
+          "events": 4302
+        },
+        "2": {
+          "baseline": 35.03760225998484,
+          "optimized": 24.95990679179932,
+          "events": 1988
+        },
+        "3": {
+          "baseline": 63.407907130924364,
+          "optimized": 45.826355879533516,
+          "events": 4131
+        },
+        "4": {
+          "baseline": 57.66354122742149,
+          "optimized": 42.83853261598037,
+          "events": 3777
+        },
+        "5": {
+          "baseline": 63.46736382432249,
+          "optimized": 47.87838583268285,
+          "events": 3760
+        },
+        "6": {
+          "baseline": 60.84458318761839,
+          "optimized": 46.93083964792467,
+          "events": 3446
+        },
+        "7": {
+          "baseline": 33.721970849067525,
+          "optimized": 28.09475329050688,
+          "events": 2276
+        },
+        "8": {
+          "baseline": 29.800984782016073,
+          "optimized": 23.583831067551344,
+          "events": 2181
+        },
+        "9": {
+          "baseline": 34.69805853011515,
+          "optimized": 26.12570746372395,
+          "events": 2320
+        },
+        "10": {
+          "baseline": 36.046230880970555,
+          "optimized": 27.248629059381745,
+          "events": 2425
+        },
+        "11": {
+          "baseline": 78.4007704761913,
+          "optimized": 57.401743960414066,
+          "events": 5895
+        },
+        "12": {
+          "baseline": 98.6782129723178,
+          "optimized": 69.9829053817462,
+          "events": 5107
+        }
+      },
+      "house8": {
+        "1": {
+          "baseline": 27.41351102946081,
+          "optimized": 24.577633978030043,
+          "events": 2435
+        },
+        "2": {
+          "baseline": 28.573727272425767,
+          "optimized": 27.024226251425766,
+          "events": 1394
+        },
+        "3": {
+          "baseline": 29.095163596668424,
+          "optimized": 26.62481404562495,
+          "events": 2834
+        },
+        "4": {
+          "baseline": 51.47104524791102,
+          "optimized": 47.68853267494161,
+          "events": 3012
+        },
+        "5": {
+          "baseline": 20.69798934200123,
+          "optimized": 18.28585692149229,
+          "events": 2325
+        },
+        "6": {
+          "baseline": 16.466449849086143,
+          "optimized": 14.671542910604058,
+          "events": 1882
+        },
+        "7": {
+          "baseline": 13.268353937436991,
+          "optimized": 12.565463928720387,
+          "events": 1828
+        },
+        "8": {
+          "baseline": 37.18736517829492,
+          "optimized": 35.98660625418581,
+          "events": 1788
+        },
+        "9": {
+          "baseline": 16.12040998297799,
+          "optimized": 14.191321454837366,
+          "events": 1838
+        },
+        "10": {
+          "baseline": 14.897226563960942,
+          "optimized": 13.157708913960942,
+          "events": 1571
+        },
+        "11": {
+          "baseline": 103.61605779812898,
+          "optimized": 100.2111576942266,
+          "events": 3136
+        },
+        "12": {
+          "baseline": 34.65623354795968,
+          "optimized": 30.583781950931524,
+          "events": 3136
+        }
+      },
+      "house9": {
+        "1": {
+          "baseline": 63.62874948015222,
+          "optimized": 50.90218955712969,
+          "events": 2322
+        },
+        "2": {
+          "baseline": 51.122606748101134,
+          "optimized": 46.657803341965064,
+          "events": 1202
+        },
+        "3": {
+          "baseline": 65.12299741729832,
+          "optimized": 55.96591936563841,
+          "events": 1505
+        },
+        "4": {
+          "baseline": 54.50115575154956,
+          "optimized": 45.08099330131333,
+          "events": 1684
+        },
+        "5": {
+          "baseline": 68.81208826772499,
+          "optimized": 54.5175590497833,
+          "events": 2487
+        },
+        "6": {
+          "baseline": 57.367529843229676,
+          "optimized": 47.91267015483977,
+          "events": 2354
+        },
+        "7": {
+          "baseline": 48.67612812996387,
+          "optimized": 41.247066327611265,
+          "events": 1771
+        },
+        "8": {
+          "baseline": 22.80303500824327,
+          "optimized": 19.102264465887455,
+          "events": 1140
+        },
+        "9": {
+          "baseline": 36.43468273027527,
+          "optimized": 30.208632652225926,
+          "events": 1254
+        },
+        "10": {
+          "baseline": 40.63699615559334,
+          "optimized": 34.317980932075365,
+          "events": 1308
+        },
+        "11": {
+          "baseline": 47.86639104930649,
+          "optimized": 41.57168871471031,
+          "events": 1305
+        },
+        "12": {
+          "baseline": 69.1843510059465,
+          "optimized": 59.032342057816535,
+          "events": 1771
+        }
+      }
+    },
+    "overall_stats": {
+      "mean_savings_pct": 9.643349601995975,
+      "std_savings_pct": 0.7921927018441236,
+      "coefficient_variation": 0.08214912188604631,
+      "fold_savings": [
+        8.974212570285399,
+        11.077412214429758,
+        9.102482990818453,
+        9.928767307856692,
+        9.13387292658957
+      ]
+    }
+  }
+}

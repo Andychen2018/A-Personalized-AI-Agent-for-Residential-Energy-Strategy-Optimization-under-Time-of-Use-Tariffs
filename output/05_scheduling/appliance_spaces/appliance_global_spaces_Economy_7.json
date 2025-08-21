@@ -1,0 +1,503 @@
+{
+  "Fridge": {
+    "appliance_name": "Fridge",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          450
+        ]
+      ],
+      "1": [
+        [
+          450,
+          1380
+        ]
+      ]
+    }
+  },
+  "Chest Freezer": {
+    "appliance_name": "Chest Freezer",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          450
+        ]
+      ],
+      "1": [
+        [
+          450,
+          1380
+        ]
+      ]
+    }
+  },
+  "Upright Freezer": {
+    "appliance_name": "Upright Freezer",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          450
+        ]
+      ],
+      "1": [
+        [
+          450,
+          1380
+        ]
+      ]
+    }
+  },
+  "Tumble Dryer": {
+    "appliance_name": "Tumble Dryer",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:00"
+        ],
+        [
+          "23:30",
+          "30:00"
+        ]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 2280,
+    "forbidden_intervals": [
+      [
+        0,
+        360
+      ],
+      [
+        1410,
+        1800
+      ],
+      [
+        1440,
+        1800
+      ],
+      [
+        2850,
+        3240
+      ]
+    ],
+    "available_intervals": [
+      [
+        360,
+        1410
+      ],
+      [
+        1800,
+        2280
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          360,
+          450
+        ],
+        [
+          1800,
+          1890
+        ]
+      ],
+      "1": [
+        [
+          450,
+          1410
+        ],
+        [
+          1890,
+          2280
+        ]
+      ]
+    }
+  },
+  "Washing Machine": {
+    "appliance_name": "Washing Machine",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:00"
+        ],
+        [
+          "23:30",
+          "30:00"
+        ]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 2280,
+    "forbidden_intervals": [
+      [
+        0,
+        360
+      ],
+      [
+        1410,
+        1800
+      ],
+      [
+        1440,
+        1800
+      ],
+      [
+        2850,
+        3240
+      ]
+    ],
+    "available_intervals": [
+      [
+        360,
+        1410
+      ],
+      [
+        1800,
+        2280
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          360,
+          450
+        ],
+        [
+          1800,
+          1890
+        ]
+      ],
+      "1": [
+        [
+          450,
+          1410
+        ],
+        [
+          1890,
+          2280
+        ]
+      ]
+    }
+  },
+  "Dishwasher": {
+    "appliance_name": "Dishwasher",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:00"
+        ],
+        [
+          "23:30",
+          "30:00"
+        ]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 2280,
+    "forbidden_intervals": [
+      [
+        0,
+        360
+      ],
+      [
+        1410,
+        1800
+      ],
+      [
+        1440,
+        1800
+      ],
+      [
+        2850,
+        3240
+      ]
+    ],
+    "available_intervals": [
+      [
+        360,
+        1410
+      ],
+      [
+        1800,
+        2280
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          360,
+          450
+        ],
+        [
+          1800,
+          1890
+        ]
+      ],
+      "1": [
+        [
+          450,
+          1410
+        ],
+        [
+          1890,
+          2280
+        ]
+      ]
+    }
+  },
+  "Computer Site": {
+    "appliance_name": "Computer Site",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          450
+        ]
+      ],
+      "1": [
+        [
+          450,
+          1380
+        ]
+      ]
+    }
+  },
+  "Television Site": {
+    "appliance_name": "Television Site",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          450
+        ]
+      ],
+      "1": [
+        [
+          450,
+          1380
+        ]
+      ]
+    }
+  },
+  "Electric Heater": {
+    "appliance_name": "Electric Heater",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          450
+        ]
+      ],
+      "1": [
+        [
+          450,
+          1380
+        ]
+      ]
+    }
+  }
+}

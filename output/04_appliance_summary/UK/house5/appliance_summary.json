@@ -2,7 +2,7 @@
   "house_id": "house5",
   "tariff_type": "UK",
   "total_appliances": 9,
-  "total_events": 15253,
+  "total_events": 34683,
   "appliance_names": [
     "Fridge-Freezer",
     "Tumble Dryer",
@@ -15,11 +15,11 @@
     "Toaster"
   ],
   "appliance_counts": {
+    "Fridge-Freezer": 20798,
     "Tumble Dryer": 4462,
     "Kettle": 3321,
     "Combination Microwave": 1983,
     "Television Site": 1538,
-    "Fridge-Freezer": 1368,
     "Toaster": 1156,
     "Dishwasher": 816,
     "Washing Machine": 470,

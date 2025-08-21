@@ -219,10 +219,10 @@ def split_events_for_house(tariff_name: str, house_id: str) -> Dict[str, Dict[st
 def summarize_results(all_results: Dict[str, Dict[str, Dict]]):
     # 打印统计表
     print("\n📋 Event Split Summary Table:")
-    print("=" * 108)
+    print("=" * 120)
     header = f"{'House':8} {'Scope':10} {'Total':>8} {'Migrated':>10} {'Non-Mig':>10}"
     print(header)
-    print("-" * len(header))
+    print("-" * 120)
     total_all = 0
     total_mig = 0
     total_non = 0
@@ -233,7 +233,7 @@ def summarize_results(all_results: Dict[str, Dict[str, Dict]]):
             total_all += st['total_events']
             total_mig += st['migrated']
             total_non += st['non_migrated']
-    print("-" * len(header))
+    print("-" * 120)
     print(f"{'TOTAL':8} {'ALL':10} {total_all:8d} {total_mig:10d} {total_non:10d}")
 
 

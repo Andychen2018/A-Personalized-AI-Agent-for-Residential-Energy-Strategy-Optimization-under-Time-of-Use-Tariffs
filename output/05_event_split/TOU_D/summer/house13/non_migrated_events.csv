@@ -1,0 +1,1145 @@
+event_id,appliance_name,appliance_ID,Shiftability,original_start_time,original_end_time,duration(min),energy(W),is_reschedulable
+Television_Site_2014-06-14_01,Television Site,Appliance1,Non-shiftable,2014-06-14 17:48:00,2014-06-14 19:08:00,80.0,14627.76,False
+Television_Site_2014-06-15_01,Television Site,Appliance1,Non-shiftable,2014-06-15 18:05:00,2014-06-15 19:34:00,89.0,16645.93,False
+Television_Site_2014-06-18_01,Television Site,Appliance1,Non-shiftable,2014-06-18 06:12:00,2014-06-18 07:12:00,60.0,1489.6,False
+Television_Site_2014-06-19_01,Television Site,Appliance1,Non-shiftable,2014-06-19 18:11:00,2014-06-19 19:18:00,67.0,13611.09,False
+Television_Site_2014-06-22_01,Television Site,Appliance1,Non-shiftable,2014-06-22 18:04:00,2014-06-22 19:45:00,101.0,18956.98,False
+Television_Site_2014-06-27_01,Television Site,Appliance1,Non-shiftable,2014-06-27 19:29:00,2014-06-27 22:24:00,175.0,26913.77,False
+Television_Site_2014-06-28_01,Television Site,Appliance1,Non-shiftable,2014-06-28 17:52:00,2014-06-28 18:51:00,59.0,11798.73,False
+Television_Site_2014-06-29_01,Television Site,Appliance1,Non-shiftable,2014-06-29 18:25:00,2014-06-29 19:18:00,53.0,11370.66,False
+Television_Site_2014-06-30_01,Television Site,Appliance1,Non-shiftable,2014-06-30 17:13:00,2014-07-01 05:37:00,744.0,88484.47,False
+Television_Site_2014-07-01_01,Television Site,Appliance1,Non-shiftable,2014-07-01 05:38:00,2014-07-01 22:28:00,1010.0,40112.44,False
+Television_Site_2014-07-02_01,Television Site,Appliance1,Non-shiftable,2014-07-02 05:48:00,2014-07-02 18:05:00,737.0,22112.22,False
+Television_Site_2014-07-03_01,Television Site,Appliance1,Non-shiftable,2014-07-03 13:04:00,2014-07-03 13:16:00,12.0,153.6,False
+Television_Site_2014-07-03_02,Television Site,Appliance1,Non-shiftable,2014-07-03 21:55:00,2014-07-03 22:01:00,6.0,178.13,False
+Television_Site_2014-07-03_03,Television Site,Appliance1,Non-shiftable,2014-07-03 23:33:00,2014-07-03 23:48:00,15.0,921.6,False
+Television_Site_2014-07-07_01,Television Site,Appliance1,Non-shiftable,2014-07-07 18:35:00,2014-07-08 19:28:00,1493.0,35099.32,False
+Television_Site_2014-07-08_01,Television Site,Appliance1,Non-shiftable,2014-07-08 19:30:00,2014-07-08 21:33:00,123.0,2718.1,False
+Television_Site_2014-07-16_01,Television Site,Appliance1,Non-shiftable,2014-07-16 20:03:00,2014-07-16 20:05:00,2.0,256.0,False
+Television_Site_2014-07-17_01,Television Site,Appliance1,Non-shiftable,2014-07-17 00:50:00,2014-07-17 00:52:00,2.0,25.6,False
+Television_Site_2014-07-17_02,Television Site,Appliance1,Non-shiftable,2014-07-17 13:48:00,2014-07-17 13:50:00,2.0,12.8,False
+Television_Site_2014-07-26_01,Television Site,Appliance1,Non-shiftable,2014-07-26 15:09:00,2014-07-27 10:08:00,1139.0,6711.02,False
+Television_Site_2014-07-30_01,Television Site,Appliance1,Non-shiftable,2014-07-30 18:28:00,2014-07-30 18:51:00,23.0,4204.1,False
+Television_Site_2014-07-31_01,Television Site,Appliance1,Non-shiftable,2014-07-31 18:15:00,2014-07-31 18:54:00,39.0,7506.83,False
+Television_Site_2014-08-02_01,Television Site,Appliance1,Non-shiftable,2014-08-02 13:46:00,2014-08-02 14:46:00,60.0,11430.05,False
+Television_Site_2014-08-04_01,Television Site,Appliance1,Non-shiftable,2014-08-04 18:06:00,2014-08-04 22:14:00,248.0,50600.27,False
+Television_Site_2014-08-05_01,Television Site,Appliance1,Non-shiftable,2014-08-05 18:18:00,2014-08-05 19:15:00,57.0,8681.76,False
+Television_Site_2014-08-06_01,Television Site,Appliance1,Non-shiftable,2014-08-06 07:52:00,2014-08-06 08:41:00,49.0,6317.8,False
+Television_Site_2014-08-06_02,Television Site,Appliance1,Non-shiftable,2014-08-06 13:37:00,2014-08-06 13:48:00,11.0,2016.84,False
+Television_Site_2014-08-06_03,Television Site,Appliance1,Non-shiftable,2014-08-06 18:18:00,2014-08-06 19:06:00,48.0,9149.8,False
+Television_Site_2014-08-06_04,Television Site,Appliance1,Non-shiftable,2014-08-06 21:26:00,2014-08-06 21:29:00,3.0,263.31,False
+Television_Site_2014-08-06_05,Television Site,Appliance1,Non-shiftable,2014-08-06 21:59:00,2014-08-06 22:02:00,3.0,24.0,False
+Television_Site_2014-08-06_06,Television Site,Appliance1,Non-shiftable,2014-08-06 22:04:00,2014-08-06 22:06:00,2.0,22.4,False
+Television_Site_2014-08-07_01,Television Site,Appliance1,Non-shiftable,2014-08-07 18:19:00,2014-08-07 18:58:00,39.0,7431.8,False
+Television_Site_2014-08-08_01,Television Site,Appliance1,Non-shiftable,2014-08-08 18:41:00,2014-08-08 19:05:00,24.0,4331.71,False
+Television_Site_2014-08-08_02,Television Site,Appliance1,Non-shiftable,2014-08-08 21:39:00,2014-08-08 21:41:00,2.0,100.7,False
+Television_Site_2014-08-09_01,Television Site,Appliance1,Non-shiftable,2014-08-09 03:40:00,2014-08-09 03:42:00,2.0,32.0,False
+Television_Site_2014-08-11_01,Television Site,Appliance1,Non-shiftable,2014-08-11 18:28:00,2014-08-11 19:02:00,34.0,6495.05,False
+Television_Site_2014-08-18_01,Television Site,Appliance1,Non-shiftable,2014-08-18 08:21:00,2014-08-18 09:53:00,92.0,5518.58,False
+Television_Site_2014-08-18_02,Television Site,Appliance1,Non-shiftable,2014-08-18 18:02:00,2014-08-18 19:19:00,77.0,14594.72,False
+Television_Site_2014-08-25_01,Television Site,Appliance1,Non-shiftable,2014-08-25 18:21:00,2014-08-25 19:09:00,48.0,13121.1,False
+Television_Site_2014-08-28_01,Television Site,Appliance1,Non-shiftable,2014-08-28 06:17:00,2014-08-28 06:19:00,2.0,27.2,False
+Television_Site_2014-08-29_01,Television Site,Appliance1,Non-shiftable,2014-08-29 05:45:00,2014-08-29 05:51:00,6.0,272.25,False
+Television_Site_2014-09-05_01,Television Site,Appliance1,Non-shiftable,2014-09-05 17:50:00,2014-09-05 18:38:00,48.0,8763.53,False
+Television_Site_2014-09-07_01,Television Site,Appliance1,Non-shiftable,2014-09-07 17:53:00,2014-09-07 19:04:00,71.0,12094.63,False
+Television_Site_2014-09-28_01,Television Site,Appliance1,Non-shiftable,2014-09-28 12:47:00,2014-09-28 12:50:00,3.0,21.71,False
+Television_Site_2014-09-29_01,Television Site,Appliance1,Non-shiftable,2014-09-29 18:52:00,2014-09-29 20:15:00,83.0,16204.14,False
+Xbox_2014-06-01_01,Xbox,Appliance2,Non-shiftable,2014-06-01 07:40:00,2014-06-01 08:58:00,78.0,101855.56,False
+Xbox_2014-06-01_02,Xbox,Appliance2,Non-shiftable,2014-06-01 09:18:00,2014-06-01 09:21:00,3.0,72.1,False
+Xbox_2014-06-01_03,Xbox,Appliance2,Non-shiftable,2014-06-01 10:17:00,2014-06-01 10:19:00,2.0,44.5,False
+Xbox_2014-06-01_04,Xbox,Appliance2,Non-shiftable,2014-06-01 10:22:00,2014-06-01 10:24:00,2.0,122.1,False
+Xbox_2014-06-01_05,Xbox,Appliance2,Non-shiftable,2014-06-01 11:05:00,2014-06-01 11:07:00,2.0,99.1,False
+Xbox_2014-06-01_06,Xbox,Appliance2,Non-shiftable,2014-06-01 11:37:00,2014-06-01 11:39:00,2.0,112.4,False
+Xbox_2014-06-01_07,Xbox,Appliance2,Non-shiftable,2014-06-01 13:12:00,2014-06-01 14:01:00,49.0,56764.49,False
+Xbox_2014-06-01_08,Xbox,Appliance2,Non-shiftable,2014-06-01 14:04:00,2014-06-01 14:06:00,2.0,252.0,False
+Xbox_2014-06-01_09,Xbox,Appliance2,Non-shiftable,2014-06-01 14:25:00,2014-06-01 15:07:00,42.0,48394.36,False
+Xbox_2014-06-01_10,Xbox,Appliance2,Non-shiftable,2014-06-01 15:16:00,2014-06-01 15:18:00,2.0,47.1,False
+Xbox_2014-06-01_11,Xbox,Appliance2,Non-shiftable,2014-06-01 16:26:00,2014-06-01 16:28:00,2.0,221.88,False
+Xbox_2014-06-01_12,Xbox,Appliance2,Non-shiftable,2014-06-01 16:47:00,2014-06-01 16:50:00,3.0,27.9,False
+Xbox_2014-06-01_13,Xbox,Appliance2,Non-shiftable,2014-06-01 16:58:00,2014-06-01 17:00:00,2.0,176.5,False
+Xbox_2014-06-01_14,Xbox,Appliance2,Non-shiftable,2014-06-01 17:03:00,2014-06-01 17:05:00,2.0,243.6,False
+Xbox_2014-06-01_15,Xbox,Appliance2,Non-shiftable,2014-06-01 17:24:00,2014-06-01 17:28:00,4.0,337.5,False
+Xbox_2014-06-01_16,Xbox,Appliance2,Non-shiftable,2014-06-01 17:30:00,2014-06-01 17:33:00,3.0,382.4,False
+Xbox_2014-06-02_01,Xbox,Appliance2,Non-shiftable,2014-06-02 19:07:00,2014-06-02 19:51:00,44.0,46858.76,False
+Xbox_2014-06-07_01,Xbox,Appliance2,Non-shiftable,2014-06-07 08:30:00,2014-06-07 09:59:00,89.0,106724.53,False
+Xbox_2014-06-07_02,Xbox,Appliance2,Non-shiftable,2014-06-07 10:03:00,2014-06-07 10:06:00,3.0,330.07,False
+Xbox_2014-06-07_03,Xbox,Appliance2,Non-shiftable,2014-06-07 10:18:00,2014-06-07 11:29:00,71.0,85895.95,False
+Xbox_2014-06-07_04,Xbox,Appliance2,Non-shiftable,2014-06-07 11:33:00,2014-06-07 11:35:00,2.0,61.37,False
+Xbox_2014-06-07_05,Xbox,Appliance2,Non-shiftable,2014-06-07 11:38:00,2014-06-07 13:01:00,83.0,104962.99,False
+Xbox_2014-06-07_06,Xbox,Appliance2,Non-shiftable,2014-06-07 13:20:00,2014-06-07 13:22:00,2.0,48.7,False
+Xbox_2014-06-07_07,Xbox,Appliance2,Non-shiftable,2014-06-07 13:36:00,2014-06-07 13:39:00,3.0,222.2,False
+Xbox_2014-06-07_08,Xbox,Appliance2,Non-shiftable,2014-06-07 13:44:00,2014-06-07 15:07:00,83.0,109946.02,False
+Xbox_2014-06-07_09,Xbox,Appliance2,Non-shiftable,2014-06-07 15:37:00,2014-06-07 15:39:00,2.0,32.73,False
+Xbox_2014-06-07_10,Xbox,Appliance2,Non-shiftable,2014-06-07 15:53:00,2014-06-07 15:55:00,2.0,97.31,False
+Xbox_2014-06-07_11,Xbox,Appliance2,Non-shiftable,2014-06-07 16:09:00,2014-06-07 16:11:00,2.0,109.23,False
+Xbox_2014-06-07_12,Xbox,Appliance2,Non-shiftable,2014-06-07 16:20:00,2014-06-07 16:22:00,2.0,80.04,False
+Xbox_2014-06-14_01,Xbox,Appliance2,Non-shiftable,2014-06-14 08:03:00,2014-06-14 09:40:00,97.0,126189.82,False
+Xbox_2014-06-14_02,Xbox,Appliance2,Non-shiftable,2014-06-14 10:01:00,2014-06-14 11:22:00,81.0,92720.77,False
+Xbox_2014-06-14_03,Xbox,Appliance2,Non-shiftable,2014-06-14 11:36:00,2014-06-14 11:38:00,2.0,60.66,False
+Xbox_2014-06-14_04,Xbox,Appliance2,Non-shiftable,2014-06-14 11:52:00,2014-06-14 11:54:00,2.0,47.1,False
+Xbox_2014-06-14_05,Xbox,Appliance2,Non-shiftable,2014-06-14 11:58:00,2014-06-14 13:26:00,88.0,116865.13,False
+Xbox_2014-06-14_06,Xbox,Appliance2,Non-shiftable,2014-06-14 13:35:00,2014-06-14 13:37:00,2.0,65.2,False
+Xbox_2014-06-14_07,Xbox,Appliance2,Non-shiftable,2014-06-14 13:46:00,2014-06-14 13:48:00,2.0,136.5,False
+Xbox_2014-06-14_08,Xbox,Appliance2,Non-shiftable,2014-06-14 14:07:00,2014-06-14 14:10:00,3.0,132.9,False
+Xbox_2014-06-14_09,Xbox,Appliance2,Non-shiftable,2014-06-14 14:55:00,2014-06-14 14:57:00,2.0,56.0,False
+Xbox_2014-06-14_10,Xbox,Appliance2,Non-shiftable,2014-06-14 15:11:00,2014-06-14 15:13:00,2.0,69.45,False
+Xbox_2014-06-14_11,Xbox,Appliance2,Non-shiftable,2014-06-14 15:38:00,2014-06-14 15:41:00,3.0,334.73,False
+Xbox_2014-06-14_12,Xbox,Appliance2,Non-shiftable,2014-06-14 15:43:00,2014-06-14 15:45:00,2.0,105.96,False
+Xbox_2014-06-14_13,Xbox,Appliance2,Non-shiftable,2014-06-14 15:54:00,2014-06-14 15:56:00,2.0,166.62,False
+Xbox_2014-06-14_14,Xbox,Appliance2,Non-shiftable,2014-06-14 16:05:00,2014-06-14 16:07:00,2.0,129.3,False
+Xbox_2014-06-14_15,Xbox,Appliance2,Non-shiftable,2014-06-14 16:26:00,2014-06-14 16:29:00,3.0,272.1,False
+Xbox_2014-06-14_16,Xbox,Appliance2,Non-shiftable,2014-06-14 16:31:00,2014-06-14 16:33:00,2.0,134.36,False
+Xbox_2014-06-14_17,Xbox,Appliance2,Non-shiftable,2014-06-14 17:30:00,2014-06-14 17:32:00,2.0,201.97,False
+Xbox_2014-06-14_18,Xbox,Appliance2,Non-shiftable,2014-06-14 17:34:00,2014-06-14 18:53:00,79.0,101333.64,False
+Xbox_2014-06-21_01,Xbox,Appliance2,Non-shiftable,2014-06-21 08:56:00,2014-06-21 10:02:00,66.0,81584.85,False
+Xbox_2014-06-21_02,Xbox,Appliance2,Non-shiftable,2014-06-21 10:06:00,2014-06-21 10:09:00,3.0,750.5,False
+Xbox_2014-06-21_03,Xbox,Appliance2,Non-shiftable,2014-06-21 10:11:00,2014-06-21 10:13:00,2.0,61.6,False
+Xbox_2014-06-21_04,Xbox,Appliance2,Non-shiftable,2014-06-21 11:42:00,2014-06-21 11:44:00,2.0,130.6,False
+Xbox_2014-06-21_05,Xbox,Appliance2,Non-shiftable,2014-06-21 11:53:00,2014-06-21 11:55:00,2.0,101.8,False
+Xbox_2014-06-21_06,Xbox,Appliance2,Non-shiftable,2014-06-21 12:19:00,2014-06-21 12:21:00,2.0,81.0,False
+Xbox_2014-06-21_07,Xbox,Appliance2,Non-shiftable,2014-06-21 12:25:00,2014-06-21 12:27:00,2.0,172.0,False
+Xbox_2014-06-21_08,Xbox,Appliance2,Non-shiftable,2014-06-21 12:30:00,2014-06-21 12:32:00,2.0,74.0,False
+Xbox_2014-06-21_09,Xbox,Appliance2,Non-shiftable,2014-06-21 12:51:00,2014-06-21 12:53:00,2.0,64.93,False
+Xbox_2014-06-21_10,Xbox,Appliance2,Non-shiftable,2014-06-21 12:55:00,2014-06-21 14:17:00,82.0,104732.52,False
+Xbox_2014-06-21_11,Xbox,Appliance2,Non-shiftable,2014-06-21 14:37:00,2014-06-21 14:39:00,2.0,135.7,False
+Xbox_2014-06-21_12,Xbox,Appliance2,Non-shiftable,2014-06-21 14:42:00,2014-06-21 14:44:00,2.0,138.8,False
+Xbox_2014-06-21_13,Xbox,Appliance2,Non-shiftable,2014-06-21 15:31:00,2014-06-21 16:52:00,81.0,105768.39,False
+Xbox_2014-06-21_14,Xbox,Appliance2,Non-shiftable,2014-06-21 17:02:00,2014-06-21 17:04:00,2.0,12.3,False
+Xbox_2014-06-21_15,Xbox,Appliance2,Non-shiftable,2014-06-21 18:11:00,2014-06-21 18:13:00,2.0,122.28,False
+Xbox_2014-06-21_16,Xbox,Appliance2,Non-shiftable,2014-06-21 18:27:00,2014-06-21 18:29:00,2.0,76.3,False
+Xbox_2014-06-21_17,Xbox,Appliance2,Non-shiftable,2014-06-21 18:59:00,2014-06-21 19:02:00,3.0,289.4,False
+Xbox_2014-06-22_01,Xbox,Appliance2,Non-shiftable,2014-06-22 09:08:00,2014-06-22 10:05:00,57.0,60339.22,False
+Xbox_2014-06-22_02,Xbox,Appliance2,Non-shiftable,2014-06-22 10:39:00,2014-06-22 12:19:00,100.0,132393.29,False
+Xbox_2014-06-22_03,Xbox,Appliance2,Non-shiftable,2014-06-22 12:21:00,2014-06-22 13:35:00,74.0,92222.03,False
+Xbox_2014-06-22_04,Xbox,Appliance2,Non-shiftable,2014-06-22 13:58:00,2014-06-22 15:06:00,68.0,84559.81,False
+Xbox_2014-06-24_01,Xbox,Appliance2,Non-shiftable,2014-06-24 17:40:00,2014-06-24 18:37:00,57.0,58804.33,False
+Xbox_2014-06-24_02,Xbox,Appliance2,Non-shiftable,2014-06-24 18:41:00,2014-06-24 18:43:00,2.0,182.19,False
+Xbox_2014-06-24_03,Xbox,Appliance2,Non-shiftable,2014-06-24 18:51:00,2014-06-24 18:53:00,2.0,108.22,False
+Xbox_2014-06-26_01,Xbox,Appliance2,Non-shiftable,2014-06-26 17:32:00,2014-06-26 18:54:00,82.0,107462.98,False
+Xbox_2014-06-26_02,Xbox,Appliance2,Non-shiftable,2014-06-26 19:08:00,2014-06-26 19:11:00,3.0,216.91,False
+Xbox_2014-06-26_03,Xbox,Appliance2,Non-shiftable,2014-06-26 19:40:00,2014-06-26 19:42:00,2.0,52.58,False
+Xbox_2014-06-26_04,Xbox,Appliance2,Non-shiftable,2014-06-26 19:56:00,2014-06-26 19:59:00,3.0,256.42,False
+Xbox_2014-06-26_05,Xbox,Appliance2,Non-shiftable,2014-06-26 20:12:00,2014-06-26 20:14:00,2.0,162.94,False
+Xbox_2014-06-26_06,Xbox,Appliance2,Non-shiftable,2014-06-26 20:23:00,2014-06-26 20:25:00,2.0,99.36,False
+Xbox_2014-06-27_01,Xbox,Appliance2,Non-shiftable,2014-06-27 14:23:00,2014-06-27 15:47:00,84.0,104963.94,False
+Xbox_2014-06-27_02,Xbox,Appliance2,Non-shiftable,2014-06-27 16:02:00,2014-06-27 16:05:00,3.0,262.4,False
+Xbox_2014-06-27_03,Xbox,Appliance2,Non-shiftable,2014-06-27 16:08:00,2014-06-27 17:16:00,68.0,79358.1,False
+Xbox_2014-06-29_01,Xbox,Appliance2,Non-shiftable,2014-06-29 15:29:00,2014-06-29 16:48:00,79.0,90359.23,False
+Xbox_2014-06-29_02,Xbox,Appliance2,Non-shiftable,2014-06-29 16:50:00,2014-06-29 16:53:00,3.0,377.0,False
+Xbox_2014-06-29_03,Xbox,Appliance2,Non-shiftable,2014-06-29 17:13:00,2014-06-29 18:23:00,70.0,87433.34,False
+Xbox_2014-07-01_01,Xbox,Appliance2,Non-shiftable,2014-07-01 19:57:00,2014-07-01 22:28:00,151.0,49103.3,False
+Xbox_2014-07-02_01,Xbox,Appliance2,Non-shiftable,2014-07-02 04:54:00,2014-07-02 05:17:00,23.0,2936.25,False
+Xbox_2014-07-02_02,Xbox,Appliance2,Non-shiftable,2014-07-02 05:36:00,2014-07-02 05:39:00,3.0,290.29,False
+Xbox_2014-07-02_03,Xbox,Appliance2,Non-shiftable,2014-07-02 05:42:00,2014-07-02 05:44:00,2.0,159.69,False
+Xbox_2014-07-03_01,Xbox,Appliance2,Non-shiftable,2014-07-03 09:11:00,2014-07-03 10:18:00,67.0,76278.76,False
+Xbox_2014-07-03_02,Xbox,Appliance2,Non-shiftable,2014-07-03 10:53:00,2014-07-03 10:55:00,2.0,40.6,False
+Xbox_2014-07-03_03,Xbox,Appliance2,Non-shiftable,2014-07-03 11:04:00,2014-07-03 11:06:00,2.0,134.97,False
+Xbox_2014-07-03_04,Xbox,Appliance2,Non-shiftable,2014-07-03 11:47:00,2014-07-03 11:49:00,2.0,177.0,False
+Xbox_2014-07-03_05,Xbox,Appliance2,Non-shiftable,2014-07-03 12:09:00,2014-07-03 13:52:00,103.0,122049.28,False
+Xbox_2014-07-04_01,Xbox,Appliance2,Non-shiftable,2014-07-04 09:57:00,2014-07-04 11:12:00,75.0,85367.99,False
+Xbox_2014-07-04_02,Xbox,Appliance2,Non-shiftable,2014-07-04 11:22:00,2014-07-04 12:40:00,78.0,93057.98,False
+Xbox_2014-07-05_01,Xbox,Appliance2,Non-shiftable,2014-07-05 08:52:00,2014-07-05 10:08:00,76.0,88516.69,False
+Xbox_2014-07-05_02,Xbox,Appliance2,Non-shiftable,2014-07-05 10:12:00,2014-07-05 11:19:00,67.0,68621.8,False
+Xbox_2014-07-06_01,Xbox,Appliance2,Non-shiftable,2014-07-06 09:55:00,2014-07-06 10:52:00,57.0,59857.01,False
+Xbox_2014-07-06_02,Xbox,Appliance2,Non-shiftable,2014-07-06 11:33:00,2014-07-06 11:35:00,2.0,45.93,False
+Xbox_2014-07-06_03,Xbox,Appliance2,Non-shiftable,2014-07-06 11:38:00,2014-07-06 11:40:00,2.0,197.25,False
+Xbox_2014-07-06_04,Xbox,Appliance2,Non-shiftable,2014-07-06 11:44:00,2014-07-06 11:46:00,2.0,220.01,False
+Xbox_2014-07-06_05,Xbox,Appliance2,Non-shiftable,2014-07-06 11:54:00,2014-07-06 11:56:00,2.0,125.52,False
+Xbox_2014-07-06_06,Xbox,Appliance2,Non-shiftable,2014-07-06 12:10:00,2014-07-06 12:12:00,2.0,177.11,False
+Xbox_2014-07-06_07,Xbox,Appliance2,Non-shiftable,2014-07-06 12:21:00,2014-07-06 12:23:00,2.0,254.0,False
+Xbox_2014-07-06_08,Xbox,Appliance2,Non-shiftable,2014-07-06 12:37:00,2014-07-06 12:40:00,3.0,124.84,False
+Xbox_2014-07-06_09,Xbox,Appliance2,Non-shiftable,2014-07-06 13:04:00,2014-07-06 13:06:00,2.0,28.7,False
+Xbox_2014-07-06_10,Xbox,Appliance2,Non-shiftable,2014-07-06 13:14:00,2014-07-06 13:16:00,2.0,191.78,False
+Xbox_2014-07-06_11,Xbox,Appliance2,Non-shiftable,2014-07-06 13:30:00,2014-07-06 13:35:00,5.0,552.47,False
+Xbox_2014-07-06_12,Xbox,Appliance2,Non-shiftable,2014-07-06 13:36:00,2014-07-06 13:38:00,2.0,9.2,False
+Xbox_2014-07-06_13,Xbox,Appliance2,Non-shiftable,2014-07-06 13:52:00,2014-07-06 13:54:00,2.0,262.5,False
+Xbox_2014-07-06_14,Xbox,Appliance2,Non-shiftable,2014-07-06 15:06:00,2014-07-06 15:09:00,3.0,106.7,False
+Xbox_2014-07-08_01,Xbox,Appliance2,Non-shiftable,2014-07-08 17:24:00,2014-07-08 18:38:00,74.0,86322.22,False
+Xbox_2014-07-08_02,Xbox,Appliance2,Non-shiftable,2014-07-08 18:47:00,2014-07-08 18:49:00,2.0,139.88,False
+Xbox_2014-07-08_03,Xbox,Appliance2,Non-shiftable,2014-07-08 19:19:00,2014-07-08 19:21:00,2.0,48.0,False
+Xbox_2014-07-09_01,Xbox,Appliance2,Non-shiftable,2014-07-09 18:36:00,2014-07-09 20:17:00,101.0,135036.87,False
+Xbox_2014-07-26_01,Xbox,Appliance2,Non-shiftable,2014-07-26 16:42:00,2014-07-26 17:59:00,77.0,91858.47,False
+Xbox_2014-07-26_02,Xbox,Appliance2,Non-shiftable,2014-07-26 18:13:00,2014-07-26 18:15:00,2.0,65.47,False
+Xbox_2014-07-26_03,Xbox,Appliance2,Non-shiftable,2014-07-26 18:19:00,2014-07-26 18:21:00,2.0,161.33,False
+Xbox_2014-07-26_04,Xbox,Appliance2,Non-shiftable,2014-07-26 18:23:00,2014-07-26 19:52:00,89.0,113345.96,False
+Xbox_2014-07-26_05,Xbox,Appliance2,Non-shiftable,2014-07-26 20:01:00,2014-07-26 20:03:00,2.0,60.36,False
+Xbox_2014-07-27_01,Xbox,Appliance2,Non-shiftable,2014-07-27 06:43:00,2014-07-27 06:57:00,14.0,18436.33,False
+Xbox_2014-07-27_02,Xbox,Appliance2,Non-shiftable,2014-07-27 07:07:00,2014-07-27 07:13:00,6.0,9130.79,False
+Xbox_2014-07-27_03,Xbox,Appliance2,Non-shiftable,2014-07-27 07:15:00,2014-07-27 07:25:00,10.0,12036.37,False
+Xbox_2014-07-27_04,Xbox,Appliance2,Non-shiftable,2014-07-27 07:33:00,2014-07-27 07:54:00,21.0,11628.57,False
+Xbox_2014-07-27_05,Xbox,Appliance2,Non-shiftable,2014-07-27 07:57:00,2014-07-27 07:59:00,2.0,41.0,False
+Xbox_2014-07-27_06,Xbox,Appliance2,Non-shiftable,2014-07-27 08:02:00,2014-07-27 08:04:00,2.0,43.98,False
+Xbox_2014-07-27_07,Xbox,Appliance2,Non-shiftable,2014-07-27 08:24:00,2014-07-27 08:36:00,12.0,1497.8,False
+Xbox_2014-07-27_08,Xbox,Appliance2,Non-shiftable,2014-07-27 08:52:00,2014-07-27 10:24:00,92.0,115465.66,False
+Xbox_2014-07-27_09,Xbox,Appliance2,Non-shiftable,2014-07-27 10:33:00,2014-07-27 10:37:00,4.0,474.1,False
+Xbox_2014-07-27_10,Xbox,Appliance2,Non-shiftable,2014-07-27 11:32:00,2014-07-27 11:34:00,2.0,7.16,False
+Xbox_2014-07-27_11,Xbox,Appliance2,Non-shiftable,2014-07-27 12:15:00,2014-07-27 12:18:00,3.0,205.33,False
+Xbox_2014-07-27_12,Xbox,Appliance2,Non-shiftable,2014-07-27 12:34:00,2014-07-27 13:32:00,58.0,52443.54,False
+Xbox_2014-07-27_13,Xbox,Appliance2,Non-shiftable,2014-07-27 13:42:00,2014-07-27 13:44:00,2.0,219.29,False
+Xbox_2014-07-27_14,Xbox,Appliance2,Non-shiftable,2014-07-27 14:08:00,2014-07-27 15:18:00,70.0,76179.46,False
+Xbox_2014-07-27_15,Xbox,Appliance2,Non-shiftable,2014-07-27 15:59:00,2014-07-27 16:01:00,2.0,91.74,False
+Xbox_2014-07-27_16,Xbox,Appliance2,Non-shiftable,2014-07-27 16:32:00,2014-07-27 16:34:00,2.0,244.41,False
+Xbox_2014-07-27_17,Xbox,Appliance2,Non-shiftable,2014-07-27 16:42:00,2014-07-27 16:44:00,2.0,95.47,False
+Xbox_2014-07-27_18,Xbox,Appliance2,Non-shiftable,2014-07-27 16:53:00,2014-07-27 16:55:00,2.0,34.23,False
+Xbox_2014-07-27_19,Xbox,Appliance2,Non-shiftable,2014-07-27 17:30:00,2014-07-27 17:32:00,2.0,51.4,False
+Xbox_2014-07-27_20,Xbox,Appliance2,Non-shiftable,2014-07-27 17:36:00,2014-07-27 17:38:00,2.0,63.63,False
+Xbox_2014-07-27_21,Xbox,Appliance2,Non-shiftable,2014-07-27 17:46:00,2014-07-27 17:49:00,3.0,35.97,False
+Xbox_2014-07-27_22,Xbox,Appliance2,Non-shiftable,2014-07-27 19:50:00,2014-07-27 20:11:00,21.0,12294.0,False
+Xbox_2014-07-27_23,Xbox,Appliance2,Non-shiftable,2014-07-27 20:13:00,2014-07-27 20:38:00,25.0,8620.0,False
+Xbox_2014-07-28_01,Xbox,Appliance2,Non-shiftable,2014-07-28 08:08:00,2014-07-28 09:15:00,67.0,60247.21,False
+Xbox_2014-07-28_02,Xbox,Appliance2,Non-shiftable,2014-07-28 09:44:00,2014-07-28 09:46:00,2.0,43.65,False
+Xbox_2014-07-28_03,Xbox,Appliance2,Non-shiftable,2014-07-28 10:00:00,2014-07-28 10:02:00,2.0,188.09,False
+Xbox_2014-07-28_04,Xbox,Appliance2,Non-shiftable,2014-07-28 10:31:00,2014-07-28 10:33:00,2.0,38.05,False
+Xbox_2014-07-28_05,Xbox,Appliance2,Non-shiftable,2014-07-28 10:47:00,2014-07-28 10:49:00,2.0,111.83,False
+Xbox_2014-07-28_06,Xbox,Appliance2,Non-shiftable,2014-07-28 10:58:00,2014-07-28 11:00:00,2.0,44.83,False
+Xbox_2014-07-28_07,Xbox,Appliance2,Non-shiftable,2014-07-28 11:03:00,2014-07-28 11:09:00,6.0,740.52,False
+Xbox_2014-07-28_08,Xbox,Appliance2,Non-shiftable,2014-07-28 11:14:00,2014-07-28 11:19:00,5.0,500.78,False
+Xbox_2014-07-28_09,Xbox,Appliance2,Non-shiftable,2014-07-28 11:32:00,2014-07-28 12:38:00,66.0,66799.18,False
+Xbox_2014-07-28_10,Xbox,Appliance2,Non-shiftable,2014-07-28 12:57:00,2014-07-28 12:59:00,2.0,102.78,False
+Xbox_2014-07-28_11,Xbox,Appliance2,Non-shiftable,2014-07-28 13:34:00,2014-07-28 13:37:00,3.0,320.9,False
+Xbox_2014-07-28_12,Xbox,Appliance2,Non-shiftable,2014-07-28 13:45:00,2014-07-28 13:47:00,2.0,197.25,False
+Xbox_2014-07-28_13,Xbox,Appliance2,Non-shiftable,2014-07-28 13:50:00,2014-07-28 13:52:00,2.0,110.94,False
+Xbox_2014-07-28_14,Xbox,Appliance2,Non-shiftable,2014-07-28 14:01:00,2014-07-28 14:03:00,2.0,149.33,False
+Xbox_2014-07-28_15,Xbox,Appliance2,Non-shiftable,2014-07-28 14:22:00,2014-07-28 14:24:00,2.0,136.05,False
+Xbox_2014-07-28_16,Xbox,Appliance2,Non-shiftable,2014-07-28 14:28:00,2014-07-28 14:30:00,2.0,132.65,False
+Xbox_2014-07-28_17,Xbox,Appliance2,Non-shiftable,2014-07-28 14:33:00,2014-07-28 14:35:00,2.0,52.58,False
+Xbox_2014-07-28_18,Xbox,Appliance2,Non-shiftable,2014-07-28 14:38:00,2014-07-28 14:40:00,2.0,22.88,False
+Xbox_2014-07-28_19,Xbox,Appliance2,Non-shiftable,2014-07-28 14:44:00,2014-07-28 14:46:00,2.0,180.62,False
+Xbox_2014-07-28_20,Xbox,Appliance2,Non-shiftable,2014-07-28 14:54:00,2014-07-28 14:57:00,3.0,185.83,False
+Xbox_2014-07-28_21,Xbox,Appliance2,Non-shiftable,2014-07-28 14:59:00,2014-07-28 15:01:00,2.0,64.73,False
+Xbox_2014-07-28_22,Xbox,Appliance2,Non-shiftable,2014-07-28 15:36:00,2014-07-28 15:38:00,2.0,70.5,False
+Xbox_2014-07-28_23,Xbox,Appliance2,Non-shiftable,2014-07-28 15:52:00,2014-07-28 15:54:00,2.0,67.6,False
+Xbox_2014-07-28_24,Xbox,Appliance2,Non-shiftable,2014-07-28 16:24:00,2014-07-28 16:26:00,2.0,99.0,False
+Xbox_2014-07-29_01,Xbox,Appliance2,Non-shiftable,2014-07-29 08:44:00,2014-07-29 09:43:00,59.0,70330.32,False
+Xbox_2014-07-29_02,Xbox,Appliance2,Non-shiftable,2014-07-29 10:35:00,2014-07-29 10:37:00,2.0,83.4,False
+Xbox_2014-07-29_03,Xbox,Appliance2,Non-shiftable,2014-07-29 10:51:00,2014-07-29 10:53:00,2.0,14.8,False
+Xbox_2014-07-29_04,Xbox,Appliance2,Non-shiftable,2014-07-29 11:29:00,2014-07-29 11:31:00,2.0,144.0,False
+Xbox_2014-07-29_05,Xbox,Appliance2,Non-shiftable,2014-07-29 12:59:00,2014-07-29 13:01:00,2.0,69.2,False
+Xbox_2014-07-29_06,Xbox,Appliance2,Non-shiftable,2014-07-29 13:04:00,2014-07-29 13:06:00,2.0,83.4,False
+Xbox_2014-07-29_07,Xbox,Appliance2,Non-shiftable,2014-07-29 13:31:00,2014-07-29 13:33:00,2.0,167.0,False
+Xbox_2014-07-29_08,Xbox,Appliance2,Non-shiftable,2014-07-29 14:08:00,2014-07-29 14:10:00,2.0,45.2,False
+Xbox_2014-07-29_09,Xbox,Appliance2,Non-shiftable,2014-07-29 14:14:00,2014-07-29 14:16:00,2.0,167.0,False
+Xbox_2014-07-29_10,Xbox,Appliance2,Non-shiftable,2014-07-29 14:19:00,2014-07-29 14:21:00,2.0,50.7,False
+Xbox_2014-07-31_01,Xbox,Appliance2,Non-shiftable,2014-07-31 09:08:00,2014-07-31 10:15:00,67.0,79383.01,False
+Xbox_2014-08-01_01,Xbox,Appliance2,Non-shiftable,2014-08-01 06:39:00,2014-08-01 07:34:00,55.0,61960.78,False
+Xbox_2014-08-01_02,Xbox,Appliance2,Non-shiftable,2014-08-01 07:48:00,2014-08-01 07:51:00,3.0,113.5,False
+Xbox_2014-08-01_03,Xbox,Appliance2,Non-shiftable,2014-08-01 07:58:00,2014-08-01 08:00:00,2.0,58.97,False
+Xbox_2014-08-01_04,Xbox,Appliance2,Non-shiftable,2014-08-01 08:04:00,2014-08-01 08:06:00,2.0,169.8,False
+Xbox_2014-08-01_05,Xbox,Appliance2,Non-shiftable,2014-08-01 08:16:00,2014-08-01 09:31:00,75.0,94607.47,False
+Xbox_2014-08-01_06,Xbox,Appliance2,Non-shiftable,2014-08-01 10:01:00,2014-08-01 10:04:00,3.0,230.96,False
+Xbox_2014-08-01_07,Xbox,Appliance2,Non-shiftable,2014-08-01 10:17:00,2014-08-01 10:19:00,2.0,38.89,False
+Xbox_2014-08-01_08,Xbox,Appliance2,Non-shiftable,2014-08-01 10:49:00,2014-08-01 10:51:00,2.0,204.28,False
+Xbox_2014-08-01_09,Xbox,Appliance2,Non-shiftable,2014-08-01 11:05:00,2014-08-01 11:07:00,2.0,170.57,False
+Xbox_2014-08-01_10,Xbox,Appliance2,Non-shiftable,2014-08-01 11:16:00,2014-08-01 11:18:00,2.0,194.5,False
+Xbox_2014-08-01_11,Xbox,Appliance2,Non-shiftable,2014-08-01 11:26:00,2014-08-01 11:28:00,2.0,54.88,False
+Xbox_2014-08-01_12,Xbox,Appliance2,Non-shiftable,2014-08-01 12:09:00,2014-08-01 12:11:00,2.0,161.22,False
+Xbox_2014-08-02_01,Xbox,Appliance2,Non-shiftable,2014-08-02 13:19:00,2014-08-02 13:22:00,3.0,10.29,False
+Xbox_2014-08-02_02,Xbox,Appliance2,Non-shiftable,2014-08-02 13:29:00,2014-08-02 13:32:00,3.0,313.62,False
+Xbox_2014-08-02_03,Xbox,Appliance2,Non-shiftable,2014-08-02 13:56:00,2014-08-02 13:58:00,2.0,131.73,False
+Xbox_2014-08-02_04,Xbox,Appliance2,Non-shiftable,2014-08-02 14:06:00,2014-08-02 14:08:00,2.0,46.86,False
+Xbox_2014-08-02_05,Xbox,Appliance2,Non-shiftable,2014-08-02 14:33:00,2014-08-02 14:35:00,2.0,109.92,False
+Xbox_2014-08-02_06,Xbox,Appliance2,Non-shiftable,2014-08-02 16:49:00,2014-08-02 17:51:00,62.0,74217.5,False
+Xbox_2014-08-02_07,Xbox,Appliance2,Non-shiftable,2014-08-02 18:37:00,2014-08-02 18:39:00,2.0,68.46,False
+Xbox_2014-08-02_08,Xbox,Appliance2,Non-shiftable,2014-08-02 18:53:00,2014-08-02 20:09:00,76.0,93678.82,False
+Xbox_2014-08-02_09,Xbox,Appliance2,Non-shiftable,2014-08-02 20:28:00,2014-08-02 20:30:00,2.0,100.5,False
+Xbox_2014-08-02_10,Xbox,Appliance2,Non-shiftable,2014-08-02 20:39:00,2014-08-02 20:41:00,2.0,231.0,False
+Xbox_2014-08-03_01,Xbox,Appliance2,Non-shiftable,2014-08-03 09:17:00,2014-08-03 10:34:00,77.0,99788.97,False
+Xbox_2014-08-03_02,Xbox,Appliance2,Non-shiftable,2014-08-03 10:48:00,2014-08-03 10:50:00,2.0,75.67,False
+Xbox_2014-08-03_03,Xbox,Appliance2,Non-shiftable,2014-08-03 11:04:00,2014-08-03 11:06:00,2.0,38.33,False
+Xbox_2014-08-03_04,Xbox,Appliance2,Non-shiftable,2014-08-03 11:20:00,2014-08-03 11:22:00,2.0,61.49,False
+Xbox_2014-08-03_05,Xbox,Appliance2,Non-shiftable,2014-08-03 11:47:00,2014-08-03 11:49:00,2.0,101.2,False
+Xbox_2014-08-03_06,Xbox,Appliance2,Non-shiftable,2014-08-03 12:08:00,2014-08-03 12:10:00,2.0,79.33,False
+Xbox_2014-08-03_07,Xbox,Appliance2,Non-shiftable,2014-08-03 12:48:00,2014-08-03 14:41:00,113.0,153614.51,False
+Xbox_2014-08-03_08,Xbox,Appliance2,Non-shiftable,2014-08-03 15:12:00,2014-08-03 15:14:00,2.0,91.62,False
+Xbox_2014-08-03_09,Xbox,Appliance2,Non-shiftable,2014-08-03 15:28:00,2014-08-03 15:30:00,2.0,183.43,False
+Xbox_2014-08-03_10,Xbox,Appliance2,Non-shiftable,2014-08-03 16:00:00,2014-08-03 16:02:00,2.0,115.9,False
+Xbox_2014-08-03_11,Xbox,Appliance2,Non-shiftable,2014-08-03 16:09:00,2014-08-03 17:26:00,77.0,97892.82,False
+Xbox_2014-08-03_12,Xbox,Appliance2,Non-shiftable,2014-08-03 17:51:00,2014-08-03 17:53:00,2.0,7.2,False
+Xbox_2014-08-03_13,Xbox,Appliance2,Non-shiftable,2014-08-03 17:56:00,2014-08-03 17:58:00,2.0,64.27,False
+Xbox_2014-08-03_14,Xbox,Appliance2,Non-shiftable,2014-08-03 18:12:00,2014-08-03 18:15:00,3.0,303.92,False
+Xbox_2014-08-03_15,Xbox,Appliance2,Non-shiftable,2014-08-03 18:23:00,2014-08-03 18:25:00,2.0,169.69,False
+Xbox_2014-08-03_16,Xbox,Appliance2,Non-shiftable,2014-08-03 18:50:00,2014-08-03 18:52:00,2.0,220.67,False
+Xbox_2014-08-03_17,Xbox,Appliance2,Non-shiftable,2014-08-03 19:48:00,2014-08-03 19:50:00,2.0,112.0,False
+Xbox_2014-08-03_18,Xbox,Appliance2,Non-shiftable,2014-08-03 20:04:00,2014-08-03 20:06:00,2.0,46.13,False
+Xbox_2014-08-03_19,Xbox,Appliance2,Non-shiftable,2014-08-03 20:10:00,2014-08-03 20:13:00,3.0,274.9,False
+Xbox_2014-08-04_01,Xbox,Appliance2,Non-shiftable,2014-08-04 08:44:00,2014-08-04 10:31:00,107.0,117116.23,False
+Xbox_2014-08-04_02,Xbox,Appliance2,Non-shiftable,2014-08-04 10:36:00,2014-08-04 10:39:00,3.0,162.48,False
+Xbox_2014-08-04_03,Xbox,Appliance2,Non-shiftable,2014-08-04 11:07:00,2014-08-04 11:09:00,2.0,102.0,False
+Xbox_2014-08-04_04,Xbox,Appliance2,Non-shiftable,2014-08-04 11:18:00,2014-08-04 11:20:00,2.0,55.78,False
+Xbox_2014-08-04_05,Xbox,Appliance2,Non-shiftable,2014-08-04 11:56:00,2014-08-06 15:21:00,3085.0,411860.7,False
+Xbox_2014-08-06_01,Xbox,Appliance2,Non-shiftable,2014-08-06 16:09:00,2014-08-06 16:11:00,2.0,147.68,False
+Xbox_2014-08-06_02,Xbox,Appliance2,Non-shiftable,2014-08-06 16:36:00,2014-08-06 16:38:00,2.0,6.73,False
+Xbox_2014-08-06_03,Xbox,Appliance2,Non-shiftable,2014-08-06 17:24:00,2014-08-06 17:26:00,2.0,117.94,False
+Xbox_2014-08-06_04,Xbox,Appliance2,Non-shiftable,2014-08-06 18:01:00,2014-08-06 18:03:00,2.0,139.0,False
+Xbox_2014-08-06_05,Xbox,Appliance2,Non-shiftable,2014-08-06 18:33:00,2014-08-06 18:35:00,2.0,63.0,False
+Xbox_2014-08-06_06,Xbox,Appliance2,Non-shiftable,2014-08-06 18:39:00,2014-08-06 18:41:00,2.0,145.56,False
+Xbox_2014-08-07_01,Xbox,Appliance2,Non-shiftable,2014-08-07 07:26:00,2014-08-07 08:51:00,85.0,97796.64,False
+Xbox_2014-08-07_02,Xbox,Appliance2,Non-shiftable,2014-08-07 08:54:00,2014-08-07 08:56:00,2.0,114.1,False
+Xbox_2014-08-07_03,Xbox,Appliance2,Non-shiftable,2014-08-07 09:20:00,2014-08-07 09:22:00,2.0,103.5,False
+Xbox_2014-08-07_04,Xbox,Appliance2,Non-shiftable,2014-08-07 09:52:00,2014-08-07 09:55:00,3.0,235.82,False
+Xbox_2014-08-07_05,Xbox,Appliance2,Non-shiftable,2014-08-07 11:28:00,2014-08-07 11:30:00,2.0,153.43,False
+Xbox_2014-08-07_06,Xbox,Appliance2,Non-shiftable,2014-08-07 11:44:00,2014-08-07 11:46:00,2.0,69.83,False
+Xbox_2014-08-07_07,Xbox,Appliance2,Non-shiftable,2014-08-07 12:16:00,2014-08-08 17:26:00,1750.0,343912.04,False
+Xbox_2014-08-08_01,Xbox,Appliance2,Non-shiftable,2014-08-08 18:27:00,2014-08-08 18:29:00,2.0,81.5,False
+Xbox_2014-08-08_02,Xbox,Appliance2,Non-shiftable,2014-08-08 18:38:00,2014-08-08 18:40:00,2.0,182.8,False
+Xbox_2014-08-09_01,Xbox,Appliance2,Non-shiftable,2014-08-09 17:45:00,2014-08-09 19:35:00,110.0,142956.0,False
+Xbox_2014-08-09_02,Xbox,Appliance2,Non-shiftable,2014-08-09 19:39:00,2014-08-10 10:45:00,906.0,168075.36,False
+Xbox_2014-08-10_01,Xbox,Appliance2,Non-shiftable,2014-08-10 11:47:00,2014-08-10 11:49:00,2.0,73.8,False
+Xbox_2014-08-10_02,Xbox,Appliance2,Non-shiftable,2014-08-10 11:53:00,2014-08-10 11:55:00,2.0,168.75,False
+Xbox_2014-08-10_03,Xbox,Appliance2,Non-shiftable,2014-08-10 12:03:00,2014-08-10 12:05:00,2.0,53.4,False
+Xbox_2014-08-10_04,Xbox,Appliance2,Non-shiftable,2014-08-10 12:09:00,2014-08-10 12:11:00,2.0,212.62,False
+Xbox_2014-08-10_05,Xbox,Appliance2,Non-shiftable,2014-08-10 12:19:00,2014-08-10 12:21:00,2.0,171.0,False
+Xbox_2014-08-10_06,Xbox,Appliance2,Non-shiftable,2014-08-10 12:35:00,2014-08-10 12:37:00,2.0,77.55,False
+Xbox_2014-08-10_07,Xbox,Appliance2,Non-shiftable,2014-08-10 13:00:00,2014-08-10 14:23:00,83.0,107347.2,False
+Xbox_2014-08-10_08,Xbox,Appliance2,Non-shiftable,2014-08-10 14:27:00,2014-08-10 14:29:00,2.0,65.2,False
+Xbox_2014-08-10_09,Xbox,Appliance2,Non-shiftable,2014-08-10 14:43:00,2014-08-10 14:45:00,2.0,55.47,False
+Xbox_2014-08-10_10,Xbox,Appliance2,Non-shiftable,2014-08-10 15:15:00,2014-08-10 15:17:00,2.0,35.14,False
+Xbox_2014-08-10_11,Xbox,Appliance2,Non-shiftable,2014-08-10 15:42:00,2014-08-10 15:44:00,2.0,95.6,False
+Xbox_2014-08-10_12,Xbox,Appliance2,Non-shiftable,2014-08-10 16:14:00,2014-08-10 16:16:00,2.0,128.4,False
+Xbox_2014-08-10_13,Xbox,Appliance2,Non-shiftable,2014-08-10 16:35:00,2014-08-10 16:37:00,2.0,89.2,False
+Xbox_2014-08-10_14,Xbox,Appliance2,Non-shiftable,2014-08-10 16:46:00,2014-08-10 16:48:00,2.0,125.25,False
+Xbox_2014-08-11_01,Xbox,Appliance2,Non-shiftable,2014-08-11 06:28:00,2014-08-11 07:51:00,83.0,101773.09,False
+Xbox_2014-08-11_02,Xbox,Appliance2,Non-shiftable,2014-08-11 08:37:00,2014-08-11 08:39:00,2.0,65.5,False
+Xbox_2014-08-11_03,Xbox,Appliance2,Non-shiftable,2014-08-11 09:57:00,2014-08-11 09:59:00,2.0,69.8,False
+Xbox_2014-08-11_04,Xbox,Appliance2,Non-shiftable,2014-08-11 10:29:00,2014-08-11 10:31:00,2.0,23.51,False
+Xbox_2014-08-11_05,Xbox,Appliance2,Non-shiftable,2014-08-11 10:40:00,2014-08-11 10:42:00,2.0,69.3,False
+Xbox_2014-08-11_06,Xbox,Appliance2,Non-shiftable,2014-08-11 10:56:00,2014-08-11 10:58:00,2.0,39.83,False
+Xbox_2014-08-11_07,Xbox,Appliance2,Non-shiftable,2014-08-11 11:01:00,2014-08-11 11:03:00,2.0,27.98,False
+Xbox_2014-08-11_08,Xbox,Appliance2,Non-shiftable,2014-08-11 11:49:00,2014-08-11 11:51:00,2.0,52.8,False
+Xbox_2014-08-11_09,Xbox,Appliance2,Non-shiftable,2014-08-11 12:21:00,2014-08-11 12:23:00,2.0,60.42,False
+Xbox_2014-08-11_10,Xbox,Appliance2,Non-shiftable,2014-08-11 13:09:00,2014-08-11 13:11:00,2.0,32.4,False
+Xbox_2014-08-11_11,Xbox,Appliance2,Non-shiftable,2014-08-11 13:25:00,2014-08-11 13:27:00,2.0,36.6,False
+Xbox_2014-08-11_12,Xbox,Appliance2,Non-shiftable,2014-08-11 13:41:00,2014-08-11 13:43:00,2.0,32.39,False
+Xbox_2014-08-11_13,Xbox,Appliance2,Non-shiftable,2014-08-11 14:29:00,2014-08-11 14:31:00,2.0,36.0,False
+Xbox_2014-08-11_14,Xbox,Appliance2,Non-shiftable,2014-08-11 15:49:00,2014-08-11 15:51:00,2.0,59.84,False
+Xbox_2014-08-11_15,Xbox,Appliance2,Non-shiftable,2014-08-11 15:55:00,2014-08-11 15:57:00,2.0,117.34,False
+Xbox_2014-08-11_16,Xbox,Appliance2,Non-shiftable,2014-08-11 16:00:00,2014-08-11 16:02:00,2.0,47.7,False
+Xbox_2014-08-11_17,Xbox,Appliance2,Non-shiftable,2014-08-11 16:05:00,2014-08-11 16:07:00,2.0,65.94,False
+Xbox_2014-08-11_18,Xbox,Appliance2,Non-shiftable,2014-08-11 16:16:00,2014-08-11 16:18:00,2.0,10.36,False
+Xbox_2014-08-11_19,Xbox,Appliance2,Non-shiftable,2014-08-11 16:22:00,2014-08-11 18:01:00,99.0,130531.32,False
+Xbox_2014-08-11_20,Xbox,Appliance2,Non-shiftable,2014-08-11 18:10:00,2014-08-11 18:12:00,2.0,6.77,False
+Xbox_2014-08-12_01,Xbox,Appliance2,Non-shiftable,2014-08-12 06:30:00,2014-08-12 07:53:00,83.0,100130.42,False
+Xbox_2014-08-12_02,Xbox,Appliance2,Non-shiftable,2014-08-12 08:02:00,2014-08-12 08:04:00,2.0,43.8,False
+Xbox_2014-08-12_03,Xbox,Appliance2,Non-shiftable,2014-08-12 08:18:00,2014-08-12 08:20:00,2.0,116.56,False
+Xbox_2014-08-12_04,Xbox,Appliance2,Non-shiftable,2014-08-12 08:35:00,2014-08-12 09:31:00,56.0,59681.97,False
+Xbox_2014-08-13_01,Xbox,Appliance2,Non-shiftable,2014-08-13 09:03:00,2014-08-13 10:26:00,83.0,101121.4,False
+Xbox_2014-08-13_02,Xbox,Appliance2,Non-shiftable,2014-08-13 10:35:00,2014-08-13 10:37:00,2.0,65.6,False
+Xbox_2014-08-13_03,Xbox,Appliance2,Non-shiftable,2014-08-13 11:07:00,2014-08-13 11:09:00,2.0,122.49,False
+Xbox_2014-08-13_04,Xbox,Appliance2,Non-shiftable,2014-08-13 11:12:00,2014-08-13 11:14:00,2.0,154.63,False
+Xbox_2014-08-13_05,Xbox,Appliance2,Non-shiftable,2014-08-13 12:01:00,2014-08-13 12:03:00,2.0,162.0,False
+Xbox_2014-08-13_06,Xbox,Appliance2,Non-shiftable,2014-08-13 12:06:00,2014-08-13 12:08:00,2.0,217.4,False
+Xbox_2014-08-13_07,Xbox,Appliance2,Non-shiftable,2014-08-13 12:11:00,2014-08-13 12:13:00,2.0,9.29,False
+Xbox_2014-08-13_08,Xbox,Appliance2,Non-shiftable,2014-08-13 12:54:00,2014-08-13 12:56:00,2.0,233.56,False
+Xbox_2014-08-13_09,Xbox,Appliance2,Non-shiftable,2014-08-13 13:20:00,2014-08-13 13:22:00,2.0,62.73,False
+Xbox_2014-08-13_10,Xbox,Appliance2,Non-shiftable,2014-08-13 13:31:00,2014-08-13 13:33:00,2.0,52.98,False
+Xbox_2014-08-13_11,Xbox,Appliance2,Non-shiftable,2014-08-13 14:40:00,2014-08-13 14:42:00,2.0,120.99,False
+Xbox_2014-08-13_12,Xbox,Appliance2,Non-shiftable,2014-08-13 14:51:00,2014-08-13 14:53:00,2.0,104.22,False
+Xbox_2014-08-13_13,Xbox,Appliance2,Non-shiftable,2014-08-13 14:56:00,2014-08-13 14:58:00,2.0,44.86,False
+Xbox_2014-08-13_14,Xbox,Appliance2,Non-shiftable,2014-08-13 15:39:00,2014-08-13 15:41:00,2.0,119.67,False
+Xbox_2014-08-13_15,Xbox,Appliance2,Non-shiftable,2014-08-13 16:32:00,2014-08-13 16:34:00,2.0,144.2,False
+Xbox_2014-08-13_16,Xbox,Appliance2,Non-shiftable,2014-08-13 16:48:00,2014-08-13 16:50:00,2.0,180.7,False
+Xbox_2014-08-13_17,Xbox,Appliance2,Non-shiftable,2014-08-13 17:04:00,2014-08-13 17:06:00,2.0,52.1,False
+Xbox_2014-08-13_18,Xbox,Appliance2,Non-shiftable,2014-08-13 17:15:00,2014-08-13 17:17:00,2.0,112.4,False
+Xbox_2014-08-13_19,Xbox,Appliance2,Non-shiftable,2014-08-13 17:20:00,2014-08-13 17:22:00,2.0,70.6,False
+Xbox_2014-08-14_01,Xbox,Appliance2,Non-shiftable,2014-08-14 08:06:00,2014-08-14 09:44:00,98.0,117787.32,False
+Xbox_2014-08-14_02,Xbox,Appliance2,Non-shiftable,2014-08-14 09:58:00,2014-08-14 10:00:00,2.0,48.77,False
+Xbox_2014-08-14_03,Xbox,Appliance2,Non-shiftable,2014-08-14 10:14:00,2014-08-14 10:16:00,2.0,67.98,False
+Xbox_2014-08-14_04,Xbox,Appliance2,Non-shiftable,2014-08-14 10:30:00,2014-08-14 10:32:00,2.0,45.19,False
+Xbox_2014-08-14_05,Xbox,Appliance2,Non-shiftable,2014-08-14 11:02:00,2014-08-14 11:04:00,2.0,56.7,False
+Xbox_2014-08-14_06,Xbox,Appliance2,Non-shiftable,2014-08-14 11:24:00,2014-08-14 11:26:00,2.0,130.29,False
+Xbox_2014-08-14_07,Xbox,Appliance2,Non-shiftable,2014-08-14 11:29:00,2014-08-14 11:31:00,2.0,41.88,False
+Xbox_2014-08-14_08,Xbox,Appliance2,Non-shiftable,2014-08-14 11:34:00,2014-08-14 11:36:00,2.0,48.6,False
+Xbox_2014-08-14_09,Xbox,Appliance2,Non-shiftable,2014-08-14 12:01:00,2014-08-14 12:03:00,2.0,51.19,False
+Xbox_2014-08-14_10,Xbox,Appliance2,Non-shiftable,2014-08-14 12:07:00,2014-08-14 12:09:00,2.0,10.5,False
+Xbox_2014-08-14_11,Xbox,Appliance2,Non-shiftable,2014-08-14 12:22:00,2014-08-14 12:24:00,2.0,108.95,False
+Xbox_2014-08-15_01,Xbox,Appliance2,Non-shiftable,2014-08-15 07:38:00,2014-08-15 08:44:00,66.0,68522.43,False
+Xbox_2014-08-15_02,Xbox,Appliance2,Non-shiftable,2014-08-15 08:48:00,2014-08-15 08:50:00,2.0,112.43,False
+Xbox_2014-08-15_03,Xbox,Appliance2,Non-shiftable,2014-08-15 09:20:00,2014-08-15 09:22:00,2.0,142.0,False
+Xbox_2014-08-15_04,Xbox,Appliance2,Non-shiftable,2014-08-15 09:30:00,2014-08-15 09:32:00,2.0,57.65,False
+Xbox_2014-08-15_05,Xbox,Appliance2,Non-shiftable,2014-08-15 09:46:00,2014-08-15 09:48:00,2.0,39.51,False
+Xbox_2014-08-15_06,Xbox,Appliance2,Non-shiftable,2014-08-15 10:13:00,2014-08-15 10:15:00,2.0,23.98,False
+Xbox_2014-08-15_07,Xbox,Appliance2,Non-shiftable,2014-08-15 10:29:00,2014-08-15 10:31:00,2.0,58.52,False
+Xbox_2014-08-15_08,Xbox,Appliance2,Non-shiftable,2014-08-15 10:50:00,2014-08-15 10:52:00,2.0,130.67,False
+Xbox_2014-08-16_01,Xbox,Appliance2,Non-shiftable,2014-08-16 09:51:00,2014-08-16 11:24:00,93.0,106129.79,False
+Xbox_2014-08-16_02,Xbox,Appliance2,Non-shiftable,2014-08-16 11:30:00,2014-08-16 12:28:00,58.0,57348.98,False
+Xbox_2014-08-16_03,Xbox,Appliance2,Non-shiftable,2014-08-16 13:34:00,2014-08-16 14:16:00,42.0,44309.45,False
+Xbox_2014-08-16_04,Xbox,Appliance2,Non-shiftable,2014-08-16 14:20:00,2014-08-16 14:22:00,2.0,9.0,False
+Xbox_2014-08-16_05,Xbox,Appliance2,Non-shiftable,2014-08-16 14:25:00,2014-08-16 14:29:00,4.0,388.0,False
+Xbox_2014-08-16_06,Xbox,Appliance2,Non-shiftable,2014-08-16 14:36:00,2014-08-16 14:38:00,2.0,144.0,False
+Xbox_2014-08-16_07,Xbox,Appliance2,Non-shiftable,2014-08-16 14:57:00,2014-08-16 14:59:00,2.0,250.69,False
+Xbox_2014-08-18_01,Xbox,Appliance2,Non-shiftable,2014-08-18 07:52:00,2014-08-18 09:14:00,82.0,78118.26,False
+Xbox_2014-08-18_02,Xbox,Appliance2,Non-shiftable,2014-08-18 09:37:00,2014-08-18 09:39:00,2.0,89.2,False
+Washing_Machine_2014-06-01_01,Washing Machine,Appliance3,Shiftable,2014-06-01 08:29:00,2014-06-01 09:40:00,71.0,31759.65,True
+Washing_Machine_2014-06-07_01,Washing Machine,Appliance3,Shiftable,2014-06-07 07:08:00,2014-06-07 08:17:00,69.0,24729.27,True
+Washing_Machine_2014-06-07_02,Washing Machine,Appliance3,Shiftable,2014-06-07 08:32:00,2014-06-07 09:42:00,70.0,22781.54,True
+Washing_Machine_2014-06-07_03,Washing Machine,Appliance3,Shiftable,2014-06-07 10:19:00,2014-06-07 11:29:00,70.0,25536.4,True
+Washing_Machine_2014-06-07_04,Washing Machine,Appliance3,Shiftable,2014-06-07 11:54:00,2014-06-07 13:07:00,73.0,24201.29,True
+Washing_Machine_2014-06-07_06,Washing Machine,Appliance3,Shiftable,2014-06-07 15:27:00,2014-06-07 15:28:00,1.0,131.0,True
+Washing_Machine_2014-06-08_01,Washing Machine,Appliance3,Shiftable,2014-06-08 09:06:00,2014-06-08 09:07:00,1.0,25.6,True
+Washing_Machine_2014-06-14_01,Washing Machine,Appliance3,Shiftable,2014-06-14 06:49:00,2014-06-14 07:59:00,70.0,27910.08,True
+Washing_Machine_2014-06-14_02,Washing Machine,Appliance3,Shiftable,2014-06-14 08:04:00,2014-06-14 09:13:00,69.0,19025.42,True
+Washing_Machine_2014-06-14_03,Washing Machine,Appliance3,Shiftable,2014-06-14 10:13:00,2014-06-14 11:23:00,70.0,7154.59,True
+Washing_Machine_2014-06-14_04,Washing Machine,Appliance3,Shiftable,2014-06-14 12:00:00,2014-06-14 13:09:00,69.0,23243.46,True
+Washing_Machine_2014-06-15_01,Washing Machine,Appliance3,Shiftable,2014-06-15 08:52:00,2014-06-15 10:01:00,69.0,16896.4,True
+Washing_Machine_2014-06-21_01,Washing Machine,Appliance3,Shiftable,2014-06-21 07:01:00,2014-06-21 08:11:00,70.0,24460.5,True
+Washing_Machine_2014-06-21_02,Washing Machine,Appliance3,Shiftable,2014-06-21 08:56:00,2014-06-21 10:06:00,70.0,23286.09,True
+Washing_Machine_2014-06-22_01,Washing Machine,Appliance3,Shiftable,2014-06-22 06:29:00,2014-06-22 07:36:00,67.0,21073.52,True
+Washing_Machine_2014-06-22_02,Washing Machine,Appliance3,Shiftable,2014-06-22 09:14:00,2014-06-22 10:29:00,75.0,25818.77,True
+Washing_Machine_2014-06-22_03,Washing Machine,Appliance3,Shiftable,2014-06-22 10:47:00,2014-06-22 11:57:00,70.0,19395.65,True
+Washing_Machine_2014-06-22_04,Washing Machine,Appliance3,Shiftable,2014-06-22 12:21:00,2014-06-22 13:30:00,69.0,17964.95,True
+Washing_Machine_2014-06-27_01,Washing Machine,Appliance3,Shiftable,2014-06-27 00:12:00,2014-06-27 00:17:00,5.0,111.2,True
+Washing_Machine_2014-06-27_02,Washing Machine,Appliance3,Shiftable,2014-06-27 06:04:00,2014-06-27 07:14:00,70.0,20431.17,True
+Washing_Machine_2014-06-30_01,Washing Machine,Appliance3,Shiftable,2014-06-30 16:05:00,2014-06-30 16:06:00,1.0,12.8,True
+Washing_Machine_2014-07-01_02,Washing Machine,Appliance3,Shiftable,2014-07-01 18:50:00,2014-07-01 18:51:00,1.0,17.0,True
+Washing_Machine_2014-07-03_01,Washing Machine,Appliance3,Shiftable,2014-07-03 07:29:00,2014-07-03 08:40:00,71.0,20526.43,True
+Washing_Machine_2014-07-03_02,Washing Machine,Appliance3,Shiftable,2014-07-03 09:24:00,2014-07-03 12:03:00,159.0,55234.24,True
+Washing_Machine_2014-07-04_01,Washing Machine,Appliance3,Shiftable,2014-07-04 07:50:00,2014-07-04 08:00:00,10.0,1280.0,True
+Washing_Machine_2014-07-04_02,Washing Machine,Appliance3,Shiftable,2014-07-04 08:11:00,2014-07-04 09:20:00,69.0,16584.44,True
+Washing_Machine_2014-07-04_03,Washing Machine,Appliance3,Shiftable,2014-07-04 09:59:00,2014-07-04 11:09:00,70.0,22668.91,True
+Washing_Machine_2014-07-04_04,Washing Machine,Appliance3,Shiftable,2014-07-04 16:00:00,2014-07-04 16:01:00,1.0,80.0,True
+Washing_Machine_2014-07-04_05,Washing Machine,Appliance3,Shiftable,2014-07-04 19:10:00,2014-07-04 19:11:00,1.0,19.2,True
+Washing_Machine_2014-07-05_01,Washing Machine,Appliance3,Shiftable,2014-07-05 07:23:00,2014-07-05 08:32:00,69.0,22861.56,True
+Washing_Machine_2014-07-05_02,Washing Machine,Appliance3,Shiftable,2014-07-05 09:01:00,2014-07-05 10:09:00,68.0,18328.42,True
+Washing_Machine_2014-07-06_01,Washing Machine,Appliance3,Shiftable,2014-07-06 07:30:00,2014-07-06 07:32:00,2.0,28.8,True
+Washing_Machine_2014-07-06_02,Washing Machine,Appliance3,Shiftable,2014-07-06 07:45:00,2014-07-06 08:55:00,70.0,19561.25,True
+Washing_Machine_2014-07-06_03,Washing Machine,Appliance3,Shiftable,2014-07-06 17:36:00,2014-07-06 17:39:00,3.0,777.6,True
+Washing_Machine_2014-07-08_02,Washing Machine,Appliance3,Shiftable,2014-07-08 19:10:00,2014-07-08 19:11:00,1.0,3.2,True
+Washing_Machine_2014-07-08_03,Washing Machine,Appliance3,Shiftable,2014-07-08 23:46:00,2014-07-08 23:47:00,1.0,8.0,True
+Washing_Machine_2014-07-09_01,Washing Machine,Appliance3,Shiftable,2014-07-09 15:23:00,2014-07-09 15:27:00,4.0,86.4,True
+Washing_Machine_2014-07-10_01,Washing Machine,Appliance3,Shiftable,2014-07-10 19:14:00,2014-07-10 19:16:00,2.0,23.11,True
+Washing_Machine_2014-07-11_01,Washing Machine,Appliance3,Shiftable,2014-07-11 03:59:00,2014-07-11 04:00:00,1.0,3.2,True
+Washing_Machine_2014-07-27_01,Washing Machine,Appliance3,Shiftable,2014-07-27 06:40:00,2014-07-27 06:57:00,17.0,14782.97,True
+Washing_Machine_2014-07-27_02,Washing Machine,Appliance3,Shiftable,2014-07-27 07:05:00,2014-07-27 07:30:00,25.0,1601.8,True
+Washing_Machine_2014-07-27_03,Washing Machine,Appliance3,Shiftable,2014-07-27 07:31:00,2014-07-27 07:46:00,15.0,661.67,True
+Washing_Machine_2014-07-27_04,Washing Machine,Appliance3,Shiftable,2014-07-27 09:06:00,2014-07-27 10:18:00,72.0,18308.4,True
+Washing_Machine_2014-07-27_05,Washing Machine,Appliance3,Shiftable,2014-07-27 12:45:00,2014-07-27 13:55:00,70.0,16081.64,True
+Washing_Machine_2014-07-28_01,Washing Machine,Appliance3,Shiftable,2014-07-28 06:29:00,2014-07-28 07:36:00,67.0,17822.11,True
+Washing_Machine_2014-07-28_02,Washing Machine,Appliance3,Shiftable,2014-07-28 10:22:00,2014-07-28 11:21:00,59.0,36089.88,True
+Washing_Machine_2014-07-29_01,Washing Machine,Appliance3,Shiftable,2014-07-29 06:16:00,2014-07-29 07:34:00,78.0,24727.22,True
+Washing_Machine_2014-07-31_01,Washing Machine,Appliance3,Shiftable,2014-07-31 07:07:00,2014-07-31 08:16:00,69.0,21491.41,True
+Washing_Machine_2014-08-01_01,Washing Machine,Appliance3,Shiftable,2014-08-01 06:38:00,2014-08-01 07:51:00,73.0,22524.45,True
+Washing_Machine_2014-08-01_02,Washing Machine,Appliance3,Shiftable,2014-08-01 12:45:00,2014-08-01 12:46:00,1.0,12.8,True
+Washing_Machine_2014-08-03_01,Washing Machine,Appliance3,Shiftable,2014-08-03 07:06:00,2014-08-03 08:14:00,68.0,21042.23,True
+Washing_Machine_2014-08-03_02,Washing Machine,Appliance3,Shiftable,2014-08-03 09:16:00,2014-08-03 10:27:00,71.0,25834.21,True
+Washing_Machine_2014-08-04_01,Washing Machine,Appliance3,Shiftable,2014-08-04 06:23:00,2014-08-04 07:33:00,70.0,54418.64,True
+Washing_Machine_2014-08-06_01,Washing Machine,Appliance3,Shiftable,2014-08-06 06:19:00,2014-08-06 10:33:00,254.0,20446.73,True
+Washing_Machine_2014-08-07_01,Washing Machine,Appliance3,Shiftable,2014-08-07 05:58:00,2014-08-07 07:08:00,70.0,21027.1,True
+Washing_Machine_2014-08-10_01,Washing Machine,Appliance3,Shiftable,2014-08-10 07:18:00,2014-08-10 08:26:00,68.0,25600.3,True
+Washing_Machine_2014-08-10_02,Washing Machine,Appliance3,Shiftable,2014-08-10 10:03:00,2014-08-10 11:11:00,68.0,22305.69,True
+Washing_Machine_2014-08-11_01,Washing Machine,Appliance3,Shiftable,2014-08-11 06:28:00,2014-08-11 07:44:00,76.0,48241.58,True
+Washing_Machine_2014-08-12_01,Washing Machine,Appliance3,Shiftable,2014-08-12 06:47:00,2014-08-12 07:56:00,69.0,29688.11,True
+Washing_Machine_2014-08-13_01,Washing Machine,Appliance3,Shiftable,2014-08-13 07:46:00,2014-08-13 08:59:00,73.0,40269.76,True
+Washing_Machine_2014-08-14_01,Washing Machine,Appliance3,Shiftable,2014-08-14 06:28:00,2014-08-14 07:37:00,69.0,22232.92,True
+Washing_Machine_2014-08-15_01,Washing Machine,Appliance3,Shiftable,2014-08-15 06:23:00,2014-08-15 07:33:00,70.0,21680.94,True
+Washing_Machine_2014-08-16_01,Washing Machine,Appliance3,Shiftable,2014-08-16 08:10:00,2014-08-16 09:19:00,69.0,24460.79,True
+Washing_Machine_2014-08-16_02,Washing Machine,Appliance3,Shiftable,2014-08-16 10:07:00,2014-08-16 11:15:00,68.0,17686.53,True
+Washing_Machine_2014-08-16_03,Washing Machine,Appliance3,Shiftable,2014-08-16 11:38:00,2014-08-16 12:46:00,68.0,17498.12,True
+Washing_Machine_2014-08-18_01,Washing Machine,Appliance3,Shiftable,2014-08-18 06:25:00,2014-08-18 07:40:00,75.0,23333.77,True
+Washing_Machine_2014-08-18_02,Washing Machine,Appliance3,Shiftable,2014-08-18 08:15:00,2014-08-18 09:11:00,56.0,13053.22,True
+Washing_Machine_2014-08-21_01,Washing Machine,Appliance3,Shiftable,2014-08-21 07:25:00,2014-08-21 08:35:00,70.0,25692.16,True
+Washing_Machine_2014-08-22_01,Washing Machine,Appliance3,Shiftable,2014-08-22 07:52:00,2014-08-22 09:03:00,71.0,25535.12,True
+Washing_Machine_2014-08-23_01,Washing Machine,Appliance3,Shiftable,2014-08-23 08:15:00,2014-08-23 09:24:00,69.0,27173.82,True
+Washing_Machine_2014-08-24_01,Washing Machine,Appliance3,Shiftable,2014-08-24 09:19:00,2014-08-24 10:30:00,71.0,27168.69,True
+Washing_Machine_2014-08-30_01,Washing Machine,Appliance3,Shiftable,2014-08-30 07:10:00,2014-08-30 08:19:00,69.0,21488.39,True
+Washing_Machine_2014-08-30_02,Washing Machine,Appliance3,Shiftable,2014-08-30 08:33:00,2014-08-30 09:43:00,70.0,21799.76,True
+Washing_Machine_2014-08-30_03,Washing Machine,Appliance3,Shiftable,2014-08-30 10:17:00,2014-08-30 11:01:00,44.0,20895.56,True
+Washing_Machine_2014-09-06_01,Washing Machine,Appliance3,Shiftable,2014-09-06 06:51:00,2014-09-06 08:01:00,70.0,21708.69,True
+Washing_Machine_2014-09-06_02,Washing Machine,Appliance3,Shiftable,2014-09-06 08:32:00,2014-09-06 09:41:00,69.0,22337.78,True
+Washing_Machine_2014-09-06_03,Washing Machine,Appliance3,Shiftable,2014-09-06 11:58:00,2014-09-06 13:08:00,70.0,20759.12,True
+Washing_Machine_2014-09-23_01,Washing Machine,Appliance3,Shiftable,2014-09-23 10:14:00,2014-09-23 11:23:00,69.0,19513.0,True
+Washing_Machine_2014-09-25_01,Washing Machine,Appliance3,Shiftable,2014-09-25 12:33:00,2014-09-25 13:42:00,69.0,25875.12,True
+Washing_Machine_2014-09-28_01,Washing Machine,Appliance3,Shiftable,2014-09-28 08:00:00,2014-09-28 09:10:00,70.0,24548.29,True
+Washing_Machine_2014-09-28_02,Washing Machine,Appliance3,Shiftable,2014-09-28 09:27:00,2014-09-28 10:37:00,70.0,21310.92,True
+Washing_Machine_2014-09-28_03,Washing Machine,Appliance3,Shiftable,2014-09-28 11:15:00,2014-09-28 12:26:00,71.0,13046.68,True
+Dishwasher_2014-06-01_02,Dishwasher,Appliance4,Shiftable,2014-06-01 19:29:00,2014-06-01 19:31:00,2.0,33.5,True
+Dishwasher_2014-06-04_02,Dishwasher,Appliance4,Shiftable,2014-06-04 18:13:00,2014-06-04 18:14:00,1.0,5.9,True
+Dishwasher_2014-06-08_01,Dishwasher,Appliance4,Shiftable,2014-06-08 08:26:00,2014-06-08 09:18:00,52.0,67190.34,True
+Dishwasher_2014-06-08_02,Dishwasher,Appliance4,Shiftable,2014-06-08 09:22:00,2014-06-08 09:23:00,1.0,7.1,True
+Dishwasher_2014-06-11_01,Dishwasher,Appliance4,Shiftable,2014-06-11 12:57:00,2014-06-11 13:49:00,52.0,65992.24,True
+Dishwasher_2014-06-11_02,Dishwasher,Appliance4,Shiftable,2014-06-11 13:54:00,2014-06-11 13:55:00,1.0,3.29,True
+Dishwasher_2014-06-12_01,Dishwasher,Appliance4,Shiftable,2014-06-12 02:24:00,2014-06-12 02:26:00,2.0,51.0,True
+Dishwasher_2014-06-13_01,Dishwasher,Appliance4,Shiftable,2014-06-13 06:05:00,2014-06-13 06:59:00,54.0,64916.19,True
+Dishwasher_2014-06-13_02,Dishwasher,Appliance4,Shiftable,2014-06-13 07:08:00,2014-06-13 07:10:00,2.0,30.98,True
+Dishwasher_2014-06-15_01,Dishwasher,Appliance4,Shiftable,2014-06-15 08:07:00,2014-06-15 08:57:00,50.0,64873.97,True
+Dishwasher_2014-06-15_02,Dishwasher,Appliance4,Shiftable,2014-06-15 09:02:00,2014-06-15 09:03:00,1.0,6.89,True
+Dishwasher_2014-06-15_04,Dishwasher,Appliance4,Shiftable,2014-06-15 16:52:00,2014-06-15 16:53:00,1.0,7.57,True
+Dishwasher_2014-06-16_01,Dishwasher,Appliance4,Shiftable,2014-06-16 06:18:00,2014-06-16 07:37:00,79.0,80328.47,True
+Dishwasher_2014-06-18_01,Dishwasher,Appliance4,Shiftable,2014-06-18 06:12:00,2014-06-18 07:36:00,84.0,54177.81,True
+Dishwasher_2014-06-18_02,Dishwasher,Appliance4,Shiftable,2014-06-18 07:45:00,2014-06-18 07:48:00,3.0,29.84,True
+Dishwasher_2014-06-18_03,Dishwasher,Appliance4,Shiftable,2014-06-18 08:01:00,2014-06-18 08:02:00,1.0,5.5,True
+Dishwasher_2014-06-21_01,Dishwasher,Appliance4,Shiftable,2014-06-21 07:45:00,2014-06-21 09:05:00,80.0,81823.21,True
+Dishwasher_2014-06-21_02,Dishwasher,Appliance4,Shiftable,2014-06-21 09:29:00,2014-06-21 09:30:00,1.0,4.0,True
+Dishwasher_2014-06-22_01,Dishwasher,Appliance4,Shiftable,2014-06-22 12:16:00,2014-06-22 13:35:00,79.0,80846.05,True
+Dishwasher_2014-06-22_02,Dishwasher,Appliance4,Shiftable,2014-06-22 13:58:00,2014-06-22 14:00:00,2.0,12.2,True
+Dishwasher_2014-06-24_02,Dishwasher,Appliance4,Shiftable,2014-06-24 20:24:00,2014-06-24 20:27:00,3.0,32.78,True
+Dishwasher_2014-06-24_03,Dishwasher,Appliance4,Shiftable,2014-06-24 20:40:00,2014-06-24 20:41:00,1.0,7.7,True
+Dishwasher_2014-06-26_02,Dishwasher,Appliance4,Shiftable,2014-06-26 20:41:00,2014-06-26 20:42:00,1.0,10.1,True
+Dishwasher_2014-06-29_01,Dishwasher,Appliance4,Shiftable,2014-06-29 07:45:00,2014-06-29 08:37:00,52.0,65675.56,True
+Dishwasher_2014-06-29_02,Dishwasher,Appliance4,Shiftable,2014-06-29 08:42:00,2014-06-29 08:43:00,1.0,6.57,True
+Dishwasher_2014-07-01_01,Dishwasher,Appliance4,Shiftable,2014-07-01 08:23:00,2014-07-01 08:24:00,1.0,21.6,True
+Dishwasher_2014-07-01_03,Dishwasher,Appliance4,Shiftable,2014-07-01 17:57:00,2014-07-01 17:58:00,1.0,4.6,True
+Dishwasher_2014-07-03_02,Dishwasher,Appliance4,Shiftable,2014-07-03 18:48:00,2014-07-03 18:51:00,3.0,33.35,True
+Dishwasher_2014-07-06_02,Dishwasher,Appliance4,Shiftable,2014-07-06 18:09:00,2014-07-06 18:10:00,1.0,7.8,True
+Dishwasher_2014-07-08_02,Dishwasher,Appliance4,Shiftable,2014-07-08 18:29:00,2014-07-08 18:30:00,1.0,6.9,True
+Dishwasher_2014-07-09_01,Dishwasher,Appliance4,Shiftable,2014-07-09 19:52:00,2014-07-09 19:54:00,2.0,160.32,True
+Dishwasher_2014-07-11_02,Dishwasher,Appliance4,Shiftable,2014-07-11 19:03:00,2014-07-11 19:04:00,1.0,8.6,True
+Dishwasher_2014-07-12_01,Dishwasher,Appliance4,Shiftable,2014-07-12 06:42:00,2014-07-12 06:43:00,1.0,4.57,True
+Dishwasher_2014-07-12_02,Dishwasher,Appliance4,Shiftable,2014-07-12 09:42:00,2014-07-12 10:29:00,47.0,56534.11,True
+Dishwasher_2014-07-12_03,Dishwasher,Appliance4,Shiftable,2014-07-12 10:34:00,2014-07-12 10:35:00,1.0,6.46,True
+Dishwasher_2014-07-15_01,Dishwasher,Appliance4,Shiftable,2014-07-15 12:11:00,2014-07-15 12:12:00,1.0,13.71,True
+Dishwasher_2014-07-16_01,Dishwasher,Appliance4,Shiftable,2014-07-16 22:16:00,2014-07-16 22:18:00,2.0,7.77,True
+Dishwasher_2014-07-17_01,Dishwasher,Appliance4,Shiftable,2014-07-17 05:24:00,2014-07-17 05:25:00,1.0,9.6,True
+Dishwasher_2014-07-17_02,Dishwasher,Appliance4,Shiftable,2014-07-17 15:20:00,2014-07-17 15:21:00,1.0,4.8,True
+Dishwasher_2014-07-19_01,Dishwasher,Appliance4,Shiftable,2014-07-19 16:21:00,2014-07-19 16:22:00,1.0,3.2,True
+Dishwasher_2014-07-28_01,Dishwasher,Appliance4,Shiftable,2014-07-28 12:23:00,2014-07-28 13:15:00,52.0,62744.52,True
+Dishwasher_2014-07-28_02,Dishwasher,Appliance4,Shiftable,2014-07-28 13:24:00,2014-07-28 13:27:00,3.0,37.33,True
+Dishwasher_2014-07-30_01,Dishwasher,Appliance4,Shiftable,2014-07-30 07:31:00,2014-07-30 08:22:00,51.0,62273.97,True
+Dishwasher_2014-07-30_02,Dishwasher,Appliance4,Shiftable,2014-07-30 08:27:00,2014-07-30 08:28:00,1.0,8.8,True
+Dishwasher_2014-07-31_01,Dishwasher,Appliance4,Shiftable,2014-07-31 07:31:00,2014-07-31 08:21:00,50.0,61360.78,True
+Dishwasher_2014-07-31_02,Dishwasher,Appliance4,Shiftable,2014-07-31 08:25:00,2014-07-31 08:26:00,1.0,8.8,True
+Dishwasher_2014-08-02_02,Dishwasher,Appliance4,Shiftable,2014-08-02 17:44:00,2014-08-02 17:45:00,1.0,8.8,True
+Dishwasher_2014-08-03_02,Dishwasher,Appliance4,Shiftable,2014-08-03 20:16:00,2014-08-03 20:19:00,3.0,33.53,True
+Dishwasher_2014-08-05_01,Dishwasher,Appliance4,Shiftable,2014-08-05 07:41:00,2014-08-05 08:33:00,52.0,63349.72,True
+Dishwasher_2014-08-05_02,Dishwasher,Appliance4,Shiftable,2014-08-05 08:37:00,2014-08-05 08:38:00,1.0,10.1,True
+Dishwasher_2014-08-06_02,Dishwasher,Appliance4,Shiftable,2014-08-06 18:39:00,2014-08-06 18:40:00,1.0,6.67,True
+Dishwasher_2014-08-08_01,Dishwasher,Appliance4,Shiftable,2014-08-08 07:56:00,2014-08-08 07:57:00,1.0,12.8,True
+Dishwasher_2014-08-09_01,Dishwasher,Appliance4,Shiftable,2014-08-09 07:32:00,2014-08-09 08:22:00,50.0,61641.46,True
+Dishwasher_2014-08-09_02,Dishwasher,Appliance4,Shiftable,2014-08-09 08:26:00,2014-08-09 08:27:00,1.0,7.0,True
+Dishwasher_2014-08-10_02,Dishwasher,Appliance4,Shiftable,2014-08-10 14:48:00,2014-08-10 14:49:00,1.0,6.0,True
+Dishwasher_2014-08-12_01,Dishwasher,Appliance4,Shiftable,2014-08-12 07:33:00,2014-08-12 08:27:00,54.0,64492.62,True
+Dishwasher_2014-08-12_02,Dishwasher,Appliance4,Shiftable,2014-08-12 08:36:00,2014-08-12 08:39:00,3.0,35.3,True
+Dishwasher_2014-08-12_03,Dishwasher,Appliance4,Shiftable,2014-08-12 16:14:00,2014-08-12 16:15:00,1.0,204.8,True
+Dishwasher_2014-08-13_02,Dishwasher,Appliance4,Shiftable,2014-08-13 19:16:00,2014-08-13 19:17:00,1.0,3.89,True
+Dishwasher_2014-08-15_02,Dishwasher,Appliance4,Shiftable,2014-08-15 18:36:00,2014-08-15 18:37:00,1.0,6.56,True
+Dishwasher_2014-08-17_01,Dishwasher,Appliance4,Shiftable,2014-08-17 07:29:00,2014-08-17 08:20:00,51.0,66266.11,True
+Dishwasher_2014-08-17_02,Dishwasher,Appliance4,Shiftable,2014-08-17 08:25:00,2014-08-17 08:26:00,1.0,4.75,True
+Dishwasher_2014-08-19_02,Dishwasher,Appliance4,Shiftable,2014-08-19 19:12:00,2014-08-19 19:14:00,2.0,24.15,True
+Dishwasher_2014-08-19_03,Dishwasher,Appliance4,Shiftable,2014-08-19 19:28:00,2014-08-19 19:29:00,1.0,7.0,True
+Dishwasher_2014-08-21_01,Dishwasher,Appliance4,Shiftable,2014-08-21 12:05:00,2014-08-21 12:58:00,53.0,60260.64,True
+Dishwasher_2014-08-21_02,Dishwasher,Appliance4,Shiftable,2014-08-21 13:03:00,2014-08-21 13:04:00,1.0,3.78,True
+Dishwasher_2014-08-23_01,Dishwasher,Appliance4,Shiftable,2014-08-23 08:19:00,2014-08-23 09:12:00,53.0,68819.11,True
+Dishwasher_2014-08-23_02,Dishwasher,Appliance4,Shiftable,2014-08-23 09:16:00,2014-08-23 09:17:00,1.0,5.5,True
+Dishwasher_2014-08-24_01,Dishwasher,Appliance4,Shiftable,2014-08-24 11:17:00,2014-08-24 12:08:00,51.0,63433.45,True
+Dishwasher_2014-08-24_02,Dishwasher,Appliance4,Shiftable,2014-08-24 12:12:00,2014-08-24 12:13:00,1.0,7.67,True
+Dishwasher_2014-08-25_02,Dishwasher,Appliance4,Shiftable,2014-08-25 18:34:00,2014-08-25 18:35:00,1.0,5.7,True
+Dishwasher_2014-08-27_02,Dishwasher,Appliance4,Shiftable,2014-08-27 19:00:00,2014-08-27 19:02:00,2.0,34.58,True
+Dishwasher_2014-08-29_01,Dishwasher,Appliance4,Shiftable,2014-08-29 06:47:00,2014-08-29 07:38:00,51.0,61716.39,True
+Dishwasher_2014-08-29_02,Dishwasher,Appliance4,Shiftable,2014-08-29 07:42:00,2014-08-29 07:43:00,1.0,7.11,True
+Dishwasher_2014-09-03_02,Dishwasher,Appliance4,Shiftable,2014-09-03 19:24:00,2014-09-03 19:25:00,1.0,4.86,True
+Dishwasher_2014-09-06_01,Dishwasher,Appliance4,Shiftable,2014-09-06 13:07:00,2014-09-06 14:01:00,54.0,67252.6,True
+Dishwasher_2014-09-06_02,Dishwasher,Appliance4,Shiftable,2014-09-06 14:11:00,2014-09-06 14:14:00,3.0,36.04,True
+Dishwasher_2014-09-07_02,Dishwasher,Appliance4,Shiftable,2014-09-07 17:55:00,2014-09-07 17:57:00,2.0,8.83,True
+Dishwasher_2014-09-10_01,Dishwasher,Appliance4,Shiftable,2014-09-10 06:09:00,2014-09-10 07:02:00,53.0,66547.19,True
+Dishwasher_2014-09-10_02,Dishwasher,Appliance4,Shiftable,2014-09-10 07:06:00,2014-09-10 07:08:00,2.0,9.0,True
+Dishwasher_2014-09-23_02,Dishwasher,Appliance4,Shiftable,2014-09-23 18:51:00,2014-09-23 18:54:00,3.0,34.57,True
+Dishwasher_2014-09-25_02,Dishwasher,Appliance4,Shiftable,2014-09-25 19:44:00,2014-09-25 19:45:00,1.0,6.57,True
+Dishwasher_2014-09-28_01,Dishwasher,Appliance4,Shiftable,2014-09-28 08:58:00,2014-09-28 09:50:00,52.0,66896.82,True
+Dishwasher_2014-09-30_01,Dishwasher,Appliance4,Shiftable,2014-09-30 07:14:00,2014-09-30 08:23:00,69.0,91525.34,True
+Tumble_Dryer_2014-06-15_02,Tumble Dryer,Appliance5,Shiftable,2014-06-15 16:13:00,2014-06-15 16:17:00,4.0,16.79,True
+Tumble_Dryer_2014-06-15_03,Tumble Dryer,Appliance5,Shiftable,2014-06-15 16:18:00,2014-06-15 16:19:00,1.0,6.67,True
+Tumble_Dryer_2014-06-15_07,Tumble Dryer,Appliance5,Shiftable,2014-06-15 16:44:00,2014-06-15 16:46:00,2.0,9.84,True
+Tumble_Dryer_2014-06-15_08,Tumble Dryer,Appliance5,Shiftable,2014-06-15 16:47:00,2014-06-15 16:49:00,2.0,9.6,True
+Tumble_Dryer_2014-06-15_09,Tumble Dryer,Appliance5,Shiftable,2014-06-15 16:56:00,2014-06-15 16:57:00,1.0,6.4,True
+Tumble_Dryer_2014-06-15_10,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:00:00,2014-06-15 17:01:00,1.0,6.67,True
+Tumble_Dryer_2014-06-15_11,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:02:00,2014-06-15 17:03:00,1.0,6.25,True
+Tumble_Dryer_2014-06-15_12,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:04:00,2014-06-15 17:06:00,2.0,9.73,True
+Tumble_Dryer_2014-06-15_13,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:07:00,2014-06-15 17:09:00,2.0,9.48,True
+Tumble_Dryer_2014-06-15_14,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:10:00,2014-06-15 17:14:00,4.0,16.67,True
+Tumble_Dryer_2014-06-15_15,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:20:00,2014-06-15 17:21:00,1.0,6.12,True
+Tumble_Dryer_2014-06-15_16,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:22:00,2014-06-15 17:23:00,1.0,6.38,True
+Tumble_Dryer_2014-06-15_17,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:25:00,2014-06-15 17:26:00,1.0,6.4,True
+Tumble_Dryer_2014-06-15_18,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:30:00,2014-06-15 17:32:00,2.0,10.25,True
+Tumble_Dryer_2014-06-15_19,Tumble Dryer,Appliance5,Shiftable,2014-06-15 17:33:00,2014-06-15 17:34:00,1.0,6.17,True
+Tumble_Dryer_2014-08-19_01,Tumble Dryer,Appliance5,Shiftable,2014-08-19 09:39:00,2014-08-19 10:25:00,46.0,4014.49,True
+Television_Site_2014-06-01_01,Television Site,Appliance6,Non-shiftable,2014-06-01 06:42:00,2014-06-01 08:55:00,133.0,18173.42,False
+Television_Site_2014-06-01_02,Television Site,Appliance6,Non-shiftable,2014-06-01 13:31:00,2014-06-01 21:21:00,470.0,85277.8,False
+Television_Site_2014-06-02_01,Television Site,Appliance6,Non-shiftable,2014-06-02 05:29:00,2014-06-02 06:48:00,79.0,10772.07,False
+Television_Site_2014-06-02_02,Television Site,Appliance6,Non-shiftable,2014-06-02 16:24:00,2014-06-02 21:39:00,315.0,49698.66,False
+Television_Site_2014-06-03_01,Television Site,Appliance6,Non-shiftable,2014-06-03 05:33:00,2014-06-03 06:46:00,73.0,10799.69,False
+Television_Site_2014-06-03_02,Television Site,Appliance6,Non-shiftable,2014-06-03 16:11:00,2014-06-03 21:10:00,299.0,45370.87,False
+Television_Site_2014-06-04_01,Television Site,Appliance6,Non-shiftable,2014-06-04 05:32:00,2014-06-04 06:45:00,73.0,10745.75,False
+Television_Site_2014-06-04_02,Television Site,Appliance6,Non-shiftable,2014-06-04 15:03:00,2014-06-04 21:38:00,395.0,62468.37,False
+Television_Site_2014-06-05_01,Television Site,Appliance6,Non-shiftable,2014-06-05 05:34:00,2014-06-05 06:47:00,73.0,11008.24,False
+Television_Site_2014-06-05_02,Television Site,Appliance6,Non-shiftable,2014-06-05 14:29:00,2014-06-06 14:03:00,1414.0,159153.2,False
+Television_Site_2014-06-06_01,Television Site,Appliance6,Non-shiftable,2014-06-06 14:29:00,2014-06-06 14:33:00,4.0,249.4,False
+Television_Site_2014-06-06_02,Television Site,Appliance6,Non-shiftable,2014-06-06 15:42:00,2014-06-08 22:02:00,3260.0,415965.58,False
+Television_Site_2014-06-09_01,Television Site,Appliance6,Non-shiftable,2014-06-09 05:27:00,2014-06-09 06:47:00,80.0,12294.56,False
+Television_Site_2014-06-09_02,Television Site,Appliance6,Non-shiftable,2014-06-09 16:06:00,2014-06-14 05:24:00,6558.0,689221.73,False
+Television_Site_2014-06-14_02,Television Site,Appliance6,Non-shiftable,2014-06-14 06:38:00,2014-06-18 07:12:00,5794.0,538499.92,False
+Television_Site_2014-06-18_02,Television Site,Appliance6,Non-shiftable,2014-06-18 11:59:00,2014-06-18 21:09:00,550.0,82794.42,False
+Television_Site_2014-06-19_02,Television Site,Appliance6,Non-shiftable,2014-06-19 05:34:00,2014-06-19 06:48:00,74.0,10153.44,False
+Television_Site_2014-06-19_03,Television Site,Appliance6,Non-shiftable,2014-06-19 17:26:00,2014-06-19 21:35:00,249.0,33658.04,False
+Television_Site_2014-06-20_01,Television Site,Appliance6,Non-shiftable,2014-06-20 05:35:00,2014-06-20 06:38:00,63.0,8369.39,False
+Television_Site_2014-06-20_02,Television Site,Appliance6,Non-shiftable,2014-06-20 15:52:00,2014-06-20 22:23:00,391.0,59457.06,False
+Television_Site_2014-06-21_01,Television Site,Appliance6,Non-shiftable,2014-06-21 07:11:00,2014-06-21 09:11:00,120.0,15944.81,False
+Television_Site_2014-06-21_02,Television Site,Appliance6,Non-shiftable,2014-06-21 11:55:00,2014-06-21 13:30:00,95.0,15376.64,False
+Television_Site_2014-06-21_03,Television Site,Appliance6,Non-shiftable,2014-06-21 14:57:00,2014-06-21 22:16:00,439.0,65409.32,False
+Television_Site_2014-06-22_02,Television Site,Appliance6,Non-shiftable,2014-06-22 06:21:00,2014-06-22 07:14:00,53.0,7779.54,False
+Television_Site_2014-06-22_03,Television Site,Appliance6,Non-shiftable,2014-06-22 09:24:00,2014-06-22 20:15:00,651.0,99777.34,False
+Television_Site_2014-06-23_01,Television Site,Appliance6,Non-shiftable,2014-06-23 05:57:00,2014-06-23 06:48:00,51.0,7066.49,False
+Television_Site_2014-06-23_02,Television Site,Appliance6,Non-shiftable,2014-06-23 16:27:00,2014-06-23 21:58:00,331.0,78555.4,False
+Television_Site_2014-06-24_01,Television Site,Appliance6,Non-shiftable,2014-06-24 05:29:00,2014-06-24 06:44:00,75.0,10689.9,False
+Television_Site_2014-06-24_02,Television Site,Appliance6,Non-shiftable,2014-06-24 14:35:00,2014-06-24 21:47:00,432.0,61327.29,False
+Television_Site_2014-06-25_01,Television Site,Appliance6,Non-shiftable,2014-06-25 05:37:00,2014-06-25 06:28:00,51.0,7402.5,False
+Television_Site_2014-06-25_02,Television Site,Appliance6,Non-shiftable,2014-06-25 14:50:00,2014-06-25 21:47:00,417.0,50656.27,False
+Television_Site_2014-06-26_01,Television Site,Appliance6,Non-shiftable,2014-06-26 05:36:00,2014-06-26 06:50:00,74.0,9682.66,False
+Television_Site_2014-06-26_02,Television Site,Appliance6,Non-shiftable,2014-06-26 13:38:00,2014-06-26 14:41:00,63.0,9081.86,False
+Television_Site_2014-06-26_03,Television Site,Appliance6,Non-shiftable,2014-06-26 15:29:00,2014-06-26 21:56:00,387.0,58193.79,False
+Television_Site_2014-06-27_02,Television Site,Appliance6,Non-shiftable,2014-06-27 05:33:00,2014-06-27 06:47:00,74.0,10273.92,False
+Television_Site_2014-06-27_03,Television Site,Appliance6,Non-shiftable,2014-06-27 12:00:00,2014-06-27 22:25:00,625.0,79836.72,False
+Television_Site_2014-06-28_02,Television Site,Appliance6,Non-shiftable,2014-06-28 05:51:00,2014-06-28 08:45:00,174.0,23848.15,False
+Television_Site_2014-06-28_03,Television Site,Appliance6,Non-shiftable,2014-06-28 10:21:00,2014-06-28 12:34:00,133.0,18531.83,False
+Television_Site_2014-06-28_04,Television Site,Appliance6,Non-shiftable,2014-06-28 15:58:00,2014-06-28 22:28:00,390.0,49462.65,False
+Television_Site_2014-06-29_02,Television Site,Appliance6,Non-shiftable,2014-06-29 06:46:00,2014-06-29 20:21:00,815.0,115159.84,False
+Television_Site_2014-06-30_02,Television Site,Appliance6,Non-shiftable,2014-06-30 06:02:00,2014-06-30 06:46:00,44.0,5324.9,False
+Television_Site_2014-06-30_03,Television Site,Appliance6,Non-shiftable,2014-06-30 15:45:00,2014-06-30 21:27:00,342.0,52152.46,False
+Television_Site_2014-07-01_02,Television Site,Appliance6,Non-shiftable,2014-07-01 05:38:00,2014-07-01 22:28:00,1010.0,79116.57,False
+Television_Site_2014-07-02_02,Television Site,Appliance6,Non-shiftable,2014-07-02 05:37:00,2014-07-02 06:47:00,70.0,9968.12,False
+Television_Site_2014-07-02_03,Television Site,Appliance6,Non-shiftable,2014-07-02 13:59:00,2014-07-02 21:36:00,457.0,58423.91,False
+Television_Site_2014-07-03_04,Television Site,Appliance6,Non-shiftable,2014-07-03 06:59:00,2014-07-03 21:49:00,890.0,132651.13,False
+Television_Site_2014-07-04_01,Television Site,Appliance6,Non-shiftable,2014-07-04 05:21:00,2014-07-04 06:43:00,82.0,11855.31,False
+Television_Site_2014-07-04_02,Television Site,Appliance6,Non-shiftable,2014-07-04 07:43:00,2014-07-04 13:45:00,362.0,61165.08,False
+Television_Site_2014-07-04_03,Television Site,Appliance6,Non-shiftable,2014-07-04 17:47:00,2014-07-04 19:39:00,112.0,16023.77,False
+Television_Site_2014-07-05_01,Television Site,Appliance6,Non-shiftable,2014-07-05 07:13:00,2014-07-05 20:14:00,781.0,96725.19,False
+Television_Site_2014-07-06_01,Television Site,Appliance6,Non-shiftable,2014-07-06 07:05:00,2014-07-06 20:18:00,793.0,98671.91,False
+Television_Site_2014-07-07_02,Television Site,Appliance6,Non-shiftable,2014-07-07 14:31:00,2014-07-07 22:12:00,461.0,72012.38,False
+Television_Site_2014-07-08_02,Television Site,Appliance6,Non-shiftable,2014-07-08 05:26:00,2014-07-08 06:48:00,82.0,12662.4,False
+Television_Site_2014-07-08_03,Television Site,Appliance6,Non-shiftable,2014-07-08 15:48:00,2014-07-08 21:31:00,343.0,51658.94,False
+Television_Site_2014-07-09_01,Television Site,Appliance6,Non-shiftable,2014-07-09 05:29:00,2014-07-09 21:54:00,985.0,121999.99,False
+Television_Site_2014-07-10_01,Television Site,Appliance6,Non-shiftable,2014-07-10 05:28:00,2014-07-10 06:43:00,75.0,11143.62,False
+Television_Site_2014-07-10_02,Television Site,Appliance6,Non-shiftable,2014-07-10 16:18:00,2014-07-10 21:59:00,341.0,55193.61,False
+Television_Site_2014-07-11_01,Television Site,Appliance6,Non-shiftable,2014-07-11 05:34:00,2014-07-11 06:48:00,74.0,11502.94,False
+Television_Site_2014-07-11_02,Television Site,Appliance6,Non-shiftable,2014-07-11 16:17:00,2014-07-11 22:15:00,358.0,54791.94,False
+Television_Site_2014-07-12_01,Television Site,Appliance6,Non-shiftable,2014-07-12 05:58:00,2014-07-12 09:49:00,231.0,34479.83,False
+Television_Site_2014-07-26_02,Television Site,Appliance6,Non-shiftable,2014-07-26 14:11:00,2014-07-26 21:47:00,456.0,65451.19,False
+Television_Site_2014-07-27_01,Television Site,Appliance6,Non-shiftable,2014-07-27 06:30:00,2014-07-27 06:37:00,7.0,860.15,False
+Television_Site_2014-07-27_02,Television Site,Appliance6,Non-shiftable,2014-07-27 06:40:00,2014-07-27 06:46:00,6.0,744.0,False
+Television_Site_2014-07-27_03,Television Site,Appliance6,Non-shiftable,2014-07-27 06:50:00,2014-07-27 09:52:00,182.0,24303.22,False
+Television_Site_2014-07-27_04,Television Site,Appliance6,Non-shiftable,2014-07-27 09:56:00,2014-07-27 10:07:00,11.0,1141.49,False
+Television_Site_2014-07-27_05,Television Site,Appliance6,Non-shiftable,2014-07-27 11:50:00,2014-07-27 15:43:00,233.0,35638.29,False
+Television_Site_2014-07-27_06,Television Site,Appliance6,Non-shiftable,2014-07-27 19:02:00,2014-07-27 20:26:00,84.0,6137.84,False
+Television_Site_2014-07-27_07,Television Site,Appliance6,Non-shiftable,2014-07-27 20:36:00,2014-07-27 22:02:00,86.0,9773.23,False
+Television_Site_2014-07-28_01,Television Site,Appliance6,Non-shiftable,2014-07-28 05:58:00,2014-07-28 12:41:00,403.0,57747.8,False
+Television_Site_2014-07-28_02,Television Site,Appliance6,Non-shiftable,2014-07-28 16:30:00,2014-07-28 21:54:00,324.0,55869.41,False
+Television_Site_2014-07-29_01,Television Site,Appliance6,Non-shiftable,2014-07-29 05:59:00,2014-07-29 09:33:00,214.0,34073.93,False
+Television_Site_2014-07-29_02,Television Site,Appliance6,Non-shiftable,2014-07-29 15:55:00,2014-07-29 21:30:00,335.0,54342.48,False
+Television_Site_2014-07-30_02,Television Site,Appliance6,Non-shiftable,2014-07-30 06:05:00,2014-07-31 21:32:00,2367.0,283077.35,False
+Television_Site_2014-08-01_01,Television Site,Appliance6,Non-shiftable,2014-08-01 06:01:00,2014-08-01 09:29:00,208.0,28929.68,False
+Television_Site_2014-08-01_02,Television Site,Appliance6,Non-shiftable,2014-08-01 12:02:00,2014-08-01 13:30:00,88.0,12706.41,False
+Television_Site_2014-08-02_02,Television Site,Appliance6,Non-shiftable,2014-08-02 12:59:00,2014-08-02 21:55:00,536.0,77299.65,False
+Television_Site_2014-08-03_01,Television Site,Appliance6,Non-shiftable,2014-08-03 06:36:00,2014-08-03 07:15:00,39.0,5292.69,False
+Television_Site_2014-08-03_02,Television Site,Appliance6,Non-shiftable,2014-08-03 09:13:00,2014-08-03 09:54:00,41.0,5977.57,False
+Television_Site_2014-08-03_03,Television Site,Appliance6,Non-shiftable,2014-08-03 12:08:00,2014-08-03 21:39:00,571.0,88013.84,False
+Television_Site_2014-08-04_02,Television Site,Appliance6,Non-shiftable,2014-08-04 06:02:00,2014-08-04 12:44:00,402.0,54071.24,False
+Television_Site_2014-08-04_03,Television Site,Appliance6,Non-shiftable,2014-08-04 16:30:00,2014-08-04 22:15:00,345.0,35301.6,False
+Television_Site_2014-08-05_02,Television Site,Appliance6,Non-shiftable,2014-08-05 05:59:00,2014-08-05 09:12:00,193.0,24481.22,False
+Television_Site_2014-08-05_03,Television Site,Appliance6,Non-shiftable,2014-08-05 09:38:00,2014-08-05 21:30:00,712.0,90027.52,False
+Television_Site_2014-08-06_07,Television Site,Appliance6,Non-shiftable,2014-08-06 05:54:00,2014-08-06 09:51:00,237.0,24432.97,False
+Television_Site_2014-08-06_08,Television Site,Appliance6,Non-shiftable,2014-08-06 13:32:00,2014-08-06 14:00:00,28.0,2668.42,False
+Television_Site_2014-08-06_09,Television Site,Appliance6,Non-shiftable,2014-08-06 16:34:00,2014-08-06 22:13:00,339.0,48175.54,False
+Television_Site_2014-08-07_02,Television Site,Appliance6,Non-shiftable,2014-08-07 06:04:00,2014-08-07 10:15:00,251.0,31320.22,False
+Television_Site_2014-08-07_03,Television Site,Appliance6,Non-shiftable,2014-08-07 11:13:00,2014-08-07 12:22:00,69.0,8459.62,False
+Television_Site_2014-08-07_04,Television Site,Appliance6,Non-shiftable,2014-08-07 16:43:00,2014-08-07 22:36:00,353.0,39291.95,False
+Television_Site_2014-08-08_03,Television Site,Appliance6,Non-shiftable,2014-08-08 06:22:00,2014-08-08 08:26:00,124.0,13690.49,False
+Television_Site_2014-08-08_04,Television Site,Appliance6,Non-shiftable,2014-08-08 13:34:00,2014-08-08 16:24:00,170.0,21236.63,False
+Television_Site_2014-08-08_05,Television Site,Appliance6,Non-shiftable,2014-08-08 18:41:00,2014-08-08 21:38:00,177.0,25351.03,False
+Television_Site_2014-08-09_02,Television Site,Appliance6,Non-shiftable,2014-08-09 06:32:00,2014-08-09 20:07:00,815.0,116488.06,False
+Television_Site_2014-08-10_01,Television Site,Appliance6,Non-shiftable,2014-08-10 07:19:00,2014-08-10 13:54:00,395.0,56719.6,False
+Television_Site_2014-08-10_02,Television Site,Appliance6,Non-shiftable,2014-08-10 16:56:00,2014-08-10 21:32:00,276.0,39242.86,False
+Television_Site_2014-08-11_02,Television Site,Appliance6,Non-shiftable,2014-08-11 06:12:00,2014-08-11 07:47:00,95.0,13038.0,False
+Television_Site_2014-08-11_03,Television Site,Appliance6,Non-shiftable,2014-08-11 16:20:00,2014-08-11 21:13:00,293.0,44213.68,False
+Television_Site_2014-08-12_01,Television Site,Appliance6,Non-shiftable,2014-08-12 06:02:00,2014-08-12 09:41:00,219.0,31549.09,False
+Television_Site_2014-08-12_02,Television Site,Appliance6,Non-shiftable,2014-08-12 14:28:00,2014-08-12 21:30:00,422.0,64018.59,False
+Television_Site_2014-08-13_01,Television Site,Appliance6,Non-shiftable,2014-08-13 05:59:00,2014-08-13 09:11:00,192.0,27239.04,False
+Television_Site_2014-08-13_02,Television Site,Appliance6,Non-shiftable,2014-08-13 11:15:00,2014-08-13 12:16:00,61.0,9335.67,False
+Television_Site_2014-08-13_03,Television Site,Appliance6,Non-shiftable,2014-08-13 13:12:00,2014-08-13 14:25:00,73.0,11240.89,False
+Television_Site_2014-08-13_04,Television Site,Appliance6,Non-shiftable,2014-08-13 15:23:00,2014-08-13 21:07:00,344.0,53403.4,False
+Television_Site_2014-08-14_01,Television Site,Appliance6,Non-shiftable,2014-08-14 06:00:00,2014-08-14 08:56:00,176.0,24381.68,False
+Television_Site_2014-08-14_02,Television Site,Appliance6,Non-shiftable,2014-08-14 12:43:00,2014-08-14 21:53:00,550.0,83673.98,False
+Television_Site_2014-08-15_01,Television Site,Appliance6,Non-shiftable,2014-08-15 06:03:00,2014-08-15 09:21:00,198.0,27896.61,False
+Television_Site_2014-08-15_02,Television Site,Appliance6,Non-shiftable,2014-08-15 11:41:00,2014-08-15 12:22:00,41.0,5727.89,False
+Television_Site_2014-08-15_03,Television Site,Appliance6,Non-shiftable,2014-08-15 13:45:00,2014-08-15 14:36:00,51.0,7671.68,False
+Television_Site_2014-08-15_04,Television Site,Appliance6,Non-shiftable,2014-08-15 16:50:00,2014-08-15 21:30:00,280.0,43360.07,False
+Television_Site_2014-08-16_01,Television Site,Appliance6,Non-shiftable,2014-08-16 07:23:00,2014-08-16 21:11:00,828.0,115779.5,False
+Television_Site_2014-08-16_02,Television Site,Appliance6,Non-shiftable,2014-08-16 21:22:00,2014-08-16 21:37:00,15.0,1146.55,False
+Television_Site_2014-08-17_01,Television Site,Appliance6,Non-shiftable,2014-08-17 06:36:00,2014-08-17 07:46:00,70.0,10578.22,False
+Television_Site_2014-08-17_02,Television Site,Appliance6,Non-shiftable,2014-08-17 17:33:00,2014-08-17 21:10:00,217.0,31797.22,False
+Television_Site_2014-08-18_03,Television Site,Appliance6,Non-shiftable,2014-08-18 05:59:00,2014-08-18 09:53:00,234.0,28753.4,False
+Television_Site_2014-08-18_04,Television Site,Appliance6,Non-shiftable,2014-08-18 16:03:00,2014-08-18 21:22:00,319.0,45913.08,False
+Television_Site_2014-08-19_01,Television Site,Appliance6,Non-shiftable,2014-08-19 05:57:00,2014-08-19 11:59:00,362.0,50437.05,False
+Television_Site_2014-08-19_02,Television Site,Appliance6,Non-shiftable,2014-08-19 17:26:00,2014-08-19 20:31:00,185.0,27528.1,False
+Television_Site_2014-08-20_01,Television Site,Appliance6,Non-shiftable,2014-08-20 05:55:00,2014-08-20 09:41:00,226.0,34019.31,False
+Television_Site_2014-08-20_02,Television Site,Appliance6,Non-shiftable,2014-08-20 11:16:00,2014-08-20 12:26:00,70.0,10638.66,False
+Television_Site_2014-08-20_03,Television Site,Appliance6,Non-shiftable,2014-08-20 15:16:00,2014-08-20 21:29:00,373.0,57755.07,False
+Television_Site_2014-08-21_01,Television Site,Appliance6,Non-shiftable,2014-08-21 05:58:00,2014-08-21 09:53:00,235.0,33947.15,False
+Television_Site_2014-08-21_02,Television Site,Appliance6,Non-shiftable,2014-08-21 11:15:00,2014-08-21 21:46:00,631.0,90293.59,False
+Television_Site_2014-08-22_01,Television Site,Appliance6,Non-shiftable,2014-08-22 05:53:00,2014-08-22 16:20:00,627.0,83825.53,False
+Television_Site_2014-08-22_02,Television Site,Appliance6,Non-shiftable,2014-08-22 18:55:00,2014-08-22 20:59:00,124.0,19172.2,False
+Television_Site_2014-08-23_01,Television Site,Appliance6,Non-shiftable,2014-08-23 07:29:00,2014-08-23 21:50:00,861.0,108162.29,False
+Television_Site_2014-08-24_01,Television Site,Appliance6,Non-shiftable,2014-08-24 06:43:00,2014-08-24 07:23:00,40.0,5651.69,False
+Television_Site_2014-08-24_02,Television Site,Appliance6,Non-shiftable,2014-08-24 09:22:00,2014-08-24 21:25:00,723.0,88060.8,False
+Television_Site_2014-08-25_02,Television Site,Appliance6,Non-shiftable,2014-08-25 07:13:00,2014-08-25 09:41:00,148.0,19503.22,False
+Television_Site_2014-08-25_03,Television Site,Appliance6,Non-shiftable,2014-08-25 14:36:00,2014-08-25 20:30:00,354.0,43663.7,False
+Television_Site_2014-08-26_01,Television Site,Appliance6,Non-shiftable,2014-08-26 05:35:00,2014-08-26 06:49:00,74.0,10815.73,False
+Television_Site_2014-08-26_02,Television Site,Appliance6,Non-shiftable,2014-08-26 15:15:00,2014-08-26 21:46:00,391.0,56836.57,False
+Television_Site_2014-08-27_01,Television Site,Appliance6,Non-shiftable,2014-08-27 05:37:00,2014-08-27 06:41:00,64.0,8979.29,False
+Television_Site_2014-08-27_02,Television Site,Appliance6,Non-shiftable,2014-08-27 16:19:00,2014-08-27 21:09:00,290.0,41130.49,False
+Television_Site_2014-08-28_02,Television Site,Appliance6,Non-shiftable,2014-08-28 05:37:00,2014-08-28 06:47:00,70.0,9739.79,False
+Television_Site_2014-08-28_03,Television Site,Appliance6,Non-shiftable,2014-08-28 15:23:00,2014-08-28 21:31:00,368.0,52930.06,False
+Television_Site_2014-08-29_02,Television Site,Appliance6,Non-shiftable,2014-08-29 05:34:00,2014-08-29 06:47:00,73.0,10841.85,False
+Television_Site_2014-08-29_03,Television Site,Appliance6,Non-shiftable,2014-08-29 15:54:00,2014-08-29 21:32:00,338.0,47726.27,False
+Television_Site_2014-08-30_01,Television Site,Appliance6,Non-shiftable,2014-08-30 07:02:00,2014-08-30 10:33:00,211.0,30304.46,False
+Television_Site_2014-08-30_02,Television Site,Appliance6,Non-shiftable,2014-08-30 11:01:00,2014-08-30 11:37:00,36.0,5425.7,False
+Television_Site_2014-09-02_01,Television Site,Appliance6,Non-shiftable,2014-09-02 15:57:00,2014-09-02 22:10:00,373.0,53962.17,False
+Television_Site_2014-09-03_01,Television Site,Appliance6,Non-shiftable,2014-09-03 06:28:00,2014-09-03 08:28:00,120.0,18189.4,False
+Television_Site_2014-09-03_02,Television Site,Appliance6,Non-shiftable,2014-09-03 15:56:00,2014-09-03 22:04:00,368.0,55904.5,False
+Television_Site_2014-09-04_01,Television Site,Appliance6,Non-shiftable,2014-09-04 06:15:00,2014-09-04 07:15:00,60.0,8661.53,False
+Television_Site_2014-09-04_02,Television Site,Appliance6,Non-shiftable,2014-09-04 16:17:00,2014-09-04 20:09:00,232.0,32503.76,False
+Television_Site_2014-09-05_02,Television Site,Appliance6,Non-shiftable,2014-09-05 05:19:00,2014-09-05 06:13:00,54.0,5916.83,False
+Television_Site_2014-09-05_03,Television Site,Appliance6,Non-shiftable,2014-09-05 14:44:00,2014-09-05 20:44:00,360.0,50123.35,False
+Television_Site_2014-09-06_01,Television Site,Appliance6,Non-shiftable,2014-09-06 06:45:00,2014-09-06 13:39:00,414.0,53821.55,False
+Television_Site_2014-09-06_02,Television Site,Appliance6,Non-shiftable,2014-09-06 15:58:00,2014-09-06 21:39:00,341.0,41212.93,False
+Television_Site_2014-09-06_03,Television Site,Appliance6,Non-shiftable,2014-09-06 21:51:00,2014-09-06 22:40:00,49.0,6595.27,False
+Television_Site_2014-09-07_02,Television Site,Appliance6,Non-shiftable,2014-09-07 12:24:00,2014-09-07 21:37:00,553.0,35886.08,False
+Television_Site_2014-09-08_01,Television Site,Appliance6,Non-shiftable,2014-09-08 05:33:00,2014-09-08 07:32:00,119.0,16444.25,False
+Television_Site_2014-09-08_02,Television Site,Appliance6,Non-shiftable,2014-09-08 09:22:00,2014-09-08 10:30:00,68.0,8226.69,False
+Television_Site_2014-09-08_03,Television Site,Appliance6,Non-shiftable,2014-09-08 15:40:00,2014-09-08 19:52:00,252.0,37374.7,False
+Television_Site_2014-09-09_01,Television Site,Appliance6,Non-shiftable,2014-09-09 05:18:00,2014-09-09 06:11:00,53.0,7815.93,False
+Television_Site_2014-09-09_02,Television Site,Appliance6,Non-shiftable,2014-09-09 15:11:00,2014-09-09 20:47:00,336.0,47429.74,False
+Television_Site_2014-09-10_01,Television Site,Appliance6,Non-shiftable,2014-09-10 05:34:00,2014-09-10 20:31:00,897.0,105187.82,False
+Television_Site_2014-09-11_01,Television Site,Appliance6,Non-shiftable,2014-09-11 13:05:00,2014-09-11 20:58:00,473.0,66446.09,False
+Television_Site_2014-09-12_01,Television Site,Appliance6,Non-shiftable,2014-09-12 05:30:00,2014-09-23 20:02:00,16712.0,161195.19,False
+Television_Site_2014-09-23_01,Television Site,Appliance6,Non-shiftable,2014-09-23 20:33:00,2014-09-23 22:16:00,103.0,14295.67,False
+Television_Site_2014-09-24_01,Television Site,Appliance6,Non-shiftable,2014-09-24 06:31:00,2014-09-24 22:18:00,947.0,137565.94,False
+Television_Site_2014-09-25_01,Television Site,Appliance6,Non-shiftable,2014-09-25 07:33:00,2014-09-25 22:07:00,874.0,133923.4,False
+Television_Site_2014-09-26_01,Television Site,Appliance6,Non-shiftable,2014-09-26 06:19:00,2014-09-26 07:46:00,87.0,12464.74,False
+Television_Site_2014-09-26_02,Television Site,Appliance6,Non-shiftable,2014-09-26 15:36:00,2014-09-26 22:16:00,400.0,56914.86,False
+Television_Site_2014-09-27_01,Television Site,Appliance6,Non-shiftable,2014-09-27 06:59:00,2014-09-27 09:47:00,168.0,23553.67,False
+Television_Site_2014-09-27_02,Television Site,Appliance6,Non-shiftable,2014-09-27 18:05:00,2014-09-27 22:52:00,287.0,42722.72,False
+Television_Site_2014-09-28_02,Television Site,Appliance6,Non-shiftable,2014-09-28 07:56:00,2014-09-28 11:46:00,230.0,32841.34,False
+Television_Site_2014-09-28_03,Television Site,Appliance6,Non-shiftable,2014-09-28 13:50:00,2014-09-28 15:42:00,112.0,15608.44,False
+Television_Site_2014-09-28_04,Television Site,Appliance6,Non-shiftable,2014-09-28 17:00:00,2014-09-28 21:38:00,278.0,41213.06,False
+Television_Site_2014-09-29_02,Television Site,Appliance6,Non-shiftable,2014-09-29 06:25:00,2014-09-29 07:49:00,84.0,12450.64,False
+Television_Site_2014-09-29_03,Television Site,Appliance6,Non-shiftable,2014-09-29 17:02:00,2014-09-29 22:06:00,304.0,38648.52,False
+Television_Site_2014-09-30_01,Television Site,Appliance6,Non-shiftable,2014-09-30 06:31:00,2014-09-30 07:46:00,75.0,10709.67,False
+Television_Site_2014-09-30_02,Television Site,Appliance6,Non-shiftable,2014-09-30 16:02:00,2014-09-30 20:53:00,291.0,42069.65,False
+Television_Site_2014-09-30_03,Television Site,Appliance6,Non-shiftable,2014-09-30 20:58:00,2014-09-30 22:02:00,64.0,9184.63,False
+Computer_Site_2014-08-09_01,Computer Site,Appliance7,Non-shiftable,2014-08-09 06:58:00,2014-08-09 22:03:00,905.0,40161.32,False
+Computer_Site_2014-08-10_01,Computer Site,Appliance7,Non-shiftable,2014-08-10 07:00:00,2014-08-10 22:02:00,902.0,31881.86,False
+Computer_Site_2014-08-11_01,Computer Site,Appliance7,Non-shiftable,2014-08-11 07:00:00,2014-08-11 22:03:00,903.0,31855.16,False
+Computer_Site_2014-08-12_01,Computer Site,Appliance7,Non-shiftable,2014-08-12 07:00:00,2014-08-12 22:03:00,903.0,32856.15,False
+Computer_Site_2014-08-13_01,Computer Site,Appliance7,Non-shiftable,2014-08-13 07:00:00,2014-08-13 22:03:00,903.0,32236.79,False
+Computer_Site_2014-08-14_01,Computer Site,Appliance7,Non-shiftable,2014-08-14 07:00:00,2014-08-14 22:03:00,903.0,31871.77,False
+Computer_Site_2014-08-15_01,Computer Site,Appliance7,Non-shiftable,2014-08-15 07:00:00,2014-08-15 22:04:00,904.0,31495.27,False
+Computer_Site_2014-08-16_01,Computer Site,Appliance7,Non-shiftable,2014-08-16 07:00:00,2014-08-16 22:03:00,903.0,29175.81,False
+Computer_Site_2014-08-17_01,Computer Site,Appliance7,Non-shiftable,2014-08-17 07:00:00,2014-08-17 22:03:00,903.0,33183.05,False
+Computer_Site_2014-08-18_01,Computer Site,Appliance7,Non-shiftable,2014-08-18 07:00:00,2014-08-18 22:03:00,903.0,30861.54,False
+Computer_Site_2014-08-19_01,Computer Site,Appliance7,Non-shiftable,2014-08-19 07:00:00,2014-08-19 22:02:00,902.0,32760.27,False
+Computer_Site_2014-08-20_01,Computer Site,Appliance7,Non-shiftable,2014-08-20 07:08:00,2014-08-20 22:02:00,894.0,32376.22,False
+Computer_Site_2014-08-21_01,Computer Site,Appliance7,Non-shiftable,2014-08-21 07:00:00,2014-08-21 22:03:00,903.0,32162.58,False
+Computer_Site_2014-08-22_01,Computer Site,Appliance7,Non-shiftable,2014-08-22 07:00:00,2014-08-22 22:03:00,903.0,32559.89,False
+Computer_Site_2014-08-23_01,Computer Site,Appliance7,Non-shiftable,2014-08-23 07:00:00,2014-08-23 22:02:00,902.0,32663.6,False
+Computer_Site_2014-08-24_01,Computer Site,Appliance7,Non-shiftable,2014-08-24 07:00:00,2014-08-24 22:03:00,903.0,32503.79,False
+Computer_Site_2014-08-25_01,Computer Site,Appliance7,Non-shiftable,2014-08-25 07:00:00,2014-08-25 22:02:00,902.0,30871.44,False
+Computer_Site_2014-08-26_01,Computer Site,Appliance7,Non-shiftable,2014-08-26 07:00:00,2014-08-26 22:02:00,902.0,32591.94,False
+Computer_Site_2014-08-27_01,Computer Site,Appliance7,Non-shiftable,2014-08-27 07:00:00,2014-08-27 17:09:00,609.0,22934.68,False
+Computer_Site_2014-08-27_02,Computer Site,Appliance7,Non-shiftable,2014-08-27 17:51:00,2014-08-27 22:03:00,252.0,9767.42,False
+Computer_Site_2014-08-28_01,Computer Site,Appliance7,Non-shiftable,2014-08-28 07:00:00,2014-08-28 22:03:00,903.0,32605.39,False
+Computer_Site_2014-08-29_01,Computer Site,Appliance7,Non-shiftable,2014-08-29 07:00:00,2014-08-29 22:03:00,903.0,33722.08,False
+Computer_Site_2014-08-30_01,Computer Site,Appliance7,Non-shiftable,2014-08-30 07:00:00,2014-09-02 23:03:00,5283.0,29225.16,False
+Computer_Site_2014-09-03_01,Computer Site,Appliance7,Non-shiftable,2014-09-03 08:00:00,2014-09-03 23:03:00,903.0,33839.43,False
+Computer_Site_2014-09-04_01,Computer Site,Appliance7,Non-shiftable,2014-09-04 08:00:00,2014-09-04 22:03:00,843.0,31218.28,False
+Computer_Site_2014-09-05_01,Computer Site,Appliance7,Non-shiftable,2014-09-05 07:00:00,2014-09-05 22:02:00,902.0,33244.83,False
+Computer_Site_2014-09-06_01,Computer Site,Appliance7,Non-shiftable,2014-09-06 07:00:00,2014-09-07 22:03:00,2343.0,68910.94,False
+Computer_Site_2014-09-08_01,Computer Site,Appliance7,Non-shiftable,2014-09-08 07:00:00,2014-09-08 22:03:00,903.0,32470.38,False
+Computer_Site_2014-09-09_01,Computer Site,Appliance7,Non-shiftable,2014-09-09 07:00:00,2014-09-09 22:03:00,903.0,33274.77,False
+Computer_Site_2014-09-10_01,Computer Site,Appliance7,Non-shiftable,2014-09-10 07:00:00,2014-09-10 22:03:00,903.0,27446.9,False
+Computer_Site_2014-09-11_01,Computer Site,Appliance7,Non-shiftable,2014-09-11 13:05:00,2014-09-11 22:03:00,538.0,19458.45,False
+Computer_Site_2014-09-12_01,Computer Site,Appliance7,Non-shiftable,2014-09-12 07:00:00,2014-09-23 23:11:00,16811.0,44900.32,False
+Computer_Site_2014-09-24_01,Computer Site,Appliance7,Non-shiftable,2014-09-24 08:00:00,2014-09-24 23:03:00,903.0,31450.66,False
+Computer_Site_2014-09-25_01,Computer Site,Appliance7,Non-shiftable,2014-09-25 08:00:00,2014-09-25 23:02:00,902.0,31677.3,False
+Computer_Site_2014-09-26_01,Computer Site,Appliance7,Non-shiftable,2014-09-26 08:00:00,2014-09-26 23:03:00,903.0,31493.05,False
+Computer_Site_2014-09-27_01,Computer Site,Appliance7,Non-shiftable,2014-09-27 08:00:00,2014-09-27 23:03:00,903.0,31301.71,False
+Computer_Site_2014-09-28_01,Computer Site,Appliance7,Non-shiftable,2014-09-28 08:01:00,2014-09-28 23:03:00,902.0,30961.17,False
+Computer_Site_2014-09-29_01,Computer Site,Appliance7,Non-shiftable,2014-09-29 08:01:00,2014-09-29 16:38:00,517.0,18243.21,False
+Computer_Site_2014-09-29_02,Computer Site,Appliance7,Non-shiftable,2014-09-29 16:39:00,2014-09-29 23:04:00,385.0,13410.95,False
+Computer_Site_2014-09-30_01,Computer Site,Appliance7,Non-shiftable,2014-09-30 08:00:00,2014-09-30 18:28:00,628.0,21311.33,False
+Computer_Site_2014-09-30_02,Computer Site,Appliance7,Non-shiftable,2014-09-30 18:56:00,2014-11-07 11:00:00,54244.0,2285369.96,False
+Microwave_2014-06-01_01,Microwave,Appliance8,Non-shiftable,2014-06-01 16:07:00,2014-06-01 16:12:00,5.0,311.38,False
+Microwave_2014-06-01_02,Microwave,Appliance8,Non-shiftable,2014-06-01 17:02:00,2014-06-01 17:10:00,8.0,8425.5,False
+Microwave_2014-06-02_01,Microwave,Appliance8,Non-shiftable,2014-06-02 16:43:00,2014-06-02 16:45:00,2.0,24.7,False
+Microwave_2014-06-02_02,Microwave,Appliance8,Non-shiftable,2014-06-02 16:56:00,2014-06-02 17:03:00,7.0,7820.18,False
+Microwave_2014-06-03_01,Microwave,Appliance8,Non-shiftable,2014-06-03 16:55:00,2014-06-03 16:58:00,3.0,2494.57,False
+Microwave_2014-06-04_01,Microwave,Appliance8,Non-shiftable,2014-06-04 16:52:00,2014-06-04 16:59:00,7.0,8638.97,False
+Microwave_2014-06-05_01,Microwave,Appliance8,Non-shiftable,2014-06-05 02:28:00,2014-06-05 02:44:00,16.0,522.6,False
+Microwave_2014-06-05_02,Microwave,Appliance8,Non-shiftable,2014-06-05 12:05:00,2014-06-05 12:12:00,7.0,5819.38,False
+Microwave_2014-06-06_01,Microwave,Appliance8,Non-shiftable,2014-06-06 21:12:00,2014-06-06 21:15:00,3.0,2493.11,False
+Microwave_2014-06-07_01,Microwave,Appliance8,Non-shiftable,2014-06-07 13:13:00,2014-06-07 13:16:00,3.0,2708.04,False
+Microwave_2014-06-10_01,Microwave,Appliance8,Non-shiftable,2014-06-10 20:22:00,2014-06-10 20:24:00,2.0,2409.26,False
+Microwave_2014-06-12_01,Microwave,Appliance8,Non-shiftable,2014-06-12 16:49:00,2014-06-12 16:54:00,5.0,2903.77,False
+Microwave_2014-06-14_01,Microwave,Appliance8,Non-shiftable,2014-06-14 19:48:00,2014-06-14 19:54:00,6.0,2027.2,False
+Microwave_2014-06-16_01,Microwave,Appliance8,Non-shiftable,2014-06-16 19:25:00,2014-06-16 19:29:00,4.0,3987.18,False
+Microwave_2014-06-16_02,Microwave,Appliance8,Non-shiftable,2014-06-16 19:33:00,2014-06-16 19:39:00,6.0,138.0,False
+Microwave_2014-06-17_01,Microwave,Appliance8,Non-shiftable,2014-06-17 16:54:00,2014-06-17 17:00:00,6.0,5306.12,False
+Microwave_2014-06-17_02,Microwave,Appliance8,Non-shiftable,2014-06-17 20:13:00,2014-06-17 20:16:00,3.0,2424.44,False
+Microwave_2014-06-18_01,Microwave,Appliance8,Non-shiftable,2014-06-18 17:05:00,2014-06-18 17:08:00,3.0,2497.07,False
+Microwave_2014-06-18_02,Microwave,Appliance8,Non-shiftable,2014-06-18 20:15:00,2014-06-18 20:18:00,3.0,2569.32,False
+Microwave_2014-06-20_01,Microwave,Appliance8,Non-shiftable,2014-06-20 20:16:00,2014-06-20 20:18:00,2.0,2797.56,False
+Microwave_2014-06-22_01,Microwave,Appliance8,Non-shiftable,2014-06-22 10:49:00,2014-06-22 10:59:00,10.0,3681.25,False
+Microwave_2014-06-22_02,Microwave,Appliance8,Non-shiftable,2014-06-22 11:00:00,2014-06-22 11:03:00,3.0,4014.5,False
+Microwave_2014-06-23_01,Microwave,Appliance8,Non-shiftable,2014-06-23 20:57:00,2014-06-23 21:00:00,3.0,2945.38,False
+Microwave_2014-06-24_01,Microwave,Appliance8,Non-shiftable,2014-06-24 16:09:00,2014-06-24 16:12:00,3.0,766.12,False
+Microwave_2014-06-24_02,Microwave,Appliance8,Non-shiftable,2014-06-24 20:47:00,2014-06-24 20:49:00,2.0,2447.07,False
+Microwave_2014-06-25_01,Microwave,Appliance8,Non-shiftable,2014-06-25 15:31:00,2014-06-25 15:33:00,2.0,1401.54,False
+Microwave_2014-06-25_02,Microwave,Appliance8,Non-shiftable,2014-06-25 15:35:00,2014-06-25 15:37:00,2.0,750.12,False
+Microwave_2014-06-26_01,Microwave,Appliance8,Non-shiftable,2014-06-26 17:03:00,2014-06-26 17:09:00,6.0,7110.14,False
+Microwave_2014-06-29_01,Microwave,Appliance8,Non-shiftable,2014-06-29 17:28:00,2014-06-29 17:36:00,8.0,6993.2,False
+Microwave_2014-07-01_01,Microwave,Appliance8,Non-shiftable,2014-07-01 16:38:00,2014-07-01 16:45:00,7.0,8410.29,False
+Microwave_2014-07-01_02,Microwave,Appliance8,Non-shiftable,2014-07-01 20:08:00,2014-07-01 20:11:00,3.0,2924.24,False
+Microwave_2014-07-03_01,Microwave,Appliance8,Non-shiftable,2014-07-03 16:19:00,2014-07-03 16:29:00,10.0,5141.84,False
+Microwave_2014-07-05_01,Microwave,Appliance8,Non-shiftable,2014-07-05 11:11:00,2014-07-05 11:13:00,2.0,1704.86,False
+Microwave_2014-07-05_02,Microwave,Appliance8,Non-shiftable,2014-07-05 16:25:00,2014-07-05 16:32:00,7.0,8673.57,False
+Microwave_2014-07-05_03,Microwave,Appliance8,Non-shiftable,2014-07-05 16:35:00,2014-07-05 16:38:00,3.0,2539.24,False
+Microwave_2014-07-05_04,Microwave,Appliance8,Non-shiftable,2014-07-05 16:42:00,2014-07-05 16:45:00,3.0,48.0,False
+Microwave_2014-07-06_01,Microwave,Appliance8,Non-shiftable,2014-07-06 16:24:00,2014-07-06 16:29:00,5.0,6557.38,False
+Microwave_2014-07-06_02,Microwave,Appliance8,Non-shiftable,2014-07-06 16:34:00,2014-07-06 16:36:00,2.0,9.0,False
+Microwave_2014-07-06_03,Microwave,Appliance8,Non-shiftable,2014-07-06 18:24:00,2014-07-06 18:27:00,3.0,2955.21,False
+Microwave_2014-07-07_01,Microwave,Appliance8,Non-shiftable,2014-07-07 16:54:00,2014-07-07 17:01:00,7.0,8181.83,False
+Microwave_2014-07-08_01,Microwave,Appliance8,Non-shiftable,2014-07-08 19:51:00,2014-07-08 19:54:00,3.0,2806.24,False
+Microwave_2014-07-28_01,Microwave,Appliance8,Non-shiftable,2014-07-28 16:55:00,2014-07-28 17:01:00,6.0,2876.02,False
+Microwave_2014-07-29_01,Microwave,Appliance8,Non-shiftable,2014-07-29 04:10:00,2014-07-29 04:12:00,2.0,6.15,False
+Microwave_2014-07-29_02,Microwave,Appliance8,Non-shiftable,2014-07-29 16:54:00,2014-07-29 17:02:00,8.0,8534.46,False
+Microwave_2014-07-30_01,Microwave,Appliance8,Non-shiftable,2014-07-30 11:18:00,2014-07-30 11:22:00,4.0,1307.81,False
+Microwave_2014-07-30_02,Microwave,Appliance8,Non-shiftable,2014-07-30 11:44:00,2014-07-30 11:46:00,2.0,333.14,False
+Microwave_2014-07-30_03,Microwave,Appliance8,Non-shiftable,2014-07-30 16:48:00,2014-07-30 16:55:00,7.0,8596.6,False
+Microwave_2014-07-30_04,Microwave,Appliance8,Non-shiftable,2014-07-30 22:35:00,2014-07-30 22:37:00,2.0,31.44,False
+Microwave_2014-07-31_01,Microwave,Appliance8,Non-shiftable,2014-07-31 02:55:00,2014-07-31 02:57:00,2.0,92.6,False
+Microwave_2014-07-31_02,Microwave,Appliance8,Non-shiftable,2014-07-31 20:45:00,2014-07-31 20:47:00,2.0,2098.86,False
+Microwave_2014-08-03_01,Microwave,Appliance8,Non-shiftable,2014-08-03 17:01:00,2014-08-03 17:08:00,7.0,8508.67,False
+Microwave_2014-08-04_01,Microwave,Appliance8,Non-shiftable,2014-08-04 17:00:00,2014-08-04 17:02:00,2.0,1696.83,False
+Microwave_2014-08-04_02,Microwave,Appliance8,Non-shiftable,2014-08-04 20:32:00,2014-08-04 20:34:00,2.0,2633.72,False
+Microwave_2014-08-05_01,Microwave,Appliance8,Non-shiftable,2014-08-05 16:46:00,2014-08-05 16:54:00,8.0,8565.56,False
+Microwave_2014-08-06_01,Microwave,Appliance8,Non-shiftable,2014-08-06 16:56:00,2014-08-06 17:09:00,13.0,10.67,False
+Microwave_2014-08-11_01,Microwave,Appliance8,Non-shiftable,2014-08-11 16:51:00,2014-08-11 16:53:00,2.0,2927.55,False
+Microwave_2014-08-12_01,Microwave,Appliance8,Non-shiftable,2014-08-12 16:47:00,2014-08-12 16:54:00,7.0,7347.18,False
+Microwave_2014-08-16_01,Microwave,Appliance8,Non-shiftable,2014-08-16 11:49:00,2014-08-16 11:51:00,2.0,2843.62,False
+Microwave_2014-08-18_01,Microwave,Appliance8,Non-shiftable,2014-08-18 17:04:00,2014-08-18 17:08:00,4.0,5145.79,False
+Microwave_2014-08-20_01,Microwave,Appliance8,Non-shiftable,2014-08-20 16:45:00,2014-08-20 16:51:00,6.0,7118.14,False
+Microwave_2014-08-21_01,Microwave,Appliance8,Non-shiftable,2014-08-21 17:03:00,2014-08-21 17:11:00,8.0,8574.64,False
+Microwave_2014-08-25_01,Microwave,Appliance8,Non-shiftable,2014-08-25 16:34:00,2014-08-25 16:37:00,3.0,49.1,False
+Microwave_2014-08-25_02,Microwave,Appliance8,Non-shiftable,2014-08-25 16:47:00,2014-08-25 16:54:00,7.0,9720.41,False
+Microwave_2014-08-26_01,Microwave,Appliance8,Non-shiftable,2014-08-26 16:57:00,2014-08-26 17:03:00,6.0,7184.6,False
+Microwave_2014-08-27_01,Microwave,Appliance8,Non-shiftable,2014-08-27 17:05:00,2014-08-27 17:08:00,3.0,2354.8,False
+Microwave_2014-08-28_01,Microwave,Appliance8,Non-shiftable,2014-08-28 18:18:00,2014-08-28 18:20:00,2.0,1787.87,False
+Microwave_2014-08-28_02,Microwave,Appliance8,Non-shiftable,2014-08-28 19:28:00,2014-08-28 19:30:00,2.0,1331.29,False
+Microwave_2014-08-28_03,Microwave,Appliance8,Non-shiftable,2014-08-28 20:03:00,2014-08-28 20:06:00,3.0,1465.37,False
+Microwave_2014-08-28_04,Microwave,Appliance8,Non-shiftable,2014-08-28 20:57:00,2014-08-28 20:59:00,2.0,2019.12,False
+Microwave_2014-08-29_01,Microwave,Appliance8,Non-shiftable,2014-08-29 20:06:00,2014-08-29 20:09:00,3.0,2255.8,False
+Microwave_2014-09-02_01,Microwave,Appliance8,Non-shiftable,2014-09-02 17:56:00,2014-09-02 18:03:00,7.0,7590.43,False
+Microwave_2014-09-03_01,Microwave,Appliance8,Non-shiftable,2014-09-03 17:17:00,2014-09-03 17:28:00,11.0,6962.23,False
+Microwave_2014-09-03_02,Microwave,Appliance8,Non-shiftable,2014-09-03 17:30:00,2014-09-03 17:32:00,2.0,1534.09,False
+Microwave_2014-09-05_01,Microwave,Appliance8,Non-shiftable,2014-09-05 16:01:00,2014-09-05 16:05:00,4.0,4230.59,False
+Microwave_2014-09-05_02,Microwave,Appliance8,Non-shiftable,2014-09-05 17:12:00,2014-09-05 17:14:00,2.0,2398.02,False
+Microwave_2014-09-05_03,Microwave,Appliance8,Non-shiftable,2014-09-05 18:38:00,2014-09-05 18:41:00,3.0,2912.82,False
+Microwave_2014-09-05_04,Microwave,Appliance8,Non-shiftable,2014-09-05 19:08:00,2014-09-05 19:10:00,2.0,1094.44,False
+Microwave_2014-09-05_05,Microwave,Appliance8,Non-shiftable,2014-09-05 20:45:00,2014-09-05 20:48:00,3.0,2377.38,False
+Microwave_2014-09-06_01,Microwave,Appliance8,Non-shiftable,2014-09-06 12:33:00,2014-09-06 12:37:00,4.0,3339.59,False
+Microwave_2014-09-06_02,Microwave,Appliance8,Non-shiftable,2014-09-06 12:42:00,2014-09-06 12:44:00,2.0,11.17,False
+Microwave_2014-09-06_03,Microwave,Appliance8,Non-shiftable,2014-09-06 18:01:00,2014-09-06 18:06:00,5.0,3929.96,False
+Microwave_2014-09-07_01,Microwave,Appliance8,Non-shiftable,2014-09-07 19:49:00,2014-09-07 19:52:00,3.0,2639.93,False
+Microwave_2014-09-07_02,Microwave,Appliance8,Non-shiftable,2014-09-07 20:21:00,2014-09-07 20:23:00,2.0,1329.75,False
+Microwave_2014-09-07_03,Microwave,Appliance8,Non-shiftable,2014-09-07 21:35:00,2014-09-07 21:37:00,2.0,2900.67,False
+Microwave_2014-09-08_01,Microwave,Appliance8,Non-shiftable,2014-09-08 10:22:00,2014-09-08 10:24:00,2.0,818.9,False
+Microwave_2014-09-08_02,Microwave,Appliance8,Non-shiftable,2014-09-08 16:00:00,2014-09-08 16:08:00,8.0,9522.44,False
+Microwave_2014-09-09_01,Microwave,Appliance8,Non-shiftable,2014-09-09 15:39:00,2014-09-09 15:41:00,2.0,702.56,False
+Microwave_2014-09-09_02,Microwave,Appliance8,Non-shiftable,2014-09-09 17:31:00,2014-09-09 17:38:00,7.0,6315.75,False
+Microwave_2014-09-09_03,Microwave,Appliance8,Non-shiftable,2014-09-09 19:52:00,2014-09-09 19:55:00,3.0,2788.67,False
+Microwave_2014-09-09_04,Microwave,Appliance8,Non-shiftable,2014-09-09 20:47:00,2014-09-09 20:50:00,3.0,3068.18,False
+Microwave_2014-09-10_01,Microwave,Appliance8,Non-shiftable,2014-09-10 15:46:00,2014-09-10 15:49:00,3.0,2511.8,False
+Microwave_2014-09-10_02,Microwave,Appliance8,Non-shiftable,2014-09-10 16:09:00,2014-09-10 16:13:00,4.0,2911.89,False
+Microwave_2014-09-10_03,Microwave,Appliance8,Non-shiftable,2014-09-10 17:56:00,2014-09-10 18:00:00,4.0,3693.15,False
+Microwave_2014-09-10_04,Microwave,Appliance8,Non-shiftable,2014-09-10 20:07:00,2014-09-10 20:10:00,3.0,2689.34,False
+Microwave_2014-09-11_01,Microwave,Appliance8,Non-shiftable,2014-09-11 16:13:00,2014-09-11 16:18:00,5.0,4834.3,False
+Microwave_2014-09-11_02,Microwave,Appliance8,Non-shiftable,2014-09-11 19:26:00,2014-09-11 19:29:00,3.0,2781.01,False
+Microwave_2014-09-23_01,Microwave,Appliance8,Non-shiftable,2014-09-23 12:17:00,2014-09-23 12:21:00,4.0,1300.86,False
+Microwave_2014-09-23_02,Microwave,Appliance8,Non-shiftable,2014-09-23 16:46:00,2014-09-23 16:48:00,2.0,1379.33,False
+Microwave_2014-09-23_03,Microwave,Appliance8,Non-shiftable,2014-09-23 17:09:00,2014-09-23 17:15:00,6.0,4364.07,False
+Microwave_2014-09-24_01,Microwave,Appliance8,Non-shiftable,2014-09-24 17:47:00,2014-09-24 17:52:00,5.0,6998.46,False
+Microwave_2014-09-24_02,Microwave,Appliance8,Non-shiftable,2014-09-24 17:54:00,2014-09-24 17:56:00,2.0,16.25,False
+Microwave_2014-09-25_01,Microwave,Appliance8,Non-shiftable,2014-09-25 14:49:00,2014-09-25 14:52:00,3.0,2900.52,False
+Microwave_2014-09-25_02,Microwave,Appliance8,Non-shiftable,2014-09-25 20:18:00,2014-09-25 20:21:00,3.0,2724.14,False
+Microwave_2014-09-26_01,Microwave,Appliance8,Non-shiftable,2014-09-26 20:33:00,2014-09-26 20:36:00,3.0,2729.23,False
+Microwave_2014-09-27_01,Microwave,Appliance8,Non-shiftable,2014-09-27 18:05:00,2014-09-27 18:08:00,3.0,2710.86,False
+Microwave_2014-09-27_02,Microwave,Appliance8,Non-shiftable,2014-09-27 18:50:00,2014-09-27 18:52:00,2.0,1365.64,False
+Microwave_2014-09-27_03,Microwave,Appliance8,Non-shiftable,2014-09-27 19:10:00,2014-09-27 19:12:00,2.0,1360.16,False
+Microwave_2014-09-28_01,Microwave,Appliance8,Non-shiftable,2014-09-28 20:49:00,2014-09-28 20:52:00,3.0,2613.38,False
+Microwave_2014-09-28_02,Microwave,Appliance8,Non-shiftable,2014-09-28 21:35:00,2014-09-28 21:38:00,3.0,2510.27,False
+Microwave_2014-09-29_01,Microwave,Appliance8,Non-shiftable,2014-09-29 20:49:00,2014-09-29 20:52:00,3.0,2751.99,False
+Microwave_2014-09-29_02,Microwave,Appliance8,Non-shiftable,2014-09-29 22:01:00,2014-09-29 22:03:00,2.0,1646.0,False
+Microwave_2014-09-30_01,Microwave,Appliance8,Non-shiftable,2014-09-30 17:03:00,2014-09-30 17:05:00,2.0,1609.91,False
+Microwave_2014-09-30_02,Microwave,Appliance8,Non-shiftable,2014-09-30 17:47:00,2014-09-30 17:52:00,5.0,4976.82,False
+Microwave_2014-09-30_03,Microwave,Appliance8,Non-shiftable,2014-09-30 20:46:00,2014-09-30 20:48:00,2.0,756.57,False
+Microwave_2014-09-30_04,Microwave,Appliance8,Non-shiftable,2014-09-30 21:25:00,2014-09-30 21:28:00,3.0,2624.29,False
+Kettle_2014-06-01_01,Kettle,Appliance9,Non-shiftable,2014-06-01 06:44:00,2014-06-01 06:47:00,3.0,5637.06,False
+Kettle_2014-06-01_02,Kettle,Appliance9,Non-shiftable,2014-06-01 16:08:00,2014-06-01 16:12:00,4.0,7490.34,False
+Kettle_2014-06-01_03,Kettle,Appliance9,Non-shiftable,2014-06-01 16:43:00,2014-06-01 16:45:00,2.0,3330.3,False
+Kettle_2014-06-01_04,Kettle,Appliance9,Non-shiftable,2014-06-01 16:58:00,2014-06-01 17:01:00,3.0,6432.9,False
+Kettle_2014-06-02_01,Kettle,Appliance9,Non-shiftable,2014-06-02 05:31:00,2014-06-02 05:35:00,4.0,5091.57,False
+Kettle_2014-06-02_02,Kettle,Appliance9,Non-shiftable,2014-06-02 12:27:00,2014-06-02 12:30:00,3.0,3420.35,False
+Kettle_2014-06-02_03,Kettle,Appliance9,Non-shiftable,2014-06-02 16:34:00,2014-06-02 16:37:00,3.0,5337.03,False
+Kettle_2014-06-03_01,Kettle,Appliance9,Non-shiftable,2014-06-03 05:34:00,2014-06-03 05:37:00,3.0,6955.9,False
+Kettle_2014-06-03_02,Kettle,Appliance9,Non-shiftable,2014-06-03 16:24:00,2014-06-03 16:27:00,3.0,5483.82,False
+Kettle_2014-06-04_01,Kettle,Appliance9,Non-shiftable,2014-06-04 05:32:00,2014-06-04 05:36:00,4.0,7567.79,False
+Kettle_2014-06-04_02,Kettle,Appliance9,Non-shiftable,2014-06-04 14:57:00,2014-06-04 15:02:00,5.0,8152.46,False
+Kettle_2014-06-05_01,Kettle,Appliance9,Non-shiftable,2014-06-05 05:34:00,2014-06-05 05:38:00,4.0,7622.32,False
+Kettle_2014-06-05_02,Kettle,Appliance9,Non-shiftable,2014-06-05 15:04:00,2014-06-05 15:08:00,4.0,7141.73,False
+Kettle_2014-06-06_01,Kettle,Appliance9,Non-shiftable,2014-06-06 05:34:00,2014-06-06 05:38:00,4.0,6299.04,False
+Kettle_2014-06-06_02,Kettle,Appliance9,Non-shiftable,2014-06-06 11:55:00,2014-06-06 11:58:00,3.0,4826.58,False
+Kettle_2014-06-06_03,Kettle,Appliance9,Non-shiftable,2014-06-06 12:13:00,2014-06-06 12:16:00,3.0,3542.25,False
+Kettle_2014-06-06_04,Kettle,Appliance9,Non-shiftable,2014-06-06 15:49:00,2014-06-06 15:51:00,2.0,4096.49,False
+Kettle_2014-06-07_01,Kettle,Appliance9,Non-shiftable,2014-06-07 07:05:00,2014-06-07 07:09:00,4.0,7609.75,False
+Kettle_2014-06-07_02,Kettle,Appliance9,Non-shiftable,2014-06-07 10:28:00,2014-06-07 10:32:00,4.0,5472.06,False
+Kettle_2014-06-08_01,Kettle,Appliance9,Non-shiftable,2014-06-08 06:38:00,2014-06-08 06:42:00,4.0,6854.46,False
+Kettle_2014-06-09_01,Kettle,Appliance9,Non-shiftable,2014-06-09 05:27:00,2014-06-09 05:32:00,5.0,8758.72,False
+Kettle_2014-06-10_01,Kettle,Appliance9,Non-shiftable,2014-06-10 05:39:00,2014-06-10 05:42:00,3.0,5543.38,False
+Kettle_2014-06-10_02,Kettle,Appliance9,Non-shiftable,2014-06-10 16:01:00,2014-06-10 16:04:00,3.0,5862.18,False
+Kettle_2014-06-10_03,Kettle,Appliance9,Non-shiftable,2014-06-10 16:36:00,2014-06-10 16:39:00,3.0,4736.79,False
+Kettle_2014-06-11_01,Kettle,Appliance9,Non-shiftable,2014-06-11 05:32:00,2014-06-11 05:36:00,4.0,7684.0,False
+Kettle_2014-06-11_02,Kettle,Appliance9,Non-shiftable,2014-06-11 12:14:00,2014-06-11 12:16:00,2.0,4144.0,False
+Kettle_2014-06-11_03,Kettle,Appliance9,Non-shiftable,2014-06-11 12:30:00,2014-06-11 12:32:00,2.0,3428.4,False
+Kettle_2014-06-11_04,Kettle,Appliance9,Non-shiftable,2014-06-11 16:32:00,2014-06-11 16:38:00,6.0,6917.23,False
+Kettle_2014-06-12_01,Kettle,Appliance9,Non-shiftable,2014-06-12 05:30:00,2014-06-12 05:33:00,3.0,5162.48,False
+Kettle_2014-06-12_02,Kettle,Appliance9,Non-shiftable,2014-06-12 15:48:00,2014-06-12 15:51:00,3.0,6418.66,False
+Kettle_2014-06-13_01,Kettle,Appliance9,Non-shiftable,2014-06-13 05:30:00,2014-06-13 05:34:00,4.0,6072.12,False
+Kettle_2014-06-13_02,Kettle,Appliance9,Non-shiftable,2014-06-13 16:10:00,2014-06-13 16:13:00,3.0,3141.09,False
+Kettle_2014-06-14_01,Kettle,Appliance9,Non-shiftable,2014-06-14 06:51:00,2014-06-14 06:54:00,3.0,4795.07,False
+Kettle_2014-06-14_02,Kettle,Appliance9,Non-shiftable,2014-06-14 09:58:00,2014-06-14 10:01:00,3.0,6269.1,False
+Kettle_2014-06-14_03,Kettle,Appliance9,Non-shiftable,2014-06-14 18:29:00,2014-06-14 18:33:00,4.0,7430.33,False
+Kettle_2014-06-15_01,Kettle,Appliance9,Non-shiftable,2014-06-15 07:01:00,2014-06-15 07:05:00,4.0,7601.54,False
+Kettle_2014-06-15_02,Kettle,Appliance9,Non-shiftable,2014-06-15 13:32:00,2014-06-15 13:34:00,2.0,3308.79,False
+Kettle_2014-06-15_03,Kettle,Appliance9,Non-shiftable,2014-06-15 13:38:00,2014-06-15 13:40:00,2.0,3454.83,False
+Kettle_2014-06-15_04,Kettle,Appliance9,Non-shiftable,2014-06-15 13:45:00,2014-06-15 13:47:00,2.0,4025.13,False
+Kettle_2014-06-15_05,Kettle,Appliance9,Non-shiftable,2014-06-15 13:48:00,2014-06-15 13:51:00,3.0,4341.24,False
+Kettle_2014-06-16_01,Kettle,Appliance9,Non-shiftable,2014-06-16 05:33:00,2014-06-16 05:35:00,2.0,168.6,False
+Kettle_2014-06-16_02,Kettle,Appliance9,Non-shiftable,2014-06-16 12:48:00,2014-06-16 12:51:00,3.0,4604.0,False
+Kettle_2014-06-16_03,Kettle,Appliance9,Non-shiftable,2014-06-16 19:12:00,2014-06-16 19:15:00,3.0,6520.53,False
+Kettle_2014-06-18_01,Kettle,Appliance9,Non-shiftable,2014-06-18 05:32:00,2014-06-18 05:36:00,4.0,6915.34,False
+Kettle_2014-06-18_02,Kettle,Appliance9,Non-shiftable,2014-06-18 14:57:00,2014-06-18 15:00:00,3.0,6590.38,False
+Kettle_2014-06-18_03,Kettle,Appliance9,Non-shiftable,2014-06-18 18:37:00,2014-06-18 18:41:00,4.0,7367.18,False
+Kettle_2014-06-18_04,Kettle,Appliance9,Non-shiftable,2014-06-18 19:17:00,2014-06-18 19:21:00,4.0,9028.47,False
+Kettle_2014-06-19_01,Kettle,Appliance9,Non-shiftable,2014-06-19 05:32:00,2014-06-19 05:35:00,3.0,7343.14,False
+Kettle_2014-06-20_01,Kettle,Appliance9,Non-shiftable,2014-06-20 05:32:00,2014-06-20 05:35:00,3.0,5182.1,False
+Kettle_2014-06-21_01,Kettle,Appliance9,Non-shiftable,2014-06-21 07:02:00,2014-06-21 07:06:00,4.0,6940.72,False
+Kettle_2014-06-21_02,Kettle,Appliance9,Non-shiftable,2014-06-21 14:55:00,2014-06-21 14:58:00,3.0,6223.61,False
+Kettle_2014-06-21_03,Kettle,Appliance9,Non-shiftable,2014-06-21 16:20:00,2014-06-21 16:24:00,4.0,8417.33,False
+Kettle_2014-06-22_01,Kettle,Appliance9,Non-shiftable,2014-06-22 06:35:00,2014-06-22 06:38:00,3.0,6186.6,False
+Kettle_2014-06-22_02,Kettle,Appliance9,Non-shiftable,2014-06-22 10:06:00,2014-06-22 10:08:00,2.0,3442.56,False
+Kettle_2014-06-22_03,Kettle,Appliance9,Non-shiftable,2014-06-22 16:14:00,2014-06-22 16:17:00,3.0,5161.6,False
+Kettle_2014-06-23_01,Kettle,Appliance9,Non-shiftable,2014-06-23 05:29:00,2014-06-23 05:31:00,2.0,4399.0,False
+Kettle_2014-06-23_02,Kettle,Appliance9,Non-shiftable,2014-06-23 14:40:00,2014-06-23 14:42:00,2.0,4207.22,False
+Kettle_2014-06-23_03,Kettle,Appliance9,Non-shiftable,2014-06-23 16:15:00,2014-06-23 16:18:00,3.0,4973.6,False
+Kettle_2014-06-24_01,Kettle,Appliance9,Non-shiftable,2014-06-24 05:31:00,2014-06-24 05:33:00,2.0,4649.06,False
+Kettle_2014-06-24_02,Kettle,Appliance9,Non-shiftable,2014-06-24 16:37:00,2014-06-24 16:40:00,3.0,4308.9,False
+Kettle_2014-06-25_01,Kettle,Appliance9,Non-shiftable,2014-06-25 05:37:00,2014-06-25 05:41:00,4.0,6162.19,False
+Kettle_2014-06-25_02,Kettle,Appliance9,Non-shiftable,2014-06-25 14:33:00,2014-06-25 14:36:00,3.0,6771.16,False
+Kettle_2014-06-26_01,Kettle,Appliance9,Non-shiftable,2014-06-26 05:37:00,2014-06-26 05:40:00,3.0,5730.71,False
+Kettle_2014-06-26_02,Kettle,Appliance9,Non-shiftable,2014-06-26 15:35:00,2014-06-26 15:37:00,2.0,4451.4,False
+Kettle_2014-06-27_01,Kettle,Appliance9,Non-shiftable,2014-06-27 05:35:00,2014-06-27 05:37:00,2.0,2576.86,False
+Kettle_2014-06-27_02,Kettle,Appliance9,Non-shiftable,2014-06-27 12:03:00,2014-06-27 12:07:00,4.0,7488.11,False
+Kettle_2014-06-27_03,Kettle,Appliance9,Non-shiftable,2014-06-27 14:56:00,2014-06-27 14:58:00,2.0,3128.65,False
+Kettle_2014-06-28_01,Kettle,Appliance9,Non-shiftable,2014-06-28 06:01:00,2014-06-28 06:03:00,2.0,3132.74,False
+Kettle_2014-06-28_02,Kettle,Appliance9,Non-shiftable,2014-06-28 16:01:00,2014-06-28 16:06:00,5.0,7822.87,False
+Kettle_2014-06-29_01,Kettle,Appliance9,Non-shiftable,2014-06-29 07:26:00,2014-06-29 07:29:00,3.0,4368.38,False
+Kettle_2014-06-29_02,Kettle,Appliance9,Non-shiftable,2014-06-29 15:31:00,2014-06-29 15:34:00,3.0,6321.92,False
+Kettle_2014-06-30_01,Kettle,Appliance9,Non-shiftable,2014-06-30 05:40:00,2014-06-30 05:44:00,4.0,6094.51,False
+Kettle_2014-06-30_02,Kettle,Appliance9,Non-shiftable,2014-06-30 12:25:00,2014-06-30 12:27:00,2.0,3727.86,False
+Kettle_2014-06-30_03,Kettle,Appliance9,Non-shiftable,2014-06-30 15:48:00,2014-06-30 15:51:00,3.0,6446.39,False
+Kettle_2014-07-01_01,Kettle,Appliance9,Non-shiftable,2014-07-01 05:36:00,2014-07-01 05:39:00,3.0,4581.87,False
+Kettle_2014-07-01_02,Kettle,Appliance9,Non-shiftable,2014-07-01 16:26:00,2014-07-01 16:29:00,3.0,4241.47,False
+Kettle_2014-07-02_01,Kettle,Appliance9,Non-shiftable,2014-07-02 05:30:00,2014-07-02 05:33:00,3.0,5953.65,False
+Kettle_2014-07-02_02,Kettle,Appliance9,Non-shiftable,2014-07-02 14:39:00,2014-07-02 14:43:00,4.0,5835.14,False
+Kettle_2014-07-02_03,Kettle,Appliance9,Non-shiftable,2014-07-02 16:26:00,2014-07-02 16:29:00,3.0,5475.44,False
+Kettle_2014-07-03_01,Kettle,Appliance9,Non-shiftable,2014-07-03 08:07:00,2014-07-03 08:10:00,3.0,5601.9,False
+Kettle_2014-07-03_02,Kettle,Appliance9,Non-shiftable,2014-07-03 14:34:00,2014-07-03 14:38:00,4.0,6056.86,False
+Kettle_2014-07-03_03,Kettle,Appliance9,Non-shiftable,2014-07-03 16:40:00,2014-07-03 16:45:00,5.0,10153.71,False
+Kettle_2014-07-04_01,Kettle,Appliance9,Non-shiftable,2014-07-04 05:18:00,2014-07-04 05:21:00,3.0,4463.02,False
+Kettle_2014-07-04_02,Kettle,Appliance9,Non-shiftable,2014-07-04 07:57:00,2014-07-04 08:00:00,3.0,7016.01,False
+Kettle_2014-07-04_03,Kettle,Appliance9,Non-shiftable,2014-07-04 09:55:00,2014-07-04 09:58:00,3.0,2912.57,False
+Kettle_2014-07-04_04,Kettle,Appliance9,Non-shiftable,2014-07-04 11:37:00,2014-07-04 11:39:00,2.0,4868.35,False
+Kettle_2014-07-04_05,Kettle,Appliance9,Non-shiftable,2014-07-04 16:20:00,2014-07-04 16:25:00,5.0,4539.3,False
+Kettle_2014-07-05_01,Kettle,Appliance9,Non-shiftable,2014-07-05 07:14:00,2014-07-05 07:16:00,2.0,3592.12,False
+Kettle_2014-07-05_02,Kettle,Appliance9,Non-shiftable,2014-07-05 09:42:00,2014-07-05 09:45:00,3.0,4842.38,False
+Kettle_2014-07-06_01,Kettle,Appliance9,Non-shiftable,2014-07-06 07:07:00,2014-07-06 07:10:00,3.0,6754.45,False
+Kettle_2014-07-06_02,Kettle,Appliance9,Non-shiftable,2014-07-06 09:28:00,2014-07-06 09:30:00,2.0,3659.79,False
+Kettle_2014-07-06_03,Kettle,Appliance9,Non-shiftable,2014-07-06 15:55:00,2014-07-06 15:59:00,4.0,6560.18,False
+Kettle_2014-07-06_04,Kettle,Appliance9,Non-shiftable,2014-07-06 16:24:00,2014-07-06 16:27:00,3.0,4680.43,False
+Kettle_2014-07-07_01,Kettle,Appliance9,Non-shiftable,2014-07-07 13:24:00,2014-07-07 13:26:00,2.0,107.33,False
+Kettle_2014-07-07_02,Kettle,Appliance9,Non-shiftable,2014-07-07 15:50:00,2014-07-07 15:53:00,3.0,5696.0,False
+Kettle_2014-07-08_01,Kettle,Appliance9,Non-shiftable,2014-07-08 05:26:00,2014-07-08 05:29:00,3.0,5019.46,False
+Kettle_2014-07-08_02,Kettle,Appliance9,Non-shiftable,2014-07-08 15:50:00,2014-07-08 15:53:00,3.0,5495.0,False
+Kettle_2014-07-09_01,Kettle,Appliance9,Non-shiftable,2014-07-09 05:32:00,2014-07-09 05:35:00,3.0,5376.51,False
+Kettle_2014-07-09_02,Kettle,Appliance9,Non-shiftable,2014-07-09 14:50:00,2014-07-09 14:53:00,3.0,5335.73,False
+Kettle_2014-07-09_03,Kettle,Appliance9,Non-shiftable,2014-07-09 16:10:00,2014-07-09 16:12:00,2.0,2613.28,False
+Kettle_2014-07-10_01,Kettle,Appliance9,Non-shiftable,2014-07-10 05:29:00,2014-07-10 05:33:00,4.0,7840.89,False
+Kettle_2014-07-11_01,Kettle,Appliance9,Non-shiftable,2014-07-11 05:34:00,2014-07-11 05:37:00,3.0,3992.9,False
+Kettle_2014-07-12_01,Kettle,Appliance9,Non-shiftable,2014-07-12 06:22:00,2014-07-12 06:26:00,4.0,6985.54,False
+Kettle_2014-07-12_02,Kettle,Appliance9,Non-shiftable,2014-07-12 08:51:00,2014-07-12 08:53:00,2.0,2583.0,False
+Kettle_2014-07-14_01,Kettle,Appliance9,Non-shiftable,2014-07-14 13:41:00,2014-07-14 13:43:00,2.0,3897.81,False
+Kettle_2014-07-21_01,Kettle,Appliance9,Non-shiftable,2014-07-21 14:11:00,2014-07-21 14:15:00,4.0,7029.11,False
+Kettle_2014-07-26_01,Kettle,Appliance9,Non-shiftable,2014-07-26 17:31:00,2014-07-26 17:34:00,3.0,7717.41,False
+Kettle_2014-07-27_01,Kettle,Appliance9,Non-shiftable,2014-07-27 06:32:00,2014-07-27 06:34:00,2.0,5240.2,False
+Kettle_2014-07-27_02,Kettle,Appliance9,Non-shiftable,2014-07-27 13:07:00,2014-07-27 13:10:00,3.0,5259.94,False
+Kettle_2014-07-28_01,Kettle,Appliance9,Non-shiftable,2014-07-28 05:53:00,2014-07-28 05:55:00,2.0,2558.51,False
+Kettle_2014-07-28_02,Kettle,Appliance9,Non-shiftable,2014-07-28 07:50:00,2014-07-28 07:53:00,3.0,5935.92,False
+Kettle_2014-07-28_03,Kettle,Appliance9,Non-shiftable,2014-07-28 18:35:00,2014-07-28 18:37:00,2.0,3784.15,False
+Kettle_2014-07-29_01,Kettle,Appliance9,Non-shiftable,2014-07-29 06:00:00,2014-07-29 06:02:00,2.0,4247.31,False
+Kettle_2014-07-29_02,Kettle,Appliance9,Non-shiftable,2014-07-29 08:08:00,2014-07-29 08:10:00,2.0,3828.4,False
+Kettle_2014-07-29_03,Kettle,Appliance9,Non-shiftable,2014-07-29 16:05:00,2014-07-29 16:07:00,2.0,2634.2,False
+Kettle_2014-07-29_04,Kettle,Appliance9,Non-shiftable,2014-07-29 16:38:00,2014-07-29 16:42:00,4.0,6107.62,False
+Kettle_2014-07-30_01,Kettle,Appliance9,Non-shiftable,2014-07-30 06:04:00,2014-07-30 06:08:00,4.0,6972.13,False
+Kettle_2014-07-30_02,Kettle,Appliance9,Non-shiftable,2014-07-30 10:25:00,2014-07-30 10:27:00,2.0,3932.28,False
+Kettle_2014-07-30_03,Kettle,Appliance9,Non-shiftable,2014-07-30 12:00:00,2014-07-30 12:02:00,2.0,2879.2,False
+Kettle_2014-07-30_04,Kettle,Appliance9,Non-shiftable,2014-07-30 16:46:00,2014-07-30 16:49:00,3.0,7065.6,False
+Kettle_2014-07-31_01,Kettle,Appliance9,Non-shiftable,2014-07-31 06:01:00,2014-07-31 06:04:00,3.0,5616.3,False
+Kettle_2014-07-31_02,Kettle,Appliance9,Non-shiftable,2014-07-31 11:57:00,2014-07-31 12:00:00,3.0,5685.6,False
+Kettle_2014-07-31_03,Kettle,Appliance9,Non-shiftable,2014-07-31 13:31:00,2014-07-31 13:34:00,3.0,4454.78,False
+Kettle_2014-07-31_04,Kettle,Appliance9,Non-shiftable,2014-07-31 15:18:00,2014-07-31 15:20:00,2.0,2642.85,False
+Kettle_2014-07-31_05,Kettle,Appliance9,Non-shiftable,2014-07-31 16:51:00,2014-07-31 16:55:00,4.0,6573.46,False
+Kettle_2014-08-01_01,Kettle,Appliance9,Non-shiftable,2014-08-01 06:04:00,2014-08-01 06:08:00,4.0,6433.32,False
+Kettle_2014-08-02_01,Kettle,Appliance9,Non-shiftable,2014-08-02 13:22:00,2014-08-02 13:25:00,3.0,5714.87,False
+Kettle_2014-08-02_02,Kettle,Appliance9,Non-shiftable,2014-08-02 15:13:00,2014-08-02 15:15:00,2.0,2614.33,False
+Kettle_2014-08-03_01,Kettle,Appliance9,Non-shiftable,2014-08-03 06:38:00,2014-08-03 06:42:00,4.0,7648.78,False
+Kettle_2014-08-03_02,Kettle,Appliance9,Non-shiftable,2014-08-03 09:19:00,2014-08-03 09:21:00,2.0,4136.4,False
+Kettle_2014-08-03_03,Kettle,Appliance9,Non-shiftable,2014-08-03 14:56:00,2014-08-03 14:59:00,3.0,5220.08,False
+Kettle_2014-08-03_04,Kettle,Appliance9,Non-shiftable,2014-08-03 16:46:00,2014-08-03 16:49:00,3.0,5259.4,False
+Kettle_2014-08-03_05,Kettle,Appliance9,Non-shiftable,2014-08-03 16:59:00,2014-08-03 17:01:00,2.0,2620.9,False
+Kettle_2014-08-03_06,Kettle,Appliance9,Non-shiftable,2014-08-03 20:32:00,2014-08-03 20:34:00,2.0,2004.03,False
+Kettle_2014-08-04_01,Kettle,Appliance9,Non-shiftable,2014-08-04 06:03:00,2014-08-04 06:06:00,3.0,5572.41,False
+Kettle_2014-08-04_02,Kettle,Appliance9,Non-shiftable,2014-08-04 07:30:00,2014-08-04 07:34:00,4.0,5925.74,False
+Kettle_2014-08-04_03,Kettle,Appliance9,Non-shiftable,2014-08-04 09:21:00,2014-08-04 09:24:00,3.0,2845.44,False
+Kettle_2014-08-04_04,Kettle,Appliance9,Non-shiftable,2014-08-04 09:47:00,2014-08-04 09:49:00,2.0,4557.27,False
+Kettle_2014-08-04_05,Kettle,Appliance9,Non-shiftable,2014-08-04 13:07:00,2014-08-04 13:09:00,2.0,3059.9,False
+Kettle_2014-08-04_06,Kettle,Appliance9,Non-shiftable,2014-08-04 14:40:00,2014-08-04 14:43:00,3.0,4794.64,False
+Kettle_2014-08-05_01,Kettle,Appliance9,Non-shiftable,2014-08-05 06:01:00,2014-08-05 06:04:00,3.0,5101.7,False
+Kettle_2014-08-05_02,Kettle,Appliance9,Non-shiftable,2014-08-05 09:39:00,2014-08-05 09:49:00,10.0,8013.36,False
+Kettle_2014-08-05_03,Kettle,Appliance9,Non-shiftable,2014-08-05 10:39:00,2014-08-05 10:41:00,2.0,2912.39,False
+Kettle_2014-08-05_04,Kettle,Appliance9,Non-shiftable,2014-08-05 16:42:00,2014-08-05 16:47:00,5.0,7832.47,False
+Kettle_2014-08-06_01,Kettle,Appliance9,Non-shiftable,2014-08-06 05:56:00,2014-08-06 06:03:00,7.0,6889.44,False
+Kettle_2014-08-06_02,Kettle,Appliance9,Non-shiftable,2014-08-06 08:49:00,2014-08-06 08:52:00,3.0,4491.96,False
+Kettle_2014-08-06_03,Kettle,Appliance9,Non-shiftable,2014-08-06 09:19:00,2014-08-06 09:21:00,2.0,1888.75,False
+Kettle_2014-08-07_01,Kettle,Appliance9,Non-shiftable,2014-08-07 05:59:00,2014-08-07 06:01:00,2.0,5144.62,False
+Kettle_2014-08-07_02,Kettle,Appliance9,Non-shiftable,2014-08-07 08:30:00,2014-08-07 08:33:00,3.0,6275.98,False
+Kettle_2014-08-07_03,Kettle,Appliance9,Non-shiftable,2014-08-07 11:14:00,2014-08-07 11:17:00,3.0,5827.21,False
+Kettle_2014-08-08_01,Kettle,Appliance9,Non-shiftable,2014-08-08 05:56:00,2014-08-08 06:01:00,5.0,7726.0,False
+Kettle_2014-08-08_02,Kettle,Appliance9,Non-shiftable,2014-08-08 07:05:00,2014-08-08 07:08:00,3.0,2550.57,False
+Kettle_2014-08-08_03,Kettle,Appliance9,Non-shiftable,2014-08-08 08:33:00,2014-08-08 08:36:00,3.0,5515.62,False
+Kettle_2014-08-08_04,Kettle,Appliance9,Non-shiftable,2014-08-08 14:50:00,2014-08-08 15:15:00,25.0,11594.04,False
+Kettle_2014-08-09_01,Kettle,Appliance9,Non-shiftable,2014-08-09 06:33:00,2014-08-09 06:37:00,4.0,6641.15,False
+Kettle_2014-08-09_02,Kettle,Appliance9,Non-shiftable,2014-08-09 12:06:00,2014-08-09 12:10:00,4.0,7472.6,False
+Kettle_2014-08-09_03,Kettle,Appliance9,Non-shiftable,2014-08-09 13:58:00,2014-08-09 14:02:00,4.0,6766.58,False
+Kettle_2014-08-10_01,Kettle,Appliance9,Non-shiftable,2014-08-10 07:29:00,2014-08-10 07:33:00,4.0,7121.34,False
+Kettle_2014-08-10_02,Kettle,Appliance9,Non-shiftable,2014-08-10 11:57:00,2014-08-10 12:01:00,4.0,7006.9,False
+Kettle_2014-08-10_03,Kettle,Appliance9,Non-shiftable,2014-08-10 12:07:00,2014-08-10 12:10:00,3.0,4421.05,False
+Kettle_2014-08-11_01,Kettle,Appliance9,Non-shiftable,2014-08-11 06:08:00,2014-08-11 06:11:00,3.0,5224.5,False
+Kettle_2014-08-11_02,Kettle,Appliance9,Non-shiftable,2014-08-11 13:54:00,2014-08-11 13:57:00,3.0,5509.48,False
+Kettle_2014-08-12_01,Kettle,Appliance9,Non-shiftable,2014-08-12 06:00:00,2014-08-12 06:03:00,3.0,6836.17,False
+Kettle_2014-08-12_02,Kettle,Appliance9,Non-shiftable,2014-08-12 08:55:00,2014-08-12 08:59:00,4.0,5577.61,False
+Kettle_2014-08-12_03,Kettle,Appliance9,Non-shiftable,2014-08-12 13:53:00,2014-08-12 13:56:00,3.0,5140.57,False
+Kettle_2014-08-12_04,Kettle,Appliance9,Non-shiftable,2014-08-12 16:35:00,2014-08-12 16:38:00,3.0,6273.79,False
+Kettle_2014-08-13_01,Kettle,Appliance9,Non-shiftable,2014-08-13 06:02:00,2014-08-13 06:04:00,2.0,3122.29,False
+Kettle_2014-08-13_02,Kettle,Appliance9,Non-shiftable,2014-08-13 08:48:00,2014-08-13 08:52:00,4.0,6230.15,False
+Kettle_2014-08-13_03,Kettle,Appliance9,Non-shiftable,2014-08-13 16:46:00,2014-08-13 16:49:00,3.0,5259.1,False
+Kettle_2014-08-13_04,Kettle,Appliance9,Non-shiftable,2014-08-13 16:52:00,2014-08-13 16:54:00,2.0,791.1,False
+Kettle_2014-08-14_01,Kettle,Appliance9,Non-shiftable,2014-08-14 06:01:00,2014-08-14 06:04:00,3.0,5830.7,False
+Kettle_2014-08-14_02,Kettle,Appliance9,Non-shiftable,2014-08-14 12:49:00,2014-08-14 12:52:00,3.0,5230.5,False
+Kettle_2014-08-14_03,Kettle,Appliance9,Non-shiftable,2014-08-14 16:18:00,2014-08-14 16:21:00,3.0,6961.0,False
+Kettle_2014-08-14_04,Kettle,Appliance9,Non-shiftable,2014-08-14 17:19:00,2014-08-14 17:21:00,2.0,3158.38,False
+Kettle_2014-08-15_01,Kettle,Appliance9,Non-shiftable,2014-08-15 06:02:00,2014-08-15 06:05:00,3.0,5495.8,False
+Kettle_2014-08-16_01,Kettle,Appliance9,Non-shiftable,2014-08-16 07:26:00,2014-08-16 07:29:00,3.0,6181.5,False
+Kettle_2014-08-16_02,Kettle,Appliance9,Non-shiftable,2014-08-16 10:16:00,2014-08-16 10:18:00,2.0,4106.17,False
+Kettle_2014-08-16_03,Kettle,Appliance9,Non-shiftable,2014-08-16 19:51:00,2014-08-16 19:54:00,3.0,4629.38,False
+Kettle_2014-08-17_01,Kettle,Appliance9,Non-shiftable,2014-08-17 06:42:00,2014-08-17 06:45:00,3.0,6502.44,False
+Kettle_2014-08-17_02,Kettle,Appliance9,Non-shiftable,2014-08-17 17:31:00,2014-08-17 17:34:00,3.0,5563.05,False
+Kettle_2014-08-18_01,Kettle,Appliance9,Non-shiftable,2014-08-18 05:57:00,2014-08-18 06:00:00,3.0,5546.6,False
+Kettle_2014-08-18_02,Kettle,Appliance9,Non-shiftable,2014-08-18 06:27:00,2014-08-18 06:30:00,3.0,4402.63,False
+Kettle_2014-08-18_03,Kettle,Appliance9,Non-shiftable,2014-08-18 12:33:00,2014-08-18 12:35:00,2.0,1679.56,False
+Kettle_2014-08-18_04,Kettle,Appliance9,Non-shiftable,2014-08-18 14:31:00,2014-08-18 14:34:00,3.0,4183.82,False
+Kettle_2014-08-19_01,Kettle,Appliance9,Non-shiftable,2014-08-19 05:59:00,2014-08-19 06:02:00,3.0,5905.31,False
+Kettle_2014-08-19_02,Kettle,Appliance9,Non-shiftable,2014-08-19 07:20:00,2014-08-19 09:26:00,126.0,9746.86,False
+Kettle_2014-08-20_01,Kettle,Appliance9,Non-shiftable,2014-08-20 05:55:00,2014-08-20 05:58:00,3.0,6983.78,False
+Kettle_2014-08-20_02,Kettle,Appliance9,Non-shiftable,2014-08-20 15:16:00,2014-08-20 15:18:00,2.0,2632.51,False
+Kettle_2014-08-21_01,Kettle,Appliance9,Non-shiftable,2014-08-21 05:59:00,2014-08-21 06:02:00,3.0,6039.32,False
+Kettle_2014-08-21_02,Kettle,Appliance9,Non-shiftable,2014-08-21 06:32:00,2014-08-21 06:35:00,3.0,5101.62,False
+Kettle_2014-08-21_03,Kettle,Appliance9,Non-shiftable,2014-08-21 09:32:00,2014-08-21 09:35:00,3.0,5389.9,False
+Kettle_2014-08-21_04,Kettle,Appliance9,Non-shiftable,2014-08-21 13:13:00,2014-08-21 13:17:00,4.0,6607.62,False
+Kettle_2014-08-21_05,Kettle,Appliance9,Non-shiftable,2014-08-21 14:23:00,2014-08-21 14:26:00,3.0,5649.4,False
+Kettle_2014-08-21_06,Kettle,Appliance9,Non-shiftable,2014-08-21 16:43:00,2014-08-21 16:47:00,4.0,6766.56,False
+Kettle_2014-08-21_07,Kettle,Appliance9,Non-shiftable,2014-08-21 17:08:00,2014-08-21 17:11:00,3.0,4837.43,False
+Kettle_2014-08-22_01,Kettle,Appliance9,Non-shiftable,2014-08-22 05:53:00,2014-08-22 05:56:00,3.0,6376.29,False
+Kettle_2014-08-22_02,Kettle,Appliance9,Non-shiftable,2014-08-22 06:34:00,2014-08-22 06:37:00,3.0,4323.71,False
+Kettle_2014-08-22_03,Kettle,Appliance9,Non-shiftable,2014-08-22 08:25:00,2014-08-22 08:27:00,2.0,2523.61,False
+Kettle_2014-08-23_01,Kettle,Appliance9,Non-shiftable,2014-08-23 07:35:00,2014-08-23 07:38:00,3.0,7275.5,False
+Kettle_2014-08-23_02,Kettle,Appliance9,Non-shiftable,2014-08-23 10:09:00,2014-08-23 10:11:00,2.0,3914.0,False
+Kettle_2014-08-23_03,Kettle,Appliance9,Non-shiftable,2014-08-23 15:15:00,2014-08-23 15:18:00,3.0,4679.4,False
+Kettle_2014-08-24_01,Kettle,Appliance9,Non-shiftable,2014-08-24 06:42:00,2014-08-24 06:46:00,4.0,5748.6,False
+Kettle_2014-08-24_02,Kettle,Appliance9,Non-shiftable,2014-08-24 09:26:00,2014-08-24 09:29:00,3.0,5110.5,False
+Kettle_2014-08-24_03,Kettle,Appliance9,Non-shiftable,2014-08-24 10:22:00,2014-08-24 10:24:00,2.0,2238.94,False
+Kettle_2014-08-24_04,Kettle,Appliance9,Non-shiftable,2014-08-24 16:43:00,2014-08-24 16:47:00,4.0,8302.9,False
+Kettle_2014-08-24_05,Kettle,Appliance9,Non-shiftable,2014-08-24 19:47:00,2014-08-24 19:50:00,3.0,5682.58,False
+Kettle_2014-08-25_01,Kettle,Appliance9,Non-shiftable,2014-08-25 07:13:00,2014-08-25 07:16:00,3.0,5180.7,False
+Kettle_2014-08-25_02,Kettle,Appliance9,Non-shiftable,2014-08-25 08:23:00,2014-08-25 08:26:00,3.0,3930.4,False
+Kettle_2014-08-25_03,Kettle,Appliance9,Non-shiftable,2014-08-25 16:32:00,2014-08-25 16:36:00,4.0,6450.1,False
+Kettle_2014-08-25_04,Kettle,Appliance9,Non-shiftable,2014-08-25 16:51:00,2014-08-25 16:54:00,3.0,4574.92,False
+Kettle_2014-08-26_01,Kettle,Appliance9,Non-shiftable,2014-08-26 05:27:00,2014-08-26 05:31:00,4.0,6321.07,False
+Kettle_2014-08-26_02,Kettle,Appliance9,Non-shiftable,2014-08-26 15:05:00,2014-08-26 15:08:00,3.0,7191.03,False
+Kettle_2014-08-26_03,Kettle,Appliance9,Non-shiftable,2014-08-26 16:32:00,2014-08-26 16:35:00,3.0,2870.45,False
+Kettle_2014-08-27_01,Kettle,Appliance9,Non-shiftable,2014-08-27 05:31:00,2014-08-27 05:35:00,4.0,6550.83,False
+Kettle_2014-08-27_02,Kettle,Appliance9,Non-shiftable,2014-08-27 16:29:00,2014-08-27 16:33:00,4.0,5415.92,False
+Kettle_2014-08-28_01,Kettle,Appliance9,Non-shiftable,2014-08-28 05:35:00,2014-08-28 05:38:00,3.0,6171.55,False
+Kettle_2014-08-28_02,Kettle,Appliance9,Non-shiftable,2014-08-28 15:04:00,2014-08-28 15:07:00,3.0,5971.34,False
+Kettle_2014-08-28_03,Kettle,Appliance9,Non-shiftable,2014-08-28 16:23:00,2014-08-28 16:26:00,3.0,4792.27,False
+Kettle_2014-08-29_01,Kettle,Appliance9,Non-shiftable,2014-08-29 05:35:00,2014-08-29 05:39:00,4.0,7216.83,False
+Kettle_2014-08-30_01,Kettle,Appliance9,Non-shiftable,2014-08-30 07:03:00,2014-08-30 07:07:00,4.0,5858.03,False
+Kettle_2014-08-30_02,Kettle,Appliance9,Non-shiftable,2014-08-30 09:48:00,2014-08-30 09:50:00,2.0,2651.56,False
+Kettle_2014-09-03_01,Kettle,Appliance9,Non-shiftable,2014-09-03 06:29:00,2014-09-03 06:32:00,3.0,5754.33,False
+Kettle_2014-09-03_02,Kettle,Appliance9,Non-shiftable,2014-09-03 18:07:00,2014-09-03 18:10:00,3.0,6684.66,False
+Kettle_2014-09-04_01,Kettle,Appliance9,Non-shiftable,2014-09-04 06:03:00,2014-09-04 06:08:00,5.0,8949.05,False
+Kettle_2014-09-05_01,Kettle,Appliance9,Non-shiftable,2014-09-05 05:19:00,2014-09-05 14:36:00,557.0,35309.1,False
+Kettle_2014-09-06_01,Kettle,Appliance9,Non-shiftable,2014-09-06 06:53:00,2014-09-06 06:56:00,3.0,5235.99,False
+Kettle_2014-09-06_02,Kettle,Appliance9,Non-shiftable,2014-09-06 12:00:00,2014-09-06 12:04:00,4.0,5321.58,False
+Kettle_2014-09-06_03,Kettle,Appliance9,Non-shiftable,2014-09-06 16:26:00,2014-09-06 16:29:00,3.0,5799.86,False
+Kettle_2014-09-07_01,Kettle,Appliance9,Non-shiftable,2014-09-07 12:24:00,2014-09-07 13:31:00,67.0,1065.75,False
+Kettle_2014-09-08_01,Kettle,Appliance9,Non-shiftable,2014-09-08 05:32:00,2014-09-08 05:35:00,3.0,5577.47,False
+Kettle_2014-09-08_02,Kettle,Appliance9,Non-shiftable,2014-09-08 12:23:00,2014-09-08 12:25:00,2.0,3139.67,False
+Kettle_2014-09-08_03,Kettle,Appliance9,Non-shiftable,2014-09-08 14:21:00,2014-09-08 14:23:00,2.0,4342.15,False
+Kettle_2014-09-08_04,Kettle,Appliance9,Non-shiftable,2014-09-08 15:28:00,2014-09-08 15:31:00,3.0,5733.3,False
+Kettle_2014-09-09_01,Kettle,Appliance9,Non-shiftable,2014-09-09 05:19:00,2014-09-09 05:23:00,4.0,6433.54,False
+Kettle_2014-09-09_02,Kettle,Appliance9,Non-shiftable,2014-09-09 15:16:00,2014-09-09 15:19:00,3.0,4706.27,False
+Kettle_2014-09-09_03,Kettle,Appliance9,Non-shiftable,2014-09-09 20:09:00,2014-09-09 20:12:00,3.0,4412.77,False
+Kettle_2014-09-10_01,Kettle,Appliance9,Non-shiftable,2014-09-10 05:33:00,2014-09-10 05:37:00,4.0,5037.37,False
+Kettle_2014-09-10_02,Kettle,Appliance9,Non-shiftable,2014-09-10 15:34:00,2014-09-10 15:38:00,4.0,6294.62,False
+Kettle_2014-09-10_03,Kettle,Appliance9,Non-shiftable,2014-09-10 15:55:00,2014-09-10 15:57:00,2.0,1388.49,False
+Kettle_2014-09-11_01,Kettle,Appliance9,Non-shiftable,2014-09-11 05:34:00,2014-09-11 13:08:00,454.0,12203.96,False
+Kettle_2014-09-11_02,Kettle,Appliance9,Non-shiftable,2014-09-11 15:35:00,2014-09-11 15:38:00,3.0,5460.61,False
+Kettle_2014-09-12_01,Kettle,Appliance9,Non-shiftable,2014-09-12 05:31:00,2014-09-12 05:34:00,3.0,6624.34,False
+Kettle_2014-09-23_01,Kettle,Appliance9,Non-shiftable,2014-09-23 16:28:00,2014-09-23 16:31:00,3.0,2857.07,False
+Kettle_2014-09-23_02,Kettle,Appliance9,Non-shiftable,2014-09-23 16:46:00,2014-09-23 16:49:00,3.0,5351.79,False
+Kettle_2014-09-24_01,Kettle,Appliance9,Non-shiftable,2014-09-24 06:32:00,2014-09-24 06:35:00,3.0,4396.16,False
+Kettle_2014-09-24_02,Kettle,Appliance9,Non-shiftable,2014-09-24 17:48:00,2014-09-24 17:51:00,3.0,5588.98,False
+Kettle_2014-09-25_01,Kettle,Appliance9,Non-shiftable,2014-09-25 07:55:00,2014-09-25 07:57:00,2.0,4499.67,False
+Kettle_2014-09-25_02,Kettle,Appliance9,Non-shiftable,2014-09-25 10:38:00,2014-09-25 10:40:00,2.0,2529.2,False
+Kettle_2014-09-25_03,Kettle,Appliance9,Non-shiftable,2014-09-25 11:48:00,2014-09-25 11:51:00,3.0,4100.64,False
+Kettle_2014-09-25_04,Kettle,Appliance9,Non-shiftable,2014-09-25 13:24:00,2014-09-25 13:27:00,3.0,5995.64,False
+Kettle_2014-09-25_05,Kettle,Appliance9,Non-shiftable,2014-09-25 15:55:00,2014-09-25 15:59:00,4.0,5091.62,False
+Kettle_2014-09-25_06,Kettle,Appliance9,Non-shiftable,2014-09-25 18:26:00,2014-09-25 18:29:00,3.0,6635.07,False
+Kettle_2014-09-26_01,Kettle,Appliance9,Non-shiftable,2014-09-26 06:22:00,2014-09-27 07:04:00,1482.0,42269.5,False
+Kettle_2014-09-28_01,Kettle,Appliance9,Non-shiftable,2014-09-28 08:02:00,2014-09-28 08:05:00,3.0,5411.83,False
+Kettle_2014-09-28_02,Kettle,Appliance9,Non-shiftable,2014-09-28 10:27:00,2014-09-28 10:30:00,3.0,5878.29,False
+Kettle_2014-09-29_01,Kettle,Appliance9,Non-shiftable,2014-09-29 06:24:00,2014-09-29 06:28:00,4.0,6535.43,False
+Kettle_2014-09-29_02,Kettle,Appliance9,Non-shiftable,2014-09-29 13:54:00,2014-09-29 13:56:00,2.0,3379.5,False
+Kettle_2014-09-29_03,Kettle,Appliance9,Non-shiftable,2014-09-29 17:20:00,2014-09-29 17:24:00,4.0,7213.03,False
+Kettle_2014-09-29_04,Kettle,Appliance9,Non-shiftable,2014-09-29 17:56:00,2014-09-29 17:58:00,2.0,1611.58,False
+Kettle_2014-09-30_01,Kettle,Appliance9,Non-shiftable,2014-09-30 06:32:00,2014-09-30 06:35:00,3.0,7241.81,False
+Kettle_2014-09-30_02,Kettle,Appliance9,Non-shiftable,2014-09-30 16:25:00,2014-09-30 16:28:00,3.0,5238.55,False
+Kettle_2014-09-30_03,Kettle,Appliance9,Non-shiftable,2014-09-30 17:17:00,2014-09-30 17:20:00,3.0,4144.14,False
+Kettle_2014-09-30_04,Kettle,Appliance9,Non-shiftable,2014-09-30 17:47:00,2014-09-30 20:55:00,188.0,11058.71,False

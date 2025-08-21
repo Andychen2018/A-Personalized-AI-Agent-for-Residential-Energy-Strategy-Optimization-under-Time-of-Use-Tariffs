@@ -2,7 +2,7 @@
   "house_id": "house6",
   "tariff_type": "UK",
   "total_appliances": 9,
-  "total_events": 26778,
+  "total_events": 24711,
   "appliance_names": [
     "Freezer",
     "Washing Machine",
@@ -15,7 +15,7 @@
     "PGM Computer"
   ],
   "appliance_counts": {
-    "Freezer": 17507,
+    "Freezer": 15440,
     "Kettle": 3678,
     "Television Site": 1874,
     "Microwave": 1824,

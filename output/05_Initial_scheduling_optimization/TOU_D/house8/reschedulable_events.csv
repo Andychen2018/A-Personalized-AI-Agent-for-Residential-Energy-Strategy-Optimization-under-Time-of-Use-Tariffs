@@ -1,0 +1,14 @@
+event_id,appliance_name,appliance_id,Shiftability,start_time,end_time,duration(min),energy(W),is_reschedulable,price_level_profile,primary_price_level,start_price_level,end_price_level,optimization_potential,month
+Dryer_2014-01-15_01,Dryer,Appliance3,Shiftable,2014-01-15 17:28:00,2014-01-15 17:48:00,20.0,5668.57,True,"{""0"": 0, ""1"": 0, ""2"": 20}",2,2,2,1.0,1
+Dryer_2014-01-15_02,Dryer,Appliance3,Shiftable,2014-01-15 19:45:00,2014-01-15 20:02:00,17.0,264.15,True,"{""0"": 0, ""1"": 2, ""2"": 15}",2,2,1,1.0,1
+Dryer_2014-04-03_01,Dryer,Appliance3,Shiftable,2014-04-03 18:40:00,2014-04-03 18:53:00,13.0,3218.29,True,"{""0"": 0, ""1"": 0, ""2"": 13}",2,2,2,1.0,4
+Dryer_2014-04-10_01,Dryer,Appliance3,Shiftable,2014-04-10 18:51:00,2014-04-10 18:57:00,6.0,1353.14,True,"{""0"": 0, ""1"": 0, ""2"": 6}",2,2,2,1.0,4
+Dryer_2014-04-12_13,Dryer,Appliance3,Shiftable,2014-04-12 20:03:00,2014-04-12 20:24:00,21.0,2586.76,True,"{""0"": 0, ""1"": 21, ""2"": 0}",1,1,1,0.5,4
+Dryer_2014-05-25_01,Dryer,Appliance3,Shiftable,2014-05-25 18:12:00,2014-05-25 18:22:00,10.0,142.67,True,"{""0"": 0, ""1"": 0, ""2"": 10}",2,2,2,1.0,5
+Washing_Machine_2014-04-09_02,Washing Machine,Appliance4,Shiftable,2014-04-09 16:16:00,2014-04-09 17:05:00,49.0,25811.13,True,"{""0"": 44, ""1"": 0, ""2"": 5}",0,0,2,0.0,4
+Washing_Machine_2014-06-05_05,Washing Machine,Appliance4,Shiftable,2014-06-05 23:48:00,2014-06-06 01:06:00,78.0,48378.38,True,"{""0"": 0, ""1"": 12, ""2"": 0}",1,1,0,0.5,6
+Washing_Machine_2014-09-04_05,Washing Machine,Appliance4,Shiftable,2014-09-04 14:30:00,2014-09-04 14:36:00,6.0,324.57,True,"{""0"": 0, ""1"": 6, ""2"": 0}",1,1,1,0.5,9
+Washing_Machine_2014-11-01_01,Washing Machine,Appliance4,Shiftable,2014-11-01 17:56:00,2014-11-01 18:05:00,9.0,11574.31,True,"{""0"": 0, ""1"": 0, ""2"": 9}",2,2,2,1.0,11
+Washing_Machine_2014-11-01_02,Washing Machine,Appliance4,Shiftable,2014-11-01 18:14:00,2014-11-01 18:30:00,16.0,1118.35,True,"{""0"": 0, ""1"": 0, ""2"": 16}",2,2,2,1.0,11
+Washing_Machine_2015-01-03_02,Washing Machine,Appliance4,Shiftable,2015-01-03 18:27:00,2015-01-03 19:49:00,82.0,62225.86,True,"{""0"": 0, ""1"": 0, ""2"": 82}",2,2,2,1.0,1
+Washing_Machine_2015-01-03_03,Washing Machine,Appliance4,Shiftable,2015-01-03 19:50:00,2015-01-03 20:01:00,11.0,2299.57,True,"{""0"": 0, ""1"": 1, ""2"": 10}",2,2,1,1.0,1

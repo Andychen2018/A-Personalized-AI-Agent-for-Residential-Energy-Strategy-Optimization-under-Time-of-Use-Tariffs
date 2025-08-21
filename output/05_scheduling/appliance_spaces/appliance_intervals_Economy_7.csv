@@ -1,0 +1,49 @@
+appliance_name,tariff,price_level,start_minute,end_minute,start_time_48h,end_time_48h,duration_minutes,interval_type
+Chest Freezer,Economy_7,-1,0,390,00:00,06:30,390,FORBIDDEN
+Chest Freezer,Economy_7,0,390,450,06:30,07:30,60,AVAILABLE
+Chest Freezer,Economy_7,1,450,1380,07:30,23:00,930,AVAILABLE
+Chest Freezer,Economy_7,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Computer Site,Economy_7,-1,0,390,00:00,06:30,390,FORBIDDEN
+Computer Site,Economy_7,0,390,450,06:30,07:30,60,AVAILABLE
+Computer Site,Economy_7,1,450,1380,07:30,23:00,930,AVAILABLE
+Computer Site,Economy_7,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Dishwasher,Economy_7,-1,0,360,00:00,06:00,360,FORBIDDEN
+Dishwasher,Economy_7,0,360,450,06:00,07:30,90,AVAILABLE
+Dishwasher,Economy_7,1,450,1410,07:30,23:30,960,AVAILABLE
+Dishwasher,Economy_7,-1,1410,1800,23:30,30:00,390,FORBIDDEN
+Dishwasher,Economy_7,-1,1440,1800,24:00,30:00,360,FORBIDDEN
+Dishwasher,Economy_7,0,1800,1890,30:00,31:30,90,AVAILABLE
+Dishwasher,Economy_7,1,1890,2280,31:30,38:00,390,AVAILABLE
+Dishwasher,Economy_7,-1,2850,3240,47:30,54:00,390,FORBIDDEN
+Electric Heater,Economy_7,-1,0,390,00:00,06:30,390,FORBIDDEN
+Electric Heater,Economy_7,0,390,450,06:30,07:30,60,AVAILABLE
+Electric Heater,Economy_7,1,450,1380,07:30,23:00,930,AVAILABLE
+Electric Heater,Economy_7,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Fridge,Economy_7,-1,0,390,00:00,06:30,390,FORBIDDEN
+Fridge,Economy_7,0,390,450,06:30,07:30,60,AVAILABLE
+Fridge,Economy_7,1,450,1380,07:30,23:00,930,AVAILABLE
+Fridge,Economy_7,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Television Site,Economy_7,-1,0,390,00:00,06:30,390,FORBIDDEN
+Television Site,Economy_7,0,390,450,06:30,07:30,60,AVAILABLE
+Television Site,Economy_7,1,450,1380,07:30,23:00,930,AVAILABLE
+Television Site,Economy_7,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Tumble Dryer,Economy_7,-1,0,360,00:00,06:00,360,FORBIDDEN
+Tumble Dryer,Economy_7,0,360,450,06:00,07:30,90,AVAILABLE
+Tumble Dryer,Economy_7,1,450,1410,07:30,23:30,960,AVAILABLE
+Tumble Dryer,Economy_7,-1,1410,1800,23:30,30:00,390,FORBIDDEN
+Tumble Dryer,Economy_7,-1,1440,1800,24:00,30:00,360,FORBIDDEN
+Tumble Dryer,Economy_7,0,1800,1890,30:00,31:30,90,AVAILABLE
+Tumble Dryer,Economy_7,1,1890,2280,31:30,38:00,390,AVAILABLE
+Tumble Dryer,Economy_7,-1,2850,3240,47:30,54:00,390,FORBIDDEN
+Upright Freezer,Economy_7,-1,0,390,00:00,06:30,390,FORBIDDEN
+Upright Freezer,Economy_7,0,390,450,06:30,07:30,60,AVAILABLE
+Upright Freezer,Economy_7,1,450,1380,07:30,23:00,930,AVAILABLE
+Upright Freezer,Economy_7,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Washing Machine,Economy_7,-1,0,360,00:00,06:00,360,FORBIDDEN
+Washing Machine,Economy_7,0,360,450,06:00,07:30,90,AVAILABLE
+Washing Machine,Economy_7,1,450,1410,07:30,23:30,960,AVAILABLE
+Washing Machine,Economy_7,-1,1410,1800,23:30,30:00,390,FORBIDDEN
+Washing Machine,Economy_7,-1,1440,1800,24:00,30:00,360,FORBIDDEN
+Washing Machine,Economy_7,0,1800,1890,30:00,31:30,90,AVAILABLE
+Washing Machine,Economy_7,1,1890,2280,31:30,38:00,390,AVAILABLE
+Washing Machine,Economy_7,-1,2850,3240,47:30,54:00,390,FORBIDDEN

@@ -2,7 +2,7 @@
   "house_id": "house9",
   "tariff_type": "California",
   "total_appliances": 9,
-  "total_events": 20234,
+  "total_events": 20103,
   "appliance_names": [
     "Fridge-Freezer",
     "Washer Dryer",
@@ -15,7 +15,7 @@
     "Electric Heater"
   ],
   "appliance_counts": {
-    "Fridge-Freezer": 15250,
+    "Fridge-Freezer": 15119,
     "Kettle": 2688,
     "Dishwasher": 1091,
     "Washer Dryer": 495,

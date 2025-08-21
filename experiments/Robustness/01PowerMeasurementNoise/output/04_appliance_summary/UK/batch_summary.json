@@ -1,0 +1,17 @@
+{
+  "tariff_type": "UK",
+  "processed_houses": [
+    "house1",
+    "house2",
+    "house3",
+    "house20",
+    "house21"
+  ],
+  "failed_houses": [],
+  "total_houses": 5,
+  "success_count": 5,
+  "total_appliances": 45,
+  "total_events": 155289,
+  "total_reschedulable": 15,
+  "total_non_reschedulable": 30
+}

@@ -2,7 +2,7 @@
   "house_id": "house2",
   "tariff_type": "UK",
   "total_appliances": 9,
-  "total_events": 14869,
+  "total_events": 15102,
   "appliance_names": [
     "Fridge-Freezer",
     "Washing Machine",
@@ -15,7 +15,7 @@
     "Oven Extractor Fan"
   ],
   "appliance_counts": {
-    "Fridge-Freezer": 6931,
+    "Fridge-Freezer": 7164,
     "Kettle": 2801,
     "Dishwasher": 1373,
     "Television": 1334,

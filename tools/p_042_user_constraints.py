@@ -570,10 +570,9 @@ def main():
             print(f"🎯 Selected houses: {selected_houses}")
 
             # Get user inputs for batch processing
-            default_user_input = """Set forbidden operating time for Washing Machine, Tumble Dryer, and Dishwasher as 23:30 to 06:00 (next day);
-Ensure each event completes by 14:00 the next day (i.e., 38:00);
-Ignore events shorter than 5 minutes;
-Keep all other appliance rules as default."""
+            with open("./config/default_user_constrain.txt", "r", encoding="utf-8") as f:
+                default_user_input = f.read().strip()
+                print(f"default_user_input: {default_user_input}")
 
             print(f"\n📝 Enter user constraints for specific houses (optional):")
             print("You can specify constraints for individual houses or leave empty for default.")

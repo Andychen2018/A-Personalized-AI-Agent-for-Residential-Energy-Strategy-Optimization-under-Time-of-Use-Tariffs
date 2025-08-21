@@ -4,6 +4,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from typing import Dict, List
 import glob
+import logging
+
+# Suppress matplotlib INFO level logging messages
+logging.getLogger('matplotlib.category').setLevel(logging.WARNING)
+logging.getLogger('matplotlib').setLevel(logging.WARNING)
 
 plt.rcParams['font.family'] = 'DejaVu Sans'
 plt.rcParams['axes.unicode_minus'] = False
@@ -126,7 +131,7 @@ def batch_summarize_tariff_results(
 
     print(f"🚀 Starting batch tariff summary for {len(house_data_dict)} households...")
     print(f"📊 Tariff type: {tariff_type}")
-    print("=" * 80)
+    print("=" * 120)
 
     for i, house_id in enumerate(house_data_dict.keys(), 1):
         try:
@@ -146,7 +151,7 @@ def batch_summarize_tariff_results(
             failed_houses.append(house_id)
             continue
 
-        print("-" * 80)
+        print("-" * 110)
 
     # Overall summary
     print(f"\n🎉 Batch tariff summary completed!")
@@ -158,7 +163,7 @@ def batch_summarize_tariff_results(
 
     # Display recommendations summary
     print(f"\n📊 Tariff Recommendations Summary ({tariff_type}):")
-    print("-" * 60)
+    print("-" * 110)
     for house_id, result in results.items():
         if isinstance(result, dict) and 'recommended_tariff' in result:
             recommended = result['recommended_tariff']

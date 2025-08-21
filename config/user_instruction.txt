@@ -1,0 +1,5 @@
+For Washing Machine, Tumble Dryer, and Dishwasher:
+- Replace the default forbidden operating time with 23:30 to 06:00 (next day);
+- Set latest_finish to 14:00 of the next day (i.e., 38:00);
+- Ignore all events shorter than 5 minutes.
+Keep all other appliances with default scheduling rules.

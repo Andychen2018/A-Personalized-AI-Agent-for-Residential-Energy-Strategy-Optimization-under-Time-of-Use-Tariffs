@@ -1,0 +1,37 @@
+appliance_name,tariff,price_level,start_minute,end_minute,start_time_48h,end_time_48h,duration_minutes,interval_type
+Chest Freezer,Germany_Variable,-1,0,390,00:00,06:30,390,FORBIDDEN
+Chest Freezer,Germany_Variable,3,390,1380,06:30,23:00,990,AVAILABLE
+Chest Freezer,Germany_Variable,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Computer Site,Germany_Variable,-1,0,390,00:00,06:30,390,FORBIDDEN
+Computer Site,Germany_Variable,3,390,1380,06:30,23:00,990,AVAILABLE
+Computer Site,Germany_Variable,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Dishwasher,Germany_Variable,-1,0,360,00:00,06:00,360,FORBIDDEN
+Dishwasher,Germany_Variable,3,360,1410,06:00,23:30,1050,AVAILABLE
+Dishwasher,Germany_Variable,-1,1410,1800,23:30,30:00,390,FORBIDDEN
+Dishwasher,Germany_Variable,-1,1440,1800,24:00,30:00,360,FORBIDDEN
+Dishwasher,Germany_Variable,3,1800,2280,30:00,38:00,480,AVAILABLE
+Dishwasher,Germany_Variable,-1,2850,3240,47:30,54:00,390,FORBIDDEN
+Electric Heater,Germany_Variable,-1,0,390,00:00,06:30,390,FORBIDDEN
+Electric Heater,Germany_Variable,3,390,1380,06:30,23:00,990,AVAILABLE
+Electric Heater,Germany_Variable,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Fridge,Germany_Variable,-1,0,390,00:00,06:30,390,FORBIDDEN
+Fridge,Germany_Variable,3,390,1380,06:30,23:00,990,AVAILABLE
+Fridge,Germany_Variable,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Television Site,Germany_Variable,-1,0,390,00:00,06:30,390,FORBIDDEN
+Television Site,Germany_Variable,3,390,1380,06:30,23:00,990,AVAILABLE
+Television Site,Germany_Variable,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Tumble Dryer,Germany_Variable,-1,0,360,00:00,06:00,360,FORBIDDEN
+Tumble Dryer,Germany_Variable,3,360,1410,06:00,23:30,1050,AVAILABLE
+Tumble Dryer,Germany_Variable,-1,1410,1800,23:30,30:00,390,FORBIDDEN
+Tumble Dryer,Germany_Variable,-1,1440,1800,24:00,30:00,360,FORBIDDEN
+Tumble Dryer,Germany_Variable,3,1800,2280,30:00,38:00,480,AVAILABLE
+Tumble Dryer,Germany_Variable,-1,2850,3240,47:30,54:00,390,FORBIDDEN
+Upright Freezer,Germany_Variable,-1,0,390,00:00,06:30,390,FORBIDDEN
+Upright Freezer,Germany_Variable,3,390,1380,06:30,23:00,990,AVAILABLE
+Upright Freezer,Germany_Variable,-1,1380,1440,23:00,24:00,60,FORBIDDEN
+Washing Machine,Germany_Variable,-1,0,360,00:00,06:00,360,FORBIDDEN
+Washing Machine,Germany_Variable,3,360,1410,06:00,23:30,1050,AVAILABLE
+Washing Machine,Germany_Variable,-1,1410,1800,23:30,30:00,390,FORBIDDEN
+Washing Machine,Germany_Variable,-1,1440,1800,24:00,30:00,360,FORBIDDEN
+Washing Machine,Germany_Variable,3,1800,2280,30:00,38:00,480,AVAILABLE
+Washing Machine,Germany_Variable,-1,2850,3240,47:30,54:00,390,FORBIDDEN

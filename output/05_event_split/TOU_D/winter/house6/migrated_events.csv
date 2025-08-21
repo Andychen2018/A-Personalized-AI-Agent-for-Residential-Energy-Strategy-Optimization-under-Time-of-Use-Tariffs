@@ -1,0 +1,7 @@
+event_id,appliance_name,original_start_time,original_end_time,scheduled_start_time,scheduled_end_time,schedule_status,season,duration(min),energy(W)
+Washing_Machine_2013-12-28_03,Washing Machine,2013-12-28 15:10:00,2013-12-28 17:21:00,2013-12-29 06:00:00,2013-12-29 08:11:00,SUCCESS,winter,131.0,47925.25
+Washing_Machine_2013-12-28_05,Washing Machine,2013-12-28 19:23:00,2013-12-28 19:54:00,2013-12-29 08:11:00,2013-12-29 08:42:00,SUCCESS,winter,31.0,3248.65
+Dishwasher_2013-12-24_01,Dishwasher,2013-12-24 20:26:00,2013-12-24 22:24:00,2013-12-25 06:00:00,2013-12-25 07:58:00,SUCCESS,winter,118.0,76295.09
+Dishwasher_2015-01-04_01,Dishwasher,2015-01-04 19:08:00,2015-01-04 20:50:00,2015-01-05 06:00:00,2015-01-05 07:42:00,SUCCESS,winter,102.0,93150.97
+Dishwasher_2015-01-22_01,Dishwasher,2015-01-22 20:28:00,2015-01-22 21:02:00,2015-01-22 22:00:00,2015-01-22 22:34:00,SUCCESS,winter,34.0,35787.73
+PGM_Computer_2015-01-23_01,PGM Computer,2015-01-23 16:03:00,2015-01-23 17:35:00,2015-01-23 16:08:00,2015-01-23 17:40:00,SUCCESS,winter,92.0,5381.66

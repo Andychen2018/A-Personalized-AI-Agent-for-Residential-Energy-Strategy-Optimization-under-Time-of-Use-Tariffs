@@ -3,7 +3,14 @@
 Agent V2 Test - Appliance Information Standardization Module
 ===========================================================
 
-This module provides appliance information standardization functionality:
+This module provides a            results = batch_get_appliance_lists(
+                house_data_dict=house_appliances,
+                tariff_type=tariff_type
+            )
+
+            print(f"\n🎉 Batch analysis completed!")
+            print(f"📊 Results summary:")
+            print(f"  • Tariff type: {tariff_type}") information standardization functionality:
 - Extract appliance lists from event segments
 - Handle duplicate appliance names with automatic numbering
 - Support multiple tariff types (UK, Germany, California)
@@ -14,6 +21,7 @@ This module provides appliance information standardization functionality:
 import os
 import sys
 import json
+import argparse
 from typing import Dict, List, Optional
 
 # Add current directory to path for imports
@@ -65,7 +73,7 @@ def get_available_tariff_types() -> List[str]:
 def display_appliance_summary(summary: Dict):
     """Display a formatted appliance summary"""
     print(f"\n📊 Appliance Summary for {summary.get('house_id', 'Unknown').upper()}:")
-    print("=" * 60)
+    print("=" * 120)
     
     print(f"🏠 House ID: {summary.get('house_id', 'N/A')}")
     print(f"💰 Tariff Type: {summary.get('tariff_type', 'N/A')}")
@@ -94,29 +102,28 @@ def display_appliance_summary(summary: Dict):
             print(f"  • {appliance_id}: {appliance_name}{original_note} - {status}")
 
 
-def main():
-    """Main function for interactive appliance information standardization"""
+def main(mode, tariff_type, house_id):
+    """
+    Main function for interactive appliance information standardization
+
+    Args:
+        mode: Processing mode (1=single, 2=batch, 3=test duplicates)
+        tariff_type: Tariff type (UK, Germany, California)
+        house_id: House ID for single household mode
+    """
     print("🚀 Starting Agent V2 Test - Appliance Information Standardization Module")
-    print("=" * 80)
-    
+    print("=" * 120)
+
     # Display available tariff types
     available_types = get_available_tariff_types()
     print("📊 Available tariff types:")
-    for i, tariff_type in enumerate(available_types, 1):
-        print(f"  {i}. {tariff_type}")
+    for i, tariff_name in enumerate(available_types, 1):
+        print(f"  {i}. {tariff_name}")
+
+    print("\n" + "=" * 120)
     
-    print("\n" + "=" * 80)
-    print("Please select processing mode:")
-    print("1. Single household analysis (Default)")
-    print("2. Batch analysis - All households")
-    print("3. Test duplicate name handling")
-    
-    try:
-        choice = input("Please enter your choice (1/2/3) [Default: 1]: ").strip()
-        if not choice:
-            choice = "1"
-        
-        if choice == "3":
+    try:        
+        if mode == 3:
             # Test duplicate name handling
             print("\n🧪 Testing duplicate name handling...")
             test_data = [
@@ -139,45 +146,26 @@ def main():
             
             return
         
-        # Select tariff type
-        print("\nSelect tariff type:")
-        for i, tariff_type in enumerate(available_types, 1):
-            print(f"  {i}. {tariff_type}")
+        # Validate tariff type
+        if tariff_type not in available_types:
+            print(f"Warning: {tariff_type} not in available types, using UK as default")
+            tariff_type = "UK"
         
-        tariff_choice = input(f"Please enter your choice (1-{len(available_types)}) [Default: 1]: ").strip()
-        if not tariff_choice:
-            tariff_choice = "1"
-        
-        try:
-            tariff_index = int(tariff_choice) - 1
-            if 0 <= tariff_index < len(available_types):
-                selected_tariff = available_types[tariff_index]
-            else:
-                print("Invalid choice, using UK as default")
-                selected_tariff = "UK"
-        except ValueError:
-            print("Invalid input, using UK as default")
-            selected_tariff = "UK"
-        
-        print(f"\n✅ Selected tariff type: {selected_tariff}")
+        print(f"\n✅ Selected tariff type: {tariff_type}")
         
         # Load house configuration
         house_appliances = load_house_appliances_config()
         
-        if choice == "1":
+        if mode == 1:
             # Single household mode
-            print(f"\n📋 Available households: {list(house_appliances.keys())}")
-            house_input = input("Enter house ID (e.g., house1) [Default: house1]: ").strip()
-            if not house_input:
-                house_input = "house1"
             
-            if house_input not in house_appliances:
-                print(f"❌ House {house_input} not found in configuration")
+            if house_id not in house_appliances:
+                print(f"❌ House {house_id} not found in configuration")
                 return
             
             summary = single_house_appliance_analysis(
-                house_id=house_input,
-                tariff_type=selected_tariff
+                house_id=house_id,
+                tariff_type=tariff_type
             )
             
             if summary:
@@ -186,38 +174,43 @@ def main():
             else:
                 print(f"\n❌ Analysis failed")
         
-        elif choice == "2":
+        elif mode == 2:
             # Batch mode
             results = batch_get_appliance_lists(
                 house_data_dict=house_appliances,
-                tariff_type=selected_tariff
+                tariff_type=tariff_type
             )
+
+            print(f"\n🎉 Batch analysis completed!")
+            print(f"📊 Results summary:")
+            print(f"  • Tariff type: {tariff_type}")
+            print(f"  • Total houses processed: {len(results)}")
 
             print(f"\n�� Batch analysis completed!")
             print(f"📊 Results summary:")
-            print(f"  • Tariff type: {selected_tariff}")
+            print(f"  • Tariff type: {tariff_type}")
             print(f"  • Total processed: {len(results)}")
 
             # Show detailed results for all households
             if results:
-                print(f"\n" + "=" * 100)
+                print(f"\n" + "=" * 120)
                 print(f"📋 DETAILED RESULTS FOR ALL {len(results)} HOUSEHOLDS")
-                print("=" * 100)
+                print("=" * 120)
 
                 # Sort houses by house number for better display
                 sorted_houses = sorted(results.keys(), key=lambda x: int(x.replace('house', '')))
 
                 for i, house_id in enumerate(sorted_houses, 1):
-                    print(f"\n[{i}/{len(results)}] " + "=" * 80)
+                    print(f"\n[{i}/{len(results)}] " + "=" * 120)
                     display_appliance_summary(results[house_id])
 
                     # Add separator between houses (except for the last one)
                     if i < len(results):
-                        print("\n" + "-" * 100)
+                        print("\n" + "-" * 110)
 
-                print(f"\n" + "=" * 100)
+                print(f"\n" + "=" * 120)
                 print(f"🎯 ALL {len(results)} HOUSEHOLD SUMMARIES COMPLETED!")
-                print("=" * 100)
+                print("=" * 120)
         
         else:
             print("❌ Invalid choice")
@@ -229,5 +222,32 @@ def main():
         print(f"\n❌ Unexpected error: {str(e)}")
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Agent V2 Test - Appliance Information Standardization Module")
+    parser.add_argument(
+        "--mode", 
+        type=int, 
+        default=1,
+        choices=[1, 2, 3],
+        help="Processing mode: 1=Single household (default), 2=Batch analysis, 3=Test duplicate handling"
+    )
+    parser.add_argument(
+        "--tariff-type", 
+        type=str, 
+        default="UK",
+        choices=["UK", "Germany", "California"],
+        help="Tariff type (default: UK)"
+    )
+    parser.add_argument(
+        "--house-id", 
+        type=str, 
+        default="house1",
+        help="House ID for single household mode (default: house1)"
+    )
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    print("args:", args)
+    main(args.mode, args.tariff_type, args.house_id)

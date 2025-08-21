@@ -2,7 +2,7 @@
   "house_id": "house16",
   "tariff_type": "UK",
   "total_appliances": 9,
-  "total_events": 18186,
+  "total_events": 21210,
   "appliance_names": [
     "Fridge-Freezer (1)",
     "Fridge-Freezer (2)",
@@ -15,8 +15,8 @@
     "Electric Heater(3)"
   ],
   "appliance_counts": {
-    "Fridge-Freezer (2)": 9986,
-    "Fridge-Freezer (1)": 3559,
+    "Fridge-Freezer (2)": 9985,
+    "Fridge-Freezer (1)": 6584,
     "Electric Heater(3)": 1306,
     "Television Site": 1110,
     "Electric Heater (2)": 803,

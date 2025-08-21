@@ -1,0 +1,701 @@
+{
+  "Fridge-Freezer (1)": {
+    "appliance_name": "Fridge-Freezer (1)",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        840
+      ],
+      [
+        840,
+        1020
+      ],
+      [
+        1020,
+        1200
+      ],
+      [
+        1200,
+        1320
+      ],
+      [
+        1320,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          1020
+        ],
+        [
+          1320,
+          1380
+        ]
+      ],
+      "2": [
+        [
+          1020,
+          1200
+        ]
+      ],
+      "1": [
+        [
+          1200,
+          1320
+        ]
+      ]
+    }
+  },
+  "Fridge-Freezer (2)": {
+    "appliance_name": "Fridge-Freezer (2)",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        840
+      ],
+      [
+        840,
+        1020
+      ],
+      [
+        1020,
+        1200
+      ],
+      [
+        1200,
+        1320
+      ],
+      [
+        1320,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          1020
+        ],
+        [
+          1320,
+          1380
+        ]
+      ],
+      "2": [
+        [
+          1020,
+          1200
+        ]
+      ],
+      "1": [
+        [
+          1200,
+          1320
+        ]
+      ]
+    }
+  },
+  "Electric Heater": {
+    "appliance_name": "Electric Heater",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        840
+      ],
+      [
+        840,
+        1020
+      ],
+      [
+        1020,
+        1200
+      ],
+      [
+        1200,
+        1320
+      ],
+      [
+        1320,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          1020
+        ],
+        [
+          1320,
+          1380
+        ]
+      ],
+      "2": [
+        [
+          1020,
+          1200
+        ]
+      ],
+      "1": [
+        [
+          1200,
+          1320
+        ]
+      ]
+    }
+  },
+  "Electric Heater (2)": {
+    "appliance_name": "Electric Heater (2)",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        840
+      ],
+      [
+        840,
+        1020
+      ],
+      [
+        1020,
+        1200
+      ],
+      [
+        1200,
+        1320
+      ],
+      [
+        1320,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          1020
+        ],
+        [
+          1320,
+          1380
+        ]
+      ],
+      "2": [
+        [
+          1020,
+          1200
+        ]
+      ],
+      "1": [
+        [
+          1200,
+          1320
+        ]
+      ]
+    }
+  },
+  "Washing Machine": {
+    "appliance_name": "Washing Machine",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:00"
+        ],
+        [
+          "23:30",
+          "30:00"
+        ]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 2280,
+    "forbidden_intervals": [
+      [
+        0,
+        360
+      ],
+      [
+        1410,
+        1800
+      ]
+    ],
+    "available_intervals": [
+      [
+        360,
+        840
+      ],
+      [
+        1800,
+        2280
+      ],
+      [
+        840,
+        1020
+      ],
+      [
+        1020,
+        1200
+      ],
+      [
+        1200,
+        1320
+      ],
+      [
+        1320,
+        1410
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          360,
+          840
+        ],
+        [
+          1800,
+          2280
+        ],
+        [
+          840,
+          1020
+        ],
+        [
+          1320,
+          1410
+        ]
+      ],
+      "2": [
+        [
+          1020,
+          1200
+        ]
+      ],
+      "1": [
+        [
+          1200,
+          1320
+        ]
+      ]
+    }
+  },
+  "Dishwasher": {
+    "appliance_name": "Dishwasher",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:00"
+        ],
+        [
+          "23:30",
+          "30:00"
+        ]
+      ],
+      "latest_finish": "38:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 2280,
+    "forbidden_intervals": [
+      [
+        0,
+        360
+      ],
+      [
+        1410,
+        1800
+      ]
+    ],
+    "available_intervals": [
+      [
+        360,
+        840
+      ],
+      [
+        1800,
+        2280
+      ],
+      [
+        840,
+        1020
+      ],
+      [
+        1020,
+        1200
+      ],
+      [
+        1200,
+        1320
+      ],
+      [
+        1320,
+        1410
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          360,
+          840
+        ],
+        [
+          1800,
+          2280
+        ],
+        [
+          840,
+          1020
+        ],
+        [
+          1320,
+          1410
+        ]
+      ],
+      "2": [
+        [
+          1020,
+          1200
+        ]
+      ],
+      "1": [
+        [
+          1200,
+          1320
+        ]
+      ]
+    }
+  },
+  "Computer Site": {
+    "appliance_name": "Computer Site",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        840
+      ],
+      [
+        840,
+        1020
+      ],
+      [
+        1020,
+        1200
+      ],
+      [
+        1200,
+        1320
+      ],
+      [
+        1320,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          1020
+        ],
+        [
+          1320,
+          1380
+        ]
+      ],
+      "2": [
+        [
+          1020,
+          1200
+        ]
+      ],
+      "1": [
+        [
+          1200,
+          1320
+        ]
+      ]
+    }
+  },
+  "Television Site": {
+    "appliance_name": "Television Site",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        840
+      ],
+      [
+        840,
+        1020
+      ],
+      [
+        1020,
+        1200
+      ],
+      [
+        1200,
+        1320
+      ],
+      [
+        1320,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          1020
+        ],
+        [
+          1320,
+          1380
+        ]
+      ],
+      "2": [
+        [
+          1020,
+          1200
+        ]
+      ],
+      "1": [
+        [
+          1200,
+          1320
+        ]
+      ]
+    }
+  },
+  "Electric Heater(3)": {
+    "appliance_name": "Electric Heater(3)",
+    "constraints": {
+      "forbidden_time": [
+        [
+          "00:00",
+          "06:30"
+        ],
+        [
+          "23:00",
+          "24:00"
+        ]
+      ],
+      "latest_finish": "24:00",
+      "shift_rule": "only_delay",
+      "min_duration": 5
+    },
+    "latest_finish_minutes": 1440,
+    "forbidden_intervals": [
+      [
+        0,
+        390
+      ],
+      [
+        1380,
+        1440
+      ]
+    ],
+    "available_intervals": [
+      [
+        390,
+        840
+      ],
+      [
+        840,
+        1020
+      ],
+      [
+        1020,
+        1200
+      ],
+      [
+        1200,
+        1320
+      ],
+      [
+        1320,
+        1380
+      ]
+    ],
+    "price_level_intervals": {
+      "0": [
+        [
+          390,
+          1020
+        ],
+        [
+          1320,
+          1380
+        ]
+      ],
+      "2": [
+        [
+          1020,
+          1200
+        ]
+      ],
+      "1": [
+        [
+          1200,
+          1320
+        ]
+      ]
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "house_id": "house8",
   "tariff_type": "California",
   "total_appliances": 9,
-  "total_events": 27618,
+  "total_events": 27179,
   "appliance_names": [
     "Fridge",
     "Freezer",
@@ -15,8 +15,8 @@
     "Kettle"
   ],
   "appliance_counts": {
-    "Freezer": 11741,
-    "Fridge": 9725,
+    "Freezer": 11636,
+    "Fridge": 9391,
     "Kettle": 2813,
     "Microwave": 1522,
     "Dryer": 661,

@@ -1,0 +1,4 @@
+Set forbidden operating time for Washing Machine, Tumble Dryer, and Dishwasher as 23:30 to 06:00 (next day);
+Ensure each event completes by 14:00 the next day (i.e., 38:00);
+Ignore events shorter than 5 minutes;
+Keep all other appliance rules as default.

@@ -1,0 +1,181 @@
+event_id,appliance_name,appliance_id,Shiftability,start_time,end_time,duration(min),energy(W),is_reschedulable,price_level_profile,primary_price_level,start_price_level,end_price_level,optimization_potential
+Dryer_2013-11-04_02,Dryer,Appliance3,Shiftable,2013-11-04 12:08:00,2013-11-04 12:13:00,5.0,133.08,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+Dryer_2013-11-27_01,Dryer,Appliance3,Shiftable,2013-11-27 09:38:00,2013-11-27 09:43:00,5.0,640.0,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+Dryer_2013-11-30_03,Dryer,Appliance3,Shiftable,2013-11-30 07:27:00,2013-11-30 07:33:00,6.0,220.64,True,"{""0"": 3, ""1"": 3}",0,0,1,0.0
+Dryer_2013-11-30_04,Dryer,Appliance3,Shiftable,2013-11-30 07:35:00,2013-11-30 07:42:00,7.0,253.1,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+Dryer_2013-12-08_05,Dryer,Appliance3,Shiftable,2013-12-08 07:36:00,2013-12-08 07:41:00,5.0,204.84,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+Dryer_2013-12-14_07,Dryer,Appliance3,Shiftable,2013-12-14 07:28:00,2013-12-14 07:34:00,6.0,182.44,True,"{""0"": 2, ""1"": 4}",1,0,1,1.0
+Dryer_2013-12-21_05,Dryer,Appliance3,Shiftable,2013-12-21 07:28:00,2013-12-21 07:36:00,8.0,169.73,True,"{""0"": 2, ""1"": 6}",1,0,1,1.0
+Dryer_2013-12-21_06,Dryer,Appliance3,Shiftable,2013-12-21 07:37:00,2013-12-21 07:45:00,8.0,282.1,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+Dryer_2013-12-24_07,Dryer,Appliance3,Shiftable,2013-12-24 07:31:00,2013-12-24 07:37:00,6.0,278.77,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dryer_2013-12-31_01,Dryer,Appliance3,Shiftable,2013-12-31 06:58:00,2013-12-31 07:31:00,33.0,30123.47,True,"{""0"": 32, ""1"": 1}",0,0,1,0.0
+Dryer_2013-12-31_02,Dryer,Appliance3,Shiftable,2013-12-31 07:32:00,2013-12-31 07:43:00,11.0,410.12,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+Dryer_2013-12-31_03,Dryer,Appliance3,Shiftable,2013-12-31 07:44:00,2013-12-31 07:54:00,10.0,339.5,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+Dryer_2014-01-08_03,Dryer,Appliance3,Shiftable,2014-01-08 07:33:00,2014-01-08 07:42:00,9.0,238.55,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Dryer_2014-01-08_04,Dryer,Appliance3,Shiftable,2014-01-08 07:43:00,2014-01-08 07:52:00,9.0,316.1,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Dryer_2014-01-15_01,Dryer,Appliance3,Shiftable,2014-01-15 17:28:00,2014-01-15 17:48:00,20.0,5668.57,True,"{""0"": 0, ""1"": 20}",1,1,1,1.0
+Dryer_2014-01-15_02,Dryer,Appliance3,Shiftable,2014-01-15 19:45:00,2014-01-15 20:02:00,17.0,264.15,True,"{""0"": 0, ""1"": 17}",1,1,1,1.0
+Dryer_2014-03-12_01,Dryer,Appliance3,Shiftable,2014-03-12 10:24:00,2014-03-12 10:30:00,6.0,144.7,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dryer_2014-03-12_02,Dryer,Appliance3,Shiftable,2014-03-12 10:39:00,2014-03-12 10:46:00,7.0,108.03,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+Dryer_2014-03-12_03,Dryer,Appliance3,Shiftable,2014-03-12 10:50:00,2014-03-12 10:56:00,6.0,30.71,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dryer_2014-03-21_05,Dryer,Appliance3,Shiftable,2014-03-21 07:27:00,2014-03-21 07:33:00,6.0,237.11,True,"{""0"": 3, ""1"": 3}",0,0,1,0.0
+Dryer_2014-04-03_01,Dryer,Appliance3,Shiftable,2014-04-03 18:40:00,2014-04-03 18:53:00,13.0,3218.29,True,"{""0"": 0, ""1"": 13}",1,1,1,1.0
+Dryer_2014-04-10_01,Dryer,Appliance3,Shiftable,2014-04-10 18:51:00,2014-04-10 18:57:00,6.0,1353.14,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dryer_2014-04-12_13,Dryer,Appliance3,Shiftable,2014-04-12 20:03:00,2014-04-12 20:24:00,21.0,2586.76,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+Dryer_2014-04-12_15,Dryer,Appliance3,Shiftable,2014-04-12 23:37:00,2014-04-12 23:42:00,5.0,510.84,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+Dryer_2014-04-20_01,Dryer,Appliance3,Shiftable,2014-04-20 00:20:00,2014-04-20 00:55:00,35.0,35441.03,True,"{""0"": 25, ""1"": 10}",0,1,0,0.0
+Dryer_2014-04-25_01,Dryer,Appliance3,Shiftable,2014-04-25 08:23:00,2014-04-25 08:28:00,5.0,3624.13,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+Dryer_2014-05-17_01,Dryer,Appliance3,Shiftable,2014-05-17 07:25:00,2014-05-17 08:41:00,76.0,3093.89,True,"{""0"": 5, ""1"": 71}",1,0,1,1.0
+Dryer_2014-05-25_01,Dryer,Appliance3,Shiftable,2014-05-25 18:12:00,2014-05-25 18:22:00,10.0,142.67,True,"{""0"": 0, ""1"": 10}",1,1,1,1.0
+Dryer_2014-06-03_01,Dryer,Appliance3,Shiftable,2014-06-03 00:25:00,2014-06-03 01:00:00,35.0,35656.28,True,"{""0"": 30, ""1"": 5}",0,1,0,0.0
+Dryer_2014-08-16_01,Dryer,Appliance3,Shiftable,2014-08-16 06:56:00,2014-08-16 07:31:00,35.0,36618.71,True,"{""0"": 34, ""1"": 1}",0,0,1,0.0
+Dryer_2014-08-16_11,Dryer,Appliance3,Shiftable,2014-08-16 07:56:00,2014-08-16 08:01:00,5.0,121.28,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+Dryer_2014-10-04_01,Dryer,Appliance3,Shiftable,2014-10-04 06:45:00,2014-10-04 07:40:00,55.0,31413.02,True,"{""0"": 45, ""1"": 10}",0,0,1,0.0
+Dryer_2014-10-11_06,Dryer,Appliance3,Shiftable,2014-10-11 07:40:00,2014-10-11 07:48:00,8.0,182.89,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+Dryer_2014-10-14_01,Dryer,Appliance3,Shiftable,2014-10-14 06:54:00,2014-10-14 07:31:00,37.0,48824.15,True,"{""0"": 36, ""1"": 1}",0,0,1,0.0
+Dryer_2014-10-14_02,Dryer,Appliance3,Shiftable,2014-10-14 07:32:00,2014-10-14 07:55:00,23.0,636.17,True,"{""0"": 0, ""1"": 23}",1,1,1,1.0
+Dryer_2014-10-18_01,Dryer,Appliance3,Shiftable,2014-10-18 06:52:00,2014-10-18 07:39:00,47.0,35447.67,True,"{""0"": 38, ""1"": 9}",0,0,1,0.0
+Dryer_2014-10-18_03,Dryer,Appliance3,Shiftable,2014-10-18 07:44:00,2014-10-18 07:50:00,6.0,117.94,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dryer_2014-10-22_01,Dryer,Appliance3,Shiftable,2014-10-22 07:30:00,2014-10-22 08:07:00,37.0,41033.88,True,"{""0"": 0, ""1"": 37}",1,1,1,1.0
+Dryer_2014-10-22_02,Dryer,Appliance3,Shiftable,2014-10-22 08:08:00,2014-10-22 08:24:00,16.0,327.38,True,"{""0"": 0, ""1"": 16}",1,1,1,1.0
+Dryer_2014-10-22_03,Dryer,Appliance3,Shiftable,2014-10-22 08:25:00,2014-10-22 08:36:00,11.0,365.43,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+Dryer_2014-11-06_03,Dryer,Appliance3,Shiftable,2014-11-06 07:31:00,2014-11-06 07:40:00,9.0,257.49,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Dryer_2014-11-06_04,Dryer,Appliance3,Shiftable,2014-11-06 07:41:00,2014-11-06 07:47:00,6.0,145.25,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dryer_2014-11-07_03,Dryer,Appliance3,Shiftable,2014-11-07 07:23:00,2014-11-07 07:31:00,8.0,174.51,True,"{""0"": 7, ""1"": 1}",0,0,1,0.0
+Dryer_2014-11-07_04,Dryer,Appliance3,Shiftable,2014-11-07 07:32:00,2014-11-07 07:39:00,7.0,183.43,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+Dryer_2014-11-07_05,Dryer,Appliance3,Shiftable,2014-11-07 07:40:00,2014-11-07 07:46:00,6.0,152.28,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dryer_2015-01-04_01,Dryer,Appliance3,Shiftable,2015-01-04 07:36:00,2015-01-04 08:12:00,36.0,50882.76,True,"{""0"": 0, ""1"": 36}",1,1,1,1.0
+Dryer_2015-01-04_03,Dryer,Appliance3,Shiftable,2015-01-04 08:16:00,2015-01-04 08:37:00,21.0,564.4,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+Dryer_2015-02-26_04,Dryer,Appliance3,Shiftable,2015-02-26 07:02:00,2015-02-26 07:32:00,30.0,27889.89,True,"{""0"": 28, ""1"": 2}",0,0,1,0.0
+Dryer_2015-04-10_02,Dryer,Appliance3,Shiftable,2015-04-10 07:21:00,2015-04-10 07:31:00,10.0,398.89,True,"{""0"": 9, ""1"": 1}",0,0,1,0.0
+Dryer_2015-04-10_03,Dryer,Appliance3,Shiftable,2015-04-10 07:32:00,2015-04-10 07:39:00,7.0,126.4,True,"{""0"": 0, ""1"": 7}",1,1,1,1.0
+Dryer_2015-05-06_01,Dryer,Appliance3,Shiftable,2015-05-06 07:11:00,2015-05-06 07:36:00,25.0,29250.23,True,"{""0"": 19, ""1"": 6}",0,0,1,0.0
+Dryer_2015-05-06_04,Dryer,Appliance3,Shiftable,2015-05-06 07:43:00,2015-05-06 07:49:00,6.0,126.5,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Dryer_2015-05-06_05,Dryer,Appliance3,Shiftable,2015-05-06 07:53:00,2015-05-06 08:02:00,9.0,261.61,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Dryer_2015-05-10_03,Dryer,Appliance3,Shiftable,2015-05-10 07:36:00,2015-05-10 07:45:00,9.0,178.0,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Dryer_2015-05-10_05,Dryer,Appliance3,Shiftable,2015-05-10 07:49:00,2015-05-10 07:55:00,6.0,162.94,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Washing_Machine_2013-11-07_01,Washing Machine,Appliance4,Shiftable,2013-11-07 06:38:00,2013-11-07 08:04:00,86.0,84292.31,True,"{""0"": 52, ""1"": 34}",0,0,1,0.0
+Washing_Machine_2013-11-07_02,Washing Machine,Appliance4,Shiftable,2013-11-07 08:19:00,2013-11-07 09:17:00,58.0,43748.4,True,"{""0"": 0, ""1"": 58}",1,1,1,1.0
+Washing_Machine_2013-11-14_02,Washing Machine,Appliance4,Shiftable,2013-11-14 06:34:00,2013-11-14 07:42:00,68.0,60278.85,True,"{""0"": 56, ""1"": 12}",0,0,1,0.0
+Washing_Machine_2013-11-15_01,Washing Machine,Appliance4,Shiftable,2013-11-15 06:58:00,2013-11-15 08:02:00,64.0,52585.61,True,"{""0"": 32, ""1"": 32}",0,0,1,0.0
+Washing_Machine_2013-11-18_03,Washing Machine,Appliance4,Shiftable,2013-11-18 07:15:00,2013-11-18 07:42:00,27.0,3461.45,True,"{""0"": 15, ""1"": 12}",0,0,1,0.0
+Washing_Machine_2013-11-21_02,Washing Machine,Appliance4,Shiftable,2013-11-21 06:49:00,2013-11-21 08:16:00,87.0,86277.76,True,"{""0"": 41, ""1"": 46}",1,0,1,1.0
+Washing_Machine_2013-11-22_01,Washing Machine,Appliance4,Shiftable,2013-11-22 06:28:00,2013-11-22 07:56:00,88.0,97157.21,True,"{""0"": 62, ""1"": 26}",0,0,1,0.0
+Washing_Machine_2013-11-28_01,Washing Machine,Appliance4,Shiftable,2013-11-28 06:42:00,2013-11-28 07:50:00,68.0,67136.52,True,"{""0"": 48, ""1"": 20}",0,0,1,0.0
+Washing_Machine_2013-11-28_02,Washing Machine,Appliance4,Shiftable,2013-11-28 07:58:00,2013-11-28 09:14:00,76.0,73267.39,True,"{""0"": 0, ""1"": 76}",1,1,1,1.0
+Washing_Machine_2013-11-29_02,Washing Machine,Appliance4,Shiftable,2013-11-29 07:18:00,2013-11-29 08:22:00,64.0,51949.21,True,"{""0"": 12, ""1"": 52}",1,0,1,1.0
+Washing_Machine_2013-12-05_01,Washing Machine,Appliance4,Shiftable,2013-12-05 06:39:00,2013-12-05 08:19:00,100.0,107000.92,True,"{""0"": 51, ""1"": 49}",0,0,1,0.0
+Washing_Machine_2013-12-05_02,Washing Machine,Appliance4,Shiftable,2013-12-05 11:23:00,2013-12-05 12:17:00,54.0,36625.96,True,"{""0"": 0, ""1"": 54}",1,1,1,1.0
+Washing_Machine_2013-12-06_01,Washing Machine,Appliance4,Shiftable,2013-12-06 07:29:00,2013-12-06 08:30:00,61.0,46771.04,True,"{""0"": 1, ""1"": 60}",1,0,1,1.0
+Washing_Machine_2013-12-12_02,Washing Machine,Appliance4,Shiftable,2013-12-12 06:52:00,2013-12-12 08:03:00,71.0,74864.42,True,"{""0"": 38, ""1"": 33}",0,0,1,0.0
+Washing_Machine_2013-12-13_01,Washing Machine,Appliance4,Shiftable,2013-12-13 07:12:00,2013-12-13 08:13:00,61.0,52782.33,True,"{""0"": 18, ""1"": 43}",1,0,1,1.0
+Washing_Machine_2013-12-19_01,Washing Machine,Appliance4,Shiftable,2013-12-19 06:32:00,2013-12-19 08:05:00,93.0,95533.15,True,"{""0"": 58, ""1"": 35}",0,0,1,0.0
+Washing_Machine_2013-12-20_01,Washing Machine,Appliance4,Shiftable,2013-12-20 06:56:00,2013-12-20 08:31:00,95.0,106507.64,True,"{""0"": 34, ""1"": 61}",1,0,1,1.0
+Washing_Machine_2013-12-20_02,Washing Machine,Appliance4,Shiftable,2013-12-20 08:44:00,2013-12-20 09:19:00,35.0,19976.68,True,"{""0"": 0, ""1"": 35}",1,1,1,1.0
+Washing_Machine_2013-12-20_03,Washing Machine,Appliance4,Shiftable,2013-12-20 10:00:00,2013-12-20 10:11:00,11.0,2185.81,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+Washing_Machine_2013-12-21_01,Washing Machine,Appliance4,Shiftable,2013-12-21 10:41:00,2013-12-21 11:39:00,58.0,41889.32,True,"{""0"": 0, ""1"": 58}",1,1,1,1.0
+Washing_Machine_2013-12-24_04,Washing Machine,Appliance4,Shiftable,2013-12-24 06:49:00,2013-12-24 07:35:00,46.0,78317.52,True,"{""0"": 41, ""1"": 5}",0,0,1,0.0
+Washing_Machine_2013-12-24_05,Washing Machine,Appliance4,Shiftable,2013-12-24 07:36:00,2013-12-24 08:11:00,35.0,4724.45,True,"{""0"": 0, ""1"": 35}",1,1,1,1.0
+Washing_Machine_2013-12-31_01,Washing Machine,Appliance4,Shiftable,2013-12-31 06:57:00,2013-12-31 08:31:00,94.0,96166.37,True,"{""0"": 33, ""1"": 61}",1,0,1,1.0
+Washing_Machine_2013-12-31_02,Washing Machine,Appliance4,Shiftable,2013-12-31 09:59:00,2013-12-31 11:16:00,77.0,79641.94,True,"{""0"": 0, ""1"": 77}",1,1,1,1.0
+Washing_Machine_2014-01-03_01,Washing Machine,Appliance4,Shiftable,2014-01-03 07:42:00,2014-01-03 09:07:00,85.0,86172.67,True,"{""0"": 0, ""1"": 85}",1,1,1,1.0
+Washing_Machine_2014-01-09_01,Washing Machine,Appliance4,Shiftable,2014-01-09 07:52:00,2014-01-09 09:05:00,73.0,71526.6,True,"{""0"": 0, ""1"": 73}",1,1,1,1.0
+Washing_Machine_2014-01-10_01,Washing Machine,Appliance4,Shiftable,2014-01-10 07:22:00,2014-01-10 08:18:00,56.0,48244.66,True,"{""0"": 8, ""1"": 48}",1,0,1,1.0
+Washing_Machine_2014-01-16_02,Washing Machine,Appliance4,Shiftable,2014-01-16 08:36:00,2014-01-16 09:54:00,78.0,58570.15,True,"{""0"": 0, ""1"": 78}",1,1,1,1.0
+Washing_Machine_2014-01-19_02,Washing Machine,Appliance4,Shiftable,2014-01-19 07:38:00,2014-01-19 08:57:00,79.0,56818.02,True,"{""0"": 0, ""1"": 79}",1,1,1,1.0
+Washing_Machine_2014-01-19_03,Washing Machine,Appliance4,Shiftable,2014-01-19 09:54:00,2014-01-19 10:05:00,11.0,2539.97,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+Washing_Machine_2014-03-13_02,Washing Machine,Appliance4,Shiftable,2014-03-13 07:10:00,2014-03-13 08:26:00,76.0,76523.68,True,"{""0"": 20, ""1"": 56}",1,0,1,1.0
+Washing_Machine_2014-03-15_04,Washing Machine,Appliance4,Shiftable,2014-03-15 07:09:00,2014-03-15 07:37:00,28.0,3549.99,True,"{""0"": 21, ""1"": 7}",0,0,1,0.0
+Washing_Machine_2014-03-20_01,Washing Machine,Appliance4,Shiftable,2014-03-20 06:25:00,2014-03-20 07:54:00,89.0,92971.6,True,"{""0"": 65, ""1"": 24}",0,0,1,0.0
+Washing_Machine_2014-03-20_02,Washing Machine,Appliance4,Shiftable,2014-03-20 09:15:00,2014-03-20 10:02:00,47.0,21508.29,True,"{""0"": 0, ""1"": 47}",1,1,1,1.0
+Washing_Machine_2014-03-21_01,Washing Machine,Appliance4,Shiftable,2014-03-21 06:51:00,2014-03-21 08:16:00,85.0,94170.04,True,"{""0"": 39, ""1"": 46}",1,0,1,1.0
+Washing_Machine_2014-03-27_01,Washing Machine,Appliance4,Shiftable,2014-03-27 06:36:00,2014-03-27 07:48:00,72.0,76288.61,True,"{""0"": 54, ""1"": 18}",0,0,1,0.0
+Washing_Machine_2014-03-28_01,Washing Machine,Appliance4,Shiftable,2014-03-28 07:12:00,2014-03-28 08:15:00,63.0,53246.14,True,"{""0"": 18, ""1"": 45}",1,0,1,1.0
+Washing_Machine_2014-04-09_02,Washing Machine,Appliance4,Shiftable,2014-04-09 16:16:00,2014-04-09 17:05:00,49.0,25811.13,True,"{""0"": 0, ""1"": 49}",1,1,1,1.0
+Washing_Machine_2014-04-10_03,Washing Machine,Appliance4,Shiftable,2014-04-10 07:59:00,2014-04-10 08:11:00,12.0,11691.06,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+Washing_Machine_2014-04-10_04,Washing Machine,Appliance4,Shiftable,2014-04-10 08:13:00,2014-04-10 08:34:00,21.0,995.48,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+Washing_Machine_2014-04-15_02,Washing Machine,Appliance4,Shiftable,2014-04-15 05:19:00,2014-04-15 07:40:00,141.0,107196.99,True,"{""0"": 131, ""1"": 10}",0,0,1,0.0
+Washing_Machine_2014-04-17_02,Washing Machine,Appliance4,Shiftable,2014-04-17 06:28:00,2014-04-17 07:48:00,80.0,78649.54,True,"{""0"": 62, ""1"": 18}",0,0,1,0.0
+Washing_Machine_2014-04-19_04,Washing Machine,Appliance4,Shiftable,2014-04-19 06:51:00,2014-04-19 07:44:00,53.0,31324.09,True,"{""0"": 39, ""1"": 14}",0,0,1,0.0
+Washing_Machine_2014-04-27_01,Washing Machine,Appliance4,Shiftable,2014-04-27 06:44:00,2014-04-27 07:34:00,50.0,39452.47,True,"{""0"": 46, ""1"": 4}",0,0,1,0.0
+Washing_Machine_2014-05-07_03,Washing Machine,Appliance4,Shiftable,2014-05-07 06:39:00,2014-05-07 07:37:00,58.0,43577.21,True,"{""0"": 51, ""1"": 7}",0,0,1,0.0
+Washing_Machine_2014-05-24_01,Washing Machine,Appliance4,Shiftable,2014-05-24 22:51:00,2014-05-24 22:59:00,8.0,148.68,True,"{""0"": 0, ""1"": 8}",1,1,1,1.0
+Washing_Machine_2014-05-27_01,Washing Machine,Appliance4,Shiftable,2014-05-27 07:37:00,2014-05-27 08:52:00,75.0,75774.07,True,"{""0"": 0, ""1"": 75}",1,1,1,1.0
+Washing_Machine_2014-05-27_02,Washing Machine,Appliance4,Shiftable,2014-05-27 09:07:00,2014-05-27 09:58:00,51.0,36814.64,True,"{""0"": 0, ""1"": 51}",1,1,1,1.0
+Washing_Machine_2014-05-30_03,Washing Machine,Appliance4,Shiftable,2014-05-30 08:49:00,2014-05-30 09:14:00,25.0,37068.87,True,"{""0"": 0, ""1"": 25}",1,1,1,1.0
+Washing_Machine_2014-05-30_04,Washing Machine,Appliance4,Shiftable,2014-05-30 10:08:00,2014-05-30 10:25:00,17.0,1781.23,True,"{""0"": 0, ""1"": 17}",1,1,1,1.0
+Washing_Machine_2014-06-03_01,Washing Machine,Appliance4,Shiftable,2014-06-03 00:26:00,2014-06-03 01:20:00,54.0,37771.25,True,"{""0"": 50, ""1"": 4}",0,1,0,0.0
+Washing_Machine_2014-06-04_01,Washing Machine,Appliance4,Shiftable,2014-06-04 23:58:00,2014-06-05 01:17:00,79.0,77463.21,True,"{""0"": 0, ""1"": 2}",1,1,0,1.0
+Washing_Machine_2014-06-05_05,Washing Machine,Appliance4,Shiftable,2014-06-05 23:48:00,2014-06-06 01:06:00,78.0,48378.38,True,"{""0"": 0, ""1"": 12}",1,1,0,1.0
+Washing_Machine_2014-06-06_03,Washing Machine,Appliance4,Shiftable,2014-06-06 08:51:00,2014-06-06 09:40:00,49.0,32669.64,True,"{""0"": 0, ""1"": 49}",1,1,1,1.0
+Washing_Machine_2014-06-08_01,Washing Machine,Appliance4,Shiftable,2014-06-08 00:20:00,2014-06-08 02:19:00,119.0,132538.06,True,"{""0"": 109, ""1"": 10}",0,1,0,0.0
+Washing_Machine_2014-07-03_03,Washing Machine,Appliance4,Shiftable,2014-07-03 06:52:00,2014-07-03 08:07:00,75.0,71282.69,True,"{""0"": 38, ""1"": 37}",0,0,1,0.0
+Washing_Machine_2014-07-28_07,Washing Machine,Appliance4,Shiftable,2014-07-28 07:02:00,2014-07-28 07:50:00,48.0,28721.61,True,"{""0"": 28, ""1"": 20}",0,0,1,0.0
+Washing_Machine_2014-09-04_01,Washing Machine,Appliance4,Shiftable,2014-09-04 06:24:00,2014-09-04 07:52:00,88.0,84997.32,True,"{""0"": 66, ""1"": 22}",0,0,1,0.0
+Washing_Machine_2014-09-04_05,Washing Machine,Appliance4,Shiftable,2014-09-04 14:30:00,2014-09-04 14:36:00,6.0,324.57,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Washing_Machine_2014-09-11_03,Washing Machine,Appliance4,Shiftable,2014-09-11 09:07:00,2014-09-11 09:34:00,27.0,10420.15,True,"{""0"": 0, ""1"": 27}",1,1,1,1.0
+Washing_Machine_2014-09-11_04,Washing Machine,Appliance4,Shiftable,2014-09-11 09:35:00,2014-09-11 09:40:00,5.0,437.37,True,"{""0"": 0, ""1"": 5}",1,1,1,1.0
+Washing_Machine_2014-09-18_01,Washing Machine,Appliance4,Shiftable,2014-09-18 05:53:00,2014-09-18 07:49:00,116.0,115843.69,True,"{""0"": 97, ""1"": 19}",0,0,1,0.0
+Washing_Machine_2014-09-19_02,Washing Machine,Appliance4,Shiftable,2014-09-19 06:55:00,2014-09-19 07:45:00,50.0,33010.16,True,"{""0"": 35, ""1"": 15}",0,0,1,0.0
+Washing_Machine_2014-09-26_01,Washing Machine,Appliance4,Shiftable,2014-09-26 06:20:00,2014-09-26 07:38:00,78.0,76503.16,True,"{""0"": 70, ""1"": 8}",0,0,1,0.0
+Washing_Machine_2014-09-26_02,Washing Machine,Appliance4,Shiftable,2014-09-26 07:47:00,2014-09-26 08:08:00,21.0,8859.25,True,"{""0"": 0, ""1"": 21}",1,1,1,1.0
+Washing_Machine_2014-09-28_01,Washing Machine,Appliance4,Shiftable,2014-09-28 09:45:00,2014-09-28 10:36:00,51.0,36373.43,True,"{""0"": 0, ""1"": 51}",1,1,1,1.0
+Washing_Machine_2014-10-02_02,Washing Machine,Appliance4,Shiftable,2014-10-02 06:56:00,2014-10-02 08:22:00,86.0,90476.89,True,"{""0"": 34, ""1"": 52}",1,0,1,1.0
+Washing_Machine_2014-10-03_01,Washing Machine,Appliance4,Shiftable,2014-10-03 07:08:00,2014-10-03 08:05:00,57.0,43330.73,True,"{""0"": 22, ""1"": 35}",1,0,1,1.0
+Washing_Machine_2014-10-09_01,Washing Machine,Appliance4,Shiftable,2014-10-09 06:49:00,2014-10-09 07:57:00,68.0,65558.39,True,"{""0"": 41, ""1"": 27}",0,0,1,0.0
+Washing_Machine_2014-10-10_01,Washing Machine,Appliance4,Shiftable,2014-10-10 07:22:00,2014-10-10 08:21:00,59.0,44813.06,True,"{""0"": 8, ""1"": 51}",1,0,1,1.0
+Washing_Machine_2014-10-12_01,Washing Machine,Appliance4,Shiftable,2014-10-12 15:23:00,2014-10-12 15:29:00,6.0,48.0,True,"{""0"": 0, ""1"": 6}",1,1,1,1.0
+Washing_Machine_2014-10-15_04,Washing Machine,Appliance4,Shiftable,2014-10-15 07:14:00,2014-10-15 07:42:00,28.0,3594.46,True,"{""0"": 16, ""1"": 12}",0,0,1,0.0
+Washing_Machine_2014-10-16_02,Washing Machine,Appliance4,Shiftable,2014-10-16 06:58:00,2014-10-16 08:25:00,87.0,89196.99,True,"{""0"": 32, ""1"": 55}",1,0,1,1.0
+Washing_Machine_2014-10-17_01,Washing Machine,Appliance4,Shiftable,2014-10-17 07:27:00,2014-10-17 09:00:00,93.0,86809.58,True,"{""0"": 3, ""1"": 90}",1,0,1,1.0
+Washing_Machine_2014-10-18_01,Washing Machine,Appliance4,Shiftable,2014-10-18 06:52:00,2014-10-18 07:43:00,51.0,31491.42,True,"{""0"": 38, ""1"": 13}",0,0,1,0.0
+Washing_Machine_2014-10-21_01,Washing Machine,Appliance4,Shiftable,2014-10-21 07:01:00,2014-10-21 07:56:00,55.0,39656.11,True,"{""0"": 29, ""1"": 26}",0,0,1,0.0
+Washing_Machine_2014-11-01_01,Washing Machine,Appliance4,Shiftable,2014-11-01 17:56:00,2014-11-01 18:05:00,9.0,11574.31,True,"{""0"": 0, ""1"": 9}",1,1,1,1.0
+Washing_Machine_2014-11-01_02,Washing Machine,Appliance4,Shiftable,2014-11-01 18:14:00,2014-11-01 18:30:00,16.0,1118.35,True,"{""0"": 0, ""1"": 16}",1,1,1,1.0
+Washing_Machine_2014-11-06_02,Washing Machine,Appliance4,Shiftable,2014-11-06 06:42:00,2014-11-06 08:16:00,94.0,91955.33,True,"{""0"": 48, ""1"": 46}",0,0,1,0.0
+Washing_Machine_2014-11-08_01,Washing Machine,Appliance4,Shiftable,2014-11-08 06:46:00,2014-11-08 07:46:00,60.0,48657.75,True,"{""0"": 44, ""1"": 16}",0,0,1,0.0
+Washing_Machine_2014-11-09_01,Washing Machine,Appliance4,Shiftable,2014-11-09 16:11:00,2014-11-09 16:23:00,12.0,2181.95,True,"{""0"": 0, ""1"": 12}",1,1,1,1.0
+Washing_Machine_2014-11-13_02,Washing Machine,Appliance4,Shiftable,2014-11-13 06:40:00,2014-11-13 07:52:00,72.0,62441.07,True,"{""0"": 50, ""1"": 22}",0,0,1,0.0
+Washing_Machine_2014-11-20_02,Washing Machine,Appliance4,Shiftable,2014-11-20 07:13:00,2014-11-20 08:31:00,78.0,73128.27,True,"{""0"": 17, ""1"": 61}",1,0,1,1.0
+Washing_Machine_2014-11-27_01,Washing Machine,Appliance4,Shiftable,2014-11-27 06:39:00,2014-11-27 07:49:00,70.0,71171.75,True,"{""0"": 51, ""1"": 19}",0,0,1,0.0
+Washing_Machine_2014-12-04_01,Washing Machine,Appliance4,Shiftable,2014-12-04 06:31:00,2014-12-04 08:02:00,91.0,94947.51,True,"{""0"": 59, ""1"": 32}",0,0,1,0.0
+Washing_Machine_2014-12-05_01,Washing Machine,Appliance4,Shiftable,2014-12-05 07:01:00,2014-12-05 08:03:00,62.0,53838.33,True,"{""0"": 29, ""1"": 33}",1,0,1,1.0
+Washing_Machine_2014-12-11_01,Washing Machine,Appliance4,Shiftable,2014-12-11 07:03:00,2014-12-11 08:12:00,69.0,66303.26,True,"{""0"": 27, ""1"": 42}",1,0,1,1.0
+Washing_Machine_2014-12-18_02,Washing Machine,Appliance4,Shiftable,2014-12-18 06:14:00,2014-12-18 07:45:00,91.0,94065.31,True,"{""0"": 76, ""1"": 15}",0,0,1,0.0
+Washing_Machine_2014-12-23_02,Washing Machine,Appliance4,Shiftable,2014-12-23 07:34:00,2014-12-23 08:37:00,63.0,51139.04,True,"{""0"": 0, ""1"": 63}",1,1,1,1.0
+Washing_Machine_2015-01-02_02,Washing Machine,Appliance4,Shiftable,2015-01-02 08:37:00,2015-01-02 09:30:00,53.0,38703.53,True,"{""0"": 0, ""1"": 53}",1,1,1,1.0
+Washing_Machine_2015-01-03_01,Washing Machine,Appliance4,Shiftable,2015-01-03 06:30:00,2015-01-03 07:57:00,87.0,87169.05,True,"{""0"": 60, ""1"": 27}",0,0,1,0.0
+Washing_Machine_2015-01-03_02,Washing Machine,Appliance4,Shiftable,2015-01-03 18:27:00,2015-01-03 19:49:00,82.0,62225.86,True,"{""0"": 0, ""1"": 82}",1,1,1,1.0
+Washing_Machine_2015-01-03_03,Washing Machine,Appliance4,Shiftable,2015-01-03 19:50:00,2015-01-03 20:01:00,11.0,2299.57,True,"{""0"": 0, ""1"": 11}",1,1,1,1.0
+Washing_Machine_2015-01-11_04,Washing Machine,Appliance4,Shiftable,2015-01-11 06:53:00,2015-01-11 07:42:00,49.0,28880.42,True,"{""0"": 37, ""1"": 12}",0,0,1,0.0
+Washing_Machine_2015-01-15_02,Washing Machine,Appliance4,Shiftable,2015-01-15 06:57:00,2015-01-15 08:11:00,74.0,76587.41,True,"{""0"": 33, ""1"": 41}",1,0,1,1.0
+Washing_Machine_2015-01-16_01,Washing Machine,Appliance4,Shiftable,2015-01-16 07:11:00,2015-01-16 08:15:00,64.0,54309.6,True,"{""0"": 19, ""1"": 45}",1,0,1,1.0
+Washing_Machine_2015-01-22_04,Washing Machine,Appliance4,Shiftable,2015-01-22 07:05:00,2015-01-22 08:35:00,90.0,92221.37,True,"{""0"": 25, ""1"": 65}",1,0,1,1.0
+Washing_Machine_2015-01-29_01,Washing Machine,Appliance4,Shiftable,2015-01-29 07:08:00,2015-01-29 08:17:00,69.0,72408.32,True,"{""0"": 22, ""1"": 47}",1,0,1,1.0
+Washing_Machine_2015-02-05_02,Washing Machine,Appliance4,Shiftable,2015-02-05 06:59:00,2015-02-05 08:30:00,91.0,97245.2,True,"{""0"": 31, ""1"": 60}",1,0,1,1.0
+Washing_Machine_2015-02-12_01,Washing Machine,Appliance4,Shiftable,2015-02-12 07:04:00,2015-02-12 08:18:00,74.0,72202.53,True,"{""0"": 26, ""1"": 48}",1,0,1,1.0
+Washing_Machine_2015-02-17_02,Washing Machine,Appliance4,Shiftable,2015-02-17 07:12:00,2015-02-17 08:05:00,53.0,40072.37,True,"{""0"": 18, ""1"": 35}",1,0,1,1.0
+Washing_Machine_2015-02-19_01,Washing Machine,Appliance4,Shiftable,2015-02-19 07:50:00,2015-02-19 09:14:00,84.0,89320.64,True,"{""0"": 0, ""1"": 84}",1,1,1,1.0
+Washing_Machine_2015-02-20_01,Washing Machine,Appliance4,Shiftable,2015-02-20 07:27:00,2015-02-20 08:29:00,62.0,51456.04,True,"{""0"": 3, ""1"": 59}",1,0,1,1.0
+Washing_Machine_2015-02-24_02,Washing Machine,Appliance4,Shiftable,2015-02-24 06:50:00,2015-02-24 08:00:00,70.0,72751.81,True,"{""0"": 40, ""1"": 30}",0,0,1,0.0
+Washing_Machine_2015-02-25_02,Washing Machine,Appliance4,Shiftable,2015-02-25 06:35:00,2015-02-25 08:02:00,87.0,98481.95,True,"{""0"": 55, ""1"": 32}",0,0,1,0.0
+Washing_Machine_2015-03-04_01,Washing Machine,Appliance4,Shiftable,2015-03-04 06:31:00,2015-03-04 08:07:00,96.0,98089.42,True,"{""0"": 59, ""1"": 37}",0,0,1,0.0
+Washing_Machine_2015-03-05_01,Washing Machine,Appliance4,Shiftable,2015-03-05 06:34:00,2015-03-05 07:39:00,65.0,57042.3,True,"{""0"": 56, ""1"": 9}",0,0,1,0.0
+Washing_Machine_2015-03-12_01,Washing Machine,Appliance4,Shiftable,2015-03-12 07:02:00,2015-03-12 08:12:00,70.0,36320.84,True,"{""0"": 28, ""1"": 42}",1,0,1,1.0
+Washing_Machine_2015-03-16_02,Washing Machine,Appliance4,Shiftable,2015-03-16 07:26:00,2015-03-16 08:00:00,34.0,19074.72,True,"{""0"": 4, ""1"": 30}",1,0,1,1.0
+Washing_Machine_2015-03-19_01,Washing Machine,Appliance4,Shiftable,2015-03-19 06:14:00,2015-03-19 07:31:00,77.0,44761.84,True,"{""0"": 76, ""1"": 1}",0,0,1,0.0
+Washing_Machine_2015-04-02_01,Washing Machine,Appliance4,Shiftable,2015-04-02 07:11:00,2015-04-02 08:46:00,95.0,95906.07,True,"{""0"": 19, ""1"": 76}",1,0,1,1.0
+Washing_Machine_2015-04-08_02,Washing Machine,Appliance4,Shiftable,2015-04-08 06:31:00,2015-04-08 08:03:00,92.0,94437.82,True,"{""0"": 59, ""1"": 33}",0,0,1,0.0
+Washing_Machine_2015-04-09_02,Washing Machine,Appliance4,Shiftable,2015-04-09 07:33:00,2015-04-09 08:32:00,59.0,44011.92,True,"{""0"": 0, ""1"": 59}",1,1,1,1.0
+Washing_Machine_2015-04-14_02,Washing Machine,Appliance4,Shiftable,2015-04-14 06:44:00,2015-04-14 07:54:00,70.0,43749.35,True,"{""0"": 46, ""1"": 24}",0,0,1,0.0
+Washing_Machine_2015-04-15_03,Washing Machine,Appliance4,Shiftable,2015-04-15 07:16:00,2015-04-15 07:33:00,17.0,1174.85,True,"{""0"": 14, ""1"": 3}",0,0,1,0.0
+Washing_Machine_2015-04-16_02,Washing Machine,Appliance4,Shiftable,2015-04-16 06:54:00,2015-04-16 08:02:00,68.0,50484.46,True,"{""0"": 36, ""1"": 32}",0,0,1,0.0
+Washing_Machine_2015-04-17_01,Washing Machine,Appliance4,Shiftable,2015-04-17 07:23:00,2015-04-17 08:06:00,43.0,77649.22,True,"{""0"": 7, ""1"": 36}",1,0,1,1.0
+Washing_Machine_2015-04-17_02,Washing Machine,Appliance4,Shiftable,2015-04-17 08:07:00,2015-04-17 08:45:00,38.0,5123.88,True,"{""0"": 0, ""1"": 38}",1,1,1,1.0
+Washing_Machine_2015-04-20_01,Washing Machine,Appliance4,Shiftable,2015-04-20 06:33:00,2015-04-20 07:38:00,65.0,48867.8,True,"{""0"": 57, ""1"": 8}",0,0,1,0.0
+Washing_Machine_2015-04-23_01,Washing Machine,Appliance4,Shiftable,2015-04-23 06:47:00,2015-04-23 09:46:00,179.0,91931.49,True,"{""0"": 43, ""1"": 136}",1,0,1,1.0
+Washing_Machine_2015-04-30_01,Washing Machine,Appliance4,Shiftable,2015-04-30 07:11:00,2015-04-30 08:20:00,69.0,66927.62,True,"{""0"": 19, ""1"": 50}",1,0,1,1.0
+Washing_Machine_2015-05-01_04,Washing Machine,Appliance4,Shiftable,2015-05-01 07:23:00,2015-05-01 08:42:00,79.0,79835.64,True,"{""0"": 7, ""1"": 72}",1,0,1,1.0
+Washing_Machine_2015-05-07_01,Washing Machine,Appliance4,Shiftable,2015-05-07 06:30:00,2015-05-07 08:04:00,94.0,87535.05,True,"{""0"": 60, ""1"": 34}",0,0,1,0.0
+Washing_Machine_2015-05-08_01,Washing Machine,Appliance4,Shiftable,2015-05-08 06:24:00,2015-05-08 07:39:00,75.0,46697.96,True,"{""0"": 66, ""1"": 9}",0,0,1,0.0
+Washing_Machine_2015-05-10_01,Washing Machine,Appliance4,Shiftable,2015-05-10 06:58:00,2015-05-10 07:50:00,52.0,36688.25,True,"{""0"": 32, ""1"": 20}",0,0,1,0.0

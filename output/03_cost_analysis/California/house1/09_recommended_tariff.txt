@@ -4,5 +4,5 @@ Recommended Tariff: TOU_D
 Available Tariffs: ['TOU_D', 'TOU_D_Base']
 
 Total Costs Comparison:
-  TOU_D: $911.62
-  TOU_D_Base: $1248.23
+  TOU_D: $911.39
+  TOU_D_Base: $1247.91

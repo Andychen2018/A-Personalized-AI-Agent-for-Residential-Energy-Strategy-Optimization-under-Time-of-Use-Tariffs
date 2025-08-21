@@ -2,7 +2,7 @@
   "house_id": "house20",
   "tariff_type": "California",
   "total_appliances": 9,
-  "total_events": 44259,
+  "total_events": 42807,
   "appliance_names": [
     "Fridge",
     "Freezer",
@@ -16,8 +16,8 @@
   ],
   "appliance_counts": {
     "Microwave": 22313,
-    "Fridge": 10033,
-    "Freezer": 8825,
+    "Fridge": 10006,
+    "Freezer": 7400,
     "Kettle": 1777,
     "Tumble Dryer": 451,
     "Dishwasher": 297,

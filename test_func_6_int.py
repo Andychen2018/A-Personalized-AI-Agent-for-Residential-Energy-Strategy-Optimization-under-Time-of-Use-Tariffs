@@ -1,20 +1,21 @@
 #!/usr/bin/env python3
 """
-Test Function 6 Integration Tool
-集成执行 P051~P054 工具的完整流程
+Smart Scheduling & System Integration Tool
+Integrated execution of complete scheduling workflow
 
-功能：
-1. P051: 电器工作空间生成器 (Appliance Space Generator)
-2. P052: 事件调度器 (Event Scheduler)  
-3. P053: 冲突解决器 (Collision Resolver)
-4. P054: 事件分割器 (Event Splitter)
+Functions:
+1. Step 1: Appliance Space Generation
+2. Step 2: Event Scheduling & Optimization
+3. Step 3: Conflict Resolution & Optimization
+4. Step 4: Event Segmentation & Finalization
 
-作者：Agent V2
-日期：2025-01-08
+Author: Agent V2
+Date: 2025-01-08
 """
 
 import os
 import sys
+import argparse
 from typing import List, Dict, Optional
 
 # 添加 tools 目录到 Python 路径
@@ -22,13 +23,13 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'tools'))
 
 # 导入各个工具模块
 try:
-    from p_051_appliance_space_generator import run_generate_appliance_spaces, process_batch_houses as p051_batch
-    from p_052_event_scheduler import run_event_scheduler, process_batch_houses as p052_batch
-    from p_053_collision_resolver import run_collision_resolution, run_single_house_collision_resolution
-    from p_054_event_splitter import run_splitter_interactive, split_events_for_house, list_houses_from_segments, summarize_results
+    from tools.p_051_appliance_space_generator import run_generate_appliance_spaces, process_batch_houses as p051_batch
+    from tools.p_052_event_scheduler import run_event_scheduler, process_batch_houses as p052_batch
+    from tools.p_053_collision_resolver import run_collision_resolution, run_single_house_collision_resolution
+    from tools.p_054_event_splitter import run_splitter_interactive, split_events_for_house, list_houses_from_segments, summarize_results
 except ImportError as e:
-    print(f"❌ 导入工具模块失败: {e}")
-    sys.exit(1)
+    print(f"Warning: Some modules could not be imported: {e}")
+    print("Please ensure the tools directory is accessible.")
 
 
 class IntegratedWorkflow:
@@ -43,21 +44,53 @@ class IntegratedWorkflow:
             'test_mode': False         # P051的测试模式标志
         }
         
-    def setup_configuration(self):
-        """设置全局配置参数"""
-        print("🎯 Test Function 6 Integration Tool")
-        print("=" * 60)
-        print("集成执行 P051~P054 工具的完整流程")
+    def setup_configuration_from_args(self, tariff_group="UK", processing_mode="single", house_id="house1"):
+        """从参数设置配置"""
+        print("🎯 Smart Scheduling & System Integration Tool")
+        print("=" * 120)
+        print("Integrated execution of complete scheduling workflow")
         print()
         
-        # 第一步：选择电价方案组
-        print("📋 第一步：选择电价方案组")
-        print("1. UK (Economy_7 + Economy_10) [默认]")
-        print("2. TOU_D (California, 季节性)")
-        print("3. Germany_Variable (德国可变电价)")
+        # 设置电价方案组
+        self.config['tariff_group'] = tariff_group
+        self.config['test_mode'] = (tariff_group in ['TOU_D', 'Germany_Variable'])
+        print(f"✅ Selected tariff group: {self.config['tariff_group']}")
+
+        # Set processing mode
+        self.config['processing_mode'] = processing_mode
+
+        if processing_mode == "single":
+            # Ensure correct house ID format
+            if house_id.isdigit():
+                house_id = f"house{house_id}"
+            elif not house_id.startswith("house"):
+                house_id = f"house{house_id}"
+            self.config['house_id'] = house_id
+            print(f"✅ Selected processing mode: Single household processing ({house_id})")
+        else:
+            # Batch processing
+            available_houses = [f"house{i}" for i in range(1, 22) if i not in [12, 14]]
+            self.config['house_list'] = available_houses
+            print(f"✅ Selected processing mode: Batch processing ({len(available_houses)} households)")
+        
+        print()
+        return True
+        
+    def setup_configuration(self):
+        """设置全局配置参数"""
+        print("🎯 Smart Scheduling & System Integration Tool")
+        print("=" * 120)
+        print("Integrated execution of complete scheduling workflow")
+        print()
+        
+        # Step 1: Select tariff group
+        print("📋 Step 1: Select tariff group")
+        print("1. UK (Economy_7 + Economy_10) [default]")
+        print("2. TOU_D (California, seasonal)")
+        print("3. Germany_Variable (German variable tariff)")
         
         try:
-            tariff_choice = input("选择电价方案 (1-3) [默认: 1]: ").strip()
+            tariff_choice = input("Select tariff group (1-3) [default: 1]: ").strip()
             if not tariff_choice:
                 tariff_choice = "1"
         except (EOFError, KeyboardInterrupt):
@@ -72,15 +105,15 @@ class IntegratedWorkflow:
         self.config['tariff_group'] = tariff_map.get(tariff_choice, "UK")
         self.config['test_mode'] = (self.config['tariff_group'] in ['TOU_D', 'Germany_Variable'])
         
-        print(f"✅ 已选择电价方案组: {self.config['tariff_group']}")
-        
-        # 第二步：选择处理模式
-        print("\n📋 第二步：选择处理模式")
-        print("1. 单个家庭处理 [默认]")
-        print("2. 批量处理 (house1~house21, 排除house12,house14)")
+        print(f"✅ Selected tariff group: {self.config['tariff_group']}")
+
+        # Step 2: Select processing mode
+        print("\n📋 Step 2: Select processing mode")
+        print("1. Single household processing [default]")
+        print("2. Batch processing (house1~house21, excluding house12,house14)")
         
         try:
-            mode_choice = input("选择处理模式 (1-2) [默认: 1]: ").strip()
+            mode_choice = input("Select processing mode (1-2) [default: 1]: ").strip()
             if not mode_choice:
                 mode_choice = "1"
         except (EOFError, KeyboardInterrupt):
@@ -88,12 +121,12 @@ class IntegratedWorkflow:
             
         if mode_choice == "1":
             self.config['processing_mode'] = 'single'
-            # 获取house ID
+            # Get house ID
             try:
-                house_id = input("输入House ID (e.g., house1) [默认: house1]: ").strip()
+                house_id = input("Enter House ID (e.g., house1) [default: house1]: ").strip()
                 if not house_id:
                     house_id = "house1"
-                # 确保house ID格式正确
+                # Ensure correct house ID format
                 if house_id.isdigit():
                     house_id = f"house{house_id}"
                 elif not house_id.startswith("house"):
@@ -101,44 +134,54 @@ class IntegratedWorkflow:
             except (EOFError, KeyboardInterrupt):
                 house_id = "house1"
             self.config['house_id'] = house_id
-            print(f"✅ 已选择单个处理: {house_id}")
+            print(f"✅ Selected single processing: {house_id}")
         else:
             self.config['processing_mode'] = 'batch'
-            # 生成批处理house列表（排除house12, house14）
+            # Generate batch processing house list (excluding house12, house14)
             self.config['house_list'] = [f"house{i}" for i in range(1, 22) if i not in (12, 14)]
-            print(f"✅ 已选择批量处理: {len(self.config['house_list'])} 个家庭")
-            
-        print(f"\n🔧 配置完成:")
-        print(f"   电价方案组: {self.config['tariff_group']}")
-        print(f"   处理模式: {self.config['processing_mode']}")
+            print(f"✅ Selected batch processing: {len(self.config['house_list'])} households")
+
+        print(f"\n🔧 Configuration completed:")
+        print(f"   Tariff group: {self.config['tariff_group']}")
+        print(f"   Processing mode: {self.config['processing_mode']}")
         if self.config['processing_mode'] == 'single':
-            print(f"   目标家庭: {self.config['house_id']}")
+            print(f"   Target household: {self.config['house_id']}")
         else:
-            print(f"   目标家庭: {len(self.config['house_list'])} 个")
-        print(f"   测试模式: {self.config['test_mode']}")
+            print(f"   Target households: {len(self.config['house_list'])} households")
+        print(f"   Test mode: {self.config['test_mode']}")
         
     def run_p051_appliance_space_generator(self):
-        """执行 P051: 电器工作空间生成器"""
-        print(f"\n{'='*60}")
-        print("🚀 步骤 1/4: 执行 P051 - 电器工作空间生成器")
-        print(f"{'='*60}")
-        
+        """Execute Step 1: Appliance Space Generator"""
+        print(f"\n{'='*120}")
+        print("🚀 STEP 1: Appliance Space Generation")
+        print(f"{'='*120}")
+
         try:
-            # P051 只需要 test_mode 参数
-            result = run_generate_appliance_spaces(test_mode=self.config['test_mode'])
-            print("✅ P051 执行完成")
+            # 根据电价方案组确定要生成的电价方案
+            if self.config['tariff_group'] == 'UK':
+                tariff_schemes = ['Economy_7', 'Economy_10']
+            elif self.config['tariff_group'] == 'TOU_D':
+                tariff_schemes = ['TOU_D']
+            elif self.config['tariff_group'] == 'Germany_Variable':
+                tariff_schemes = ['Germany_Variable']
+            else:
+                tariff_schemes = ['Economy_7', 'Economy_10']  # 默认
+
+            # Generate appliance working spaces with specific tariff schemes
+            result = run_generate_appliance_spaces(tariff_schemes=tariff_schemes)
+            print("--- STEP 1: Appliance Space Generation COMPLETED ---")
             return True
         except Exception as e:
-            print(f"❌ P051 执行失败: {e}")
+            print(f"❌ STEP 1: Appliance Space Generation FAILED: {e}")
             import traceback
             traceback.print_exc()
             return False
             
     def run_p052_event_scheduler(self):
-        """执行 P052: 事件调度器"""
-        print(f"\n{'='*60}")
-        print("🚀 步骤 2/4: 执行 P052 - 事件调度器")
-        print(f"{'='*60}")
+        """Execute Step 2: Event Scheduler"""
+        print(f"\n{'='*120}")
+        print("🚀 STEP 2: Event Scheduling & Optimization")
+        print(f"{'='*120}")
         
         try:
             if self.config['tariff_group'] == 'UK':
@@ -152,7 +195,7 @@ class IntegratedWorkflow:
                 tariff_list = ['Economy_7']  # 默认
                 
             for tariff_name in tariff_list:
-                print(f"\n📊 处理电价方案: {tariff_name}")
+                print(f"\n📊 Processing tariff scheme: {tariff_name}")
                 
                 if self.config['processing_mode'] == 'single':
                     # 单个处理：直接调用主函数，传入参数避免交互
@@ -160,21 +203,21 @@ class IntegratedWorkflow:
                 else:
                     # 批量处理
                     result = p052_batch(tariff_name=tariff_name, house_list=self.config['house_list'])
-                    print(f"✅ {tariff_name} 批量处理完成")
-                    
-            print("✅ P052 执行完成")
+                    print(f"✅ {tariff_name} batch processing completed")
+
+            print("--- STEP 2: Event Scheduling & Optimization COMPLETED ---")
             return True
         except Exception as e:
-            print(f"❌ P052 执行失败: {e}")
+            print(f"❌ STEP 2: Event Scheduling & Optimization FAILED: {e}")
             import traceback
             traceback.print_exc()
             return False
             
     def run_p053_collision_resolver(self):
-        """执行 P053: 冲突解决器"""
-        print(f"\n{'='*60}")
-        print("🚀 步骤 3/4: 执行 P053 - 冲突解决器")
-        print(f"{'='*60}")
+        """Execute Step 3: Conflict Resolution"""
+        print(f"\n{'='*120}")
+        print("🚀 STEP 3: Conflict Resolution & Optimization")
+        print(f"{'='*120}")
         
         try:
             if self.config['processing_mode'] == 'single':
@@ -189,30 +232,30 @@ class IntegratedWorkflow:
                     tariff_list = ['Economy_7']
                     
                 for tariff_name in tariff_list:
-                    print(f"\n📊 处理电价方案: {tariff_name}")
+                    print(f"\n📊 Processing tariff scheme: {tariff_name}")
                     result = run_single_house_collision_resolution(
                         tariff_name=tariff_name, 
                         house_id=self.config['house_id']
                     )
-                    print(f"✅ {tariff_name} - {self.config['house_id']} 处理完成")
+                    print(f"✅ {tariff_name} - {self.config['house_id']} processing completed")
             else:
                 # 批量处理：使用默认模式，会处理所有电价方案
                 result = run_collision_resolution(mode="default")
-                print("✅ 批量冲突解决完成")
-                
-            print("✅ P053 执行完成")
+                print("✅ Batch conflict resolution completed")
+
+            print("--- STEP 3: Conflict Resolution & Optimization COMPLETED ---")
             return True
         except Exception as e:
-            print(f"❌ P053 执行失败: {e}")
+            print(f"❌ STEP 3: Conflict Resolution & Optimization FAILED: {e}")
             import traceback
             traceback.print_exc()
             return False
             
     def run_p054_event_splitter(self):
-        """执行 P054: 事件分割器"""
-        print(f"\n{'='*60}")
-        print("🚀 步骤 4/4: 执行 P054 - 事件分割器")
-        print(f"{'='*60}")
+        """Execute Step 4: Event Segmentation"""
+        print(f"\n{'='*120}")
+        print("🚀 STEP 4: Event Segmentation & Finalization")
+        print(f"{'='*120}")
 
         try:
             # 确定要处理的电价方案列表
@@ -234,7 +277,7 @@ class IntegratedWorkflow:
                     available_houses = list_houses_from_segments()
                     # 过滤出我们配置的house列表中存在的house
                     target_houses = [h for h in self.config['house_list'] if h in available_houses]
-                    print(f"📊 找到 {len(target_houses)} 个可处理的家庭")
+                    print(f"📊 Found {len(target_houses)} processable households")
                 except:
                     target_houses = self.config['house_list']
 
@@ -243,12 +286,12 @@ class IntegratedWorkflow:
             current_task = 0
             all_results = {}  # 使用 P054 原本的数据结构
 
-            print(f"📊 开始处理 {len(target_houses)} 个家庭，{len(tariff_list)} 个电价方案，共 {total_tasks} 个任务")
+            print(f"📊 Starting processing for {len(target_houses)} household(s), {len(tariff_list)} tariff scheme(s), total {total_tasks} task(s)")
 
             for tariff_name in tariff_list:
                 for house_id in target_houses:
                     current_task += 1
-                    print(f"\n📊 [{current_task}/{total_tasks}] 处理 {house_id} - {tariff_name}...")
+                    print(f"\n📊 [{current_task}/{total_tasks}] Processing {house_id} - {tariff_name}...")
 
                     try:
                         result = split_events_for_house(tariff_name, house_id)
@@ -264,7 +307,7 @@ class IntegratedWorkflow:
                                 all_results[house_id] = {}
                             all_results[house_id].update(result)
                         else:
-                            print(f"⚠️  {house_id} - {tariff_name} 无数据或处理失败")
+                            print(f"⚠️  {house_id} - {tariff_name} no data or processing failed")
                     except Exception as e:
                         print(f"❌ 错误 {house_id} - {tariff_name}: {e}")
 
@@ -272,10 +315,10 @@ class IntegratedWorkflow:
             if all_results:
                 summarize_results(all_results)
 
-            print("✅ P054 执行完成")
+            print("--- STEP 4: Event Segmentation & Finalization COMPLETED ---")
             return True
         except Exception as e:
-            print(f"❌ P054 执行失败: {e}")
+            print(f"❌ STEP 4: Event Segmentation & Finalization FAILED: {e}")
             import traceback
             traceback.print_exc()
             return False
@@ -324,31 +367,36 @@ class IntegratedWorkflow:
         print(f"{'TOTAL':8} {'':12} {'':12} {total_events:8d} {total_migrated:10d} {total_non_migrated:12d} {overall_migration_rate:9.1f}%")
         print("-" * 80)
 
-    def run_complete_workflow(self):
-        """执行完整的工作流程"""
-        print("🚀 开始执行完整的 P051~P054 工作流程")
-        print("=" * 60)
-        
-        # 设置配置
-        self.setup_configuration()
-        
-        # 确认执行
-        print(f"\n⚠️  即将开始执行完整流程，这可能需要较长时间...")
-        try:
-            confirm = input("是否继续？(y/N) [默认: N]: ").strip().lower()
-            if confirm not in ['y', 'yes', '1']:
-                print("❌ 用户取消执行")
-                return False
-        except (EOFError, KeyboardInterrupt):
-            print("❌ 用户取消执行")
-            return False
+    def run_complete_workflow(self, interactive=True, tariff_group="UK", processing_mode="single", house_id="house1"):
+        """执行完整工作流程"""
+        if interactive:
+            success = self.setup_configuration()
+        else:
+            success = self.setup_configuration_from_args(tariff_group, processing_mode, house_id)
             
-        # 执行各个步骤
+        if not success:
+            return False
+        
+        # 确认执行 (仅在交互模式下询问)
+        if interactive:
+            print(f"\n⚠️  About to start complete workflow execution, this may take a long time...")
+            try:
+                confirm = input("Continue? (y/N) [default: N]: ").strip().lower()
+                if confirm not in ['y', 'yes', '1']:
+                    print("❌ User cancelled execution")
+                    return False
+            except (EOFError, KeyboardInterrupt):
+                print("❌ User cancelled execution")
+                return False
+        else:
+            print(f"\n🚀 Starting complete workflow execution...")
+            
+        # Execute workflow steps
         steps = [
-            ("P051", self.run_p051_appliance_space_generator),
-            ("P052", self.run_p052_event_scheduler),
-            ("P053", self.run_p053_collision_resolver),
-            ("P054", self.run_p054_event_splitter)
+            ("Step 1: Appliance Space Generation", self.run_p051_appliance_space_generator),
+            ("Step 2: Event Scheduling", self.run_p052_event_scheduler),
+            ("Step 3: Conflict Resolution", self.run_p053_collision_resolver),
+            ("Step 4: Event Segmentation", self.run_p054_event_splitter)
         ]
         
         success_count = 0
@@ -356,40 +404,93 @@ class IntegratedWorkflow:
             if step_func():
                 success_count += 1
             else:
-                print(f"\n❌ {step_name} 执行失败，是否继续执行后续步骤？")
-                try:
-                    continue_choice = input("继续执行？(y/N) [默认: N]: ").strip().lower()
-                    if continue_choice not in ['y', 'yes']:
+                print(f"\n❌ {step_name} execution failed")
+                if interactive:
+                    print("Continue with subsequent steps?")
+                    try:
+                        continue_choice = input("Continue execution? (y/N) [default: N]: ").strip().lower()
+                        if continue_choice not in ['y', 'yes']:
+                            break
+                    except (EOFError, KeyboardInterrupt):
                         break
-                except (EOFError, KeyboardInterrupt):
-                    break
+                else:
+                    print("Automatically continuing with subsequent steps...")
                     
-        # 总结
-        print(f"\n{'='*60}")
-        print("🎯 工作流程执行总结")
-        print(f"{'='*60}")
-        print(f"✅ 成功执行步骤: {success_count}/4")
-        print(f"📊 配置信息:")
-        print(f"   电价方案组: {self.config['tariff_group']}")
-        print(f"   处理模式: {self.config['processing_mode']}")
+        # Summary
+        print(f"\n{'='*120}")
+        print("🎯 Workflow Execution Summary")
+        print(f"{'='*120}")
+        print(f"✅ Successfully executed steps: {success_count} out of 4 total steps")
+        print(f"📊 Configuration Information:")
+        print(f"   Tariff group: {self.config['tariff_group']}")
+        print(f"   Processing mode: {self.config['processing_mode']}")
         if self.config['processing_mode'] == 'single':
-            print(f"   目标家庭: {self.config['house_id']}")
+            print(f"   Target household: {self.config['house_id']}")
         else:
-            print(f"   目标家庭: {len(self.config['house_list'])} 个")
-            
+            print(f"   Target households: {len(self.config['house_list'])} households")
+
         if success_count == 4:
-            print("🎉 完整工作流程执行成功！")
+            print("🎉 Complete workflow executed successfully!")
             return True
         else:
-            print("⚠️  工作流程部分完成，请检查失败的步骤")
+            print("⚠️  Workflow partially completed, please check failed steps")
             return False
 
 
-def main():
-    """主函数"""
+def main(tariff_group, mode, house_id, interactive):
+    """
+    主函数
+    
+    Args:
+        tariff_group: 电价方案组 ("UK", "TOU_D", "Germany_Variable")
+        mode: 处理模式 (1=single, 2=batch)
+        house_id: 单个家庭处理时的house ID
+        interactive: 是否使用交互模式
+    """
+    # 转换数字模式为字符串模式
+    if mode == 1:
+        processing_mode = "single"
+    elif mode == 2:
+        processing_mode = "batch"
+    else:
+        print("❌ Invalid mode. Using single mode as default.")
+        processing_mode = "single"
+    
     workflow = IntegratedWorkflow()
-    workflow.run_complete_workflow()
+    workflow.run_complete_workflow(interactive, tariff_group, processing_mode, house_id)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Smart Scheduling & System Integration Tool - Integrated execution of complete scheduling workflow")
+    parser.add_argument(
+        "--tariff-group", 
+        type=str, 
+        default="UK",
+        choices=["UK", "TOU_D", "Germany_Variable"],
+        help="Tariff group (default: UK)"
+    )
+    parser.add_argument(
+        "--mode", 
+        type=int, 
+        default=2,
+        choices=[1, 2],
+        help="Processing mode: 1=Single household (default), 2=Batch processing"
+    )
+    parser.add_argument(
+        "--house-id", 
+        type=str, 
+        default="house1",
+        help="House ID for single household processing (default: house1)"
+    )
+    parser.add_argument(
+        "--interactive", 
+        action="store_true",
+        help="Use interactive mode (default: use command line arguments)"
+    )
+    return parser.parse_args()
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    print("args:", args)
+    main(args.tariff_group, args.mode, args.house_id, args.interactive)

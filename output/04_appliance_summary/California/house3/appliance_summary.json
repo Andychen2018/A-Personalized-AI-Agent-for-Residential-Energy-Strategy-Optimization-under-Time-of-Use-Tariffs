@@ -2,7 +2,7 @@
   "house_id": "house3",
   "tariff_type": "California",
   "total_appliances": 9,
-  "total_events": 33870,
+  "total_events": 33223,
   "appliance_names": [
     "Toaster",
     "Fridge-Freezer",
@@ -15,8 +15,8 @@
     "Kettle"
   ],
   "appliance_counts": {
-    "Freezer": 20203,
-    "Fridge-Freezer": 5209,
+    "Freezer": 19731,
+    "Fridge-Freezer": 5034,
     "Kettle": 2782,
     "Television": 1693,
     "Washing Machine": 924,

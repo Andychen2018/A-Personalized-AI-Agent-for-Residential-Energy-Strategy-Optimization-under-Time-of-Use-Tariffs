@@ -585,14 +585,14 @@ def create_total_cost_summary(all_stats: List[Dict], tariff_group: str):
         }
 
     print(f"\n📊 Total Cost Comparison - {tariff_group}")
-    print("="*150)
+    print("="*120)
 
     if tariff_group == 'UK':
         header = f"{'House':8} {'Standard':>12} {'Economy_7':>12} {'Economy_7':>12} {'Economy_10':>12} {'Economy_10':>12} {'Total':>12}"
         subheader = f"{'ID':8} {'Cost':>12} {'Before':>12} {'After':>12} {'Before':>12} {'After':>12} {'Energy(kWh)':>12}"
         print(header)
         print(subheader)
-        print("-"*150)
+        print("-"*120)
 
         # 按数字顺序排序 house ID
         def house_sort_key(house_id):
@@ -617,7 +617,7 @@ def create_total_cost_summary(all_stats: List[Dict], tariff_group: str):
         subheader = f"{'ID':8} {'Cost':>12} {'Before':>12} {'After':>12} {'Energy(kWh)':>12}"
         print(header)
         print(subheader)
-        print("-"*150)
+        print("-"*120)
 
         # 按数字顺序排序 house ID
         def house_sort_key(house_id):
@@ -646,7 +646,7 @@ def create_total_cost_summary(all_stats: List[Dict], tariff_group: str):
         subheader = f"{'ID':8} {'Cost':>12} {'Before':>12} {'After':>12} {'Energy(kWh)':>12}"
         print(header)
         print(subheader)
-        print("-"*150)
+        print("-"*120)
 
         # 按数字顺序排序 house ID
         def house_sort_key(house_id):
@@ -663,7 +663,7 @@ def create_total_cost_summary(all_stats: List[Dict], tariff_group: str):
 
             print(f"{house_id:8} {std_info['standard_cost']:12.2f} {var_before:12.2f} {var_after:12.2f} {std_info['total_energy_kwh']:12.3f}")
 
-    print("-"*150)
+    print("-"*120)
 
 
 def summarize(all_stats: List[Dict]):
@@ -681,7 +681,7 @@ def summarize(all_stats: List[Dict]):
 
     # 为每个电价方案显示单独的表格
     for scope, stats_list in grouped_stats.items():
-        print(f"\n📊 P06 Cost Summary - {scope}")
+        print(f"\n📊 Cost Summary - {scope}")
         print("="*120)
         header = f"{'House':8} {'Non-Migrated':>12} {'Non-Migrated':>12} {'Non-Migrated':>12} {'Migrated':>8} {'Before':>12} {'After':>12} {'Before':>12} {'After':>12}"
         subheader = f"{'ID':8} {'Events':>12} {'Energy(kWh)':>12} {'Cost':>12} {'Events':>8} {'Energy(kWh)':>12} {'Energy(kWh)':>12} {'Cost':>12} {'Cost':>12}"
@@ -841,8 +841,8 @@ def create_tou_d_total_cost_comparison(house_summary: Dict):
 
 
 def run_interactive():
-    print("🎯 P06 Cost Calculator - 区间电价费用计算")
-    print("="*60)
+    print("🎯 Cost Calculator - Interval Pricing Cost Calculation")
+    print("="*120)
 
     # 第一层：电价方案选择
     while True:
@@ -904,9 +904,9 @@ def run_interactive():
     elif g == '3':  # Germany_Variable
         tasks += [('Germany_Variable','All')]
 
-    # 显示处理计划
+    # Display processing plan
     total_tasks = len(targets) * len(tasks)
-    print(f"\n🚀 开始处理 {len(targets)} 个家庭，{len(tasks)} 个电价方案，共 {total_tasks} 个任务")
+    print(f"\n📊 Starting processing for {len(targets)} household(s), {len(tasks)} tariff scheme(s), total {total_tasks} task(s)")
 
     all_stats: List[Dict] = []
     task_count = 0
@@ -914,17 +914,17 @@ def run_interactive():
     for hid in targets:
         for tariff, scope in tasks:
             task_count += 1
-            print(f"\n📊 [{task_count}/{total_tasks}] 处理 {hid} - {tariff}/{scope}...")
+            print(f"\n📊 [{task_count}/{total_tasks}] Processing {hid} - {tariff}/{scope}...")
 
             try:
                 st = process_house_tariff(hid, tariff, scope)
                 all_stats.append(st)
-                print(f"✅ 完成 {hid} - {tariff}/{scope}")
+                print(f"✅ Completed {hid} - {tariff}/{scope}")
 
             except FileNotFoundError as e:
-                print(f"⚠️  跳过 {hid} {tariff}/{scope}: 文件未找到")
+                print(f"⚠️  Skipped {hid} {tariff}/{scope}: File not found")
             except Exception as e:
-                print(f"❌ 错误 {hid} {tariff}/{scope}: {e}")
+                print(f"❌ Error {hid} {tariff}/{scope}: {e}")
 
     # 对 TOU_D 进行特殊处理
     if g == '2':  # TOU_D

@@ -1,0 +1,4 @@
+event_id,appliance_name,original_start_time,original_end_time,scheduled_start_time,scheduled_end_time,schedule_status,season,duration(min),energy(W)
+Dryer_2014-05-25_01,Dryer,2014-05-25 18:12:00,2014-05-25 18:22:00,2014-05-25 20:00:00,2014-05-25 20:10:00,SUCCESS,summer,10.0,142.67
+Washing_Machine_2014-06-05_05,Washing Machine,2014-06-05 23:48:00,2014-06-06 01:06:00,2014-06-06 06:00:00,2014-06-06 07:18:00,SUCCESS,summer,78.0,48378.38
+Washing_Machine_2014-09-04_05,Washing Machine,2014-09-04 14:30:00,2014-09-04 14:36:00,2014-09-05 06:00:00,2014-09-05 06:06:00,SUCCESS,summer,6.0,324.57

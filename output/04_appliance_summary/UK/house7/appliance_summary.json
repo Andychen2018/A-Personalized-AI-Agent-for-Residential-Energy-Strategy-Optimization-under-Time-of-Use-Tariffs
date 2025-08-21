@@ -2,7 +2,7 @@
   "house_id": "house7",
   "tariff_type": "UK",
   "total_appliances": 9,
-  "total_events": 19204,
+  "total_events": 41608,
   "appliance_names": [
     "Fridge",
     "Freezer (Garage)",
@@ -15,15 +15,15 @@
     "Kettle"
   ],
   "appliance_counts": {
-    "Fridge": 11555,
+    "Freezer (Garage)": 22881,
+    "Fridge": 11114,
     "Dishwasher": 1431,
     "Kettle": 1275,
     "Washing Machine": 1167,
     "Television Site": 1088,
-    "Freezer": 1035,
+    "Freezer": 1007,
     "Tumble Dryer": 849,
-    "Toaster": 796,
-    "Freezer (Garage)": 8
+    "Toaster": 796
   },
   "appliance_ids": [
     "Appliance1",

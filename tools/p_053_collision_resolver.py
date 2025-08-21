@@ -35,9 +35,9 @@ class P052CollisionResolver:
         self.tariff_configs = {}
         self.appliance_spaces = {}
 
-        print(f"🔧 P052冲突解决器初始化")
-        print(f"   📂 输入目录: {input_dir}")
-        print(f"   📂 输出目录: {output_dir}")
+        print(f"🔧 Conflict Resolver initialization")
+        print(f"   📂 Input directory: {input_dir}")
+        print(f"   📂 Output directory: {output_dir}")
 
     def parse_event_id(self, event_id: str) -> Tuple[str, str, str]:
         """
@@ -805,7 +805,7 @@ class P052CollisionResolver:
             处理结果字典
         """
         print(f"🏠 Processing single house: {house_id} with tariff {tariff_name}")
-        print("=" * 60)
+        print("=" * 120)
 
 
 
