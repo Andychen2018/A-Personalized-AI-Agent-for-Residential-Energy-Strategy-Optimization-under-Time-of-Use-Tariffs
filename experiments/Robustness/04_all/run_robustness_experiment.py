@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-约束解析错误鲁棒性实验运行脚本
-使用错误约束文件运行完整的调度和费用计算流程
-"""
 
 import os
 import sys
